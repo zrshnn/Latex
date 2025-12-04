@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  20 NOV 2025 16:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  4 DEC 2025 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -613,69 +613,7 @@ Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
 (./thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
-(./appendix.aux) (./bibliography.aux
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
-)
-
-! Package natbib Error: Bibliography not compatible with author-year citations.
-
-(natbib)                Press <return> to continue in numerical citation style.
-
-
-See the natbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 ...mand\NAT@force@numbers{}\NAT@force@numbers
-                                                  
-Check the bibliography entries for non-compliant syntax,
-or select author-year BibTeX style, e.g. plainnat
-
-)
+(./appendix.aux) (./bibliography.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -696,7 +634,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
- (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count333
 \scratchdimen=\dimen259
@@ -944,7 +883,7 @@ Chapter 2.
 [15]
 
 [16]
-<figures/theoretical.png, id=533, 724.7075pt x 676.5275pt>
+<figures/theoretical.png, id=563, 724.7075pt x 676.5275pt>
 File: figures/theoretical.png Graphic file (type png)
 <use figures/theoretical.png>
 Package pdftex.def Info: figures/theoretical.png  used on input line 32.
@@ -962,7 +901,7 @@ Package pdftex.def Info: figures/theoretical.png  used on input line 32.
 [21]
 
 [22]
-<figures/schematic.png, id=566, 443.6575pt x 503.8825pt>
+<figures/schematic.png, id=596, 443.6575pt x 503.8825pt>
 File: figures/schematic.png Graphic file (type png)
 <use figures/schematic.png>
 Package pdftex.def Info: figures/schematic.png  used on input line 116.
@@ -1024,11 +963,11 @@ ar panel, $[][][]$
 
  (./chapter3.tex
 Chapter 3.
-<figures/waterfall.png, id=653, 663.47874pt x 482.80376pt>
+<figures/waterfall.png, id=683, 663.47874pt x 482.80376pt>
 File: figures/waterfall.png Graphic file (type png)
 <use figures/waterfall.png>
 Package pdftex.def Info: figures/waterfall.png  used on input line 13.
-(pdftex.def)             Requested size: 397.48502pt x 289.24246pt.
+(pdftex.def)             Requested size: 317.98921pt x 231.39693pt.
 
 
 [43
@@ -1037,147 +976,149 @@ Package pdftex.def Info: figures/waterfall.png  used on input line 13.
 
 
  <./figures/waterfall.png>]
-<figures/map.png, id=659, 923.45pt x 1152.305pt>
-File: figures/map.png Graphic file (type png)
-<use figures/map.png>
-Package pdftex.def Info: figures/map.png  used on input line 25.
-(pdftex.def)             Requested size: 238.49342pt x 297.5878pt.
+<figures/planning.png, id=689, 653.44125pt x 487.8225pt>
+File: figures/planning.png Graphic file (type png)
+<use figures/planning.png>
+Package pdftex.def Info: figures/planning.png  used on input line 25.
+(pdftex.def)             Requested size: 357.73409pt x 267.06012pt.
 
 
-[44 <./figures/map.png>]
+[44 <./figures/planning.png>]
 
 [45]
 
 [46]
 
 [47]
-Underfull \hbox (badness 1087) in paragraph at lines 78--79
+Underfull \hbox (badness 1087) in paragraph at lines 90--91
 []|\OT1/cmr/m/n/12 - The sys-tem shall con-tin-u-ously mon-i-tor and
  []
 
+
+
 [48] [49]
-Overfull \hbox (0.8003pt too wide) in paragraph at lines 110--110
+Overfull \hbox (0.8003pt too wide) in paragraph at lines 122--122
 []|\OT1/cmr/bx/n/12 Hours/Day| 
  []
 
 
-Overfull \hbox (21.01942pt too wide) in alignment at lines 107--112
+Overfull \hbox (21.01942pt too wide) in alignment at lines 119--124
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.8003pt too wide) in paragraph at lines 115--115
+Overfull \hbox (0.8003pt too wide) in paragraph at lines 127--127
 []|\OT1/cmr/bx/n/12 Hours/Day| 
  []
 
 
-Overfull \hbox (21.01942pt too wide) in alignment at lines 112--117
+Overfull \hbox (21.01942pt too wide) in alignment at lines 124--129
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (21.01942pt too wide) in alignment at lines 117--120
+Overfull \hbox (21.01942pt too wide) in alignment at lines 129--132
  [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []|\OT1/cmr/m/n/12 Mobile Phone
  []
 
 
-Overfull \hbox (21.01942pt too wide) in alignment at lines 120--127
+Overfull \hbox (21.01942pt too wide) in alignment at lines 132--139
  [] [] [] [] [] 
  []
 
 
 
 [50]
-Overfull \hbox (3.73471pt too wide) detected at line 142
+Overfull \hbox (3.73471pt too wide) detected at line 154
 [][][][] \OT1/cmr/m/n/12 = [] + []
  []
 
 
 LaTeX Warning: Hyper reference `appendix:A' on page 51 undefined on input line 
-145.
-
-
-LaTeX Warning: Hyper reference `appendix:A' on page 51 undefined on input line 
-159.
+157.
 
 
 
 [51]
 
 LaTeX Warning: Hyper reference `appendix:A' on page 52 undefined on input line 
-169.
+171.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-[]|\OT1/cmr/bx/n/12 Power
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
-[]|\OT1/cmr/bx/n/12 Power
- []
+LaTeX Warning: Hyper reference `appendix:A' on page 52 undefined on input line 
+181.
 
 
 
 [52]
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]|\OT1/cmr/bx/n/12 Power
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+[]|\OT1/cmr/bx/n/12 Power
+ []
+
 
 LaTeX Warning: Hyper reference `appendix:A' on page 53 undefined on input line 
-200.
-
-
-LaTeX Warning: Hyper reference `appendix:A' on page 53 undefined on input line 
-210.
+212.
 
 
 
 [53]
 
 LaTeX Warning: Hyper reference `appendix:A' on page 54 undefined on input line 
-221.
+222.
+
+
+LaTeX Warning: Hyper reference `appendix:A' on page 54 undefined on input line 
+233.
 
 
 
 [54]
 
 LaTeX Warning: Hyper reference `appendix:A' on page 55 undefined on input line 
-230.
+242.
 
 
 
 [55]
 
 LaTeX Warning: Hyper reference `appendix:A' on page 56 undefined on input line 
-239.
-
-
-LaTeX Warning: Hyper reference `appendix:A' on page 56 undefined on input line 
-248.
+251.
 
 
 
 [56]
 
+LaTeX Warning: Hyper reference `appendix:A' on page 57 undefined on input line 
+260.
+
+
+
 [57]
 
 LaTeX Warning: Hyper reference `appendix:A' on page 58 undefined on input line 
-265.
+277.
 
 
 
 [58]
 
 LaTeX Warning: Hyper reference `appendix:A' on page 59 undefined on input line 
-271.
+283.
 
-<figures/architecture.jpg, id=742, 3285.27374pt x 3768.0775pt>
+<figures/architecture.jpg, id=772, 3285.27374pt x 3768.0775pt>
 File: figures/architecture.jpg Graphic file (type jpg)
 <use figures/architecture.jpg>
-Package pdftex.def Info: figures/architecture.jpg  used on input line 283.
+Package pdftex.def Info: figures/architecture.jpg  used on input line 295.
 (pdftex.def)             Requested size: 337.86469pt x 387.46661pt.
 
 
@@ -1186,72 +1127,72 @@ Package pdftex.def Info: figures/architecture.jpg  used on input line 283.
 [60 <./figures/architecture.jpg>]
 
 [61]
-<figures/flowchart.png, id=757, 733.74126pt x 1245.65375pt>
+<figures/flowchart.png, id=787, 733.74126pt x 1245.65375pt>
 File: figures/flowchart.png Graphic file (type png)
 <use figures/flowchart.png>
-Package pdftex.def Info: figures/flowchart.png  used on input line 311.
+Package pdftex.def Info: figures/flowchart.png  used on input line 323.
 (pdftex.def)             Requested size: 238.49342pt x 404.87068pt.
 
 
 [62 <./figures/flowchart.png>]
-<figures/harvesting.png, id=763, 2672.98625pt x 639.38875pt>
+<figures/harvesting.png, id=793, 2672.98625pt x 639.38875pt>
 File: figures/harvesting.png Graphic file (type png)
 <use figures/harvesting.png>
-Package pdftex.def Info: figures/harvesting.png  used on input line 327.
+Package pdftex.def Info: figures/harvesting.png  used on input line 339.
 (pdftex.def)             Requested size: 397.48502pt x 95.07489pt.
 
 
 [63]
-<figures/conversion.png, id=768, 3364.57pt x 502.87875pt>
+<figures/conversion.png, id=798, 3364.57pt x 502.87875pt>
 File: figures/conversion.png Graphic file (type png)
 <use figures/conversion.png>
-Package pdftex.def Info: figures/conversion.png  used on input line 338.
+Package pdftex.def Info: figures/conversion.png  used on input line 350.
 (pdftex.def)             Requested size: 397.48502pt x 59.4067pt.
 
 
 [64 <./figures/harvesting.png> <./figures/conversion.png>]
-<figures/monitoring.png, id=775, 1081.03876pt x 391.4625pt>
+<figures/monitoring.png, id=805, 1081.03876pt x 391.4625pt>
 File: figures/monitoring.png Graphic file (type png)
 <use figures/monitoring.png>
-Package pdftex.def Info: figures/monitoring.png  used on input line 349.
+Package pdftex.def Info: figures/monitoring.png  used on input line 361.
 (pdftex.def)             Requested size: 397.48502pt x 143.93092pt.
 
 
 [65 <./figures/monitoring.png>]
-<figures/tracking.png, id=781, 1179.40625pt x 312.16624pt>
+<figures/tracking.png, id=811, 1179.40625pt x 312.16624pt>
 File: figures/tracking.png Graphic file (type png)
 <use figures/tracking.png>
-Package pdftex.def Info: figures/tracking.png  used on input line 361.
+Package pdftex.def Info: figures/tracking.png  used on input line 373.
 (pdftex.def)             Requested size: 397.48502pt x 105.20627pt.
-<figures/context.png, id=782, 745.78625pt x 559.08875pt>
+<figures/context.png, id=812, 745.78625pt x 559.08875pt>
 File: figures/context.png Graphic file (type png)
 <use figures/context.png>
-Package pdftex.def Info: figures/context.png  used on input line 373.
+Package pdftex.def Info: figures/context.png  used on input line 385.
 (pdftex.def)             Requested size: 397.48502pt x 297.97916pt.
 
 
 [66 <./figures/tracking.png>]
 
 [67 <./figures/context.png>]
-Overfull \hbox (0.15456pt too wide) in paragraph at lines 378--379
+Overfull \hbox (0.15456pt too wide) in paragraph at lines 390--391
 []\OT1/cmr/m/n/12 The in-ter-ac-tion be-tween the com-mu-nity res-i-dents and t
 he solar-powered
  []
 
-<figures/dflow.png, id=794, 974.64125pt x 787.94376pt>
+<figures/dflow.png, id=825, 974.64125pt x 787.94376pt>
 File: figures/dflow.png Graphic file (type png)
 <use figures/dflow.png>
-Package pdftex.def Info: figures/dflow.png  used on input line 387.
+Package pdftex.def Info: figures/dflow.png  used on input line 399.
 (pdftex.def)             Requested size: 397.48502pt x 321.33974pt.
 
 
 [68]
 
 [69 <./figures/dflow.png>]
-<figures/usecase.png, id=804, 1123.19624pt x 1036.87375pt>
+<figures/usecase.png, id=835, 1123.19624pt x 1036.87375pt>
 File: figures/usecase.png Graphic file (type png)
 <use figures/usecase.png>
-Package pdftex.def Info: figures/usecase.png  used on input line 399.
+Package pdftex.def Info: figures/usecase.png  used on input line 411.
 (pdftex.def)             Requested size: 397.48502pt x 366.92989pt.
 
 
@@ -1260,10 +1201,10 @@ Package pdftex.def Info: figures/usecase.png  used on input line 399.
 [71 <./figures/usecase.png>]
 
 [72]
-<figures/activity.png, id=819, 748.7975pt x 1704.3675pt>
+<figures/activity.png, id=850, 748.7975pt x 1704.3675pt>
 File: figures/activity.png Graphic file (type png)
 <use figures/activity.png>
-Package pdftex.def Info: figures/activity.png  used on input line 413.
+Package pdftex.def Info: figures/activity.png  used on input line 425.
 (pdftex.def)             Requested size: 218.61797pt x 497.60876pt.
 
 
@@ -1272,76 +1213,76 @@ Package pdftex.def Info: figures/activity.png  used on input line 413.
 [74 <./figures/activity.png>]
 
 [75]
-<figures/front.png, id=834, 1053.9375pt x 598.235pt>
+<figures/front.png, id=864, 1053.9375pt x 598.235pt>
 File: figures/front.png Graphic file (type png)
 <use figures/front.png>
-Package pdftex.def Info: figures/front.png  used on input line 428.
+Package pdftex.def Info: figures/front.png  used on input line 440.
 (pdftex.def)             Requested size: 317.98921pt x 180.49425pt.
-<figures/aerial.png, id=835, 1069.9975pt x 582.175pt>
+<figures/aerial.png, id=865, 1069.9975pt x 582.175pt>
 File: figures/aerial.png Graphic file (type png)
 <use figures/aerial.png>
-Package pdftex.def Info: figures/aerial.png  used on input line 435.
+Package pdftex.def Info: figures/aerial.png  used on input line 447.
 (pdftex.def)             Requested size: 317.98921pt x 173.01044pt.
-<figures/rental.png, id=836, 1363.0925pt x 1242.6425pt>
+<figures/rental.png, id=866, 1363.0925pt x 1242.6425pt>
 File: figures/rental.png Graphic file (type png)
 <use figures/rental.png>
-Package pdftex.def Info: figures/rental.png  used on input line 442.
+Package pdftex.def Info: figures/rental.png  used on input line 454.
 (pdftex.def)             Requested size: 397.48502pt x 362.36699pt.
 
 
 [76 <./figures/front.png> <./figures/aerial.png>]
-<figures/welcome.png, id=843, 1668.2325pt x 1035.87pt>
+<figures/welcome.png, id=873, 1668.2325pt x 1035.87pt>
 File: figures/welcome.png Graphic file (type png)
 <use figures/welcome.png>
-Package pdftex.def Info: figures/welcome.png  used on input line 453.
+Package pdftex.def Info: figures/welcome.png  used on input line 465.
 (pdftex.def)             Requested size: 397.48502pt x 246.81198pt.
 
 
 [77 <./figures/rental.png>]
-<figures/signin.png, id=849, 825.0825pt x 1049.9225pt>
+<figures/signin.png, id=879, 825.0825pt x 1049.9225pt>
 File: figures/signin.png Graphic file (type png)
 <use figures/signin.png>
-Package pdftex.def Info: figures/signin.png  used on input line 462.
+Package pdftex.def Info: figures/signin.png  used on input line 474.
 (pdftex.def)             Requested size: 278.2383pt x 354.05319pt.
 
 
 [78 <./figures/welcome.png>]
-<figures/signup.png, id=856, 2236.355pt x 1039.885pt>
+<figures/signup.png, id=886, 2236.355pt x 1039.885pt>
 File: figures/signup.png Graphic file (type png)
 <use figures/signup.png>
-Package pdftex.def Info: figures/signup.png  used on input line 471.
+Package pdftex.def Info: figures/signup.png  used on input line 483.
 (pdftex.def)             Requested size: 397.48502pt x 184.82285pt.
 
 
 [79 <./figures/signin.png>]
-<figures/home.png, id=862, 825.0825pt x 1035.87pt>
+<figures/home.png, id=892, 825.0825pt x 1035.87pt>
 File: figures/home.png Graphic file (type png)
 <use figures/home.png>
-Package pdftex.def Info: figures/home.png  used on input line 480.
+Package pdftex.def Info: figures/home.png  used on input line 492.
 (pdftex.def)             Requested size: 278.2383pt x 349.31442pt.
 
 
 [80 <./figures/signup.png>]
-<figures/renting.png, id=868, 1668.2325pt x 1041.8925pt>
+<figures/renting.png, id=898, 1668.2325pt x 1041.8925pt>
 File: figures/renting.png Graphic file (type png)
 <use figures/renting.png>
-Package pdftex.def Info: figures/renting.png  used on input line 489.
+Package pdftex.def Info: figures/renting.png  used on input line 501.
 (pdftex.def)             Requested size: 397.48502pt x 248.24693pt.
 
 
 [81 <./figures/home.png>]
-<figures/admin.png, id=874, 821.0675pt x 1023.825pt>
+<figures/admin.png, id=904, 821.0675pt x 1023.825pt>
 File: figures/admin.png Graphic file (type png)
 <use figures/admin.png>
-Package pdftex.def Info: figures/admin.png  used on input line 498.
+Package pdftex.def Info: figures/admin.png  used on input line 510.
 (pdftex.def)             Requested size: 119.2467pt x 148.69296pt.
 
 
 [82 <./figures/renting.png>]
-<figures/admin2.png, id=880, 829.0975pt x 1049.9225pt>
+<figures/admin2.png, id=910, 829.0975pt x 1049.9225pt>
 File: figures/admin2.png Graphic file (type png)
 <use figures/admin2.png>
-Package pdftex.def Info: figures/admin2.png  used on input line 507.
+Package pdftex.def Info: figures/admin2.png  used on input line 519.
 (pdftex.def)             Requested size: 119.2467pt x 150.99327pt.
 
 
@@ -1371,180 +1312,18 @@ Package pdftex.def Info: figures/admin2.png  used on input line 507.
 \openout2 = `bibliography.aux'.
 
  (./bibliography.tex
-Underfull \hbox (badness 5637) in paragraph at lines 11--12
-[]\OT1/cmr/m/n/12 Bhatti, A. R., Lakhair, H., Sher, H. A., & Cheema, T. A.
- []
 
+Package natbib Warning: Empty `thebibliography' environment on input line 6.
 
-Underfull \hbox (badness 2894) in paragraph at lines 11--12
-\OT1/cmr/m/n/12 load mon-i-tor-ing sys-tem. \OT1/cmr/m/it/12 MATEC Web of Con-f
-er-ences, 398\OT1/cmr/m/n/12 , 01025.
- []
-
-
+)
 
 [91
 
 
 
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.25 	\bibitem{}
-                 Ramly, N. H., Jamal, N. Z., Abd Ghafar, A. N., \& Babu, D. ...
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.25 	\bibitem{}
-                 Ramly, N. H., Jamal, N. Z., Abd Ghafar, A. N., \& Babu, D. ...
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.25 	\bibitem{}
-                 Ramly, N. H., Jamal, N. Z., Abd Ghafar, A. N., \& Babu, D. ...
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.25 	\bibitem{}
-                 Ramly, N. H., Jamal, N. Z., Abd Ghafar, A. N., \& Babu, D. ...
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.25 	\bibitem{}
-                 Ramly, N. H., Jamal, N. Z., Abd Ghafar, A. N., \& Babu, D. ...
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.25 	\bibitem{}
-                 Ramly, N. H., Jamal, N. Z., Abd Ghafar, A. N., \& Babu, D. ...
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.25 	\bibitem{}
-                 Ramly, N. H., Jamal, N. Z., Abd Ghafar, A. N., \& Babu, D. ...
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.25 	\bibitem{}
-                 Ramly, N. H., Jamal, N. Z., Abd Ghafar, A. N., \& Babu, D. ...
-]
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.25 	\bibitem{}
-                 Ramly, N. H., Jamal, N. Z., Abd Ghafar, A. N., \& Babu, D. ...
-
-Underfull \hbox (badness 6204) in paragraph at lines 25--26
-[]\OT1/cmr/m/n/12 Ramly, N. H., Ja-mal, N. Z., Abd Gha-far, A. N., & Babu,
- []
-
-
-Underfull \hbox (badness 7981) in paragraph at lines 25--26
-\OT1/cmr/m/n/12 D. (2019). Emer-gency portable so-lar power sup-ply. \OT1/cmr/m
-/it/12 In-ter-na-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/cmr/m/it/12 Jour-nal of En-gi-neer-ing Tech-nol-ogy and Sci-ences, 6\OT1/c
-mr/m/n/12 (2), 76--85.
- []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.27 	\bibitem{}
-                 Rehman, A. U., Alblushi, I. G. M., Zia, M. F., Khalid, H. M...
-
-Underfull \hbox (badness 1087) in paragraph at lines 27--28
-\OT1/cmr/m/n/12 time mon-i-tor-ing. \OT1/cmr/m/it/12 Green Tech-nolo-gies and S
-us-tain-abil-ity, 3\OT1/cmr/m/n/12 (1), 100134.
- []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.29 	\bibitem{}
-                 Sampaio, P. G. V., \& González, M. O. A. (2017). Photovolt...
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.31 	\bibitem{}
-                 Thakur, A. (2021). Car rental system. \textit{International...
-
-Underfull \hbox (badness 1248) in paragraph at lines 31--32
-[]\OT1/cmr/m/n/12 Thakur, A. (2021). Car rental sys-tem. \OT1/cmr/m/it/12 In-te
-r-na-tional Jour-nal for Re-
- []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.33 	\bibitem{}
-                 Villamil, S., Hernandez, C., \& Tarazona, G. (2020). An ove...
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-[]\OT1/cmr/m/n/12 Villamil, S., Her-nan-dez, C., & Tara-zona, G. (2020). An
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-\OT1/cmr/m/n/12 overview of in-ter-net of things. \OT1/cmr/m/it/12 TELKOM-NIKA,
- 18\OT1/cmr/m/n/12 (5), 2320.
- []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.35 	\bibitem{}
-                 Zakri, A. A., Syahza, A., Hanafi, D., \& Syahadat, H. (2021...
-)
-
-[92
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.72 	\include{bibliography}
-                            ]
-
-Package natbib Warning: There were multiply defined citations.
-
-(./thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
-(./appendix.aux) (./bibliography.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-))
+] (./thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
+(./appendix.aux) (./bibliography.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1554,17 +1333,17 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F77ADCB837C81D57269B3380B361F935;15660.
+(rerunfilecheck)             Checksum: EEF1BB50087BF468C0F397E3BE6E8369;16467.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16720 strings out of 473190
- 272739 string characters out of 5715801
- 710643 words of memory out of 5000000
- 39412 multiletter control sequences out of 15000+600000
+ 16727 strings out of 473190
+ 272950 string characters out of 5715801
+ 711566 words of memory out of 5000000
+ 39415 multiletter control sequences out of 15000+600000
  566635 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,11n,82p,2202b,757s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1579,10 +1358,10 @@ mr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pf
 b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
 
-Output written on thesis.pdf (99 pages, 11797134 bytes).
+Output written on thesis.pdf (98 pages, 10299603 bytes).
 PDF statistics:
- 1040 PDF objects out of 1200 (max. 8388607)
- 863 compressed objects within 9 object streams
- 234 named destinations out of 1000 (max. 500000)
- 665 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1066 PDF objects out of 1200 (max. 8388607)
+ 890 compressed objects within 9 object streams
+ 238 named destinations out of 1000 (max. 500000)
+ 713 words of extra memory for PDF output out of 10000 (max. 10000000)
 
