@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  4 DEC 2025 16:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  8 DEC 2025 12:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -717,7 +717,7 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ]
 Chapter 1.
 
-Package caption Warning: Unused \captionsetup[table] on input line 135.
+Package caption Warning: Unused \captionsetup[table] on input line 136.
 See the caption package documentation for explanation.
 
 

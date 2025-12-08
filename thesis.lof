@@ -2,28 +2,35 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Theoretical framework}}{18}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Variable relation}}{23}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces IPO Model}}{19}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Variable relation}}{24}{figure.caption.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces The Waterfall Model}}{43}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces System Development Life Cycle}}{44}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces System Architecture}}{60}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces System Flowchart}}{62}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Conversion of Sunlight into Electrical Energy using PV Panels and a Charge Controller}}{64}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Battery DC power converted to AC output via Inverter.}}{64}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces ESP32 measures battery voltage and displays data on LCD}}{65}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces ESP32 receives location data from GPS satellites using GSM Module}}{66}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Context Level Diagram}}{67}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Data Flow Representation of the Solar-Powered Rental Station System}}{69}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Use Case Diagram}}{71}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Activity Diagram of the Community Resident}}{74}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Front View of the Power Source – Three Dimensional Representation}}{76}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Aerial View of the Power Source – Three Dimensional Representation}}{76}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Three Dimensional Representation of the Rental Station of the Detachable Power Source}}{77}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Welcome Page}}{78}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Sign n Screen}}{79}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Sign Up Screen}}{80}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces User Home Screen}}{81}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Renting Screen}}{82}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Admin Home Screen}}{83}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Admin Manage Users Screen}}{83}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The Waterfall Model}}{41}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces System Development Life Cycle}}{43}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Map of Camiguin}}{45}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Hardware Development Diagram}}{46}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Circuit Diagram of Rental Station}}{55}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Circuit Diagram of Detachable Power Sources}}{56}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Schematic Diagram of Rental Station }}{57}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Schematic Diagram of Detachable Power Sources}}{58}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Front View of the Power Source – Three Dimensional Representation}}{59}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Aerial View of the Power Source – Three Dimensional Representation}}{59}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Three Dimensional Representation of the Rental Station of the Detachable Power Source}}{60}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Activity Diagram of the Community Resident}}{65}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces System Architecture}}{85}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces System Flowchart}}{87}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Conversion of Sunlight into Electrical Energy using PV Panels and a Charge Controller}}{89}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Battery DC power converted to AC output via Inverter.}}{89}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces ESP32 measures battery voltage and displays data on LCD}}{90}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces ESP32 receives location data from GPS satellites using GSM Module}}{91}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Context Level Diagram}}{92}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Data Flow Representation of the Solar-Powered Rental Station System}}{94}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Use Case Diagram}}{96}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Welcome Page}}{99}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Sign n Screen}}{100}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Sign Up Screen}}{101}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces User Home Screen}}{102}{figure.caption.59}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Renting Screen}}{103}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Admin Home Screen}}{104}{figure.caption.61}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Admin Manage Users Screen}}{104}{figure.caption.62}%
 \contentsfinish 

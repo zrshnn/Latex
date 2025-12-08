@@ -10,26 +10,552 @@ In this chapter, the researchers outline the methodology employed to conduct the
 	\centering
 	\caption{The Waterfall Model}
 	\label{fig:waterfall}
-	\includegraphics[width=0.8\textwidth]{figures/waterfall.png}
+	\includegraphics[width=0.7\textwidth]{figures/waterfall.png}
 \end{figure}
 
-In Figure 3.1, the system creation process is illustrated, utilizing a modified waterfall model. This systematic approach consists of several key stages, commencing with requirements gathering and followed by requirements analysis, hardware development, software development, system design, integration, and testing \& evaluation. This procedural framework acts as a guiding path for researchers to achieve the study's intended objectives.
+In Figure 3.1, the system creation process is illustrated using a modified waterfall model. This sequential approach consists of several key stages, beginning with planning and followed by system design, hardware development, software development, system integration, testing, and finally, implementation.
+
+The waterfall model is traditionally a linear development framework where each phase must be completed before the next begins. Its modified version, used in this study, maintains this structured flow while allowing limited feedback or adjustments in earlier stages. This makes it suitable for hardware–software projects, where clear documentation, defined requirements, and step-by-step validation are essential. The model ensures that system components are carefully planned, designed, and tested before full integration, reducing the likelihood of major errors during later phases.
+
+This procedural framework guides the researchers in achieving the study’s intended objectives by ensuring that each step is completed before moving forward. It also supports early corrections, which helps minimize development costs and ensures that the hardware and software components are aligned with system requirements.
 
 \subsection{Planning}
-This section describes the methodology as well the system development of this study. By employing suitable methodologies, an in-depth examination of the research domain will be conducted. 
+The planning phase serves as the first and foundational stage of the Waterfall Model. In this phase, the overall direction of the project is established by identifying the problem, defining the system requirements, and determining the objectives and scope of the study. This stage also involves gathering relevant information, assessing user needs, and outlining the resources, constraints, and timelines essential for system development.
+
+Through careful planning, the researchers ensure that the succeeding phases—system design, hardware and software development, integration, testing, and implementation—are built on a clear and structured framework. By employing a systematic methodology, the study is able to conduct an in-depth examination of the research domain and prepare the necessary groundwork for a successful development process.
 
 \begin{figure}[H]
 	\centering
 	\caption{System Development Life Cycle}
 	\label{fig:map}
-	\includegraphics[width=0.9\textwidth]{figures/planning.png}
+	\includegraphics[width=0.8\textwidth]{figures/planning.png}
 \end{figure}
+
+The System Development Life Cycle (SDLC) for this study is illustrated in the figure, showing the sequential stages of system development. The process begins with System Analysis, where researchers conduct surveys, interviews, and review existing literature and studies relevant to the project. This phase ensures a thorough understanding of the system requirements, user needs, and potential constraints.
+
+Following this, the System Design phase involves planning the overall system architecture. During this stage, appropriate hardware components, such as solar panels, \ce{LiFePO4} batteries, microcontrollers, and monitoring modules—are selected, along with the necessary software to control, monitor, and manage the portable energy device. The design phase ensures that both hardware and software are compatible, efficient, and capable of fulfilling the project objectives.
+
+The System Evaluation phase focuses on defining specific performance criteria and testing the system’s components. This includes evaluating hardware specifications, software functionality, and overall system efficiency to ensure that the portable solar-powered energy system operates as intended. Through this phase, any shortcomings can be identified and addressed before full implementation, guaranteeing a reliable and functional final product.
+
+\subsubsection{Budget Planning}
+The development of the solar-powered rental station with detachable power sources, intended as a solution for supplying electricity to communities experiencing frequent and unscheduled power interruptions, incurred a total cost of ₱27,140.00. This amount covered the materials used in the study, the construction of the device, and the data collection and testing conducted throughout the research.
+
+\subsubsection{Reearch Locale}
+
+\begin{figure}[H]
+	\centering
+	\caption{Map of Camiguin}
+	\label{fig:map}
+	\includegraphics[width=0.5\textwidth]{figures/map.png}
+\end{figure}
+
+The research will be conducted in specific area of Camiguin, Philippines that is known for frequent and unscheduled power interruptions. This area is served by CAMELCO (Camiguin Electric Cooperative), which experience regular power outages, particularly during peak hours. This issue disrupts daily activities, especially in community centers, educational institutions, and local businesses that rely on electricity for mobile devices, lighting, and appliances.
+
 \subsection{System Design}
-bhjj
+This section outlines the system design. It 
+
+
 
 \subsection{Hardware Development}
 
+\begin{figure}[H]
+	\centering
+	\caption{Hardware Development Diagram}
+	\label{fig:hdev}
+	\includegraphics[width=0.8\textwidth]{figures/hdevelopment.png}
+\end{figure}
+
+\subsubsection{Material Specifications}
+This section outlines the criteria and specifications for the materials and components used in the final device prototype. Each component was chosen based on specific criteria to ensure ---
+
+The following table outlines the key considerations for choosing hardware components for a system. It details the specific features, specifications, and desired functionalities for each component.
+
+\begin{longtable}{p{4cm} p{4.8cm} p{4cm}}
+	\caption{Criteria for Selecting Hardware Materials}
+	\label{tab:criteria} \\
+	\toprule
+	\textbf{Component} & \textbf{Feature} & \textbf{Specifications} \\
+	\midrule
+	\endfirsthead
+	
+	\toprule
+	\textbf{Component} & \textbf{Feature} & \textbf{Specifications} \\
+	\midrule
+	\endhead
+	
+	\bottomrule
+	\endfoot
+	
+	Microcontroller & Connectivity & Wi-Fi, Bluetooth \\
+	& Clock Speed & Up to 240 MHz \\
+	& RAM & 520 KB SRAM \\
+	& Flash Memory & 4 MB \\
+	& Power Supply & 3.3V \\
+	
+	\addlinespace[0.6em]
+	
+	Solar Panel & Power & 410W \\
+	& Voltage & $\sim$36V \\
+	& Current & $\sim$11.4A \\
+	& Efficiency & $\sim$20\% \\
+	& Cell Type & Monocrystalline \\
+	
+	\addlinespace[0.6em]
+	
+	Battery & Voltage Rating & 12V \\
+	& Battery Capacity & 50-100 Ah \\
+	& Output Energy & 0.6-1.2 kWh \\
+	& Cycle Life & 2000+ cycles \\
+	& Type & LiFePO$_4$ \\
+	
+	\addlinespace[0.6em]
+	
+	Charge Controller & Input Voltage & 12V / 24V auto \\
+	& Maximum Charge Current & 30A \\
+	& Max PV Power & 500W \\
+	& Efficiency & $>$95\% \\
+	
+	\addlinespace[0.6em]
+	
+	Inverter & Input Voltage & 12V DC \\
+	& Output Voltage & 220V AC \\
+	& Continuous Power & 1000W \\
+	& Peak Power & 2000W \\
+	& Output Waveform & Pure Sine Wave \\
+	
+	\addlinespace[0.6em]
+	
+	Battery Charger & Output Voltage & 14.6V \\
+	& Output Current & 20A \\
+	& Power & 292W \\
+	
+	\addlinespace[0.6em]
+	
+	Coin Slot Facade & Acceptable Coins & Universal \\
+	& Operating Voltage & 12V DC \\
+	
+	\addlinespace[0.6em]
+	
+	DC Breaker & Rated Current & 40-80A DC \\
+	& Voltage Rating & 12-24V DC \\
+	
+	\addlinespace[0.6em]
+	
+	Flexible Silicone Wire & Gauge & 4-10 AWG \\
+	& Voltage Rating & 600V \\
+	& Current Capacity & 30-70A \\
+	& Length & 0.5-1 m \\
+	
+	\addlinespace[0.6em]
+	
+	GSM Module & Operating Voltage & 5V DC \\
+	& Network & 2G / 3G GSM \\
+	
+	\addlinespace[0.6em]
+	
+	GPS Module & Operating Voltage & 3.3V-5V DC \\
+	& Accuracy & $\pm$2.5 m \\
+	& Update Rate & 1 Hz \\
+	
+	\addlinespace[0.6em]
+	
+	Relay & Coil Voltage & 12V DC \\
+	& Contact Rating & 10A / 250V AC \\
+	
+	\addlinespace[0.6em]
+	
+	Solenoid Lock & Voltage & 12V DC \\
+	& Current & 1A \\
+	& Holding Force & 200 N \\
+	
+	\addlinespace[0.6em]
+	
+	AC Breaker & Rated Current & 4A AC \\
+	& Voltage Rating & 220V AC \\
+	
+	\addlinespace[0.6em]
+	
+	LCD Display & Display Type & 16X2 Characters \\
+	& Interface & I2C \\
+	& Operating Voltage & 5V DC \\
+	
+	\addlinespace[0.6em]
+	
+	Router & Input Voltage & 5V DC \\
+	& Wireless Standard & Wi-Fi 802.11 b/g/n \\
+	
+\end{longtable}
+
+	
+	\begin{longtable}{|p{6cm} | p{7cm}|}
+	\caption{Selection of Hardware Components} \label{tab:components} \\
+	
+	\hline \multicolumn{1}{|c|}{\textbf{Hardware Materials}} & \multicolumn{1}{c|}{\textbf{Description}} \\ \hline 
+	\endfirsthead
+	
+	\multicolumn{2}{c}%
+	{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+	\hline \multicolumn{1}{|c|}{\textbf{Hardware Materials}} & \multicolumn{1}{c|}{\textbf{Description}}  \\ \hline 
+	\endhead
+	
+	\hline \multicolumn{2}{|r|}{{Continued on next page}} \\ \hline
+	\endfoot
+	
+	\endlastfoot
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/esp32.png}
+		\text{ESP32} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	& 
+	\vspace{0.1cm}
+	The researchers selected the ESP32 microcontroller as the central processing unit of the system. Its built-in Wi-Fi and Bluetooth modules, low power consumption, and compact size make it suitable for IoT-based applications. The ESP32 efficiently manages all sensors, relays, and peripheral devices, providing reliable performance for the rental power station. \\ \hline	
+	
+	\begin{minipage}[t]{\linewidth}
+	\centering
+	
+	\vspace{0.1cm} % adds space above image
+	\includegraphics[width=0.7\linewidth]{figures/panel.jpg}
+	\text{Monocrystalline Solar Panel} % text above the image
+	\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	A monocrystalline solar panel was chosen for its high efficiency and durability in converting sunlight to electrical energy. This ensures sufficient energy production for battery charging, even under low-light conditions. Its compact and sturdy design makes it ideal for the portable solar power system used in the project. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/battery.png}
+		\text{LiFePO$_4$ Battery} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The LiFePO$_4$ battery was selected for its high energy density, long cycle life, and safety advantages over other lithium-ion batteries. It provides a stable and reliable power supply for the system, supporting continuous operation of the microcontroller and connected devices. Its capacity was matched to the energy requirements of the portable rental unit. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/controller.png}
+		\text{MPPT Solar Charge Controller} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	An MPPT (Maximum Power Point Tracking) solar charge controller was incorporated to optimize energy harvest from the solar panel. It ensures efficient and safe charging of the battery by adjusting voltage and current according to the panel’s output, extending battery life and maintaining system reliability.\\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/inverter.png}
+		\text{Pure Sine Wave Inverter} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The pure sine wave inverter was chosen to convert DC battery power to AC power for appliances. It provides clean and stable electricity, preventing potential damage to devices from voltage fluctuations, and ensures reliable energy delivery to users of the rental power station. \\
+	\hline
+	
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/charger.png}
+		\text{LiFePO$_4$ Battery Charger} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	A dedicated LiFePO$_4$ battery charger was used to safely recharge the battery when connected to an external power source. This ensures efficient energy replenishment while protecting the battery from overcharging, enhancing the longevity and reliability of the portable system. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/coin.png}
+		\text{Coinslot Multi Coin Selector} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The coinslot multi coin selector was selected as a payment input device for the rental system. It allows users to securely deposit coins of different denominations, ensuring accurate transaction processing. Its reliability and ease of integration make it suitable for a user-friendly payment system. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/dcbreaker.png}
+		\text{DC Breaker} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	A DC breaker was included to protect the system from overcurrent or short circuits in the DC circuit. Its presence ensures safety for both the users and the system components, minimizing the risk of damage to the battery, solar panel, or other hardware elements. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/wire.png}
+		\text{Flexible Silicone Wire} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	Flexible silicone wires were chosen for their durability, high temperature tolerance, and flexibility. They ensure safe and efficient electrical connections between components, contributing to the overall reliability and portability of the hardware system. \\
+	\hline
+
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/gsm.png}
+		\text{GSM module} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The GSM module was selected to enable remote communication between the rental system and the server. It facilitates sending SMS alerts or notifications regarding rental status, battery level, and system operations, ensuring timely monitoring and management. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/gps.png}
+		\text{GPS Module} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	A GPS module was incorporated to track the location of the portable power units. This allows for real-time monitoring and management of the units, enhancing security and operational efficiency in the rental system.\\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.7\linewidth]{figures/relay.png}
+		\text{Relay} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	Relays were used to control high-voltage components using low-voltage signals from the microcontroller. Their selection ensures safe and efficient switching of power to various devices, protecting the system from electrical overloads. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/solenoid.png}
+		\text{Solenoid Lock} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The solenoid lock was chosen to secure the portable power unit. It allows controlled access based on successful rental authorization, ensuring security while maintaining ease of operation for users.\\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/acbreaker.png}
+		\text{AC breaker} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	An AC breaker was included to safeguard the AC output circuit. It prevents potential damage from overcurrent or short circuits when appliances are connected, ensuring both user safety and system protection. \\
+	\hline
+	
+		\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/lcd.png}
+		\text{16X2 LCD Module with I2C} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The 16x2 LCD module with I2C interface was selected to provide clear visual feedback to users. It displays relevant information such as rental instructions, system status, and battery level. The I2C interface reduces wiring complexity and enhances system integration.  \\
+	\hline
+	
+		\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/router.png}
+		\text{Wi-Fi Router } % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	A Wi-Fi router was used to provide wireless connectivity between the system and the mobile application. Its inclusion ensures stable communication for data transfer, remote monitoring, and user interactions, supporting the IoT-based functionality of the rental power system. \\
+	\hline
+	
+\end{longtable}  
+
+\subsubsection{Circuit Diagram}
+\begin{figure}[H]
+	\centering
+	\caption{Circuit Diagram of Rental Station}
+	\label{fig:circuit}
+	\includegraphics[width=1\textwidth]{figures/circuit_station.png}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\caption{Circuit Diagram of Detachable Power Sources}
+	\label{fig:circuit}
+	\includegraphics[width=1\textwidth]{figures/schematic_station.png}
+\end{figure}
+
+
+\subsubsection{Schematic Layout}
+\begin{figure}[H]
+	\centering
+	\caption{Schematic Diagram of Rental Station }
+	\label{fig:scheayout}
+	\includegraphics[width=1\textwidth]{figures/circuit_power.png}
+\end{figure}
+
+\subsubsection{Schematic Layout}
+\begin{figure}[H]
+	\centering
+	\caption{Schematic Diagram of Detachable Power Sources}
+	\label{fig:scheayout}
+	\includegraphics[width=1\textwidth]{figures/schematic_power.png}
+\end{figure}
+
+\subsubsection{Hardware Design}
+
+The 3D representation shows the overall design of the detachable power source and the solar-powered rental station. It provides a clear visual of the system’s shape and structure. The model illustrates how the different parts of the system are arranged in space, allowing a better understanding of the physical layout of the proposed system.
+
+\begin{figure}[H]
+	\centering
+	\caption{Front View of the Power Source – Three Dimensional Representation}
+	\label{fig:3d}
+	\includegraphics[width=0.8\textwidth]{figures/front.png}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\caption{Aerial View of the Power Source – Three Dimensional Representation}
+	\label{fig:3d2}
+	\includegraphics[width=0.8\textwidth]{figures/aerial.png}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\caption{Three Dimensional Representation of the Rental Station of the Detachable Power Source}
+	\label{fig:3d3}
+	\includegraphics[width=1\textwidth]{figures/rental.png}
+\end{figure}
+
+Figure 3.15 shows the 3D design of the system. It is a stationary power station powered by solar energy and contains three detachable power sources. The system has a single coin slot that controls access, and each detachable power source is secured with a solenoid lock.
+
 \subsection{Software Development}
+This part provides an outline of the software development for the solar-powered rental station with detachable power sources. The primary objective of the software is to manage the rental, monitoring, and control of portable power units through data acquisition, processing, and decision-making. The system integrates embedded system programming, mobile application development, and cloud-based data management to ensure reliable, automated, and secure operation.
+
+The software is designed to monitor battery status, track rental duration, determine location coordinates, and calculate user credits based on predefined system rules. These functionalities allow the system to support automated unlocking and locking mechanisms, notification handling, and synchronization between hardware, mobile application, and cloud services.
+
+\subsubsection{Embedded System Software Development}
+This section discusses the development of the embedded software responsible for data acquisition, processing, and hardware control. An ESP32 microcontroller serves as the main processing unit due to its built-in wireless communication capabilities, low power consumption, and suitability for Internet of Things (IoT) applications.
+
+The embedded software continuously collects data from the battery monitoring circuit, GPS module, and GSM communication module. The acquired data are processed locally to determine battery status, rental duration, and location of the detachable power source. Processed information is then transmitted wirelessly to the cloud server and mobile application for monitoring and record-keeping.
+
+\subsubsection{Battery Monitoring and Power Calculation}
+Battery voltage is measured using the ESP32’s analog-to-digital converter (ADC). The measured voltage values are mapped to corresponding battery percentage levels using predefined threshold ranges. Based on the battery percentage at the start and end of the rental period, the system calculates the amount of unused battery power.
+
+The unused power is used as the basis for computing user credits, encouraging responsible usage and timely return of the power units.
+
+\subsubsection{Rental Time Tracking and Rule-Based Control}
+Rental duration is tracked using internal system timers. The software enforces a maximum rental duration of twelve (12) hours per transaction. Time-based conditions are implemented to trigger system actions, such as sending notification alerts before the rental deadline and recording violations after the rental period expires.
+
+Rule-based logic controls critical events, including unlocking the detachable power source after successful payment verification and locking the unit upon return confirmation.
+
+\subsubsection{Mobile Application Development}
+This section presents the development of the mobile application that serves as the primary user interface of the system. The mobile application enables users to monitor battery status, view location, track rental duration, receive notifications, and check earned credits.
+
+The application communicates with the embedded system and cloud database through wireless connectivity, ensuring synchronization and accurate data presentation.
+
+\subsubsection{Flutter Framework}
+Flutter was selected as the development framework for the mobile application due to its cross-platform capability, high performance, and rich user interface components. Flutter employs the Dart programming language, which is compiled directly into native machine code, allowing fast execution and smooth user interactions.
+
+Using Flutter enabled the developers to create a single codebase that can be deployed across multiple platforms. The framework’s extensive widget library facilitated the development of an intuitive and responsive user interface for displaying system data such as battery level, rental status, notifications, and user credits. The hot reload feature also supported rapid development, testing, and refinement of the mobile application.
+
+\subsubsection{Activity Diagram}
+\begin{figure}[H]
+	\centering
+	\caption{Activity Diagram of the Community Resident}
+	\label{fig:activity}
+	\includegraphics[width=0.55\textwidth]{figures/activity.png}
+\end{figure}
+
+Figure 3.12 shows the step-by-step activity flow of the system from user login to unlocking the portable power source. The process begins with checking account availability. If the user already has an account, they proceed to the login step; otherwise, they must sign up first. After logging in, the system checks if the account is valid. If the account is invalid, the process returns to the login step. If valid, the system verifies the account and displays the dashboard. Next, the system checks if a power source slot is available. If no slot is available, the user remains on the dashboard until one becomes free. If a slot is available, the process continues to the payment step. The system then verifies the payment amount. If the amount entered is not exact, the process returns to the payment step. If the payment is correct, the portable power source is successfully unlocked, completing the process.
+
+Overall, the diagram clearly shows how the user interacts with the system , which starts from account access, validation, and payment, up to unlocking the rented portable power source.
+
+\subsubsection{GitHub}
+GitHub was utilized for version control and collaborative development of the mobile application. All source code, documentation, and configuration files were maintained in a centralized GitHub repository, allowing multiple developers to work concurrently while tracking changes efficiently. GitHub enabled version tracking, where all revisions to the code were logged and could be reverted if necessary. The use of branching and merging allowed new features and fixes to be developed in isolated branches and later integrated into the main branch following review. Additionally, GitHub facilitated team collaboration by providing mechanisms for code review, pull requests, and task management through GitHub issues. The repository also ensured a secure and accessible backup of the project, which could be accessed from any location with an internet connection. The integration of GitHub into the development workflow improved code quality, reduced conflicts, and supported smooth project management throughout the software development process.
+
+\subsubsection{Cloud Database and Backend Services}
+Cloud-based services are utilized to support data storage, transmission, and system synchronization. These services enable secure handling of rental transactions, user records, and system logs.
+
+\subsubsection{Firebase Firestore}
+Firebase Firestore is used as the primary cloud database for storing structured system data. This includes user profiles, rental transactions, battery usage records, rental timestamps, and earned credits. Firestore’s data synchronization capability allows instant updates across the embedded system and mobile application, ensuring data consistency and reliability.
+
+\subsubsection{System Measurements and Calculations}
+This section presents the specific measurements and calculations performed by the software to support rental management, power monitoring, and credit computation. These calculations are derived from sensor readings, system timestamps, and predefined rules integrated into the software logic.
+
+\subsubsection{Battery Voltage Measurement}
+The ESP32 continuously measures the battery voltage using its analog-to-digital converter (ADC). The measured ADC value is converted into the actual battery voltage using a voltage scaling factor based on the battery monitoring circuit.
+
+This voltage value serves as the basis for determining battery percentage, power availability, and unused power.
+
+\subsubsection{Battery Percentage Calculation}
+Battery percentage is calculated by mapping the measured battery voltage to predetermined minimum and maximum voltage limits of the \ce{LiFePO4} battery.
+
+\subsubsection{Rental Time Computation}
+\subsubsection{Unused Power Calculation}
+\subsubsection{Credit Computation}
+
+\subsubsection{Location Measurement and Tracking}
+The GPS module provides latitude and longitude values of the detachable power source. These coordinates are transmitted to the system and displayed in the mobile application to indicate the unit’s current location.
+
+This location data supports monitoring, recovery, and security operations.
+
+\subsubsection{Slot Availability and Lock Status Determination}
+Slot availability is determined based on the presence of the detachable power source and rental state:
+	
+	\begin{itemize}
+		\item {Free }\\
+		\textit{Unit is available, Locked }
+
+		\item {Occupied}\\
+		\textit{Unit is currently rented, Unlocked}
+	\end{itemize}
+
+The lock status is controlled through software logic and depends on payment validation, and return confirmation.
 
 \subsection{System Integration}
 
@@ -305,7 +831,7 @@ The Figure 3.3 illustrates the overall architecture of the solar powered rental 
 	
 	\item \textit{User Interface and Control }- The ESP32 microcontroller connects with a mobile app via a router and Firebase, allowing users to monitor battery levels and manage rental requests.
 	
-	\item \textit{Power Access and Management} - A coin slot and relay control access to the power source, while an LCD displays real-time system status.
+	\item \textit{Power Access and Management} - A coin slot and relay control access to the power source, while an LCD displays system status.
 	
 	\item \textit{GPS Tracking and Securit}y -  A GPS and GSM module track the power source’s location, ensuring security and preventing theft.
 	
@@ -417,45 +943,6 @@ Figure 3.11 illustrates how different users and administrators interact with the
  
  The relationships in the diagram are shown through Include and Extend. Include means that one action is always linked to another. For example, signing up always includes verifying the user's details, and renting a power source includes checking availability and processing payment. Extend means that certain actions may trigger additional steps under specific conditions. For instance, if a payment fails, it will trigger the "Payment Error" action, or if the power source return is delayed, it will trigger the "Return Delay" action. In summary, this use case diagram provides an overview of how users and administrators interact with the system, covering key actions like renting and returning power sources, managing user accounts, and maintaining the system.
  
- \subsection{Activity Diagram}
-  \begin{figure}[H]
- 	\centering
- 	\caption{Activity Diagram of the Community Resident}
- 	\label{fig:activity}
- 	\includegraphics[width=0.55\textwidth]{figures/activity.png}
- \end{figure}
- 
-Figure 3.12 shows the step-by-step activity flow of the system from user login to unlocking the portable power source. The process begins with checking account availability. If the user already has an account, they proceed to the login step; otherwise, they must sign up first. After logging in, the system checks if the account is valid. If the account is invalid, the process returns to the login step. If valid, the system verifies the account and displays the dashboard. Next, the system checks if a power source slot is available. If no slot is available, the user remains on the dashboard until one becomes free. If a slot is available, the process continues to the payment step. The system then verifies the payment amount. If the amount entered is not exact, the process returns to the payment step. If the payment is correct, the portable power source is successfully unlocked, completing the process.
-
-Overall, the diagram clearly shows how the user interacts with the system , which starts from account access, validation, and payment, up to unlocking the rented portable power source.
-   
-  \subsection{3D Design}
-  
-  The 3D representation shows the overall design of the detachable power source and the solar-powered rental station. It provides a clear visual of the system’s shape and structure. The model illustrates how the different parts of the system are arranged in space, allowing a better understanding of the physical layout of the proposed system.
-  
-    \begin{figure}[H]
-  	\centering
-  	\caption{Front View of the Power Source – Three Dimensional Representation}
-  	\label{fig:3d}
-  	\includegraphics[width=0.8\textwidth]{figures/front.png}
-  \end{figure}
- 
-    \begin{figure}[H]
- 	\centering
- 	\caption{Aerial View of the Power Source – Three Dimensional Representation}
- 	\label{fig:3d2}
- 	\includegraphics[width=0.8\textwidth]{figures/aerial.png}
- \end{figure}
- 
-    \begin{figure}[H]
- 	\centering
- 	\caption{Three Dimensional Representation of the Rental Station of the Detachable Power Source}
- 	\label{fig:3d3}
- 	\includegraphics[width=1\textwidth]{figures/rental.png}
- \end{figure}
- 
-Figure 3.15 shows the 3D design of the system. It is a stationary power station powered by solar energy and contains three detachable power sources. The system has a single coin slot that controls access, and each detachable power source is secured with a solenoid lock.
-  
   \subsection{Mobile App}
   
      \begin{figure}[H]
@@ -539,25 +1026,26 @@ Figure 3.15 shows the 3D design of the system. It is a stationary power station 
      	\bottomrule
      	\endfoot
      	
-     	Battery x 2 & \textpeso 12,000.00 \\ 
+     	Battery x 3 & \textpeso 15,600.00 \\ 
      	Solar Charge Controller & \textpeso 1,000.00 \\ 
-     	Solar Panel & \textpeso 2,500.00 \\
-     	Pure Sine Wave Inverter x 2 & \textpeso 6,000.00 \\
-     	Lithium Battery  Charger & \textpeso 500.00 \\
+     	Solar Panel & \textpeso 5,300.00 \\
+     	Pure Sine Wave Inverter x 3 & \textpeso 5,700.00 \\
+     	Lithium Battery Charger x 2 & \textpeso 3,000.00 \\
      	Low Voltage Disconnect module & \textpeso 100.00 \\
-   	    Coin Slot Facade & \textpeso 150.00 \\
-     	ESP32 x 2 & \textpeso 400.00 \\
-     	DC breaker x 3 (Cable, Mounts) & \textpeso 100.00 \\
+   	    Coin Slot Facade x 2 & \textpeso 1,000.00 \\
+     	ESP32 x 3 & \textpeso 600.00 \\
+     	DC breaker x 5  & \textpeso 500.00 \\
+     	Flexible Silicone Wire x 2 & \textpeso 270.00 \\
      	Relay Module 12/ 240v   x 2 & \textpeso 240.00 \\ 
      	Liquid Crystal Display (LCD) x 2 & \textpeso 400.00 \\
-     	Relay & \textpeso 50.00 \\
+     	Relay x 3 & \textpeso 600.00 \\
      	GPS module & \textpeso 200.00 \\
      	GSM module & \textpeso 600.00 \\
      	AC breaker & \textpeso 1,200.00 \\
-     	Solenoid lock & \textpeso 200 \\
+     	Solenoid lock x 2 & \textpeso 400 \\
      	Router & \textpeso 1,500.00\\
      	\midrule
-     	\textbf{Total} & \textbf{\textpeso 27,140.00} \\
+     	\textbf{Total} & \textbf{\textpeso 37,570.00} \\
      \end{longtable}
  
 Table 4 shows the following materials that will be used in the study.
