@@ -13,11 +13,11 @@ In the Philippines, the average household experiences 28 electricity supply inte
 
 Recent efforts in solar-powered portable power supply systems show promise but still face limitations. Innovations have been made, such as Gozano et al. (2023) designing a solar-based portable power supply capable of charging small devices but with limited capacity and short battery life. Bhatti et al. (2024) developed a portable solar station with a 200 W output and load monitoring, while Ramly et al. (2019) created a 100 W portable solar power supply for emergencies that could last two days. Despite these advancements, existing systems still encounter issues related to energy capacity, battery lifespan, and limited support for higher power loads.
 
-To address these gaps, this study proposes a solar-powered rental station with detachable power sources, powered by a solar panel for energy harvesting, a \ce{LiFePO4} battery for reliable storage, and an inverter for AC power conversion. The system integrates an ESP32 microcontroller with IoT mechanisms to manage operations, while GPS and GSM modules provide real-time location tracking, communication, and monitoring of rented units, serving as additional security features of the system. A coin-slot mechanism with a solenoid lock ensures secure access, while the mobile application allows users to view available rental slots, check pricing based on the detachable power source’s charge percentage, and manage user verification through SMS-based phone number confirmation. The application also stores the user’s account information and available credits for future transactions. The compact and user-friendly design offers a sustainable solution for communities affected by frequent power interruptions, effectively bridging the gap in affordable and reliable energy access.
+To address these gaps, this study proposes a solar-powered rental station with detachable power sources, powered by a solar panel for energy harvesting, a \ce{LiFePO4} battery for reliable storage, and an inverter for AC power conversion. The system integrates an ESP32 microcontroller with IoT mechanisms to manage operations, while GPS and GSM modules provide location tracking, communication, and monitoring of rented units, serving as additional security features of the system. A coin-slot mechanism with a solenoid lock ensures secure access, while the mobile application allows users to view available rental slots, check pricing based on the detachable power source’s charge percentage, and manage user verification through SMS-based phone number confirmation. The application also stores the user’s account information and available credits for future transactions. The compact and user-friendly design offers a sustainable solution for communities affected by frequent power interruptions, effectively bridging the gap in affordable and reliable energy access.
 
 \section{Statement of the Problem}
 
-Communities in various parts of the Philippines continue to face challenges in accessing stable electricity. In provinces such as Camiguin (served by CAMELCO) and specific parts of Misamis Oriental (served by MORESCO II), residents experience frequent and unscheduled power interruptions multiple times a week. These power outages cause inconvenience to households, affect business operations, and disrupt the productivity of local communities. Consistent and stable access to electricity remains a persistent challenge, especially in rural and island areas.
+Communities in various parts of the Philippines continue to face challenges in accessing stable electricity. In provinces such as Camiguin (served by CAMELCO), residents experience frequent and unscheduled power interruptions multiple times a week. These power outages cause inconvenience to households, affect business operations, and disrupt the productivity of local communities. Consistent and stable access to electricity remains a persistent challenge, especially in rural and island areas.
 
 Although alternatives such as off-grid systems, portable power banks, and small gasoline generators are available, they often prove costly, limited in capacity, or unsustainable in the long term. The use of fossil-fueled generators also raises safety and environmental concerns, which contradict current efforts toward cleaner and more sustainable energy sources.
 
@@ -43,9 +43,9 @@ In view of the above stated problem, the following objectives are:
 \end{itemize}
 \subsection{Specific Objectives}
 \begin{itemize}
-	\item To design the system architecture for the power source that integrates photovoltaic panels, energy storage, and a power inverter, ensuring sufficient capacity for powering small-to-medium scale appliances.
+	\item To design the system architecture for the power source that integrates photovoltaic panels, energy storage, and a power inverter, ensuring sufficient capacity for powering high-demand power appliances.
 	\item To develop a functional prototype of the rental power station with a detachable power source, with a secure coin-operated or app-based access mechanism for rental use.
-	\item To integrate GPS and GSM modules to support real-time location tracking, communication, and monitoring of rented units.
+	\item To integrate GPS and GSM modules to support location tracking, communication, and monitoring of rented units.
 \end{itemize}
 
 \section{Significance of the Study}
@@ -83,20 +83,19 @@ This system provides support in giving people access to energy that is affordabl
 \subsection{Scope}
 	\begin{itemize}
 		\item Design a solar-powered portable power station with detachable power sources for communities in Camiguin and selected areas in Misamis Oriental, which face frequent power interruptions.
-		\item Integrate photovoltaic panels, energy storage, and a power inverter to run small-to-medium scale appliances.
+		\item Integrate photovoltaic panels, energy storage, and a power inverter to run high-demand power appliances.
 		\item Implement coin-operated or app-based access for renting the power sources.
-		\item Incorporate GPS and GSM modules for real-time location tracking and communication, ensuring efficient monitoring of rented units.
+		\item Incorporate GPS and GSM modules for location tracking and communication, ensuring efficient monitoring of rented units.
+		\item Weather-dependent operations: The system can operate during extreme weather, such as typhoons to protect users and equipment from potential damage
 \end{itemize}
 
 \subsection{Limitations}
 	\begin{itemize}
 		\item  Geographic coverage limited to Camiguin and selected areas in Misamis Oriental.
-		\item  Not capable of operating high-demand power appliances due to limited power capacity.
 		\item Cannot charge electric vehicles (e.g., Tesla) because required input is far higher than the system can supply.
-		\item Deployment limited to suitable sites: Only for selected areas that both (a) frequently experience power interruptions and (b) have adequate sunlight; performance is poor where solar access is obstructed (c) inoperable in areas without Internet connectivity
+		\item Deployment limited to suitable sites: Only for selected area that both (a) frequently experience power interruptions and (b) have adequate sunlight; performance is poor where solar access is obstructed (c) inoperable in areas without Internet connectivity
 		\item Coins only: The coin-operated mechanism does not accept paper bills.
 		\item No physical change: The system does not dispense change; any excess payment/remaining balance is credited to the user’s mobile application account.
-		\item Weather-dependent operations: The system cannot operate during extreme weather, such as typhoons to protect users and equipment from potential damage
 	\end{itemize}
 
 \subsection{Definition of Terms}
