@@ -7,79 +7,79 @@
 \contentsline {section}{\numberline {1.1}Background of the Study}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Statement of the Problem}{4}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Objectives of the Study}{6}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}General Objectives}{6}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.1}General Objectives}{7}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Specific Objectives}{7}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Significance of the Study}{7}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Significance of the Study}{8}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Scope and Limitations}{9}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Scope}{9}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Limitations}{9}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.2}Limitations}{10}{subsection.1.5.2}%
 \contentsline {subsection}{\numberline {1.5.3}Definition of Terms}{10}{subsection.1.5.3}%
-\contentsline {chapter}{\numberline {2}REVIEW OF RELATED LITERATURE}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Theoretical Background}{13}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Rental System Theory}{13}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Sustainable Energy and Portable Power Theory}{14}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Wireless Communication and Positioning Theory (GPS and GSM Modules)}{15}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Integration of Theories}{16}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Conceptual Framework}{19}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Schematic Diagram}{23}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}Review of Related Studies}{24}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Design of a Solar-Based Portable Power Supply with Modular Battery System for the Dumagat Tribe in Norzagaray, Bulacan}{24}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Solar-Powered Coin-Operated Mobile Charging Station for Sustainable Energy Access and Resilience}{26}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Portable Solar-Station with Integrated Battery Management and Load Monitoring System}{27}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Multiport Universal Solar Power Bank}{28}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Portable Power Supply Design with 100 Watt Capacity}{29}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Design and Development of Portable StandAlone Solar Power Generator}{29}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}A solar-powered multi-functional portable charging device (SPMFPCD) with internet-of-things (IoT)-based real-time monitoring- An innovative scheme towards energy access and management}{31}{subsection.2.3.7}%
-\contentsline {subsection}{\numberline {2.3.8}Renewable Energy from Solar Panels: A Study of Photovoltaic Physics and Environmental Benefits}{32}{subsection.2.3.8}%
-\contentsline {subsection}{\numberline {2.3.9}Power Consumption of Household Appliances}{33}{subsection.2.3.9}%
-\contentsline {subsection}{\numberline {2.3.10}Electricity Distribution and Supply Authority}{34}{subsection.2.3.10}%
-\contentsline {subsection}{\numberline {2.3.11}Assessing the Impact of Power Outages on Appliances of Farmers and Fisherfolks in Selected Barangays of Cawayan, Masbate, Philippines: Basis for a Proposed Extension Program}{36}{subsection.2.3.11}%
-\contentsline {subsection}{\numberline {2.3.12}Synthesis}{37}{subsection.2.3.12}%
-\contentsline {chapter}{\numberline {3}METHODOLOGY}{41}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Research Design and Procedure}{41}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Planning}{42}{subsection.3.1.1}%
-\contentsline {subsubsection}{3.1.1.1 Budget Planning}{44}{figure.caption.10}%
-\contentsline {subsubsection}{(a) Materials and Cost}{45}{figure.caption.10}%
-\contentsline {subsubsection}{3.1.1.2 Resarch Locale}{46}{table.3.1}%
-\contentsline {subsubsection}{3.1.1.3 User Definition}{47}{figure.caption.11}%
-\contentsline {subsubsection}{3.1.1.4 System Requirements}{47}{figure.caption.11}%
-\contentsline {section}{\numberline {3.2}Technical Design Workflow}{49}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}System Design}{49}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}System Architecture}{50}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Flowchart}{52}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Context Level Diagram}{54}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Data Flow Diagram}{56}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Use Case Diagram}{58}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Solar Energy Harvesting}{60}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}Energy Conversion DC to AC}{61}{subsection.3.2.8}%
-\contentsline {subsection}{\numberline {3.2.9}Power Monitoring}{62}{subsection.3.2.9}%
-\contentsline {subsection}{\numberline {3.2.10}GPS Tracking}{63}{subsection.3.2.10}%
-\contentsline {subsection}{\numberline {3.2.11}Calculation Requirements}{63}{subsection.3.2.11}%
-\contentsline {subsubsection}{Load Analysis}{63}{section*.21}%
-\contentsline {subsubsection}{Battery Sizing}{64}{table.3.3}%
-\contentsline {subsection}{\numberline {3.2.12}Hardware Development}{73}{subsection.3.2.12}%
-\contentsline {subsubsection}{3.2.2.1 Material Specifications}{73}{figure.caption.22}%
-\contentsline {subsubsection}{3.2.2.2 Circuit Diagram}{81}{table.3.6}%
-\contentsline {subsubsection}{3.2.2.3 Schematic Layout}{83}{figure.caption.24}%
-\contentsline {subsubsection}{3.2.2.4 Hardware Design}{85}{figure.caption.26}%
-\contentsline {subsection}{\numberline {3.2.13}Software Development}{89}{subsection.3.2.13}%
-\contentsline {subsubsection}{3.2.3.1 Embedded System Software Development}{89}{section*.30}%
-\contentsline {subsubsection}{3.2.3.2 Battery Monitoring and Power Calculation}{90}{section*.30}%
-\contentsline {subsubsection}{3.2.3.3 Rental Time Tracking and Rule-Based Control}{90}{section*.30}%
-\contentsline {subsubsection}{3.2.3.4 Mobile Application Development}{91}{section*.30}%
-\contentsline {subsubsection}{(a) Flutter Framework}{91}{section*.30}%
-\contentsline {subsubsection}{(b) Activity Diagram}{92}{section*.30}%
-\contentsline {subsubsection}{(c) GitHub}{93}{figure.caption.31}%
-\contentsline {subsubsection}{(d) Realtime Database}{94}{figure.caption.31}%
-\contentsline {subsubsection}{(e) Cloud Firestore}{94}{figure.caption.31}%
-\contentsline {subsection}{\numberline {3.2.14}Graphical User Interface Design}{95}{subsection.3.2.14}%
-\contentsline {subsection}{\numberline {3.2.15}System Integration}{100}{subsection.3.2.15}%
-\contentsline {subsection}{\numberline {3.2.16}Testing}{101}{subsection.3.2.16}%
-\contentsline {subsubsection}{Performance Testing}{101}{section*.39}%
-\contentsline {subsubsection}{Usability Testing}{102}{section*.39}%
-\contentsline {subsection}{\numberline {3.2.17}Implementation}{103}{subsection.3.2.17}%
-\contentsline {subsection}{\numberline {3.2.18}Standards and Guidelines Considered}{104}{subsection.3.2.18}%
-\contentsline {chapter}{APPENDICES}{105}{chapter*.40}%
-\contentsline {chapter}{Appendix A: Step-by-Step Calculation}{105}{chapter*.40}%
-\contentsline {chapter}{REFERENCES}{110}{Item.20}%
+\contentsline {chapter}{\numberline {2}REVIEW OF RELATED LITERATURE}{14}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Theoretical Background}{14}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Rental System Theory}{14}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Sustainable Energy and Portable Power Theory}{15}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Wireless Communication and Positioning Theory (GPS and GSM Modules)}{16}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Integration of Theories}{17}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Conceptual Framework}{20}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Schematic Diagram}{24}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Review of Related Studies}{25}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Design of a Solar-Based Portable Power Supply with Modular Battery System for the Dumagat Tribe in Norzagaray, Bulacan}{25}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Solar-Powered Coin-Operated Mobile Charging Station for Sustainable Energy Access and Resilience}{27}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Portable Solar-Station with Integrated Battery Management and Load Monitoring System}{28}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Multiport Universal Solar Power Bank}{29}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Portable Power Supply Design with 100 Watt Capacity}{30}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Design and Development of Portable Stand-Alone Solar Power Generator}{30}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}A solar-powered multi-functional portable charging device (SPMFPCD) with internet-of-things (IoT)-based real-time monitoring- An innovative scheme towards energy access and management}{32}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Renewable Energy from Solar Panels: A Study of Photovoltaic Physics and Environmental Benefits}{33}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2.3.9}Power Consumption of Household Appliances}{34}{subsection.2.3.9}%
+\contentsline {subsection}{\numberline {2.3.10}Electricity Distribution and Supply Authority}{35}{subsection.2.3.10}%
+\contentsline {subsection}{\numberline {2.3.11}Assessing the Impact of Power Outages on Appliances of Farmers and Fisherfolks in Selected Barangays of Cawayan, Masbate, Philippines: Basis for a Proposed Extension Program}{37}{subsection.2.3.11}%
+\contentsline {subsection}{\numberline {2.3.12}Synthesis}{38}{subsection.2.3.12}%
+\contentsline {chapter}{\numberline {3}METHODOLOGY}{45}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Research Design and Procedure}{45}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Planning}{46}{subsection.3.1.1}%
+\contentsline {subsubsection}{3.1.1.1 Budget Planning}{48}{figure.caption.13}%
+\contentsline {subsubsection}{(a) Materials and Cost}{49}{figure.caption.13}%
+\contentsline {subsubsection}{3.1.1.2 Research Locale}{50}{table.3.2}%
+\contentsline {subsubsection}{3.1.1.3 User Definition}{51}{figure.caption.14}%
+\contentsline {subsubsection}{3.1.1.4 System Requirements}{51}{figure.caption.14}%
+\contentsline {section}{\numberline {3.2}Technical Design Workflow}{53}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}System Design}{53}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}System Architecture}{54}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Flowchart}{56}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Context Level Diagram}{58}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Data Flow Diagram}{60}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Use Case Diagram}{62}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Solar Energy Harvesting}{64}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Energy Conversion DC to AC}{65}{subsection.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.9}Power Monitoring}{66}{subsection.3.2.9}%
+\contentsline {subsection}{\numberline {3.2.10}GPS Tracking}{67}{subsection.3.2.10}%
+\contentsline {subsection}{\numberline {3.2.11}Calculation Requirements}{67}{subsection.3.2.11}%
+\contentsline {subsubsection}{Load Analysis}{67}{section*.24}%
+\contentsline {subsubsection}{Battery Sizing}{68}{table.3.4}%
+\contentsline {subsection}{\numberline {3.2.12}Hardware Development}{80}{subsection.3.2.12}%
+\contentsline {subsubsection}{3.2.2.1 Material Specifications}{80}{figure.caption.25}%
+\contentsline {subsubsection}{3.2.2.2 Circuit Diagram}{89}{table.3.8}%
+\contentsline {subsubsection}{3.2.2.3 Schematic Layout}{91}{figure.caption.27}%
+\contentsline {subsubsection}{3.2.2.4 Hardware Design}{93}{figure.caption.29}%
+\contentsline {subsection}{\numberline {3.2.13}Software Development}{97}{subsection.3.2.13}%
+\contentsline {subsubsection}{3.2.3.1 Embedded System Software Development}{97}{section*.33}%
+\contentsline {subsubsection}{3.2.3.2 Battery Monitoring and Power Calculation}{98}{section*.33}%
+\contentsline {subsubsection}{3.2.3.3 Rental Time Tracking and Rule-Based Control}{98}{section*.33}%
+\contentsline {subsubsection}{3.2.3.4 Mobile Application Development}{99}{section*.33}%
+\contentsline {subsubsection}{(a) Flutter Framework}{99}{section*.33}%
+\contentsline {subsubsection}{(b) Activity Diagram}{100}{section*.33}%
+\contentsline {subsubsection}{(c) GitHub}{101}{figure.caption.34}%
+\contentsline {subsubsection}{(d) Realtime Database}{102}{figure.caption.34}%
+\contentsline {subsubsection}{(e) Cloud Firestore}{102}{figure.caption.34}%
+\contentsline {subsection}{\numberline {3.2.14}Graphical User Interface Design}{103}{subsection.3.2.14}%
+\contentsline {subsection}{\numberline {3.2.15}System Integration}{108}{subsection.3.2.15}%
+\contentsline {subsection}{\numberline {3.2.16}Testing}{109}{subsection.3.2.16}%
+\contentsline {subsubsection}{Performance Testing}{109}{section*.42}%
+\contentsline {subsubsection}{Usability Testing}{110}{section*.42}%
+\contentsline {subsection}{\numberline {3.2.17}Implementation}{111}{subsection.3.2.17}%
+\contentsline {subsection}{\numberline {3.2.18}Standards and Guidelines Considered}{112}{subsection.3.2.18}%
+\contentsline {chapter}{APPENDICES}{113}{chapter*.43}%
+\contentsline {chapter}{Appendix A: Step-by-Step Calculation}{113}{chapter*.43}%
+\contentsline {chapter}{REFERENCES}{118}{Item.20}%
 \contentsfinish 

@@ -1,11 +1,14 @@
 {\bfseries No.\hfill Table\hspace {3in} Page No.\vspace \bigskipamount \par }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {1}{\ignorespaces Literature Review Summary}}{42}{table.caption.9}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1}{\ignorespaces Hardware Components and Cost}}{45}{table.3.1}%
-\contentsline {table}{\numberline {2}{\ignorespaces System Requirements}}{47}{table.3.2}%
-\contentsline {table}{\numberline {3}{\ignorespaces Load Consumption}}{63}{table.3.3}%
-\contentsline {table}{\numberline {4}{\ignorespaces Inverter Sizing}}{66}{table.3.4}%
-\contentsline {table}{\numberline {5}{\ignorespaces Criteria for Selecting Hardware Materials}}{74}{table.3.5}%
-\contentsline {table}{\numberline {6}{\ignorespaces Selection of Hardware Components}}{76}{table.3.6}%
+\contentsline {table}{\numberline {2}{\ignorespaces Hardware Components and Cost}}{49}{table.3.2}%
+\contentsline {table}{\numberline {3}{\ignorespaces System Requirements}}{51}{table.3.3}%
+\contentsline {table}{\numberline {4}{\ignorespaces Load Consumption}}{67}{table.3.4}%
+\contentsline {table}{\numberline {5}{\ignorespaces Inverter Sizing}}{70}{table.3.5}%
+\contentsline {table}{\numberline {6}{\ignorespaces Summary of Design Computation Formulas}}{77}{table.3.6}%
+\contentsline {table}{\numberline {7}{\ignorespaces Criteria for Selecting Hardware Materials}}{81}{table.3.7}%
+\contentsline {table}{\numberline {8}{\ignorespaces Selection of Hardware Components}}{83}{table.3.8}%
+\contentsline {table}{\numberline {9}{\ignorespaces Estimated Weight of the Detachable Power Source}}{95}{table.3.9}%
 \contentsfinish 

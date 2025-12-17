@@ -9,28 +9,29 @@ Research has proven that solar-powered systems offer a reliable and eco-friendly
 
 Technology also plays a vital role in improving such systems. According to Villamil et al. (2020), the Internet of Things (IoT) is an emerging technology present in many devices and processes, improving quality of life. Integrating IoT with solar energy systems enables smart monitoring, management, and accessibility. Rental-based systems can further improve affordability and accessibility. Thakur (2021) illustrated that a car rental system efficiently manages transactions, user data, and resources through database-driven modules and web-based interfaces. Applying similar principles to energy rentals allows automation of verification, monitoring, and payment processes through an IoT-based application. In support of this, Gavera et al. (2024) highlighted the relevance of the ESP32 as a powerful microcontroller for developing efficient and stable sensor networks, enhancing sustainability and resource efficiency. Combining these innovations can maximize utilization, enhance system functionality, and promote sustainable energy access for communities affected by frequent power interruptions.
 
-In the Philippines, the average household experiences 28 electricity supply interruptions per year due to outages caused by plant breakdowns (Albay, 2025). In August 2025, the National Grid Corporation of the Philippines (NGCP) reported an unscheduled power interruption affecting Camiguin and specific parts of Misamis Oriental, which together house over sixty-thousand households (Philippine Statistics Authority, 2020). During such outages, reliance on diesel generators and other temporary energy sources underscores the inadequacy of existing solutions and the urgent need for reliable, affordable, and sustainable alternatives.
+In the Philippines, the average household experiences 28 electricity supply interruptions per year due to outages caused by plant breakdowns (Albay, 2025). In August 2025, the National Grid Corporation of the Philippines (NGCP) reported an unscheduled power interruption that affected Camiguin, home to over ninety thousand households (Philippine Statistics Authority, 2024). During such outages, reliance on diesel generators and other temporary energy sources underscores the inadequacy of existing solutions and the urgent need for reliable, affordable, and sustainable alternatives.
 
 Recent efforts in solar-powered portable power supply systems show promise but still face limitations. Innovations have been made, such as Gozano et al. (2023) designing a solar-based portable power supply capable of charging small devices but with limited capacity and short battery life. Bhatti et al. (2024) developed a portable solar station with a 200 W output and load monitoring, while Ramly et al. (2019) created a 100 W portable solar power supply for emergencies that could last two days. Despite these advancements, existing systems still encounter issues related to energy capacity, battery lifespan, and limited support for higher power loads.
 
-To address these gaps, this study proposes a solar-powered rental station with detachable power sources, powered by a solar panel for energy harvesting, a \ce{LiFePO4} battery for reliable storage, and an inverter for AC power conversion. The system integrates an ESP32 microcontroller with IoT mechanisms to manage operations, while GPS and GSM modules provide location tracking, communication, and monitoring of rented units, serving as additional security features of the system. A coin-slot mechanism with a solenoid lock ensures secure access, while the mobile application allows users to view available rental slots, check pricing based on the detachable power source’s charge percentage, and manage user verification through SMS-based phone number confirmation. The application also stores the user’s account information and available credits for future transactions. The compact and user-friendly design offers a sustainable solution for communities affected by frequent power interruptions, effectively bridging the gap in affordable and reliable energy access.
+To address these gaps, this study proposes a solar-powered rental station with detachable power sources, powered by a solar panel for energy harvesting, a \ce{LiFePO4} battery for reliable storage, and an inverter for AC power conversion. The system integrates an ESP32 microcontroller with IoT mechanisms to manage operations, while GPS and GSM modules provide location tracking, communication, and monitoring of rented units, serving as additional security features of the system. A coin-slot mechanism with a solenoid lock ensures secure access, while the mobile application allows users to view available rental slots, check pricing based on the detachable power source’s charge percentage, and manage user verification through SMS-based phone number confirmation. The application also stores the user’s account information and available credits for future transactions.The proposed system aims to provide an alternative power source for communities affected by frequent power interruptions, helping bridge the gap in access to reliable power for basic household and livelihood needs.
 
 \section{Statement of the Problem}
 
-Communities in various parts of the Philippines continue to face challenges in accessing stable electricity. In provinces such as Camiguin (served by CAMELCO), residents experience frequent and unscheduled power interruptions multiple times a week. These power outages cause inconvenience to households, affect business operations, and disrupt the productivity of local communities. Consistent and stable access to electricity remains a persistent challenge, especially in rural and island areas.
+Communities in various parts of the Philippines continue to face challenges in accessing stable electricity. Barangay Tupsan, located in the Municipality of Mambajao, Province of Camiguin, continues to experience frequent and unscheduled power interruptions multiple times a week as part of the service area of the Camiguin Electric Cooperative (CAMELCO). These outages inconvenience households, disrupt business operations, and reduce overall community productivity, especially in rural and island areas where consistent power access remains difficult to maintain.
 
-Although alternatives such as off-grid systems, portable power banks, and small gasoline generators are available, they often prove costly, limited in capacity, or unsustainable in the long term. The use of fossil-fueled generators also raises safety and environmental concerns, which contradict current efforts toward cleaner and more sustainable energy sources.
+Although alternatives such as off-grid systems, portable power banks, and small gasoline generators are available, these options often require high upfront costs, have limited capacity, or are impractical for long-term use. Fossil-fueled generators also pose safety and environmental concerns, which conflict with ongoing efforts to promote cleaner energy solutions.
 
-Solar-powered systems have been introduced as alternatives, yet most existing systems can only supply limited power to small devices such as mobile phones, lamps, or AM/FM radios. Many of these systems are installed within college campuses and are not designed for community accessibility. In addition, the absence of security and monitoring mechanisms makes these systems prone to theft.
+Solar-powered systems have been introduced as an alternative; however, many existing setups are designed only for low-power devices such as mobile phones, lamps, or AM/FM radios. In addition, several systems are installed within college campuses and are not intended for broad community access. These limitations highlight the need for a \textbf{solar-powered rental approach}, where community residents can \textbf{rent detachable power sources from a publicly accessible power station} instead of purchasing expensive equipment, allowing households and small businesses to rent detachable power sources to access temporary and backup power when needed. The inclusion of security and monitoring mechanisms is essential to reduce the risk of theft and improve the safe use of such proposed systems.
+
 
 To address these challenges, this study aims to answer the following research questions:
 
 \begin{enumerate}
-	\item  How can a solar-powered rental station with detachable power sources be designed to provide a sustainable and user-friendly energy solution for communities experiencing frequent power interruptions?
+	\item  How can a solar-powered rental station with detachable power sources be designed to provide an energy solution for communities experiencing frequent power interruptions?
 	\item How can the proposed system overcome existing limitations in solar-powered portable power solutions, specifically lower energy load, limited battery capacity, restricted support for higher loads?
 	\item How can a secure coin-operated or mobile application-based mechanism be developed to regulate and monitor the rental and return of detachable power units?
 	\item How can GPS and GSM technologies be integrated to enhance  tracking, monitoring, and communication of rented power sources?
-	\item To what extent can the developed prototype address issues of affordability, accessibility, and sustainability compared to existing backup power solutions?
+	\item To what extent can the developed prototype provide a low-cost and publicly accessible alternative to existing backup power solutions for users who cannot afford expensive installation or high upfront costs?
 \end{enumerate}
 
 \section{Objectives of the Study}
@@ -39,14 +40,17 @@ In view of the above stated problem, the following objectives are:
 
 \subsection{General Objectives}
 \begin{itemize}
-	\item To design and develop a solar-powered rental station with detachable power sources that are rented to serve as a sustainable and user-friendly solution for supplying electricity, specifically intended for communities experiencing frequent and unscheduled power interruptions. 
+	\item To propose a solar-powered rental station with detachable power sources that can be rented by community users as an alternative power source for Barangay Tupsan, Mambajao, Camiguin, which experiences frequent and unscheduled power interruptions.
 \end{itemize}
+
 \subsection{Specific Objectives}
 \begin{itemize}
-	\item To design the system architecture for the power source that integrates photovoltaic panels, energy storage, and a power inverter, ensuring sufficient capacity for powering high-demand power appliances.
-	\item To develop a functional prototype of the rental power station with a detachable power source, with a secure coin-operated or app-based access mechanism for rental use.
-	\item To integrate GPS and GSM modules to support location tracking, communication, and monitoring of rented units.
+	\item To design the system architecture of the detachable power source by integrating photovoltaic panels, energy storage, and a power inverter to improve load support and battery capacity, ensuring compatibility with higher-demand appliances.
+	\item To develop a secure coin-operated or mobile application-based mechanism to regulate, record, and monitor the rental and return of detachable power units.
+	\item To integrate GPS and GSM technologies to enable location tracking, status monitoring, and communication for rented detachable power sources.
+	\item To evaluate the developed prototype in terms of affordability and public accessibility as a low-cost alternative to existing backup power solutions, particularly for users who cannot afford high upfront installation costs.
 \end{itemize}
+
 
 \section{Significance of the Study}
 
@@ -82,7 +86,7 @@ This system provides support in giving people access to energy that is affordabl
 
 \subsection{Scope}
 	\begin{itemize}
-		\item Design a solar-powered portable power station with detachable power sources for communities in Camiguin and selected areas in Misamis Oriental, which face frequent power interruptions.
+		\item Design a solar-powered portable power station with detachable power sources for communities in Barangay Tupsan, Mambajao, Camiguin, that experience frequent power interruptions.
 		\item Integrate photovoltaic panels, energy storage, and a power inverter to run high-demand power appliances.
 		\item Implement coin-operated or app-based access for renting the power sources.
 		\item Incorporate GPS and GSM modules for location tracking and communication, ensuring efficient monitoring of rented units.
@@ -91,41 +95,40 @@ This system provides support in giving people access to energy that is affordabl
 
 \subsection{Limitations}
 	\begin{itemize}
-		\item  Geographic coverage limited to Camiguin and selected areas in Misamis Oriental.
+		\item  Geographic coverage is limited to Barangay Tupsan, located in the Municipality of Mambajao, Province of Camiguin.
 		\item Cannot charge electric vehicles (e.g., Tesla) because required input is far higher than the system can supply.
-		\item Deployment limited to suitable sites: Only for selected area that both (a) frequently experience power interruptions and (b) have adequate sunlight; performance is poor where solar access is obstructed (c) inoperable in areas without Internet connectivity
+		\item Deployment is limited to suitable locations within Barangay Tupsan: only areas that (a) frequently experience power interruptions; (b) have adequate sunlight, as performance is reduced where solar access is obstructed; (c) have reliable internet connectivity, as the system is inoperable without it; and (d) are publicly accessible.
 		\item Coins only: The coin-operated mechanism does not accept paper bills.
 		\item No physical change: The system does not dispense change; any excess payment/remaining balance is credited to the user’s mobile application account.
 	\end{itemize}
 
 \subsection{Definition of Terms}
 
-
 \begin{itemize}
-	\item Internet of Things (IoT) - A network of physical devices, such as sensors, appliances, and power sources, connected to the internet, enabling them to collect, send, and receive data for remote monitoring, control, and management.
+	\item Internet of Things (IoT) - This term refers to a network of physical devices, such as sensors, appliances, and power sources, connected to the internet, enabling them to collect, send, and receive data for remote monitoring, control, and management.
 	
-	\item Solar Energy - Energy that is harnessed from sunlight using technologies such as photovoltaic (PV) panels, which convert sunlight into electricity, which is used to power the portable power sources.
+	\item Solar Energy - This term refers to energy that is harnessed from sunlight using technologies such as photovoltaic (PV) panels, which convert sunlight into electricity, which is used to power the portable power sources.
 	
-	\item Fossil Fuel - Natural energy sources such as coal, oil, and natural gas, derived from the remains of ancient plants and animals, that are burned to produce energy but contribute to environmental pollution and climate change due to the emission of greenhouse gases.
+	\item Fossil Fuel - This term refers to natural energy sources such as coal, oil, and natural gas, derived from the remains of ancient plants and animals, that are burned to produce energy but contribute to environmental pollution and climate change due to the emission of greenhouse gases.
 	
-	\item Photovoltaic (PV) Panels - Solar panels that convert sunlight into electricity, serving as the primary source of power generation for solar-powered systems.
+	\item Photovoltaic (PV) Panels - This term refers to solar panels that convert sunlight into electricity, serving as the primary source of power generation for solar-powered systems.
 	
-	\item Auxiliary load - The secondary electrical components that support the operation of the system, such as controllers, sensors, and communication modules. In this study, this includes the ESP32, GPS and GSM modules, coin-slot mechanism, solenoid lock, and other low-power electronics.
+	\item Auxiliary load - This term refers to the secondary electrical components that support the operation of the system, such as controllers, sensors, and communication modules. In this study, this includes the ESP32, GPS and GSM modules, coin-slot mechanism, solenoid lock, and other low-power electronics.
 	
-	\item Portable Power Station - Compact, mobile units that provide electrical power for charging devices or operating appliances, often powered by renewable sources like solar energy and designed to be easily transported or moved.
+	\item Portable Power Station - This term refers to compact, mobile units that provide electrical power for charging devices or operating appliances, often powered by renewable sources like solar energy and designed to be easily transported or moved.
 	
-	\item Small-to-Medium Scale Appliances - Electrical devices that consume relatively low to moderate power, typically ranging from 10 watts up to around 800 watts during normal operation.
+	\item Small-to-Medium Scale Appliances - This term refers to electrical devices that consume relatively low to moderate power, typically ranging from 10 watts up to around 800 watts during normal operation.
 	
-	\item High-Demand Power Appliances - Devices that require significantly high power, usually 800 watts to more than 3000 watts, and often cause large spikes in household electrical load.
+	\item High-Demand Power Appliances - This term refers to devices that require significantly high power, usually 800 watts to more than 3000 watts, and often cause large spikes in household electrical load.
 	
-	\item Renewable Energy - Energy derived from natural resources that are replenished on a human timescale, such as sunlight, wind, and geothermal heat, which are harnessed to produce electricity in an environmentally sustainable manner.
+	\item Renewable Energy - This term refers to energy derived from natural resources that are replenished on a human timescale, such as sunlight, wind, and geothermal heat, which are harnessed to produce electricity in an environmentally sustainable manner.
 	
-	\item Off-grid power system - A power system that operates independently from the main electricity grid, using renewable energy sources like solar or wind to provide electricity in areas without access to centralized power.
+	\item Off-grid power system - This term refers to a power system that operates independently from the main electricity grid, using renewable energy sources like solar or wind to provide electricity in areas without access to centralized power.
 	
-	\item Solar harvesting - The process of capturing sunlight using solar panels or other solar technologies and converting it into usable electrical energy, typically for storage in batteries or direct use.
+	\item Solar harvesting - This term refers to the process of capturing sunlight using solar panels or other solar technologies and converting it into usable electrical energy, typically for storage in batteries or direct use.
 	
-	\item Power Interruption - A temporary loss or disruption of electrical power, often due to faults, maintenance, or other technical issues in the power grid, affecting the availability of electricity to households or businesses.
-
+	\item Power Interruption - This term refers to a temporary loss or disruption of electrical power, often due to faults, maintenance, or other technical issues in the power grid, affecting the availability of electricity to households or businesses.
 \end{itemize}
+
 
 }

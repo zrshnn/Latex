@@ -81,7 +81,7 @@ The development of the solar-powered rental station with detachable power source
 
 Table 1 shows the following materials that will be used in the study.
 
-\subsubsection{3.1.1.2 Resarch Locale}
+\subsubsection{3.1.1.2 Research Locale}
 
 \begin{figure}[H]
 	\centering
@@ -454,6 +454,93 @@ All calculations are done in accordance to PEC (Philippine Electrical Code 2017)
 	\end{enumerate}
 \end{itemize}
 
+\begin{longtable}{|p{3.5cm}|p{5.0cm}|p{4.0cm}|}
+	\caption{Summary of Design Computation Formulas}\label{tab:design_formulas}\\
+	\hline
+	\textbf{Name} & \textbf{Formula} & \textbf{Description Summary} \\
+	\hline
+	\endfirsthead
+	
+	\hline
+	\textbf{Name} & \textbf{Formula} & \textbf{Description Summary} \\
+	\hline
+	\endhead
+	
+	\hline
+	\endfoot
+	
+	Battery Capacity (Detachable Power Source)
+	&
+	$C_{\text{bat,DPS}}=\dfrac{E_{\text{daily}}}{V_{\text{sys}}}+C_{\text{ESP32}}$
+	&
+	Determines the required battery capacity for the detachable unit by converting total daily energy demand (Wh) into ampere-hours using the system voltage, then adding the ESP32 consumption for continuous monitoring. \\
+	\hline
+	
+	Battery Capacity (Station)
+	&
+	$C_{\text{bat,station}}=C_{\text{bat,DPS}}\,(1+0.35)+C_{\text{ESP32}}$
+	&
+	Sizes the station battery based on the detachable power source capacity, adding a 35\% allowance for system losses (e.g., wiring resistance and conversion/charging losses) and including ESP32 consumption for control and monitoring. \\
+	\hline
+	
+	Panel Sizing (PV Power)
+	&
+	$P_{\text{PV}}=\dfrac{E_{\text{daily}}}{H_{\text{PSH}}}$
+	&
+	Computes the required solar panel rating by dividing total daily energy consumption by the available sun peak hours, ensuring the battery can be recharged within a day. \\
+	\hline
+	
+	Inverter Sizing
+	&
+	$P_{\text{inv}}=P_{\text{load,total}}\,(1+0.20)$
+	&
+	Determines the inverter size by adding a 20\% allowance to the total load power (including surge considerations) so the inverter can safely handle temporary demand increases. \\
+	\hline
+	
+	Solar Charge Controller Sizing
+	&
+	$I_{cc}=\dfrac{P_{\text{PV,total}}}{V_{\text{sys}}}$
+	&
+	Determines the required charge controller current rating by dividing total PV power by system voltage; the computed current is typically rounded up to select a standard controller rating. \\
+	\hline
+	
+	Breaker Sizing (Panel--SCC)
+	&
+	$I_{\text{CB,PV-SCC}}=I_{sc}\times F_{\text{rad}}\times F_{\text{safe}}$
+	&
+	Selects the circuit breaker rating between the PV array and SCC using the panel short-circuit current adjusted by the over-radiance factor and safety factor to protect wiring and components from surges/overcurrent. \\
+	\hline
+	
+	Breaker Sizing (SCC--Battery)
+	&
+	$I_{\text{CB,SCC-Bat}}=\left(\dfrac{P_{\text{array}}}{V_{\text{bat,nom}}}\right)\times F_{\text{safe}}$
+	&
+	Sizes the breaker between SCC and battery by estimating charging current (array wattage divided by nominal battery voltage) and applying a safety factor to prevent overload and overheating. \\
+	\hline
+	
+	Breaker Sizing (Battery--Inverter)
+	&
+	$I_{\text{CB,Bat-Inv}}=\dfrac{P_{\text{inv}}}{V_{\text{bat,nom}}}$
+	&
+	Determines the breaker rating between the battery bank and inverter by calculating the maximum DC current drawn during inverter operation, providing protection during high-demand usage. \\
+	\hline
+	
+	Breaker Sizing (Inverter--Load / AC Breaker)
+	&
+	$I_{\text{CB,AC}}=\left(\dfrac{P_{\text{safety load}}}{V_{\text{AC,out}}}\right)\times V_{\text{bat,nom}}$
+	&
+	Sizes the AC breaker between inverter and load by converting the expected load power into current using the inverter AC output voltage, then applying the battery nominal voltage factor as used in the design computation. \\
+	\hline
+	
+	Wire Sizing (Voltage Drop Index)
+	&
+	$\mathrm{VDI}=\dfrac{I\times L_{\text{wire}}}{V\times (\%\Delta V)}$
+	&
+	Computes the Voltage Drop Index using current, wire length, system voltage, and allowable voltage-drop percentage. Higher VDI indicates the need for a thicker wire to control voltage loss and reduce heating. \\
+	\hline
+	
+\end{longtable}
+
 
 \subsection{Hardware Development}
 
@@ -576,7 +663,7 @@ The following table outlines the key considerations for selecting hardware compo
 	
 	\addlinespace[0.6em]
 	
-	LCD Display & Display Type & 16X2 Characters \\
+	LCD Display & Display Type & 16X2 or 20X4  \\
 	& Interface & I2C \\
 	& Operating Voltage & 5V DC \\
 	
@@ -786,6 +873,19 @@ The following table outlines the key considerations for selecting hardware compo
 	An AC breaker was included to safeguard the AC output circuit. It prevents potential damage from overcurrent or short circuits when appliances are connected, ensuring both user safety and system protection. \\
 	\hline
 	
+		\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/lcd-2.png}
+		\text{20x4 LCD Module with I2C} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The 20x4 LCD module (20 characters per line, 4 lines) was selected to display more system information at once, such as rental instructions, charging/usage status, battery percentage, and error prompts. Its I2C interface (SDA/SCL) minimizes GPIO usage and wiring compared to parallel LCD connections, improving reliability and simplifying integration with the microcontroller; the module also supports backlight and contrast adjustment for readability in varying lighting conditions.\\
+	\hline
+	
 	\begin{minipage}[t]{\linewidth}
 		\centering
 		
@@ -839,7 +939,7 @@ Figure 3.15 shows the circuit diagram of the detachable power sources, illustrat
 	\centering
 	\caption{Schematic Diagram of Rental Station}
 	\label{fig:circuit}
-	\includegraphics[width=0.8\textwidth]{figures/schematic_station.png}
+	\includegraphics[width=0.6\textwidth]{figures/schematic_station.png}
 \end{figure}
 
 Figure 3.16 presents the schematic diagram of the ESP32-based control system, detailing the specific wiring connections among the ESP32, the 20×4 I2C LCD, the coin acceptor, the relay module, the solenoid valve, and the main battery supply. In this schematic, the LCD’s SDA and SCL lines are wired to the corresponding I2C pins of the ESP32, while the coin acceptor’s output signal is directed to one of the ESP32’s GPIO pins with a pull-up resistor for stable digital signal acquisition. The relay module’s input pin is connected to an ESP32 output pin, enabling the microcontroller to switch the solenoid using the battery’s power line. The schematic also shows the voltage divider linked between the battery and the ESP32’s ADC pin, ensuring that the sensed voltage remains within the microcontroller’s input range. Altogether, the diagram provides a clear representation of how each electrical connection is arranged to form a complete and dependable hardware control system.
@@ -855,16 +955,16 @@ Figure 3.17 presents the schematic diagram of the ESP32-based control system, de
 
 \subsubsection{3.2.2.4 Hardware Design}
 
-The 3D representation shows the overall design of the detachable power source and the solar-powered rental station. It provides a clear visual of the system’s shape, size and structure. The model illustrates how the different parts of the system are arranged in space, allowing a better understanding of the physical layout of the proposed system.
+The 3D representation shows the overall design of the proposed detachable power source and the solar-powered rental station. It provides a clear visual of the system’s shape, size and structure. The model illustrates how the different parts of the system are arranged in space, allowing a better understanding of the physical layout of the proposed system.
 
 \begin{figure}[H]
 	\centering
 	\caption{Detachable Power Source – Hardware Design (Front View) }
 	\label{fig:3d}
-	\includegraphics[width=1\textwidth]{figures/front.png}
+	\includegraphics[width=0.8\textwidth]{figures/front.png}
 \end{figure}
 
-Figure 3.18 illustrates the 3D front view of the detachable power source used in the system. This view represents what community residents see upon renting the unit. The front panel integrates multiple AC outlets, USB charging ports, an indicator display for real-time status monitoring, and control buttons designed for efficient power management and user interaction.
+Figure 3.18 illustrates the proposed 3D design of the detachable power source viewed from a front perspective. The unit has a compact, box-type enclosure with a flat front panel where the outlets and controls are arranged for easy access. This is the appearance that community residents see upon renting the unit. The front panel includes multiple AC outlets, USB charging ports, an indicator display for real-time status monitoring, and control buttons for power management and user interaction.
 
 \begin{figure}[H]
 	\centering
@@ -873,7 +973,33 @@ Figure 3.18 illustrates the 3D front view of the detachable power source used in
 	\includegraphics[width=1\textwidth]{figures/aerial.png}
 \end{figure}
 
-Figure 3.19 shows the 3D design of the detachable power source used in the system, viewed from an aerial perspective. It has an overall dimension of 10.04 inches in length, 7.20 inches in height, and 7.09 inches in width, which is based on the actual size and arrangement of the components and materials used. At the top of the unit, a holder strap is provided, allowing users to conveniently hold and carry the detachable power source anywhere and at any time.
+Figure 3.19 shows the proposed 3D design of the detachable power source viewed from an aerial perspective. It has overall dimensions of 10.04 inches in length, 7.20 inches in height, and 7.09 inches in width, based on the actual size and arrangement of the components and materials used. A holder strap is provided at the top of the unit, allowing users to conveniently hold and carry the detachable power source from the rental station to their homes and other nearby locations as needed.
+
+\begin{longtable}{p{5cm} p{6cm}}
+	\caption{Estimated Weight of the Detachable Power Source}\label{tab:Weight}\\
+	\toprule
+	\textbf{Component} & \textbf{Estimated Weight (g/kg)}\\
+	\midrule
+	\endfirsthead
+	
+	\bottomrule
+	\endfoot
+	
+	GPS Module x 3 & 25 g \\ 
+	GSM Module & 30 g \\ 
+	LCD 16X2 &  120 g \\
+	ESP32 x 3 & 25 g \\
+	\ce{LiFePO4} Batterry x 2 &  2500 g (2.5 lg) \\
+	Relay(12/240 V) &  150 g \\
+	Power Inverter (1000 W) & 2000 g (2.0 kg )\\
+	AC Breaker & 250 g \\
+	Cooling Fan &  200 g \\
+	\midrule
+	\textbf{Total Weight Calculated} & \textbf{5300 g or 5.3 kg} \\
+\end{longtable}
+
+Table 9 shows the estimated weight of the components inside the detachable power source and its total weight calculated of it. Excluding the enclosure or outer casing, the detachable power source is estimated to weigh approximately 5.3 kg. The majority of the weight comes from the \ce{LiFePO4} battery and the 1000 W power inverter, which together account for more than 80\% of the total mass, while the control electronics and auxiliary components contribute only a small fraction of the overall weight.
+
 
 \begin{figure}[H]
 	\centering
@@ -919,7 +1045,7 @@ Using Flutter it will enable the developers to create a single codebase that can
 	\centering
 	\caption{Activity Diagram of the Community Resident}
 	\label{fig:activity}
-	\includegraphics[width=0.35\textwidth]{figures/activity.png}
+	\includegraphics[width=0.37\textwidth]{figures/activity.png}
 \end{figure}
 
 Figure 3.21 shows the step-by-step activity flow of the system from user login to unlocking the portable power source. The process begins with checking account availability. If the user already has an account, they proceed to the login step; otherwise, they must sign up first. After logging in, the system checks if the account is valid. If the account is invalid, the process returns to the login step. If valid, the system verifies the account and displays the dashboard. Next, the system checks if a power source slot is available. If no slot is available, the user remains on the dashboard until one becomes free. If a slot is available, the process continues to the payment step. The system then verifies the payment amount. If the amount entered is not exact, the process returns to the payment step. If the payment is correct, the portable power source is successfully unlocked, completing the process.
