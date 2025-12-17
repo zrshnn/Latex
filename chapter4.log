@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.1)  23 JUL 2024 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 DEC 2025 19:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./chapter4.tex
-(chapter4.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-04>
+**chapter4.tex
+(./chapter4.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
 ! Undefined control sequence.
 l.1 \chapter
             {RESULTS AND DISCUSSION}
@@ -186,17 +186,17 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 5--6
 
 )
 ! Emergency stop.
-<*> ./chapter4.tex
-                  
+<*> chapter4.tex
+                
 *** (job aborted, no legal \end found)
 
  
 Here is how much of TeX's memory you used:
- 18 strings out of 474486
- 433 string characters out of 5743756
- 1924542 words of memory out of 5000000
- 22404 multiletter control sequences out of 15000+600000
- 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 14 strings out of 473190
+ 348 string characters out of 5715801
+ 391984 words of memory out of 5000000
+ 23367 multiletter control sequences out of 15000+600000
+ 558837 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 15i,0n,20p,182b,18s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 15i,0n,20p,180b,18s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!

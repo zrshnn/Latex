@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  8 DEC 2025 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 DEC 2025 19:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -545,14 +545,41 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@cols=\count322
 \TX@ftn=\toks32
 )
-\tocindent=\skip117
-\c@myequations=\count323
-\cftbeforemyequationsskip=\skip118
-\cftmyequationsindent=\skip119
-\cftmyequationsnumwidth=\skip120
-\c@expdepth=\count324
-\cftbeforeexptitleskip=\skip121
-\cftafterexptitleskip=\skip122
+(/usr/local/texlive/2025/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2025/01/17 v1.50 Support for acronyms (Tobias Oetiker)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count323
+\xs_countb=\count324
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+\AC@clearlist=\toks33
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box65
+\beforetitleunit=\skip117
+\aftertitleunit=\skip118
+\ttl@plus=\dimen194
+\ttl@minus=\dimen195
+\ttl@toksa=\toks34
+\titlewidth=\dimen196
+\titlewidthlast=\dimen197
+\titlewidthfirst=\dimen198
+)
+\tocindent=\skip119
+\c@myequations=\count325
+\cftbeforemyequationsskip=\skip120
+\cftmyequationsindent=\skip121
+\cftmyequationsnumwidth=\skip122
+\c@expdepth=\count326
+\cftbeforeexptitleskip=\skip123
+\cftafterexptitleskip=\skip124
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -560,18 +587,18 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count325
-\Gm@cntv=\count326
-\c@Gm@tempcnt=\count327
-\Gm@bindingoffset=\dimen194
-\Gm@wd@mp=\dimen195
-\Gm@odd@mp=\dimen196
-\Gm@even@mp=\dimen197
-\Gm@layoutwidth=\dimen198
-\Gm@layoutheight=\dimen199
-\Gm@layouthoffset=\dimen256
-\Gm@layoutvoffset=\dimen257
-\Gm@dimlist=\toks33
+\Gm@cnth=\count327
+\Gm@cntv=\count328
+\c@Gm@tempcnt=\count329
+\Gm@bindingoffset=\dimen199
+\Gm@wd@mp=\dimen256
+\Gm@odd@mp=\dimen257
+\Gm@even@mp=\dimen258
+\Gm@layoutwidth=\dimen259
+\Gm@layoutheight=\dimen260
+\Gm@layouthoffset=\dimen261
+\Gm@layoutvoffset=\dimen262
+\Gm@dimlist=\toks35
 ))
 (./basicinfo.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/topiclongtable/topiclongtable.sty
@@ -591,21 +618,21 @@ Package zref Info: New property list: main on input line 767.
 Package zref Info: New property: default on input line 768.
 Package zref Info: New property: page on input line 769.
 )
-\c@abspage=\count328
+\c@abspage=\count330
 Package zref Info: New property: abspage on input line 67.
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip123
-\multirow@cntb=\count329
-\multirow@dima=\skip124
-\bigstrutjot=\dimen258
+\multirow@colwidth=\skip125
+\multirow@cntb=\count331
+\multirow@dima=\skip126
+\bigstrutjot=\dimen263
 )
 Package: topiclongtable 2020/04/12 v1.3.2 Renders autocollapsing cells in longt
 ables
-\g_tlt_row_idx_int=\count330
-\g_tlt_col_idx_int=\count331
-\g_tlt_col_tot_int=\count332
+\g_tlt_row_idx_int=\count332
+\g_tlt_col_idx_int=\count333
+\g_tlt_col_tot_int=\count334
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
@@ -646,17 +673,17 @@ LaTeX Font Info:    ... okay on input line 41.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count333
-\scratchdimen=\dimen259
-\scratchbox=\box65
-\nofMPsegments=\count334
-\nofMParguments=\count335
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count336
-\MPscratchDim=\dimen260
-\MPnumerator=\count337
-\makeMPintoPDFobject=\count338
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count335
+\scratchdimen=\dimen264
+\scratchbox=\box66
+\nofMPsegments=\count336
+\nofMParguments=\count337
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen265
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
+\everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -666,7 +693,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@maskedRefs=\count339
+\c@maskedRefs=\count341
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
@@ -798,31 +825,29 @@ Overfull \hbox (9.94347pt too wide) in paragraph at lines 33--33
 
 
 
-[3]
-
-[4])
+[3])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
 
 
-[5] (./thesis.lot)
+[4] (./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
 
 
-[6
+[5
 
 ] (./thesis.lof
-Overfull \hbox (4.18723pt too wide) in paragraph at lines 27--27
+Overfull \hbox (4.18723pt too wide) in paragraph at lines 14--14
  [][] [][]\OT1/cmr/m/n/12 Data Flow Rep-re-sen-ta-tion of the Solar-Powered Ren
 tal 
  []
 
 
 
-[7
+[6
 
 ])
 \tf@lof=\write7
@@ -830,13 +855,13 @@ tal
 
 
 
-[8] (./thesis.exp)
+[7] (./thesis.exp)
 \tf@exp=\write8
 \openout8 = `thesis.exp'.
 
 
 
-[9
+[8
 
 ]
 \openout2 = `chapter1.aux'.
@@ -896,7 +921,7 @@ Chapter 2.
 [15]
 
 [16]
-<figures/theoretical.png, id=685, 724.7075pt x 676.5275pt>
+<figures/theoretical.png, id=611, 724.7075pt x 676.5275pt>
 File: figures/theoretical.png Graphic file (type png)
 <use figures/theoretical.png>
 Package pdftex.def Info: figures/theoretical.png  used on input line 32.
@@ -906,7 +931,7 @@ Package pdftex.def Info: figures/theoretical.png  used on input line 32.
 [17]
 
 [18 <./figures/theoretical.png>]
-<figures/ipo.png, id=697, 627.34375pt x 311.1625pt>
+<figures/ipo.png, id=624, 627.34375pt x 311.1625pt>
 File: figures/ipo.png Graphic file (type png)
 <use figures/ipo.png>
 Package pdftex.def Info: figures/ipo.png  used on input line 47.
@@ -920,7 +945,7 @@ Package pdftex.def Info: figures/ipo.png  used on input line 47.
 [21]
 
 [22]
-<figures/schematic.png, id=720, 443.6575pt x 503.8825pt>
+<figures/schematic.png, id=646, 443.6575pt x 503.8825pt>
 File: figures/schematic.png Graphic file (type png)
 <use figures/schematic.png>
 Package pdftex.def Info: figures/schematic.png  used on input line 126.
@@ -990,11 +1015,11 @@ Overfull \hbox (3.54897pt too wide) in paragraph at lines 196--197
 
  (./chapter3.tex
 Chapter 3.
-<figures/waterfall.png, id=798, 663.47874pt x 482.80376pt>
+<figures/waterfall.png, id=724, 663.47874pt x 482.80376pt>
 File: figures/waterfall.png Graphic file (type png)
 <use figures/waterfall.png>
 Package pdftex.def Info: figures/waterfall.png  used on input line 13.
-(pdftex.def)             Requested size: 278.2383pt x 202.46678pt.
+(pdftex.def)             Requested size: 238.49342pt x 173.544pt.
 
 
 [41
@@ -1011,538 +1036,547 @@ ev-ing the study's
 
 
 [42]
-<figures/planning.png, id=808, 653.44125pt x 487.8225pt>
+<figures/planning.png, id=735, 653.44125pt x 487.8225pt>
 File: figures/planning.png Graphic file (type png)
 <use figures/planning.png>
 Package pdftex.def Info: figures/planning.png  used on input line 31.
-(pdftex.def)             Requested size: 317.98921pt x 237.39009pt.
+(pdftex.def)             Requested size: 278.2383pt x 207.7126pt.
 
 
 [43 <./figures/planning.png>]
 
 [44]
-<figures/map.png, id=818, 923.45pt x 1152.305pt>
+<figures/map.png, id=745, 2308.625pt x 1397.22pt>
 File: figures/map.png Graphic file (type png)
 <use figures/map.png>
-Package pdftex.def Info: figures/map.png  used on input line 49.
-(pdftex.def)             Requested size: 198.74251pt x 247.98691pt.
+Package pdftex.def Info: figures/map.png  used on input line 90.
+(pdftex.def)             Requested size: 397.48502pt x 240.55168pt.
 
 
-[45 <./figures/map.png>]
-<figures/hdevelopment.png, id=824, 543.02875pt x 263.98625pt>
-File: figures/hdevelopment.png Graphic file (type png)
-<use figures/hdevelopment.png>
-Package pdftex.def Info: figures/hdevelopment.png  used on input line 65.
-(pdftex.def)             Requested size: 317.98921pt x 154.59044pt.
+[45]
 
-
-[46 <./figures/hdevelopment.png>]
-Overfull \hbox (2.71033pt too wide) in alignment at lines 73--79
- [] [] [] 
- []
-
-
-Overfull \hbox (2.71033pt too wide) in alignment at lines 79--84
- [] [] [] 
- []
-
-
-Overfull \hbox (2.71033pt too wide) in alignment at lines 84--87
- [] [] [] 
- []
-
-
-Overfull \hbox (2.71033pt too wide) in alignment at lines 87--187
- [] [] [] 
- []
-
-[47]
-<figures/esp32.png, id=836, 602.25pt x 602.25pt>
-File: figures/esp32.png Graphic file (type png)
-<use figures/esp32.png>
-Package pdftex.def Info: figures/esp32.png  used on input line 210.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/panel.jpg, id=837, 722.7pt x 722.7pt>
-File: figures/panel.jpg Graphic file (type jpg)
-<use figures/panel.jpg>
-Package pdftex.def Info: figures/panel.jpg  used on input line 222.
-(pdftex.def)             Requested size: 119.50104pt x 119.49397pt.
-<figures/battery.png, id=838, 602.25pt x 602.25pt>
-File: figures/battery.png Graphic file (type png)
-<use figures/battery.png>
-Package pdftex.def Info: figures/battery.png  used on input line 235.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-
-Underfull \hbox (badness 2452) in paragraph at lines 241--242
-[]|\OT1/cmr/m/n/12 The LiFePO$[]$ bat-tery was se-lected
- []
-
-<figures/controller.png, id=839, 602.25pt x 602.25pt>
-File: figures/controller.png Graphic file (type png)
-<use figures/controller.png>
-Package pdftex.def Info: figures/controller.png  used on input line 248.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-
-Underfull \hbox (badness 1158) in paragraph at lines 254--255
-[]|\OT1/cmr/m/n/12 An MPPT (Max-i-mum Power Point
- []
-
-<figures/inverter.png, id=840, 602.25pt x 602.25pt>
-File: figures/inverter.png Graphic file (type png)
-<use figures/inverter.png>
-Package pdftex.def Info: figures/inverter.png  used on input line 261.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/charger.png, id=841, 602.25pt x 602.25pt>
-File: figures/charger.png Graphic file (type png)
-<use figures/charger.png>
-Package pdftex.def Info: figures/charger.png  used on input line 275.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/coin.png, id=842, 602.25pt x 602.25pt>
-File: figures/coin.png Graphic file (type png)
-<use figures/coin.png>
-Package pdftex.def Info: figures/coin.png  used on input line 288.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/dcbreaker.png, id=843, 602.25pt x 602.25pt>
-File: figures/dcbreaker.png Graphic file (type png)
-<use figures/dcbreaker.png>
-Package pdftex.def Info: figures/dcbreaker.png  used on input line 301.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/wire.png, id=844, 602.25pt x 602.25pt>
-File: figures/wire.png Graphic file (type png)
-<use figures/wire.png>
-Package pdftex.def Info: figures/wire.png  used on input line 314.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/gsm.png, id=845, 602.25pt x 602.25pt>
-File: figures/gsm.png Graphic file (type png)
-<use figures/gsm.png>
-Package pdftex.def Info: figures/gsm.png  used on input line 327.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/gps.png, id=846, 602.25pt x 602.25pt>
-File: figures/gps.png Graphic file (type png)
-<use figures/gps.png>
-Package pdftex.def Info: figures/gps.png  used on input line 340.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/relay.png, id=847, 602.25pt x 602.25pt>
-File: figures/relay.png Graphic file (type png)
-<use figures/relay.png>
-Package pdftex.def Info: figures/relay.png  used on input line 353.
-(pdftex.def)             Requested size: 119.50104pt x 119.50133pt.
-
-Underfull \hbox (badness 2293) in paragraph at lines 359--360
-[]|\OT1/cmr/m/n/12 Relays were used to con-trol high-
- []
-
-
-Underfull \hbox (badness 3098) in paragraph at lines 359--360
-\OT1/cmr/m/n/12 se-lec-tion en-sures safe and ef-fi-cient
- []
-
-<figures/solenoid.png, id=848, 602.25pt x 602.25pt>
-File: figures/solenoid.png Graphic file (type png)
-<use figures/solenoid.png>
-Package pdftex.def Info: figures/solenoid.png  used on input line 366.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/acbreaker.png, id=849, 602.25pt x 602.25pt>
-File: figures/acbreaker.png Graphic file (type png)
-<use figures/acbreaker.png>
-Package pdftex.def Info: figures/acbreaker.png  used on input line 379.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-
-Underfull \hbox (badness 1852) in paragraph at lines 385--386
-\OT1/cmr/m/n/12 guard the AC out-put cir-cuit. It
- []
-
-<figures/lcd.png, id=850, 602.25pt x 602.25pt>
-File: figures/lcd.png Graphic file (type png)
-<use figures/lcd.png>
-Package pdftex.def Info: figures/lcd.png  used on input line 392.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/router.png, id=851, 602.25pt x 602.25pt>
-File: figures/router.png Graphic file (type png)
-<use figures/router.png>
-Package pdftex.def Info: figures/router.png  used on input line 405.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-
-
-[48] [49 <./figures/esp32.png (PNG copy)> <./figures/panel.jpg> <./figures/batt
-ery.png (PNG copy)>] [50 <./figures/controller.png (PNG copy)> <./figures/inver
-ter.png> <./figures/charger.png>] [51 <./figures/coin.png (PNG copy)> <./figure
-s/dcbreaker.png> <./figures/wire.png>] [52 <./figures/gsm.png> <./figures/gps.p
-ng> <./figures/relay.png>] [53 <./figures/solenoid.png> <./figures/acbreaker.pn
-g> <./figures/lcd.png (PNG copy)>]
-<figures/circuit_station.png, id=886, 2710.125pt x 1990.43625pt>
-File: figures/circuit_station.png Graphic file (type png)
-<use figures/circuit_station.png>
-Package pdftex.def Info: figures/circuit_station.png  used on input line 421.
-(pdftex.def)             Requested size: 397.48502pt x 291.93155pt.
-
-
-[54 <./figures/router.png>]
-<figures/schematic_station.png, id=892, 3598.44376pt x 2430.07875pt>
-File: figures/schematic_station.png Graphic file (type png)
-<use figures/schematic_station.png>
-Package pdftex.def Info: figures/schematic_station.png  used on input line 429.
-
-(pdftex.def)             Requested size: 397.48502pt x 268.42189pt.
-
-
-[55 <./figures/circuit_station.png>]
-<figures/circuit_power.png, id=898, 2514.39375pt x 2156.055pt>
-File: figures/circuit_power.png Graphic file (type png)
-<use figures/circuit_power.png>
-Package pdftex.def Info: figures/circuit_power.png  used on input line 438.
-(pdftex.def)             Requested size: 397.48502pt x 340.83061pt.
-
-
-[56 <./figures/schematic_station.png>]
-<figures/schematic_power.png, id=905, 2210.2575pt x 1403.2425pt>
-File: figures/schematic_power.png Graphic file (type png)
-<use figures/schematic_power.png>
-Package pdftex.def Info: figures/schematic_power.png  used on input line 446.
-(pdftex.def)             Requested size: 397.48502pt x 252.33722pt.
-
-
-[57 <./figures/circuit_power.png>]
-<figures/front.png, id=911, 1053.9375pt x 598.235pt>
-File: figures/front.png Graphic file (type png)
-<use figures/front.png>
-Package pdftex.def Info: figures/front.png  used on input line 457.
-(pdftex.def)             Requested size: 317.98921pt x 180.49425pt.
-
-
-[58 <./figures/schematic_power.png>]
-<figures/aerial.png, id=918, 1069.9975pt x 582.175pt>
-File: figures/aerial.png Graphic file (type png)
-<use figures/aerial.png>
-Package pdftex.def Info: figures/aerial.png  used on input line 464.
-(pdftex.def)             Requested size: 317.98921pt x 173.01044pt.
-<figures/rental.png, id=919, 1363.0925pt x 1242.6425pt>
-File: figures/rental.png Graphic file (type png)
-<use figures/rental.png>
-Package pdftex.def Info: figures/rental.png  used on input line 471.
-(pdftex.def)             Requested size: 397.48502pt x 362.36699pt.
-
-
-[59 <./figures/front.png> <./figures/aerial.png>]
-
-[60 <./figures/rental.png>]
-
-[61]
-
-[62]
-
-[63]
-<figures/activity.png, id=943, 748.7975pt x 1704.3675pt>
-File: figures/activity.png Graphic file (type png)
-<use figures/activity.png>
-Package pdftex.def Info: figures/activity.png  used on input line 511.
-(pdftex.def)             Requested size: 218.61797pt x 497.60876pt.
-
-
-[64]
-
-[65 <./figures/activity.png>]
-
-[66]
-
-[67]
-
-[68]
-
-[69]
-
-[70]
-
-[71]
-
-[72]
-Underfull \hbox (badness 1087) in paragraph at lines 616--617
+[46 <./figures/map.png>]
+Underfull \hbox (badness 1087) in paragraph at lines 129--130
 []|\OT1/cmr/m/n/12 - The sys-tem shall con-tin-u-ously mon-i-tor and
  []
 
-[73] [74]
-Overfull \hbox (0.8003pt too wide) in paragraph at lines 648--648
-[]|\OT1/cmr/bx/n/12 Hours/Day| 
- []
-
-
-Overfull \hbox (21.01942pt too wide) in alignment at lines 645--650
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (0.8003pt too wide) in paragraph at lines 653--653
-[]|\OT1/cmr/bx/n/12 Hours/Day| 
- []
-
-
-Overfull \hbox (21.01942pt too wide) in alignment at lines 650--655
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (21.01942pt too wide) in alignment at lines 655--658
- [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 661--661
-[]|\OT1/cmr/m/n/12 Mobile Phone
- []
-
-
-Overfull \hbox (21.01942pt too wide) in alignment at lines 658--665
- [] [] [] [] [] 
- []
-
-
-
-[75]
-Overfull \hbox (3.73471pt too wide) detected at line 680
-[][][][] \OT1/cmr/m/n/12 = [] + []
- []
-
-
-LaTeX Warning: Hyper reference `appendix:A' on page 76 undefined on input line 
-683.
-
-
-LaTeX Warning: Hyper reference `appendix:A' on page 76 undefined on input line 
-697.
-
-
-
-[76]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 77 undefined on input line 
-707.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 713--713
-[]|\OT1/cmr/bx/n/12 Power
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 718--718
-[]|\OT1/cmr/bx/n/12 Power
- []
-
-
-
-[77]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 78 undefined on input line 
-738.
-
-
-LaTeX Warning: Hyper reference `appendix:A' on page 78 undefined on input line 
-748.
-
-
-
-[78]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 79 undefined on input line 
-759.
-
-
-
-[79]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 80 undefined on input line 
-768.
-
-
-
-[80]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 81 undefined on input line 
-777.
-
-
-LaTeX Warning: Hyper reference `appendix:A' on page 81 undefined on input line 
-786.
-
-
-
-[81]
-
-[82]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 83 undefined on input line 
-803.
-
-
-
-[83]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 84 undefined on input line 
-809.
-
-<figures/architecture.jpg, id=1047, 4557.025pt x 3878.49pt>
+[47] [48]
+<figures/architecture.jpg, id=765, 4557.025pt x 3878.49pt>
 File: figures/architecture.jpg Graphic file (type jpg)
 <use figures/architecture.jpg>
-Package pdftex.def Info: figures/architecture.jpg  used on input line 821.
+Package pdftex.def Info: figures/architecture.jpg  used on input line 164.
 (pdftex.def)             Requested size: 337.86469pt x 287.50089pt.
 
 
-[84]
+[49]
 
-[85 <./figures/architecture.jpg>]
-<figures/flowchart.png, id=1058, 733.74126pt x 1245.65375pt>
+[50 <./figures/architecture.jpg>]
+<figures/flowchart.png, id=775, 733.74126pt x 1245.65375pt>
 File: figures/flowchart.png Graphic file (type png)
 <use figures/flowchart.png>
-Package pdftex.def Info: figures/flowchart.png  used on input line 849.
+Package pdftex.def Info: figures/flowchart.png  used on input line 192.
 (pdftex.def)             Requested size: 238.49342pt x 404.87068pt.
 
 
-[86]
+[51]
 
-[87 <./figures/flowchart.png>]
-<figures/harvesting.png, id=1068, 2672.98625pt x 639.38875pt>
-File: figures/harvesting.png Graphic file (type png)
-<use figures/harvesting.png>
-Package pdftex.def Info: figures/harvesting.png  used on input line 865.
-(pdftex.def)             Requested size: 397.48502pt x 95.07489pt.
-
-
-[88]
-<figures/conversion.png, id=1074, 3364.57pt x 502.87875pt>
-File: figures/conversion.png Graphic file (type png)
-<use figures/conversion.png>
-Package pdftex.def Info: figures/conversion.png  used on input line 876.
-(pdftex.def)             Requested size: 397.48502pt x 59.4067pt.
-
-
-[89 <./figures/harvesting.png> <./figures/conversion.png>]
-<figures/monitoring.png, id=1081, 1081.03876pt x 391.4625pt>
-File: figures/monitoring.png Graphic file (type png)
-<use figures/monitoring.png>
-Package pdftex.def Info: figures/monitoring.png  used on input line 887.
-(pdftex.def)             Requested size: 397.48502pt x 143.93092pt.
-
-
-[90 <./figures/monitoring.png>]
-<figures/tracking.png, id=1087, 1179.40625pt x 312.16624pt>
-File: figures/tracking.png Graphic file (type png)
-<use figures/tracking.png>
-Package pdftex.def Info: figures/tracking.png  used on input line 899.
-(pdftex.def)             Requested size: 397.48502pt x 105.20627pt.
-<figures/context.png, id=1088, 745.78625pt x 559.08875pt>
+[52 <./figures/flowchart.png>]
+<figures/context.png, id=785, 745.78625pt x 559.08875pt>
 File: figures/context.png Graphic file (type png)
 <use figures/context.png>
-Package pdftex.def Info: figures/context.png  used on input line 911.
+Package pdftex.def Info: figures/context.png  used on input line 207.
 (pdftex.def)             Requested size: 397.48502pt x 297.97916pt.
 
 
-[91 <./figures/tracking.png>]
+[53]
 
-[92 <./figures/context.png>]
-Overfull \hbox (0.15456pt too wide) in paragraph at lines 916--917
+[54 <./figures/context.png>]
+Overfull \hbox (0.15456pt too wide) in paragraph at lines 212--213
 []\OT1/cmr/m/n/12 The in-ter-ac-tion be-tween the com-mu-nity res-i-dents and t
 he solar-powered
  []
 
-<figures/dflow.png, id=1099, 974.64125pt x 787.94376pt>
+<figures/dflow.png, id=796, 974.64125pt x 787.94376pt>
 File: figures/dflow.png Graphic file (type png)
 <use figures/dflow.png>
-Package pdftex.def Info: figures/dflow.png  used on input line 925.
+Package pdftex.def Info: figures/dflow.png  used on input line 221.
 (pdftex.def)             Requested size: 397.48502pt x 321.33974pt.
 
 
-[93]
+[55]
 
-[94 <./figures/dflow.png>]
-<figures/usecase.png, id=1110, 1123.19624pt x 1036.87375pt>
+[56 <./figures/dflow.png>]
+<figures/usecase.png, id=806, 1123.19624pt x 1036.87375pt>
 File: figures/usecase.png Graphic file (type png)
 <use figures/usecase.png>
-Package pdftex.def Info: figures/usecase.png  used on input line 937.
+Package pdftex.def Info: figures/usecase.png  used on input line 231.
 (pdftex.def)             Requested size: 397.48502pt x 366.92989pt.
 
 
-[95]
+[57]
 
-[96 <./figures/usecase.png>]
+[58 <./figures/usecase.png>]
 
-[97]
-<figures/welcome.png, id=1125, 1668.2325pt x 1035.87pt>
+[59]
+<figures/harvesting.png, id=821, 2672.98625pt x 639.38875pt>
+File: figures/harvesting.png Graphic file (type png)
+<use figures/harvesting.png>
+Package pdftex.def Info: figures/harvesting.png  used on input line 246.
+(pdftex.def)             Requested size: 397.48502pt x 95.07489pt.
+
+
+[60 <./figures/harvesting.png>]
+<figures/conversion.png, id=827, 3364.57pt x 502.87875pt>
+File: figures/conversion.png Graphic file (type png)
+<use figures/conversion.png>
+Package pdftex.def Info: figures/conversion.png  used on input line 257.
+(pdftex.def)             Requested size: 397.48502pt x 59.4067pt.
+<figures/monitoring.png, id=828, 1081.03876pt x 391.4625pt>
+File: figures/monitoring.png Graphic file (type png)
+<use figures/monitoring.png>
+Package pdftex.def Info: figures/monitoring.png  used on input line 268.
+(pdftex.def)             Requested size: 397.48502pt x 143.93092pt.
+
+
+[61 <./figures/conversion.png>]
+<figures/tracking.png, id=834, 1179.40625pt x 312.16624pt>
+File: figures/tracking.png Graphic file (type png)
+<use figures/tracking.png>
+Package pdftex.def Info: figures/tracking.png  used on input line 279.
+(pdftex.def)             Requested size: 397.48502pt x 105.20627pt.
+
+
+[62 <./figures/monitoring.png>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 286.
+
+
+Overfull \hbox (0.8003pt too wide) in paragraph at lines 291--291
+[]|\OT1/cmr/bx/n/12 Hours/Day| 
+ []
+
+
+Overfull \hbox (21.01942pt too wide) in alignment at lines 288--293
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.8003pt too wide) in paragraph at lines 296--296
+[]|\OT1/cmr/bx/n/12 Hours/Day| 
+ []
+
+
+Overfull \hbox (21.01942pt too wide) in alignment at lines 293--298
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.01942pt too wide) in alignment at lines 298--301
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]|\OT1/cmr/m/n/12 Mobile Phone
+ []
+
+
+Overfull \hbox (21.01942pt too wide) in alignment at lines 301--308
+ [] [] [] [] [] 
+ []
+
+[63 <./figures/tracking.png>]
+Overfull \hbox (3.73471pt too wide) detected at line 323
+[][][][] \OT1/cmr/m/n/12 = [] + []
+ []
+
+
+LaTeX Warning: Hyper reference `appendix:A' on page 64 undefined on input line 
+326.
+
+
+
+[64]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 65 undefined on input line 
+340.
+
+
+LaTeX Warning: Hyper reference `appendix:A' on page 65 undefined on input line 
+350.
+
+
+
+[65]
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+[]|\OT1/cmr/bx/n/12 Power
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+[]|\OT1/cmr/bx/n/12 Power
+ []
+
+
+LaTeX Warning: Hyper reference `appendix:A' on page 66 undefined on input line 
+381.
+
+
+
+[66]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 67 undefined on input line 
+391.
+
+
+LaTeX Warning: Hyper reference `appendix:A' on page 67 undefined on input line 
+402.
+
+
+
+[67]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 68 undefined on input line 
+411.
+
+
+
+[68]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 69 undefined on input line 
+420.
+
+
+
+[69]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 70 undefined on input line 
+429.
+
+
+
+[70]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 71 undefined on input line 
+446.
+
+
+
+[71]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 72 undefined on input line 
+452.
+
+<figures/hdevelopment.png, id=898, 543.02875pt x 263.98625pt>
+File: figures/hdevelopment.png Graphic file (type png)
+<use figures/hdevelopment.png>
+Package pdftex.def Info: figures/hdevelopment.png  used on input line 464.
+(pdftex.def)             Requested size: 317.98921pt x 154.59044pt.
+
+
+[72]
+
+[73 <./figures/hdevelopment.png>]
+Overfull \hbox (2.71033pt too wide) in alignment at lines 474--480
+ [] [] [] 
+ []
+
+
+Overfull \hbox (2.71033pt too wide) in alignment at lines 480--485
+ [] [] [] 
+ []
+
+
+Overfull \hbox (2.71033pt too wide) in alignment at lines 485--488
+ [] [] [] 
+ []
+
+
+Overfull \hbox (2.71033pt too wide) in alignment at lines 488--588
+ [] [] [] 
+ []
+
+[74]
+<figures/esp32.png, id=913, 602.25pt x 602.25pt>
+File: figures/esp32.png Graphic file (type png)
+<use figures/esp32.png>
+Package pdftex.def Info: figures/esp32.png  used on input line 611.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/panel.jpg, id=914, 722.7pt x 722.7pt>
+File: figures/panel.jpg Graphic file (type jpg)
+<use figures/panel.jpg>
+Package pdftex.def Info: figures/panel.jpg  used on input line 623.
+(pdftex.def)             Requested size: 119.50104pt x 119.49397pt.
+<figures/battery.png, id=915, 602.25pt x 602.25pt>
+File: figures/battery.png Graphic file (type png)
+<use figures/battery.png>
+Package pdftex.def Info: figures/battery.png  used on input line 636.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+
+Underfull \hbox (badness 2452) in paragraph at lines 642--643
+[]|\OT1/cmr/m/n/12 The LiFePO$[]$ bat-tery was se-lected
+ []
+
+<figures/controller.png, id=916, 602.25pt x 602.25pt>
+File: figures/controller.png Graphic file (type png)
+<use figures/controller.png>
+Package pdftex.def Info: figures/controller.png  used on input line 649.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+
+Underfull \hbox (badness 1158) in paragraph at lines 655--656
+[]|\OT1/cmr/m/n/12 An MPPT (Max-i-mum Power Point
+ []
+
+<figures/inverter.png, id=917, 602.25pt x 602.25pt>
+File: figures/inverter.png Graphic file (type png)
+<use figures/inverter.png>
+Package pdftex.def Info: figures/inverter.png  used on input line 662.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/charger.png, id=918, 602.25pt x 602.25pt>
+File: figures/charger.png Graphic file (type png)
+<use figures/charger.png>
+Package pdftex.def Info: figures/charger.png  used on input line 676.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/coin.png, id=919, 602.25pt x 602.25pt>
+File: figures/coin.png Graphic file (type png)
+<use figures/coin.png>
+Package pdftex.def Info: figures/coin.png  used on input line 689.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/dcbreaker.png, id=920, 602.25pt x 602.25pt>
+File: figures/dcbreaker.png Graphic file (type png)
+<use figures/dcbreaker.png>
+Package pdftex.def Info: figures/dcbreaker.png  used on input line 702.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/wire.png, id=921, 602.25pt x 602.25pt>
+File: figures/wire.png Graphic file (type png)
+<use figures/wire.png>
+Package pdftex.def Info: figures/wire.png  used on input line 715.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/gsm.png, id=922, 602.25pt x 602.25pt>
+File: figures/gsm.png Graphic file (type png)
+<use figures/gsm.png>
+Package pdftex.def Info: figures/gsm.png  used on input line 728.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/gps.png, id=923, 602.25pt x 602.25pt>
+File: figures/gps.png Graphic file (type png)
+<use figures/gps.png>
+Package pdftex.def Info: figures/gps.png  used on input line 741.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/relay.png, id=924, 602.25pt x 602.25pt>
+File: figures/relay.png Graphic file (type png)
+<use figures/relay.png>
+Package pdftex.def Info: figures/relay.png  used on input line 754.
+(pdftex.def)             Requested size: 119.50104pt x 119.50133pt.
+
+Underfull \hbox (badness 2293) in paragraph at lines 760--761
+[]|\OT1/cmr/m/n/12 Relays were used to con-trol high-
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 760--761
+\OT1/cmr/m/n/12 se-lec-tion en-sures safe and ef-fi-cient
+ []
+
+<figures/solenoid.png, id=925, 602.25pt x 602.25pt>
+File: figures/solenoid.png Graphic file (type png)
+<use figures/solenoid.png>
+Package pdftex.def Info: figures/solenoid.png  used on input line 767.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/acbreaker.png, id=926, 602.25pt x 602.25pt>
+File: figures/acbreaker.png Graphic file (type png)
+<use figures/acbreaker.png>
+Package pdftex.def Info: figures/acbreaker.png  used on input line 780.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+
+Underfull \hbox (badness 1852) in paragraph at lines 786--787
+\OT1/cmr/m/n/12 guard the AC out-put cir-cuit. It
+ []
+
+<figures/lcd.png, id=927, 602.25pt x 602.25pt>
+File: figures/lcd.png Graphic file (type png)
+<use figures/lcd.png>
+Package pdftex.def Info: figures/lcd.png  used on input line 793.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/router.png, id=928, 602.25pt x 602.25pt>
+File: figures/router.png Graphic file (type png)
+<use figures/router.png>
+Package pdftex.def Info: figures/router.png  used on input line 806.
+(pdftex.def)             Requested size: 93.8946pt x 93.88997pt.
+
+
+[75] [76 <./figures/esp32.png (PNG copy)> <./figures/panel.jpg> <./figures/batt
+ery.png (PNG copy)>] [77 <./figures/controller.png (PNG copy)> <./figures/inver
+ter.png> <./figures/charger.png>] [78 <./figures/coin.png (PNG copy)> <./figure
+s/dcbreaker.png> <./figures/wire.png>] [79 <./figures/gsm.png> <./figures/gps.p
+ng> <./figures/relay.png>] [80 <./figures/solenoid.png> <./figures/acbreaker.pn
+g> <./figures/lcd.png (PNG copy)>]
+<figures/circuit_station.png, id=963, 2710.125pt x 1990.43625pt>
+File: figures/circuit_station.png Graphic file (type png)
+<use figures/circuit_station.png>
+Package pdftex.def Info: figures/circuit_station.png  used on input line 822.
+(pdftex.def)             Requested size: 198.74251pt x 145.96577pt.
+
+
+[81 <./figures/router.png> <./figures/circuit_station.png>]
+<figures/circuit_power.png, id=970, 2514.39375pt x 2156.055pt>
+File: figures/circuit_power.png Graphic file (type png)
+<use figures/circuit_power.png>
+Package pdftex.def Info: figures/circuit_power.png  used on input line 831.
+(pdftex.def)             Requested size: 198.74251pt x 170.4153pt.
+
+
+[82 <./figures/circuit_power.png>]
+<figures/schematic_station.png, id=976, 3598.44376pt x 2430.07875pt>
+File: figures/schematic_station.png Graphic file (type png)
+<use figures/schematic_station.png>
+Package pdftex.def Info: figures/schematic_station.png  used on input line 842.
+
+(pdftex.def)             Requested size: 317.98921pt x 214.73009pt.
+
+
+[83 <./figures/schematic_station.png>]
+<figures/schematic_power.png, id=983, 2210.2575pt x 1403.2425pt>
+File: figures/schematic_power.png Graphic file (type png)
+<use figures/schematic_power.png>
+Package pdftex.def Info: figures/schematic_power.png  used on input line 851.
+(pdftex.def)             Requested size: 238.49342pt x 151.40233pt.
+
+
+[84 <./figures/schematic_power.png>]
+<figures/front.png, id=989, 1272.755pt x 728.7225pt>
+File: figures/front.png Graphic file (type png)
+<use figures/front.png>
+Package pdftex.def Info: figures/front.png  used on input line 864.
+(pdftex.def)             Requested size: 397.48502pt x 227.58066pt.
+
+
+[85]
+<figures/aerial.png, id=994, 1477.52pt x 927.465pt>
+File: figures/aerial.png Graphic file (type png)
+<use figures/aerial.png>
+Package pdftex.def Info: figures/aerial.png  used on input line 873.
+(pdftex.def)             Requested size: 397.48502pt x 249.49902pt.
+
+
+[86 <./figures/front.png>]
+<figures/rental.png, id=1000, 1527.7075pt x 1411.2725pt>
+File: figures/rental.png Graphic file (type png)
+<use figures/rental.png>
+Package pdftex.def Info: figures/rental.png  used on input line 882.
+(pdftex.def)             Requested size: 317.98921pt x 293.7488pt.
+
+
+[87 <./figures/aerial.png>]
+
+[88 <./figures/rental.png>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 892.
+
+
+
+[89]
+
+[90]
+
+[91]
+<figures/activity.png, id=1025, 748.7975pt x 1704.3675pt>
+File: figures/activity.png Graphic file (type png)
+<use figures/activity.png>
+Package pdftex.def Info: figures/activity.png  used on input line 922.
+(pdftex.def)             Requested size: 139.12218pt x 316.6554pt.
+
+
+[92 <./figures/activity.png>]
+
+[93]
+
+[94]
+<figures/welcome.png, id=1039, 1668.2325pt x 1035.87pt>
 File: figures/welcome.png Graphic file (type png)
 <use figures/welcome.png>
-Package pdftex.def Info: figures/welcome.png  used on input line 952.
+Package pdftex.def Info: figures/welcome.png  used on input line 944.
 (pdftex.def)             Requested size: 397.48502pt x 246.81198pt.
-
-
-[98]
-<figures/signin.png, id=1130, 825.0825pt x 1049.9225pt>
+<figures/signin.png, id=1040, 825.0825pt x 1049.9225pt>
 File: figures/signin.png Graphic file (type png)
 <use figures/signin.png>
-Package pdftex.def Info: figures/signin.png  used on input line 961.
+Package pdftex.def Info: figures/signin.png  used on input line 953.
 (pdftex.def)             Requested size: 278.2383pt x 354.05319pt.
 
 
-[99 <./figures/welcome.png>]
-<figures/signup.png, id=1136, 2236.355pt x 1039.885pt>
+[95 <./figures/welcome.png>]
+<figures/signup.png, id=1047, 2236.355pt x 1039.885pt>
 File: figures/signup.png Graphic file (type png)
 <use figures/signup.png>
-Package pdftex.def Info: figures/signup.png  used on input line 970.
+Package pdftex.def Info: figures/signup.png  used on input line 962.
 (pdftex.def)             Requested size: 397.48502pt x 184.82285pt.
 
 
-[100 <./figures/signin.png>]
-<figures/home.png, id=1143, 825.0825pt x 1035.87pt>
+[96 <./figures/signin.png>]
+<figures/home.png, id=1053, 825.0825pt x 1035.87pt>
 File: figures/home.png Graphic file (type png)
 <use figures/home.png>
-Package pdftex.def Info: figures/home.png  used on input line 979.
+Package pdftex.def Info: figures/home.png  used on input line 971.
 (pdftex.def)             Requested size: 278.2383pt x 349.31442pt.
 
 
-[101 <./figures/signup.png>]
-<figures/renting.png, id=1149, 1668.2325pt x 1041.8925pt>
+[97 <./figures/signup.png>]
+<figures/renting.png, id=1059, 1668.2325pt x 1041.8925pt>
 File: figures/renting.png Graphic file (type png)
 <use figures/renting.png>
-Package pdftex.def Info: figures/renting.png  used on input line 988.
-(pdftex.def)             Requested size: 397.48502pt x 248.24693pt.
+Package pdftex.def Info: figures/renting.png  used on input line 980.
+(pdftex.def)             Requested size: 238.49342pt x 148.94817pt.
 
 
-[102 <./figures/home.png>]
-<figures/admin.png, id=1155, 821.0675pt x 1023.825pt>
+[98 <./figures/home.png>]
+<figures/admin.png, id=1065, 821.0675pt x 1023.825pt>
 File: figures/admin.png Graphic file (type png)
 <use figures/admin.png>
-Package pdftex.def Info: figures/admin.png  used on input line 997.
+Package pdftex.def Info: figures/admin.png  used on input line 989.
 (pdftex.def)             Requested size: 119.2467pt x 148.69296pt.
 
 
-[103 <./figures/renting.png>]
-<figures/admin2.png, id=1161, 829.0975pt x 1049.9225pt>
+[99 <./figures/renting.png> <./figures/admin.png>]
+<figures/admin2.png, id=1072, 829.0975pt x 1049.9225pt>
 File: figures/admin2.png Graphic file (type png)
 <use figures/admin2.png>
-Package pdftex.def Info: figures/admin2.png  used on input line 1006.
+Package pdftex.def Info: figures/admin2.png  used on input line 998.
 (pdftex.def)             Requested size: 119.2467pt x 150.99327pt.
 
 
-[104 <./figures/admin.png> <./figures/admin2.png>]
+[100 <./figures/admin2.png>]
 
-[105])
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 1008.
 
-[106]
+
+
+[101]
+
+[102]
+
+[103])
+
+[104]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
 
-[107
+[105
 
 
 
 
 ]
 
-[108]
+[106]
+
+[107]
+
+[108])
 
 [109]
-
-[110])
-
-[111]
 \openout2 = `bibliography.aux'.
 
  (./bibliography.tex
@@ -1551,7 +1585,7 @@ Package natbib Warning: Empty `thebibliography' environment on input line 6.
 
 )
 
-[112
+[110
 
 
 
@@ -1570,20 +1604,20 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: FD9308A92DAE1911A9F269DAA068811C;19823.
+(rerunfilecheck)             Checksum: EA5D7683E1540965D91E5E39678B4B0B;18499.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16968 strings out of 473190
- 278059 string characters out of 5715801
- 733078 words of memory out of 5000000
- 39605 multiletter control sequences out of 15000+600000
+ 17771 strings out of 473190
+ 289368 string characters out of 5715801
+ 753129 words of memory out of 5000000
+ 40430 multiletter control sequences out of 15000+600000
  566635 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,12n,82p,2467b,766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,12n,82p,2467b,902s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/c
@@ -1595,10 +1629,10 @@ mr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pf
 b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
 
-Output written on thesis.pdf (121 pages, 19098593 bytes).
+Output written on thesis.pdf (118 pages, 22650996 bytes).
 PDF statistics:
- 1329 PDF objects out of 1440 (max. 8388607)
- 1087 compressed objects within 11 object streams
- 289 named destinations out of 1000 (max. 500000)
- 980 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1230 PDF objects out of 1440 (max. 8388607)
+ 992 compressed objects within 10 object streams
+ 250 named destinations out of 1000 (max. 500000)
+ 900 words of extra memory for PDF output out of 10000 (max. 10000000)
 
