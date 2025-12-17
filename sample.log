@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  8 DEC 2025 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 DEC 2025 19:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -537,14 +537,41 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@cols=\count322
 \TX@ftn=\toks31
 )
-\tocindent=\skip117
-\c@myequations=\count323
-\cftbeforemyequationsskip=\skip118
-\cftmyequationsindent=\skip119
-\cftmyequationsnumwidth=\skip120
-\c@expdepth=\count324
-\cftbeforeexptitleskip=\skip121
-\cftafterexptitleskip=\skip122
+(/usr/local/texlive/2025/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2025/01/17 v1.50 Support for acronyms (Tobias Oetiker)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count323
+\xs_countb=\count324
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+\AC@clearlist=\toks32
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box65
+\beforetitleunit=\skip117
+\aftertitleunit=\skip118
+\ttl@plus=\dimen194
+\ttl@minus=\dimen195
+\ttl@toksa=\toks33
+\titlewidth=\dimen196
+\titlewidthlast=\dimen197
+\titlewidthfirst=\dimen198
+)
+\tocindent=\skip119
+\c@myequations=\count325
+\cftbeforemyequationsskip=\skip120
+\cftmyequationsindent=\skip121
+\cftmyequationsnumwidth=\skip122
+\c@expdepth=\count326
+\cftbeforeexptitleskip=\skip123
+\cftafterexptitleskip=\skip124
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -552,18 +579,18 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count325
-\Gm@cntv=\count326
-\c@Gm@tempcnt=\count327
-\Gm@bindingoffset=\dimen194
-\Gm@wd@mp=\dimen195
-\Gm@odd@mp=\dimen196
-\Gm@even@mp=\dimen197
-\Gm@layoutwidth=\dimen198
-\Gm@layoutheight=\dimen199
-\Gm@layouthoffset=\dimen256
-\Gm@layoutvoffset=\dimen257
-\Gm@dimlist=\toks32
+\Gm@cnth=\count327
+\Gm@cntv=\count328
+\c@Gm@tempcnt=\count329
+\Gm@bindingoffset=\dimen199
+\Gm@wd@mp=\dimen256
+\Gm@odd@mp=\dimen257
+\Gm@even@mp=\dimen258
+\Gm@layoutwidth=\dimen259
+\Gm@layoutheight=\dimen260
+\Gm@layouthoffset=\dimen261
+\Gm@layoutvoffset=\dimen262
+\Gm@dimlist=\toks34
 ))
 (./sample.aux)
 \openout1 = `sample.aux'.
@@ -589,17 +616,17 @@ LaTeX Font Info:    ... okay on input line 5.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count328
-\scratchdimen=\dimen258
-\scratchbox=\box65
-\nofMPsegments=\count329
-\nofMParguments=\count330
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count331
-\MPscratchDim=\dimen259
-\MPnumerator=\count332
-\makeMPintoPDFobject=\count333
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count330
+\scratchdimen=\dimen263
+\scratchbox=\box66
+\nofMPsegments=\count331
+\nofMParguments=\count332
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count333
+\MPscratchDim=\dimen264
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
+\everyMPtoPDFconversion=\toks36
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -609,7 +636,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@maskedRefs=\count334
+\c@maskedRefs=\count336
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
@@ -733,17 +760,17 @@ Package rerunfilecheck Info: File `sample.out' has not changed.
 (rerunfilecheck)             Checksum: EE3EE77384B02F08148F111B2A113203;240.
  ) 
 Here is how much of TeX's memory you used:
- 15522 strings out of 473190
- 249769 string characters out of 5715801
- 680100 words of memory out of 5000000
- 38529 multiletter control sequences out of 15000+600000
+ 16378 strings out of 473190
+ 261675 string characters out of 5715801
+ 700388 words of memory out of 5000000
+ 39368 multiletter control sequences out of 15000+600000
  563833 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,5n,82p,426b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,5n,82p,426b,502s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on sample.pdf (3 pages, 42579 bytes).
+Output written on sample.pdf (3 pages, 42583 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream

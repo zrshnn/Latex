@@ -1,8 +1,8 @@
 {\bfseries \hfill Page No.\vspace \bigskipamount \par }
 \contentsline {chapter}{TITLE PAGE}{i}{chapter*.1}%
 \contentsline {chapter}{TABLE OF CONTENTS}{ii}{chapter*.1}%
-\contentsline {chapter}{LIST OF TABLES}{vi}{chapter*.2}%
-\contentsline {chapter}{LIST OF FIGURES}{vii}{chapter*.3}%
+\contentsline {chapter}{LIST OF TABLES}{v}{chapter*.2}%
+\contentsline {chapter}{LIST OF FIGURES}{vi}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background of the Study}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Statement of the Problem}{4}{section.1.2}%
@@ -19,7 +19,7 @@
 \contentsline {subsection}{\numberline {2.1.1}Rental System Theory}{13}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Sustainable Energy and Portable Power Theory}{14}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Wireless Communication and Positioning Theory (GPS and GSM Modules)}{15}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Integration of Theories}{17}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.4}Integration of Theories}{16}{subsection.2.1.4}%
 \contentsline {section}{\numberline {2.2}Conceptual Framework}{19}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Schematic Diagram}{23}{subsection.2.2.1}%
 \contentsline {section}{\numberline {2.3}Review of Related Studies}{24}{section.2.3}%
@@ -38,58 +38,48 @@
 \contentsline {chapter}{\numberline {3}METHODOLOGY}{41}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Research Design and Procedure}{41}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Planning}{42}{subsection.3.1.1}%
-\contentsline {subsubsection}{Budget Planning}{45}{section*.11}%
-\contentsline {subsubsection}{Reearch Locale}{45}{section*.12}%
-\contentsline {subsection}{\numberline {3.1.2}System Design}{46}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Hardware Development}{46}{subsection.3.1.3}%
-\contentsline {subsubsection}{Material Specifications}{47}{section*.15}%
-\contentsline {subsubsection}{Circuit Diagram}{55}{section*.16}%
-\contentsline {subsubsection}{Schematic Layout}{57}{section*.19}%
-\contentsline {subsubsection}{Schematic Layout}{58}{section*.21}%
-\contentsline {subsubsection}{Hardware Design}{58}{section*.23}%
-\contentsline {subsection}{\numberline {3.1.4}Software Development}{61}{subsection.3.1.4}%
-\contentsline {subsubsection}{Embedded System Software Development}{61}{section*.27}%
-\contentsline {subsubsection}{Battery Monitoring and Power Calculation}{62}{section*.28}%
-\contentsline {subsubsection}{Rental Time Tracking and Rule-Based Control}{62}{section*.29}%
-\contentsline {subsubsection}{Mobile Application Development}{63}{section*.30}%
-\contentsline {subsubsection}{Flutter Framework}{63}{section*.31}%
-\contentsline {subsubsection}{Activity Diagram}{65}{section*.32}%
-\contentsline {subsubsection}{GitHub}{66}{section*.34}%
-\contentsline {subsubsection}{Cloud Database and Backend Services}{67}{section*.35}%
-\contentsline {subsubsection}{Firebase Firestore}{67}{section*.36}%
-\contentsline {subsubsection}{System Measurements and Calculations}{68}{section*.37}%
-\contentsline {subsubsection}{Battery Voltage Measurement}{68}{section*.38}%
-\contentsline {subsubsection}{Battery Percentage Calculation}{68}{section*.39}%
-\contentsline {subsubsection}{Rental Time Computation}{69}{section*.40}%
-\contentsline {subsubsection}{Unused Power Calculation}{69}{section*.41}%
-\contentsline {subsubsection}{Credit Computation}{69}{section*.42}%
-\contentsline {subsubsection}{Location Measurement and Tracking}{69}{section*.43}%
-\contentsline {subsubsection}{Slot Availability and Lock Status Determination}{69}{section*.44}%
-\contentsline {subsection}{\numberline {3.1.5}System Integration}{70}{subsection.3.1.5}%
-\contentsline {subsection}{\numberline {3.1.6}Testing}{70}{subsection.3.1.6}%
-\contentsline {subsection}{\numberline {3.1.7}Implementation}{70}{subsection.3.1.7}%
-\contentsline {subsection}{\numberline {3.1.8}Data Collection}{70}{subsection.3.1.8}%
-\contentsline {subsection}{\numberline {3.1.9}Data Gathering Procedure}{71}{subsection.3.1.9}%
-\contentsline {subsection}{\numberline {3.1.10}Data Finding Analysis}{72}{subsection.3.1.10}%
-\contentsline {subsection}{\numberline {3.1.11}User Definition}{73}{subsection.3.1.11}%
-\contentsline {subsection}{\numberline {3.1.12}System Requirements}{73}{subsection.3.1.12}%
-\contentsline {subsection}{\numberline {3.1.13}Calculation Requirements}{75}{subsection.3.1.13}%
-\contentsline {subsubsection}{Load Analysis}{75}{section*.45}%
-\contentsline {subsubsection}{Battery Sizing}{76}{section*.46}%
-\contentsline {section}{\numberline {3.2}Technical Design Workflow}{85}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}System Architecture}{85}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Flowchart}{87}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Solar Energy Harvesting}{89}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Energy Conversion DC to AC}{89}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Power Monitoring}{90}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}GPS Tracking}{91}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Context Level Diagram}{92}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}Data Flow Diagram}{94}{subsection.3.2.8}%
-\contentsline {subsection}{\numberline {3.2.9}Use Case Diagram}{96}{subsection.3.2.9}%
-\contentsline {subsection}{\numberline {3.2.10}Mobile App}{99}{subsection.3.2.10}%
-\contentsline {subsection}{\numberline {3.2.11}Materials and Cost}{105}{subsection.3.2.11}%
-\contentsline {subsection}{\numberline {3.2.12}Standards and Guidelines Considered}{105}{subsection.3.2.12}%
-\contentsline {chapter}{APPENDICES}{107}{chapter*.63}%
-\contentsline {chapter}{Appendix A: Step-by-Step Calculation}{107}{chapter*.63}%
-\contentsline {chapter}{REFERENCES}{112}{Item.20}%
+\contentsline {subsubsection}{3.1.1.1 Budget Planning}{44}{figure.caption.10}%
+\contentsline {subsubsection}{(a) Materials and Cost}{45}{figure.caption.10}%
+\contentsline {subsubsection}{3.1.1.2 Resarch Locale}{46}{table.3.1}%
+\contentsline {subsubsection}{3.1.1.3 User Definition}{47}{figure.caption.11}%
+\contentsline {subsubsection}{3.1.1.4 System Requirements}{47}{figure.caption.11}%
+\contentsline {section}{\numberline {3.2}Technical Design Workflow}{49}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}System Design}{49}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}System Architecture}{50}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Flowchart}{52}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Context Level Diagram}{54}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Data Flow Diagram}{56}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Use Case Diagram}{58}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Solar Energy Harvesting}{60}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Energy Conversion DC to AC}{61}{subsection.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.9}Power Monitoring}{62}{subsection.3.2.9}%
+\contentsline {subsection}{\numberline {3.2.10}GPS Tracking}{63}{subsection.3.2.10}%
+\contentsline {subsection}{\numberline {3.2.11}Calculation Requirements}{63}{subsection.3.2.11}%
+\contentsline {subsubsection}{Load Analysis}{63}{section*.21}%
+\contentsline {subsubsection}{Battery Sizing}{64}{table.3.3}%
+\contentsline {subsection}{\numberline {3.2.12}Hardware Development}{73}{subsection.3.2.12}%
+\contentsline {subsubsection}{3.2.2.1 Material Specifications}{73}{figure.caption.22}%
+\contentsline {subsubsection}{3.2.2.2 Circuit Diagram}{81}{table.3.6}%
+\contentsline {subsubsection}{3.2.2.3 Schematic Layout}{83}{figure.caption.24}%
+\contentsline {subsubsection}{3.2.2.4 Hardware Design}{85}{figure.caption.26}%
+\contentsline {subsection}{\numberline {3.2.13}Software Development}{89}{subsection.3.2.13}%
+\contentsline {subsubsection}{3.2.3.1 Embedded System Software Development}{89}{section*.30}%
+\contentsline {subsubsection}{3.2.3.2 Battery Monitoring and Power Calculation}{90}{section*.30}%
+\contentsline {subsubsection}{3.2.3.3 Rental Time Tracking and Rule-Based Control}{90}{section*.30}%
+\contentsline {subsubsection}{3.2.3.4 Mobile Application Development}{91}{section*.30}%
+\contentsline {subsubsection}{(a) Flutter Framework}{91}{section*.30}%
+\contentsline {subsubsection}{(b) Activity Diagram}{92}{section*.30}%
+\contentsline {subsubsection}{(c) GitHub}{93}{figure.caption.31}%
+\contentsline {subsubsection}{(d) Realtime Database}{94}{figure.caption.31}%
+\contentsline {subsubsection}{(e) Cloud Firestore}{94}{figure.caption.31}%
+\contentsline {subsection}{\numberline {3.2.14}Graphical User Interface Design}{95}{subsection.3.2.14}%
+\contentsline {subsection}{\numberline {3.2.15}System Integration}{100}{subsection.3.2.15}%
+\contentsline {subsection}{\numberline {3.2.16}Testing}{101}{subsection.3.2.16}%
+\contentsline {subsubsection}{Performance Testing}{101}{section*.39}%
+\contentsline {subsubsection}{Usability Testing}{102}{section*.39}%
+\contentsline {subsection}{\numberline {3.2.17}Implementation}{103}{subsection.3.2.17}%
+\contentsline {subsection}{\numberline {3.2.18}Standards and Guidelines Considered}{104}{subsection.3.2.18}%
+\contentsline {chapter}{APPENDICES}{105}{chapter*.40}%
+\contentsline {chapter}{Appendix A: Step-by-Step Calculation}{105}{chapter*.40}%
+\contentsline {chapter}{REFERENCES}{110}{Item.20}%
 \contentsfinish 
