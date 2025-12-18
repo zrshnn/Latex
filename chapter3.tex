@@ -79,7 +79,32 @@ The development of the solar-powered rental station with detachable power source
 	\textbf{Total} & \textbf{\textpeso 37,570.00} \\
 \end{longtable}
 
-Table 1 shows the following materials that will be used in the study.
+Table 2 shows the following materials that will be used in the study.
+
+\subsubsection{(b) Return on Investment (ROI) Analysis}
+
+This subsection presents the estimated return on investment (ROI) of the system based on a daily income of \textpeso40.
+
+\subsubsection{i. Payback Period Calculation}
+
+The total system cost is \textpeso37,570. The number of days required to recover the initial investment is calculated as:
+
+\begin{equation}
+	\text{Days to recover cost} = \frac{37{,}570}{40} = 939.25~\text{days}
+\end{equation}
+
+\subsubsection{ii. Conversion of Payback Period to Years}
+
+To express the payback period in years, the total number of days is divided by 365:
+
+\begin{equation}
+	\text{ROI (years)} = \frac{939.25}{365} \approx 2.57~\text{years}
+\end{equation}
+
+\subsubsection{iii. ROI Interpretation}
+
+The computed ROI of approximately 2.57 years indicates that the system can recover its initial investment in about 2 years and 7 months. This relatively short payback period demonstrates the economic feasibility of the proposed system, making it a practical and sustainable investment for long-term operation.
+
 
 \subsubsection{3.1.1.2 Research Locale}
 
@@ -92,7 +117,7 @@ Table 1 shows the following materials that will be used in the study.
 
 The research will be conducted in Barangay Tupsan, located in the municipality of Mambajao, Province of Camiguin, Philippines. Based on the 2024 Census of Population, Barangay Tupsan has a population of 2,803, representing 6.71\% of the total population of Mambajao (Philippine Statistics Authority, 2024).
 
-Barangay Tupsan experiences frequent and unscheduled power interruptions and is served by the Camiguin Electric Cooperative,(CAMELCO), which announces power interruptions on a weekly basis, particularly during peak demand hours. These outages disrupt daily activities and significantly affect community centers, educational institutions, and local businesses that rely on electricity for mobile device charging, lighting, and the operation of basic appliances.
+Barangay Tupsan experiences frequent and unscheduled power interruptions and is served by the Camiguin Electric Cooperative (CAMELCO), which announces power interruptions on a weekly basis, particularly during peak demand hours. These outages disrupt daily activities and significantly affect community centers, educational institutions, and local businesses that rely on electricity for mobile device charging, lighting, and the operation of basic appliances.
 
 \subsubsection{3.1.1.3 User Definition}
 After the planning phase, the system’s users were identified. For this study, the Community Resident is defined as follows:
@@ -155,7 +180,7 @@ Community Resident - A person residing in a local community who is actively invo
 \subsection{System Design}
 This section outlines the system design of the proposed system and serves as the blueprint for development. It describes how the major components interact by presenting the system architecture, process flow, and system diagrams (context level, data flow, and use case). In addition, the section explains the key operational blocks, solar energy harvesting, DC–AC conversion, power monitoring, and GPS tracking, and includes the necessary design calculations to support load requirements and proper component sizing.
 
-\subsection{System Architecture}
+\subsubsection{3.2.1.1 System Architectures}
 
 \begin{figure}[H]
 	\centering
@@ -184,7 +209,7 @@ The Figure 3.4 illustrates the overall architecture of the solar powered rental 
 
 This system is designed to provide a sustainable, secure, and user-friendly power source solution for communities, utilizing solar energy and modern IoT technologies for enhanced management and accessibility.
 
-\subsection{Flowchart}
+\subsubsection{3.2.1.2 Flowchart}
 \begin{figure}[H]
 	\centering
 	\caption{System Flowchart}
@@ -198,7 +223,7 @@ When a user intends to rent a power source, the system verifies if payment is su
 
 The system also monitors whether the detachable power source is returned. If it remains unreturned after 12 hours, the ESP32 automatically sends reminder SMS notifications to both the user and the administrator. Upon return, the solenoid lock closes, securing the power source back in place. All key actions, including errors and system activities, are logged in the database for reference and analysis.
 
-\subsection{Context Level Diagram}
+\subsubsection{3.2.1.3 Context Level Diagram}
 
 \begin{figure}[H]
 	\centering
@@ -213,7 +238,7 @@ The interaction between the community residents and the solar-powered rental sta
 
 The detachable power source also communicates with the system to strengthen security and monitoring. It provides identification data, sends monitoring information such as location and usage status, and confirms both retrieval and return actions. These interactions ensure that the system can track each device, prevent unauthorized usage, and maintain accountability for each rental unit. Overall, the diagram presents a structured overview of how all components work together to support registration, rental, payment, monitoring, and return of the solar-powered power source in a seamless and secure manner.
 
-\subsection{Data Flow Diagram}
+\subsubsection{3.2.1.4 Data Flow Diagram}
 \begin{figure}[H]
 	\centering
 	\caption{Data Flow Representation of the Solar-Powered Rental Station System}
@@ -223,7 +248,7 @@ The detachable power source also communicates with the system to strengthen secu
 
 The Figure 3.7 shows how information moves within the Solar-Powered Rental Station with Detachable Power Sources, highlighting the interactions between users, administrators, and the system’s processes. Community residents begin by logging in through the mobile application, where their credentials are verified using stored user records. After authentication, community residents can submit rental requests, which the system checks against available power sources before proceeding to payment. The Payment module validates coin or app-based payments and, once confirmed, issues an authorization data that unlocks the detachable power source. The system then monitors the rental, tracking battery status, usage duration, and device location through GPS, with updates stored in the corresponding data repositories. Upon return, the system verifies the device, logs return details, and updates rental records while also issuing overdue alerts when necessary. Administrators can view and update user information, monitor device locations, and manage system records. Additionally, user credits, earned through unused power or admin adjustments, are tracked and stored for future transactions. Overall, the data flow of the system reflects an automated and integrated rental system that efficiently manages authentication, payment, monitoring, GPS tracking, returns, and credit management through coordinated data flows.
 
-\subsection{Use Case Diagram}
+\subsubsection{3.2.1.5 Use Case Diagram}
 \begin{figure}[H]
 	\centering
 	\caption{Use Case Diagram}
@@ -237,7 +262,7 @@ Once the Unregistered User becomes a Registered User after logging in successful
 
 The relationships in the diagram are shown through Include and Extend. Include means that one action is always linked to another. For example, signing up always includes verifying the user's details, and renting a power source includes checking availability and processing payment. Extend means that certain actions may trigger additional steps under specific conditions. For instance, if a payment fails, it will trigger the "Payment Error" action, or if the power source return is delayed, it will trigger the "Return Delay" action. In summary, this use case diagram provides an overview of how users and administrators interact with the system, covering key actions like renting and returning power sources, managing user accounts, and maintaining the system.
 
-\subsection{Solar Energy Harvesting}
+\subsubsection{3.2.1.6 Solar Energy Harvesting}
 
 \begin{figure}[H]
 	\centering
@@ -248,7 +273,7 @@ The relationships in the diagram are shown through Include and Extend. Include m
 
 The Figure 3.9 illustrates the process of harvesting solar energy using photovoltaic (PV) panels. Solar energy is captured by the PV panels, which then convert sunlight into electrical energy. The energy is stored in a \ce{LiFePO4} battery through a solar charge controller, ensuring proper charging and voltage regulation. This energy is stored for later use, contributing to the overall sustainability and efficiency of the system, enabling it to power devices even during periods of limited sunlight.
 
-\subsection{Energy Conversion DC to AC}
+\subsubsection{3.2.1.7 Energy Conversion DC to AC}
 
 \begin{figure}[H]
 	\centering
@@ -259,7 +284,7 @@ The Figure 3.9 illustrates the process of harvesting solar energy using photovol
 
 Figure 3.10 shows the process of converting direct current (DC) into alternating current (AC). The stored energy in the \ce{LiFePO4} battery is passed through a power inverter, and the inverter transforms the DC from the battery into AC power, which can be used to power household appliances such as fans and other AC-powered devices. This conversion is essential for making the system compatible with common electrical appliances that require AC power for operation.
 
-\subsection{Power Monitoring}
+\subsubsection{3.2.1.8 Power Monitoring}
 
 \begin{figure}[H]
 	\centering
@@ -270,7 +295,7 @@ Figure 3.10 shows the process of converting direct current (DC) into alternating
 
 The Figure 3.11 illustrates the power monitoring system used to keep track of the energy stored and consumed by the system. The \ce{LiFePO4} battery is connected to an ESP32 microcontroller, which continuously monitors the battery’s voltage and health, and the data collected is displayed on an LCD screen which allows users to view the battery's current status. This monitoring is vital for ensuring the system's efficiency and preventing over-discharge, ensuring long-term sustainability.
 
-\subsection{GPS Tracking}
+\subsubsection{3.2.1.9 GPS Tracking}
 
 \begin{figure}[H]
 	\centering
@@ -279,268 +304,7 @@ The Figure 3.11 illustrates the power monitoring system used to keep track of th
 	\includegraphics[width=1\textwidth]{figures/tracking.png}
 \end{figure}
 
-Figure 3.12 shows the GPS tracking system used to monitor the location of the detachable power source. A GPS module, connected to the ESP32 microcontroller, receives signals from satellites to determine the geographical location of the system. This location data is essential for tracking and managing the rental and use of the power sources, ensuring they are accessible to users and protected from theft or misuse. The GPS data is then sent to the system for further processing and user access.
-
-\subsection{Calculation Requirements}
-
-\subsubsection{Load Analysis}
-
-\begin{longtable}{p{3cm} p{1.9cm} p{1.4cm} p{2.3 cm} p{4cm}}
-	\caption{Load Consumption} \label{tab:LoadConsumption} \\
-	\toprule
-	\textbf{Load} & \textbf{Quantity} & \textbf{Power} & \textbf{Hours/Day} & \textbf{Daily Consumption} \\
-	\midrule
-	\endfirsthead
-	
-	\toprule
-	\textbf{Load} & \textbf{Quantity} & \textbf{Power} & \textbf{Hours/Day} & \textbf{Daily Consumption} \\
-	\midrule
-	\endhead
-	
-	\bottomrule
-	\endfoot
-	
-	Electric Fan & 1 & 75 W & 5 & 370 WH \\
-	Mobile Phone Charger & 1 & 20 W & 5 & 100 WH \\
-	Auxiliary Load & 1 & 5 W & 5 & 25 WH \\
-	\midrule
-	\textbf{Total} & & & & \textbf{500 WH} \\
-\end{longtable}
-
-The schedule of load includes three main loads, namely the electric fan, the mobile phone charger, and a 5W auxiliary load. Each load is multiplied by its hours of operation, and their products are summed to obtain the total watt-hour daily consumption. 
-
-All calculations are done in accordance to PEC (Philippine Electrical Code 2017).
-
-\subsubsection{Battery Sizing}
-
-\begin{itemize}
-	\item\textbf{ Detachable Power Source:} 
-	\begin{equation}
-		\text{Battery Capacity} =
-		\left( \frac{\text{Total Daily Consumption}}{\text{System Voltage}} \right)
-		+ \text{ESP32 Consumption}
-		\label{eq:batterysizing}
-	\end{equation}
-	
-	
-	This equation determines the required battery capacity for the detachable power source. The total daily load consumption in watt-hours is divided by the 12V system voltage to convert the value into ampere-hours. The consumption of the ESP32 microcontroller (0.858 Ah), which continuously operates for system monitoring, is then added. This computation ensures that the detachable power source can sustain both the primary load and the microcontroller’s operational requirements. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
-	
-	\item\textbf{ Station:} 
-	\begin{equation}
-		\text{Battery Capacity} =
-		\left( 
-		\text{BCDPS}
-		+ 35\%
-		\right)
-		+ \text{ESP32 Consumption}
-		\label{eq:Station}
-	\end{equation}
-	
-	
-	This equation is used in sizing the battery of the main station. It begins with the computed battery capacity of the detachable power source and adds 35\% to account for system losses, such as wiring resistance, power conversion inefficiencies, and charging losses. The ESP32’s consumption (0.858 Ah) is also included to ensure that the main station battery can support all monitoring and control operations. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
-	
-	\item\textbf{ Panel Sizing:} 
-	\begin{equation}
-		\text{PV Power} =
-		\frac{\text{Total Daily Consumption}}{\text{Sun Peak Hours}}
-		\label{eq:panel}
-	\end{equation}
-	
-	
-	This equation calculates the required power rating of the solar panel. The total daily energy consumption (500 Wh) is divided by the available sun peak hours (3.5 hours, based on PEC 2017) to determine the power output needed to fully recharge the battery each day. The computed value of approximately 142.86W is rounded up to a 200W solar panel for practical and technical considerations. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
-	
-	\item \textbf{Inverter Sizing:} 
-	\begin{longtable}{p{4cm} p{1.5cm} p{2.5cm} p{4cm}}
-		\caption{Inverter Sizing} \label{tab:InverterSizing} \\
-		\toprule
-		\textbf{Load} & \textbf{Power} & \textbf{Power Surge} & \textbf{With Power Surge} \\
-		\midrule
-		\endfirsthead
-		
-		\toprule
-		\textbf{Load} & \textbf{Power} & \textbf{Power Surge} & \textbf{With Power Surge} \\
-		\midrule
-		\endhead
-		
-		\bottomrule
-		\endfoot
-		
-		Electric Fan & 75 W & 3 & 225 W \\
-		Mobile Phone Charger & 20 W & 1 & 20 W \\
-		Auxiliary Load & 5 W & 1 & 5 W \\
-		\midrule
-		\textbf{Total} & & & \textbf{250 W} \\
-	\end{longtable}
-	\begin{equation}
-		\text{Inverter Size} =
-		\text{Total Power Consumption} + 20\% \text{Allowance}
-		\label{eq:inverter}
-	\end{equation}
-	
-	
-	This formula is used to determine the appropriate inverter size. After calculating the total power requirements of all connected loads, including surge components such as the electric fan, a 20\% allowance is added to ensure that the inverter can safely handle fluctuations and temporary increases in power demand. With a total of 250W, the system requires a 300W pure sine wave inverter. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
-	
-	\item \textbf{Solar Charge Controller Sizing:} 
-	\begin{equation}
-		I_{cc} =
-		\frac{\text{Total PV Power}}{\text{System Voltage}}
-		\label{eq:solar}
-	\end{equation}
-	
-	
-	This equation determines the required rating for the solar charge controller. Dividing the total solar panel wattage (200W) by the system voltage (12V) yields the expected charging current supplied to the controller. The computed value of 16.67A is rounded upward to select a 20A MPPT charge controller, ensuring safe and efficient power regulation. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
-	
-	\item \textbf{Breaker Sizing:} 
-	\begin{enumerate}[label=\alph*.]
-		\item Panel - SCC
-		\begin{equation}
-			\text{Circuit Breaker} = 11.85A \times\text{Over Radiance Factor} \times \text{Safety Factor}
-		\end{equation}
-		
-		
-		This equation is used to determine the appropriate circuit breaker rating between the solar panel array and the Solar Charge Controller (SCC). The value 11.85A represents the short-circuit current (Isc) of the solar panel system. Multiplying by the Over Radiance Factor and the Safety Factor provides an adjusted current value that accounts for sudden increases in sunlight intensity and unexpected current surges.
-		After substituting the given parameters in the complete computation, the calculated value results in a 20A circuit breaker rating, which is the recommended protection size between the solar panel and the SCC. This ensures safe operation by preventing overheating, protecting the solar wiring, and avoiding damage to system components. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
-		
-		\item SCC - Battery
-		\begin{equation}
-			\text{Circuit Breaker} = \frac{\text{Total Array Wattage}}{\text{Battery Bank Nominal Voltage}} \times \text{Safety Factor}
-		\end{equation}
-		
-		
-		This equation sizes the circuit breaker between the Solar Charge Controller (SCC) and the battery bank. The total wattage of the solar panel array is divided by the system’s nominal battery voltage to determine the expected charging current that will flow from the SCC into the battery during operation. A Safety Factor is then applied to account for possible current variations during charging, ensuring that the system remains protected from overload.
-		After substituting the system values into the calculation, the resulting breaker rating requirement is 20A, which provides proper protection during charging while maintaining safe operating conditions for the battery bank. This recommended 20A circuit breaker prevents overheating and electrical damage by limiting excessive current flow into the battery storage system. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
-		
-		\item Battery - Power Inverter
-		\begin{equation}
-			\text{Circuit Breaker} = \frac{\text{Power Inverter}}{\text{Battery Bank Nominal Voltage}}
-		\end{equation}
-		
-		
-		This equation determines the appropriate circuit breaker rating between the battery bank and the power inverter. The power rating of the inverter (in watts) is divided by the nominal battery voltage (in volts) to calculate the maximum current drawn during inverter operation when supplying AC loads. This calculated current serves as the basis for selecting a circuit breaker capable of protecting both the inverter and battery system during high-demand usage.
-		After substituting the specified system values into the equation, the resulting breaker requirement is 80A, which is the recommended rating to ensure sufficient protection from overcurrent conditions that may occur when connected appliances operate at maximum load capacity. This breaker rating prevents damage to the inverter and battery by interrupting excessive current flow and maintaining safe operating conditions. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
-		
-		\item Inverter - Load (AC Breaker)
-		\begin{equation}
-			\text{Circuit Breaker} = \frac{ \text{Safety Load}}{\text{Inverter Voltage Output}} \times \text{BBNV}
-		\end{equation}
-		
-		
-		This equation sizes the AC circuit breaker located between the inverter and the connected load. The Safety Load represents the maximum expected power consumption of the AC appliances connected to the inverter. Dividing this value by the inverter’s AC output voltage converts the load into current, representing the expected amperage during operation. The result is then multiplied by the battery bank nominal voltage to account for conversion losses and variations in real operating conditions.
-		Based on the system values used in the computation, the required AC breaker rating is 4A, which provides sufficient protection by interrupting excessive current that could damage connected appliances or the inverter output circuitry. This calculated breaker size ensures safe and reliable system performance under normal and peak load operations. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
-		
-	\end{enumerate}
-	
-	\item \textbf{Wire Sizing:} 
-	\begin{equation}
-		\text{Voltage Drop Index} = \frac{\text{Amperes} \times \text{Wire Length (Feet)}}{\text{Voltage} \times \text{Percent Voltage Drop}}
-	\end{equation}
-	
-	
-	This equation is used for determining the appropriate wire size needed to safely and efficiently handle electrical current within the system. The Voltage Drop Index (VDI) is calculated based on four factors: the current in amperes, the wire length, the system voltage, and the allowable percentage of voltage drop. Higher current flow or longer cable distance increases the VDI value, which indicates the need for a thicker wire in order to minimize electrical resistance and heat generation. Selecting the correct wire size ensures that voltage loss is controlled, system performance remains efficient, and the overall electrical design operates safely without risk of overheating or component failure.
-	
-	\begin{enumerate}[label=\alph*.]
-		\item Panel - SCC \\
-		Panel to Solar Charge Controller = 10AWG 
-		
-		
-		The first VDI calculation was performed for the wire connection between the solar panel and the Solar Charge Controller (SCC). Given the operational current and wire distance in this segment, the computed VDI value resulted in 3.52. Based on standard VDI wire reference charts, a value of 3.52 corresponds to the use of 10 AWG wire, which provides sufficient conductivity and prevents excessive voltage reduction over the cable length. This ensures that power harvested from the solar panel is efficiently delivered to the SCC with minimal losses. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
-		
-		\item SCC - Battery\\
-		Solar Charge Controller to Battery = 10AWG
-		
-		
-		The second VDI calculation was conducted for the wire connection between the Solar Charge Controller (SCC) and the battery bank. Using the specified current, distance, system voltage, and allowable voltage drop percentage, the computed VDI value for this segment is 3.125. Similar to the previous result, this VDI value also aligns with the requirement for 10 AWG wire, ensuring safe current handling capacity and controlled voltage drop. The consistent selection of 10 AWG wire across both connection points maintains electrical balance and reliability throughout the charging circuit. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
-		
-	\end{enumerate}
-\end{itemize}
-
-\begin{longtable}{|p{3.5cm}|p{5.0cm}|p{4.0cm}|}
-	\caption{Summary of Design Computation Formulas}\label{tab:design_formulas}\\
-	\hline
-	\textbf{Name} & \textbf{Formula} & \textbf{Description Summary} \\
-	\hline
-	\endfirsthead
-	
-	\hline
-	\textbf{Name} & \textbf{Formula} & \textbf{Description Summary} \\
-	\hline
-	\endhead
-	
-	\hline
-	\endfoot
-	
-	Battery Capacity (Detachable Power Source)
-	&
-	$C_{\text{bat,DPS}}=\dfrac{E_{\text{daily}}}{V_{\text{sys}}}+C_{\text{ESP32}}$
-	&
-	Determines the required battery capacity for the detachable unit by converting total daily energy demand (Wh) into ampere-hours using the system voltage, then adding the ESP32 consumption for continuous monitoring. \\
-	\hline
-	
-	Battery Capacity (Station)
-	&
-	$C_{\text{bat,station}}=C_{\text{bat,DPS}}\,(1+0.35)+C_{\text{ESP32}}$
-	&
-	Sizes the station battery based on the detachable power source capacity, adding a 35\% allowance for system losses (e.g., wiring resistance and conversion/charging losses) and including ESP32 consumption for control and monitoring. \\
-	\hline
-	
-	Panel Sizing (PV Power)
-	&
-	$P_{\text{PV}}=\dfrac{E_{\text{daily}}}{H_{\text{PSH}}}$
-	&
-	Computes the required solar panel rating by dividing total daily energy consumption by the available sun peak hours, ensuring the battery can be recharged within a day. \\
-	\hline
-	
-	Inverter Sizing
-	&
-	$P_{\text{inv}}=P_{\text{load,total}}\,(1+0.20)$
-	&
-	Determines the inverter size by adding a 20\% allowance to the total load power (including surge considerations) so the inverter can safely handle temporary demand increases. \\
-	\hline
-	
-	Solar Charge Controller Sizing
-	&
-	$I_{cc}=\dfrac{P_{\text{PV,total}}}{V_{\text{sys}}}$
-	&
-	Determines the required charge controller current rating by dividing total PV power by system voltage; the computed current is typically rounded up to select a standard controller rating. \\
-	\hline
-	
-	Breaker Sizing (Panel--SCC)
-	&
-	$I_{\text{CB,PV-SCC}}=I_{sc}\times F_{\text{rad}}\times F_{\text{safe}}$
-	&
-	Selects the circuit breaker rating between the PV array and SCC using the panel short-circuit current adjusted by the over-radiance factor and safety factor to protect wiring and components from surges/overcurrent. \\
-	\hline
-	
-	Breaker Sizing (SCC--Battery)
-	&
-	$I_{\text{CB,SCC-Bat}}=\left(\dfrac{P_{\text{array}}}{V_{\text{bat,nom}}}\right)\times F_{\text{safe}}$
-	&
-	Sizes the breaker between SCC and battery by estimating charging current (array wattage divided by nominal battery voltage) and applying a safety factor to prevent overload and overheating. \\
-	\hline
-	
-	Breaker Sizing (Battery--Inverter)
-	&
-	$I_{\text{CB,Bat-Inv}}=\dfrac{P_{\text{inv}}}{V_{\text{bat,nom}}}$
-	&
-	Determines the breaker rating between the battery bank and inverter by calculating the maximum DC current drawn during inverter operation, providing protection during high-demand usage. \\
-	\hline
-	
-	Breaker Sizing (Inverter--Load / AC Breaker)
-	&
-	$I_{\text{CB,AC}}=\left(\dfrac{P_{\text{safety load}}}{V_{\text{AC,out}}}\right)\times V_{\text{bat,nom}}$
-	&
-	Sizes the AC breaker between inverter and load by converting the expected load power into current using the inverter AC output voltage, then applying the battery nominal voltage factor as used in the design computation. \\
-	\hline
-	
-	Wire Sizing (Voltage Drop Index)
-	&
-	$\mathrm{VDI}=\dfrac{I\times L_{\text{wire}}}{V\times (\%\Delta V)}$
-	&
-	Computes the Voltage Drop Index using current, wire length, system voltage, and allowable voltage-drop percentage. Higher VDI indicates the need for a thicker wire to control voltage loss and reduce heating. \\
-	\hline
-	
-\end{longtable}
-
+Figure 3.12 shows the GPS-based tracking system used for security and monitoring of the detachable power source. The GPS module is connected to the ESP32 microcontroller and continuously obtains location coordinates (latitude and longitude) from satellite signals. During a rental session, the system logs the unit’s location together with the unit ID, rental timestamp, and rental status, allowing the operator to verify whether the detachable power source remains within the expected service area and to identify unusual movement patterns. If a unit is not returned within the allowed 12-hour rental periode or if it moves outside a predefined geofenced boundary, the system flags the unit as “overdue” or “out-of-zone” and sends an alert to the monitoring interface or mobile application for immediate action, it sends repeated SMS alerts at 10-minute intervals (with the last known GPS location) until the unit is returned. This tracking feature supports public deployment by providing accountability per rented unit and strengthening security against loss, theft, or misuse, since the last known location and movement history can be used to locate the unit and coordinate retrieval.
 
 \subsection{Hardware Development}
 
@@ -851,7 +615,7 @@ The following table outlines the key considerations for selecting hardware compo
 		\centering
 		
 		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/solenoid.png}
+		\includegraphics[width=0.7\linewidth]{figures/solenoid.png}
 		\text{Solenoid Lock} % text above the image
 		\vspace{0.3cm}
 	\end{minipage} 
@@ -864,7 +628,7 @@ The following table outlines the key considerations for selecting hardware compo
 		\centering
 		
 		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/acbreaker.png}
+		\includegraphics[width=0.7\linewidth]{figures/acbreaker.png}
 		\text{AC breaker} % text above the image
 		\vspace{0.3cm}
 	\end{minipage} 
@@ -919,7 +683,7 @@ The following table outlines the key considerations for selecting hardware compo
 	\centering
 	\caption{Circuit Diagram of Rental Station}
 	\label{fig:circuit}
-	\includegraphics[width=0.5\textwidth]{figures/circuit_station.png}
+	\includegraphics[width=0.6\textwidth]{figures/circuit_station.png}
 \end{figure}
 
 Figure 3.14 shows the circuit diagram of the rental station, illustrating the integrated hardware architecture of the ESP32-based control unit and how the microcontroller interfaces with the 20×4 I2C LCD, coin acceptor, relay module, solenoid valve, and the main battery supply. The LCD is connected directly to the ESP32 through the I2C communication lines to display system status and credit information. The coin acceptor is powered by the battery, and its signal line is connected to an ESP32 GPIO pin through a pull-up resistor to ensure accurate and stable pulse detection for credit counting. The solenoid valve is controlled through a relay module, which provides electrical isolation and enables the ESP32 to activate the solenoid when required. A voltage divider is also incorporated to reduce the battery voltage to a safe level for the ESP32’s ADC input, allowing the system to monitor the battery state. Overall, the figure highlights how each component is systematically integrated to create a reliable and coordinated control system
@@ -928,7 +692,7 @@ Figure 3.14 shows the circuit diagram of the rental station, illustrating the in
 	\centering
 	\caption{Circuit Diagram of Detachable Power Sources }
 	\label{fig:scheayout}
-	\includegraphics[width=0.5\textwidth]{figures/circuit_power.png}
+	\includegraphics[width=0.6\textwidth]{figures/circuit_power.png}
 \end{figure}
 
 Figure 3.15 shows the circuit diagram of the detachable power sources, illustrating the integrated hardware architecture of the ESP32-based control system and how the microcontroller interfaces with the 16×2 I2C LCD, GSM module, GPS module, and the battery.  The LCD is connected directly to the ESP32 via I2C communication lines to display system information and operational status. The GSM module is interfaced through the ESP32’s UART pins to enable wireless data communication, while the GPS module is connected similarly for real-time position tracking. The battery voltage is monitored by the ESP32 through a voltage divider, allowing the system to estimate the battery’s capacity. Overall, the figure highlights how each component is systematically integrated to form a reliable, coordinated, and fully functional control system.
@@ -939,7 +703,7 @@ Figure 3.15 shows the circuit diagram of the detachable power sources, illustrat
 	\centering
 	\caption{Schematic Diagram of Rental Station}
 	\label{fig:circuit}
-	\includegraphics[width=0.6\textwidth]{figures/schematic_station.png}
+	\includegraphics[width=0.9\textwidth]{figures/schematic_station.png}
 \end{figure}
 
 Figure 3.16 presents the schematic diagram of the ESP32-based control system, detailing the specific wiring connections among the ESP32, the 20×4 I2C LCD, the coin acceptor, the relay module, the solenoid valve, and the main battery supply. In this schematic, the LCD’s SDA and SCL lines are wired to the corresponding I2C pins of the ESP32, while the coin acceptor’s output signal is directed to one of the ESP32’s GPIO pins with a pull-up resistor for stable digital signal acquisition. The relay module’s input pin is connected to an ESP32 output pin, enabling the microcontroller to switch the solenoid using the battery’s power line. The schematic also shows the voltage divider linked between the battery and the ESP32’s ADC pin, ensuring that the sensed voltage remains within the microcontroller’s input range. Altogether, the diagram provides a clear representation of how each electrical connection is arranged to form a complete and dependable hardware control system.
@@ -948,7 +712,7 @@ Figure 3.16 presents the schematic diagram of the ESP32-based control system, de
 	\centering
 	\caption{Schematic Diagram of Detachable Power Sources}
 	\label{fig:scheayout}
-	\includegraphics[width=0.6\textwidth]{figures/schematic_power.png}
+	\includegraphics[width=0.9\textwidth]{figures/schematic_power.png}
 \end{figure}
 
 Figure 3.17 presents the schematic diagram of the ESP32-based control system, detailing the specific wiring connections among the ESP32, the 16×2 I2C LCD, GSM module, GPS module, and the battery. In the schematic, the LCD’s SDA and SCL lines are connected to the corresponding I2C pins of the ESP32 for displaying system status. The GSM and GPS modules are connected through the ESP32’s UART pins for wireless communication and real-time position tracking, respectively. A voltage divider connected between the battery and the ESP32’s ADC pin enables the microcontroller to monitor the battery voltage and estimate its remaining capacity. Collectively, the schematic provides a clear representation of how each module is electrically connected to form a complete, reliable, and coordinated control system.
@@ -961,7 +725,7 @@ The 3D representation shows the overall design of the proposed detachable power 
 	\centering
 	\caption{Detachable Power Source – Hardware Design (Front View) }
 	\label{fig:3d}
-	\includegraphics[width=0.8\textwidth]{figures/front.png}
+	\includegraphics[width=1\textwidth]{figures/front.png}
 \end{figure}
 
 Figure 3.18 illustrates the proposed 3D design of the detachable power source viewed from a front perspective. The unit has a compact, box-type enclosure with a flat front panel where the outlets and controls are arranged for easy access. This is the appearance that community residents see upon renting the unit. The front panel includes multiple AC outlets, USB charging ports, an indicator display for real-time status monitoring, and control buttons for power management and user interaction.
@@ -998,7 +762,7 @@ Figure 3.19 shows the proposed 3D design of the detachable power source viewed f
 	\textbf{Total Weight Calculated} & \textbf{5300 g or 5.3 kg} \\
 \end{longtable}
 
-Table 9 shows the estimated weight of the components inside the detachable power source and its total weight calculated of it. Excluding the enclosure or outer casing, the detachable power source is estimated to weigh approximately 5.3 kg. The majority of the weight comes from the \ce{LiFePO4} battery and the 1000 W power inverter, which together account for more than 80\% of the total mass, while the control electronics and auxiliary components contribute only a small fraction of the overall weight.
+Table 6 shows the estimated weight of the components inside the detachable power source and its total weight calculated of it. Excluding the enclosure or outer casing, the detachable power source is estimated to weigh approximately 5.3 kg. The majority of the weight comes from the \ce{LiFePO4} battery and the 1000 W power inverter, which together account for more than 80\% of the total mass, while the control electronics and auxiliary components contribute only a small fraction of the overall weight.
 
 
 \begin{figure}[H]
@@ -1050,7 +814,7 @@ Using Flutter it will enable the developers to create a single codebase that can
 
 Figure 3.21 shows the step-by-step activity flow of the system from user login to unlocking the portable power source. The process begins with checking account availability. If the user already has an account, they proceed to the login step; otherwise, they must sign up first. After logging in, the system checks if the account is valid. If the account is invalid, the process returns to the login step. If valid, the system verifies the account and displays the dashboard. Next, the system checks if a power source slot is available. If no slot is available, the user remains on the dashboard until one becomes free. If a slot is available, the process continues to the payment step. The system then verifies the payment amount. If the amount entered is not exact, the process returns to the payment step. If the payment is correct, the portable power source is successfully unlocked, completing the process.
 
-Overall, the diagram clearly shows how the user interacts with the system , which starts from account access, validation, and payment, up to unlocking the rented portable power source.
+Overall, the diagram clearly shows how the user interacts with the system, which starts from account access, validation, and payment, up to unlocking the rented portable power source.
 
 \subsubsection{(c) GitHub}
 GitHub was utilized for version control and collaborative development of the mobile application. All source code, documentation, and configuration files were maintained in a centralized GitHub repository, allowing multiple developers to work concurrently while tracking changes efficiently. GitHub enabled version tracking, where all revisions to the code were logged and could be reverted if necessary. The use of branching and merging allowed new features and fixes to be developed in isolated branches and later integrated into the main branch following review. Additionally, GitHub facilitated team collaboration by providing mechanisms for code review, pull requests, and task management through GitHub issues. The repository also ensured a secure and accessible backup of the project, which could be accessed from any location with an internet connection. The integration of GitHub into the development workflow improved code quality, reduced conflicts, and supported smooth project management throughout the software development process.
@@ -1060,6 +824,12 @@ Firebase services are utilized to support data storage, transmission, and low-la
 
 \subsubsection{(e) Cloud Firestore}
 Firebase Firestore is used as the primary cloud database for storing structured system data. This includes user profiles, rental transactions, battery usage records, rental timestamps, and earned credits. Firestore’s data synchronization capability allows instant updates across the embedded system and mobile application, ensuring data consistency and reliability. It also offers low-latency client synchronization and offline data access, enabling uninterrupted operation even during temporary network unavailability.
+
+\subsubsection{3.2.3.5 Network Encryption and Security Feature}
+This subsection describes the network-level encryption and security measures implemented to protect the system from unauthorized access and to reduce attempts to bypass the mobile application through direct network intrusion. The security design focuses on securing wireless access, restricting device connectivity, and protecting data transmission between the rental station, controller, and monitoring interfaces.
+
+\subsubsection{(a) MikroTik}
+A MikroTik router is used as part of the network security layer to secure the local connection between the rental station and the mobile application/server. It is configured to enforce encrypted network access and restrict unauthorized devices by using WPA2/WPA3 Wi-Fi security, firewall rules, and MAC/IP filtering. Only registered system devices (e.g., the ESP32 controller and authorized admin devices) are allowed to communicate with the network. The MikroTik firewall blocks unknown inbound connections and limits open ports to reduce exposure to attacks. This setup helps prevent attackers from connecting to the system network and bypassing the application through direct access to the device or database endpoints.
 
  \subsection{Graphical User Interface Design}
 
@@ -1074,7 +844,7 @@ The welcome interface presents the system logo and entry actions. The left panel
 
 \begin{figure}[H]
 	\centering
-	\caption{Sign n Screen}
+	\caption{Sign In Page}
 	\label{fig:signin}
 	\includegraphics[width=0.7\textwidth]{figures/signin.png}
 \end{figure}
@@ -1083,7 +853,7 @@ The sign-in interface collects the username and password with options to reveal 
 
 \begin{figure}[H]
 	\centering
-	\caption{Sign Up Screen}
+	\caption{Sign Up Page}
 	\label{fig:signup}
 	\includegraphics[width=1\textwidth]{figures/signup.png}
 \end{figure}
@@ -1092,7 +862,7 @@ Registration is implemented as a three-step process. Step 1 captures account cre
 
 \begin{figure}[H]
 	\centering
-	\caption{User Home Screen}
+	\caption{Home Page (Community Resident)}
 	\label{fig:user home}
 	\includegraphics[width=0.7\textwidth]{figures/home.png}
 \end{figure}
@@ -1101,27 +871,27 @@ The user dashboard displays a greeting header with location metadata and a card 
 
 \begin{figure}[H]
 	\centering
-	\caption{Renting Screen}
+	\caption{Renting Screen (Community Resident)}
 	\label{fig:renting}
-	\includegraphics[width=0.6\textwidth]{figures/renting.png}
+	\includegraphics[width=1\textwidth]{figures/renting.png}
 \end{figure}
 
 The renting module allows search by Station ID and shows slot availability per station. Users select a slot and view its battery percentage with the corresponding price. Payment options include Pay via Points and Pay via Coin Slot, enabling transaction initiation.
 
 \begin{figure}[H]
 	\centering
-	\caption{Admin Home  Screen}
+	\caption{Home Page (Admin)}
 	\label{fig:admin}
-	\includegraphics[width=0.3\textwidth]{figures/admin.png}
+	\includegraphics[width=0.7\textwidth]{figures/admin.png}
 \end{figure}
 
 The administrative dashboard reports the total number of users and provides status cards for system updates and system maintenance alerts. A bottom navigation enables movement to other administrative functions. This screen supports monitoring and operational control.
 
 \begin{figure}[H]
 	\centering
-	\caption{Admin Manage Users Screen}
+	\caption{Manage Users Page (Admin)}
 	\label{fig:admin2}
-	\includegraphics[width=0.3\textwidth]{figures/admin2.png}
+	\includegraphics[width=0.7\textwidth]{figures/admin2.png}
 \end{figure}
 
 The user-management view lists registered users with their points balances. The list supports further exploration through a “More…” action. This screen enables oversight of accounts for incentive tracking and administration.
@@ -1131,11 +901,11 @@ The user-management view lists registered users with their points balances. The 
 The system integration process involves the seamless interconnection of the hardware components, embedded software, mobile application, and cloud-based services to ensure reliable and synchronized operation of the solar-powered rental station with detachable power sources. The ESP32 microcontroller serves as the central controller, integrating data from the battery monitoring circuit, GPS module, GSM module, coin-slot mechanism, relays, solenoid locks, and LCD display. Solar energy harvested by the photovoltaic panel is regulated by the charge controller and stored in the  \ce{LiFePO4} battery, while the inverter supplies AC power to user loads. Operational data such as battery percentage, rental status, location coordinates, and usage duration are transmitted via Wi-Fi or GSM to a cloud database, enabling real-time monitoring and record management. The mobile application interfaces with the cloud database to display system status, manage rentals, process user transactions, and send notifications. Through this integration, all hardware and software components function as a unified system, allowing secure rental access, continuous monitoring, and efficient data synchronization through the mobile.
 
 \subsection{Testing}
-\subsubsection{Performance Testing}
+\subsubsection{3.2.6.1 Performance Testing}
 The primary objective of performance testing is to evaluate the system's ability to handle user interactions and data processing without significant delay. Key performance indicators (KPIs) such as response time, processing speed, and system throughput will be assessed during peak and off-peak usage hours. The system will undergo stress testing to determine its capacity for managing multiple simultaneous user requests, ensuring reliability under high demand conditions.
 Testing will include the measurement of real-time monitoring capabilities, particularly the speed at which data is transmitted from the power stations to the mobile app. Performance testing will also assess the efficiency of the GPS and GSM modules, evaluating their responsiveness to ensure timely updates for location tracking and system alerts. This phase will confirm that the system remains stable, efficient, and user-friendly during various operational loads.
 
-\subsubsection{Usability Testing}
+\subsubsection{3.2.6.2 Usability Testing}
 Usability testing will focus on evaluating the user experience (UX) for both community residents and administrators. This will involve assessing the clarity, intuitiveness, and ease of navigation of the mobile app interface. A group of representative users will be selected from the target community to perform typical tasks such as account registration, power source rental, and payment processing.
 
 The System Usability Scale (SUS) will be used to quantitatively measure the users’ perception of the app's usability. Users will provide feedback on key aspects such as the accessibility of the mobile interface, ease of system navigation, and satisfaction with the power source rental process. In addition to SUS, qualitative data will be gathered through observational analysis and user interviews, allowing for in-depth insights into any usability concerns. This testing phase will help identify potential friction points in the user interface and guide refinements to improve overall user satisfaction.
@@ -1143,6 +913,333 @@ The System Usability Scale (SUS) will be used to quantitatively measure the user
 \subsection{Implementation}
 This section discusses the deployment and actual operation of the completed solar-powered rental station with detachable power sources. Implementation involves installing the rental station in the selected community location, positioning the photovoltaic panel for optimal solar energy harvesting, and ensuring proper electrical and network connections. The detachable power sources are placed in their designated slots and secured using the solenoid locking mechanism. The ESP32-based control system and mobile application are activated to allow users to register, perform rental transactions, and access system information. During implementation, the system operates under real-world conditions to validate rental access, power availability, monitoring functions, and communication between the hardware, mobile application, and cloud database, ensuring the system performs as intended in practical use.
 
+ \subsection{Calculation Requirements}
+ 
+ \subsubsection{3.2.8.1 Load Analysis}
+ 
+ \begin{longtable}{p{3cm} p{1.6 cm} p{1.1cm} p{2.1cm} p{4cm}}
+ 	\caption{Load Consumption} \label{tab:LoadConsumption} \\
+ 	\toprule
+ 	\textbf{Load} & \textbf{Quantity} & \textbf{Power} & \textbf{Hours/Day} & \textbf{Daily Consumption} \\
+ 	\midrule
+ 	\endfirsthead
+ 	
+ 	\toprule
+ 	\textbf{Load} & \textbf{Quantity} & \textbf{Power} & \textbf{Hours/Day} & \textbf{Daily Consumption} \\
+ 	\midrule
+ 	\endhead
+ 	
+ 	\bottomrule
+ 	\endfoot
+ 	
+ 	Electric Fan & 1 & 75 W & 5 & 370 WH \\
+ 	Mobile Phone Charger & 1 & 20 W & 5 & 100 WH \\
+ 	Auxiliary Load & 1 & 5 W & 5 & 25 WH \\
+ 	\midrule
+ 	\textbf{Total} & & & & \textbf{500 WH} \\
+ \end{longtable}
+ 
+ The schedule of load includes three main loads, namely the electric fan, the mobile phone charger, and a 5W auxiliary load. Each load is multiplied by its hours of operation, and their products are summed to obtain the total watt-hour daily consumption. 
+ 
+ All calculations are done in accordance to PEC (Philippine Electrical Code 2017).
+ 
+ \subsubsection{3.2.8.2 Battery Sizing}
+ 
+ \begin{itemize}
+ 	\item\textbf{ Detachable Power Source:} 
+ 	\begin{equation}
+ 		\text{Battery Capacity} =
+ 		\left( \frac{\text{Total Daily Consumption}}{\text{System Voltage}} \right)
+ 		+ \text{ESP32 Consumption}
+ 		\label{eq:batterysizing}
+ 	\end{equation}
+ 	
+ 	
+ 	This equation determines the required battery capacity for the detachable power source. The total daily load consumption in watt-hours is divided by the 12V system voltage to convert the value into ampere-hours. The consumption of the ESP32 microcontroller (0.858 Ah), which continuously operates for system monitoring, is then added. This computation ensures that the detachable power source can sustain both the primary load and the microcontroller’s operational requirements. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
+ 	
+ 	\item\textbf{ Station:} 
+ 	\begin{equation}
+ 		\text{Battery Capacity} =
+ 		\left( 
+ 		\text{BCDPS}
+ 		+ 35\%
+ 		\right)
+ 		+ \text{ESP32 Consumption}
+ 		\label{eq:Station}
+ 	\end{equation}
+ 	
+ 	
+ 	This equation is used in sizing the battery of the main station. It begins with the computed battery capacity of the detachable power source and adds 35\% to account for system losses, such as wiring resistance, power conversion inefficiencies, and charging losses. The ESP32’s consumption (0.858 Ah) is also included to ensure that the main station battery can support all monitoring and control operations. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
+ 	
+ 	\item\textbf{ Panel Sizing:} 
+ 	\begin{equation}
+ 		\text{PV Power} =
+ 		\frac{\text{Total Daily Consumption}}{\text{Sun Peak Hours}}
+ 		\label{eq:panel}
+ 	\end{equation}
+ 	
+ 	
+ 	This equation calculates the required power rating of the solar panel. The total daily energy consumption (500 Wh) is divided by the available sun peak hours (3.5 hours, based on PEC 2017) to determine the power output needed to fully recharge the battery each day. The computed value of approximately 142.86W is rounded up to a 200W solar panel for practical and technical considerations. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
+ 	
+ 	\item \textbf{Inverter Sizing:} 
+ 	\begin{longtable}{p{4cm} p{1.5cm} p{2.5cm} p{4cm}}
+ 		\caption{Inverter Sizing} \label{tab:InverterSizing} \\
+ 		\toprule
+ 		\textbf{Load} & \textbf{Power} & \textbf{Power Surge} & \textbf{With Power Surge} \\
+ 		\midrule
+ 		\endfirsthead
+ 		
+ 		\toprule
+ 		\textbf{Load} & \textbf{Power} & \textbf{Power Surge} & \textbf{With Power Surge} \\
+ 		\midrule
+ 		\endhead
+ 		
+ 		\bottomrule
+ 		\endfoot
+ 		
+ 		Electric Fan & 75 W & 3 & 225 W \\
+ 		Mobile Phone Charger & 20 W & 1 & 20 W \\
+ 		Auxiliary Load & 5 W & 1 & 5 W \\
+ 		\midrule
+ 		\textbf{Total} & & & \textbf{250 W} \\
+ 	\end{longtable}
+ 	\begin{equation}
+ 		\text{Inverter Size} =
+ 		\text{Total Power Consumption} + 20\% \text{Allowance}
+ 		\label{eq:inverter}
+ 	\end{equation}
+ 	
+ 	
+ 	This formula is used to determine the appropriate inverter size. After calculating the total power requirements of all connected loads, including surge components such as the electric fan, a 20\% allowance is added to ensure that the inverter can safely handle fluctuations and temporary increases in power demand. With a total of 250W, the system requires a 300W pure sine wave inverter. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
+ 	
+ 	\item \textbf{Solar Charge Controller Sizing:} 
+ 	\begin{equation}
+ 		I_{cc} =
+ 		\frac{\text{Total PV Power}}{\text{System Voltage}}
+ 		\label{eq:solar}
+ 	\end{equation}
+ 	
+ 	
+ 	This equation determines the required rating for the solar charge controller. Dividing the total solar panel wattage (200W) by the system voltage (12V) yields the expected charging current supplied to the controller. The computed value of 16.67A is rounded upward to select a 20A MPPT charge controller, ensuring safe and efficient power regulation. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
+ 	
+ 	\item \textbf{Breaker Sizing:} 
+ 	\begin{enumerate}[label=\alph*.]
+ 		\item Panel - SCC
+ 		\begin{equation}
+ 			\text{Circuit Breaker} = 11.85A \times\text{Over Radiance Factor} \times \text{Safety Factor}
+ 		\end{equation}
+ 		
+ 		
+ 		This equation is used to determine the appropriate circuit breaker rating between the solar panel array and the Solar Charge Controller (SCC). The value 11.85A represents the short-circuit current (Isc) of the solar panel system. Multiplying by the Over Radiance Factor and the Safety Factor provides an adjusted current value that accounts for sudden increases in sunlight intensity and unexpected current surges.
+ 		After substituting the given parameters in the complete computation, the calculated value results in a 20A circuit breaker rating, which is the recommended protection size between the solar panel and the SCC. This ensures safe operation by preventing overheating, protecting the solar wiring, and avoiding damage to system components. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
+ 		
+ 		\item SCC - Battery
+ 		\begin{equation}
+ 			\text{Circuit Breaker} = \frac{\text{Total Array Wattage}}{\text{Battery Bank Nominal Voltage}} \times \text{Safety Factor}
+ 		\end{equation}
+ 		
+ 		
+ 		This equation sizes the circuit breaker between the Solar Charge Controller (SCC) and the battery bank. The total wattage of the solar panel array is divided by the system’s nominal battery voltage to determine the expected charging current that will flow from the SCC into the battery during operation. A Safety Factor is then applied to account for possible current variations during charging, ensuring that the system remains protected from overload.
+ 		After substituting the system values into the calculation, the resulting breaker rating requirement is 20A, which provides proper protection during charging while maintaining safe operating conditions for the battery bank. This recommended 20A circuit breaker prevents overheating and electrical damage by limiting excessive current flow into the battery storage system. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
+ 		
+ 		\item Battery - Power Inverter
+ 		\begin{equation}
+ 			\text{Circuit Breaker} = \frac{\text{Power Inverter}}{\text{Battery Bank Nominal Voltage}}
+ 		\end{equation}
+ 		
+ 		
+ 		This equation determines the appropriate circuit breaker rating between the battery bank and the power inverter. The power rating of the inverter (in watts) is divided by the nominal battery voltage (in volts) to calculate the maximum current drawn during inverter operation when supplying AC loads. This calculated current serves as the basis for selecting a circuit breaker capable of protecting both the inverter and battery system during high-demand usage.
+ 		After substituting the specified system values into the equation, the resulting breaker requirement is 80A, which is the recommended rating to ensure sufficient protection from overcurrent conditions that may occur when connected appliances operate at maximum load capacity. This breaker rating prevents damage to the inverter and battery by interrupting excessive current flow and maintaining safe operating conditions. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
+ 		
+ 		\item Inverter - Load (AC Breaker)
+ 		\begin{equation}
+ 			\text{Circuit Breaker} = \frac{ \text{Safety Load}}{\text{Inverter Voltage Output}} \times \text{BBNV}
+ 		\end{equation}
+ 		
+ 		
+ 		This equation sizes the AC circuit breaker located between the inverter and the connected load. The Safety Load represents the maximum expected power consumption of the AC appliances connected to the inverter. Dividing this value by the inverter’s AC output voltage converts the load into current, representing the expected amperage during operation. The result is then multiplied by the battery bank nominal voltage to account for conversion losses and variations in real operating conditions.
+ 		Based on the system values used in the computation, the required AC breaker rating is 4A, which provides sufficient protection by interrupting excessive current that could damage connected appliances or the inverter output circuitry. This calculated breaker size ensures safe and reliable system performance under normal and peak load operations. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
+ 		
+ 	\end{enumerate}
+ 	
+ 	\item \textbf{Wire Sizing:} 
+ 	\begin{equation}
+ 		\text{Voltage Drop Index} = \frac{\text{Amperes} \times \text{Wire Length (Feet)}}{\text{Voltage} \times \text{Percent Voltage Drop}}
+ 	\end{equation}
+ 	
+ 	
+ 	This equation is used for determining the appropriate wire size needed to safely and efficiently handle electrical current within the system. The Voltage Drop Index (VDI) is calculated based on four factors: the current in amperes, the wire length, the system voltage, and the allowable percentage of voltage drop. Higher current flow or longer cable distance increases the VDI value, which indicates the need for a thicker wire in order to minimize electrical resistance and heat generation. Selecting the correct wire size ensures that voltage loss is controlled, system performance remains efficient, and the overall electrical design operates safely without risk of overheating or component failure.
+ 	
+ 	\begin{enumerate}[label=\alph*.]
+ 		\item Panel - SCC \\
+ 		Panel to Solar Charge Controller = 10AWG 
+ 		
+ 		
+ 		The first VDI calculation was performed for the wire connection between the solar panel and the Solar Charge Controller (SCC). Given the operational current and wire distance in this segment, the computed VDI value resulted in 3.52. Based on standard VDI wire reference charts, a value of 3.52 corresponds to the use of 10 AWG wire, which provides sufficient conductivity and prevents excessive voltage reduction over the cable length. This ensures that power harvested from the solar panel is efficiently delivered to the SCC with minimal losses. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
+ 		
+ 		\item SCC - Battery\\
+ 		Solar Charge Controller to Battery = 10AWG
+ 		
+ 		
+ 		The second VDI calculation was conducted for the wire connection between the Solar Charge Controller (SCC) and the battery bank. Using the specified current, distance, system voltage, and allowable voltage drop percentage, the computed VDI value for this segment is 3.125. Similar to the previous result, this VDI value also aligns with the requirement for 10 AWG wire, ensuring safe current handling capacity and controlled voltage drop. The consistent selection of 10 AWG wire across both connection points maintains electrical balance and reliability throughout the charging circuit. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
+ 		
+ 	\end{enumerate}
+ \end{itemize}
+ 
+ \subsubsection{3.2.8.3 Charging Time and Energy Calculations}
+ 
+ This section presents the calculations for the charging time of the station battery using a solar panel, as well as the energy feasibility of charging detachable power sources from the station battery. All computations are based on theoretical values and typical system efficiencies.
+ 
+ \subsubsection{(a) Charging Time of the Station Battery Using Solar Panel}
+ 
+ The station battery has a nominal voltage of 12~V and a capacity of 100~Ah. The total energy capacity of the battery is calculated as follows:
+ 
+ \begin{equation}
+ 	E_{\text{battery}} = V \times Ah = 12~\text{V} \times 100~\text{Ah} = 1200~\text{Wh}
+ \end{equation}
+ 
+ The system uses a 410~W solar panel as the charging source. The theoretical charging time, assuming ideal conditions and no system losses, is given by:
+ 
+ \begin{equation}
+ 	t_{\text{charge}} = \frac{E_{\text{battery}}}{P_{\text{solar}}}
+ 	= \frac{1200~\text{Wh}}{410~\text{W}}
+ 	\approx 2.93~\text{hours}
+ \end{equation}
+ 
+ This value represents the ideal charging time. In real-world operation, charging will take longer due to inefficiencies in the system and variations in solar irradiance. Considering the average peak sun hours in the Philippines, which ranges from 4.5 to 5.5 hours per day, a practical charging duration of approximately 3-4 hours under peak sunlight is reasonable.
+ 
+ \subsubsection{(b) Energy Feasibility of Charging Detachable Power Sources}
+ 
+ The energy capacity of the station battery, acting as the energy source, is:
+ 
+ \begin{equation}
+ 	E_{\text{source}} = 12~\text{V} \times 100~\text{Ah} = 1200~\text{Wh}
+ \end{equation}
+ 
+ Each detachable power source has a capacity of 12~V and 50~Ah. Since there are two detachable units, the total required energy is:
+ 
+ \begin{equation}
+ 	E_{\text{target}} = 2 \times (12~\text{V} \times 50~\text{Ah}) = 1200~\text{Wh}
+ \end{equation}
+ 
+ Ideally, the station battery can fully charge both detachable power sources if all the stored energy is transferred. However, system losses must be considered. The average efficiencies are assumed as follows:
+ \begin{itemize}
+ 	\item Inverter efficiency: 88\%
+ 	\item Charger efficiency: 88\%
+ \end{itemize}
+ 
+ The overall system efficiency is therefore:
+ 
+ \begin{equation}
+ 	\eta_{\text{total}} = 0.88 \times 0.88 = 0.7744 \approx 77\%
+ \end{equation}
+ 
+ Taking these losses into account, the actual energy required from the station battery to fully charge both detachable power sources is:
+ 
+ \begin{equation}
+ 	E_{\text{required}} = \frac{E_{\text{target}}}{\eta_{\text{total}}}
+ 	= \frac{1200~\text{Wh}}{0.7744}
+ 	\approx 1550.9~\text{Wh}
+ \end{equation}
+ 
+ This indicates that while the station battery can theoretically charge both detachable power sources, additional energy from the solar panel or partial charging strategies may be required in practical operation.
+ 
+ \subsubsection{(c) Charging Time of a Single Detachable Power Source}
+ 
+ Each detachable power source has a battery capacity of 50~Ah and is charged using a 20~A charger. The theoretical charging time is calculated as:
+ 
+ \begin{equation}
+ 	t_{\text{charge}} = \frac{50~\text{Ah}}{20~\text{A}} = 2.5~\text{hours}
+ \end{equation}
+ 
+ Assuming charging starts from 0\% state of charge, the detachable power source will require approximately 2.5 hours to reach full capacity under ideal conditions. In practice, charging may stop earlier due to low-voltage disconnect protection, typically when 20\%--30\% capacity remains, to prevent battery damage.
+ 
+ \begin{longtable}{|p{3.5cm}|p{5.0cm}|p{4.0cm}|}
+ 	\caption{Summary of Design Computation Formulas}\label{tab:design_formulas}\\
+ 	\hline
+ 	\textbf{Name} & \textbf{Formula} & \textbf{Description Summary} \\
+ 	\hline
+ 	\endfirsthead
+ 	
+ 	\hline
+ 	\textbf{Name} & \textbf{Formula} & \textbf{Description Summary} \\
+ 	\hline
+ 	\endhead
+ 	
+ 	\hline
+ 	\endfoot
+ 	
+ 	Battery Capacity (Detachable Power Source)
+ 	&
+ 	$C_{\text{bat,DPS}}=\dfrac{E_{\text{daily}}}{V_{\text{sys}}}+C_{\text{ESP32}}$
+ 	&
+ 	Determines the required battery capacity for the detachable unit by converting total daily energy demand (Wh) into ampere-hours using the system voltage, then adding the ESP32 consumption for continuous monitoring. \\
+ 	\hline
+ 	
+ 	Battery Capacity (Station)
+ 	&
+ 	$C_{\text{bat,station}}=C_{\text{bat,DPS}}\,(1+0.35)+C_{\text{ESP32}}$
+ 	&
+ 	Sizes the station battery based on the detachable power source capacity, adding a 35\% allowance for system losses (e.g., wiring resistance and conversion/charging losses) and including ESP32 consumption for control and monitoring. \\
+ 	\hline
+ 	
+ 	Panel Sizing (PV Power)
+ 	&
+ 	$P_{\text{PV}}=\dfrac{E_{\text{daily}}}{H_{\text{PSH}}}$
+ 	&
+ 	Computes the required solar panel rating by dividing total daily energy consumption by the available sun peak hours, ensuring the battery can be recharged within a day. \\
+ 	\hline
+ 	
+ 	Inverter Sizing
+ 	&
+ 	$P_{\text{inv}}=P_{\text{load,total}}\,(1+0.20)$
+ 	&
+ 	Determines the inverter size by adding a 20\% allowance to the total load power (including surge considerations) so the inverter can safely handle temporary demand increases. \\
+ 	\hline
+ 	
+ 	Solar Charge Controller Sizing
+ 	&
+ 	$I_{cc}=\dfrac{P_{\text{PV,total}}}{V_{\text{sys}}}$
+ 	&
+ 	Determines the required charge controller current rating by dividing total PV power by system voltage; the computed current is typically rounded up to select a standard controller rating. \\
+ 	\hline
+ 	
+ 	Breaker Sizing (Panel--SCC)
+ 	&
+ 	$I_{\text{CB,PV-SCC}}=I_{sc}\times F_{\text{rad}}\times F_{\text{safe}}$
+ 	&
+ 	Selects the circuit breaker rating between the PV array and SCC using the panel short-circuit current adjusted by the over-radiance factor and safety factor to protect wiring and components from surges/overcurrent. \\
+ 	\hline
+ 	
+ 	Breaker Sizing (SCC--Battery)
+ 	&
+ 	$I_{\text{CB,SCC-Bat}}=\left(\dfrac{P_{\text{array}}}{V_{\text{bat,nom}}}\right)\times F_{\text{safe}}$
+ 	&
+ 	Sizes the breaker between SCC and battery by estimating charging current (array wattage divided by nominal battery voltage) and applying a safety factor to prevent overload and overheating. \\
+ 	\hline
+ 	
+ 	Breaker Sizing (Battery--Inverter)
+ 	&
+ 	$I_{\text{CB,Bat-Inv}}=\dfrac{P_{\text{inv}}}{V_{\text{bat,nom}}}$
+ 	&
+ 	Determines the breaker rating between the battery bank and inverter by calculating the maximum DC current drawn during inverter operation, providing protection during high-demand usage. \\
+ 	\hline
+ 	
+ 	Breaker Sizing (Inverter--Load / AC Breaker)
+ 	&
+ 	$I_{\text{CB,AC}}=\left(\dfrac{P_{\text{safety load}}}{V_{\text{AC,out}}}\right)\times V_{\text{bat,nom}}$
+ 	&
+ 	Sizes the AC breaker between inverter and load by converting the expected load power into current using the inverter AC output voltage, then applying the battery nominal voltage factor as used in the design computation. \\
+ 	\hline
+ 	
+ 	Wire Sizing (Voltage Drop Index)
+ 	&
+ 	$\mathrm{VDI}=\dfrac{I\times L_{\text{wire}}}{V\times (\%\Delta V)}$
+ 	&
+ 	Computes the Voltage Drop Index using current, wire length, system voltage, and allowable voltage-drop percentage. Higher VDI indicates the need for a thicker wire to control voltage loss and reduce heating. \\
+ 	\hline
+ 	
+ \end{longtable}
  
   \subsection{Standards and Guidelines Considered}
   
