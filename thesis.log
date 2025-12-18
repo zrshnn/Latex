@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 DEC 2025 06:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 DEC 2025 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -832,19 +832,21 @@ Overfull \hbox (9.94347pt too wide) in paragraph at lines 33--33
 
 
 
-[3])
+[3]
+
+[4])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
 
 
-[4] (./thesis.lot)
+[5] (./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
 
 
-[5
+[6
 
 ] (./thesis.lof
 Overfull \hbox (4.18723pt too wide) in paragraph at lines 14--14
@@ -854,7 +856,7 @@ tal
 
 
 
-[6
+[7
 
 ])
 \tf@lof=\write7
@@ -862,13 +864,13 @@ tal
 
 
 
-[7] (./thesis.exp)
+[8] (./thesis.exp)
 \tf@exp=\write8
 \openout8 = `thesis.exp'.
 
 
 
-[8
+[9
 
 ]
 \openout2 = `chapter1.aux'.
@@ -896,7 +898,7 @@ Chapter 1.
 }]
 
 [8]
-Overfull \hbox (9.51353pt too wide) in paragraph at lines 91--92
+Overfull \hbox (9.51353pt too wide) in paragraph at lines 92--93
 []\OT1/cmr/m/n/12 Implement coin-operated or app-based ac-cess for rent-ing the
  power sources. 
  []
@@ -930,7 +932,7 @@ Chapter 2.
 [16]
 
 [17]
-<figures/theoretical.png, id=622, 724.7075pt x 676.5275pt>
+<figures/theoretical.png, id=665, 724.7075pt x 676.5275pt>
 File: figures/theoretical.png Graphic file (type png)
 <use figures/theoretical.png>
 Package pdftex.def Info: figures/theoretical.png  used on input line 32.
@@ -940,7 +942,7 @@ Package pdftex.def Info: figures/theoretical.png  used on input line 32.
 [18]
 
 [19 <./figures/theoretical.png>]
-<figures/ipo.png, id=634, 627.34375pt x 311.1625pt>
+<figures/ipo.png, id=677, 627.34375pt x 311.1625pt>
 File: figures/ipo.png Graphic file (type png)
 <use figures/ipo.png>
 Package pdftex.def Info: figures/ipo.png  used on input line 47.
@@ -954,7 +956,7 @@ Package pdftex.def Info: figures/ipo.png  used on input line 47.
 [22]
 
 [23]
-<figures/schematic.png, id=657, 443.6575pt x 503.8825pt>
+<figures/schematic.png, id=700, 443.6575pt x 503.8825pt>
 File: figures/schematic.png Graphic file (type png)
 <use figures/schematic.png>
 Package pdftex.def Info: figures/schematic.png  used on input line 126.
@@ -972,7 +974,7 @@ Package pdftex.def Info: figures/schematic.png  used on input line 126.
 [28]
 
 [29]
-Overfull \hbox (4.08305pt too wide) in paragraph at lines 154--154
+Overfull \hbox (4.08305pt too wide) in paragraph at lines 152--152
 |[]\OT1/cmr/bx/n/12 Design and De-vel-op-ment of Portable Stand-Alone So-lar Po
 wer
  []
@@ -980,7 +982,7 @@ wer
 
 
 [30]
-Overfull \hbox (4.031pt too wide) in paragraph at lines 157--158
+Overfull \hbox (4.031pt too wide) in paragraph at lines 155--156
 []\OT1/cmr/m/n/12 The sys-tem was me-chan-i-cally de-signed to al-low PV pan-el
 s to be mounted
  []
@@ -994,7 +996,7 @@ s to be mounted
 [33]
 
 [34]
-Overfull \hbox (8.12961pt too wide) in paragraph at lines 177--178
+Overfull \hbox (8.12961pt too wide) in paragraph at lines 175--176
 []$[][][]$ \OT1/cmr/m/n/12 bat-ter-ies are gen-er-ally more energy-efficient, a
 l-low-ing for greater
  []
@@ -1010,430 +1012,455 @@ l-low-ing for greater
 [38]
 
 [39]
-Overfull \hbox (11.7086pt too wide) in paragraph at lines 194--195
+Overfull \hbox (11.7086pt too wide) in paragraph at lines 192--193
 []\OT1/cmr/m/n/12 To ad-dress these gaps, re-cent ap-proaches pro-pose com-bin-
 ing high-capacity
  []
 
 
-
-[40]
-Overfull \hbox (3.54897pt too wide) in paragraph at lines 196--197
+Overfull \hbox (3.54897pt too wide) in paragraph at lines 194--195
 []\OT1/cmr/m/n/12 Overall, the sys-tem's sus-tain-able de-sign|characterized by
  high-capacity
  []
 
 
 
-[41]
-Underfull \hbox (badness 1163) in paragraph at lines 220--220
+[40]
+Underfull \hbox (badness 1163) in paragraph at lines 218--218
 \OT1/cmr/m/n/10.95 en-ergy de-vices with a 12V
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 220--220
+Underfull \hbox (badness 3601) in paragraph at lines 218--218
 \OT1/cmr/m/n/10.95 bat-tery pack, and showed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 \OT1/cmr/m/n/10.95 work-able charge-discharge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
-[]|\OT1/cmr/m/n/10.95 Enhance bat-tery
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+[]|\OT1/cmr/m/n/10.95 Improve bat-tery
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 221--221
-\OT1/cmr/m/n/10.95 so-lar panel per-for-
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+\OT1/cmr/m/n/10.95 stor-age ca-pac-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
-\OT1/cmr/m/n/10.95 mance for higher
+Underfull \hbox (badness 2951) in paragraph at lines 219--219
+\OT1/cmr/m/n/10.95 and op-ti-mize so-lar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
-[]|\OT1/cmr/m/n/10.95 Opportunities ex-ist
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+\OT1/cmr/m/n/10.95 panel per-for-mance
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 222--223
-\OT1/cmr/m/n/10.95 to im-prove bat-tery
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+\OT1/cmr/m/n/10.95 for higher en-ergy
  []
 
 
-Underfull \hbox (badness 7415) in paragraph at lines 222--223
-\OT1/cmr/m/n/10.95 ca-pac-ity and so-lar
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+[]|\OT1/cmr/m/n/10.95 Only sup-ply low-
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+\OT1/cmr/m/n/10.95 energy loads such
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+\OT1/cmr/m/n/10.95 as mo-bile phone
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+\OT1/cmr/m/n/10.95 charg-ing, portable
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 220--221
+\OT1/cmr/m/n/10.95 light-ing, and small
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+\OT1/cmr/m/n/10.95 a small AM/FM
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 227--227
 []|\OT1/cmr/m/n/10.95 Compatible to mo-bile gad-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
 []|\OT1/cmr/m/n/10.95 Install sys-tems in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
 \OT1/cmr/m/n/10.95 strate-gic lo-ca-tions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
-\OT1/cmr/m/n/10.95 and in-clude safe-
+Underfull \hbox (badness 2111) in paragraph at lines 228--228
+\OT1/cmr/m/n/10.95 for com-mu-nal pur-
  []
 
 
-Underfull \hbox (badness 7221) in paragraph at lines 230--230
-\OT1/cmr/m/n/10.95 guards to pre-vent
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+\OT1/cmr/m/n/10.95 pose and in-clude
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 5548) in paragraph at lines 228--228
+\OT1/cmr/m/n/10.95 safe-guards to pre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 []|\OT1/cmr/m/n/10.95 Not yet em-ployed
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 231--232
+Underfull \hbox (badness 7558) in paragraph at lines 229--230
 \OT1/cmr/m/n/10.95 in the com-mu-nity,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 \OT1/cmr/m/n/10.95 and sug-gested to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 \OT1/cmr/m/n/10.95 in-te-grate se-cu-rity
  []
 
 
-Underfull \hbox (badness 3792) in paragraph at lines 231--232
+Underfull \hbox (badness 3792) in paragraph at lines 229--230
 \OT1/cmr/m/n/10.95 fea-tures to pre-vent
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 238--238
-[]|\OT1/cmr/m/n/10.95 Used a 2x2 ar-ray of 50W
- []
-
-
-Underfull \hbox (badness 2293) in paragraph at lines 238--238
+Underfull \hbox (badness 2293) in paragraph at lines 236--236
 \OT1/cmr/m/n/10.95 load mon-i-tor-ing, and used
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 4634) in paragraph at lines 237--237
+\OT1/cmr/m/n/10.95 tery. Lesser ca-
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 238--240
+[]|\OT1/cmr/m/n/10.95 Include lighter ma-
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 238--240
+\OT1/cmr/m/n/10.95 bat-tery per-for-mance
+ []
+
+
+Overfull \hbox (40.21664pt too wide) in paragraph at lines 203--241
+ [][] 
+ []
+
+
+
+[41]
+Overfull \hbox (3.7454pt too wide) in paragraph at lines 253--253
+ []|\OT1/cmr/m/n/10.95 Altelmessani 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
 []|\OT1/cmr/m/n/10.95 Strengthen pro-tec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
-\OT1/cmr/m/n/10.95 tive fea-tures and
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+\OT1/cmr/m/n/10.95 the sys-tem un-der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
-\OT1/cmr/m/n/10.95 im-prove long-term
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+\OT1/cmr/m/n/10.95 var-ied op-er-a-tional
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 240--242
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+[]|\OT1/cmr/m/n/10.95 Increase porta-bil-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+\OT1/cmr/m/n/10.95 ity and max-i-mize
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+\OT1/cmr/m/n/10.95 en-ergy ef-fi-ciency
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+\OT1/cmr/m/n/10.95 (Bat-tery ca-pac-ity
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 258--259
+\OT1/cmr/m/n/10.95 di-verse en-vi-ron-men-
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 265--265
+[]|\OT1/cmr/m/n/10.95 Provided 100W power for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
+\OT1/cmr/m/n/10.95 small ap-pli-ances, of-fered
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
+\OT1/cmr/m/n/10.95 to sup-port longer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
+\OT1/cmr/m/n/10.95 per-for-mance un-der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
+\OT1/cmr/m/n/10.95 vary-ing weather
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 267--268
 []|\OT1/cmr/m/n/10.95 Used lead-acid bat-
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 240--242
-\OT1/cmr/m/n/10.95 tery. Safety and
+Underfull \hbox (badness 4144) in paragraph at lines 267--268
+\OT1/cmr/m/n/10.95 loads above 100W,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
-\OT1/cmr/m/n/10.95 dura-bil-ity un-der
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+\OT1/cmr/m/n/10.95 MPPT and con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
-\OT1/cmr/m/n/10.95 di-verse con-di-tions
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+\OT1/cmr/m/n/10.95 per-for-mance, par-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
-\OT1/cmr/m/n/10.95 could be fur-ther
+Underfull \hbox (badness 2310) in paragraph at lines 275--275
+\OT1/cmr/m/n/10.95 tic-u-larly in re-mote
  []
 
 
-Overfull \hbox (40.21664pt too wide) in paragraph at lines 205--243
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+[]|\OT1/cmr/m/n/10.95 Does not fully
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+\OT1/cmr/m/n/10.95 demon-strate long-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+\OT1/cmr/m/n/10.95 term per-for-mance.
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 276--277
+\OT1/cmr/m/n/10.95 ergy ex-trac-tion and
+ []
+
+
+Overfull \hbox (44.81876pt too wide) in paragraph at lines 251--280
  [][] 
  []
 
 
 
 [42]
-Overfull \hbox (3.7454pt too wide) in paragraph at lines 255--255
- []|\OT1/cmr/m/n/10.95 Altelmessani 
+Underfull \hbox (badness 1292) in paragraph at lines 296--296
+\OT1/cmr/m/n/10.95 charging to higher-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-\OT1/cmr/m/n/10.95 for ver-sa-til-ity, pow-ered
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
+\OT1/cmr/m/n/10.95 wattage house-
  []
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 258--258
-\OT1/cmr/m/n/10.95 small ap-pli-ances up to
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
+\OT1/cmr/m/n/10.95 hold/appliance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-\OT1/cmr/m/n/10.95 fea-tures for pro-tec-tion
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
+\OT1/cmr/m/n/10.95 backup (e.g.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
-[]|\OT1/cmr/m/n/10.95 Optimize de-sign
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
+\OT1/cmr/m/n/10.95 higher-capacity
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 259--259
-\OT1/cmr/m/n/10.95 and im-proved en-
+Underfull \hbox (badness 4899) in paragraph at lines 296--296
+\OT1/cmr/m/n/10.95 stor-age). Use a
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 260--262
-[]|\OT1/cmr/m/n/10.95 There is room to
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
+\OT1/cmr/m/n/10.95 mod-u-lar/detachable
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--262
-\OT1/cmr/m/n/10.95 in-crease porta-bil-
+Underfull \hbox (badness 7273) in paragraph at lines 296--296
+\OT1/cmr/m/n/10.95 able for a rental
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 260--262
-\OT1/cmr/m/n/10.95 ity and max-i-mize
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--262
-\OT1/cmr/m/n/10.95 en-ergy ef-fi-ciency.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--262
-\OT1/cmr/m/n/10.95 (Bat-tery ca-pac-ity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
-[]|\OT1/cmr/m/n/10.95 Provided 100W power
- []
-
-
-Underfull \hbox (badness 1348) in paragraph at lines 268--268
-\OT1/cmr/m/n/10.95 for small ap-pli-ances, of-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
-\OT1/cmr/m/n/10.95 fered AC/DC out-puts
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
-[]|\OT1/cmr/m/n/10.95 Adjust bat-tery
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
-\OT1/cmr/m/n/10.95 charg-ing un-der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
-\OT1/cmr/m/n/10.95 vary-ing sun-light
- []
-
-
-Underfull \hbox (badness 2865) in paragraph at lines 277--277
-[]|\OT1/cmr/m/n/10.95 The gen-er-a-tor ef-fi-ciently
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-\OT1/cmr/m/n/10.95 re-placed diesel gen-er-a-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-[]|\OT1/cmr/m/n/10.95 Implement ad-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-\OT1/cmr/m/n/10.95 bidi-rec-tional con-
- []
-
-
-Underfull \hbox (badness 1917) in paragraph at lines 279--280
-[]|\OT1/cmr/m/n/10.95 Potential ex-ists to
- []
-
-
-Underfull \hbox (badness 2495) in paragraph at lines 286--286
-[]|\OT1/cmr/m/n/10.95 Integrated IoT for real-
- []
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 287--287
-\OT1/cmr/m/n/10.95 de-ploy-ment to as-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 []|\OT1/cmr/m/n/10.95 Not de-signed for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-\OT1/cmr/m/n/10.95 high-power ap-pli-
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+\OT1/cmr/m/n/10.95 high-demand ap-
  []
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 288--289
-\OT1/cmr/m/n/10.95 ances, fo-cused on
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+\OT1/cmr/m/n/10.95 pli-ances nor im-
  []
 
 
-Overfull \hbox (30.59195pt too wide) in paragraph at lines 253--291
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+\OT1/cmr/m/n/10.95 ple-ment a mod-
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+\OT1/cmr/m/n/10.95 u-lar/detachable
+ []
 
-[43]
-Underfull \hbox (badness 6910) in paragraph at lines 306--306
+
+Underfull \hbox (badness 6910) in paragraph at lines 304--304
 []|\OT1/cmr/m/n/10.95 Frequent 3{4 hour power
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 306--306
+Underfull \hbox (badness 1014) in paragraph at lines 304--304
 \OT1/cmr/m/n/10.95 in-ter-rup-tions in-creased elec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 \OT1/cmr/m/n/10.95 low-income, grid-dependent
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 307--307
+Underfull \hbox (badness 5119) in paragraph at lines 305--305
 []|\OT1/cmr/m/n/10.95 Strengthening lo-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 \OT1/cmr/m/n/10.95 and pri-or-i-tiz-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 \OT1/cmr/m/n/10.95 sus-tain-able en-ergy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 \OT1/cmr/m/n/10.95 so-lu-tions, par-tic-u-
  []
 
 
-Underfull \hbox (badness 6348) in paragraph at lines 307--307
+Underfull \hbox (badness 6348) in paragraph at lines 305--305
 \OT1/cmr/m/n/10.95 larly so-lar en-ergy,
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 307--307
+Underfull \hbox (badness 1348) in paragraph at lines 305--305
 \OT1/cmr/m/n/10.95 through im-ple-ment-
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 307--307
+Underfull \hbox (badness 2608) in paragraph at lines 305--305
 \OT1/cmr/m/n/10.95 ing projects across
  []
 
 
-Underfull \hbox (badness 6493) in paragraph at lines 308--309
-[]|\OT1/cmr/m/n/10.95 Relying mainly on
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+[]|\OT1/cmr/m/n/10.95 Did not in-clude
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
-\OT1/cmr/m/n/10.95 self-reported ac-
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+\OT1/cmr/m/n/10.95 elec-tri-cal mea-sure-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
-\OT1/cmr/m/n/10.95 counts of out-age
+Underfull \hbox (badness 1048) in paragraph at lines 306--307
+\OT1/cmr/m/n/10.95 ments (e.g., volt-age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
-\OT1/cmr/m/n/10.95 ex-pe-ri-ences and
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+\OT1/cmr/m/n/10.95 im-ple-men-ta-tion of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
-\OT1/cmr/m/n/10.95 ap-pli-ance ef-fects;
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+\OT1/cmr/m/n/10.95 projects such as
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 308--309
-\OT1/cmr/m/n/10.95 it did not in-clude
+Underfull \hbox (badness 1221) in paragraph at lines 306--307
+\OT1/cmr/m/n/10.95 Elec-tri-cal and Elec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
-\OT1/cmr/m/n/10.95 ob-jec-tive elec-tri-cal
- []
-
-
-Underfull \hbox (badness 7451) in paragraph at lines 308--309
-\OT1/cmr/m/n/10.95 mea-sure-ments (e.g.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
-\OT1/cmr/m/n/10.95 volt-age mon-i-tor-ing)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
-\OT1/cmr/m/n/10.95 as Elec-tri-cal and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
-\OT1/cmr/m/n/10.95 Elec-tronic De-signs
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
-\OT1/cmr/m/n/10.95 us-ing Re-new-able
- []
-
-
-Overfull \hbox (27.74693pt too wide) in paragraph at lines 301--310
+Overfull \hbox (33.43784pt too wide) in paragraph at lines 290--310
  [][] 
  []
 
+
+
+[43])
+\openout2 = `chapter3.aux'.
+
+ (./chapter3.tex
+Chapter 3.
+<figures/waterfall.png, id=790, 663.47874pt x 482.80376pt>
+File: figures/waterfall.png Graphic file (type png)
+<use figures/waterfall.png>
+Package pdftex.def Info: figures/waterfall.png  used on input line 13.
+(pdftex.def)             Requested size: 238.49342pt x 173.544pt.
 
 
 [44
@@ -1442,19 +1469,6 @@ Overfull \hbox (27.74693pt too wide) in paragraph at lines 301--310
 
 
 
-])
-\openout2 = `chapter3.aux'.
-
- (./chapter3.tex
-Chapter 3.
-<figures/waterfall.png, id=751, 663.47874pt x 482.80376pt>
-File: figures/waterfall.png Graphic file (type png)
-<use figures/waterfall.png>
-Package pdftex.def Info: figures/waterfall.png  used on input line 13.
-(pdftex.def)             Requested size: 238.49342pt x 173.544pt.
-
-
-[45
 
 
 
@@ -1468,81 +1482,87 @@ ev-ing the study's
 
 
 
-[46]
-<figures/planning.png, id=761, 653.44125pt x 487.8225pt>
+[45]
+<figures/planning.png, id=800, 653.44125pt x 487.8225pt>
 File: figures/planning.png Graphic file (type png)
 <use figures/planning.png>
 Package pdftex.def Info: figures/planning.png  used on input line 31.
 (pdftex.def)             Requested size: 278.2383pt x 207.7126pt.
 
 
-[47 <./figures/planning.png>]
+[46 <./figures/planning.png>]
+
+[47]
 
 [48]
-<figures/map.png, id=772, 2308.625pt x 1397.22pt>
+
+[49]
+<figures/map.png, id=821, 2308.625pt x 1397.22pt>
 File: figures/map.png Graphic file (type png)
 <use figures/map.png>
-Package pdftex.def Info: figures/map.png  used on input line 90.
+Package pdftex.def Info: figures/map.png  used on input line 115.
 (pdftex.def)             Requested size: 397.48502pt x 240.55168pt.
 
 
-[49]
-
 [50 <./figures/map.png>]
-Underfull \hbox (badness 1087) in paragraph at lines 129--130
+Underfull \hbox (badness 1087) in paragraph at lines 154--155
 []|\OT1/cmr/m/n/12 - The sys-tem shall con-tin-u-ously mon-i-tor and
  []
 
 [51] [52]
-<figures/architecture.jpg, id=791, 4557.025pt x 3878.49pt>
-File: figures/architecture.jpg Graphic file (type jpg)
-<use figures/architecture.jpg>
-Package pdftex.def Info: figures/architecture.jpg  used on input line 164.
-(pdftex.def)             Requested size: 337.86469pt x 287.50089pt.
-
 
 [53]
 
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 183.
+
+<figures/architecture.jpg, id=840, 4557.025pt x 3878.49pt>
+File: figures/architecture.jpg Graphic file (type jpg)
+<use figures/architecture.jpg>
+Package pdftex.def Info: figures/architecture.jpg  used on input line 189.
+(pdftex.def)             Requested size: 337.86469pt x 287.50089pt.
+
+
 [54 <./figures/architecture.jpg>]
-<figures/flowchart.png, id=802, 733.74126pt x 1245.65375pt>
+<figures/flowchart.png, id=847, 733.74126pt x 1245.65375pt>
 File: figures/flowchart.png Graphic file (type png)
 <use figures/flowchart.png>
-Package pdftex.def Info: figures/flowchart.png  used on input line 192.
+Package pdftex.def Info: figures/flowchart.png  used on input line 217.
 (pdftex.def)             Requested size: 238.49342pt x 404.87068pt.
 
 
 [55]
 
 [56 <./figures/flowchart.png>]
-<figures/context.png, id=812, 745.78625pt x 559.08875pt>
+<figures/context.png, id=857, 745.78625pt x 559.08875pt>
 File: figures/context.png Graphic file (type png)
 <use figures/context.png>
-Package pdftex.def Info: figures/context.png  used on input line 207.
+Package pdftex.def Info: figures/context.png  used on input line 232.
 (pdftex.def)             Requested size: 397.48502pt x 297.97916pt.
 
 
 [57]
 
 [58 <./figures/context.png>]
-Overfull \hbox (0.15456pt too wide) in paragraph at lines 212--213
+Overfull \hbox (0.15456pt too wide) in paragraph at lines 237--238
 []\OT1/cmr/m/n/12 The in-ter-ac-tion be-tween the com-mu-nity res-i-dents and t
 he solar-powered
  []
 
-<figures/dflow.png, id=822, 974.64125pt x 787.94376pt>
+<figures/dflow.png, id=868, 974.64125pt x 787.94376pt>
 File: figures/dflow.png Graphic file (type png)
 <use figures/dflow.png>
-Package pdftex.def Info: figures/dflow.png  used on input line 221.
+Package pdftex.def Info: figures/dflow.png  used on input line 246.
 (pdftex.def)             Requested size: 397.48502pt x 321.33974pt.
 
 
 [59]
 
 [60 <./figures/dflow.png>]
-<figures/usecase.png, id=833, 1123.19624pt x 1036.87375pt>
+<figures/usecase.png, id=878, 1123.19624pt x 1036.87375pt>
 File: figures/usecase.png Graphic file (type png)
 <use figures/usecase.png>
-Package pdftex.def Info: figures/usecase.png  used on input line 231.
+Package pdftex.def Info: figures/usecase.png  used on input line 256.
 (pdftex.def)             Requested size: 397.48502pt x 366.92989pt.
 
 
@@ -1551,773 +1571,444 @@ Package pdftex.def Info: figures/usecase.png  used on input line 231.
 [62 <./figures/usecase.png>]
 
 [63]
-<figures/harvesting.png, id=847, 2672.98625pt x 639.38875pt>
+<figures/harvesting.png, id=892, 2672.98625pt x 639.38875pt>
 File: figures/harvesting.png Graphic file (type png)
 <use figures/harvesting.png>
-Package pdftex.def Info: figures/harvesting.png  used on input line 246.
+Package pdftex.def Info: figures/harvesting.png  used on input line 271.
 (pdftex.def)             Requested size: 397.48502pt x 95.07489pt.
 
 
 [64 <./figures/harvesting.png>]
-<figures/conversion.png, id=854, 3364.57pt x 502.87875pt>
+<figures/conversion.png, id=899, 3364.57pt x 502.87875pt>
 File: figures/conversion.png Graphic file (type png)
 <use figures/conversion.png>
-Package pdftex.def Info: figures/conversion.png  used on input line 257.
+Package pdftex.def Info: figures/conversion.png  used on input line 282.
 (pdftex.def)             Requested size: 397.48502pt x 59.4067pt.
-<figures/monitoring.png, id=855, 1081.03876pt x 391.4625pt>
+<figures/monitoring.png, id=900, 1081.03876pt x 391.4625pt>
 File: figures/monitoring.png Graphic file (type png)
 <use figures/monitoring.png>
-Package pdftex.def Info: figures/monitoring.png  used on input line 268.
+Package pdftex.def Info: figures/monitoring.png  used on input line 293.
 (pdftex.def)             Requested size: 397.48502pt x 143.93092pt.
 
 
 [65 <./figures/conversion.png>]
-<figures/tracking.png, id=862, 1179.40625pt x 312.16624pt>
+<figures/tracking.png, id=906, 1179.40625pt x 312.16624pt>
 File: figures/tracking.png Graphic file (type png)
 <use figures/tracking.png>
-Package pdftex.def Info: figures/tracking.png  used on input line 279.
+Package pdftex.def Info: figures/tracking.png  used on input line 304.
 (pdftex.def)             Requested size: 397.48502pt x 105.20627pt.
 
 
 [66 <./figures/monitoring.png>]
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 286.
-
-
-Overfull \hbox (0.8003pt too wide) in paragraph at lines 291--291
-[]|\OT1/cmr/bx/n/12 Hours/Day| 
- []
-
-
-Overfull \hbox (21.01942pt too wide) in alignment at lines 288--293
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (0.8003pt too wide) in paragraph at lines 296--296
-[]|\OT1/cmr/bx/n/12 Hours/Day| 
- []
-
-
-Overfull \hbox (21.01942pt too wide) in alignment at lines 293--298
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (21.01942pt too wide) in alignment at lines 298--301
- [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-[]|\OT1/cmr/m/n/12 Mobile Phone
- []
-
-
-Overfull \hbox (21.01942pt too wide) in alignment at lines 301--308
- [] [] [] [] [] 
- []
-
 [67 <./figures/tracking.png>]
-Overfull \hbox (3.73471pt too wide) detected at line 323
-[][][][] \OT1/cmr/m/n/12 = [] + []
- []
-
-
-LaTeX Warning: Hyper reference `appendix:A' on page 68 undefined on input line 
-326.
-
-
-
-[68]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 69 undefined on input line 
-340.
-
-
-LaTeX Warning: Hyper reference `appendix:A' on page 69 undefined on input line 
-350.
-
-
-
-[69]
-Underfull \hbox (badness 10000) in paragraph at lines 356--356
-[]|\OT1/cmr/bx/n/12 Power
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--361
-[]|\OT1/cmr/bx/n/12 Power
- []
-
-
-LaTeX Warning: Hyper reference `appendix:A' on page 70 undefined on input line 
-381.
-
-
-
-[70]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 71 undefined on input line 
-391.
-
-
-LaTeX Warning: Hyper reference `appendix:A' on page 71 undefined on input line 
-402.
-
-
-
-[71]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 72 undefined on input line 
-411.
-
-
-
-[72]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 73 undefined on input line 
-420.
-
-
-
-[73]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 74 undefined on input line 
-429.
-
-
-
-[74]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 75 undefined on input line 
-446.
-
-
-
-[75]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 76 undefined on input line 
-452.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
-[]|\OT1/cmr/bx/n/12 Description Sum-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
-[]|\OT1/cmr/bx/n/12 Description Sum-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--473
-[]|\OT1/cmr/m/n/12 Battery Ca-pac-ity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
-[]|\OT1/cmr/m/n/12 Determines the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
-\OT1/cmr/m/n/12 re-quired bat-tery
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
-\OT1/cmr/m/n/12 ca-pac-ity for the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
-\OT1/cmr/m/n/12 de-tach-able unit by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
-\OT1/cmr/m/n/12 into ampere-hours
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
-\OT1/cmr/m/n/12 us-ing the sys-tem
- []
-
-
-Underfull \hbox (badness 7888) in paragraph at lines 476--477
-\OT1/cmr/m/n/12 tion for con-tin-u-ous
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 479--480
-[]|\OT1/cmr/m/n/12 Battery Ca-pac-ity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
-\OT1/cmr/m/n/12 ca-pac-ity, adding a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
-\OT1/cmr/m/n/12 35% al-lowance for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
-\OT1/cmr/m/n/12 sys-tem losses (e.g.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
-\OT1/cmr/m/n/12 con-ver-sion/charging
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
-\OT1/cmr/m/n/12 ESP32 con-sump-
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 483--484
-\OT1/cmr/m/n/12 tion for con-trol and
- []
-
-
-Underfull \hbox (badness 2293) in paragraph at lines 486--487
-[]|\OT1/cmr/m/n/12 Panel Siz-ing (PV
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
-[]|\OT1/cmr/m/n/12 Computes the re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
-\OT1/cmr/m/n/12 quired so-lar panel
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
-\OT1/cmr/m/n/12 rat-ing by di-vid-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
-\OT1/cmr/m/n/12 to-tal daily en-ergy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
-\OT1/cmr/m/n/12 con-sump-tion by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
-\OT1/cmr/m/n/12 the avail-able sun
- []
-
-
-Underfull \hbox (badness 3118) in paragraph at lines 490--491
-\OT1/cmr/m/n/12 the bat-tery can be
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
-\OT1/cmr/m/n/12 recharged within a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 497--498
-[]|\OT1/cmr/m/n/12 Determines the in-
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 497--498
-\OT1/cmr/m/n/12 a 20% al-lowance to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 497--498
-\OT1/cmr/m/n/12 sid-er-a-tions) so the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 497--498
-\OT1/cmr/m/n/12 in-verter can safely
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 497--498
-\OT1/cmr/m/n/12 han-dle tem-po-rary
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 504--505
-[]|\OT1/cmr/m/n/12 Determines the
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 504--505
-\OT1/cmr/m/n/12 re-quired charge con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 504--505
-\OT1/cmr/m/n/12 by di-vid-ing to-tal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 504--505
-\OT1/cmr/m/n/12 cur-rent is typ-i-cally
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 507--508
-[]|\OT1/cmr/m/n/12 Breaker Siz-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
-[]|\OT1/cmr/m/n/12 Selects the cir-cuit
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
-\OT1/cmr/m/n/12 breaker rat-ing be-
- []
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 511--512
-\OT1/cmr/m/n/12 tween the PV ar-ray
- []
-
-
-Underfull \hbox (badness 2205) in paragraph at lines 511--512
-\OT1/cmr/m/n/12 and SCC us-ing the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
-\OT1/cmr/m/n/12 panel short-circuit
- []
-
-
-Underfull \hbox (badness 3838) in paragraph at lines 511--512
-\OT1/cmr/m/n/12 cur-rent ad-justed by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
-\OT1/cmr/m/n/12 the over-radiance
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--515
-[]|\OT1/cmr/m/n/12 Breaker Siz-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 518--519
-[]|\OT1/cmr/m/n/12 Sizes the breaker
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 518--519
-\OT1/cmr/m/n/12 be-tween SCC and
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 518--519
-\OT1/cmr/m/n/12 ray wattage di-vided
- []
-
-
-Underfull \hbox (badness 5519) in paragraph at lines 518--519
-\OT1/cmr/m/n/12 by nom-i-nal bat-tery
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 518--519
-\OT1/cmr/m/n/12 a safety fac-tor to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 521--522
-[]|\OT1/cmr/m/n/12 Breaker Siz-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
-[]|\OT1/cmr/m/n/12 Determines the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
-\OT1/cmr/m/n/12 breaker rat-ing be-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
-\OT1/cmr/m/n/12 tween the bat-tery
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
-\OT1/cmr/m/n/12 bank and in-verter
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
-\OT1/cmr/m/n/12 by cal-cu-lat-ing the
- []
-
-
-Underfull \hbox (badness 6204) in paragraph at lines 525--526
-\OT1/cmr/m/n/12 op-er-a-tion, pro-vid-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
-\OT1/cmr/m/n/12 pro-tec-tion dur-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 528--529
-[]|\OT1/cmr/m/n/12 Breaker Siz-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 528--529
-\OT1/cmr/m/n/12 (Inverter--Load /
- []
-
-
-Underfull \hbox (badness 1226) in paragraph at lines 532--533
-\OT1/cmr/m/n/12 ex-pected load power
- []
-
-
-Underfull \hbox (badness 5519) in paragraph at lines 532--533
-\OT1/cmr/m/n/12 in-verter AC out-put
- []
-
-
-Underfull \hbox (badness 2213) in paragraph at lines 532--533
-\OT1/cmr/m/n/12 the bat-tery nom-i-nal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
-\OT1/cmr/m/n/12 Drop In-dex us-ing
- []
-
-
-Underfull \hbox (badness 2103) in paragraph at lines 539--540
-\OT1/cmr/m/n/12 sys-tem volt-age, and
- []
-
-
-Underfull \hbox (badness 2103) in paragraph at lines 539--540
-\OT1/cmr/m/n/12 per-cent-age. Higher
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
-\OT1/cmr/m/n/12 VDI in-di-cates the
- []
-
-
-
-[76] [77] [78] [79]
-<figures/hdevelopment.png, id=942, 543.02875pt x 263.98625pt>
+<figures/hdevelopment.png, id=917, 543.02875pt x 263.98625pt>
 File: figures/hdevelopment.png Graphic file (type png)
 <use figures/hdevelopment.png>
-Package pdftex.def Info: figures/hdevelopment.png  used on input line 551.
+Package pdftex.def Info: figures/hdevelopment.png  used on input line 315.
 (pdftex.def)             Requested size: 317.98921pt x 154.59044pt.
 
 
-[80 <./figures/hdevelopment.png>]
-Overfull \hbox (2.71033pt too wide) in alignment at lines 561--567
+[68 <./figures/hdevelopment.png>]
+Overfull \hbox (2.71033pt too wide) in alignment at lines 325--331
  [] [] [] 
  []
 
 
-Overfull \hbox (2.71033pt too wide) in alignment at lines 567--572
+Overfull \hbox (2.71033pt too wide) in alignment at lines 331--336
  [] [] [] 
  []
 
 
-Overfull \hbox (2.71033pt too wide) in alignment at lines 572--575
+Overfull \hbox (2.71033pt too wide) in alignment at lines 336--339
  [] [] [] 
  []
 
 
-Overfull \hbox (2.71033pt too wide) in alignment at lines 575--675
+Overfull \hbox (2.71033pt too wide) in alignment at lines 339--439
  [] [] [] 
  []
 
-[81] [82]
-<figures/esp32.png, id=956, 602.25pt x 602.25pt>
+[69]
+<figures/esp32.png, id=927, 602.25pt x 602.25pt>
 File: figures/esp32.png Graphic file (type png)
 <use figures/esp32.png>
-Package pdftex.def Info: figures/esp32.png  used on input line 698.
+Package pdftex.def Info: figures/esp32.png  used on input line 462.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/panel.jpg, id=957, 722.7pt x 722.7pt>
+<figures/panel.jpg, id=928, 722.7pt x 722.7pt>
 File: figures/panel.jpg Graphic file (type jpg)
 <use figures/panel.jpg>
-Package pdftex.def Info: figures/panel.jpg  used on input line 710.
+Package pdftex.def Info: figures/panel.jpg  used on input line 474.
 (pdftex.def)             Requested size: 119.50104pt x 119.49397pt.
-<figures/battery.png, id=958, 602.25pt x 602.25pt>
+<figures/battery.png, id=929, 602.25pt x 602.25pt>
 File: figures/battery.png Graphic file (type png)
 <use figures/battery.png>
-Package pdftex.def Info: figures/battery.png  used on input line 723.
+Package pdftex.def Info: figures/battery.png  used on input line 487.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
 
-Underfull \hbox (badness 2452) in paragraph at lines 729--730
+Underfull \hbox (badness 2452) in paragraph at lines 493--494
 []|\OT1/cmr/m/n/12 The LiFePO$[]$ bat-tery was se-lected
  []
 
-<figures/controller.png, id=959, 602.25pt x 602.25pt>
+<figures/controller.png, id=930, 602.25pt x 602.25pt>
 File: figures/controller.png Graphic file (type png)
 <use figures/controller.png>
-Package pdftex.def Info: figures/controller.png  used on input line 736.
+Package pdftex.def Info: figures/controller.png  used on input line 500.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
 
-Underfull \hbox (badness 1158) in paragraph at lines 742--743
+Underfull \hbox (badness 1158) in paragraph at lines 506--507
 []|\OT1/cmr/m/n/12 An MPPT (Max-i-mum Power Point
  []
 
-<figures/inverter.png, id=960, 602.25pt x 602.25pt>
+<figures/inverter.png, id=931, 602.25pt x 602.25pt>
 File: figures/inverter.png Graphic file (type png)
 <use figures/inverter.png>
-Package pdftex.def Info: figures/inverter.png  used on input line 749.
+Package pdftex.def Info: figures/inverter.png  used on input line 513.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/charger.png, id=961, 602.25pt x 602.25pt>
+<figures/charger.png, id=932, 602.25pt x 602.25pt>
 File: figures/charger.png Graphic file (type png)
 <use figures/charger.png>
-Package pdftex.def Info: figures/charger.png  used on input line 763.
+Package pdftex.def Info: figures/charger.png  used on input line 527.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/coin.png, id=962, 602.25pt x 602.25pt>
+<figures/coin.png, id=933, 602.25pt x 602.25pt>
 File: figures/coin.png Graphic file (type png)
 <use figures/coin.png>
-Package pdftex.def Info: figures/coin.png  used on input line 776.
+Package pdftex.def Info: figures/coin.png  used on input line 540.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/dcbreaker.png, id=963, 602.25pt x 602.25pt>
+<figures/dcbreaker.png, id=934, 602.25pt x 602.25pt>
 File: figures/dcbreaker.png Graphic file (type png)
 <use figures/dcbreaker.png>
-Package pdftex.def Info: figures/dcbreaker.png  used on input line 789.
+Package pdftex.def Info: figures/dcbreaker.png  used on input line 553.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/wire.png, id=964, 602.25pt x 602.25pt>
+<figures/wire.png, id=935, 602.25pt x 602.25pt>
 File: figures/wire.png Graphic file (type png)
 <use figures/wire.png>
-Package pdftex.def Info: figures/wire.png  used on input line 802.
+Package pdftex.def Info: figures/wire.png  used on input line 566.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/gsm.png, id=965, 602.25pt x 602.25pt>
+<figures/gsm.png, id=936, 602.25pt x 602.25pt>
 File: figures/gsm.png Graphic file (type png)
 <use figures/gsm.png>
-Package pdftex.def Info: figures/gsm.png  used on input line 815.
+Package pdftex.def Info: figures/gsm.png  used on input line 579.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/gps.png, id=966, 602.25pt x 602.25pt>
+<figures/gps.png, id=937, 602.25pt x 602.25pt>
 File: figures/gps.png Graphic file (type png)
 <use figures/gps.png>
-Package pdftex.def Info: figures/gps.png  used on input line 828.
+Package pdftex.def Info: figures/gps.png  used on input line 592.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/relay.png, id=967, 602.25pt x 602.25pt>
+<figures/relay.png, id=938, 602.25pt x 602.25pt>
 File: figures/relay.png Graphic file (type png)
 <use figures/relay.png>
-Package pdftex.def Info: figures/relay.png  used on input line 841.
+Package pdftex.def Info: figures/relay.png  used on input line 605.
 (pdftex.def)             Requested size: 119.50104pt x 119.50133pt.
 
-Underfull \hbox (badness 2293) in paragraph at lines 847--848
+Underfull \hbox (badness 2293) in paragraph at lines 611--612
 []|\OT1/cmr/m/n/12 Relays were used to con-trol high-
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 847--848
+Underfull \hbox (badness 3098) in paragraph at lines 611--612
 \OT1/cmr/m/n/12 se-lec-tion en-sures safe and ef-fi-cient
  []
 
-<figures/solenoid.png, id=968, 602.25pt x 602.25pt>
+<figures/solenoid.png, id=939, 602.25pt x 602.25pt>
 File: figures/solenoid.png Graphic file (type png)
 <use figures/solenoid.png>
-Package pdftex.def Info: figures/solenoid.png  used on input line 854.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/acbreaker.png, id=969, 602.25pt x 602.25pt>
+Package pdftex.def Info: figures/solenoid.png  used on input line 618.
+(pdftex.def)             Requested size: 119.50104pt x 119.50133pt.
+<figures/acbreaker.png, id=940, 602.25pt x 602.25pt>
 File: figures/acbreaker.png Graphic file (type png)
 <use figures/acbreaker.png>
-Package pdftex.def Info: figures/acbreaker.png  used on input line 867.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+Package pdftex.def Info: figures/acbreaker.png  used on input line 631.
+(pdftex.def)             Requested size: 119.50104pt x 119.50133pt.
 
-Underfull \hbox (badness 1852) in paragraph at lines 873--874
+Underfull \hbox (badness 1852) in paragraph at lines 637--638
 \OT1/cmr/m/n/12 guard the AC out-put cir-cuit. It
  []
 
-<figures/lcd-2.png, id=970, 1029.8475pt x 778.91pt>
+<figures/lcd-2.png, id=941, 1029.8475pt x 778.91pt>
 File: figures/lcd-2.png Graphic file (type png)
 <use figures/lcd-2.png>
-Package pdftex.def Info: figures/lcd-2.png  used on input line 880.
+Package pdftex.def Info: figures/lcd-2.png  used on input line 644.
 (pdftex.def)             Requested size: 136.57373pt x 103.29422pt.
-<figures/lcd.png, id=971, 602.25pt x 602.25pt>
+<figures/lcd.png, id=942, 602.25pt x 602.25pt>
 File: figures/lcd.png Graphic file (type png)
 <use figures/lcd.png>
-Package pdftex.def Info: figures/lcd.png  used on input line 893.
+Package pdftex.def Info: figures/lcd.png  used on input line 657.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/router.png, id=972, 602.25pt x 602.25pt>
+<figures/router.png, id=943, 602.25pt x 602.25pt>
 File: figures/router.png Graphic file (type png)
 <use figures/router.png>
-Package pdftex.def Info: figures/router.png  used on input line 906.
+Package pdftex.def Info: figures/router.png  used on input line 670.
 (pdftex.def)             Requested size: 93.8946pt x 93.88997pt.
-[83 <./figures/esp32.png (PNG copy)> <./figures/panel.jpg>] [84 <./figures/batt
-ery.png (PNG copy)> <./figures/controller.png (PNG copy)> <./figures/inverter.p
-ng>] [85 <./figures/charger.png> <./figures/coin.png (PNG copy)> <./figures/dcb
-reaker.png>] [86 <./figures/wire.png> <./figures/gsm.png> <./figures/gps.png>]
-[87 <./figures/relay.png> <./figures/solenoid.png> <./figures/acbreaker.png>]
-<figures/circuit_station.png, id=1004, 2710.125pt x 1990.43625pt>
+
+
+[70] [71 <./figures/esp32.png (PNG copy)> <./figures/panel.jpg> <./figures/batt
+ery.png (PNG copy)>] [72 <./figures/controller.png (PNG copy)> <./figures/inver
+ter.png> <./figures/charger.png>] [73 <./figures/coin.png (PNG copy)> <./figure
+s/dcbreaker.png> <./figures/wire.png>] [74 <./figures/gsm.png> <./figures/gps.p
+ng> <./figures/relay.png>] [75 <./figures/solenoid.png> <./figures/acbreaker.pn
+g> <./figures/lcd-2.png>]
+<figures/circuit_station.png, id=979, 2710.125pt x 1990.43625pt>
 File: figures/circuit_station.png Graphic file (type png)
 <use figures/circuit_station.png>
-Package pdftex.def Info: figures/circuit_station.png  used on input line 922.
-(pdftex.def)             Requested size: 198.74251pt x 145.96577pt.
+Package pdftex.def Info: figures/circuit_station.png  used on input line 686.
+(pdftex.def)             Requested size: 238.49342pt x 175.15285pt.
 
 
-[88 <./figures/lcd-2.png> <./figures/lcd.png (PNG copy)> <./figures/router.png>
-]
+[76 <./figures/lcd.png (PNG copy)> <./figures/router.png>]
 
-[89 <./figures/circuit_station.png>]
-<figures/circuit_power.png, id=1017, 2514.39375pt x 2156.055pt>
+[77 <./figures/circuit_station.png>]
+<figures/circuit_power.png, id=991, 2514.39375pt x 2156.055pt>
 File: figures/circuit_power.png Graphic file (type png)
 <use figures/circuit_power.png>
-Package pdftex.def Info: figures/circuit_power.png  used on input line 931.
-(pdftex.def)             Requested size: 198.74251pt x 170.4153pt.
+Package pdftex.def Info: figures/circuit_power.png  used on input line 695.
+(pdftex.def)             Requested size: 238.49342pt x 204.49837pt.
 
 
-[90 <./figures/circuit_power.png>]
-<figures/schematic_station.png, id=1023, 3598.44376pt x 2430.07875pt>
+[78 <./figures/circuit_power.png>]
+<figures/schematic_station.png, id=997, 3598.44376pt x 2430.07875pt>
 File: figures/schematic_station.png Graphic file (type png)
 <use figures/schematic_station.png>
-Package pdftex.def Info: figures/schematic_station.png  used on input line 942.
+Package pdftex.def Info: figures/schematic_station.png  used on input line 706.
 
-(pdftex.def)             Requested size: 238.49342pt x 161.0383pt.
+(pdftex.def)             Requested size: 357.73409pt x 241.57599pt.
 
 
-[91 <./figures/schematic_station.png>]
-<figures/schematic_power.png, id=1029, 2210.2575pt x 1403.2425pt>
+[79 <./figures/schematic_station.png>]
+<figures/schematic_power.png, id=1003, 2210.2575pt x 1403.2425pt>
 File: figures/schematic_power.png Graphic file (type png)
 <use figures/schematic_power.png>
-Package pdftex.def Info: figures/schematic_power.png  used on input line 951.
-(pdftex.def)             Requested size: 238.49342pt x 151.40233pt.
+Package pdftex.def Info: figures/schematic_power.png  used on input line 715.
+(pdftex.def)             Requested size: 357.73409pt x 227.1142pt.
 
 
-[92 <./figures/schematic_power.png>]
-<figures/front.png, id=1035, 1272.755pt x 728.7225pt>
+[80 <./figures/schematic_power.png>]
+<figures/front.png, id=1009, 1272.755pt x 728.7225pt>
 File: figures/front.png Graphic file (type png)
 <use figures/front.png>
-Package pdftex.def Info: figures/front.png  used on input line 964.
-(pdftex.def)             Requested size: 317.98921pt x 182.05786pt.
+Package pdftex.def Info: figures/front.png  used on input line 728.
+(pdftex.def)             Requested size: 397.48502pt x 227.58066pt.
 
 
-[93 <./figures/front.png>]
-<figures/aerial.png, id=1041, 1477.52pt x 927.465pt>
+[81]
+<figures/aerial.png, id=1014, 1477.52pt x 927.465pt>
 File: figures/aerial.png Graphic file (type png)
 <use figures/aerial.png>
-Package pdftex.def Info: figures/aerial.png  used on input line 973.
+Package pdftex.def Info: figures/aerial.png  used on input line 737.
 (pdftex.def)             Requested size: 397.48502pt x 249.49902pt.
 
 
-[94 <./figures/aerial.png>]
-<figures/rental.png, id=1047, 1527.7075pt x 1411.2725pt>
+[82 <./figures/front.png>]
+
+[83 <./figures/aerial.png>]
+<figures/rental.png, id=1027, 1527.7075pt x 1411.2725pt>
 File: figures/rental.png Graphic file (type png)
 <use figures/rental.png>
-Package pdftex.def Info: figures/rental.png  used on input line 1008.
+Package pdftex.def Info: figures/rental.png  used on input line 772.
 (pdftex.def)             Requested size: 317.98921pt x 293.7488pt.
 
 
-[95]
+[84]
 
-[96 <./figures/rental.png>]
+[85 <./figures/rental.png>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 1018.
+(hyperref)                be the same. Added a new anchor on input line 782.
 
 
 
-[97]
+[86]
 
-[98]
+[87]
 
-[99]
-<figures/activity.png, id=1070, 748.7975pt x 1704.3675pt>
+[88]
+<figures/activity.png, id=1050, 748.7975pt x 1704.3675pt>
 File: figures/activity.png Graphic file (type png)
 <use figures/activity.png>
-Package pdftex.def Info: figures/activity.png  used on input line 1048.
+Package pdftex.def Info: figures/activity.png  used on input line 812.
 (pdftex.def)             Requested size: 147.0675pt x 334.72992pt.
 
 
-[100 <./figures/activity.png>]
+[89 <./figures/activity.png>]
+
+[90]
+
+[91]
+
+[92]
+<figures/welcome.png, id=1068, 1668.2325pt x 1035.87pt>
+File: figures/welcome.png Graphic file (type png)
+<use figures/welcome.png>
+Package pdftex.def Info: figures/welcome.png  used on input line 840.
+(pdftex.def)             Requested size: 397.48502pt x 246.81198pt.
+<figures/signin.png, id=1069, 825.0825pt x 1049.9225pt>
+File: figures/signin.png Graphic file (type png)
+<use figures/signin.png>
+Package pdftex.def Info: figures/signin.png  used on input line 849.
+(pdftex.def)             Requested size: 278.2383pt x 354.05319pt.
+
+
+[93 <./figures/welcome.png>]
+<figures/signup.png, id=1075, 2236.355pt x 1039.885pt>
+File: figures/signup.png Graphic file (type png)
+<use figures/signup.png>
+Package pdftex.def Info: figures/signup.png  used on input line 858.
+(pdftex.def)             Requested size: 397.48502pt x 184.82285pt.
+
+
+[94 <./figures/signin.png>]
+<figures/home.png, id=1082, 825.0825pt x 1035.87pt>
+File: figures/home.png Graphic file (type png)
+<use figures/home.png>
+Package pdftex.def Info: figures/home.png  used on input line 867.
+(pdftex.def)             Requested size: 278.2383pt x 349.31442pt.
+
+
+[95 <./figures/signup.png>]
+<figures/renting.png, id=1088, 1668.2325pt x 1041.8925pt>
+File: figures/renting.png Graphic file (type png)
+<use figures/renting.png>
+Package pdftex.def Info: figures/renting.png  used on input line 876.
+(pdftex.def)             Requested size: 397.48502pt x 248.24693pt.
+
+
+[96 <./figures/home.png>]
+<figures/admin.png, id=1094, 821.0675pt x 1023.825pt>
+File: figures/admin.png Graphic file (type png)
+<use figures/admin.png>
+Package pdftex.def Info: figures/admin.png  used on input line 885.
+(pdftex.def)             Requested size: 278.2383pt x 346.93983pt.
+
+
+[97 <./figures/renting.png>]
+<figures/admin2.png, id=1100, 829.0975pt x 1049.9225pt>
+File: figures/admin2.png Graphic file (type png)
+<use figures/admin2.png>
+Package pdftex.def Info: figures/admin2.png  used on input line 894.
+(pdftex.def)             Requested size: 278.2383pt x 352.339pt.
+
+
+[98 <./figures/admin.png>]
+
+[99 <./figures/admin2.png>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 904.
+
+
+
+[100]
 
 [101]
 
 [102]
-<figures/welcome.png, id=1085, 1668.2325pt x 1035.87pt>
-File: figures/welcome.png Graphic file (type png)
-<use figures/welcome.png>
-Package pdftex.def Info: figures/welcome.png  used on input line 1070.
-(pdftex.def)             Requested size: 397.48502pt x 246.81198pt.
-<figures/signin.png, id=1086, 825.0825pt x 1049.9225pt>
-File: figures/signin.png Graphic file (type png)
-<use figures/signin.png>
-Package pdftex.def Info: figures/signin.png  used on input line 1079.
-(pdftex.def)             Requested size: 278.2383pt x 354.05319pt.
-
-
-[103 <./figures/welcome.png>]
-<figures/signup.png, id=1092, 2236.355pt x 1039.885pt>
-File: figures/signup.png Graphic file (type png)
-<use figures/signup.png>
-Package pdftex.def Info: figures/signup.png  used on input line 1088.
-(pdftex.def)             Requested size: 397.48502pt x 184.82285pt.
-
-
-[104 <./figures/signin.png>]
-<figures/home.png, id=1098, 825.0825pt x 1035.87pt>
-File: figures/home.png Graphic file (type png)
-<use figures/home.png>
-Package pdftex.def Info: figures/home.png  used on input line 1097.
-(pdftex.def)             Requested size: 278.2383pt x 349.31442pt.
-
-
-[105 <./figures/signup.png>]
-<figures/renting.png, id=1104, 1668.2325pt x 1041.8925pt>
-File: figures/renting.png Graphic file (type png)
-<use figures/renting.png>
-Package pdftex.def Info: figures/renting.png  used on input line 1106.
-(pdftex.def)             Requested size: 238.49342pt x 148.94817pt.
-
-
-[106 <./figures/home.png>]
-<figures/admin.png, id=1110, 821.0675pt x 1023.825pt>
-File: figures/admin.png Graphic file (type png)
-<use figures/admin.png>
-Package pdftex.def Info: figures/admin.png  used on input line 1115.
-(pdftex.def)             Requested size: 119.2467pt x 148.69296pt.
-
-
-[107 <./figures/renting.png> <./figures/admin.png>]
-<figures/admin2.png, id=1118, 829.0975pt x 1049.9225pt>
-File: figures/admin2.png Graphic file (type png)
-<use figures/admin2.png>
-Package pdftex.def Info: figures/admin2.png  used on input line 1124.
-(pdftex.def)             Requested size: 119.2467pt x 150.99327pt.
-
-
-[108 <./figures/admin2.png>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 1134.
+(hyperref)                be the same. Added a new anchor on input line 918.
+
+
+Overfull \hbox (6.98929pt too wide) in paragraph at lines 923--923
+[]|\OT1/cmr/bx/n/12 Quantity| 
+ []
+
+
+Overfull \hbox (4.97264pt too wide) in paragraph at lines 923--923
+[]|\OT1/cmr/bx/n/12 Power| 
+ []
+
+
+Overfull \hbox (6.49077pt too wide) in paragraph at lines 923--923
+[]|\OT1/cmr/bx/n/12 Hours/Day| 
+ []
+
+
+Overfull \hbox (6.98929pt too wide) in paragraph at lines 928--928
+[]|\OT1/cmr/bx/n/12 Quantity| 
+ []
+
+
+Overfull \hbox (4.97264pt too wide) in paragraph at lines 928--928
+[]|\OT1/cmr/bx/n/12 Power| 
+ []
+
+
+Overfull \hbox (6.49077pt too wide) in paragraph at lines 928--928
+[]|\OT1/cmr/bx/n/12 Hours/Day| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 936--936
+[]|\OT1/cmr/m/n/12 Mobile Phone
+ []
+
+
+Overfull \hbox (3.73471pt too wide) detected at line 955
+[][][][] \OT1/cmr/m/n/12 = [] + []
+ []
+
+
+
+[103]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 104 undefined on input line
+ 958.
+
+
+LaTeX Warning: Hyper reference `appendix:A' on page 104 undefined on input line
+ 972.
+
+
+
+[104]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 105 undefined on input line
+ 982.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 988--988
+[]|\OT1/cmr/bx/n/12 Power
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 993--993
+[]|\OT1/cmr/bx/n/12 Power
+ []
+
+
+
+[105]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 106 undefined on input line
+ 1013.
+
+
+LaTeX Warning: Hyper reference `appendix:A' on page 106 undefined on input line
+ 1023.
+
+
+
+[106]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 107 undefined on input line
+ 1034.
+
+
+LaTeX Warning: Hyper reference `appendix:A' on page 107 undefined on input line
+ 1043.
+
+
+
+[107]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 108 undefined on input line
+ 1052.
+
+
+
+[108]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 109 undefined on input line
+ 1061.
 
 
 
@@ -2325,27 +2016,374 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 [110]
 
-[111])
+LaTeX Warning: Hyper reference `appendix:A' on page 111 undefined on input line
+ 1078.
+
+
+LaTeX Warning: Hyper reference `appendix:A' on page 111 undefined on input line
+ 1084.
+
+
+
+[111]
 
 [112]
+
+[113]
+
+[114]
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1161
+[]|\OT1/cmr/bx/n/12 Description Sum-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1166
+[]|\OT1/cmr/bx/n/12 Description Sum-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1172--1173
+[]|\OT1/cmr/m/n/12 Battery Ca-pac-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1176--1177
+[]|\OT1/cmr/m/n/12 Determines the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1176--1177
+\OT1/cmr/m/n/12 re-quired bat-tery
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1176--1177
+\OT1/cmr/m/n/12 ca-pac-ity for the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1176--1177
+\OT1/cmr/m/n/12 de-tach-able unit by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1176--1177
+\OT1/cmr/m/n/12 into ampere-hours
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1176--1177
+\OT1/cmr/m/n/12 us-ing the sys-tem
+ []
+
+
+Underfull \hbox (badness 7888) in paragraph at lines 1176--1177
+\OT1/cmr/m/n/12 tion for con-tin-u-ous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1179--1180
+[]|\OT1/cmr/m/n/12 Battery Ca-pac-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1184
+\OT1/cmr/m/n/12 ca-pac-ity, adding a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1184
+\OT1/cmr/m/n/12 35% al-lowance for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1184
+\OT1/cmr/m/n/12 sys-tem losses (e.g.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1184
+\OT1/cmr/m/n/12 con-ver-sion/charging
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1184
+\OT1/cmr/m/n/12 ESP32 con-sump-
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 1183--1184
+\OT1/cmr/m/n/12 tion for con-trol and
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 1186--1187
+[]|\OT1/cmr/m/n/12 Panel Siz-ing (PV
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
+[]|\OT1/cmr/m/n/12 Computes the re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
+\OT1/cmr/m/n/12 quired so-lar panel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
+\OT1/cmr/m/n/12 rat-ing by di-vid-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
+\OT1/cmr/m/n/12 to-tal daily en-ergy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
+\OT1/cmr/m/n/12 con-sump-tion by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
+\OT1/cmr/m/n/12 the avail-able sun
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 1190--1191
+\OT1/cmr/m/n/12 the bat-tery can be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
+\OT1/cmr/m/n/12 recharged within a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
+[]|\OT1/cmr/m/n/12 Determines the in-
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 1197--1198
+\OT1/cmr/m/n/12 a 20% al-lowance to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
+\OT1/cmr/m/n/12 sid-er-a-tions) so the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
+\OT1/cmr/m/n/12 in-verter can safely
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
+\OT1/cmr/m/n/12 han-dle tem-po-rary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1204--1205
+[]|\OT1/cmr/m/n/12 Determines the
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 1204--1205
+\OT1/cmr/m/n/12 re-quired charge con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1204--1205
+\OT1/cmr/m/n/12 by di-vid-ing to-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1204--1205
+\OT1/cmr/m/n/12 cur-rent is typ-i-cally
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1207--1208
+[]|\OT1/cmr/m/n/12 Breaker Siz-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1212
+[]|\OT1/cmr/m/n/12 Selects the cir-cuit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1212
+\OT1/cmr/m/n/12 breaker rat-ing be-
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 1211--1212
+\OT1/cmr/m/n/12 tween the PV ar-ray
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 1211--1212
+\OT1/cmr/m/n/12 and SCC us-ing the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1212
+\OT1/cmr/m/n/12 panel short-circuit
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 1211--1212
+\OT1/cmr/m/n/12 cur-rent ad-justed by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1212
+\OT1/cmr/m/n/12 the over-radiance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1214--1215
+[]|\OT1/cmr/m/n/12 Breaker Siz-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1218--1219
+[]|\OT1/cmr/m/n/12 Sizes the breaker
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1218--1219
+\OT1/cmr/m/n/12 be-tween SCC and
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 1218--1219
+\OT1/cmr/m/n/12 ray wattage di-vided
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 1218--1219
+\OT1/cmr/m/n/12 by nom-i-nal bat-tery
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1218--1219
+\OT1/cmr/m/n/12 a safety fac-tor to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1221--1222
+[]|\OT1/cmr/m/n/12 Breaker Siz-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
+[]|\OT1/cmr/m/n/12 Determines the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
+\OT1/cmr/m/n/12 breaker rat-ing be-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
+\OT1/cmr/m/n/12 tween the bat-tery
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
+\OT1/cmr/m/n/12 bank and in-verter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
+\OT1/cmr/m/n/12 by cal-cu-lat-ing the
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 1225--1226
+\OT1/cmr/m/n/12 op-er-a-tion, pro-vid-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
+\OT1/cmr/m/n/12 pro-tec-tion dur-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1228--1229
+[]|\OT1/cmr/m/n/12 Breaker Siz-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1228--1229
+\OT1/cmr/m/n/12 (Inverter--Load /
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 1232--1233
+\OT1/cmr/m/n/12 ex-pected load power
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 1232--1233
+\OT1/cmr/m/n/12 in-verter AC out-put
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 1232--1233
+\OT1/cmr/m/n/12 the bat-tery nom-i-nal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1240
+\OT1/cmr/m/n/12 Drop In-dex us-ing
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 1239--1240
+\OT1/cmr/m/n/12 sys-tem volt-age, and
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 1239--1240
+\OT1/cmr/m/n/12 per-cent-age. Higher
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1240
+\OT1/cmr/m/n/12 VDI in-di-cates the
+ []
+
+[115] [116] [117]
+
+[118])
+
+[119]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
 
-[113
+[120
 
 
 
 
 ]
 
-[114]
+[121]
 
-[115]
+[122]
 
-[116])
+[123])
 
-[117]
+[124]
 \openout2 = `bibliography.aux'.
 
  (./bibliography.tex
@@ -2354,7 +2392,7 @@ Package natbib Warning: Empty `thebibliography' environment on input line 6.
 
 )
 
-[118
+[125
 
 
 
@@ -2373,20 +2411,20 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D3A928549634F99D129F67DAF2158EEB;18509.
+(rerunfilecheck)             Checksum: 9FFEC3BB7A0449E31A7DBD9061F19FFC;21943.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17883 strings out of 473190
- 292095 string characters out of 5715801
- 750229 words of memory out of 5000000
- 40518 multiletter control sequences out of 15000+600000
+ 17897 strings out of 473190
+ 292194 string characters out of 5715801
+ 755298 words of memory out of 5000000
+ 40523 multiletter control sequences out of 15000+600000
  568981 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,15n,82p,2503b,902s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,20n,82p,2503b,952s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/c
@@ -2399,10 +2437,10 @@ fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (126 pages, 22938619 bytes).
+Output written on thesis.pdf (134 pages, 22950074 bytes).
 PDF statistics:
- 1287 PDF objects out of 1440 (max. 8388607)
- 1034 compressed objects within 11 object streams
- 263 named destinations out of 1000 (max. 500000)
- 905 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1367 PDF objects out of 1440 (max. 8388607)
+ 1105 compressed objects within 12 object streams
+ 272 named destinations out of 1000 (max. 500000)
+ 985 words of extra memory for PDF output out of 10000 (max. 10000000)
 

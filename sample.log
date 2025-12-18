@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 DEC 2025 19:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 DEC 2025 10:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,6 +564,18 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidthlast=\dimen197
 \titlewidthfirst=\dimen198
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.st
+y
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
 \tocindent=\skip119
 \c@myequations=\count325
 \cftbeforemyequationsskip=\skip120
@@ -744,7 +756,7 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ]
 Chapter 1.
 
-Package caption Warning: Unused \captionsetup[table] on input line 136.
+Package caption Warning: Unused \captionsetup[table] on input line 139.
 See the caption package documentation for explanation.
 
 
@@ -760,10 +772,10 @@ Package rerunfilecheck Info: File `sample.out' has not changed.
 (rerunfilecheck)             Checksum: EE3EE77384B02F08148F111B2A113203;240.
  ) 
 Here is how much of TeX's memory you used:
- 16378 strings out of 473190
- 261675 string characters out of 5715801
- 700388 words of memory out of 5000000
- 39368 multiletter control sequences out of 15000+600000
+ 16449 strings out of 473190
+ 263712 string characters out of 5715801
+ 701216 words of memory out of 5000000
+ 39429 multiletter control sequences out of 15000+600000
  563833 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,5n,82p,426b,502s stack positions out of 10000i,1000n,20000p,200000b,200000s
