@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 DEC 2025 16:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 DEC 2025 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2384,18 +2384,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 1239--1240
 [123]
 
 [124]
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
-[]|\OT1/cmr/m/n/12 Smartphone
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[]|\OT1/cmr/bx/n/12 Power
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 146--146
-[]|\OT1/cmr/bx/n/12 Total Daily
+[]|\OT1/cmr/bx/n/12 W/ Power
  []
 
 
-Overfull \hbox (73.67046pt too wide) in paragraph at lines 138--148
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+[]|\OT1/cmr/bx/n/12 Usage
+ []
+
+
+Overfull \hbox (3.94801pt too wide) in alignment at lines 143--148
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]|\OT1/cmr/bx/n/12 Power
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]|\OT1/cmr/bx/n/12 W/ Power
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+[]| \OT1/cmr/bx/n/12 Us-age
+ []
+
+
+Overfull \hbox (3.94801pt too wide) in alignment at lines 148--153
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (3.94801pt too wide) in alignment at lines 153--155
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (3.94801pt too wide) in alignment at lines 155--163
+ [] [] [] [] [] 
  []
 
 )
@@ -2428,17 +2463,17 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 13B71CCBA59F668F75C1762DC1803B7F;21952.
+(rerunfilecheck)             Checksum: 13696F576E833C28D28218C7E9C79341;21950.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17904 strings out of 473190
- 292338 string characters out of 5715801
- 755377 words of memory out of 5000000
- 40527 multiletter control sequences out of 15000+600000
+ 17903 strings out of 473190
+ 292285 string characters out of 5715801
+ 755457 words of memory out of 5000000
+ 40525 multiletter control sequences out of 15000+600000
  568981 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,20n,82p,2503b,952s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2454,10 +2489,10 @@ fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (135 pages, 22951967 bytes).
+Output written on thesis.pdf (135 pages, 22952378 bytes).
 PDF statistics:
- 1374 PDF objects out of 1440 (max. 8388607)
- 1111 compressed objects within 12 object streams
- 275 named destinations out of 1000 (max. 500000)
+ 1375 PDF objects out of 1440 (max. 8388607)
+ 1112 compressed objects within 12 object streams
+ 276 named destinations out of 1000 (max. 500000)
  985 words of extra memory for PDF output out of 10000 (max. 10000000)
 
