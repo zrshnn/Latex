@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 DEC 2025 13:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 DEC 2025 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -932,7 +932,7 @@ Chapter 2.
 [16]
 
 [17]
-<figures/theoretical.png, id=665, 724.7075pt x 676.5275pt>
+<figures/theoretical.png, id=666, 724.7075pt x 676.5275pt>
 File: figures/theoretical.png Graphic file (type png)
 <use figures/theoretical.png>
 Package pdftex.def Info: figures/theoretical.png  used on input line 32.
@@ -942,7 +942,7 @@ Package pdftex.def Info: figures/theoretical.png  used on input line 32.
 [18]
 
 [19 <./figures/theoretical.png>]
-<figures/ipo.png, id=677, 627.34375pt x 311.1625pt>
+<figures/ipo.png, id=678, 627.34375pt x 311.1625pt>
 File: figures/ipo.png Graphic file (type png)
 <use figures/ipo.png>
 Package pdftex.def Info: figures/ipo.png  used on input line 47.
@@ -956,7 +956,7 @@ Package pdftex.def Info: figures/ipo.png  used on input line 47.
 [22]
 
 [23]
-<figures/schematic.png, id=700, 443.6575pt x 503.8825pt>
+<figures/schematic.png, id=701, 443.6575pt x 503.8825pt>
 File: figures/schematic.png Graphic file (type png)
 <use figures/schematic.png>
 Package pdftex.def Info: figures/schematic.png  used on input line 126.
@@ -1456,7 +1456,7 @@ Overfull \hbox (33.43784pt too wide) in paragraph at lines 290--310
 
  (./chapter3.tex
 Chapter 3.
-<figures/waterfall.png, id=790, 663.47874pt x 482.80376pt>
+<figures/waterfall.png, id=791, 663.47874pt x 482.80376pt>
 File: figures/waterfall.png Graphic file (type png)
 <use figures/waterfall.png>
 Package pdftex.def Info: figures/waterfall.png  used on input line 13.
@@ -1483,7 +1483,7 @@ ev-ing the study's
 
 
 [45]
-<figures/planning.png, id=800, 653.44125pt x 487.8225pt>
+<figures/planning.png, id=801, 653.44125pt x 487.8225pt>
 File: figures/planning.png Graphic file (type png)
 <use figures/planning.png>
 Package pdftex.def Info: figures/planning.png  used on input line 31.
@@ -1497,7 +1497,7 @@ Package pdftex.def Info: figures/planning.png  used on input line 31.
 [48]
 
 [49]
-<figures/map.png, id=821, 2308.625pt x 1397.22pt>
+<figures/map.png, id=822, 2308.625pt x 1397.22pt>
 File: figures/map.png Graphic file (type png)
 <use figures/map.png>
 Package pdftex.def Info: figures/map.png  used on input line 115.
@@ -1516,7 +1516,7 @@ Underfull \hbox (badness 1087) in paragraph at lines 154--155
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 183.
 
-<figures/architecture.jpg, id=840, 4557.025pt x 3878.49pt>
+<figures/architecture.jpg, id=841, 4557.025pt x 3878.49pt>
 File: figures/architecture.jpg Graphic file (type jpg)
 <use figures/architecture.jpg>
 Package pdftex.def Info: figures/architecture.jpg  used on input line 189.
@@ -1524,7 +1524,7 @@ Package pdftex.def Info: figures/architecture.jpg  used on input line 189.
 
 
 [54 <./figures/architecture.jpg>]
-<figures/flowchart.png, id=847, 733.74126pt x 1245.65375pt>
+<figures/flowchart.png, id=848, 733.74126pt x 1245.65375pt>
 File: figures/flowchart.png Graphic file (type png)
 <use figures/flowchart.png>
 Package pdftex.def Info: figures/flowchart.png  used on input line 217.
@@ -1534,7 +1534,7 @@ Package pdftex.def Info: figures/flowchart.png  used on input line 217.
 [55]
 
 [56 <./figures/flowchart.png>]
-<figures/context.png, id=857, 745.78625pt x 559.08875pt>
+<figures/context.png, id=858, 745.78625pt x 559.08875pt>
 File: figures/context.png Graphic file (type png)
 <use figures/context.png>
 Package pdftex.def Info: figures/context.png  used on input line 232.
@@ -1549,7 +1549,7 @@ Overfull \hbox (0.15456pt too wide) in paragraph at lines 237--238
 he solar-powered
  []
 
-<figures/dflow.png, id=868, 974.64125pt x 787.94376pt>
+<figures/dflow.png, id=869, 974.64125pt x 787.94376pt>
 File: figures/dflow.png Graphic file (type png)
 <use figures/dflow.png>
 Package pdftex.def Info: figures/dflow.png  used on input line 246.
@@ -1559,7 +1559,7 @@ Package pdftex.def Info: figures/dflow.png  used on input line 246.
 [59]
 
 [60 <./figures/dflow.png>]
-<figures/usecase.png, id=878, 1123.19624pt x 1036.87375pt>
+<figures/usecase.png, id=879, 1123.19624pt x 1036.87375pt>
 File: figures/usecase.png Graphic file (type png)
 <use figures/usecase.png>
 Package pdftex.def Info: figures/usecase.png  used on input line 256.
@@ -1571,7 +1571,7 @@ Package pdftex.def Info: figures/usecase.png  used on input line 256.
 [62 <./figures/usecase.png>]
 
 [63]
-<figures/harvesting.png, id=892, 2672.98625pt x 639.38875pt>
+<figures/harvesting.png, id=893, 2672.98625pt x 639.38875pt>
 File: figures/harvesting.png Graphic file (type png)
 <use figures/harvesting.png>
 Package pdftex.def Info: figures/harvesting.png  used on input line 271.
@@ -1579,12 +1579,12 @@ Package pdftex.def Info: figures/harvesting.png  used on input line 271.
 
 
 [64 <./figures/harvesting.png>]
-<figures/conversion.png, id=899, 3364.57pt x 502.87875pt>
+<figures/conversion.png, id=900, 3364.57pt x 502.87875pt>
 File: figures/conversion.png Graphic file (type png)
 <use figures/conversion.png>
 Package pdftex.def Info: figures/conversion.png  used on input line 282.
 (pdftex.def)             Requested size: 397.48502pt x 59.4067pt.
-<figures/monitoring.png, id=900, 1081.03876pt x 391.4625pt>
+<figures/monitoring.png, id=901, 1081.03876pt x 391.4625pt>
 File: figures/monitoring.png Graphic file (type png)
 <use figures/monitoring.png>
 Package pdftex.def Info: figures/monitoring.png  used on input line 293.
@@ -1592,7 +1592,7 @@ Package pdftex.def Info: figures/monitoring.png  used on input line 293.
 
 
 [65 <./figures/conversion.png>]
-<figures/tracking.png, id=906, 1179.40625pt x 312.16624pt>
+<figures/tracking.png, id=907, 1179.40625pt x 312.16624pt>
 File: figures/tracking.png Graphic file (type png)
 <use figures/tracking.png>
 Package pdftex.def Info: figures/tracking.png  used on input line 304.
@@ -1602,7 +1602,7 @@ Package pdftex.def Info: figures/tracking.png  used on input line 304.
 [66 <./figures/monitoring.png>]
 
 [67 <./figures/tracking.png>]
-<figures/hdevelopment.png, id=917, 543.02875pt x 263.98625pt>
+<figures/hdevelopment.png, id=918, 543.02875pt x 263.98625pt>
 File: figures/hdevelopment.png Graphic file (type png)
 <use figures/hdevelopment.png>
 Package pdftex.def Info: figures/hdevelopment.png  used on input line 315.
@@ -1630,17 +1630,17 @@ Overfull \hbox (2.71033pt too wide) in alignment at lines 339--439
  []
 
 [69]
-<figures/esp32.png, id=927, 602.25pt x 602.25pt>
+<figures/esp32.png, id=928, 602.25pt x 602.25pt>
 File: figures/esp32.png Graphic file (type png)
 <use figures/esp32.png>
 Package pdftex.def Info: figures/esp32.png  used on input line 462.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/panel.jpg, id=928, 722.7pt x 722.7pt>
+<figures/panel.jpg, id=929, 722.7pt x 722.7pt>
 File: figures/panel.jpg Graphic file (type jpg)
 <use figures/panel.jpg>
 Package pdftex.def Info: figures/panel.jpg  used on input line 474.
 (pdftex.def)             Requested size: 119.50104pt x 119.49397pt.
-<figures/battery.png, id=929, 602.25pt x 602.25pt>
+<figures/battery.png, id=930, 602.25pt x 602.25pt>
 File: figures/battery.png Graphic file (type png)
 <use figures/battery.png>
 Package pdftex.def Info: figures/battery.png  used on input line 487.
@@ -1650,7 +1650,7 @@ Underfull \hbox (badness 2452) in paragraph at lines 493--494
 []|\OT1/cmr/m/n/12 The LiFePO$[]$ bat-tery was se-lected
  []
 
-<figures/controller.png, id=930, 602.25pt x 602.25pt>
+<figures/controller.png, id=931, 602.25pt x 602.25pt>
 File: figures/controller.png Graphic file (type png)
 <use figures/controller.png>
 Package pdftex.def Info: figures/controller.png  used on input line 500.
@@ -1660,42 +1660,42 @@ Underfull \hbox (badness 1158) in paragraph at lines 506--507
 []|\OT1/cmr/m/n/12 An MPPT (Max-i-mum Power Point
  []
 
-<figures/inverter.png, id=931, 602.25pt x 602.25pt>
+<figures/inverter.png, id=932, 602.25pt x 602.25pt>
 File: figures/inverter.png Graphic file (type png)
 <use figures/inverter.png>
 Package pdftex.def Info: figures/inverter.png  used on input line 513.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/charger.png, id=932, 602.25pt x 602.25pt>
+<figures/charger.png, id=933, 602.25pt x 602.25pt>
 File: figures/charger.png Graphic file (type png)
 <use figures/charger.png>
 Package pdftex.def Info: figures/charger.png  used on input line 527.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/coin.png, id=933, 602.25pt x 602.25pt>
+<figures/coin.png, id=934, 602.25pt x 602.25pt>
 File: figures/coin.png Graphic file (type png)
 <use figures/coin.png>
 Package pdftex.def Info: figures/coin.png  used on input line 540.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/dcbreaker.png, id=934, 602.25pt x 602.25pt>
+<figures/dcbreaker.png, id=935, 602.25pt x 602.25pt>
 File: figures/dcbreaker.png Graphic file (type png)
 <use figures/dcbreaker.png>
 Package pdftex.def Info: figures/dcbreaker.png  used on input line 553.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/wire.png, id=935, 602.25pt x 602.25pt>
+<figures/wire.png, id=936, 602.25pt x 602.25pt>
 File: figures/wire.png Graphic file (type png)
 <use figures/wire.png>
 Package pdftex.def Info: figures/wire.png  used on input line 566.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/gsm.png, id=936, 602.25pt x 602.25pt>
+<figures/gsm.png, id=937, 602.25pt x 602.25pt>
 File: figures/gsm.png Graphic file (type png)
 <use figures/gsm.png>
 Package pdftex.def Info: figures/gsm.png  used on input line 579.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/gps.png, id=937, 602.25pt x 602.25pt>
+<figures/gps.png, id=938, 602.25pt x 602.25pt>
 File: figures/gps.png Graphic file (type png)
 <use figures/gps.png>
 Package pdftex.def Info: figures/gps.png  used on input line 592.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/relay.png, id=938, 602.25pt x 602.25pt>
+<figures/relay.png, id=939, 602.25pt x 602.25pt>
 File: figures/relay.png Graphic file (type png)
 <use figures/relay.png>
 Package pdftex.def Info: figures/relay.png  used on input line 605.
@@ -1710,12 +1710,12 @@ Underfull \hbox (badness 3098) in paragraph at lines 611--612
 \OT1/cmr/m/n/12 se-lec-tion en-sures safe and ef-fi-cient
  []
 
-<figures/solenoid.png, id=939, 602.25pt x 602.25pt>
+<figures/solenoid.png, id=940, 602.25pt x 602.25pt>
 File: figures/solenoid.png Graphic file (type png)
 <use figures/solenoid.png>
 Package pdftex.def Info: figures/solenoid.png  used on input line 618.
 (pdftex.def)             Requested size: 119.50104pt x 119.50133pt.
-<figures/acbreaker.png, id=940, 602.25pt x 602.25pt>
+<figures/acbreaker.png, id=941, 602.25pt x 602.25pt>
 File: figures/acbreaker.png Graphic file (type png)
 <use figures/acbreaker.png>
 Package pdftex.def Info: figures/acbreaker.png  used on input line 631.
@@ -1725,17 +1725,17 @@ Underfull \hbox (badness 1852) in paragraph at lines 637--638
 \OT1/cmr/m/n/12 guard the AC out-put cir-cuit. It
  []
 
-<figures/lcd-2.png, id=941, 1029.8475pt x 778.91pt>
+<figures/lcd-2.png, id=942, 1029.8475pt x 778.91pt>
 File: figures/lcd-2.png Graphic file (type png)
 <use figures/lcd-2.png>
 Package pdftex.def Info: figures/lcd-2.png  used on input line 644.
 (pdftex.def)             Requested size: 136.57373pt x 103.29422pt.
-<figures/lcd.png, id=942, 602.25pt x 602.25pt>
+<figures/lcd.png, id=943, 602.25pt x 602.25pt>
 File: figures/lcd.png Graphic file (type png)
 <use figures/lcd.png>
 Package pdftex.def Info: figures/lcd.png  used on input line 657.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/router.png, id=943, 602.25pt x 602.25pt>
+<figures/router.png, id=944, 602.25pt x 602.25pt>
 File: figures/router.png Graphic file (type png)
 <use figures/router.png>
 Package pdftex.def Info: figures/router.png  used on input line 670.
@@ -1748,7 +1748,7 @@ ter.png> <./figures/charger.png>] [73 <./figures/coin.png (PNG copy)> <./figure
 s/dcbreaker.png> <./figures/wire.png>] [74 <./figures/gsm.png> <./figures/gps.p
 ng> <./figures/relay.png>] [75 <./figures/solenoid.png> <./figures/acbreaker.pn
 g> <./figures/lcd-2.png>]
-<figures/circuit_station.png, id=979, 2710.125pt x 1990.43625pt>
+<figures/circuit_station.png, id=980, 2710.125pt x 1990.43625pt>
 File: figures/circuit_station.png Graphic file (type png)
 <use figures/circuit_station.png>
 Package pdftex.def Info: figures/circuit_station.png  used on input line 686.
@@ -1758,7 +1758,7 @@ Package pdftex.def Info: figures/circuit_station.png  used on input line 686.
 [76 <./figures/lcd.png (PNG copy)> <./figures/router.png>]
 
 [77 <./figures/circuit_station.png>]
-<figures/circuit_power.png, id=991, 2514.39375pt x 2156.055pt>
+<figures/circuit_power.png, id=992, 2514.39375pt x 2156.055pt>
 File: figures/circuit_power.png Graphic file (type png)
 <use figures/circuit_power.png>
 Package pdftex.def Info: figures/circuit_power.png  used on input line 695.
@@ -1766,7 +1766,7 @@ Package pdftex.def Info: figures/circuit_power.png  used on input line 695.
 
 
 [78 <./figures/circuit_power.png>]
-<figures/schematic_station.png, id=997, 3598.44376pt x 2430.07875pt>
+<figures/schematic_station.png, id=998, 3598.44376pt x 2430.07875pt>
 File: figures/schematic_station.png Graphic file (type png)
 <use figures/schematic_station.png>
 Package pdftex.def Info: figures/schematic_station.png  used on input line 706.
@@ -1775,7 +1775,7 @@ Package pdftex.def Info: figures/schematic_station.png  used on input line 706.
 
 
 [79 <./figures/schematic_station.png>]
-<figures/schematic_power.png, id=1003, 2210.2575pt x 1403.2425pt>
+<figures/schematic_power.png, id=1004, 2210.2575pt x 1403.2425pt>
 File: figures/schematic_power.png Graphic file (type png)
 <use figures/schematic_power.png>
 Package pdftex.def Info: figures/schematic_power.png  used on input line 715.
@@ -1783,7 +1783,7 @@ Package pdftex.def Info: figures/schematic_power.png  used on input line 715.
 
 
 [80 <./figures/schematic_power.png>]
-<figures/front.png, id=1009, 1272.755pt x 728.7225pt>
+<figures/front.png, id=1010, 1272.755pt x 728.7225pt>
 File: figures/front.png Graphic file (type png)
 <use figures/front.png>
 Package pdftex.def Info: figures/front.png  used on input line 728.
@@ -1791,7 +1791,7 @@ Package pdftex.def Info: figures/front.png  used on input line 728.
 
 
 [81]
-<figures/aerial.png, id=1014, 1477.52pt x 927.465pt>
+<figures/aerial.png, id=1015, 1477.52pt x 927.465pt>
 File: figures/aerial.png Graphic file (type png)
 <use figures/aerial.png>
 Package pdftex.def Info: figures/aerial.png  used on input line 737.
@@ -1801,7 +1801,7 @@ Package pdftex.def Info: figures/aerial.png  used on input line 737.
 [82 <./figures/front.png>]
 
 [83 <./figures/aerial.png>]
-<figures/rental.png, id=1027, 1527.7075pt x 1411.2725pt>
+<figures/rental.png, id=1028, 1527.7075pt x 1411.2725pt>
 File: figures/rental.png Graphic file (type png)
 <use figures/rental.png>
 Package pdftex.def Info: figures/rental.png  used on input line 772.
@@ -1822,7 +1822,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 [87]
 
 [88]
-<figures/activity.png, id=1050, 748.7975pt x 1704.3675pt>
+<figures/activity.png, id=1051, 748.7975pt x 1704.3675pt>
 File: figures/activity.png Graphic file (type png)
 <use figures/activity.png>
 Package pdftex.def Info: figures/activity.png  used on input line 812.
@@ -1836,12 +1836,12 @@ Package pdftex.def Info: figures/activity.png  used on input line 812.
 [91]
 
 [92]
-<figures/welcome.png, id=1068, 1668.2325pt x 1035.87pt>
+<figures/welcome.png, id=1069, 1668.2325pt x 1035.87pt>
 File: figures/welcome.png Graphic file (type png)
 <use figures/welcome.png>
 Package pdftex.def Info: figures/welcome.png  used on input line 840.
 (pdftex.def)             Requested size: 397.48502pt x 246.81198pt.
-<figures/signin.png, id=1069, 825.0825pt x 1049.9225pt>
+<figures/signin.png, id=1070, 825.0825pt x 1049.9225pt>
 File: figures/signin.png Graphic file (type png)
 <use figures/signin.png>
 Package pdftex.def Info: figures/signin.png  used on input line 849.
@@ -1849,7 +1849,7 @@ Package pdftex.def Info: figures/signin.png  used on input line 849.
 
 
 [93 <./figures/welcome.png>]
-<figures/signup.png, id=1075, 2236.355pt x 1039.885pt>
+<figures/signup.png, id=1076, 2236.355pt x 1039.885pt>
 File: figures/signup.png Graphic file (type png)
 <use figures/signup.png>
 Package pdftex.def Info: figures/signup.png  used on input line 858.
@@ -1857,7 +1857,7 @@ Package pdftex.def Info: figures/signup.png  used on input line 858.
 
 
 [94 <./figures/signin.png>]
-<figures/home.png, id=1082, 825.0825pt x 1035.87pt>
+<figures/home.png, id=1083, 825.0825pt x 1035.87pt>
 File: figures/home.png Graphic file (type png)
 <use figures/home.png>
 Package pdftex.def Info: figures/home.png  used on input line 867.
@@ -1865,7 +1865,7 @@ Package pdftex.def Info: figures/home.png  used on input line 867.
 
 
 [95 <./figures/signup.png>]
-<figures/renting.png, id=1088, 1668.2325pt x 1041.8925pt>
+<figures/renting.png, id=1089, 1668.2325pt x 1041.8925pt>
 File: figures/renting.png Graphic file (type png)
 <use figures/renting.png>
 Package pdftex.def Info: figures/renting.png  used on input line 876.
@@ -1873,7 +1873,7 @@ Package pdftex.def Info: figures/renting.png  used on input line 876.
 
 
 [96 <./figures/home.png>]
-<figures/admin.png, id=1094, 821.0675pt x 1023.825pt>
+<figures/admin.png, id=1095, 821.0675pt x 1023.825pt>
 File: figures/admin.png Graphic file (type png)
 <use figures/admin.png>
 Package pdftex.def Info: figures/admin.png  used on input line 885.
@@ -1881,7 +1881,7 @@ Package pdftex.def Info: figures/admin.png  used on input line 885.
 
 
 [97 <./figures/renting.png>]
-<figures/admin2.png, id=1100, 829.0975pt x 1049.9225pt>
+<figures/admin2.png, id=1101, 829.0975pt x 1049.9225pt>
 File: figures/admin2.png Graphic file (type png)
 <use figures/admin2.png>
 Package pdftex.def Info: figures/admin2.png  used on input line 894.
@@ -2381,9 +2381,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 1239--1240
 
 [122]
 
-[123])
+[123]
 
 [124]
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[]|\OT1/cmr/m/n/12 Smartphone
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[]|\OT1/cmr/bx/n/12 Total Daily
+ []
+
+
+Overfull \hbox (73.67046pt too wide) in paragraph at lines 138--148
+ [][] 
+ []
+
+)
+
+[125]
 \openout2 = `bibliography.aux'.
 
  (./bibliography.tex
@@ -2392,7 +2409,7 @@ Package natbib Warning: Empty `thebibliography' environment on input line 6.
 
 )
 
-[125
+[126
 
 
 
@@ -2411,17 +2428,17 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9FFEC3BB7A0449E31A7DBD9061F19FFC;21943.
+(rerunfilecheck)             Checksum: 13B71CCBA59F668F75C1762DC1803B7F;21952.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17897 strings out of 473190
- 292194 string characters out of 5715801
- 755298 words of memory out of 5000000
- 40523 multiletter control sequences out of 15000+600000
+ 17904 strings out of 473190
+ 292338 string characters out of 5715801
+ 755377 words of memory out of 5000000
+ 40527 multiletter control sequences out of 15000+600000
  568981 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,20n,82p,2503b,952s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2437,10 +2454,10 @@ fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (134 pages, 22950071 bytes).
+Output written on thesis.pdf (135 pages, 22951967 bytes).
 PDF statistics:
- 1367 PDF objects out of 1440 (max. 8388607)
- 1105 compressed objects within 12 object streams
- 272 named destinations out of 1000 (max. 500000)
+ 1374 PDF objects out of 1440 (max. 8388607)
+ 1111 compressed objects within 12 object streams
+ 275 named destinations out of 1000 (max. 500000)
  985 words of extra memory for PDF output out of 10000 (max. 10000000)
 
