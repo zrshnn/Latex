@@ -110,3 +110,44 @@ Wire sizes are determined to handle current and limit voltage drop.
 		\text{Wire Size} &= 10AWG
 	\end{align*}
 \end{enumerate}
+
+\nextbreak
+\section*{Calculation of Appliances Wattage Usage}
+
+This section presents the computation of power consumption for commonly used household and electronic appliances. The energy usage of each device is calculated using the formula:
+
+\begin{equation}
+	E = P \times t
+\end{equation}
+
+where:  
+\begin{itemize}
+	\item $E$ = Energy consumed (in watt-hours, Wh)
+	\item $P$ = Power rating of the appliance (in watts, W)
+	\item $t$ = Usage time (in hours, h)
+\end{itemize}
+
+For example, a laptop rated at 65~W that operates for 4~hours per day will consume:
+\[
+E = 65~\text{W} \times 4~\text{h} = 260~\text{Wh/day}.
+\]
+
+\begin{table}[H]
+	\centering
+	\caption{Estimated Wattage Usage of Common Appliances}
+	\label{tab:appliance_wattage}
+	\begin{tabular}{|p{3cm}|c|c|c|c|}
+		\hline
+		\textbf{Appliance} & \textbf{Power Rating (W)} & \textbf{Usage Time (h/day)} & \textbf{Energy (Wh/day)}\\ \hline
+		Smartphone (charging) & 15 & 2 & 30 \\ \hline
+		Laptop & 65 & 4 & 260 \\ \hline
+		Electric Fan & 75 & 8 & 600 \\ \hline
+		Rice Cooker & 700 & 1 & 700 \\ \hline
+		Refrigerator (inverter type) & 150 & 24 & 3600 \\ \hline
+		\textbf{Total Daily Energy Usage} & --- & --- & \textbf{5190 Wh/day} \\ \hline
+	\end{tabular}
+\end{table}
+
+The total estimated daily consumption of the listed appliances is approximately \textbf{5.19~kWh/day}. This serves as the baseline for sizing the solar-powered system and determining the battery capacity required for sustained operation during power interruptions.
+
+

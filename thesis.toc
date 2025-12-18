@@ -91,5 +91,5 @@
 \contentsline {subsection}{\numberline {3.2.9}Standards and Guidelines Considered}{118}{subsection.3.2.9}%
 \contentsline {chapter}{APPENDICES}{120}{chapter*.44}%
 \contentsline {chapter}{Appendix A: Step-by-Step Calculation}{120}{chapter*.44}%
-\contentsline {chapter}{REFERENCES}{125}{Item.20}%
+\contentsline {chapter}{REFERENCES}{126}{table.caption.45}%
 \contentsfinish 
