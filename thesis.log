@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 DEC 2025 18:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  19 DEC 2025 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2439,18 +2439,161 @@ Overfull \hbox (3.94801pt too wide) in alignment at lines 155--163
 \openout2 = `bibliography.aux'.
 
  (./bibliography.tex
+Underfull \hbox (badness 6741) in paragraph at lines 11--12
+[]\OT1/cmr/m/n/12 Bhatti, A. R., Lakhair, H., Sher, H. A., & Cheema, T. A.
+ []
 
-Package natbib Warning: Empty `thebibliography' environment on input line 6.
 
-)
+Underfull \hbox (badness 1975) in paragraph at lines 11--12
+\OT1/cmr/m/n/12 load mon-i-tor-ing sys-tem. \OT1/cmr/m/it/12 MATEC Web of Con-f
+er-ences, 398\OT1/cmr/m/n/12 , 01025.
+ []
+
+
 
 [126
 
 
 
 
-] (./thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
-(./appendix.aux) (./bibliography.aux))
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.24 	
+      
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.24 	
+      
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.24 	
+      
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.24 	
+      
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.24 	
+      
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.24 	
+      
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.24 	
+      
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.24 	
+      ]
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 	\bibitem{}
+                 Ramly, N. H., Jamal, N. Z., Abd Ghafar, A. N., \& Babu, D. ...
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 	\bibitem{}
+                 Rehman, A. U., Alblushi, I. G. M., Zia, M. F., Khalid, H. M...
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 	\bibitem{}
+                 Sampaio, P. G. V., \& González, M. O. A. (2017). Photovolt...
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.31 	\bibitem{}
+                 Thakur, A. (2021). Car rental system. \textit{International...
+
+Underfull \hbox (badness 1867) in paragraph at lines 31--32
+[]\OT1/cmr/m/n/12 Thakur, A. (2021). Car rental sys-tem. \OT1/cmr/m/it/12 In-te
+r-na-tional Jour-nal for Re-
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.33 	\bibitem{}
+                 Villamil, S., Hernandez, C., \& Tarazona, G. (2020). An ove...
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]\OT1/cmr/m/n/12 Villamil, S., Her-nan-dez, C., & Tara-zona, G. (2020). An
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\OT1/cmr/m/n/12 overview of in-ter-net of things. \OT1/cmr/m/it/12 TELKOM-NIKA,
+ 18\OT1/cmr/m/n/12 (5), 2320.
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 	\bibitem{}
+                 Zakri, A. A., Syahza, A., Hanafi, D., \& Syahadat, H. (2021...
+)
+
+[127
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.72 	\include{bibliography}
+                            ] (./thesis.aux (./chapter1.aux) (./chapter2.aux)
+(./chapter3.aux) (./appendix.aux) (./bibliography.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+! Package natbib Error: Bibliography not compatible with author-year citations.
+
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...mand\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+Check the bibliography entries for non-compliant syntax,
+or select author-year BibTeX style, e.g. plainnat
+
+)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -2470,10 +2613,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17903 strings out of 473190
- 292285 string characters out of 5715801
+ 17908 strings out of 473190
+ 292322 string characters out of 5715801
  755457 words of memory out of 5000000
- 40525 multiletter control sequences out of 15000+600000
+ 40528 multiletter control sequences out of 15000+600000
  568981 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,20n,82p,2503b,952s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2489,10 +2632,10 @@ fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (135 pages, 22952302 bytes).
+Output written on thesis.pdf (136 pages, 22956838 bytes).
 PDF statistics:
- 1375 PDF objects out of 1440 (max. 8388607)
- 1112 compressed objects within 12 object streams
- 276 named destinations out of 1000 (max. 500000)
+ 1381 PDF objects out of 1440 (max. 8388607)
+ 1117 compressed objects within 12 object streams
+ 278 named destinations out of 1000 (max. 500000)
  985 words of extra memory for PDF output out of 10000 (max. 10000000)
 
