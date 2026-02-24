@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  24 FEB 2026 10:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  24 FEB 2026 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2433,7 +2433,7 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 84C23593DC0F6184569A43A11C7DD101;18828.
+(rerunfilecheck)             Checksum: 74C363876F8FA14B7F2E6B5E45F3581D;18912.
  )
 (\end occurred inside a group at level 1)
 
@@ -2459,7 +2459,7 @@ fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (137 pages, 22952162 bytes).
+Output written on thesis.pdf (137 pages, 22952199 bytes).
 PDF statistics:
  1395 PDF objects out of 1440 (max. 8388607)
  1130 compressed objects within 12 object streams
