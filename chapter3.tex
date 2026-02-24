@@ -4,13 +4,11 @@
 
 In this chapter, the researchers outline the methodology employed to conduct the study, providing a comprehensive overview of the research design, technical design workflow, and analytical procedures.
 
-\section{Research Design and Procedure}
-
 \begin{figure}[H]
 	\centering
 	\caption{The Waterfall Model}
 	\label{fig:waterfall}
-	\includegraphics[width=0.6\textwidth]{figures/waterfall.png}
+	\includegraphics[width=0.9\textwidth]{figures/waterfall.png}
 \end{figure}
 
 In Figure 3.1, the system creation process is illustrated using a modified waterfall model. This sequential approach consists of several key stages, beginning with planning and followed by system design, hardware development, software development, system integration, testing, and finally, implementation.
@@ -19,7 +17,7 @@ The waterfall model is traditionally a linear development framework where each p
 
 This procedural framework guides the researchers in achieving the study’s intended objectives by ensuring that each step is completed before moving forward. It also supports early corrections, which helps minimize development costs and ensures that the hardware and software components are aligned with system requirements.
 
-\subsection{Planning}
+\section{Planning}
 The planning phase serves as the first and foundational stage of the Waterfall Model. In this phase, the overall direction of the project is established by identifying the problem, defining the system requirements, and determining the objectives and scope of the study. This stage also involves gathering relevant information, assessing user needs, and outlining the resources, constraints, and timelines essential for system development.
 
 Through careful planning, the researchers ensure that the succeeding phases—system design, hardware and software development, integration, testing, and implementation—are built on a clear and structured framework. By employing a systematic methodology, the study is able to conduct an in-depth examination of the research domain and prepare the necessary groundwork for a successful development process.
@@ -27,8 +25,8 @@ Through careful planning, the researchers ensure that the succeeding phases—sy
 \begin{figure}[H]
 	\centering
 	\caption{System Development Life Cycle}
-	\label{fig:map}
-	\includegraphics[width=0.7\textwidth]{figures/planning.png}
+	\label{fig:sdlc}
+	\includegraphics[width=0.85\textwidth]{figures/planning.png}
 \end{figure}
 
 The System Development Life Cycle (SDLC) for this study is illustrated in the figure, showing the sequential stages of system development. The process begins with System Analysis, where researchers conduct surveys, interviews, and review existing literature and studies relevant to the project. This phase ensures a thorough understanding of the system requirements, user needs, and potential constraints.
@@ -37,10 +35,10 @@ Following this, the System Design phase involves planning the overall system arc
 
 The System Evaluation phase focuses on defining specific performance criteria and testing the system’s components. This includes evaluating hardware specifications, software functionality, and overall system efficiency to ensure that the portable solar-powered energy system operates as intended. Through this phase, any shortcomings can be identified and addressed before full implementation, guaranteeing a reliable and functional final product.
 
-\subsubsection{3.1.1.1 Budget Planning}
-The development of the solar-powered rental station with detachable power sources, intended as a solution for supplying electricity to communities experiencing frequent and unscheduled power interruptions, incurred a total cost of ₱27,140.00. This amount covered the materials used in the study, the construction of the device, and the data collection and testing conducted throughout the research.
+\subsection{Budget Planning}
+The development of the solar-powered rental station with detachable power sources, intended as a solution for supplying electricity to communities experiencing frequent and unscheduled power interruptions, incurred a total cost of ₱37,570.00. This amount covered the materials used in the study, the construction of the device, and the data collection and testing conducted throughout the research.
 
-\subsubsection{(a) Materials and Cost}
+\subsection{Materials and Cost}
 
 \begin{longtable}{p{6cm} p{4cm}}
 	\caption{Hardware Components and Cost} \label{tab:MaterialsAndCost} \\
@@ -81,11 +79,11 @@ The development of the solar-powered rental station with detachable power source
 
 Table 2 shows the following materials that will be used in the study.
 
-\subsubsection{(b) Return on Investment (ROI) Analysis}
+\subsection{Return on Investment (ROI) Analysis}
 
 This subsection presents the estimated return on investment (ROI) of the system based on a daily income of \textpeso40.
 
-\subsubsection{i. Payback Period Calculation}
+\subsubsection{Payback Period Calculation}
 
 The total system cost is \textpeso37,570. The number of days required to recover the initial investment is calculated as:
 
@@ -93,7 +91,7 @@ The total system cost is \textpeso37,570. The number of days required to recover
 	\text{Days to recover cost} = \frac{37{,}570}{40} = 939.25~\text{days}
 \end{equation}
 
-\subsubsection{ii. Conversion of Payback Period to Years}
+\subsubsection{Conversion of Payback Period to Years}
 
 To express the payback period in years, the total number of days is divided by 365:
 
@@ -101,12 +99,12 @@ To express the payback period in years, the total number of days is divided by 3
 	\text{ROI (years)} = \frac{939.25}{365} \approx 2.57~\text{years}
 \end{equation}
 
-\subsubsection{iii. ROI Interpretation}
+\subsubsection{ROI Interpretation}
 
 The computed ROI of approximately 2.57 years indicates that the system can recover its initial investment in about 2 years and 7 months. This relatively short payback period demonstrates the economic feasibility of the proposed system, making it a practical and sustainable investment for long-term operation.
 
 
-\subsubsection{3.1.1.2 Research Locale}
+\subsection{Research Setting}
 
 \begin{figure}[H]
 	\centering
@@ -119,12 +117,12 @@ The research will be conducted in Barangay Tupsan, located in the municipality o
 
 Barangay Tupsan experiences frequent and unscheduled power interruptions and is served by the Camiguin Electric Cooperative (CAMELCO), which announces power interruptions on a weekly basis, particularly during peak demand hours. These outages disrupt daily activities and significantly affect community centers, educational institutions, and local businesses that rely on electricity for mobile device charging, lighting, and the operation of basic appliances.
 
-\subsubsection{3.1.1.3 User Definition}
+\subsection{User Definition}
 After the planning phase, the system’s users were identified. For this study, the Community Resident is defined as follows:
 
 Community Resident - A person residing in a local community who is actively involved or has access to detachable power sources during power interruptions or emergencies.
 
-\subsubsection{3.1.1.4 System Requirements}
+\subsection{System Requirements}
 
 \begin{longtable}{|p{4cm} | p{9cm}|}
 	\caption{System Requirements} \label{tab:long} \\
@@ -175,18 +173,17 @@ Community Resident - A person residing in a local community who is actively invo
 	
 \end{longtable} 
 
-\section{Technical Design Workflow}
 
-\subsection{System Design}
+\section{System Design}
 This section outlines the system design of the proposed system and serves as the blueprint for development. It describes how the major components interact by presenting the system architecture, process flow, and system diagrams (context level, data flow, and use case). In addition, the section explains the key operational blocks, solar energy harvesting, DC–AC conversion, power monitoring, and GPS tracking, and includes the necessary design calculations to support load requirements and proper component sizing.
 
-\subsubsection{3.2.1.1 System Architectures}
+\subsection{System Architecture}
 
 \begin{figure}[H]
 	\centering
 	\caption{System Architecture}
 	\label{fig:architecture}
-	\includegraphics[width=0.85\textwidth]{figures/architecture.jpg}
+	\includegraphics[width=1\textwidth]{figures/architecture.jpg}
 \end{figure}
 
 The Figure 3.4 illustrates the overall architecture of the solar powered rental station with a detachable power source. The system is designed to harvest solar energy, convert it to usable power, and provide access to users through various interfaces and technologies.
@@ -209,12 +206,12 @@ The Figure 3.4 illustrates the overall architecture of the solar powered rental 
 
 This system is designed to provide a sustainable, secure, and user-friendly power source solution for communities, utilizing solar energy and modern IoT technologies for enhanced management and accessibility.
 
-\subsubsection{3.2.1.2 Flowchart}
+\subsection{Flowchart}
 \begin{figure}[H]
 	\centering
 	\caption{System Flowchart}
 	\label{fig:flowchart}
-	\includegraphics[width=0.6\textwidth]{figures/flowchart.png}
+	\includegraphics[width=0.72\textwidth]{figures/flowchart.png}
 \end{figure}
 
 Figure 3.5 illustrates the overall process of the proposed Solar-Powered Rental Station with Detachable Power Sources. The process begins with the initialization of the ESP32, which activates system components and prepares communication protocols. The system first checks slot availability to determine if a detachable power source is ready for use. Data from this process is transmitted through the internet and stored in a central database for monitoring purposes.
@@ -223,13 +220,13 @@ When a user intends to rent a power source, the system verifies if payment is su
 
 The system also monitors whether the detachable power source is returned. If it remains unreturned after 12 hours, the ESP32 automatically sends reminder SMS notifications to both the user and the administrator. Upon return, the solenoid lock closes, securing the power source back in place. All key actions, including errors and system activities, are logged in the database for reference and analysis.
 
-\subsubsection{3.2.1.3 Context Level Diagram}
+\subsection{Context Level Diagram}
 
 \begin{figure}[H]
 	\centering
 	\caption{Context Level Diagram}
 	\label{fig:context level diagram}
-	\includegraphics[width=\textwidth]{figures/context.png}
+	\includegraphics[width=1\textwidth]{figures/context.png}
 \end{figure}
 
 This Figure 3.6 illustrates the complete interaction flow of the solar-powered rental system, showing how the Mobile App, Community Residents, Solar-Powered Rental Station, and the Detachable Power Source communicate with one another. The process begins with community residents using the mobile application to register their information, submit rental requests, process payments, and receive status updates. Once a rental request is made, the app sends the relevant information to the system, which then confirms the registration, validates the rental request, and updates the user about payment status and rental confirmation.
@@ -238,7 +235,7 @@ The interaction between the community residents and the solar-powered rental sta
 
 The detachable power source also communicates with the system to strengthen security and monitoring. It provides identification data, sends monitoring information such as location and usage status, and confirms both retrieval and return actions. These interactions ensure that the system can track each device, prevent unauthorized usage, and maintain accountability for each rental unit. Overall, the diagram presents a structured overview of how all components work together to support registration, rental, payment, monitoring, and return of the solar-powered power source in a seamless and secure manner.
 
-\subsubsection{3.2.1.4 Data Flow Diagram}
+\subsection{Data Flow Diagram}
 \begin{figure}[H]
 	\centering
 	\caption{Data Flow Representation of the Solar-Powered Rental Station System}
@@ -248,7 +245,7 @@ The detachable power source also communicates with the system to strengthen secu
 
 The Figure 3.7 shows how information moves within the Solar-Powered Rental Station with Detachable Power Sources, highlighting the interactions between users, administrators, and the system’s processes. Community residents begin by logging in through the mobile application, where their credentials are verified using stored user records. After authentication, community residents can submit rental requests, which the system checks against available power sources before proceeding to payment. The Payment module validates coin or app-based payments and, once confirmed, issues an authorization data that unlocks the detachable power source. The system then monitors the rental, tracking battery status, usage duration, and device location through GPS, with updates stored in the corresponding data repositories. Upon return, the system verifies the device, logs return details, and updates rental records while also issuing overdue alerts when necessary. Administrators can view and update user information, monitor device locations, and manage system records. Additionally, user credits, earned through unused power or admin adjustments, are tracked and stored for future transactions. Overall, the data flow of the system reflects an automated and integrated rental system that efficiently manages authentication, payment, monitoring, GPS tracking, returns, and credit management through coordinated data flows.
 
-\subsubsection{3.2.1.5 Use Case Diagram}
+\subsection{Use Case Diagram}
 \begin{figure}[H]
 	\centering
 	\caption{Use Case Diagram}
@@ -262,7 +259,7 @@ Once the Unregistered User becomes a Registered User after logging in successful
 
 The relationships in the diagram are shown through Include and Extend. Include means that one action is always linked to another. For example, signing up always includes verifying the user's details, and renting a power source includes checking availability and processing payment. Extend means that certain actions may trigger additional steps under specific conditions. For instance, if a payment fails, it will trigger the "Payment Error" action, or if the power source return is delayed, it will trigger the "Return Delay" action. In summary, this use case diagram provides an overview of how users and administrators interact with the system, covering key actions like renting and returning power sources, managing user accounts, and maintaining the system.
 
-\subsubsection{3.2.1.6 Solar Energy Harvesting}
+\subsection{Solar Energy Harvesting}
 
 \begin{figure}[H]
 	\centering
@@ -273,7 +270,7 @@ The relationships in the diagram are shown through Include and Extend. Include m
 
 The Figure 3.9 illustrates the process of harvesting solar energy using photovoltaic (PV) panels. Solar energy is captured by the PV panels, which then convert sunlight into electrical energy. The energy is stored in a \ce{LiFePO4} battery through a solar charge controller, ensuring proper charging and voltage regulation. This energy is stored for later use, contributing to the overall sustainability and efficiency of the system, enabling it to power devices even during periods of limited sunlight.
 
-\subsubsection{3.2.1.7 Energy Conversion DC to AC}
+\subsection{Energy Conversion DC to AC}
 
 \begin{figure}[H]
 	\centering
@@ -284,7 +281,7 @@ The Figure 3.9 illustrates the process of harvesting solar energy using photovol
 
 Figure 3.10 shows the process of converting direct current (DC) into alternating current (AC). The stored energy in the \ce{LiFePO4} battery is passed through a power inverter, and the inverter transforms the DC from the battery into AC power, which can be used to power household appliances such as fans and other AC-powered devices. This conversion is essential for making the system compatible with common electrical appliances that require AC power for operation.
 
-\subsubsection{3.2.1.8 Power Monitoring}
+\subsection{Power Monitoring}
 
 \begin{figure}[H]
 	\centering
@@ -295,7 +292,7 @@ Figure 3.10 shows the process of converting direct current (DC) into alternating
 
 The Figure 3.11 illustrates the power monitoring system used to keep track of the energy stored and consumed by the system. The \ce{LiFePO4} battery is connected to an ESP32 microcontroller, which continuously monitors the battery’s voltage and health, and the data collected is displayed on an LCD screen which allows users to view the battery's current status. This monitoring is vital for ensuring the system's efficiency and preventing over-discharge, ensuring long-term sustainability.
 
-\subsubsection{3.2.1.9 GPS Tracking}
+\subsection{GPS Tracking}
 
 \begin{figure}[H]
 	\centering
@@ -306,7 +303,7 @@ The Figure 3.11 illustrates the power monitoring system used to keep track of th
 
 Figure 3.12 shows the GPS-based tracking system used for security and monitoring of the detachable power source. The GPS module is connected to the ESP32 microcontroller and continuously obtains location coordinates (latitude and longitude) from satellite signals. During a rental session, the system logs the unit’s location together with the unit ID, rental timestamp, and rental status, allowing the operator to verify whether the detachable power source remains within the expected service area and to identify unusual movement patterns. If a unit is not returned within the allowed 12-hour rental periode or if it moves outside a predefined geofenced boundary, the system flags the unit as “overdue” or “out-of-zone” and sends an alert to the monitoring interface or mobile application for immediate action, it sends repeated SMS alerts at 10-minute intervals (with the last known GPS location) until the unit is returned. This tracking feature supports public deployment by providing accountability per rented unit and strengthening security against loss, theft, or misuse, since the last known location and movement history can be used to locate the unit and coordinate retrieval.
 
-\subsection{Hardware Development}
+\section{Hardware Development}
 
 \begin{figure}[H]
 	\centering
@@ -315,7 +312,7 @@ Figure 3.12 shows the GPS-based tracking system used for security and monitoring
 	\includegraphics[width=0.8\textwidth]{figures/hdevelopment.png}
 \end{figure}
 
-\subsubsection{3.2.2.1 Material Specifications}
+\subsection{Material Specifications}
 This section outlines the criteria and specifications for the materials and components used in the final device prototype. Each component was selected based on specific criteria to ensure reliable performance, safety, durability, and compatibility with the overall system design.
 
 The materials were chosen to support the functional requirements of the solar-powered rental station with detachable power sources. Electrical, structural, and communication components were selected to ensure efficient power generation, storage, and conversion, as well as secure operation, portability, and system monitoring, while maintaining cost-effectiveness and suitability for community-level deployment.
@@ -678,12 +675,12 @@ The following table outlines the key considerations for selecting hardware compo
 	
 \end{longtable}  
 
-\subsubsection{3.2.2.2 Circuit Diagram}
+\subsection{Circuit Diagram}
 \begin{figure}[H]
 	\centering
 	\caption{Circuit Diagram of Rental Station}
-	\label{fig:circuit}
-	\includegraphics[width=0.6\textwidth]{figures/circuit_station.png}
+	\label{fig:circuitrental}
+	\includegraphics[width=1\textwidth]{figures/circuit_station.png}
 \end{figure}
 
 Figure 3.14 shows the circuit diagram of the rental station, illustrating the integrated hardware architecture of the ESP32-based control unit and how the microcontroller interfaces with the 20×4 I2C LCD, coin acceptor, relay module, solenoid valve, and the main battery supply. The LCD is connected directly to the ESP32 through the I2C communication lines to display system status and credit information. The coin acceptor is powered by the battery, and its signal line is connected to an ESP32 GPIO pin through a pull-up resistor to ensure accurate and stable pulse detection for credit counting. The solenoid valve is controlled through a relay module, which provides electrical isolation and enables the ESP32 to activate the solenoid when required. A voltage divider is also incorporated to reduce the battery voltage to a safe level for the ESP32’s ADC input, allowing the system to monitor the battery state. Overall, the figure highlights how each component is systematically integrated to create a reliable and coordinated control system
@@ -691,19 +688,19 @@ Figure 3.14 shows the circuit diagram of the rental station, illustrating the in
 \begin{figure}[H]
 	\centering
 	\caption{Circuit Diagram of Detachable Power Sources }
-	\label{fig:scheayout}
-	\includegraphics[width=0.6\textwidth]{figures/circuit_power.png}
+	\label{fig:circuitdetachable}
+	\includegraphics[width=1\textwidth]{figures/circuit_power.png}
 \end{figure}
 
 Figure 3.15 shows the circuit diagram of the detachable power sources, illustrating the integrated hardware architecture of the ESP32-based control system and how the microcontroller interfaces with the 16×2 I2C LCD, GSM module, GPS module, and the battery.  The LCD is connected directly to the ESP32 via I2C communication lines to display system information and operational status. The GSM module is interfaced through the ESP32’s UART pins to enable wireless data communication, while the GPS module is connected similarly for real-time position tracking. The battery voltage is monitored by the ESP32 through a voltage divider, allowing the system to estimate the battery’s capacity. Overall, the figure highlights how each component is systematically integrated to form a reliable, coordinated, and fully functional control system.
 
-\subsubsection{3.2.2.3 Schematic Layout}
+\subsection{Schematic Layout}
 
 \begin{figure}[H]
 	\centering
 	\caption{Schematic Diagram of Rental Station}
-	\label{fig:circuit}
-	\includegraphics[width=0.9\textwidth]{figures/schematic_station.png}
+	\label{fig:schematicrental}
+	\includegraphics[width=1\textwidth]{figures/schematic_station.png}
 \end{figure}
 
 Figure 3.16 presents the schematic diagram of the ESP32-based control system, detailing the specific wiring connections among the ESP32, the 20×4 I2C LCD, the coin acceptor, the relay module, the solenoid valve, and the main battery supply. In this schematic, the LCD’s SDA and SCL lines are wired to the corresponding I2C pins of the ESP32, while the coin acceptor’s output signal is directed to one of the ESP32’s GPIO pins with a pull-up resistor for stable digital signal acquisition. The relay module’s input pin is connected to an ESP32 output pin, enabling the microcontroller to switch the solenoid using the battery’s power line. The schematic also shows the voltage divider linked between the battery and the ESP32’s ADC pin, ensuring that the sensed voltage remains within the microcontroller’s input range. Altogether, the diagram provides a clear representation of how each electrical connection is arranged to form a complete and dependable hardware control system.
@@ -711,13 +708,13 @@ Figure 3.16 presents the schematic diagram of the ESP32-based control system, de
 \begin{figure}[H]
 	\centering
 	\caption{Schematic Diagram of Detachable Power Sources}
-	\label{fig:scheayout}
-	\includegraphics[width=0.9\textwidth]{figures/schematic_power.png}
+	\label{fig:schematicdetachable}
+	\includegraphics[width=1\textwidth]{figures/schematic_power.png}
 \end{figure}
 
 Figure 3.17 presents the schematic diagram of the ESP32-based control system, detailing the specific wiring connections among the ESP32, the 16×2 I2C LCD, GSM module, GPS module, and the battery. In the schematic, the LCD’s SDA and SCL lines are connected to the corresponding I2C pins of the ESP32 for displaying system status. The GSM and GPS modules are connected through the ESP32’s UART pins for wireless communication and real-time position tracking, respectively. A voltage divider connected between the battery and the ESP32’s ADC pin enables the microcontroller to monitor the battery voltage and estimate its remaining capacity. Collectively, the schematic provides a clear representation of how each module is electrically connected to form a complete, reliable, and coordinated control system.
 
-\subsubsection{3.2.2.4 Hardware Design}
+\subsection{Hardware Design}
 
 The 3D representation shows the overall design of the proposed detachable power source and the solar-powered rental station. It provides a clear visual of the system’s shape, size and structure. The model illustrates how the different parts of the system are arranged in space, allowing a better understanding of the physical layout of the proposed system.
 
@@ -769,66 +766,66 @@ Table 6 shows the estimated weight of the components inside the detachable power
 	\centering
 	\caption{Solar-Powered Rental Station – Hardware Design Dimensions}
 	\label{fig:3d3}
-	\includegraphics[width=0.8\textwidth]{figures/rental.png}
+	\includegraphics[width=1\textwidth]{figures/rental.png}
 \end{figure}
 
 Figure 3.20 shows the 3D design of the solar-powered rental station. It is a stationary power station powered by solar energy and contains three detachable power sources. The system has a single coin slot that controls access, and each detachable power source is secured with a solenoid lock. The overall dimensions of the station are 59 inches in length, 30 inches in width, and 30 inches in height, which are based on the actual size and arrangement of the components used in the system.
 
-\subsection{Software Development}
+\section{Software Development}
 This part provides an outline of the software development for the solar-powered rental station with detachable power sources. The primary objective of the software is to manage the rental, monitoring, and control of portable power units through data acquisition, processing, and decision-making. The system combines embedded system programming with mobile application development and cloud-based data management through a real-time database, enabling reliable, automated, and secure system operation.
 
 The software is designed to monitor battery status, track rental duration, determine location coordinates, and calculate user credits based on predefined system rules.These functionalities collectively enable automated locking and unlocking, efficient notification management, and reliable synchronization among the hardware components, mobile application, and cloud services.
 
-\subsubsection{3.2.3.1 Embedded System Software Development}
+\subsection{Embedded System Software Development}
 This section discusses the development of the embedded software responsible for data acquisition, processing, and hardware control. An ESP32 microcontroller serves as the main processing unit due to its built-in wireless communication capabilities, low power consumption, and suitability for Internet of Things (IoT) applications.
 
 The embedded software continuously collects data from the battery monitoring circuit, GPS module, and GSM communication module. The acquired data are processed locally to determine battery status, rental duration, and location of the detachable power source. Processed information is then transmitted wirelessly to the cloud server and mobile application for monitoring and record-keeping.
 
-\subsubsection{3.2.3.2 Battery Monitoring and Power Calculation}
+\subsection{Battery Monitoring and Power Calculation}
 Battery voltage is measured using the ESP32’s analog-to-digital converter (ADC). The measured voltage values are mapped to corresponding battery percentage levels using predefined threshold ranges. Based on the battery percentage at the start and end of the rental period, the system calculates the amount of unused battery power.
 
 The unused power is used as the basis for computing user credits, encouraging responsible usage and timely return of the detachable power source units.
 
-\subsubsection{3.2.3.3 Rental Time Tracking and Rule-Based Control}
+\subsection{Rental Time Tracking and Rule-Based Control}
 Rental duration is tracked using internal system timers. The software enforces a maximum rental duration of twelve (12) hours per transaction. Time-based conditions are implemented to trigger system actions, such as sending notification alerts before the rental deadline and recording violations after the rental period expires.
 
 Rule-based logic controls critical events, including unlocking the detachable power source after successful payment verification and locking the unit upon return confirmation.
 
-\subsubsection{3.2.3.4 Mobile Application Development}
+\subsection{Mobile Application Development}
 This section presents the development of the mobile application that serves as the primary user interface of the system. The mobile application enables users to monitor battery status, view location, track rental duration, receive notifications, and check earned credits.
 
 The application communicates with the embedded system and cloud database through wireless connectivity, ensuring synchronization and accurate data presentation.
 
-\subsubsection{(a) Flutter Framework}
+\subsubsection{Flutter Framework}
 Flutter was selected as the development framework for the mobile application due to its cross-platform capability, high performance, and rich user interface components. Flutter employs the Dart programming language, which is compiled directly into native machine code, allowing fast execution and smooth user interactions.
 
 Using Flutter it will enable the developers to create a single codebase that can be deployed across multiple platforms. The framework’s extensive widget library facilitated the development of an intuitive and responsive user interface for displaying system data such as battery level, rental status, notifications, and user credits. 
 
-\subsubsection{(b) Activity Diagram}
+\subsubsection{Activity Diagram}
 \begin{figure}[H]
 	\centering
 	\caption{Activity Diagram of the Community Resident}
 	\label{fig:activity}
-	\includegraphics[width=0.37\textwidth]{figures/activity.png}
+	\includegraphics[width=0.53\textwidth]{figures/activity.png}
 \end{figure}
 
 Figure 3.21 shows the step-by-step activity flow of the system from user login to unlocking the portable power source. The process begins with checking account availability. If the user already has an account, they proceed to the login step; otherwise, they must sign up first. After logging in, the system checks if the account is valid. If the account is invalid, the process returns to the login step. If valid, the system verifies the account and displays the dashboard. Next, the system checks if a power source slot is available. If no slot is available, the user remains on the dashboard until one becomes free. If a slot is available, the process continues to the payment step. The system then verifies the payment amount. If the amount entered is not exact, the process returns to the payment step. If the payment is correct, the portable power source is successfully unlocked, completing the process.
 
 Overall, the diagram clearly shows how the user interacts with the system, which starts from account access, validation, and payment, up to unlocking the rented portable power source.
 
-\subsubsection{(c) GitHub}
+\subsubsection{GitHub}
 GitHub was utilized for version control and collaborative development of the mobile application. All source code, documentation, and configuration files were maintained in a centralized GitHub repository, allowing multiple developers to work concurrently while tracking changes efficiently. GitHub enabled version tracking, where all revisions to the code were logged and could be reverted if necessary. The use of branching and merging allowed new features and fixes to be developed in isolated branches and later integrated into the main branch following review. Additionally, GitHub facilitated team collaboration by providing mechanisms for code review, pull requests, and task management through GitHub issues. The repository also ensured a secure and accessible backup of the project, which could be accessed from any location with an internet connection. The integration of GitHub into the development workflow improved code quality, reduced conflicts, and supported smooth project management throughout the software development process.
 
-\subsubsection{(d) Realtime Database}
+\subsubsection{Realtime Database}
 Firebase services are utilized to support data storage, transmission, and low-latency system synchronization. These services enable secure handling of rental transactions, user records, and system logs.
 
-\subsubsection{(e) Cloud Firestore}
+\subsubsection{Cloud Firestore}
 Firebase Firestore is used as the primary cloud database for storing structured system data. This includes user profiles, rental transactions, battery usage records, rental timestamps, and earned credits. Firestore’s data synchronization capability allows instant updates across the embedded system and mobile application, ensuring data consistency and reliability. It also offers low-latency client synchronization and offline data access, enabling uninterrupted operation even during temporary network unavailability.
 
-\subsubsection{3.2.3.5 Network Encryption and Security Feature}
+\subsection{Network Encryption and Security Feature}
 This subsection describes the network-level encryption and security measures implemented to protect the system from unauthorized access and to reduce attempts to bypass the mobile application through direct network intrusion. The security design focuses on securing wireless access, restricting device connectivity, and protecting data transmission between the rental station, controller, and monitoring interfaces.
 
-\subsubsection{(a) MikroTik}
+\subsubsection{MikroTik}
 A MikroTik router is used as part of the network security layer to secure the local connection between the rental station and the mobile application/server. It is configured to enforce encrypted network access and restrict unauthorized devices by using WPA2/WPA3 Wi-Fi security, firewall rules, and MAC/IP filtering. Only registered system devices (e.g., the ESP32 controller and authorized admin devices) are allowed to communicate with the network. The MikroTik firewall blocks unknown inbound connections and limits open ports to reduce exposure to attacks. This setup helps prevent attackers from connecting to the system network and bypassing the application through direct access to the device or database endpoints.
 
  \subsection{Graphical User Interface Design}
@@ -897,25 +894,25 @@ The administrative dashboard reports the total number of users and provides stat
 The user-management view lists registered users with their points balances. The list supports further exploration through a “More…” action. This screen enables oversight of accounts for incentive tracking and administration.
 
 
-\subsection{System Integration}
+\section{System Integration}
 The system integration process involves the seamless interconnection of the hardware components, embedded software, mobile application, and cloud-based services to ensure reliable and synchronized operation of the solar-powered rental station with detachable power sources. The ESP32 microcontroller serves as the central controller, integrating data from the battery monitoring circuit, GPS module, GSM module, coin-slot mechanism, relays, solenoid locks, and LCD display. Solar energy harvested by the photovoltaic panel is regulated by the charge controller and stored in the  \ce{LiFePO4} battery, while the inverter supplies AC power to user loads. Operational data such as battery percentage, rental status, location coordinates, and usage duration are transmitted via Wi-Fi or GSM to a cloud database, enabling real-time monitoring and record management. The mobile application interfaces with the cloud database to display system status, manage rentals, process user transactions, and send notifications. Through this integration, all hardware and software components function as a unified system, allowing secure rental access, continuous monitoring, and efficient data synchronization through the mobile.
 
-\subsection{Testing}
-\subsubsection{3.2.6.1 Performance Testing}
+\section{Testing}
+\subsection{Performance Testing}
 The primary objective of performance testing is to evaluate the system's ability to handle user interactions and data processing without significant delay. Key performance indicators (KPIs) such as response time, processing speed, and system throughput will be assessed during peak and off-peak usage hours. The system will undergo stress testing to determine its capacity for managing multiple simultaneous user requests, ensuring reliability under high demand conditions.
 Testing will include the measurement of real-time monitoring capabilities, particularly the speed at which data is transmitted from the power stations to the mobile app. Performance testing will also assess the efficiency of the GPS and GSM modules, evaluating their responsiveness to ensure timely updates for location tracking and system alerts. This phase will confirm that the system remains stable, efficient, and user-friendly during various operational loads.
 
-\subsubsection{3.2.6.2 Usability Testing}
+\subsection{Usability Testing}
 Usability testing will focus on evaluating the user experience (UX) for both community residents and administrators. This will involve assessing the clarity, intuitiveness, and ease of navigation of the mobile app interface. A group of representative users will be selected from the target community to perform typical tasks such as account registration, power source rental, and payment processing.
 
 The System Usability Scale (SUS) will be used to quantitatively measure the users’ perception of the app's usability. Users will provide feedback on key aspects such as the accessibility of the mobile interface, ease of system navigation, and satisfaction with the power source rental process. In addition to SUS, qualitative data will be gathered through observational analysis and user interviews, allowing for in-depth insights into any usability concerns. This testing phase will help identify potential friction points in the user interface and guide refinements to improve overall user satisfaction.
 
-\subsection{Implementation}
+\section{Implementation}
 This section discusses the deployment and actual operation of the completed solar-powered rental station with detachable power sources. Implementation involves installing the rental station in the selected community location, positioning the photovoltaic panel for optimal solar energy harvesting, and ensuring proper electrical and network connections. The detachable power sources are placed in their designated slots and secured using the solenoid locking mechanism. The ESP32-based control system and mobile application are activated to allow users to register, perform rental transactions, and access system information. During implementation, the system operates under real-world conditions to validate rental access, power availability, monitoring functions, and communication between the hardware, mobile application, and cloud database, ensuring the system performs as intended in practical use.
 
  \subsection{Calculation Requirements}
  
- \subsubsection{3.2.8.1 Load Analysis}
+ \subsubsection{Load Analysis}
  
  \begin{longtable}{p{3cm} p{1.6 cm} p{1.1cm} p{2.1cm} p{4cm}}
  	\caption{Load Consumption} \label{tab:LoadConsumption} \\
@@ -943,7 +940,7 @@ This section discusses the deployment and actual operation of the completed sola
  
  All calculations are done in accordance to PEC (Philippine Electrical Code 2017).
  
- \subsubsection{3.2.8.2 Battery Sizing}
+ \subsubsection{Battery Sizing}
  
  \begin{itemize}
  	\item\textbf{ Detachable Power Source:} 
@@ -1086,11 +1083,12 @@ This section discusses the deployment and actual operation of the completed sola
  	\end{enumerate}
  \end{itemize}
  
- \subsubsection{3.2.8.3 Charging Time and Energy Calculations}
+ \subsubsection{Charging Time and Energy Calculations}
  
  This section presents the calculations for the charging time of the station battery using a solar panel, as well as the energy feasibility of charging detachable power sources from the station battery. All computations are based on theoretical values and typical system efficiencies.
  
- \subsubsection{(a) Charging Time of the Station Battery Using Solar Panel}
+  \begin{itemize}
+ 	\item\textbf{Charging Time of the Station Battery Using Solar Panel} 
  
  The station battery has a nominal voltage of 12~V and a capacity of 100~Ah. The total energy capacity of the battery is calculated as follows:
  
@@ -1108,7 +1106,7 @@ This section discusses the deployment and actual operation of the completed sola
  
  This value represents the ideal charging time. In real-world operation, charging will take longer due to inefficiencies in the system and variations in solar irradiance. Considering the average peak sun hours in the Philippines, which ranges from 4.5 to 5.5 hours per day, a practical charging duration of approximately 3-4 hours under peak sunlight is reasonable.
  
- \subsubsection{(b) Energy Feasibility of Charging Detachable Power Sources}
+ 	\item\textbf{Energy Feasibility of Charging Detachable Power Sources} 
  
  The energy capacity of the station battery, acting as the energy source, is:
  
@@ -1144,7 +1142,7 @@ This section discusses the deployment and actual operation of the completed sola
  
  This indicates that while the station battery can theoretically charge both detachable power sources, additional energy from the solar panel or partial charging strategies may be required in practical operation.
  
- \subsubsection{(c) Charging Time of a Single Detachable Power Source}
+  	\item\textbf{Charging Time of a Single Detachable Power Source} 
  
  Each detachable power source has a battery capacity of 50~Ah and is charged using a 20~A charger. The theoretical charging time is calculated as:
  
@@ -1240,7 +1238,8 @@ This section discusses the deployment and actual operation of the completed sola
  	\hline
  	
  \end{longtable}
- 
+\end{itemize}
+
   \subsection{Standards and Guidelines Considered}
   
   The design and evaluation of the solar-powered rental station were guided by several internationally recognized standards to ensure safety, reliability, and environmental compliance. 

@@ -1,18 +1,18 @@
 
- 			% % % % % % % % % % % % % % % % % % % % % %
-			%																					%
-			% 	maththesis.cls												%
-			% 	by Julius V. Benitez									%
-			% 	Department of Mathematics							%
-			% 	College of Science and Mathematics		%
-			% 	MSU-Iligan Institute of Technology		%
-			% 	9200 Iligan City											%
-			% 	Philippines														%
-			% 	E-mail: csm-jvb@sulat.msuiit.edu.ph 	%
-			% 	or jbenitez16@yahoo.com								%
-			% 	Modified: March 2009									%
-			%																					%
-			% % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % %
+%																					%
+% 	maththesis.cls												%
+% 	by Julius V. Benitez									%
+% 	Department of Mathematics							%
+% 	College of Science and Mathematics		%
+% 	MSU-Iligan Institute of Technology		%
+% 	9200 Iligan City											%
+% 	Philippines														%
+% 	E-mail: csm-jvb@sulat.msuiit.edu.ph 	%
+% 	or jbenitez16@yahoo.com								%
+% 	Modified: March 2009									%
+%																					%
+% % % % % % % % % % % % % % % % % % % % % %
 
 \NeedsTeXFormat{LaTeX2e} 
 \ProvidesClass{maththesis}
@@ -34,11 +34,11 @@
 %\setlength{\textheight}{8in}		% height of main text
 %\setlength{\textwidth}{5.5in}		% width of main text
 \setcounter{tocdepth}{3}
-\setcounter{secnumdepth}{2}
+\setcounter{secnumdepth}{3}
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %
 %\newenvironment{listofnotations}{\chapter*{LIST OF NOTATIONS}\addcontentsline{toc}{chapter}{LIST OF NOTATIONS}
-%\begingroup}{\newpage\endgroup}   
+	%\begingroup}{\newpage\endgroup}   
 \renewcommand
 \listfigurename{LIST OF FIGURES}
 \baselineskip=1.0\baselineskip
@@ -54,27 +54,27 @@
 \newcommand{\beforefirstchapter}{\cftaddtitleline{toc}{part}\cftaddtitleline{toc}{part}{\bfseries Chapter}\pagenumbering{roman}}
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % command after \begin{document}
-\newcommand{\afterbegindocument}{\cftaddtitleline{toc}{part}{\bfseries Page}\cftaddtitleline{toc}{part}}
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-% Chapter heading layout
-\def\@makechapterhead#1{
-{\thispagestyle{empty}
-\centering
-\ifnum \c@secnumdepth >\m@ne
-%        \bfseries \@chapapp\space \thechapter
-\bfseries CHAPTER \thechapter
-\par\nobreak
-\vskip 20\p@    
-\fi
-\interlinepenalty\@M
-\bfseries #1\par\nobreak
-\vskip 30\p@
-}}
-\def\@makeschapterhead#1{
-{\thispagestyle{empty}
-\centering
-%    \large
-\interlinepenalty\@M
-\bfseries  #1\par\nobreak
-\vskip 30\p@
-}}
+	\newcommand{\afterbegindocument}{\cftaddtitleline{toc}{part}{\bfseries Page}\cftaddtitleline{toc}{part}}
+	% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	% Chapter heading layout
+	\def\@makechapterhead#1{
+		{\thispagestyle{empty}
+			\centering
+			\ifnum \c@secnumdepth >\m@ne
+			%        \bfseries \@chapapp\space \thechapter
+			\bfseries CHAPTER \thechapter
+			\par\nobreak
+			\vskip 20\p@    
+			\fi
+			\interlinepenalty\@M
+			\bfseries #1\par\nobreak
+			\vskip 30\p@
+	}}
+	\def\@makeschapterhead#1{
+		{\thispagestyle{empty}
+			\centering
+			%    \large
+			\interlinepenalty\@M
+			\bfseries  #1\par\nobreak
+			\vskip 30\p@
+	}}
