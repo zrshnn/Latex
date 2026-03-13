@@ -5,7 +5,7 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces IPO Model}}{20}{figure.caption.7}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Variable relation}}{25}{figure.caption.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces The Waterfall Model}}{44}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The Modified Waterfall Model}}{44}{figure.caption.12}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces System Development Life Cycle}}{46}{figure.caption.13}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Map of Tupsan, Mambajao, Camiguin}}{50}{figure.caption.14}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces System Architecture}}{55}{figure.caption.15}%
@@ -33,4 +33,5 @@
 \contentsline {figure}{\numberline {3.26}{\ignorespaces Renting Screen (Community Resident)}}{100}{figure.caption.37}%
 \contentsline {figure}{\numberline {3.27}{\ignorespaces Home Page (Admin)}}{101}{figure.caption.38}%
 \contentsline {figure}{\numberline {3.28}{\ignorespaces Manage Users Page (Admin)}}{102}{figure.caption.39}%
+\addvspace {10\p@ }
 \contentsfinish 

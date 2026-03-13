@@ -6,7 +6,7 @@ In this chapter, the researchers outline the methodology employed to conduct the
 
 \begin{figure}[H]
 	\centering
-	\caption{The Waterfall Model}
+	\caption{The Modified Waterfall Model}
 	\label{fig:waterfall}
 	\includegraphics[width=0.9\textwidth]{figures/waterfall.png}
 \end{figure}
@@ -18,7 +18,7 @@ The waterfall model is traditionally a linear development framework where each p
 This procedural framework guides the researchers in achieving the study’s intended objectives by ensuring that each step is completed before moving forward. It also supports early corrections, which helps minimize development costs and ensures that the hardware and software components are aligned with system requirements.
 
 \section{Planning}
-The planning phase serves as the first and foundational stage of the Waterfall Model. In this phase, the overall direction of the project is established by identifying the problem, defining the system requirements, and determining the objectives and scope of the study. This stage also involves gathering relevant information, assessing user needs, and outlining the resources, constraints, and timelines essential for system development.
+The planning phase serves as the first and foundational stage of the Modified Waterfall Model. In this phase, the overall direction of the project is established by identifying the problem, defining the system requirements, and determining the objectives and scope of the study. This stage also involves gathering relevant information, assessing user needs, and outlining the resources, constraints, and timelines essential for system development.
 
 Through careful planning, the researchers ensure that the succeeding phases—system design, hardware and software development, integration, testing, and implementation—are built on a clear and structured framework. By employing a systematic methodology, the study is able to conduct an in-depth examination of the research domain and prepare the necessary groundwork for a successful development process.
 
@@ -186,7 +186,7 @@ This section outlines the system design of the proposed system and serves as the
 	\includegraphics[width=1\textwidth]{figures/architecture.jpg}
 \end{figure}
 
-The Figure 3.4 illustrates the overall architecture of the solar powered rental station with a detachable power source. The system is designed to harvest solar energy, convert it to usable power, and provide access to users through various interfaces and technologies.
+The Figure 3.4 illustrates the overall architecture of the Solar-Powered Rental Station with Detachable Power Sources. The system is designed to harvest solar energy, convert it to usable power, and provide access to users through various interfaces and technologies.
 
 \begin{itemize}
 	
@@ -535,12 +535,12 @@ The following table outlines the key considerations for selecting hardware compo
 		
 		\vspace{0.1cm} % adds space above image
 		\includegraphics[width=0.8\linewidth]{figures/coin.png}
-		\text{Coinslot Multi Coin Selector} % text above the image
+		\text{Coinslot Multi-Coin Selector} % text above the image
 		\vspace{0.3cm}
 	\end{minipage} 
 	&  
 	\vspace{0.1cm}
-	The coinslot multi coin selector was selected as a payment input device for the rental system. It allows users to securely deposit coins of different denominations, ensuring accurate transaction processing. Its reliability and ease of integration make it suitable for a user-friendly payment system. \\
+	The coinslot multi-coin selector was selected as a payment input device for the rental system. It allows users to securely deposit coins of different denominations, ensuring accurate transaction processing. Its reliability and ease of integration make it suitable for a user-friendly payment system. \\
 	\hline
 	
 	\begin{minipage}[t]{\linewidth}
@@ -683,7 +683,7 @@ The following table outlines the key considerations for selecting hardware compo
 	\includegraphics[width=1\textwidth]{figures/circuit_station.png}
 \end{figure}
 
-Figure 3.14 shows the circuit diagram of the rental station, illustrating the integrated hardware architecture of the ESP32-based control unit and how the microcontroller interfaces with the 20×4 I2C LCD, coin acceptor, relay module, solenoid valve, and the main battery supply. The LCD is connected directly to the ESP32 through the I2C communication lines to display system status and credit information. The coin acceptor is powered by the battery, and its signal line is connected to an ESP32 GPIO pin through a pull-up resistor to ensure accurate and stable pulse detection for credit counting. The solenoid valve is controlled through a relay module, which provides electrical isolation and enables the ESP32 to activate the solenoid when required. A voltage divider is also incorporated to reduce the battery voltage to a safe level for the ESP32’s ADC input, allowing the system to monitor the battery state. Overall, the figure highlights how each component is systematically integrated to create a reliable and coordinated control system
+Figure 3.14 shows the circuit diagram of the rental station, illustrating the integrated hardware architecture of the ESP32-based control unit and how the microcontroller interfaces with the 20×4 I2C LCD, multi-coin selector, relay module, solenoid valve, and the main battery supply. The LCD is connected directly to the ESP32 through the I2C communication lines to display system status and credit information. The multi-coin selectoris powered by the battery, and its signal line is connected to an ESP32 GPIO pin through a pull-up resistor to ensure accurate and stable pulse detection for credit counting. The solenoid valve is controlled through a relay module, which provides electrical isolation and enables the ESP32 to activate the solenoid when required. A voltage divider is also incorporated to reduce the battery voltage to a safe level for the ESP32’s ADC input, allowing the system to monitor the battery state. Overall, the figure highlights how each component is systematically integrated to create a reliable and coordinated control system
 
 \begin{figure}[H]
 	\centering
@@ -703,7 +703,7 @@ Figure 3.15 shows the circuit diagram of the detachable power sources, illustrat
 	\includegraphics[width=1\textwidth]{figures/schematic_station.png}
 \end{figure}
 
-Figure 3.16 presents the schematic diagram of the ESP32-based control system, detailing the specific wiring connections among the ESP32, the 20×4 I2C LCD, the coin acceptor, the relay module, the solenoid valve, and the main battery supply. In this schematic, the LCD’s SDA and SCL lines are wired to the corresponding I2C pins of the ESP32, while the coin acceptor’s output signal is directed to one of the ESP32’s GPIO pins with a pull-up resistor for stable digital signal acquisition. The relay module’s input pin is connected to an ESP32 output pin, enabling the microcontroller to switch the solenoid using the battery’s power line. The schematic also shows the voltage divider linked between the battery and the ESP32’s ADC pin, ensuring that the sensed voltage remains within the microcontroller’s input range. Altogether, the diagram provides a clear representation of how each electrical connection is arranged to form a complete and dependable hardware control system.
+Figure 3.16 presents the schematic diagram of the ESP32-based control system, detailing the specific wiring connections among the ESP32, the 20×4 I2C LCD, the multi-coin selector, the relay module, the solenoid valve, and the main battery supply. In this schematic, the LCD’s SDA and SCL lines are wired to the corresponding I2C pins of the ESP32, while the multi-coin selector’s output signal is directed to one of the ESP32’s GPIO pins with a pull-up resistor for stable digital signal acquisition. The relay module’s input pin is connected to an ESP32 output pin, enabling the microcontroller to switch the solenoid using the battery’s power line. The schematic also shows the voltage divider linked between the battery and the ESP32’s ADC pin, ensuring that the sensed voltage remains within the microcontroller’s input range. Altogether, the diagram provides a clear representation of how each electrical connection is arranged to form a complete and dependable hardware control system.
 
 \begin{figure}[H]
 	\centering
@@ -750,7 +750,7 @@ Figure 3.19 shows the proposed 3D design of the detachable power source viewed f
 	GSM Module & 30 g \\ 
 	LCD 16X2 &  120 g \\
 	ESP32 x 3 & 25 g \\
-	\ce{LiFePO4} Batterry x 2 &  2500 g (2.5 lg) \\
+	\ce{LiFePO4} Batterry x 2 &  2500 g (2.5 kg) \\
 	Relay(12/240 V) &  150 g \\
 	Power Inverter (1000 W) & 2000 g (2.0 kg )\\
 	AC Breaker & 250 g \\
@@ -772,9 +772,9 @@ Table 6 shows the estimated weight of the components inside the detachable power
 Figure 3.20 shows the 3D design of the solar-powered rental station. It is a stationary power station powered by solar energy and contains three detachable power sources. The system has a single coin slot that controls access, and each detachable power source is secured with a solenoid lock. The overall dimensions of the station are 59 inches in length, 30 inches in width, and 30 inches in height, which are based on the actual size and arrangement of the components used in the system.
 
 \section{Software Development}
-This part provides an outline of the software development for the solar-powered rental station with detachable power sources. The primary objective of the software is to manage the rental, monitoring, and control of portable power units through data acquisition, processing, and decision-making. The system combines embedded system programming with mobile application development and cloud-based data management through a real-time database, enabling reliable, automated, and secure system operation.
+This part provides an outline of the software development for the Solar-Powered Rental Station with Detachable Power Sources. The primary objective of the software is to manage the rental, monitoring, and control of portable power units through data acquisition, processing, and decision-making. The system combines embedded system programming with mobile application development and cloud-based data management through a real-time database, enabling reliable, automated, and secure system operation.
 
-The software is designed to monitor battery status, track rental duration, determine location coordinates, and calculate user credits based on predefined system rules.These functionalities collectively enable automated locking and unlocking, efficient notification management, and reliable synchronization among the hardware components, mobile application, and cloud services.
+The software is designed to monitor battery status, track rental duration, determine location coordinates, and calculate user credits based on predefined system rules. These functionalities collectively enable automated locking and unlocking, efficient notification management, and reliable synchronization among the hardware components, mobile application, and cloud services.
 
 \subsection{Embedded System Software Development}
 This section discusses the development of the embedded software responsible for data acquisition, processing, and hardware control. An ESP32 microcontroller serves as the main processing unit due to its built-in wireless communication capabilities, low power consumption, and suitability for Internet of Things (IoT) applications.
