@@ -84,6 +84,7 @@
 \contentsline {subsubsection}{\numberline {3.7.1.2}Battery Sizing}{107}{subsubsection.3.7.1.2}%
 \contentsline {subsubsection}{\numberline {3.7.1.3}Charging Time and Energy Calculations}{115}{subsubsection.3.7.1.3}%
 \contentsline {subsection}{\numberline {3.7.2}Standards and Guidelines Considered}{122}{subsection.3.7.2}%
-\contentsline {chapter}{APPENDICES}{123}{chapter*.40}%
-\contentsline {chapter}{Appendix A: Step-by-Step Calculation}{123}{chapter*.40}%
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{123}{chapter.4}%
+\contentsline {chapter}{APPENDICES}{124}{chapter*.40}%
+\contentsline {chapter}{Appendix A: Step-by-Step Calculation}{124}{chapter*.40}%
 \contentsfinish 
