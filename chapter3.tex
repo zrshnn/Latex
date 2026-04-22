@@ -1,6 +1,6 @@
 
 \chapter{METHODOLOGY}
-{\baselineskip=2\baselineskip}
+{\baselineskip=2\baselineskip
 
 In this chapter, the researchers outline the methodology employed to conduct the study, providing a comprehensive overview of the research design, technical design workflow, and analytical procedures.
 
@@ -796,10 +796,10 @@ This section presents the development of the mobile application that serves as t
 
 The application communicates with the embedded system and cloud database through wireless connectivity, ensuring synchronization and accurate data presentation.
 
-\subsubsection{Quasar Framework}
-Quasar was selected as the development framework for the mobile application due to its cross-platform capability, high performance, and rich user interface components. Flutter employs the Dart programming language, which is compiled directly into native machine code, allowing fast execution and smooth user interactions.
+\subsubsection{Flutter Framework}
+Flutter was selected as the development framework for the mobile application due to its cross-platform capability, high performance, and rich user interface components. Flutter employs the Dart programming language, which is compiled directly into native machine code, allowing fast execution and smooth user interactions.
 
-Using Quasar it will enable the developers to create a single codebase that can be deployed across multiple platforms. The framework’s extensive widget library facilitated the development of an intuitive and responsive user interface for displaying system data such as battery level, rental status, notifications, and user credits. 
+Using Flutter it will enable the developers to create a single codebase that can be deployed across multiple platforms. The framework’s extensive widget library facilitated the development of an intuitive and responsive user interface for displaying system data such as battery level, rental status, notifications, and user credits. 
 
 \subsubsection{Activity Diagram}
 \begin{figure}[H]
@@ -830,59 +830,50 @@ A MikroTik router is used as part of the network security layer to secure the lo
 
  \subsection{Graphical User Interface Design}
 
- The mobile application developed for the Solar-Powered Rental Station with Detachable Power Sources is designed to provide users with a seamless, intuitive, and user-friendly interface for managing rental transactions and monitoring power source availability. The application serves as the primary interaction platform between the user and the system, enabling efficient access to services such as registration, rental selection, payment processing, and account management. The graphical user interface (GUI) is structured to accommodate users with varying levels of technical expertise, ensuring ease of navigation and functionality.
-
 \begin{figure}[H]
 	\centering
 	\caption{Welcome Page}
 	\label{fig:welcome}
-	\includegraphics[width=1\textwidth]{figures/S1.png}
+	\includegraphics[width=1\textwidth]{figures/welcome.png}
 \end{figure}
 
 The welcome interface presents the system logo and entry actions. The left panel shows a splash screen with a “Get Started” control; the right panel shows a gateway card offering Log In and Sign Up. This screen functions as the access point to the authentication flow.
 
 \begin{figure}[H]
 	\centering
-	\caption{Log In Page}
+	\caption{Sign In Page}
 	\label{fig:signin}
-	\includegraphics[width=0.7\textwidth]{figures/SE2.png}
+	\includegraphics[width=0.7\textwidth]{figures/signin.png}
 \end{figure}
 
-The log-in interface collects the email address and password with options to reveal the password and recover forgotten credentials. A primary Log In control initiates authentication for registered users. The design supports secure access to user functions.
+The sign-in interface collects the username and password with options to reveal the password and recover forgotten credentials. A primary Log In control initiates authentication for registered users. The design supports secure access to user functions.
 
 \begin{figure}[H]
 	\centering
 	\caption{Sign Up Page}
 	\label{fig:signup}
-	\includegraphics[width=1\textwidth]{figures/SE3.png}
+	\includegraphics[width=1\textwidth]{figures/signup.png}
 \end{figure}
 
-The registration process is divided into multiple steps to ensure accurate data collection. Users are required to input personal information such as name, contact number, email address, and password, followed by additional demographic details including sex, birthdate, municipality, and barangay. Furthermore, an identity verification page is integrated, wherein users capture an image for validation and agree to the terms of service and privacy policy before account creation is completed.
+Registration is implemented as a three-step process. Step 1 captures account credentials (username, email, phone number, password, and confirmation). Step 2 records profile and address data (sex, barangay, municipality, province, and birthdate). Step 3 presents a data-privacy notice and obtains consent to the Terms of Service and Privacy Policy before account creation.
 
 \begin{figure}[H]
 	\centering
 	\caption{Home Page (Community Resident)}
 	\label{fig:user home}
-	\includegraphics[width=0.7\textwidth]{figures/SE4.png}
+	\includegraphics[width=0.7\textwidth]{figures/home.png}
 \end{figure}
 
-The user dashboard displays a greeting header with location metadata and a card showing the current points balance. A bottom navigation bar provides access to core modules (home, alerts, and profile). This screen serves as the primary hub for user activities.
+The user dashboard displays a greeting header with location metadata and a card showing the current points balance. A bottom navigation bar provides access to core modules (home, rewards, notifications, and account/tools). This screen serves as the primary hub for user activities.
 
 \begin{figure}[H]
 	\centering
 	\caption{Renting Screen (Community Resident)}
 	\label{fig:renting}
-	\includegraphics[width=1\textwidth]{figures/SE5.png}
+	\includegraphics[width=1\textwidth]{figures/renting.png}
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\caption{Renting Screen (Community Resident)}
-	\label{fig:renting}
-	\includegraphics[width=1\textwidth]{figures/SE6.png}
-\end{figure}
-
-The renting module allows search by Station ID and shows slot availability per station. When a user selects an available slot, the system displays relevant rental details, including the remaining battery level, rental cost, and the required return time for the detachable power source. The application supports two payment methods: coin-based payment and credit-based payment. For coin-based transactions, users are instructed to proceed to the physical station and insert the exact amount into the coin slot. Alternatively, users may utilize their accumulated credit points within the application to complete the transaction digitally. Upon successful payment, the system confirms the rental and grants access to the selected power source.
+The renting module allows search by Station ID and shows slot availability per station. Users select a slot and view its battery percentage with the corresponding price. Payment options include Pay via Points and Pay via Coin Slot, enabling transaction initiation.
 
 \begin{figure}[H]
 	\centering
