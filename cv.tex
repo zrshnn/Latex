@@ -1,12 +1,5 @@
 \thispagestyle{empty}
 
-% This block places the image in the upper right corner
-\begin{flushright}
-    \vspace{-20pt} % Adjust vertical position if needed
-    \includegraphics[width=1.2in, height=1.2in, keepaspectratio]{figures/esbiii.jpg} % Replace with your image file
-\end{flushright}
-
-\vspace{-60pt} % Pulls the title back up so the photo doesn't push it down
 \begin{center}
     {\bf CURRICULUM VITAE}\\[24pt]
 \end{center}
@@ -14,16 +7,25 @@
 \addcontentsline{toc}{chapter}{CURRICULUM VITAE}
 
 {\baselineskip=1\baselineskip
-\begin{tabbing}
-\hspace{1.7in} \= \hspace{3.5in} \kill
-{\bf Name:} \> {\bf Sheena Mae L. Simon} \\[5pt]
-{\bf Date of Birth:} \> May 8, 2004 \\[5pt]
-{\bf Place of Birth:} \> Portulin, Medina, Misamis Oriental \\[5pt]
-{\bf Home Address:} \> \parbox[t]{3.5in}{Purok - 1A, Portulin, Medina, Misamis Oriental} \\[15pt]
-{\bf E-mail Address:} \> \texttt{sheenamaesimon08@gmail.com} \\
-\end{tabbing}	
 
-\vspace{10pt}
+% This starts the side-by-side section
+\noindent
+\begin{minipage}[t]{0.70\textwidth} % Left side for details
+    \begin{tabbing}
+    \hspace{1.3in} \= \kill
+    {\bf Name:} \> {\bf Sheena Mae L. Simon} \\[5pt]
+    {\bf Date of Birth:} \> May 8, 2004 \\[5pt]
+    {\bf Place of Birth:} \> \parbox[t]{2.2in}{Portulin, Medina, Misamis Oriental} \\[5pt]
+    {\bf Home Address:} \> \parbox[t]{2.2in}{Purok - 1A, Portulin, Medina, Misamis Oriental} \\[5pt]
+    {\bf E-mail:} \> \texttt{sheenamaesimon08@gmail.com} \\
+    \end{tabbing}
+\end{minipage}
+\begin{minipage}[t]{0.25\textwidth} % Right side for the photo
+    \flushright
+    \includegraphics[width=1.2in, height=1.2in, keepaspectratio]{figures/esbiii.jpg}
+\end{minipage}
+
+\vspace{20pt}
 \noindent {\bf EDUCATIONAL BACKGROUND:}
 \vspace{5pt}
 
