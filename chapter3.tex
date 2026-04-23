@@ -796,10 +796,10 @@ This section presents the development of the mobile application that serves as t
 
 The application communicates with the embedded system and cloud database through wireless connectivity, ensuring synchronization and accurate data presentation.
 
-\subsubsection{Flutter Framework}
-Flutter was selected as the development framework for the mobile application due to its cross-platform capability, high performance, and rich user interface components. Flutter employs the Dart programming language, which is compiled directly into native machine code, allowing fast execution and smooth user interactions.
+\subsubsection{Quasar Framework}
+Quasar was selected as the development framework for the mobile application due to its cross-platform capability, high performance, and rich user interface components. Quasar employs the Vue.js programming language, which is compiled directly into native machine code, allowing fast execution and smooth user interactions.
 
-Using Flutter it will enable the developers to create a single codebase that can be deployed across multiple platforms. The framework’s extensive widget library facilitated the development of an intuitive and responsive user interface for displaying system data such as battery level, rental status, notifications, and user credits. 
+Using Quasar it will enable the developers to create a single codebase that can be deployed across multiple platforms. The framework’s extensive widget library facilitated the development of an intuitive and responsive user interface for displaying system data such as battery level, rental status, notifications, and user credits. 
 
 \subsubsection{Activity Diagram}
 \begin{figure}[H]
@@ -834,7 +834,7 @@ A MikroTik router is used as part of the network security layer to secure the lo
 	\centering
 	\caption{Welcome Page}
 	\label{fig:welcome}
-	\includegraphics[width=1\textwidth]{figures/welcome.png}
+	\includegraphics[width=1\textwidth]{figures/S1.png}
 \end{figure}
 
 The welcome interface presents the system logo and entry actions. The left panel shows a splash screen with a “Get Started” control; the right panel shows a gateway card offering Log In and Sign Up. This screen functions as the access point to the authentication flow.
@@ -843,7 +843,7 @@ The welcome interface presents the system logo and entry actions. The left panel
 	\centering
 	\caption{Sign In Page}
 	\label{fig:signin}
-	\includegraphics[width=0.7\textwidth]{figures/signin.png}
+	\includegraphics[width=0.7\textwidth]{figures/SE2.png}
 \end{figure}
 
 The sign-in interface collects the username and password with options to reveal the password and recover forgotten credentials. A primary Log In control initiates authentication for registered users. The design supports secure access to user functions.
@@ -852,7 +852,7 @@ The sign-in interface collects the username and password with options to reveal 
 	\centering
 	\caption{Sign Up Page}
 	\label{fig:signup}
-	\includegraphics[width=1\textwidth]{figures/signup.png}
+	\includegraphics[width=1\textwidth]{figures/SE3.png}
 \end{figure}
 
 Registration is implemented as a three-step process. Step 1 captures account credentials (username, email, phone number, password, and confirmation). Step 2 records profile and address data (sex, barangay, municipality, province, and birthdate). Step 3 presents a data-privacy notice and obtains consent to the Terms of Service and Privacy Policy before account creation.
@@ -861,7 +861,7 @@ Registration is implemented as a three-step process. Step 1 captures account cre
 	\centering
 	\caption{Home Page (Community Resident)}
 	\label{fig:user home}
-	\includegraphics[width=0.7\textwidth]{figures/home.png}
+	\includegraphics[width=0.7\textwidth]{figures/SE4.png}
 \end{figure}
 
 The user dashboard displays a greeting header with location metadata and a card showing the current points balance. A bottom navigation bar provides access to core modules (home, rewards, notifications, and account/tools). This screen serves as the primary hub for user activities.
@@ -870,7 +870,7 @@ The user dashboard displays a greeting header with location metadata and a card 
 	\centering
 	\caption{Renting Screen (Community Resident)}
 	\label{fig:renting}
-	\includegraphics[width=1\textwidth]{figures/renting.png}
+	\includegraphics[width=1\textwidth]{figures/SE5.png}
 \end{figure}
 
 The renting module allows search by Station ID and shows slot availability per station. Users select a slot and view its battery percentage with the corresponding price. Payment options include Pay via Points and Pay via Coin Slot, enabling transaction initiation.
