@@ -44,19 +44,19 @@
 	\pagenumbering{roman}
 	\setcounter{page}{1}
 	\input{titlepage}\newpage
-	%	\input{approval}\newpage
-	%	\input{abstract}\newpage
-	%	\input{dedication}\newpage
-	%	\input{acknowledgment}\newpage
+	\input{approval}\newpage
+	\input{abstract}\newpage
+	\input{dedication}\newpage
+	\input{acknowledgment}\newpage
 	\addcontentsline{toc}{chapter}{TABLE OF CONTENTS}
 	\tableofcontents\newpage
 	\addcontentsline{toc}{chapter}{LIST OF TABLES}
 	\listoftables \newpage
-	%\input{listofnotations}\newpage
+	\input{listofnotations}\newpage
 	\addcontentsline{toc}{chapter}{LIST OF FIGURES} 
 	\listoffigures\newpage
 	\listofmyequations \newpage
-	%\input{listofequations}\newpage
+	\input{listofequations}\newpage
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	% main matter
 	\pagenumbering{arabic}
@@ -70,6 +70,6 @@
 	% back matter
 	\include{appendix}
 	\include{bibliography}
-	%	\include{cv}
-	%	\include{caa}
+	\include{cv}
+	\include{caa}
 \end{document}
