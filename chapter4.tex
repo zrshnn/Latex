@@ -2,8 +2,267 @@
 %{\kill{\section{ffff}}}
 {\baselineskip=1.2\baselineskip
 
-This chapter presents the results and discussion of the testing and evaluation conducted on the developed Solar-Powered Rental Station with Detachable Power Sources. The findings are organized into three major components: system testing, mobile application testing, and hardware testing. System testing focuses on the overall functionality and integration of the system, including rental transactions, data processing, and communication between components. Mobile application testing evaluates the performance, usability, and responsiveness of the user interface, including account management, rental requests, and real-time monitoring features. Hardware testing examines the operation of key physical components.
+
+This chapter presents the results and discussion of the testing and evaluation conducted on the developed Solar-Powered Rental Station with Detachable Power Sources. The findings are organized into two major components: mobile application testing, and hardware testing. System testing focuses on the overall functionality and integration of the system, including rental transactions, data processing, and communication between components. Mobile application testing evaluates the performance, usability, and responsiveness of the user interface, including account management, rental requests, and real-time monitoring features. Hardware testing examines the operation of key physical components.
+
 
 The results obtained from these tests are analyzed in relation to the objectives of the study to determine the system’s effectiveness, reliability, and efficiency in providing a sustainable and accessible power solution. Furthermore, this chapter discusses the system’s strengths, identifies encountered issues, and highlights areas for improvement based on the observed performance during testing.
 
+
 }
+
+
+
+
+
+
+\section {Hardware Testing Results and Discussion}
+
+
+\subsection{Hardware Design}
+
+
+This section presents the actual hardware implementation of the detachable power source and the solar-powered rental station. It provides a clear representation of the system’s physical structure, dimensions, and component arrangement. The figures illustrate how the developed system is assembled and how each part is positioned, allowing a better understanding of the system’s real-world configuration and usability.
+
+
+\begin{figure}[H]
+    \centering
+    \caption{Detachable Power Source – Hardware Design (Front View) }
+    \label{fig:3d}
+    \includegraphics[width=1\textwidth]{figures/front.png}
+\end{figure}
+
+
+Figure 3.18 shows the actual front view of the detachable power source as implemented. The unit features a compact, box-type enclosure with a flat front panel designed for accessibility and ease of use. The front panel includes multiple AC outlets, USB charging ports, an indicator display for real-time status monitoring, and control buttons for power management. This is the actual interface encountered by users when renting and operating the unit.
+
+
+\begin{figure}[H]
+    \centering
+    \caption{Detachable Power Source – Hardware Design Dimensions (Aerial View)}
+    \label{fig:3d2}
+    \includegraphics[width=1\textwidth]{figures/aerial.png}
+\end{figure}
+
+
+Figure 3.19 presents the aerial view of the implemented detachable power source, showing its actual dimensions and layout. The unit measures approximately 10.04 inches in length, 7.20 inches in height, and 7.09 inches in width, based on the finalized build and component integration. A holder strap is installed at the top of the unit, enabling users to conveniently carry the power source from the rental station to their homes or nearby locations.
+
+
+\begin{figure}[H]
+    \centering
+    \caption{Solar-Powered Rental Station – Hardware Design Dimensions}
+    \label{fig:3d3}
+    \includegraphics[width=1\textwidth]{figures/rental.png}
+\end{figure}
+
+
+Figure 3.20 shows the actual solar-powered rental station as developed and tested. The station operates as a stationary solar-powered charging hub that houses three detachable power sources. It is equipped with a coin slot mechanism for user access, and each power unit is secured using a solenoid lock system. The station has overall dimensions of 59 inches in length, 30 inches in width, and 30 inches in height, based on the constructed prototype and actual component placement.
+
+
+\section {Mobile Application Testing Results}
+
+
+\subsection {Graphical User Interface Implementation}
+This section presents the graphical user interface (GUI) of the KuRyenta mobile application and administrative dashboard. The results show a fully functional interface capable of managing hardware-software interactions in real-time.
+
+
+\begin{figure}[H]
+\centering
+\caption{Welcome Page}
+\label{fig:welcome}
+\includegraphics[width=1\textwidth]{figures/S1.png}
+\end{figure}
+
+
+The welcome interface  provides an intuitive entry point for users. The welcome interface presents the system logo and entry actions. The left panel shows a splash screen with a “Get Started” control; the right panel shows a gateway card offering Log In and Sign Up. This screen functions as the access point to the authentication flow.
+ The successful implementation of the splash screen and the gateway card demonstrates a clear separation between branding and the functional authentication flow, facilitating ease of use for first-time community residents.
+
+
+ \begin{figure}[H]
+\centering
+\caption{Log In Page}
+\label{fig:signin}
+\includegraphics[width=0.7\textwidth]{figures/SA1.png}
+\end{figure}
+
+
+The Log In interface collects the username and password with options to reveal the password and recover forgotten credentials. A primary Log In control initiates authentication for registered users. The design supports secure access to user functions.
+
+
+\begin{figure}[H]
+\centering
+\caption{Sign Up Page}
+\label{fig:signup}
+\includegraphics[width=1\textwidth]{figures/SE3.png}
+\end{figure}
+
+
+Registration is implemented as a three-step process. Step 1 captures account credentials (username, email, phone number, password, and confirmation). Step 2 records profile and address data (sex, barangay, municipality, province, and birthdate). Step 3 presents a data-privacy notice and obtains consent to the Terms of Service and Privacy Policy before account creation.
+ The data privacy notice serves as a critical checkpoint for obtaining informed consent before account activation.
+
+
+\begin{figure}[H]
+\centering
+\caption{Home Page (Community Resident)}
+\label{fig:user home}
+\includegraphics[width=0.7\textwidth]{figures/SE4.png}
+\end{figure}
+
+
+The resident home dashboard effectively centralizes user data. The greeting header and location metadata provide immediate context, while the points balance card allows users to check their rental capability at a glance. Testing showed that the bottom navigation bar successfully provides persistent access to all core application modules.
+
+
+\begin{figure}[H]
+\centering
+\caption{Renting Screen (Community Resident)}
+\label{fig:renting}
+\includegraphics[width=1\textwidth]{figures/SE5.png}
+\end{figure}
+
+
+The renting module allows search by Station ID and shows slot availability per station. Users select a slot and view its battery percentage with the corresponding price. Payment options include Pay via Points and Pay via Coin Slot, enabling transaction initiation.
+
+
+\begin{figure}[H]
+\centering
+\caption{Pay via Coin Slot (Community Resident)}
+\label{fig:coin-slot}
+\includegraphics[width=1\textwidth]{figures/coin-slot.png}
+\end{figure}
+
+
+The Pay via Coin Slot interface enables users to initiate the rental of a detachable power source through a physical payment mechanism. After selecting a station and an available slot, the system displays the battery percentage and corresponding rental price. The user proceeds to the station and inserts coins into the coin slot, which is detected by the system and validated. Once sufficient payment is confirmed, the system activates the solenoid lock to release the selected power source. This functionality supports accessibility for users without digital payment methods and aligns with the system’s coin-operated rental mechanism.
+
+
+\begin{figure}[H]
+\centering
+\caption{Pay via Credit Points (Community Resident)}
+\label{fig:credit-points}
+\includegraphics[width=1\textwidth]{figures/credit-points.png}
+\end{figure}
+
+
+The Pay via Credit Points interface allows users to rent a detachable power source using stored digital credits within the mobile application. After selecting a station and slot, the system calculates the rental cost based on the battery percentage of the unit. The required amount is deducted from the user’s available credits upon confirmation. Once payment is successfully processed, the system authorizes the release of the power source. This feature provides a convenient, cashless alternative and supports the system’s credit-based transaction capability.
+
+
+\begin{figure}[H]
+\centering
+\caption{Alerts Page (Community Resident)}
+\label{fig:alerts}
+\includegraphics[width=1\textwidth]{figures/alert-new.png}
+\end{figure}
+
+
+The Alerts Page displays real-time notifications generated by the system into the app. These alerts inform users about important events such as successful rentals, failed transactions, notifications if a slot has been returned to the station, or nearing rental expiration. This functionality ensures that users remain informed about the status of their rented power source and encourages timely actions, such as returning the unit or conserving energy. It enhances user awareness, system reliability, and overall operational efficiency.
+
+
+\begin{figure}[H]
+\centering
+\caption{Profile Page (Community Resident)}
+\label{fig:profile}
+\includegraphics[width=1\textwidth]{figures/SE5.png}
+\end{figure}
+
+
+The Profile Page allows users to view and manage their personal account information within the system. It displays user details such as name, contact number, email, location, and available credit points. Users are also given the option to update their profile picture by clicking on the current image and retaking it. This feature supports user verification, account management, and transparency by providing access to essential personal and account-related information within the KuRyenta system.
+
+
+\begin{figure}[H]
+\centering
+\caption{Main Dashboard Page (Admin)}
+\label{fig:admin}
+\includegraphics[width=0.7\textwidth]{figures/admin-1.png}
+\end{figure}
+
+
+The Main Dashboard serves as the central control panel of the KuRyenta system. It provides users and administrators with a real-time overview of system operations, including available detachable power sources, current rentals, battery levels, and system status. For administrators, it displays key metrics such as total rentals, active users, and station performance. This feature enables efficient monitoring and quick decision-making by presenting summarized and updated system data in one interface.
+
+
+\begin{figure}[H]
+\centering
+\caption{Live Map Page (Admin)}
+\label{fig:admin2}
+\includegraphics[width=0.7\textwidth]{figures/admin-2.png}
+\end{figure}
+
+
+The Live Map functionality utilizes the integrated GPS and GSM modules to display the real-time location of rented detachable power sources. This feature allows both users and administrators to track the movement and current position of each unit. It enhances system security by preventing theft or misuse and ensures accountability of rented devices. Additionally, it supports operational monitoring by showing the distribution of power sources across different locations.
+
+
+\begin{figure}[H]
+\centering
+\caption{Active Rentals (Admin)}
+\label{fig:admin3}
+\includegraphics[width=0.7\textwidth]{figures/admin-3.png}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\caption{Active Rentals (Admin)}
+\label{fig:admin4}
+\includegraphics[width=0.7\textwidth]{figures/admin-4.png}
+\end{figure}
+
+
+The Active Rentals section shows all ongoing rental transactions within the system. It includes important details such as the user renting the phone numner, station location, slot number, battery percentage, elapsed time, remaining time, status and GPS information. This feature is essential for real-time monitoring, allowing administrators to track usage, detect overdue rentals, and ensure proper utilization of the available power units.
+
+
+\begin{figure}[H]
+\centering
+\caption{Rental History (Admin)}
+\label{fig:admin5}
+\includegraphics[width=0.7\textwidth]{figures/admin-5.png}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\caption{Rental History (Admin)}
+\label{fig:admin6}
+\includegraphics[width=0.7\textwidth]{figures/admin-6.png}
+\end{figure}
+
+
+The Rental History records all completed rental transactions. It stores data such as user information, rental duration, station and slot used, details of when it is rented and returned, and status. This functionality supports data analysis, reporting, and system evaluation. It allows administrators to review past rentals, identify usage patterns, and make informed decisions for system improvements and resource allocation.
+
+
+\begin{figure}[H]
+\centering
+\caption{User Management (Admin)}
+\label{fig:admin7}
+\includegraphics[width=0.7\textwidth]{figures/admin-7.png}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\caption{User Management (Admin)}
+\label{fig:admin8}
+\includegraphics[width=0.7\textwidth]{figures/admin-8.png}
+\end{figure}
+
+
+The User Management module is responsible for handling user accounts within the KuRyenta system. It allows administrators to see register users, user information, strikes made by the user, rental information, and actions that can be made to the users. This feature ensures secure access to the system and prevents unauthorized usage. It also supports the storage of user credits, which can be used for future rentals.
+
+
+\begin{figure}[H]
+\centering
+\caption{Stations (Admin)}
+\label{fig:admin9}
+\includegraphics[width=0.7\textwidth]{figures/admin-9.png}
+\end{figure}
+
+
+The Stations section manages the solar-powered rental stations deployed in the community. It provides information such as station location, number of available slots, battery availability, and user information in each slot rented. Administrators can monitor station performance, manage slot availability, and ensure proper operation of the solar-powered infrastructure, including energy harvesting and storage components.
+
+
+\begin{figure}[H]
+\centering
+\caption{SMS Logs (Admin)}
+\label{fig:admin10}
+\includegraphics[width=0.7\textwidth]{figures/admin-10.png}
+\end{figure}
+
+
+The SMS Logs functionality records all SMS communications sent through the GSM module. These include notifications such as rental confirmations, activation codes, overdue alerts, and return reminders. This feature ensures traceability of system communication, helps in troubleshooting notification issues, and verifies that users are properly informed throughout the rental process.
+
