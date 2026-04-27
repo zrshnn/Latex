@@ -1,148 +1,167 @@
 \chapter*{APPENDICES}
 \addcontentsline{toc}{chapter}{APPENDICES}
 
+
 \appendix
+
 
 % Appendix A on the same page
 {\centering
-	\textbf{Appendix A\\Step-by-Step Calculations}\par
-	\addcontentsline{toc}{chapter}{Appendix A: Step-by-Step Calculation}
+    \textbf{Appendix A\\Step-by-Step Calculations}\par
+    \addcontentsline{toc}{chapter}{Appendix A: Step-by-Step Calculation}
 }
+
 
 \section*{Detachable Power Source}
 The battery capacity for the detachable power source is calculated based on expected daily consumption and system voltage.  
 The battery capacity is calculated as:
 \begin{align*}
-	\text{Battery Capacity} &= \frac{\text{Total Daily Consumption}}{\text{System Voltage}} \\ 
-	&= \frac{500 \text{ Wh}}{12 \text{ V}} \\ 
-	&= 41.67 \text{ Ah} + 0.858 \text{ Ah} \\ 
-	\text{Battery Capacity} &\approx 43 \text{ Ah}
+    \text{Battery Capacity} &= \frac{\text{Total Daily Consumption}}{\text{System Voltage}} \\
+    &= \frac{500 \text{ Wh}}{12 \text{ V}} \\
+    &= 41.67 \text{ Ah} + 0.858 \text{ Ah} \\
+    \text{Battery Capacity} &\approx 43 \text{ Ah}
 \end{align*}
 \noindent{Use:} 50Ah \ce{LiFePO4} Battery
 
+
 \section*{Station}
 The station battery is sized to accommodate the detachable battery and additional reserve.  
-Let BCDPS = Battery Capacity of Detachable Power Source. 
+Let BCDPS = Battery Capacity of Detachable Power Source.
+
 
 The station battery is sized as:
-\begin{align*} 
-	\text{Battery Capacity} &= (\text{BCDPS} + 35\%) + 0.858\text{Ah} \\
-	&= 68.358\text{Ah} \\
-	\text{Battery Capacity} &\approx 70 \text{Ah}
+\begin{align*}
+    \text{Battery Capacity} &= (\text{BCDPS} + 35\%) + 0.858\text{Ah} \\
+    &= 68.358\text{Ah} \\
+    \text{Battery Capacity} &\approx 70 \text{Ah}
 \end{align*}
 \noindent{Use:} 70Ah \ce{LiFePO4} Battery.
+
 
 \section*{Panel Sizing}
 Solar panel power is calculated to meet the daily energy requirements within average peak sun hours.  
 \begin{align*}
-	\text{PV Power} &= \frac{\text{Total Daily Consumption}}{\text{Sun Peak Hours}} \\
-	&= \frac{500\text{Wh}}{3.5\text{h}} \\
-	&= 142.857\text{W} \\
-	\text{PV Power} &= 200\text{W}
+    \text{PV Power} &= \frac{\text{Total Daily Consumption}}{\text{Sun Peak Hours}} \\
+    &= \frac{500\text{Wh}}{3.5\text{h}} \\
+    &= 142.857\text{W} \\
+    \text{PV Power} &= 200\text{W}
 \end{align*}
 Use: 200W Solar Panel.
+
 
 \section*{Inverter Sizing}
 The inverter is sized to handle the system load with a safety margin.  
 \begin{align*}
-	\text{Inverter Size} &= 250W + 20\% \text{ allowance} \\
-	\text{Inverter Size} &= 300W
+    \text{Inverter Size} &= 250W + 20\% \text{ allowance} \\
+    \text{Inverter Size} &= 300W
 \end{align*}
 Use: 300W pure sine wave inverter.
+
 
 \section*{Solar Charge Controller Sizing}
 The charge controller current is selected based on PV array power and system voltage.  
 \begin{align*}
-	I_{cc} &= \frac{\text{Total PV Power}}{\text{System Voltage}} \\
-	&= \frac{200W}{12V} \\
-	&= 16.67A \\
-	I_{cc} &= 20A
+    I_{cc} &= \frac{\text{Total PV Power}}{\text{System Voltage}} \\
+    &= \frac{200W}{12V} \\
+    &= 16.67A \\
+    I_{cc} &= 20A
 \end{align*}
 Use: 1 pc — MPPT 12V or 24V Auto Adapt 20A.
+
 
 \section*{Breaker Sizing}
 Circuit breakers are sized to protect each part of the system.  
 \begin{enumerate}[label=\alph*.]
-	\item Panel - SCC
-	\begin{align*}
-		\text{Circuit Breaker} &= 11.85A \times \text{Over Radiance Factor} \times \text{Safety Factor} \\
-		&= 18.5A \\
-		\text{Circuit Breaker} &= 20A
-	\end{align*}
-	
-	\item SCC - Battery
-	\begin{align*}
-		\text{Circuit Breaker} &= \frac{\text{Total Array Wattage}}{\text{Battery Bank Nominal Voltage}} \times \text{Safety Factor} \\
-		&= \frac{200W}{12V} \times 1.25 \\
-		\text{Circuit Breaker} &=20.8A
-	\end{align*}
-	
-	\item Battery - Power Inverter
-	\begin{align*}
-		\text{Circuit Breaker} &= \frac{\text{Power Inverter}}{\text{Power Bank Nominal Voltage}} \\
-		&= \frac{1000W}{12V}\\
-		&= 83.33A\\
-		\text{Circuit Breaker} &= 80A
-	\end{align*}
-	
-	\item Inverter - Load (AC Breaker)\\
-	BBNV = Battery Bank Nominal Voltage
-	\begin{align*}
-		\text{Circuit Breaker} &= \frac{\text{Safety Load}}{\text{Inverter Voltage Output}} \times \text{BBNV} \\
-		&= \frac{700W}{220V} \times 1.25V \\
-		\text{Circuit Breaker} &= 3.98A
-	\end{align*}
+    \item Panel - SCC
+    \begin{align*}
+        \text{Circuit Breaker} &= 11.85A \times \text{Over Radiance Factor} \times \text{Safety Factor} \\
+        &= 18.5A \\
+        \text{Circuit Breaker} &= 20A
+    \end{align*}
+   
+    \item SCC - Battery
+    \begin{align*}
+        \text{Circuit Breaker} &= \frac{\text{Total Array Wattage}}{\text{Battery Bank Nominal Voltage}} \times \text{Safety Factor} \\
+        &= \frac{200W}{12V} \times 1.25 \\
+        \text{Circuit Breaker} &=20.8A
+    \end{align*}
+   
+    \item Battery - Power Inverter
+    \begin{align*}
+        \text{Circuit Breaker} &= \frac{\text{Power Inverter}}{\text{Power Bank Nominal Voltage}} \\
+        &= \frac{1000W}{12V}\\
+        &= 83.33A\\
+        \text{Circuit Breaker} &= 80A
+    \end{align*}
+   
+    \item Inverter - Load (AC Breaker)\\
+    BBNV = Battery Bank Nominal Voltage
+    \begin{align*}
+        \text{Circuit Breaker} &= \frac{\text{Safety Load}}{\text{Inverter Voltage Output}} \times \text{BBNV} \\
+        &= \frac{700W}{220V} \times 1.25V \\
+        \text{Circuit Breaker} &= 3.98A
+    \end{align*}
 \end{enumerate}
+
 
 \section*{Wire Sizing}
 Wire sizes are determined to handle current and limit voltage drop.  
 \begin{enumerate}[label=\alph*.]
-	\item Panel - SCC
-	\begin{align*}
-		\text{VDI} &= \frac{10.85 \times 12}{18.5 \times 2} \\
-		&= 3.53\\
-		\text{Wire Size} &= 10AWG
-	\end{align*}
-	\item SCC - Battery
-	\begin{align*}
-		\text{VDI} &= \frac{20 \times 4}{12.8 \times 2} \\
-		&= 3.125\\
-		\text{Wire Size} &= 10AWG
-	\end{align*}
+    \item Panel - SCC
+    \begin{align*}
+        \text{VDI} &= \frac{10.85 \times 12}{18.5 \times 2} \\
+        &= 3.53\\
+        \text{Wire Size} &= 10AWG
+    \end{align*}
+    \item SCC - Battery
+    \begin{align*}
+        \text{VDI} &= \frac{20 \times 4}{12.8 \times 2} \\
+        &= 3.125\\
+        \text{Wire Size} &= 10AWG
+    \end{align*}
 \end{enumerate}
+
 
 \section*{Calculation of Appliances Wattage Usage}
 
+
 This section presents the computation of power consumption for commonly used household and electronic appliances. The energy usage of each device is calculated using the formula:
 
+
 \begin{equation}
-	E = P \times t
+    E = P \times t
 \end{equation}
+
 
 where:
 \begin{itemize}
-	\item $E$ = Energy consumed 
-	\item $P$ = Power rating of the appliance 
-	\item $U$ = Usage time 
+    \item $E$ = Energy consumed
+    \item $P$ = Power rating of the appliance
+    \item $U$ = Usage time
 \end{itemize}
+
 
 The estimated usage time that a detachable power source can support for a specific appliance is computed using:
 
+
 \begin{equation}
-	U = \frac{bc}{P}
+    U = \frac{bc}{P}
 \end{equation}
+
 
 where:
 \begin{itemize}
-	\item $U$ = Estimated usage time 
-	\item $bc$ = Battery capacity 
-	\item $P$ = Power rating of the appliance
+    \item $U$ = Estimated usage time
+    \item $bc$ = Battery capacity
+    \item $P$ = Power rating of the appliance
 \end{itemize}
+
+
 
 
 \begin{table}[ht]
     \centering
-    \caption{Estimated Wattage Usage of Common Appliances} 
+    \caption{Estimated Wattage Usage of Common Appliances}
     \label{tab:appliance_wattage}
     \small % Slightly reduces font size to ensure it fits comfortably
     \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c c c c c @{}}
@@ -158,58 +177,80 @@ where:
     \end{tabular*}
 \end{table}
 
-Thus, Table~10 illustrates the frequently used and high-demand appliances that are safe to operate using the detachable power source because their power requirements do not exceed the inverter’s capacity.y. 
+
+Thus, Table~10 illustrates the frequently used and high-demand appliances that are safe to operate using the detachable power source because their power requirements do not exceed the inverter’s capacity.y.
+
+
 
 
 \newpage
+
 
 % APPENDIX B on a new page
 
+
 {\centering
-	\textbf{Appendix B\\Gantt Chart}\par
-	\addcontentsline{toc}{chapter}{Appendix B: Gantt Chart}
+    \textbf{Appendix B\\Gantt Chart}\par
+    \addcontentsline{toc}{chapter}{Appendix B: Gantt Chart}
 }
 
+
 \begin{figure}[H]
-	\centering
-	\caption{Gantt Chart}
-	\label{fig:gantt chart}
-	\includegraphics[width=1\textwidth]{figures/gantt-new.png}
+    \centering
+    \caption{Gantt Chart}
+    \label{fig:gantt chart}
+    \includegraphics[width=1\textwidth]{figures/gantt-new.png}
 \end{figure}
 
+
 \newpage
+
 
 % APPENDIX C on a new page
 
+
 {\centering
-	\textbf{Appendix C\\Source Code}\par
-	\addcontentsline{toc}{chapter}{Appendix C: Source Code}
+    \textbf{Appendix C\\Source Code}\par
+    \addcontentsline{toc}{chapter}{Appendix C: Source Code}
 }
+
 
 % Include source code files here (you can copy the content from your source code files as needed)
 
+
 % APPENDIX D on a new page
 
+
 \newpage
+
 
 {\centering
     \textbf{Appendix D\\Letter of Consent}\par
     \addcontentsline{toc}{chapter}{Appendix D: Letter of Consent}
 }
 
+
 \noindent April 8, 2026
+
 
 \noindent \textbf{COMMUNITY RESIDENTS} \\
 Resident, Tupsan, Mambajao, Camiguin
 
+
 \noindent Dear Participants:
 
+
 \vspace{1em}
+
 
 \noindent Warm greetings!
 
 
+
+
 \noindent The undersigned are Bachelor of Science in Computer Engineering students at the University of Science and Technology of Southern Philippines. We are currently conducting a research study to gather data and insights from residents regarding the occurrence of power interruptions and the need for alternative energy solutions. This study aims to support the development of a solar-powered portable power rental system designed to provide accessible and convenient electricity during outages in your area.
+
+
 
 
 \noindent In view thereof, we respectfully request your permission to conduct a short survey and interview with you. Rest assured that all information collected will be used strictly for academic purposes and within the scope of our research project. All data will be treated with utmost confidentiality in accordance with the Data Privacy Act of 2012 (R.A. 10173). Specifically, we commit to the following:
@@ -219,13 +260,18 @@ Resident, Tupsan, Mambajao, Camiguin
     \item Data will be securely stored and will only be accessible to authorized researchers.
 \end{enumerate}
 
+
 \noindent Your participation in this study is voluntary, and you may choose to withdraw at any time without any consequences. We sincerely appreciate your time, cooperation, and valuable insights. We are hoping for your kind approval.
 
+
 \vspace{.1em}
+
 
 \noindent Sincerely Yours,
 
+
 \vspace{.1em}
+
 
 \noindent
 \begin{minipage}[t]{0.5\textwidth}
@@ -239,7 +285,9 @@ Resident, Tupsan, Mambajao, Camiguin
     Research Member
 \end{minipage}
 
+
 \vspace{2em}
+
 
 \noindent
 \begin{minipage}[t]{0.5\textwidth}
@@ -253,18 +301,24 @@ Resident, Tupsan, Mambajao, Camiguin
     Research Member
 \end{minipage}
 
+
 \vspace{2em}
+
 
 \begin{center}
     \underline{\textbf{SHEENA MAE L. SIMON}} \\
     Research Member
 \end{center}
 
+
 \vspace{.1em}
+
 
 \noindent Noted by:
 
+
 \vspace{.1em}
+
 
 \noindent
 \begin{minipage}[t]{0.5\textwidth}
@@ -273,14 +327,17 @@ Resident, Tupsan, Mambajao, Camiguin
     Thesis Adviser
 \end{minipage}
 
+
 % APPENDIX E on a new page
 {\centering
-	\textbf{Appendix E\\Interview Conducted}\par
-	\addcontentsline{toc}{chapter}{Appendix E: Interview Conducted}
+    \textbf{Appendix E\\Interview Conducted}\par
+    \addcontentsline{toc}{chapter}{Appendix E: Interview Conducted}
 }
+
 
 \newpage
 \renewcommand{\arraystretch}{1.5}
+
 
 \begin{mdframed}[innerbottommargin=10pt, innertopmargin=0pt, innerleftmargin=0pt, innerrightmargin=0pt]
 \noindent
@@ -301,107 +358,142 @@ Resident, Tupsan, Mambajao, Camiguin
 \multicolumn{4}{| >{\hspace{10pt}}l |}{\textbf{Occupation:} Community Resident} \\ \hline
 \end{tabularx}
 
+
 \vspace{15pt}
 \hspace{15pt}\textbf{Interview Questions:}
 \vspace{5pt}
 
+
 \begin{enumerate}[label=\textbf{\arabic*.}, itemsep=1em, leftmargin=40pt]
-	
+   
 %1
 \item How often do power interruptions occur in your area?
 \\ \textit{Mga pila man ka higayon magka power interruptions sa inyong lugar?}
 \\ \uline{Mga 2-3 ka higayon kada semana.}
+
 
 %2
 \item On average, how long do power interruptions usually last?
 \\ \textit{Pila ka oras kasagara mo-dugay ang power interruptions?}
 \\ \uline{Kasagara mo-dugay ang power interruptions mga 2-4 ka oras pero usahay mas mo-dugay pa sya.}
 
+
 %3
-\item What alternative power sources do you usually rely on during power interruptions? 
+\item What alternative power sources do you usually rely on during power interruptions?
 \\ \textit{Unsa nga mga alternatibong power sources ang kasagara ninyo nga gagamiton o gasaligan sa panahon sa power interruptions?}
 \\ \uline{Kasagara nga gasaligan nako kung magka power interruptions kay ang power bank pero usahay dili ra enough ang charge na mahatag niya.}
+
 
 %4
 \item When it comes to using alternative power sources, how important are portability and convenience to you, and why?
 
+
 \textit{Kung mag gamit kag mga alternatibong power sources, unsa ka importante para sa imoha ang iyang portability og convenience niini? Og ngano?}
+
 
 \parbox{\linewidth}{\uline{Importante para sa ako ang portability og convenience sa mga alternatibong power sources kay kung magka power interruptions, gusto nako nga dali ra siya madala og magamit bisan asa ko mo-libotlibot sa balay.}}
 \vspace{0.5cm}
 
+
 %5
 \item Which appliances or devices do you consider most essential to power during interruptions?
 
+
 \textit{Para sa imo, unsa nga mga appliances og devices ang pinaka importante nga mapagana o moandar sa panahon nga naay power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Para sa akoa kay ang akong cellphone og electric fan ang pinaka importante nga mapagana kung magka power interruptions.}}
 \vspace{0.5cm}
 
 
+
+
 %6
 \item In what ways do power interruptions affect your daily activities or work?  
 
+
 \textit{Sa unsa nga pamaagi gaka-apektohan sa power interruptions ang imong adlaw-adlaw nga ginabuhat og imong trabaho?}
+
 
 \parbox{\linewidth}{\uline{Maglisod ko og pakig communicate sa laing tao og mas ma-dugay nako og human akong trabahoon unta.}}
 \vspace{0.5cm}
 
+
 %7
-\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?   
+\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?  
+
 
 \textit{Nakahibalo ba ka o gagamit ba ka og mga solar-based nga solutions? Kung oo, unsa man kini ug unsa kini ka epektibo?}
+
 
 \parbox{\linewidth}{\uline{Naka dungog nako og mga solar-based solutions pero wala pa nako na try og gamit.}}
 \vspace{0.5cm}
 
+
 %8
 \item Would you consider investing in installing solar panels in your household to solve the problem of power interruptions? Why or why not?    
 
+
 \textit{Para sa imo, mo-consider ba ka nga mag-invest og mag-install og mga solar panels sa inyong balay aron masulbad ang problema sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, mo-consider ko pero mahal pa kayo para sa akoa karon nga panahon.}}
 \vspace{0.5cm}
 
+
 %9
 \item Do you think having a solar power system available during power interruptions would be helpful? Why or why not?    
 
+
 \textit{Para sa imo, makatabang ba nga naay available nga solar power system sa panahon sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, makatabang jud kayo siya karon kay sige man jud og ka power interruptions diri sa amoa.}}
 \vspace{0.5cm}
 
+
 %10
-\item What additional features or services would you like, a solar power system to provide to make your experience more convenient? 
+\item What additional features or services would you like, a solar power system to provide to make your experience more convenient?
+
 
 \textit{Unsa pa nga mga dugang nga bahin o serbisyo ang gusto nimo nga mahatag sa solar power system aron mas mapaayo pa ang imong kasinatian o sitwasyon?}
+
 
 \parbox{\linewidth}{\uline{Chada unta og barato ra siya dali ra gamiton og dali ra pud siya madala.}}
 \vspace{0.5cm}
 
+
 %11
-\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions? 
+\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions?
+
 
 \textit{Aduna pa ba kay uban pang mga kabalaka, gusto nga e-sugggest, o mga kasinatian nga gusto nimo ipaambit o iistorya bahin sa power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Lisod jud kung mgaka-power interruptions kay inconvenient kaayo siya labi na o}}
 \vspace{0.5cm}
 
+
 \end{enumerate}
+
 
 \vspace{-10pt}
 % Instead of a table, we use a clear heading and let the list breathe
 \noindent \textbf{Documentation:}
 \hrulespace % Custom separator
 
+
 \end{mdframed}
+
 
 %==============================================
 %=============2ND RESPONDENT==============
 %==============================================
 
+
 \newpage
 \renewcommand{\arraystretch}{1.5}
+
 
 \begin{mdframed}[innerbottommargin=10pt, innertopmargin=0pt, innerleftmargin=0pt, innerrightmargin=0pt]
 \noindent
@@ -422,107 +514,143 @@ Resident, Tupsan, Mambajao, Camiguin
 \multicolumn{4}{| >{\hspace{10pt}}l |}{\textbf{Occupation:} Community Resident} \\ \hline
 \end{tabularx}
 
+
 \vspace{15pt}
 \hspace{15pt}\textbf{Interview Questions:}
 \vspace{5pt}
 
+
 \begin{enumerate}[label=\textbf{\arabic*.}, itemsep=1em, leftmargin=40pt]
+
 
 %1
 \item How often do power interruptions occur in your area?
 \\ \textit{Mga pila man ka higayon magka power interruptions sa inyong lugar?}
 \\ \uline{Halos kada semana, usahay kanang wala gi-announce daan.}
 
+
 %2
 \item On average, how long do power interruptions usually last?
 \\ \textit{Pila ka oras kasagara mo-dugay ang power interruptions?}
 \\ \uline{Kasagara mo-dugay ang power interruptions mga 3-5 ka oras.}
 
+
 %3
-\item What alternative power sources do you usually rely on during power interruptions? 
+\item What alternative power sources do you usually rely on during power interruptions?
 \\ \textit{Unsa nga mga alternatibong power sources ang kasagara ninyo nga gagamiton o gasaligan sa panahon sa power interruptions?}
 \\ \uline{Power bank rajud ang ang gaka-gamit nako usahay.}
+
 
 %4
 \item When it comes to using alternative power sources, how important are portability and convenience to you, and why?
 
+
 \textit{Kung mag gamit kag mga alternatibong power sources, unsa ka importante para sa imoha ang iyang portability og convenience niini? Og ngano?}
+
 
 \parbox{\linewidth}{\uline{Importante jud ang convenince kay dili ko ganahan nga maglisod ko og gamit sa mga butang-butang.}}
 \vspace{0.5cm}
 
+
 %5
 \item Which appliances or devices do you consider most essential to power during interruptions?
 
+
 \textit{Para sa imo, unsa nga mga appliances og devices ang pinaka importante nga mapagana o moandar sa panahon nga naay power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Suga jud og cellphone ang pinaka importante nga mapagana kung magka power interruptions.}}
 \vspace{0.5cm}
 
 
+
+
 %6
 \item In what ways do power interruptions affect your daily activities or work?  
 
+
 \textit{Sa unsa nga pamaagi gaka-apektohan sa power interruptions ang imong adlaw-adlaw nga ginabuhat og imong trabaho?}
+
 
 \parbox{\linewidth}{\uline{Ma-apektohan jud og ayo ang among trabaho kay naay parte sa trabaho na kailangan jud og kuryente.}}
 \vspace{0.5cm}
 
+
 %7
-\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?   
+\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?  
+
 
 \textit{Nakahibalo ba ka o gagamit ba ka og mga solar-based nga solutions? Kung oo, unsa man kini ug unsa kini ka epektibo?}
+
 
 \parbox{\linewidth}{\uline{Naka kita nako og mga solar panels pero wala pa ko ka gamit.}}
 \vspace{0.5cm}
 
+
 %8
 \item Would you consider investing in installing solar panels in your household to solve the problem of power interruptions? Why or why not?    
 
+
 \textit{Para sa imo, mo-consider ba ka nga mag-invest og mag-install og mga solar panels sa inyong balay aron masulbad ang problema sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, chada jud unta pero walay budget pa para ana karon.}}
 \vspace{0.5cm}
 
+
 %9
 \item Do you think having a solar power system available during power interruptions would be helpful? Why or why not?    
 
+
 \textit{Para sa imo, makatabang ba nga naay available nga solar power system sa panahon sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, labi na og barato ra og dali ra siya ma-access.}}
 \vspace{0.5cm}
 
+
 %10
-\item What additional features or services would you like, a solar power system to provide to make your experience more convenient? 
+\item What additional features or services would you like, a solar power system to provide to make your experience more convenient?
+
 
 \textit{Unsa pa nga mga dugang nga bahin o serbisyo ang gusto nimo nga mahatag sa solar power system aron mas mapaayo pa ang imong kasinatian o sitwasyon?}
+
 
 \parbox{\linewidth}{\uline{Chada unta og kanang marentahan lang para dili na nako kailangan paliton jud.}}
 \vspace{0.5cm}
 
+
 %11
-\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions? 
+\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions?
+
 
 \textit{Aduna pa ba kay uban pang mga kabalaka, gusto nga e-sugggest, o mga kasinatian nga gusto nimo ipaambit o iistorya bahin sa power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Lisod jud kung mgaka-power interruptions kay maka apekto jud siyas income og comfort sa balay.}}
 \vspace{0.5cm}
 
+
 \end{enumerate}
+
 
 \vspace{-10pt}
 % Instead of a table, we use a clear heading and let the list breathe
 \noindent \textbf{Documentation:}
 \hrulespace % Custom separator
 
+
 \end{mdframed}
+
 
 %==============================================
 %=============3RD RESPONDENT==============
 %==============================================
 
+
 \newpage
 \renewcommand{\arraystretch}{1.5}
+
 
 \begin{mdframed}[innerbottommargin=10pt, innertopmargin=0pt, innerleftmargin=0pt, innerrightmargin=0pt]
 \noindent
@@ -543,107 +671,143 @@ Resident, Tupsan, Mambajao, Camiguin
 \multicolumn{4}{| >{\hspace{10pt}}l |}{\textbf{Occupation:} Community Resident} \\ \hline
 \end{tabularx}
 
+
 \vspace{15pt}
 \hspace{15pt}\textbf{Interview Questions:}
 \vspace{5pt}
 
+
 \begin{enumerate}[label=\textbf{\arabic*.}, itemsep=1em, leftmargin=40pt]
+
 
 %1
 \item How often do power interruptions occur in your area?
 \\ \textit{Mga pila man ka higayon magka power interruptions sa inyong lugar?}
 \\ \uline{Permi jud magka power interruptions diri sa amoa, mga ika-duha sa usa ka semana guro.}
 
+
 %2
 \item On average, how long do power interruptions usually last?
 \\ \textit{Pila ka oras kasagara mo-dugay ang power interruptions?}
 \\ \uline{Kasagara mo-dugay ang power interruptions mga 2-3 ka oras.}
 
+
 %3
-\item What alternative power sources do you usually rely on during power interruptions? 
+\item What alternative power sources do you usually rely on during power interruptions?
 \\ \textit{Unsa nga mga alternatibong power sources ang kasagara ninyo nga gagamiton o gasaligan sa panahon sa power interruptions?}
 \\ \uline{Power bank rajud akong agka gamit.}
+
 
 %4
 \item When it comes to using alternative power sources, how important are portability and convenience to you, and why?
 
+
 \textit{Kung mag gamit kag mga alternatibong power sources, unsa ka importante para sa imoha ang iyang portability og convenience niini? Og ngano?}
+
 
 \parbox{\linewidth}{\uline{Importante jud kaayo ang portability og convenience kay kailangan nako kanang sayon ra dad-on.}}
 \vspace{0.5cm}
 
+
 %5
 \item Which appliances or devices do you consider most essential to power during interruptions?
 
+
 \textit{Para sa imo, unsa nga mga appliances og devices ang pinaka importante nga mapagana o moandar sa panahon nga naay power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Cellphone og modem sa kanag wifi jud importante.}}
 \vspace{0.5cm}
 
 
+
+
 %6
 \item In what ways do power interruptions affect your daily activities or work?  
 
+
 \textit{Sa unsa nga pamaagi gaka-apektohan sa power interruptions ang imong adlaw-adlaw nga ginabuhat og imong trabaho?}
+
 
 \parbox{\linewidth}{\uline{Dili nako ma-lihok akong mga online na trabaho.}}
 \vspace{0.5cm}
 
+
 %7
-\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?   
+\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?  
+
 
 \textit{Nakahibalo ba ka o gagamit ba ka og mga solar-based nga solutions? Kung oo, unsa man kini ug unsa kini ka epektibo?}
+
 
 \parbox{\linewidth}{\uline{Aware ko pero wala pa ko ka gamit.}}
 \vspace{0.5cm}
 
+
 %8
 \item Would you consider investing in installing solar panels in your household to solve the problem of power interruptions? Why or why not?    
 
+
 \textit{Para sa imo, mo-consider ba ka nga mag-invest og mag-install og mga solar panels sa inyong balay aron masulbad ang problema sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Dili sa karon kay mahal pa siya para sa akoa.}}
 \vspace{0.5cm}
 
+
 %9
 \item Do you think having a solar power system available during power interruptions would be helpful? Why or why not?    
 
+
 \textit{Para sa imo, makatabang ba nga naay available nga solar power system sa panahon sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, labi na og dali ra ma-access.}}
 \vspace{0.5cm}
 
+
 %10
-\item What additional features or services would you like, a solar power system to provide to make your experience more convenient? 
+\item What additional features or services would you like, a solar power system to provide to make your experience more convenient?
+
 
 \textit{Unsa pa nga mga dugang nga bahin o serbisyo ang gusto nimo nga mahatag sa solar power system aron mas mapaayo pa ang imong kasinatian o sitwasyon?}
+
 
 \parbox{\linewidth}{\uline{Chada unta og kanang dali ra mo-charge og portable ra siya.}}
 \vspace{0.5cm}
 
+
 %11
-\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions? 
+\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions?
+
 
 \textit{Aduna pa ba kay uban pang mga kabalaka, gusto nga e-sugggest, o mga kasinatian nga gusto nimo ipaambit o iistorya bahin sa power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Lisod jud kung mgaka-power interruptions kay lisod kaayo og walay internet.}}
 \vspace{0.5cm}
 
+
 \end{enumerate}
+
 
 \vspace{-10pt}
 % Instead of a table, we use a clear heading and let the list breathe
 \noindent \textbf{Documentation:}
 \hrulespace % Custom separator
 
+
 \end{mdframed}
+
 
 %==============================================
 %=============4TH RESPONDENT==============
 %==============================================
 
+
 \newpage
 \renewcommand{\arraystretch}{1.5}
+
 
 \begin{mdframed}[innerbottommargin=10pt, innertopmargin=0pt, innerleftmargin=0pt, innerrightmargin=0pt]
 \noindent
@@ -664,107 +828,143 @@ Resident, Tupsan, Mambajao, Camiguin
 \multicolumn{4}{| >{\hspace{10pt}}l |}{\textbf{Occupation:} Community Resident} \\ \hline
 \end{tabularx}
 
+
 \vspace{15pt}
 \hspace{15pt}\textbf{Interview Questions:}
 \vspace{5pt}
 
+
 \begin{enumerate}[label=\textbf{\arabic*.}, itemsep=1em, leftmargin=40pt]
+
 
 %1
 \item How often do power interruptions occur in your area?
 \\ \textit{Mga pila man ka higayon magka power interruptions sa inyong lugar?}
 \\ \uline{Mga ika isa o ilka duha sa usa ka semana.}
 
+
 %2
 \item On average, how long do power interruptions usually last?
 \\ \textit{Pila ka oras kasagara mo-dugay ang power interruptions?}
 \\ \uline{Kasagara mo-dugay ang power interruptions mga 4 ka oras.}
 
+
 %3
-\item What alternative power sources do you usually rely on during power interruptions? 
+\item What alternative power sources do you usually rely on during power interruptions?
 \\ \textit{Unsa nga mga alternatibong power sources ang kasagara ninyo nga gagamiton o gasaligan sa panahon sa power interruptions?}
 \\ \uline{Kuan kanang generator og power bank rajud kasagara nako nga gagamiton.}
+
 
 %4
 \item When it comes to using alternative power sources, how important are portability and convenience to you, and why?
 
+
 \textit{Kung mag gamit kag mga alternatibong power sources, unsa ka importante para sa imoha ang iyang portability og convenience niini? Og ngano?}
+
 
 \parbox{\linewidth}{\uline{Chada jud og convenient ra siya kay lisod majud gamiton ning generator.}}
 \vspace{0.5cm}
 
+
 %5
 \item Which appliances or devices do you consider most essential to power during interruptions?
 
+
 \textit{Para sa imo, unsa nga mga appliances og devices ang pinaka importante nga mapagana o moandar sa panahon nga naay power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Ref og mga suga.}}
 \vspace{0.5cm}
 
 
+
+
 %6
 \item In what ways do power interruptions affect your daily activities or work?  
 
+
 \textit{Sa unsa nga pamaagi gaka-apektohan sa power interruptions ang imong adlaw-adlaw nga ginabuhat og imong trabaho?}
+
 
 \parbox{\linewidth}{\uline{Dali ra ma-daot ang mga pagkaon sa ref og maglisod ko og trabaho kay online man.}}
 \vspace{0.5cm}
 
+
 %7
-\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?   
+\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?  
+
 
 \textit{Nakahibalo ba ka o gagamit ba ka og mga solar-based nga solutions? Kung oo, unsa man kini ug unsa kini ka epektibo?}
+
 
 \parbox{\linewidth}{\uline{Kita na pero wala pa kagamit.}}
 \vspace{0.5cm}
 
+
 %8
 \item Would you consider investing in installing solar panels in your household to solve the problem of power interruptions? Why or why not?    
 
+
 \textit{Para sa imo, mo-consider ba ka nga mag-invest og mag-install og mga solar panels sa inyong balay aron masulbad ang problema sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Siguro puhon kung makaya na siya sa budget.}}
 \vspace{0.5cm}
 
+
 %9
 \item Do you think having a solar power system available during power interruptions would be helpful? Why or why not?    
 
+
 \textit{Para sa imo, makatabang ba nga naay available nga solar power system sa panahon sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, makatabang jud na siya og ayo.}}
 \vspace{0.5cm}
 
+
 %10
-\item What additional features or services would you like, a solar power system to provide to make your experience more convenient? 
+\item What additional features or services would you like, a solar power system to provide to make your experience more convenient?
+
 
 \textit{Unsa pa nga mga dugang nga bahin o serbisyo ang gusto nimo nga mahatag sa solar power system aron mas mapaayo pa ang imong kasinatian o sitwasyon?}
+
 
 \parbox{\linewidth}{\uline{Dili unta dali ma-lowbatt ang battery.}}
 \vspace{0.5cm}
 
+
 %11
-\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions? 
+\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions?
+
 
 \textit{Aduna pa ba kay uban pang mga kabalaka, gusto nga e-sugggest, o mga kasinatian nga gusto nimo ipaambit o iistorya bahin sa power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Maka apekto jud siya sa pag store sa mga pagkaon.}}
 \vspace{0.5cm}
 
+
 \end{enumerate}
+
 
 \vspace{-10pt}
 % Instead of a table, we use a clear heading and let the list breathe
 \noindent \textbf{Documentation:}
 \hrulespace % Custom separator
 
+
 \end{mdframed}
+
 
 %==============================================
 %=============5TH RESPONDENT==============
 %==============================================
 
+
 \newpage
 \renewcommand{\arraystretch}{1.5}
+
 
 \begin{mdframed}[innerbottommargin=10pt, innertopmargin=0pt, innerleftmargin=0pt, innerrightmargin=0pt]
 \noindent
@@ -785,108 +985,145 @@ Resident, Tupsan, Mambajao, Camiguin
 \multicolumn{4}{| >{\hspace{10pt}}l |}{\textbf{Occupation:} Community Resident} \\ \hline
 \end{tabularx}
 
+
 \vspace{15pt}
 \hspace{15pt}\textbf{Interview Questions:}
 \vspace{5pt}
 
+
 \begin{enumerate}[label=\textbf{\arabic*.}, itemsep=1em, leftmargin=40pt]
+
 
 %1
 \item How often do power interruptions occur in your area?
 \\ \textit{Mga pila man ka higayon magka power interruptions sa inyong lugar?}
 \\ \uline{Permi jud, labi na og mag-ulan o lain ang panahon.}
 
+
 %2
 \item On average, how long do power interruptions usually last?
 \\ \textit{Pila ka oras kasagara mo-dugay ang power interruptions?}
 \\ \uline{Kasagara mo-dugay ang power interruptions mga 3-6 ka oras.}
 
+
 %3
-\item What alternative power sources do you usually rely on during power interruptions? 
+\item What alternative power sources do you usually rely on during power interruptions?
 \\ \textit{Unsa nga mga alternatibong power sources ang kasagara ninyo nga gagamiton o gasaligan sa panahon sa power interruptions?}
 \\ \uline{Usahay wala or power bank ra kung naa pa charge.}
+
 
 %4
 \item When it comes to using alternative power sources, how important are portability and convenience to you, and why?
 
+
 \textit{Kung mag gamit kag mga alternatibong power sources, unsa ka importante para sa imoha ang iyang portability og convenience niini? Og ngano?}
+
 
 \parbox{\linewidth}{\uline{Importante jud kaayo na kay chada jud nang dali ra ma-access.}}
 \vspace{0.5cm}
 
+
 %5
 \item Which appliances or devices do you consider most essential to power during interruptions?
 
+
 \textit{Para sa imo, unsa nga mga appliances og devices ang pinaka importante nga mapagana o moandar sa panahon nga naay power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Suga jud og cellphone ang kailangan jud kaayo.}}
 \vspace{0.5cm}
 
 
+
+
 %6
 \item In what ways do power interruptions affect your daily activities or work?  
 
+
 \textit{Sa unsa nga pamaagi gaka-apektohan sa power interruptions ang imong adlaw-adlaw nga ginabuhat og imong trabaho?}
+
 
 \parbox{\linewidth}{\uline{Hadlok siya og mag gabie na ke ngitngit man.}}
 \vspace{0.5cm}
 
+
 %7
-\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?   
+\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?  
+
 
 \textit{Nakahibalo ba ka o gagamit ba ka og mga solar-based nga solutions? Kung oo, unsa man kini ug unsa kini ka epektibo?}
+
 
 \parbox{\linewidth}{\uline{Wala raba.}}
 \vspace{0.5cm}
 
+
 %8
 \item Would you consider investing in installing solar panels in your household to solve the problem of power interruptions? Why or why not?    
 
+
 \textit{Para sa imo, mo-consider ba ka nga mag-invest og mag-install og mga solar panels sa inyong balay aron masulbad ang problema sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, kung naay barato lang na pilian.}}
 \vspace{0.5cm}
 
+
 %9
 \item Do you think having a solar power system available during power interruptions would be helpful? Why or why not?    
 
+
 \textit{Para sa imo, makatabang ba nga naay available nga solar power system sa panahon sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, makatabang jud na siya.}}
 \vspace{0.5cm}
 
+
 %10
-\item What additional features or services would you like, a solar power system to provide to make your experience more convenient? 
+\item What additional features or services would you like, a solar power system to provide to make your experience more convenient?
+
 
 \textit{Unsa pa nga mga dugang nga bahin o serbisyo ang gusto nimo nga mahatag sa solar power system aron mas mapaayo pa ang imong kasinatian o sitwasyon?}
+
 
 \parbox{\linewidth}{\uline{Kana untang dali ra pag magbayad na siya og dali ra pud siya ma-access.}}
 \vspace{0.5cm}
 
+
 %11
-\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions? 
+\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions?
+
 
 \textit{Aduna pa ba kay uban pang mga kabalaka, gusto nga e-sugggest, o mga kasinatian nga gusto nimo ipaambit o iistorya bahin sa power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Maka dugang og stress labaw na og naay emergency.}}
 \vspace{0.5cm}
 
+
 \end{enumerate}
+
 
 \vspace{-10pt}
 % Instead of a table, we use a clear heading and let the list breathe
 \noindent \textbf{Documentation:}
 \hrulespace % Custom separator
 
+
 \end{mdframed}
+
+
 
 
 %==============================================
 %=============6TH RESPONDENT==============
 %==============================================
 
+
 \newpage
 \renewcommand{\arraystretch}{1.5}
+
 
 \begin{mdframed}[innerbottommargin=10pt, innertopmargin=0pt, innerleftmargin=0pt, innerrightmargin=0pt]
 \noindent
@@ -907,107 +1144,143 @@ Resident, Tupsan, Mambajao, Camiguin
 \multicolumn{4}{| >{\hspace{10pt}}l |}{\textbf{Occupation:} Community Resident} \\ \hline
 \end{tabularx}
 
+
 \vspace{15pt}
 \hspace{15pt}\textbf{Interview Questions:}
 \vspace{5pt}
 
+
 \begin{enumerate}[label=\textbf{\arabic*.}, itemsep=1em, leftmargin=40pt]
+
 
 %1
 \item How often do power interruptions occur in your area?
 \\ \textit{Mga pila man ka higayon magka power interruptions sa inyong lugar?}
 \\ \uline{Mga ika duha siguro sa usa ka semana.}
 
+
 %2
 \item On average, how long do power interruptions usually last?
 \\ \textit{Pila ka oras kasagara mo-dugay ang power interruptions?}
 \\ \uline{Kasagara mo-dugay ang power interruptions mga 2-4 ka oras.}
 
+
 %3
-\item What alternative power sources do you usually rely on during power interruptions? 
+\item What alternative power sources do you usually rely on during power interruptions?
 \\ \textit{Unsa nga mga alternatibong power sources ang kasagara ninyo nga gagamiton o gasaligan sa panahon sa power interruptions?}
 \\ \uline{Power bank rajud.}
+
 
 %4
 \item When it comes to using alternative power sources, how important are portability and convenience to you, and why?
 
+
 \textit{Kung mag gamit kag mga alternatibong power sources, unsa ka importante para sa imoha ang iyang portability og convenience niini? Og ngano?}
+
 
 \parbox{\linewidth}{\uline{Importante kaayo labi na sa pang adlaw nako nga trabaho og lihokonon.}}
 \vspace{0.5cm}
 
+
 %5
 \item Which appliances or devices do you consider most essential to power during interruptions?
 
+
 \textit{Para sa imo, unsa nga mga appliances og devices ang pinaka importante nga mapagana o moandar sa panahon nga naay power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Cellphone og kanag electric fan.}}
 \vspace{0.5cm}
 
 
+
+
 %6
 \item In what ways do power interruptions affect your daily activities or work?  
 
+
 \textit{Sa unsa nga pamaagi gaka-apektohan sa power interruptions ang imong adlaw-adlaw nga ginabuhat og imong trabaho?}
+
 
 \parbox{\linewidth}{\uline{Ma-apektohan ang akong pagkatulog og comfort sa balay.}}
 \vspace{0.5cm}
 
+
 %7
-\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?   
+\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?  
+
 
 \textit{Nakahibalo ba ka o gagamit ba ka og mga solar-based nga solutions? Kung oo, unsa man kini ug unsa kini ka epektibo?}
+
 
 \parbox{\linewidth}{\uline{Kadungog nako ana pero wa pako ka gamit.}}
 \vspace{0.5cm}
 
+
 %8
 \item Would you consider investing in installing solar panels in your household to solve the problem of power interruptions? Why or why not?    
 
+
 \textit{Para sa imo, mo-consider ba ka nga mag-invest og mag-install og mga solar panels sa inyong balay aron masulbad ang problema sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Dili kay mahal ra siya para sa akoa.}}
 \vspace{0.5cm}
 
+
 %9
 \item Do you think having a solar power system available during power interruptions would be helpful? Why or why not?    
 
+
 \textit{Para sa imo, makatabang ba nga naay available nga solar power system sa panahon sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, labaw na kung gabie.}}
 \vspace{0.5cm}
 
+
 %10
-\item What additional features or services would you like, a solar power system to provide to make your experience more convenient? 
+\item What additional features or services would you like, a solar power system to provide to make your experience more convenient?
+
 
 \textit{Unsa pa nga mga dugang nga bahin o serbisyo ang gusto nimo nga mahatag sa solar power system aron mas mapaayo pa ang imong kasinatian o sitwasyon?}
+
 
 \parbox{\linewidth}{\uline{Chada unta og kanang madala-dala ra siya og kanang maka-charge ka.}}
 \vspace{0.5cm}
 
+
 %11
-\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions? 
+\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions?
+
 
 \textit{Aduna pa ba kay uban pang mga kabalaka, gusto nga e-sugggest, o mga kasinatian nga gusto nimo ipaambit o iistorya bahin sa power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Kapoy jud kung magka power interruptions kay init kaayo.}}
 \vspace{0.5cm}
 
+
 \end{enumerate}
+
 
 \vspace{-10pt}
 % Instead of a table, we use a clear heading and let the list breathe
 \noindent \textbf{Documentation:}
 \hrulespace % Custom separator
 
+
 \end{mdframed}
+
 
 %==============================================
 %=============7TH RESPONDENT==============
 %==============================================
 
+
 \newpage
 \renewcommand{\arraystretch}{1.5}
+
 
 \begin{mdframed}[innerbottommargin=10pt, innertopmargin=0pt, innerleftmargin=0pt, innerrightmargin=0pt]
 \noindent
@@ -1028,108 +1301,145 @@ Resident, Tupsan, Mambajao, Camiguin
 \multicolumn{4}{| >{\hspace{10pt}}l |}{\textbf{Occupation:} Community Resident} \\ \hline
 \end{tabularx}
 
+
 \vspace{15pt}
 \hspace{15pt}\textbf{Interview Questions:}
 \vspace{5pt}
 
+
 \begin{enumerate}[label=\textbf{\arabic*.}, itemsep=1em, leftmargin=40pt]
+
 
 %1
 \item How often do power interruptions occur in your area?
 \\ \textit{Mga pila man ka higayon magka power interruptions sa inyong lugar?}
 \\ \uline{Halos kada semana jud gakahitabo.}
 
+
 %2
 \item On average, how long do power interruptions usually last?
 \\ \textit{Pila ka oras kasagara mo-dugay ang power interruptions?}
 \\ \uline{Kasagara mo-dugay ang power interruptions mga 3 ka oras.}
 
+
 %3
-\item What alternative power sources do you usually rely on during power interruptions? 
+\item What alternative power sources do you usually rely on during power interruptions?
 \\ \textit{Unsa nga mga alternatibong power sources ang kasagara ninyo nga gagamiton o gasaligan sa panahon sa power interruptions?}
 \\ \uline{Power bank lang jud.}
+
 
 %4
 \item When it comes to using alternative power sources, how important are portability and convenience to you, and why?
 
+
 \textit{Kung mag gamit kag mga alternatibong power sources, unsa ka importante para sa imoha ang iyang portability og convenience niini? Og ngano?}
+
 
 \parbox{\linewidth}{\uline{Importante jud ang convenince kay para dili hassle.}}
 \vspace{0.5cm}
 
+
 %5
 \item Which appliances or devices do you consider most essential to power during interruptions?
 
+
 \textit{Para sa imo, unsa nga mga appliances og devices ang pinaka importante nga mapagana o moandar sa panahon nga naay power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Suga jud og electric fan.}}
 \vspace{0.5cm}
 
 
+
+
 %6
 \item In what ways do power interruptions affect your daily activities or work?  
 
+
 \textit{Sa unsa nga pamaagi gaka-apektohan sa power interruptions ang imong adlaw-adlaw nga ginabuhat og imong trabaho?}
+
 
 \parbox{\linewidth}{\uline{Lisod sa trabaho og kung magpahulay pud kay init.}}
 \vspace{0.5cm}
 
+
 %7
-\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?   
+\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?  
+
 
 \textit{Nakahibalo ba ka o gagamit ba ka og mga solar-based nga solutions? Kung oo, unsa man kini ug unsa kini ka epektibo?}
+
 
 \parbox{\linewidth}{\uline{Wapako ka gamit sa mga solar man.}}
 \vspace{0.5cm}
 
+
 %8
 \item Would you consider investing in installing solar panels in your household to solve the problem of power interruptions? Why or why not?    
 
+
 \textit{Para sa imo, mo-consider ba ka nga mag-invest og mag-install og mga solar panels sa inyong balay aron masulbad ang problema sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo siguro kung naay mga installment nga available.}}
 \vspace{0.5cm}
 
+
 %9
 \item Do you think having a solar power system available during power interruptions would be helpful? Why or why not?    
 
+
 \textit{Para sa imo, makatabang ba nga naay available nga solar power system sa panahon sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, makatabang jud na siyas kada balay dri.}}
 \vspace{0.5cm}
 
+
 %10
-\item What additional features or services would you like, a solar power system to provide to make your experience more convenient? 
+\item What additional features or services would you like, a solar power system to provide to make your experience more convenient?
+
 
 \textit{Unsa pa nga mga dugang nga bahin o serbisyo ang gusto nimo nga mahatag sa solar power system aron mas mapaayo pa ang imong kasinatian o sitwasyon?}
+
 
 \parbox{\linewidth}{\uline{Chada unta og kanang barato lang jud siya og kanang ma-rentahan bitaw.}}
 \vspace{0.5cm}
 
+
 %11
-\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions? 
+\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions?
+
 
 \textit{Aduna pa ba kay uban pang mga kabalaka, gusto nga e-sugggest, o mga kasinatian nga gusto nimo ipaambit o iistorya bahin sa power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Saba ang kanang mga generator kay makasamok jud siya labi na kung mag gabie na.}}
 \vspace{0.5cm}
 
+
 \end{enumerate}
+
 
 \vspace{-10pt}
 % Instead of a table, we use a clear heading and let the list breathe
 \noindent \textbf{Documentation:}
 \hrulespace % Custom separator
 
+
 \end{mdframed}
+
+
 
 
 %==============================================
 %=============8TH RESPONDENT==============
 %==============================================
 
+
 \newpage
 \renewcommand{\arraystretch}{1.5}
+
 
 \begin{mdframed}[innerbottommargin=10pt, innertopmargin=0pt, innerleftmargin=0pt, innerrightmargin=0pt]
 \noindent
@@ -1150,108 +1460,145 @@ Resident, Tupsan, Mambajao, Camiguin
 \multicolumn{4}{| >{\hspace{10pt}}l |}{\textbf{Occupation:} Community Resident} \\ \hline
 \end{tabularx}
 
+
 \vspace{15pt}
 \hspace{15pt}\textbf{Interview Questions:}
 \vspace{5pt}
 
+
 \begin{enumerate}[label=\textbf{\arabic*.}, itemsep=1em, leftmargin=40pt]
+
 
 %1
 \item How often do power interruptions occur in your area?
 \\ \textit{Mga pila man ka higayon magka power interruptions sa inyong lugar?}
 \\ \uline{Halos kada semana jud na.}
 
+
 %2
 \item On average, how long do power interruptions usually last?
 \\ \textit{Pila ka oras kasagara mo-dugay ang power interruptions?}
 \\ \uline{Kasagara mo-dugay ang power interruptions mga 2-5 ka oras.}
 
+
 %3
-\item What alternative power sources do you usually rely on during power interruptions? 
+\item What alternative power sources do you usually rely on during power interruptions?
 \\ \textit{Unsa nga mga alternatibong power sources ang kasagara ninyo nga gagamiton o gasaligan sa panahon sa power interruptions?}
 \\ \uline{Power bank ra.}
+
 
 %4
 \item When it comes to using alternative power sources, how important are portability and convenience to you, and why?
 
+
 \textit{Kung mag gamit kag mga alternatibong power sources, unsa ka importante para sa imoha ang iyang portability og convenience niini? Og ngano?}
+
 
 \parbox{\linewidth}{\uline{Importante jud kanang ma dala-dala ra bisan asa.}}
 \vspace{0.5cm}
 
+
 %5
 \item Which appliances or devices do you consider most essential to power during interruptions?
 
+
 \textit{Para sa imo, unsa nga mga appliances og devices ang pinaka importante nga mapagana o moandar sa panahon nga naay power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Cellphone og mga emergency nga suga.}}
 \vspace{0.5cm}
 
 
+
+
 %6
 \item In what ways do power interruptions affect your daily activities or work?  
 
+
 \textit{Sa unsa nga pamaagi gaka-apektohan sa power interruptions ang imong adlaw-adlaw nga ginabuhat og imong trabaho?}
+
 
 \parbox{\linewidth}{\uline{Lisod og contact sa mga tao labaw nas pamilya sa layo.}}
 \vspace{0.5cm}
 
+
 %7
-\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?   
+\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?  
+
 
 \textit{Nakahibalo ba ka o gagamit ba ka og mga solar-based nga solutions? Kung oo, unsa man kini ug unsa kini ka epektibo?}
+
 
 \parbox{\linewidth}{\uline{Wa pako ka gamit anang solar man.}}
 \vspace{0.5cm}
 
+
 %8
 \item Would you consider investing in installing solar panels in your household to solve the problem of power interruptions? Why or why not?    
 
+
 \textit{Para sa imo, mo-consider ba ka nga mag-invest og mag-install og mga solar panels sa inyong balay aron masulbad ang problema sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Mahal ra kayo para ipa install.}}
 \vspace{0.5cm}
 
+
 %9
 \item Do you think having a solar power system available during power interruptions would be helpful? Why or why not?    
 
+
 \textit{Para sa imo, makatabang ba nga naay available nga solar power system sa panahon sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, labaw na para dali ra maka istorya sa mga tao.}}
 \vspace{0.5cm}
 
+
 %10
-\item What additional features or services would you like, a solar power system to provide to make your experience more convenient? 
+\item What additional features or services would you like, a solar power system to provide to make your experience more convenient?
+
 
 \textit{Unsa pa nga mga dugang nga bahin o serbisyo ang gusto nimo nga mahatag sa solar power system aron mas mapaayo pa ang imong kasinatian o sitwasyon?}
+
 
 \parbox{\linewidth}{\uline{Chada unta og taas ang oras nga pag gamit ana.}}
 \vspace{0.5cm}
 
+
 %11
-\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions? 
+\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions?
+
 
 \textit{Aduna pa ba kay uban pang mga kabalaka, gusto nga e-sugggest, o mga kasinatian nga gusto nimo ipaambit o iistorya bahin sa power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Lisod jud labaw na og naay mga emergency.}}
 \vspace{0.5cm}
 
+
 \end{enumerate}
+
 
 \vspace{-10pt}
 % Instead of a table, we use a clear heading and let the list breathe
 \noindent \textbf{Documentation:}
 \hrulespace % Custom separator
 
+
 \end{mdframed}
+
+
 
 
 %==============================================
 %=============9TH RESPONDENT==============
 %==============================================
 
+
 \newpage
 \renewcommand{\arraystretch}{1.5}
+
 
 \begin{mdframed}[innerbottommargin=10pt, innertopmargin=0pt, innerleftmargin=0pt, innerrightmargin=0pt]
 \noindent
@@ -1272,107 +1619,143 @@ Resident, Tupsan, Mambajao, Camiguin
 \multicolumn{4}{| >{\hspace{10pt}}l |}{\textbf{Occupation:} Community Resident} \\ \hline
 \end{tabularx}
 
+
 \vspace{15pt}
 \hspace{15pt}\textbf{Interview Questions:}
 \vspace{5pt}
 
+
 \begin{enumerate}[label=\textbf{\arabic*.}, itemsep=1em, leftmargin=40pt]
+
 
 %1
 \item How often do power interruptions occur in your area?
 \\ \textit{Mga pila man ka higayon magka power interruptions sa inyong lugar?}
 \\ \uline{Permi jud na mahitabo kada semana.}
 
+
 %2
 \item On average, how long do power interruptions usually last?
 \\ \textit{Pila ka oras kasagara mo-dugay ang power interruptions?}
 \\ \uline{Kasagara mo-dugay ang power interruptions mga 4-6 ka oras.}
 
+
 %3
-\item What alternative power sources do you usually rely on during power interruptions? 
+\item What alternative power sources do you usually rely on during power interruptions?
 \\ \textit{Unsa nga mga alternatibong power sources ang kasagara ninyo nga gagamiton o gasaligan sa panahon sa power interruptions?}
 \\ \uline{Wala, hulat lang jud mobalik ang kuryente.}
+
 
 %4
 \item When it comes to using alternative power sources, how important are portability and convenience to you, and why?
 
+
 \textit{Kung mag gamit kag mga alternatibong power sources, unsa ka importante para sa imoha ang iyang portability og convenience niini? Og ngano?}
+
 
 \parbox{\linewidth}{\uline{Importante jud ang convenince og kanang dili lisod gamiton og e-maintain bitaw.}}
 \vspace{0.5cm}
 
+
 %5
 \item Which appliances or devices do you consider most essential to power during interruptions?
 
+
 \textit{Para sa imo, unsa nga mga appliances og devices ang pinaka importante nga mapagana o moandar sa panahon nga naay power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Ref ra og electiric fan.}}
 \vspace{0.5cm}
 
 
+
+
 %6
 \item In what ways do power interruptions affect your daily activities or work?  
 
+
 \textit{Sa unsa nga pamaagi gaka-apektohan sa power interruptions ang imong adlaw-adlaw nga ginabuhat og imong trabaho?}
+
 
 \parbox{\linewidth}{\uline{Ma-apektohan jud ang trabaho og ang pag store sa mga pagkaon.}}
 \vspace{0.5cm}
 
+
 %7
-\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?   
+\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?  
+
 
 \textit{Nakahibalo ba ka o gagamit ba ka og mga solar-based nga solutions? Kung oo, unsa man kini ug unsa kini ka epektibo?}
+
 
 \parbox{\linewidth}{\uline{Kabalo nako ana pero wa pako ka gamit.}}
 \vspace{0.5cm}
 
+
 %8
 \item Would you consider investing in installing solar panels in your household to solve the problem of power interruptions? Why or why not?    
 
+
 \textit{Para sa imo, mo-consider ba ka nga mag-invest og mag-install og mga solar panels sa inyong balay aron masulbad ang problema sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, pero mahal jud kaayo naa ang inanha.}}
 \vspace{0.5cm}
 
+
 %9
 \item Do you think having a solar power system available during power interruptions would be helpful? Why or why not?    
 
+
 \textit{Para sa imo, makatabang ba nga naay available nga solar power system sa panahon sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, makatabang jud na.}}
 \vspace{0.5cm}
 
+
 %10
-\item What additional features or services would you like, a solar power system to provide to make your experience more convenient? 
+\item What additional features or services would you like, a solar power system to provide to make your experience more convenient?
+
 
 \textit{Unsa pa nga mga dugang nga bahin o serbisyo ang gusto nimo nga mahatag sa solar power system aron mas mapaayo pa ang imong kasinatian o sitwasyon?}
+
 
 \parbox{\linewidth}{\uline{Chada unta nang masaligan jud og dili delikado gamiton.}}
 \vspace{0.5cm}
 
+
 %11
-\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions? 
+\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions?
+
 
 \textit{Aduna pa ba kay uban pang mga kabalaka, gusto nga e-sugggest, o mga kasinatian nga gusto nimo ipaambit o iistorya bahin sa power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Lisod jud kay init kaayo og madaot og dali ang mga pagkaon.}}
 \vspace{0.5cm}
 
+
 \end{enumerate}
+
 
 \vspace{-10pt}
 % Instead of a table, we use a clear heading and let the list breathe
 \noindent \textbf{Documentation:}
 \hrulespace % Custom separator
 
+
 \end{mdframed}
+
 
 %==============================================
 %=============10TH RESPONDENT==============
 %==============================================
 
+
 \newpage
 \renewcommand{\arraystretch}{1.5}
+
 
 \begin{mdframed}[innerbottommargin=10pt, innertopmargin=0pt, innerleftmargin=0pt, innerrightmargin=0pt]
 \noindent
@@ -1393,187 +1776,257 @@ Resident, Tupsan, Mambajao, Camiguin
 \multicolumn{4}{| >{\hspace{10pt}}l |}{\textbf{Occupation:} Community Resident} \\ \hline
 \end{tabularx}
 
+
 \vspace{15pt}
 \hspace{15pt}\textbf{Interview Questions:}
 \vspace{5pt}
 
+
 \begin{enumerate}[label=\textbf{\arabic*.}, itemsep=1em, leftmargin=40pt]
 
-	%1
+
+    %1
 \item How often do power interruptions occur in your area?
 \\ \textit{Mga pila man ka higayon magka power interruptions sa inyong lugar?}
 \\ \uline{Permi jud na mahitabo kada semana.}
+
 
 %2
 \item On average, how long do power interruptions usually last?
 \\ \textit{Pila ka oras kasagara mo-dugay ang power interruptions?}
 \\ \uline{Kasagara mo-dugay ang power interruptions mga 3 ka oras.}
 
+
 %3
-\item What alternative power sources do you usually rely on during power interruptions? 
+\item What alternative power sources do you usually rely on during power interruptions?
 \\ \textit{Unsa nga mga alternatibong power sources ang kasagara ninyo nga gagamiton o gasaligan sa panahon sa power interruptions?}
 \\ \uline{Usually kay wala jud.}
+
 
 %4
 \item When it comes to using alternative power sources, how important are portability and convenience to you, and why?
 
+
 \textit{Kung mag gamit kag mga alternatibong power sources, unsa ka importante para sa imoha ang iyang portability og convenience niini? Og ngano?}
+
 
 \parbox{\linewidth}{\uline{Importante jud ang convenince kay para magamit jud sa pang adlaw-adlaw.}}
 \vspace{0.5cm}
 
+
 %5
 \item Which appliances or devices do you consider most essential to power during interruptions?
 
+
 \textit{Para sa imo, unsa nga mga appliances og devices ang pinaka importante nga mapagana o moandar sa panahon nga naay power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Suga jud og cellphone.}}
 \vspace{0.5cm}
 
 
+
+
 %6
 \item In what ways do power interruptions affect your daily activities or work?  
 
+
 \textit{Sa unsa nga pamaagi gaka-apektohan sa power interruptions ang imong adlaw-adlaw nga ginabuhat og imong trabaho?}
+
 
 \parbox{\linewidth}{\uline{Ma-apektohan jud akong routine kada-adlaw.}}
 \vspace{0.5cm}
 
+
 %7
-\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?   
+\item Are you aware of or currently using any solar-based solutions? If yes, what are they, and how effective are they?  
+
 
 \textit{Nakahibalo ba ka o gagamit ba ka og mga solar-based nga solutions? Kung oo, unsa man kini ug unsa kini ka epektibo?}
+
 
 \parbox{\linewidth}{\uline{Wa pako ka try anang solar.}}
 \vspace{0.5cm}
 
+
 %8
 \item Would you consider investing in installing solar panels in your household to solve the problem of power interruptions? Why or why not?    
 
+
 \textit{Para sa imo, mo-consider ba ka nga mag-invest og mag-install og mga solar panels sa inyong balay aron masulbad ang problema sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, e-consider jud na nako kung barato ra.}}
 \vspace{0.5cm}
 
+
 %9
 \item Do you think having a solar power system available during power interruptions would be helpful? Why or why not?    
 
+
 \textit{Para sa imo, makatabang ba nga naay available nga solar power system sa panahon sa power interruptions? Ngano og nganong dili man?}
+
 
 \parbox{\linewidth}{\uline{Oo, labaw na sa kinahanglan kada adlaw.}}
 \vspace{0.5cm}
 
+
 %10
-\item What additional features or services would you like, a solar power system to provide to make your experience more convenient? 
+\item What additional features or services would you like, a solar power system to provide to make your experience more convenient?
+
 
 \textit{Unsa pa nga mga dugang nga bahin o serbisyo ang gusto nimo nga mahatag sa solar power system aron mas mapaayo pa ang imong kasinatian o sitwasyon?}
+
 
 \parbox{\linewidth}{\uline{Chada unta kanang dali ra ma access bitaw.}}
 \vspace{0.5cm}
 
+
 %11
-\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions? 
+\item Are there any other concerns, suggestions, or experiences you would like to share regarding power interruptions?
+
 
 \textit{Aduna pa ba kay uban pang mga kabalaka, gusto nga e-sugggest, o mga kasinatian nga gusto nimo ipaambit o iistorya bahin sa power interruptions?}
+
 
 \parbox{\linewidth}{\uline{Maka apekto jud sa productivity nako ana na adlaw.}}
 \vspace{0.5cm}
 
+
 \end{enumerate}
+
 
 \vspace{-10pt}
 % Instead of a table, we use a clear heading and let the list breathe
 \noindent \textbf{Documentation:}
 \hrulespace % Custom separator
 
+
 \end{mdframed}
+
 
 % APPENDIX F on a new page
 
+
 \newpage
 
+
 {\centering
-	\textbf{Appendix F\\Documentation}\par
-	\addcontentsline{toc}{chapter}{Appendix F: Documentation}
+    \textbf{Appendix F\\Documentation}\par
+    \addcontentsline{toc}{chapter}{Appendix F: Documentation}
 }
+
+
+
 
 
 
 % Include documentation here
 
+
 % APPENDIX G on a new page
+
 
 \newpage
 
+
 {\centering
-	\textbf{Appendix G\\Functional Test Form}\par
-	\addcontentsline{toc}{chapter}{Appendix G: Functional Test Form}
+    \textbf{Appendix G\\Functional Test Form}\par
+    \addcontentsline{toc}{chapter}{Appendix G: Functional Test Form}
 }
+
 
 % Include functional test form here (e.g., user manual, installation guide)
 
+
 % APPENDIX H  on a new page
+
 
 \newpage
 
+
 {\centering
-	\textbf{Appendix H\\System Usability Test Form}\par
-	\addcontentsline{toc}{chapter}{Appendix H: System Usability Test Form}
+    \textbf{Appendix H\\System Usability Test Form}\par
+    \addcontentsline{toc}{chapter}{Appendix H: System Usability Test Form}
 }
+
 
 % Include system usability test form here
 
+
 % APPENDIX I on a new page
+
 
 \newpage
 
+
 {\centering
-	\textbf{Appendix I\\Nomination of Members for Oral Examination Panel Form}\par
-	\addcontentsline{toc}{chapter}{Appendix I: Nomination of Members for Oral Examination Panel Form}
+    \textbf{Appendix I\\Nomination of Members for Oral Examination Panel Form}\par
+    \addcontentsline{toc}{chapter}{Appendix I: Nomination of Members for Oral Examination Panel Form}
 }
+
 
 % Include nomination of panel members here
 
+
 % APPENDIX J on a new page
+
 
 \newpage
 
+
 {\centering
-	\textbf{Appendix J\\Approved Application for Oral defense forms (for Concept, Proposal, Final)}\par
-	\addcontentsline{toc}{chapter}{Appendix J: Approved Application for Oral Defense Forms}
+    \textbf{Appendix J\\Approved Application for Oral defense forms (for Concept, Proposal, Final)}\par
+    \addcontentsline{toc}{chapter}{Appendix J: Approved Application for Oral Defense Forms}
 }
+
 
 % Include approved application forms here
 
+
 % APPENDIX K on a new page
+
 
 \newpage
 
+
 {\centering
-	\textbf{Appendix K\\Revision Matrix}\par
-	\addcontentsline{toc}{chapter}{Appendix K: Revision Matrix}
+    \textbf{Appendix K\\Revision Matrix}\par
+    \addcontentsline{toc}{chapter}{Appendix K: Revision Matrix}
 }
+
 
 % Include revision matrix here
 
+
 % APPENDIX L on a new page
+
 
 \newpage
 
+
 {\centering
-	\textbf{Appendix L\\Plagiarism Test}\par
-	\addcontentsline{toc}{chapter}{Appendix L: Plagiarism Test Results}
+    \textbf{Appendix L\\Plagiarism Test}\par
+    \addcontentsline{toc}{chapter}{Appendix L: Plagiarism Test Results}
 }
+
 
 % Include Plagiarism test results here
 
+
 % APPENDIX M on a new page
+
 
 \newpage
 
+
 {\centering
-	\textbf{Appendix M\\Proofreading Certificate and Report of Rating}\par
-	\addcontentsline{toc}{chapter}{Appendix M: Proofreading Certificate and Report of Rating}
+    \textbf{Appendix M\\Proofreading Certificate and Report of Rating}\par
+    \addcontentsline{toc}{chapter}{Appendix M: Proofreading Certificate and Report of Rating}
 }
 
+
 % Include proofreading certificate here
+
+
+
