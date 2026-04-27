@@ -27,35 +27,49 @@ This section presents the actual hardware implementation of the detachable power
 
 \begin{figure}[H]
     \centering
-    \caption{Detachable Power Source – Hardware Design (Front View) }
+    \caption{Solar-Powered Rental Station – Overall Structural Design (Front View)}
     \label{fig:3d}
-    \includegraphics[width=1\textwidth]{figures/front.png}
+    \includegraphics[width=1\textwidth]{figures/station1.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Solar-Powered Rental Station – Overall Structural Design (Perspective View)}
+    \label{fig:3d}
+    \includegraphics[width=1\textwidth]{figures/station2.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Solar-Powered Rental Station – Charging Compartment for Detachable Power Source (Close-Up Front View)}
+    \label{fig:3d}
+    \includegraphics[width=1\textwidth]{figures/station3.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Solar-Powered Rental Station – Charging Compartment for Detachable Power Source (Close-Up Perspective View)}
+    \label{fig:3d}
+    \includegraphics[width=1\textwidth]{figures/station4.png}
 \end{figure}
 
 
-Figure 3.18 shows the actual front view of the detachable power source as implemented. The unit features a compact, box-type enclosure with a flat front panel designed for accessibility and ease of use. The front panel includes multiple AC outlets, USB charging ports, an indicator display for real-time status monitoring, and control buttons for power management. This is the actual interface encountered by users when renting and operating the unit.
+The solar-powered rental station is designed as a freestanding, roofed structure that integrates energy generation, storage, and user interaction in a single unit. It features a dual-sloped roof fitted with photovoltaic panels to maximize solar energy harvesting, which is then stored in internal LiFePO4 batteries and converted into usable AC power through an inverter. The overall structure stands approximately 7 to 8 feet tall, supported by vertical posts that elevate the main enclosure for protection and accessibility. 
+
+The central cabinet, measuring about 89 cm in width and 61 cm in height, houses essential components such as the ESP32 microcontroller, coin-slot mechanism, solenoid locking system, and monitoring interfaces. This enclosure also contains designated compartments for securely storing detachable power units, which are released only after successful payment verification. The design ensures durability, weather resistance, and efficient system integration, making it suitable for deployment in community areas experiencing frequent power interruptions.
 
 
 \begin{figure}[H]
     \centering
-    \caption{Detachable Power Source – Hardware Design Dimensions (Aerial View)}
+    \caption{Detachable Power Source – Hardware Design Dimensions (Front View)}
     \label{fig:3d2}
-    \includegraphics[width=1\textwidth]{figures/aerial.png}
+    \includegraphics[width=1\textwidth]{figures/portable1.png}
 \end{figure}
 
 
-Figure 3.19 presents the aerial view of the implemented detachable power source, showing its actual dimensions and layout. The unit measures approximately 10.04 inches in length, 7.20 inches in height, and 7.09 inches in width, based on the finalized build and component integration. A holder strap is installed at the top of the unit, enabling users to conveniently carry the power source from the rental station to their homes or nearby locations.
+The portable power source is a compact, detachable unit designed to provide temporary and mobile electricity for users. With approximate dimensions of 30 cm in width and 33 cm in height, the device is structured for easy handling while maintaining sufficient capacity to power small-to-medium appliances. Its front panel includes an LCD display for monitoring battery status, indicator lights, control buttons, and multiple AC output ports for device connectivity. 
 
-
-\begin{figure}[H]
-    \centering
-    \caption{Solar-Powered Rental Station – Hardware Design Dimensions}
-    \label{fig:3d3}
-    \includegraphics[width=1\textwidth]{figures/rental.png}
-\end{figure}
-
-
-Figure 3.20 shows the actual solar-powered rental station as developed and tested. The station operates as a stationary solar-powered charging hub that houses three detachable power sources. It is equipped with a coin slot mechanism for user access, and each power unit is secured using a solenoid lock system. The station has overall dimensions of 59 inches in length, 30 inches in width, and 30 inches in height, based on the constructed prototype and actual component placement.
+Internally, the unit contains a LiFePO4 battery, inverter, and battery management system, enabling safe energy storage and DC-to-AC conversion. A GPS and GSM module, typically positioned at the top section, allows real-time tracking and communication with the system for security and monitoring purposes. As part of the rental system, this portable unit serves as the user’s primary power supply during outages and is designed to be returned after use, with remaining battery capacity contributing to user credit within the mobile application.
 
 
 \section {Mobile Application Testing Results}
@@ -266,3 +280,994 @@ The Stations section manages the solar-powered rental stations deployed in the c
 
 The SMS Logs functionality records all SMS communications sent through the GSM module. These include notifications such as rental confirmations, activation codes, overdue alerts, and return reminders. This feature ensures traceability of system communication, helps in troubleshooting notification issues, and verifies that users are properly informed throughout the rental process.
 
+
+\subsection {Black Box Testing}
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & User Onboarding Navigation & \textbf{Test Case ID} & TC-01 \\ \hline
+
+\textbf{Test Case Description} & Verify that the ``Get Started'' button correctly redirects the user to the Authentication Interface & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is installed and launched on the mobile device & \textbf{Post-Requisite} & User is presented with Log In and Sign Up options \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Launch the Mobile Application & None & Application opens to the Welcome Screen & Application opened the Welcome Screen successfully & \\ \hline
+
+2 & Click the Get Started button & Touch Gesture & The system should redirect the user to the Authentication Interface & The Authentication Interface loaded successfully, displaying ``Log In'' and ``Sign Up'' options & \\ \hline
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========2nd===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Navigation to User Registration & \textbf{Test Case ID} & TC-02 \\ \hline
+
+\textbf{Test Case Description} & Verify that the “Sign Up” button correctly redirects the user to the Sign Up Screen & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Application is on the Authentication Interface (result of TC-01) & \textbf{Post-Requisite} & Sign Up form is active and ready for data entry. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Tap the Sign Up button on the Authentication Interface  & Touch Gesture & The application should navigate to the Sign Up screen & Sign Up Screen loaded successfully & \\ \hline
+
+2 & Verify the presence of registration fields & None & All required user personal information fields (e.g., Name, Email Address, Password) should be visible & The page displayed all the required personal information for user registration. & \\ \hline
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========3rd===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & User Account Registration (Sign Up) & \textbf{Test Case ID} & TC-03 \\ \hline
+
+\textbf{Test Case Description} & Verify that a new user can successfully create an account by providing their complete and valid registration data  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Primary Sign Up Screeen & \textbf{Post-Requisite} & A new user record is created in the database, and the user is redirected to the Login Screen \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Enter account credentials and contact details  & First Name: “Sheena”
+Last Name: “Smion”
+Phone Number: +63 “9362762948”
+Email Address: “simonsheena58@gmail.com" 
+Password: “nanan_58”
+Confirm Password: “nanan_58”
+ & The fields should accept valid data and mask the password characters & Data was accepted, and the password was correctly masked & \\ \hline
+
+2 & Tap the “Proceed” button & Touch Gesture & The application should validate the first set of data and navigate to the second Sign Up Screen & The application successfully redirected to the second Sign Up Screen & \\ \hline
+
+3 & Enter demographic, birthdate, and location details & Sex: “Female”
+Birthdate: “08/05/2004”
+Province: “Camiguin”
+Municipal/City: “Mambajao”
+Barangay: “Tupsan”
+ & The system should allow selection/entry of personal and location data & All demographic, birthdate, and location inputs were recorded successfully  & \\ \hline
+
+4 & Click the “Create Account” button & Touch Gesture & The system should display a success message and redirect the user to the Log In Screen & Message: “Account Created Successfully! Please Log In.” displayed; redirected to Log In Screen & \\ \hline
+
+\end{tabularx}}
+
+\vspace{1em}
+%========4th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & User Account Authentication & \textbf{Test Case ID} & \\ \hline
+
+\textbf{Test Case Description} & Verify that a registered user can successfully log in and access the Home Screen using valid credentials.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The application is on the “Log In” screen; a valid user record exists in the Firebase database (Refer to TC-03) \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Entering the registered Email Address and Password & Email Address: “simonsheena58@gmail.com" 
+Password: “nanan_58”
+ & The input fields should accept and display the credentials correctly. & The credentials are displayed in the input fields &\\ \hline
+
+2 & Verify the presence of input fields & None & System should redirect the user to the Home Screen & The Home Screen loaded successfully, displaying the main  & \\ \hline
+
+\end{tabularx}}
+
+\vspace{1em}
+
+%========5th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Negative Log In Testing - Missing Password & \textbf{Test Case ID} & TC-04 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system prevents login and displays an error message when the password field is left blank  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains on the Log In Screen with the error message visible \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Entering the registered Email Address & Email Address: “simonsheena58@gmail.com" 
+ & The email address field accepts the input & Email Address entered successfully &\\ \hline
+
+2 & Leave the Password field empty & Password: (empty) & No characters should be present in the password field & The password field remained empty  & \\ \hline
+
+3 & Tap the Log In button & Touch Gesture & The system shouldn’t accept the attempt and display an error message:  “Please enter your password”. & The error message  “Please enter your password” was displayed  & \\ \hline
+
+\end{tabularx}}
+
+\vspace{1em}
+%========6th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Negative Log In Testing - Incorrect Password & \textbf{Test Case ID} & TC-05 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system denies access and displays an error message when an incorrect password is provided for a registered email  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains unauthenticated on the Log In Screen  \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Enter a valid registered email address & Email Address: “simonsheena58@gmail.com" 
+ & The email address field accepts the input & Email entered successfully &\\ \hline
+
+2 & Enter an incorrect password & Password: “nanan” & The password field masks the input & Password entered and masked  & \\ \hline
+
+3 & Tap the Log In button & Touch Gesture & The system should display a message: “Invalid email or password.” & The error message  “Invalid email or password” was displayed as expected  & \\ \hline
+
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========7th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Input Validation and Authentication Error Handling & \textbf{Test Case ID} & TC-06 \\ \hline
+
+\textbf{Test Case Description} & Verify the system's ability to identify malformed email strings and reject incorrect credential inputs  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains unauthenticated on the Log In Screen   \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Enter an incorrectly formatted email and a correct password. & Email Address: “simonsheena58gmail.com" 
+Password: “nanan_58”
+ & The system should detect the missing "@" and display an error message: "Invalid email address." & The error message "Invalid email address" was displayed. &\\ \hline
+
+2 & Enter a correctly formatted email, but an incorrect password. & Email Address: “simonsheena58@gmail.com" 
+Password: “nanan”
+ & The system should deny access and display an error message: "Invalid email or password". & The error message "Invalid email or password" was displayed.  & \\ \hline
+
+\end{tabularx}}
+
+\vspace{1em}
+%========8th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Negative Log In Testing - Missing Email Address & \textbf{Test Case ID} & TC-07 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system prevents login and displays an error message when the email address field is left blank  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains on the Log In Screen with the error message visible \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Leave the Email Address field empty & Email Address: “empty.”
+ & No characters should be present in the email address field & The email address field remained empty &\\ \hline
+
+2 & Entering the registered password & Password: “nanan_58”
+ & The password field accepts the input & Password entered and masked successfully  & \\ \hline
+
+3 & Tap the Log In button & Touch Gesture
+ & The system shouldn’t accept the attempt and display an error message:  “Please enter your email”. & The error message  “Please enter your email” was displayed & \\ \hline
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========9th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Eye Icon Functionality - Password Visibility Toggle & \textbf{Test Case ID} & TC-09 \\ \hline
+
+\textbf{Test Case Description} & Verify that the password visibility toggle (eye icon) accurately switches between masked characters and plain text.  & \textbf{Test Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & The user has entered a string of characters into the password field. & \textbf{Post-Requisite} & The password remains in the user's preferred visibility state. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Enter characters into the password field. & Password: “nanan_58”
+ & The input should be masked (e.g., asterisks) by default. & Input was masked by default. &\\ \hline
+
+2 & Tap the Eye Icon (Visibility Toggle). & Touch Gesture
+ & The masked password should transition to plain text visibility. & The password became visible as plain text. & \\ \hline
+
+3 & Tap the Eye Icon again & Touch Gesture
+ & The plain text password should return to a masked state. & The password was successfully hidden/masked. & \\ \hline
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========10th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Successful User Authentication and Redirection & \textbf{Test Case ID} & TC-10 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system authenticates a user with valid credentials and successfully redirects them to the application's Home Screen.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & A registered account exists with the provided credentials; the app is on the Log In screen. & \textbf{Post-Requisite} & The user session is established, and the Home Page interface is fully loaded. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Enter a valid registered email address and password & Email Address: “simonsheena58@gmail.com" 
+Password: “nanan_58”
+ & The field accepts and displays the email. The password field masks the input characters. & Email address entered successfully. Password entered and masked. &\\ \hline
+
+2 & Tap the Log In button. & Touch Gesture
+ & The system validates the credentials and redirects the user. & The system authenticated the user and redirected to the Home Screen. & \\ \hline
+
+3 & Verify the Home Screen content. & None
+ & The Home Screen should display the main dashboard  & The Home Screen loaded successfully as expected. & \\ \hline
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========11th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Hardware Permission Handling - Camera Access Denial & \textbf{Test Case ID} & TC-11 \\ \hline
+
+\textbf{Test Case Description} & Verify that the application correctly handles the denial of camera permissions and provides an informative message to the user.  & \textbf{Test Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & The application is at a stage requiring camera access (e.g., Profile Photo Upload). & \textbf{Post-Requisite} & Camera functionality remains disabled, and the user is prompted with an explanation. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Trigger a feature requiring the camera (e.g., Update Profile Photo). & Touch Gesture
+ & The system's native permission dialog should appear. & The system permission dialog was triggered. &\\ \hline
+
+2 & Select the "Don't Allow" or "Never Allow" option. & Button Click
+ & The application should intercept the denial and display a justification message. & The application detected the denial of permission. & \\ \hline
+
+3 & Observe the application's feedback message. & None
+ & An error message: "Could not access camera. Please allow camera permission" should be displayed.  & The error message was displayed as expected, and the feature was disabled. & \\ \hline
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========12th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Hardware Permission Integration - Profile Photo Capture & \textbf{Test Case ID} & TC-12 \\ \hline
+
+\textbf{Test Case Description} & Verify that the application successfully accesses the camera and saves a captured image to the user profile once permission is granted.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the "Edit Profile" screen; camera permission has not been granted previously and is now being allowed. & \textbf{Post-Requisite} & The user's profile is updated with the new image in the database. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Trigger the camera function to update the profile picture. & Touch Gesture
+ & The system's native permission dialog should appear. & Permission dialog appeared. &\\ \hline
+
+2 & Select the "Allow" or "While Using the App" option. & Button Click
+ & The camera interface should launch successfully. & The camera viewfinder opened without error. & \\ \hline
+
+3 & Capture a photo and confirm the selection. & “Tap to Capture” button
+ & The image should be processed and displayed as the new profile picture.  & The photo was captured and successfully displayed on the profile. & \\ \hline
+
+4 & Save the profile changes. & None
+ & The system should confirm that the profile information and photo were automatically saved.  & Edited personal information and the new profile photo were automatically saved successfully. & \\ \hline
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========13th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Image Re-capture and Facial Detection Verification & \textbf{Test Case ID} & TC-13 \\ \hline
+
+\textbf{Test Case Description} & Verify that the application’s facial detection guide functions correctly during a photo retake and that the resulting image is successfully uploaded to storage.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Camera permission has been granted; user is on the "Edit Profile" or "Camera" interface. & \textbf{Post-Requisite} & The existing profile photo is overwritten by the new image in the cloud storage/database. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Initiate the "Retake” Profile Photo action & Touch Gesture
+ & The camera interface should open with a circular guide and the message "Position your face inside the circle". & The camera interface and circular guide loaded with the prompt "Waiting for face". &\\ \hline
+
+2 & Align face within the designated circular guide. & Physical Alignment
+ & The system should detect the face and change the status/button to "Tap to capture". & Face was detected; the "Tap to capture" button became active. & \\ \hline
+
+3 & Click the capture button to retake the photo. & Touch Gesture
+ & The photo should be captured, and an "Uploading" status should be displayed.  & The "Uploading" message appeared immediately after capture. & \\ \hline
+
+4 & Observe the finalization of the upload. & None
+ & The image should be successfully saved to storage and update the UI.  & The photo was captured and successfully uploaded to storage. & \\ \hline
+
+\end{tabularx}}
+
+\vspace{1em}
+%========14th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-14 \\ \hline
+
+\textbf{Test Case Description} & Verify station identification and real-time slot availability.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User is authenticated and on the Home Screen. & \textbf{Post-Requisite} & Slot Availability Tab is populated with data. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Enter the Station ID in the search bar & Enter Station ID (e.g. 0001): “0002”
+ & System accepts the Station ID and initiates a loading state. & Station ID was accepted; "Loading Station" message appeared. &\\ \hline
+
+2 & Observe the Slot Availability Tab. & None
+ & The tab should load a list of available slots to be rented. & Slot Availability Tab loaded with current available slots as expected. & \\ \hline
+
+\end{tabularx}}
+
+\vspace{1em}
+%========15th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-15 \\ \hline
+
+\textbf{Test Case Description} & Verify station identification and real-time slot availability.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Verify selection of available slots and view details of the Portable Power Source (Battery Percentage, Price, and Return Period) & \textbf{Post-Requisite} & User is on the specific Slot Detail view. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Select an available (unrented) slot. & Touch Gesture
+ & Navigate to the details tab for the selected slot. & Successfully navigated to the selected slot's detail tab. &\\ \hline
+
+2 & Review Portable Power Source Details & None
+ & Display Battery Percentage, Unit Price, and Return Period. & Details (Battery \%, Price, Period) were displayed accurately. & \\ \hline
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========16th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-16 \\ \hline
+
+\textbf{Test Case Description} & Verify the cancellation of a slot selection before confirming a rental.  & \textbf{Test Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & User is on the Slot Detail view (result of TC-16). & \textbf{Post-Requisite} & User returns to the general Slot Availability list. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Click the “X” Cancel button. & Touch Gesture
+ & The system should terminate the selection and return to the previous screen. & The application returned to the Slot Availability Tab successfully. &\\ \hline
+
+2 & Verify list state. & None
+ & The list of available slots should be visible and refreshed. & Slot Availability Tab list reloaded and showed all available slots. & \\ \hline
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========17th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Client Payment Selection and Hardware Initialization & \textbf{Test Case ID} & TC-17 \\ \hline
+
+\textbf{Test Case Description} & Verify the initialization of the physical coin slot for coin payments.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User has selected an available slot and reached the payment selection view. & \textbf{Post-Requisite} & Hardware is prepared to receive physical currency. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Select the coin payment option. & Click “Pay via Coin Slot” button
+ & A “Preparing Coin Slot” tab should appear with a 30-second timeout message. & The “Preparing Coin Slot” tab appeared and initialized successfully. &\\ \hline
+
+\end{tabularx}}
+
+\vspace{1em}
+%========18th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Client Payment Selection (Credit Points) & \textbf{Test Case ID} & TC-18 \\ \hline
+
+\textbf{Test Case Description} & Verify the system's ability to initialize the rental process using virtual credit points.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User has sufficient credit points (e.g., P10000) and is on the payment screen. & \textbf{Post-Requisite} & The system prepares the specific slot for unlocking. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Select the credit payment option. & Tap “Pay via Credit Points (P10000 available).”
+ & A “Preparing Slot” tab should appear, indicating the station is unlocking the slot. & The “Preparing Slot” tab loaded successfully as expected. &\\ \hline
+
+\end{tabularx}}
+
+\vspace{1em}
+%========19th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Cash Payment Processing and Notification & \textbf{Test Case ID} & TC-19 \\ \hline
+
+\textbf{Test Case Description} & Verify the real-time coin counting logic, timer reset functionality, and successful payment notification.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The system is in the “Waiting for Coins” state with an active countdown timer. & \textbf{Post-Requisite} & Payment is recorded, the session is finalized, and the user is notified \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Insert physical coins into the station. & Physical Currency
+ & The display should update the total in real-time. The countdown timer should reset to its initial value upon each insertion. & Each coin was detected; the total updated correctly, and the timer successfully reset on each insertion &\\ \hline
+
+2 & Finalize the transaction & Click the “Done Paying” button
+ & The system should validate the total amount and trigger a "Payment Successful. You rented slot1" notification on the Alerts Screen. & Transaction was validated; "Payment Successful. You rented slot1" notification appeared on the Alerts Screen. &\\ \hline
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========20th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Credit Point Transaction and Notification & \textbf{Test Case ID} & TC-20 \\ \hline
+
+\textbf{Test Case Description} & Verify the deduction of points and successful rental activation via virtual credits.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & System displays the “Price” and “Your Points” comparison view. & \textbf{Post-Requisite} & Credits are deducted, and the successful payment alert is triggered. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Confirm the credit transaction. & Click the “Confirm Payment” button
+ & The system should validate sufficient points and process the deduction. & Point validation and deduction were processed successfully. &\\ \hline
+
+2 & Verify the alert notification. & None
+ & A "Payment Successful. You rented slot1" notification should be visible on the Alerts Screen. & Transaction was validated; "Payment Successful. You rented slot1" notification appeared on the Alerts Screen. &\\ \hline
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========21st===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Notification Navigation & \textbf{Test Case ID} & TC-21 \\ \hline
+
+\textbf{Test Case Description} & Verify that the user can navigate to the Alerts Screen.  & \textbf{Test Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & The user is logged in and on any main screen with the bottom navigation bar. & \textbf{Post-Requisite} & The Alerts Screen is active and displays a list of system notifications. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Click the “Bell” icon in the bottom navigation bar. & Touch Gesture
+ & The system should redirect the user to the Alerts Screen. & The user was successfully redirected to the Alerts Screen. &\\ \hline
+
+2 & Verify the list of notifications. & None
+ & Logged alerts (e.g., "Payment successful! You rented slot1", “Successfully Returned slot1”, “Failed Transaction”) should be visible. & Recent transaction and return alerts were displayed as expected. &\\ \hline
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========22nd===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Notification Management & \textbf{Test Case ID} & TC-22 \\ \hline
+
+\textbf{Test Case Description} & Verify the functionality of deleting individual alerts and clearing the entire notification log.  & \textbf{Test Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & The user is on the Alerts Screen and at least one notification exists. & \textbf{Post-Requisite} & The selected notifications are permanently removed from the Alerts Screen \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Click the “Trash Icon”  next to a specific alert. & Touch Gesture
+ & The specific notification (e.g., "Failed Transaction") should be removed. & The selected alert was successfully deleted from the list. &\\ \hline
+
+2 & Tap the "Clear All" button. & Touch Gesture
+ & All notifications in the list should be cleared simultaneously. & All alerts were removed; the screen displayed an empty state. &\\ \hline
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========23rd===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Notification Management & \textbf{Test Case ID} & TC-23 \\ \hline
+
+\textbf{Test Case Description} & Verify the loading of user-specific data on the Profile edit screen.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User is logged in and on the Home Screen & \textbf{Post-Requisite} & Profile Screen is active with all editable fields populated. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Tap the “Profile Icon” in the navigation bar. & Touch Gesture
+ & Profile Screen should display Full Name, Email Address, Phone Number, Sex, Birthdate, Location, and Photo & Profile Screen loaded successfully with all user data &\\ \hline
+
+2 & Tap the "Clear All" button. & Touch Gesture
+ & All notifications in the list should be cleared simultaneously. & All alerts were removed; the screen displayed an empty state. &\\ \hline
+
+\end{tabularx}}
+
+\vspace{1em}
+%========24th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Profile Photo Hardware Trigger & \textbf{Test Case ID} & TC-24 \\ \hline
+
+\textbf{Test Case Description} & Verify the activation of the camera interface via the profile photo placeholder.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User is on the Profile Page. & \textbf{Post-Requisite} & Camera viewfinder is active with face recognition overlays. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Tap the profile photo placeholder. & Touch Gesture
+ & The system should launch the camera and display the face detection guide. & The "Take Profile Photo" dialog opened with the circular face recognition guide. &\\ \hline
+
+\end{tabularx}}
+
+
+\vspace{1em}
+%========25th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Profile Edit Cancellation & \textbf{Test Case ID} & TC-25 \\ \hline
+
+\textbf{Test Case Description} & Verify that changes are discarded and the user is redirected when clicking "X"  & \textbf{Test Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & User is in the Profile Edit mode or Camera mode. & \textbf{Post-Requisite} & User returns to the previous screen; no data is modified in the database. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Tap the "X" (Close) button & Touch Gesture
+ & User should be redirected to the previous screen with no changes saved. & Redirected successfully; original profile data remained unchanged. &\\ \hline
+
+\end{tabularx}}
+
+\vspace{1em}
+%========26th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Facial Detection and Image Upload & \textbf{Test Case ID} & TC-26 \\ \hline
+
+\textbf{Test Case Description} & Verify the facial detection logic, image capture, and cloud storage upload.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Camera interface is active (TC-24) & \textbf{Post-Requisite} & New image is saved to storage and updated on the profile. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Align face within the circular guide. & Physical Alignment
+ & System should display "Looking for face" then "Waiting for face" until detected. & Messages appeared as expected; face was successfully detected. &\\ \hline
+
+2 & Capture and upload the photo. & Tap "Capture Photo"
+ & An "Uploading" status should appear; the image should save to storage. & "Uploading" message appeared; photo was captured and saved to storage. &\\ \hline
+
+\end{tabularx}}
+
+\vspace{1em}
+%========27th===========
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\hline
+\textbf{Test Scenario} & Facial Detection and Image Upload & \textbf{Test Case ID} & TC-27 \\ \hline
+
+\textbf{Test Case Description} & Verify that logging out successfully terminates the session and redirects to the Welcome Screen.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User is authenticated and on the Profile Screen. & \textbf{Post-Requisite} & Session is cleared; user cannot navigate back to authenticated screens. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{tabularx}}
+
+\noindent\makebox[\textwidth][c]{%
+\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Tap the "Log Out" button. & Touch Gesture
+ & User should be redirected to the Welcome Screen. & Successfully redirected to the Welcome Screen &\\ \hline
+
+\end{tabularx}}
