@@ -439,53 +439,274 @@ The following table outlines the key considerations for selecting hardware compo
 \end{longtable}
 
 
-% Add these helper column types in your preamble or right before the table
-\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
-\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+\begin{longtable}{|p{6cm} | p{7cm}|}
+	\caption{Selection of Hardware Components} \label{tab:components} \\
+	
+	%\hline \multicolumn{1}{|c|}{\textbf{Hardware Materials}} & \multicolumn{1}{c|}{\textbf{Description}} \\ \hline 
+	%\endfirsthead
 
-\begin{longtable}{| M{0.35\textwidth} | L{0.58\textwidth} |}
-    \caption{Selection of Hardware Components} \label{tab:components} \\
-    
-    \hline 
+	    \hline 
     \centering \textbf{Hardware Materials} & \centering \textbf{Description} \tabularnewline \hline 
     \endfirsthead
-    
-    \multicolumn{2}{c}{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
-    \hline 
-    \centering \textbf{Hardware Materials} & \centering \textbf{Description} \tabularnewline \hline 
-    \endhead
-    
-    \hline \multicolumn{2}{|r|}{{Continued on next page}} \\ \hline
-    \endfoot
-    
-    \hline
-    \endlastfoot
-    
-    % --- Row: ESP32 ---
-    \vspace{0.3cm}
-    \includegraphics[width=0.7\linewidth]{figures/esp32.png} \\
-    ESP32
-    \vspace{0.3cm}
-    & 
-    The researchers selected the ESP32 microcontroller as the central processing unit of the system. Its built-in Wi-Fi and Bluetooth modules, low power consumption, and compact size make it suitable for IoT-based applications. The ESP32 efficiently manages all sensors, relays, and peripheral devices, providing reliable performance for the solar-powered rental station. \\ \hline   
-    
-    % --- Row: Monocrystalline Solar Panel ---
-    \vspace{0.3cm}
-    \includegraphics[width=0.6\linewidth]{figures/panel.jpg} \\
-    Monocrystalline Solar Panel
-    \vspace{0.3cm}
-    &  
-    A monocrystalline solar panel was chosen for its high efficiency and durability in converting sunlight to electrical energy. This ensures sufficient energy production for battery charging, even under low-light conditions. Its compact and sturdy design makes it ideal for the portable solar power system used in the project. \\ \hline
+	
+	\multicolumn{2}{c}%
+	{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+	\hline \multicolumn{1}{|c|}{\textbf{Hardware Materials}} & \multicolumn{1}{c|}{\textbf{Description}}  \\ \hline 
+	\endhead
+	
+	\hline \multicolumn{2}{|r|}{{Continued on next page}} \\ \hline
+	\endfoot
+	
+	\endlastfoot
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/esp32.png}
+		\text{ESP32} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	& 
+	\vspace{0.1cm}
+	The researchers selected the ESP32 microcontroller as the central processing unit of the system. Its built-in Wi-Fi and Bluetooth modules, low power consumption, and compact size make it suitable for IoT-based applications. The ESP32 efficiently manages all sensors, relays, and peripheral devices, providing reliable performance for the solar-powered rental station. \\ \hline	
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.7\linewidth]{figures/panel.jpg}
+		\text{Monocrystalline Solar Panel} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	A monocrystalline solar panel was chosen for its high efficiency and durability in converting sunlight to electrical energy. This ensures sufficient energy production for battery charging, even under low-light conditions. Its compact and sturdy design makes it ideal for the portable solar power system used in the project. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/battery.png}
+		\text{LiFePO$_4$ Battery} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The LiFePO$_4$ battery was selected for its high energy density, long cycle life, and safety advantages over other lithium-ion batteries. It provides a stable and reliable power supply for the system, supporting continuous operation of the microcontroller and connected devices. Its capacity was matched to the energy requirements of the portable rental unit. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/controller.png}
+		\text{MPPT Solar Charge Controller} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	An MPPT (Maximum Power Point Tracking) solar charge controller was incorporated to optimize energy harvest from the solar panel. It ensures efficient and safe charging of the battery by adjusting voltage and current according to the panel’s output, extending battery life and maintaining system reliability.\\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/inverter.png}
+		\text{Pure Sine Wave Inverter} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The pure sine wave inverter was chosen to convert DC battery power to AC power for appliances. It provides clean and stable electricity, preventing potential damage to devices from voltage fluctuations, and ensures reliable energy delivery to users of the rental power station. \\
+	\hline
+	
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/charger.png}
+		\text{LiFePO$_4$ Battery Charger} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	A dedicated LiFePO$_4$ battery charger was used to safely recharge the battery when connected to an external power source. This ensures efficient energy replenishment while protecting the battery from overcharging, enhancing the longevity and reliability of the portable system. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/coin.png}
+		\text{Coinslot Multi-Coin Selector} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The coinslot multi-coin selector was selected as a payment input device for the rental system. It allows users to securely deposit coins of different denominations, ensuring accurate transaction processing. Its reliability and ease of integration make it suitable for a user-friendly payment system. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/dcbreaker.png}
+		\text{DC Breaker} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	A DC breaker was included to protect the system from overcurrent or short circuits in the DC circuit. Its presence ensures safety for both the users and the system components, minimizing the risk of damage to the battery, solar panel, or other hardware elements. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/wire.png}
+		\text{Flexible Silicone Wire} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	Flexible silicone wires were chosen for their durability, high temperature tolerance, and flexibility. They ensure safe and efficient electrical connections between components, contributing to the overall reliability and portability of the hardware system. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/gsm.png}
+		\text{GSM module} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The GSM module was selected to enable remote communication between the rental system and the server. It facilitates sending SMS alerts or notifications regarding rental status, battery level, and system operations, ensuring timely monitoring and management. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/gps.png}
+		\text{GPS Module} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	A GPS module was incorporated to track the location of the portable power units. This allows for real-time monitoring and management of the units, enhancing security and operational efficiency in the rental system.\\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.7\linewidth]{figures/relay.png}
+		\text{Relay} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	Relays were used to control high-voltage components using low-voltage signals from the microcontroller. Their selection ensures safe and efficient switching of power to various devices, protecting the system from electrical overloads. \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.7\linewidth]{figures/solenoid.png}
+		\text{Solenoid Lock} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The solenoid lock was chosen to secure the portable power unit. It allows controlled access based on successful rental authorization, ensuring security while maintaining ease of operation for users.\\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.7\linewidth]{figures/acbreaker.png}
+		\text{AC breaker} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	An AC breaker was included to safeguard the AC output circuit. It prevents potential damage from overcurrent or short circuits when appliances are connected, ensuring both user safety and system protection. \\
+	\hline
+	
+		\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/lcd-2.png}
+		\text{20x4 LCD Module with I2C} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The 20x4 LCD module (20 characters per line, 4 lines) was selected to display more system information at once, such as rental instructions, charging/usage status, battery percentage, and error prompts. Its I2C interface (SDA/SCL) minimizes GPIO usage and wiring compared to parallel LCD connections, improving reliability and simplifying integration with the microcontroller; the module also supports backlight and contrast adjustment for readability in varying lighting conditions.\\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.8\linewidth]{figures/lcd.png}
+		\text{16X2 LCD Module with I2C} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The 16x2 LCD module with I2C interface was selected to provide clear visual feedback to users. It displays relevant information such as rental instructions, system status, and battery level. The I2C interface reduces wiring complexity and enhances system integration.  \\
+	\hline
+	
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.55\linewidth]{figures/router.png}
+		\text{Wi-Fi Router } % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	A Wi-Fi router was used to provide wireless connectivity between the system and the mobile application. Its inclusion ensures stable communication for data transfer, remote monitoring, and user interactions, supporting the IoT-based functionality of the rental power system. \\
+	\hline
 
-    % --- Row: LiFePO4 Battery ---
-    \vspace{0.3cm}
-    \includegraphics[width=0.7\linewidth]{figures/battery.png} \\
-    LiFePO$_4$ Battery
-    \vspace{0.3cm}
-    &  
-    The LiFePO$_4$ battery was selected for its high energy density, long cycle life, and safety advantages over other lithium-ion batteries. It provides a stable and reliable power supply for the system, supporting continuous operation of the microcontroller and connected devices. \\ \hline
+		\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.55\linewidth]{figures/solid-state.png}
+		\text{Solid State Relay Module} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The SSR module is responsible for safely controlling the connection between the power source (battery/inverter) and the load (appliances or output terminals). It enables efficient, fast, and reliable switching of electrical power while minimizing wear, noise, and sparking, making it suitable for continuous and automated operation in an IoT-based system. \\
+	\hline
 
-\end{longtable}
+		\begin{minipage}[t]{\linewidth}
+		\centering
+		
+		\vspace{0.1cm} % adds space above image
+		\includegraphics[width=0.55\linewidth]{figures/battery-connector.png}
+		\text{Battery Connector} % text above the image
+		\vspace{0.3cm}
+	\end{minipage} 
+	&  
+	\vspace{0.1cm}
+	The magnetic battery cable connector is used to easily connect and disconnect the portable battery unit from the station. It enables quick, user-friendly attachment and removal of the power source while maintaining a reliable flow of electricity between the battery, inverter, and system components.  \\
+	\hline
+	
+\end{longtable}  
 
 Table 6 shows the estimated weight of the components inside the detachable power source and its total weight calculated of it. Excluding the enclosure or outer casing, the detachable power source is estimated to weigh approximately 5.3 kg. The majority of the weight comes from the \ce{LiFePO4} battery and the 1000 W power inverter, which together account for more than 80\% of the total mass, while the control electronics and auxiliary components contribute only a small fraction of the overall weight.
 
