@@ -39,45 +39,45 @@ The System Evaluation phase focuses on defining specific performance criteria an
 The development of the solar-powered rental station with detachable power sources, intended as a solution for supplying electricity to communities experiencing frequent and unscheduled power interruptions, incurred a total cost of ₱37,570.00. This amount covered the materials used in the study, the construction of the device, and the data collection and testing conducted throughout the research.
 
 \subsection{Materials and Cost}
+\subsection{Materials and Cost}
 
-\begin{longtable}{p{6cm} p{4cm}}
-	\caption{Hardware Components and Cost} \label{tab:MaterialsAndCost} \\
-	\toprule
-	\textbf{Component} & \textbf{Price} \\ 
-	\midrule
-	\endfirsthead
-	
-	\toprule
-	\textbf{Component} & \textbf{Price} \\ 
-	\midrule
-	\endhead
-	
-	\bottomrule
-	\endfoot
-	
-	Battery x 3 & \textpeso 15,600.00 \\ 
-	Solar Charge Controller & \textpeso 1,000.00 \\ 
-	Solar Panel & \textpeso 5,300.00 \\
-	Pure Sine Wave Inverter x 3 & \textpeso 5,700.00 \\
-	Lithium Battery Charger x 2 & \textpeso 3,000.00 \\
-	Low Voltage Disconnect module & \textpeso 100.00 \\
-	Coin Slot Facade x 2 & \textpeso 1,000.00 \\
-	ESP32 x 3 & \textpeso 600.00 \\
-	DC breaker x 5  & \textpeso 500.00 \\
-	Flexible Silicone Wire x 2 & \textpeso 270.00 \\
-	Relay Module 12/ 240v   x 2 & \textpeso 240.00 \\ 
-	Liquid Crystal Display (LCD) x 2 & \textpeso 400.00 \\
-	Relay x 3 & \textpeso 600.00 \\
-	GPS module & \textpeso 200.00 \\
-	GSM module & \textpeso 600.00 \\
-	AC breaker & \textpeso 1,200.00 \\
-	Solenoid lock x 2 & \textpeso 400 \\
-	Router & \textpeso 1,500.00\\
-	\midrule
-	\textbf{Total} & \textbf{\textpeso 37,570.00} \\
-\end{longtable}
+\begin{table}[H]
+    \centering
+    \renewcommand{\arraystretch}{1.4} 
+    \caption{Hardware Components and Cost} 
+    \label{tab:MaterialsAndCost}
+    
+    % @{\hspace{1cm}} adds a specific indent to the left of the first column
+    % l = left aligned (components), r = right aligned (prices)
+    \begin{tabular}{@{\hspace{1cm}} l r @{\hspace{1cm}}} 
+        \toprule
+        \textbf{Component} & \textbf{Price} \\ 
+        \midrule
+        Battery x 3 & \textpeso 15,600.00 \\ 
+        Solar Charge Controller & \textpeso 1,000.00 \\ 
+        Solar Panel & \textpeso 5,300.00 \\
+        Pure Sine Wave Inverter x 3 & \textpeso 5,700.00 \\
+        Lithium Battery Charger x 2 & \textpeso 3,000.00 \\
+        Low Voltage Disconnect module & \textpeso 100.00 \\
+        Coin Slot Facade x 2 & \textpeso 1,000.00 \\
+        ESP32 x 3 & \textpeso 600.00 \\
+        DC breaker x 5  & \textpeso 500.00 \\
+        Flexible Silicone Wire x 2 & \textpeso 270.00 \\
+        Relay Module 12/ 240v   x 2 & \textpeso 240.00 \\ 
+        Liquid Crystal Display (LCD) x 2 & \textpeso 400.00 \\
+        Relay x 3 & \textpeso 600.00 \\
+        GPS module & \textpeso 200.00 \\
+        GSM module & \textpeso 600.00 \\
+        AC breaker & \textpeso 1,200.00 \\
+        Solenoid lock x 2 & \textpeso 400.00 \\
+        Router & \textpeso 1,500.00 \\
+        \midrule
+        \textbf{Total} & \textbf{\textpeso 37,570.00} \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
-Table 2 shows the following materials that will be used in the study.
+\noindent Table 2 shows the following materials that will be used in the study.
 
 \subsection{Return on Investment (ROI) Analysis}
 
@@ -124,22 +124,24 @@ Community Resident - A person residing in a local community who is actively invo
 
 \subsection{System Requirements}
 
-\begin{longtable}{|p{4cm} | p{9cm}|}
-	\caption{System Requirements} \label{tab:long} \\
-	
-	\hline \multicolumn{1}{|c|}{\textbf{Category}} & \multicolumn{1}{c|}{\textbf{System Requirement}} \\ \hline 
-	\endfirsthead
-	
-	\multicolumn{2}{c}%
-	{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
-	\hline \multicolumn{1}{|c|}{\textbf{Category}} & \multicolumn{1}{c|}{\textbf{System Requirement}}  \\ \hline 
-	\endhead
-	
-	\hline \multicolumn{2}{|r|}{{Continued on next page}} \\ \hline
-	\endfoot
-	
-	\endlastfoot
-	
+\renewcommand{\arraystretch}{1.5}
+\begin{longtable}{| p{4cm} | p{9cm} |}
+    \caption{System Requirements} \label{tab:long} \\
+    
+    \hline 
+    \centering \textbf{Category} & \centering \textbf{System Requirement} \tabularnewline \hline 
+    \endfirsthead
+    
+    \multicolumn{2}{c}{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\ \hline
+    \centering \textbf{Category} & \centering \textbf{System Requirement} \tabularnewline \hline 
+    \endhead
+    
+    \hline \multicolumn{2}{|r|}{{\small Continued on next page}} \\ \hline
+    \endfoot
+    
+    \hline
+    \endlastfoot
+    
 	Input Requirements & - The system shall collect user information during account registration through designated input fields in the mobile application. \\
 	& - The system shall accept user login credentials such as username and password for authentication. \\
 	& - The system shall accept rental requests, including power source selection, rental duration, and payment method (coin-based or app-based).\\
@@ -172,6 +174,7 @@ Community Resident - A person residing in a local community who is actively invo
 	\hline
 	
 \end{longtable} 
+
 
 
 \section{System Design}
@@ -226,7 +229,7 @@ The system also monitors whether the detachable power source is returned. If it 
 	\centering
 	\caption{Context Level Diagram}
 	\label{fig:context level diagram}
-	\includegraphics[width=1\textwidth]{figures/context.png}
+	\includegraphics[width=1\textwidth]{figures/context-level.png}
 \end{figure}
 
 This Figure 3.6 illustrates the complete interaction flow of the solar-powered rental system, showing how the Mobile App, Community Residents, Solar-Powered Rental Station, and the Detachable Power Source communicate with one another. The process begins with community residents using the mobile application to register their information, submit rental requests, process payments, and receive status updates. Once a rental request is made, the app sends the relevant information to the system, which then confirms the registration, validates the rental request, and updates the user about payment status and rental confirmation.
@@ -240,7 +243,7 @@ The detachable power source also communicates with the system to strengthen secu
 	\centering
 	\caption{Data Flow Representation of the Solar-Powered Rental Station System}
 	\label{fig:data flow}
-	\includegraphics[width=1\textwidth]{figures/dflow.png}
+	\includegraphics[width=1\textwidth]{figures/data-flow-new.png}
 \end{figure}
 
 The Figure 3.7 shows how information moves within the Solar-Powered Rental Station with Detachable Power Sources, highlighting the interactions between users, administrators, and the system’s processes. Community residents begin by logging in through the mobile application, where their credentials are verified using stored user records. After authentication, community residents can submit rental requests, which the system checks against available power sources before proceeding to payment. The Payment module validates coin or app-based payments and, once confirmed, issues an authorization data that unlocks the detachable power source. The system then monitors the rental, tracking battery status, usage duration, and device location through GPS, with updates stored in the corresponding data repositories. Upon return, the system verifies the device, logs return details, and updates rental records while also issuing overdue alerts when necessary. Administrators can view and update user information, monitor device locations, and manage system records. Additionally, user credits, earned through unused power or admin adjustments, are tracked and stored for future transactions. Overall, the data flow of the system reflects an automated and integrated rental system that efficiently manages authentication, payment, monitoring, GPS tracking, returns, and credit management through coordinated data flows.
@@ -250,7 +253,7 @@ The Figure 3.7 shows how information moves within the Solar-Powered Rental Stati
 	\centering
 	\caption{Use Case Diagram}
 	\label{fig:use case}
-	\includegraphics[width=1\textwidth]{figures/usecase.png}
+	\includegraphics[width=1\textwidth]{figures/usecase.jpg}
 \end{figure}
 
 Figure 3.8 illustrates how different users and administrators interact with the system. It highlights the actions users can take and the roles of administrators. The Unregistered User is someone who has not yet signed up for the system. They can create an account by providing their details, which are then verified by the system. If the details are correct, an activation code is generated for the user to complete the registration. After signing up, the user can log in to the system, but if there’s an issue with the login, an error is displayed.
@@ -436,244 +439,56 @@ The following table outlines the key considerations for selecting hardware compo
 \end{longtable}
 
 
-\begin{longtable}{|p{6cm} | p{7cm}|}
-	\caption{Selection of Hardware Components} \label{tab:components} \\
-	
-	\hline \multicolumn{1}{|c|}{\textbf{Hardware Materials}} & \multicolumn{1}{c|}{\textbf{Description}} \\ \hline 
-	\endfirsthead
-	
-	\multicolumn{2}{c}%
-	{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
-	\hline \multicolumn{1}{|c|}{\textbf{Hardware Materials}} & \multicolumn{1}{c|}{\textbf{Description}}  \\ \hline 
-	\endhead
-	
-	\hline \multicolumn{2}{|r|}{{Continued on next page}} \\ \hline
-	\endfoot
-	
-	\endlastfoot
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/esp32.png}
-		\text{ESP32} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	& 
-	\vspace{0.1cm}
-	The researchers selected the ESP32 microcontroller as the central processing unit of the system. Its built-in Wi-Fi and Bluetooth modules, low power consumption, and compact size make it suitable for IoT-based applications. The ESP32 efficiently manages all sensors, relays, and peripheral devices, providing reliable performance for the solar-powered rental station. \\ \hline	
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.7\linewidth]{figures/panel.jpg}
-		\text{Monocrystalline Solar Panel} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	A monocrystalline solar panel was chosen for its high efficiency and durability in converting sunlight to electrical energy. This ensures sufficient energy production for battery charging, even under low-light conditions. Its compact and sturdy design makes it ideal for the portable solar power system used in the project. \\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/battery.png}
-		\text{LiFePO$_4$ Battery} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	The LiFePO$_4$ battery was selected for its high energy density, long cycle life, and safety advantages over other lithium-ion batteries. It provides a stable and reliable power supply for the system, supporting continuous operation of the microcontroller and connected devices. Its capacity was matched to the energy requirements of the portable rental unit. \\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/controller.png}
-		\text{MPPT Solar Charge Controller} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	An MPPT (Maximum Power Point Tracking) solar charge controller was incorporated to optimize energy harvest from the solar panel. It ensures efficient and safe charging of the battery by adjusting voltage and current according to the panel’s output, extending battery life and maintaining system reliability.\\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/inverter.png}
-		\text{Pure Sine Wave Inverter} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	The pure sine wave inverter was chosen to convert DC battery power to AC power for appliances. It provides clean and stable electricity, preventing potential damage to devices from voltage fluctuations, and ensures reliable energy delivery to users of the rental power station. \\
-	\hline
-	
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/charger.png}
-		\text{LiFePO$_4$ Battery Charger} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	A dedicated LiFePO$_4$ battery charger was used to safely recharge the battery when connected to an external power source. This ensures efficient energy replenishment while protecting the battery from overcharging, enhancing the longevity and reliability of the portable system. \\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/coin.png}
-		\text{Coinslot Multi-Coin Selector} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	The coinslot multi-coin selector was selected as a payment input device for the rental system. It allows users to securely deposit coins of different denominations, ensuring accurate transaction processing. Its reliability and ease of integration make it suitable for a user-friendly payment system. \\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/dcbreaker.png}
-		\text{DC Breaker} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	A DC breaker was included to protect the system from overcurrent or short circuits in the DC circuit. Its presence ensures safety for both the users and the system components, minimizing the risk of damage to the battery, solar panel, or other hardware elements. \\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/wire.png}
-		\text{Flexible Silicone Wire} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	Flexible silicone wires were chosen for their durability, high temperature tolerance, and flexibility. They ensure safe and efficient electrical connections between components, contributing to the overall reliability and portability of the hardware system. \\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/gsm.png}
-		\text{GSM module} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	The GSM module was selected to enable remote communication between the rental system and the server. It facilitates sending SMS alerts or notifications regarding rental status, battery level, and system operations, ensuring timely monitoring and management. \\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/gps.png}
-		\text{GPS Module} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	A GPS module was incorporated to track the location of the portable power units. This allows for real-time monitoring and management of the units, enhancing security and operational efficiency in the rental system.\\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.7\linewidth]{figures/relay.png}
-		\text{Relay} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	Relays were used to control high-voltage components using low-voltage signals from the microcontroller. Their selection ensures safe and efficient switching of power to various devices, protecting the system from electrical overloads. \\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.7\linewidth]{figures/solenoid.png}
-		\text{Solenoid Lock} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	The solenoid lock was chosen to secure the portable power unit. It allows controlled access based on successful rental authorization, ensuring security while maintaining ease of operation for users.\\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.7\linewidth]{figures/acbreaker.png}
-		\text{AC breaker} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	An AC breaker was included to safeguard the AC output circuit. It prevents potential damage from overcurrent or short circuits when appliances are connected, ensuring both user safety and system protection. \\
-	\hline
-	
-		\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/lcd-2.png}
-		\text{20x4 LCD Module with I2C} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	The 20x4 LCD module (20 characters per line, 4 lines) was selected to display more system information at once, such as rental instructions, charging/usage status, battery percentage, and error prompts. Its I2C interface (SDA/SCL) minimizes GPIO usage and wiring compared to parallel LCD connections, improving reliability and simplifying integration with the microcontroller; the module also supports backlight and contrast adjustment for readability in varying lighting conditions.\\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/lcd.png}
-		\text{16X2 LCD Module with I2C} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	The 16x2 LCD module with I2C interface was selected to provide clear visual feedback to users. It displays relevant information such as rental instructions, system status, and battery level. The I2C interface reduces wiring complexity and enhances system integration.  \\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.55\linewidth]{figures/router.png}
-		\text{Wi-Fi Router } % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	A Wi-Fi router was used to provide wireless connectivity between the system and the mobile application. Its inclusion ensures stable communication for data transfer, remote monitoring, and user interactions, supporting the IoT-based functionality of the rental power system. \\
-	\hline
-	
-\end{longtable}  
+% Add these helper column types in your preamble or right before the table
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+
+\begin{longtable}{| M{0.35\textwidth} | L{0.58\textwidth} |}
+    \caption{Selection of Hardware Components} \label{tab:components} \\
+    
+    \hline 
+    \centering \textbf{Hardware Materials} & \centering \textbf{Description} \tabularnewline \hline 
+    \endfirsthead
+    
+    \multicolumn{2}{c}{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+    \hline 
+    \centering \textbf{Hardware Materials} & \centering \textbf{Description} \tabularnewline \hline 
+    \endhead
+    
+    \hline \multicolumn{2}{|r|}{{Continued on next page}} \\ \hline
+    \endfoot
+    
+    \hline
+    \endlastfoot
+    
+    % --- Row: ESP32 ---
+    \vspace{0.3cm}
+    \includegraphics[width=0.7\linewidth]{figures/esp32.png} \\
+    ESP32
+    \vspace{0.3cm}
+    & 
+    The researchers selected the ESP32 microcontroller as the central processing unit of the system. Its built-in Wi-Fi and Bluetooth modules, low power consumption, and compact size make it suitable for IoT-based applications. The ESP32 efficiently manages all sensors, relays, and peripheral devices, providing reliable performance for the solar-powered rental station. \\ \hline   
+    
+    % --- Row: Monocrystalline Solar Panel ---
+    \vspace{0.3cm}
+    \includegraphics[width=0.6\linewidth]{figures/panel.jpg} \\
+    Monocrystalline Solar Panel
+    \vspace{0.3cm}
+    &  
+    A monocrystalline solar panel was chosen for its high efficiency and durability in converting sunlight to electrical energy. This ensures sufficient energy production for battery charging, even under low-light conditions. Its compact and sturdy design makes it ideal for the portable solar power system used in the project. \\ \hline
+
+    % --- Row: LiFePO4 Battery ---
+    \vspace{0.3cm}
+    \includegraphics[width=0.7\linewidth]{figures/battery.png} \\
+    LiFePO$_4$ Battery
+    \vspace{0.3cm}
+    &  
+    The LiFePO$_4$ battery was selected for its high energy density, long cycle life, and safety advantages over other lithium-ion batteries. It provides a stable and reliable power supply for the system, supporting continuous operation of the microcontroller and connected devices. \\ \hline
+
+\end{longtable}
+
+Table 6 shows the estimated weight of the components inside the detachable power source and its total weight calculated of it. Excluding the enclosure or outer casing, the detachable power source is estimated to weigh approximately 5.3 kg. The majority of the weight comes from the \ce{LiFePO4} battery and the 1000 W power inverter, which together account for more than 80\% of the total mass, while the control electronics and auxiliary components contribute only a small fraction of the overall weight.
+
 
 \subsection{Circuit Diagram}
 \begin{figure}[H]
@@ -770,7 +585,6 @@ Table 6 shows the estimated weight of the components inside the detachable power
 \end{figure}
 
 Figure 3.20 shows the 3D design of the solar-powered rental station. It is a stationary power station powered by solar energy and contains three detachable power sources. The system has a single coin slot that controls access, and each detachable power source is secured with a solenoid lock. The overall dimensions of the station are 59 inches in length, 30 inches in width, and 30 inches in height, which are based on the actual size and arrangement of the components used in the system.
-
 \section{Software Development}
 This part provides an outline of the software development for the Solar-Powered Rental Station with Detachable Power Sources. The primary objective of the software is to manage the rental, monitoring, and control of portable power units through data acquisition, processing, and decision-making. The system combines embedded system programming with mobile application development and cloud-based data management through a real-time database, enabling reliable, automated, and secure system operation.
 
@@ -806,7 +620,7 @@ Using Quasar it will enable the developers to create a single codebase that can 
 	\centering
 	\caption{Activity Diagram of the Community Resident}
 	\label{fig:activity}
-	\includegraphics[width=0.53\textwidth]{figures/activity.png}
+	\includegraphics[width=0.53\textwidth]{figures/activity-diagram.png}
 \end{figure}
 
 Figure 3.21 shows the step-by-step activity flow of the system from user login to unlocking the portable power source. The process begins with checking account availability. If the user already has an account, they proceed to the login step; otherwise, they must sign up first. After logging in, the system checks if the account is valid. If the account is invalid, the process returns to the login step. If valid, the system verifies the account and displays the dashboard. Next, the system checks if a power source slot is available. If no slot is available, the user remains on the dashboard until one becomes free. If a slot is available, the process continues to the payment step. The system then verifies the payment amount. If the amount entered is not exact, the process returns to the payment step. If the payment is correct, the portable power source is successfully unlocked, completing the process.
@@ -828,7 +642,7 @@ This subsection describes the network-level encryption and security measures imp
 \subsubsection{MikroTik}
 A MikroTik router is used as part of the network security layer to secure the local connection between the rental station and the mobile application/server. It is configured to enforce encrypted network access and restrict unauthorized devices by using WPA2/WPA3 Wi-Fi security, firewall rules, and MAC/IP filtering. Only registered system devices (e.g., the ESP32 controller and authorized admin devices) are allowed to communicate with the network. The MikroTik firewall blocks unknown inbound connections and limits open ports to reduce exposure to attacks. This setup helps prevent attackers from connecting to the system network and bypassing the application through direct access to the device or database endpoints.
 
- \subsection{Graphical User Interface Design}
+\subsection{Graphical User Interface Design}
 
 \begin{figure}[H]
 	\centering
@@ -874,6 +688,42 @@ The user dashboard displays a greeting header with location metadata and a card 
 \end{figure}
 
 The renting module allows search by Station ID and shows slot availability per station. Users select a slot and view its battery percentage with the corresponding price. Payment options include Pay via Points and Pay via Coin Slot, enabling transaction initiation.
+
+\begin{figure}[H]
+	\centering
+	\caption{Pay via Coin Slot (Community Resident)}
+	\label{fig:coin-slot}
+	\includegraphics[width=1\textwidth]{figures/coin-slot.png}
+\end{figure}
+
+The Pay via Coin Slot interface enables users to initiate the rental of a detachable power source through a physical payment mechanism. After selecting a station and an available slot, the system displays the battery percentage and corresponding rental price. The user proceeds to the station and inserts coins into the coin slot, which is detected by the system and validated. Once sufficient payment is confirmed, the system activates the solenoid lock to release the selected power source. This functionality supports accessibility for users without digital payment methods and aligns with the system’s coin-operated rental mechanism.
+
+\begin{figure}[H]
+	\centering
+	\caption{Pay via Credit Points (Community Resident)}
+	\label{fig:credit-points}
+	\includegraphics[width=1\textwidth]{figures/credit-points.png}
+\end{figure}
+
+The Pay via Credit Points interface allows users to rent a detachable power source using stored digital credits within the mobile application. After selecting a station and slot, the system calculates the rental cost based on the battery percentage of the unit. The required amount is deducted from the user’s available credits upon confirmation. Once payment is successfully processed, the system authorizes the release of the power source. This feature provides a convenient, cashless alternative and supports the system’s credit-based transaction capability.
+
+\begin{figure}[H]
+	\centering
+	\caption{Alerts Page (Community Resident)}
+	\label{fig:alerts}
+	\includegraphics[width=1\textwidth]{figures/alert-new.png}
+\end{figure}
+
+The Alerts Page displays real-time notifications generated by the system into the app. These alerts inform users about important events such as low battery levels, nearing rental expiration, or overdue returns. This functionality ensures that users remain informed about the status of their rented power source and encourages timely actions, such as returning the unit or conserving energy. It enhances user awareness, system reliability, and overall operational efficiency.
+
+\begin{figure}[H]
+	\centering
+	\caption{Profile Page (Community Resident)}
+	\label{fig:profile}
+	\includegraphics[width=1\textwidth]{figures/SE5.png}
+\end{figure}
+
+The Profile Page allows users to view and manage their personal account information within the system. It displays user details such as name, contact number, email, location, and available credit points. Users are also given the option to update their profile picture by clicking on the current image and retaking it. This feature supports user verification, account management, and transparency by providing access to essential personal and account-related information within the KuRyenta system.
 
 \begin{figure}[H]
 	\centering
