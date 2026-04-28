@@ -24,40 +24,70 @@ The results obtained from these tests are analyzed in relation to the objectives
 
 This section presents the actual hardware implementation of the detachable power source and the solar-powered rental station. It provides a clear representation of the system’s physical structure, dimensions, and component arrangement. The figures illustrate how the developed system is assembled and how each part is positioned, allowing a better understanding of the system’s real-world configuration and usability.
 
+\subsubsection{Component Layout and System Arrangement}
 
 \begin{figure}[H]
     \centering
-    \caption{Solar-Powered Rental Station – Overall Structural Design (Front View)}
+    \caption{Solar-Powered Rental Station Internal Component Layout}
+    \label{fig:3d}
+    \includegraphics[width=1\textwidth]{figures/station-design.png}
+\end{figure}
+
+
+The figure shows the structural and functional layout of the solar-powered rental station, which serves as the main hub for energy generation, storage, and distribution. The components are arranged in a way that supports efficient power management while keeping the system accessible and easy to operate. The solar charge controller is positioned on the upper panel to regulate the energy collected from the photovoltaic system and to prevent overcharging of the LiFePO4 battery located at the lower section of the enclosure. Placing the battery at the base helps maintain stability due to its weight and also supports safer heat dissipation.
+
+Near the controller, the DC/AC breakers are organized in a dedicated panel to allow easy access and provide protection against electrical faults. The power inverter and battery charger are placed on the working platform to enable efficient conversion of DC to AC power and controlled charging of the detachable units. For user interaction, the coin slot mechanism is centrally located at the front, while the LCD is positioned at eye level to make system information easy to read. Meanwhile, the ESP32 and buck converter are housed in a side compartment to protect sensitive components while keeping them close enough for accurate monitoring and control. Overall, the layout follows a structured and layered design, separating power, control, and user interface components to improve safety, ease of maintenance, and overall system performance.
+
+\begin{figure}[H]
+    \centering
+    \caption{Detachable Power Source Internal Component Layout}
+    \label{fig:3d}
+    \includegraphics[width=1\textwidth]{figures/portable-design.jpg}
+\end{figure}
+
+
+The figure presents the internal configuration of the portable detachable power source, which is designed to be compact, mobile, and reliable during use. At the center of the enclosure is the LiFePO4 battery, occupying the largest space to maintain balance and ensure stability when the unit is being transported. The remaining components are arranged along the inner walls to make efficient use of space while keeping the system organized.
+
+On one side, the ESP32 microcontroller and voltage divider are installed to allow real-time monitoring of battery conditions while keeping the wiring simple and manageable. Directly below them, the buck converter regulates the voltage supplied to low-power components. On the opposite side, the relay module is positioned near the power inverter to control the output supplied to connected devices. The DC breaker is placed near the top section for quick disconnection in case of faults, adding an extra layer of safety. A compact Wi-Fi router is also included to support communication between the unit and the monitoring system.
+
+The overall layout highlights a modular and accessible design, making it easier to maintain or replace components when needed. Proper spacing between heat-generating and sensitive parts is also considered to support better thermal management and extend component lifespan. In general, the portable unit demonstrates a well-organized internal structure that balances functionality, durability, and ease of use in actual operating conditions.
+
+\subsubsection{Physical Dimensions and Enclosure Specifications}
+
+\begin{figure}[H]
+    \centering
+    \caption{Solar-Powered Rental Station – Overall Structural Design Dimensions (Front View)}
     \label{fig:3d}
     \includegraphics[width=1\textwidth]{figures/station1.png}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \caption{Solar-Powered Rental Station – Overall Structural Design (Perspective View)}
+    \caption{Solar-Powered Rental Station – Overall Structural Design Dimensions (Perspective View)}
     \label{fig:3d}
     \includegraphics[width=1\textwidth]{figures/station2.png}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \caption{Solar-Powered Rental Station – Charging Compartment for Detachable Power Source (Close-Up Front View)}
+    \caption{Solar-Powered Rental Station – Charging Compartment for Detachable Power Source Dimensions (Close-Up Front View)}
     \label{fig:3d}
     \includegraphics[width=1\textwidth]{figures/station3.png}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \caption{Solar-Powered Rental Station – Charging Compartment for Detachable Power Source (Close-Up Perspective View)}
+    \caption{Solar-Powered Rental Station – Charging Compartment for Detachable Power Source Dimensions (Close-Up Perspective View)}
     \label{fig:3d}
     \includegraphics[width=1\textwidth]{figures/station4.png}
 \end{figure}
 
 
-The solar-powered rental station is designed as a freestanding, roofed structure that integrates energy generation, storage, and user interaction in a single unit. It features a dual-sloped roof fitted with photovoltaic panels to maximize solar energy harvesting, which is then stored in internal LiFePO4 batteries and converted into usable AC power through an inverter. The overall structure stands approximately 7 to 8 feet tall, supported by vertical posts that elevate the main enclosure for protection and accessibility. 
+The solar-powered rental station is designed as a freestanding, roofed structure that integrates energy generation, storage, and user interaction in a single unit. It features a dual-sloped roof fitted with photovoltaic panels to maximize solar energy harvesting, which is then stored in internal LiFePO4 batteries and converted into usable AC power through an inverter. The overall structure stands approximately 7 to 8 feet tall, supported by vertical posts that elevate the main enclosure for protection and accessibility.
 
-The central cabinet, measuring about 89 cm in width and 61 cm in height, houses essential components such as the ESP32 microcontroller, coin-slot mechanism, solenoid locking system, and monitoring interfaces. This enclosure also contains designated compartments for securely storing detachable power units, which are released only after successful payment verification. The design ensures durability, weather resistance, and efficient system integration, making it suitable for deployment in community areas experiencing frequent power interruptions.
+The station is designed with a ground clearance of approximately 76 cm from the base to the main enclosure. This elevation helps protect the internal components from potential ground-level hazards such as flooding, dirt accumulation, and accidental contact, while also improving ventilation and ease of maintenance. The raised design further enhances user ergonomics by positioning the access points at a comfortable height.
 
+The central cabinet, measuring about 89 cm in width and 61 cm in height, houses essential components such as the ESP32 microcontroller, coin-slot mechanism, solenoid locking system, and monitoring interfaces. This enclosure also contains designated compartments for securely storing detachable power units, which are released only after successful payment verification. Overall, the design prioritizes durability, weather resistance, and efficient system integration, making it suitable for deployment in community areas experiencing frequent power interruptions.
 
 \begin{figure}[H]
     \centering
@@ -351,50 +381,67 @@ The SMS Logs functionality records all SMS communications sent through the GSM m
 \vspace{1em}
 %========3rd===========
 
-\renewcommand\tabularxcolumn[1]{m{#1}}
-
 \renewcommand{\arraystretch}{1.4}
-
-
+\small
 % ----------- HEADER TABLE -----------
-\noindent\makebox[\textwidth][c]{%
-\begin{tabularx}{\textwidth}{|p{3.5cm}|X|p{3cm}|p{2.5cm}|}
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
 \textbf{Test Scenario} & User Account Registration (Sign Up) & \textbf{Test Case ID} & TC-03 \\ \hline
 
-\textbf{Test Case Description} & Verify that a new user can successfully create an account by providing their complete and valid registration data  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that a new user can successfully create an account by providing their complete and valid registration data & \textbf{Test Priority} & High \\ \hline
 
-\textbf{Pre-Requisite} & The application is on the Primary Sign Up Screeen & \textbf{Post-Requisite} & A new user record is created in the database, and the user is redirected to the Login Screen \\ \hline
+\textbf{Pre-Requisite} & The application is on the Primary Sign Up Screen & \textbf{Post-Requisite} & A new user record is created in the database, and the user is redirected to the Login Screen \\ \hline
 
 \multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+\end{longtable}
+\small
+% ----------- MAIN TABLE -----------
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{1.8cm}|p{2cm}|p{2cm}|}
 
-\end{tabularx}}
-
-\noindent\makebox[\textwidth][c]{%
-\begin{tabularx}{\textwidth}{|p{1cm}|X|X|X|X|p{2cm}|}
 \hline
 \textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\endfirsthead
 
-1 & Enter account credentials and contact details  & First Name: “Sheena”
-Last Name: “Smion”
-Phone Number: +63 “9362762948”
-Email Address: “simonsheena58@gmail.com" 
-Password: “nanan_58”
-Confirm Password: “nanan_58”
- & The fields should accept valid data and mask the password characters & Data was accepted, and the password was correctly masked & \\ \hline
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\endhead
 
-2 & Tap the “Proceed” button & Touch Gesture & The application should validate the first set of data and navigate to the second Sign Up Screen & The application successfully redirected to the second Sign Up Screen & \\ \hline
+1 & Enter account credentials and contact details &
+First Name: Sheena \newline
+Last Name: Smion \newline
+Phone: +63 9362762948 \newline
+Email: simonsheena58@gmail.com \newline
+Password: nanan\_58 \newline
+Confirm: nanan\_58
+&
+Fields accept valid data and mask password &
+Data accepted and password masked &
+\\ \hline
 
-3 & Enter demographic, birthdate, and location details & Sex: “Female”
-Birthdate: “08/05/2004”
-Province: “Camiguin”
-Municipal/City: “Mambajao”
-Barangay: “Tupsan”
- & The system should allow selection/entry of personal and location data & All demographic, birthdate, and location inputs were recorded successfully  & \\ \hline
+2 & Tap “Proceed” button &
+Touch Gesture &
+System validates data and moves to next screen &
+Successfully redirected &
+\\ \hline
 
-4 & Click the “Create Account” button & Touch Gesture & The system should display a success message and redirect the user to the Log In Screen & Message: “Account Created Successfully! Please Log In.” displayed; redirected to Log In Screen & \\ \hline
+3 & Enter demographic and location details &
+Sex: Female \newline
+Birthdate: 08/05/2004 \newline
+Province: Camiguin \newline
+City: Mambajao \newline
+Barangay: Tupsan
+&
+System accepts inputs &
+All inputs recorded successfully &
+\\ \hline
 
-\end{tabularx}}
+4 & Click “Create Account” button &
+Touch Gesture &
+Display success message and redirect to login &
+Message displayed and redirected &
+\\ \hline
+
+\end{longtable}
 
 \vspace{1em}
 %========4th===========
