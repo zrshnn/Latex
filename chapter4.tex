@@ -1271,3 +1271,57 @@ Password: “nanan_58”
  & User should be redirected to the Welcome Screen. & Successfully redirected to the Welcome Screen &\\ \hline
 
 \end{tabularx}}
+
+
+\subsection {White Box Testing}
+
+%FIRST VER
+% Create a custom column type for left-aligned wrapping text
+\newcolumntype{L}{>{\RaggedRight\arraybackslash}X}
+
+\renewcommand{\arraystretch}{1.5} % Provides padding inside cells
+
+% ----------- TC-11 TABLE -----------
+\noindent
+\begin{tabularx}{\textwidth}{|p{3.5cm}|L|p{1.5cm}|p{2cm}|}
+\hline
+\textbf{Test Scenario} & Account Creation Logic & \textbf{Test Case ID} & TC-11 \\ \hline
+\textbf{Test Case Description} & \multicolumn{3}{l|}{Verify validation for empty required fields.} \\ \hline
+\textbf{Pre-Requisite} & \multicolumn{3}{l|}{} \\ \hline
+\textbf{Test Objective} & \multicolumn{3}{l|}{} \\ \hline
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+\end{tabularx}
+
+\nointerlineskip % Removes the tiny gap between the two tables
+\noindent
+\begin{tabularx}{\textwidth}{|p{0.8cm}|p{2cm}|p{1.5cm}|p{1.8cm}|L|L|p{1.2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+1 & Leave a field empty and click ``Proceed''. & Empty Fields & & Null Check $>$ Disable. Button is disabled; validation errors appear. & Button disabled; relevant required-field errors displayed. & \\ \hline
+\end{tabularx}
+
+\vspace{1em}
+
+%SECOND VER
+% Create a custom column type for left-aligned wrapping text
+\newcolumntype{L}{>{\RaggedRight\arraybackslash}X}
+
+\renewcommand{\arraystretch}{1.5} % Provides padding inside cells
+
+% ----------- TC-11 TABLE -----------
+\noindent
+\begin{tabularx}{\textwidth}{|p{3.5cm}|L|p{1.5cm}|p{2cm}|}
+\hline
+\textbf{Test Scenario} & Account Creation Logic & \textbf{Test Case ID} & TC-11 \\ \hline
+\textbf{Test Case Description} & \multicolumn{3}{l|}{Verify validation for empty required fields.} \\ \hline
+\textbf{Pre-Requisite} & \multicolumn{3}{l|}{} \\ \hline
+\textbf{Test Objective} & \multicolumn{3}{l|}{} \\ \hline
+\end{tabularx}
+
+\nointerlineskip % Removes the tiny gap between the two tables
+\noindent
+\begin{tabularx}{\textwidth}{|p{0.8cm}|p{2cm}|p{1.5cm}|p{1.8cm}|L|L|p{1.2cm}|}
+\hline
+\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+1 & Leave a field empty and click ``Proceed''. & Empty Fields & & Null Check $>$ Disable. Button is disabled; validation errors appear. & Button disabled; relevant required-field errors displayed. & \\ \hline
+\end{tabularx}
