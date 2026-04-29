@@ -5,10 +5,10 @@
 \contentsline {chapter}{DEDICATION}{iv}{chapter*.1}%
 \contentsline {chapter}{ACKNOWLEDGMENT}{v}{chapter*.1}%
 \contentsline {chapter}{TABLE OF CONTENTS}{vii}{chapter*.1}%
-\contentsline {chapter}{LIST OF TABLES}{xi}{chapter*.2}%
-\contentsline {chapter}{LIST OF EQUATIONS}{xii}{chapter*.3}%
-\contentsline {chapter}{LIST OF FIGURES}{xiii}{chapter*.3}%
-\contentsline {chapter}{LIST OF EQUATIONS}{xvi}{chapter*.5}%
+\contentsline {chapter}{LIST OF TABLES}{xii}{chapter*.2}%
+\contentsline {chapter}{LIST OF EQUATIONS}{xiii}{chapter*.3}%
+\contentsline {chapter}{LIST OF FIGURES}{xiv}{chapter*.3}%
+\contentsline {chapter}{LIST OF EQUATIONS}{xviii}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background of the Study}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Statement of the Problem}{4}{section.1.2}%
