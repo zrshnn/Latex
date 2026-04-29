@@ -1,8 +1,14 @@
 {\bfseries \hfill Page No.\vspace \bigskipamount \par }
 \contentsline {chapter}{TITLE PAGE}{i}{chapter*.1}%
-\contentsline {chapter}{TABLE OF CONTENTS}{ii}{chapter*.1}%
-\contentsline {chapter}{LIST OF TABLES}{vi}{chapter*.2}%
-\contentsline {chapter}{LIST OF FIGURES}{vii}{chapter*.3}%
+\contentsline {chapter}{APPROVAL SHEET}{ii}{chapter*.1}%
+\contentsline {chapter}{ABSTRACT}{iii}{chapter*.1}%
+\contentsline {chapter}{DEDICATION}{iv}{chapter*.1}%
+\contentsline {chapter}{ACKNOWLEDGMENT}{v}{chapter*.1}%
+\contentsline {chapter}{TABLE OF CONTENTS}{vii}{chapter*.1}%
+\contentsline {chapter}{LIST OF TABLES}{xi}{chapter*.2}%
+\contentsline {chapter}{LIST OF EQUATIONS}{xii}{chapter*.3}%
+\contentsline {chapter}{LIST OF FIGURES}{xiii}{chapter*.3}%
+\contentsline {chapter}{LIST OF EQUATIONS}{xvi}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background of the Study}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Statement of the Problem}{4}{section.1.2}%
@@ -38,53 +44,80 @@
 \contentsline {chapter}{\numberline {3}METHODOLOGY}{44}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Planning}{45}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Budget Planning}{48}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Materials and Cost}{48}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Return on Investment (ROI) Analysis}{49}{subsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.3.1}Payback Period Calculation}{49}{subsubsection.3.1.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.3.2}Conversion of Payback Period to Years}{49}{subsubsection.3.1.3.2}%
-\contentsline {subsubsection}{\numberline {3.1.3.3}ROI Interpretation}{50}{subsubsection.3.1.3.3}%
-\contentsline {subsection}{\numberline {3.1.4}Research Setting}{50}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}User Definition}{51}{subsection.3.1.5}%
-\contentsline {subsection}{\numberline {3.1.6}System Requirements}{51}{subsection.3.1.6}%
-\contentsline {section}{\numberline {3.2}System Design}{54}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}System Architecture}{55}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Flowchart}{57}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Context Level Diagram}{59}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Data Flow Diagram}{61}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Use Case Diagram}{63}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Solar Energy Harvesting}{65}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Energy Conversion DC to AC}{66}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}Power Monitoring}{67}{subsection.3.2.8}%
-\contentsline {subsection}{\numberline {3.2.9}GPS Tracking}{68}{subsection.3.2.9}%
-\contentsline {section}{\numberline {3.3}Hardware Development}{69}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Material Specifications}{69}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Circuit Diagram}{78}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Schematic Layout}{81}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Hardware Design}{84}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Software Development}{88}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Embedded System Software Development}{88}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Battery Monitoring and Power Calculation}{89}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Rental Time Tracking and Rule-Based Control}{90}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Mobile Application Development}{90}{subsection.3.4.4}%
-\contentsline {subsubsection}{\numberline {3.4.4.1}Flutter Framework}{91}{subsubsection.3.4.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.4.2}Activity Diagram}{92}{subsubsection.3.4.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.4.3}GitHub}{93}{subsubsection.3.4.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.4.4}Realtime Database}{94}{subsubsection.3.4.4.4}%
-\contentsline {subsubsection}{\numberline {3.4.4.5}Cloud Firestore}{94}{subsubsection.3.4.4.5}%
-\contentsline {subsection}{\numberline {3.4.5}Network Encryption and Security Feature}{95}{subsection.3.4.5}%
-\contentsline {subsubsection}{\numberline {3.4.5.1}MikroTik}{95}{subsubsection.3.4.5.1}%
-\contentsline {subsection}{\numberline {3.4.6}Graphical User Interface Design}{96}{subsection.3.4.6}%
-\contentsline {section}{\numberline {3.5}System Integration}{103}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Testing}{104}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Performance Testing}{104}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Usability Testing}{104}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Implementation}{105}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Calculation Requirements}{106}{subsection.3.7.1}%
-\contentsline {subsubsection}{\numberline {3.7.1.1}Load Analysis}{106}{subsubsection.3.7.1.1}%
-\contentsline {subsubsection}{\numberline {3.7.1.2}Battery Sizing}{107}{subsubsection.3.7.1.2}%
-\contentsline {subsubsection}{\numberline {3.7.1.3}Charging Time and Energy Calculations}{115}{subsubsection.3.7.1.3}%
-\contentsline {subsection}{\numberline {3.7.2}Standards and Guidelines Considered}{122}{subsection.3.7.2}%
-\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{123}{chapter.4}%
-\contentsline {chapter}{APPENDICES}{124}{chapter*.40}%
-\contentsline {chapter}{Appendix A: Step-by-Step Calculation}{124}{chapter*.40}%
+\contentsline {subsection}{\numberline {3.1.2}Materials and Cost}{49}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Materials and Cost}{49}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Return on Investment (ROI) Analysis}{50}{subsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.4.1}Payback Period Calculation}{50}{subsubsection.3.1.4.1}%
+\contentsline {subsubsection}{\numberline {3.1.4.2}Conversion of Payback Period to Years}{50}{subsubsection.3.1.4.2}%
+\contentsline {subsubsection}{\numberline {3.1.4.3}ROI Interpretation}{50}{subsubsection.3.1.4.3}%
+\contentsline {subsection}{\numberline {3.1.5}Research Setting}{51}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}User Definition}{52}{subsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.1.7}System Requirements}{52}{subsection.3.1.7}%
+\contentsline {section}{\numberline {3.2}System Design}{55}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}System Architecture}{56}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Flowchart}{58}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Context Level Diagram}{60}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Data Flow Diagram}{62}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Use Case Diagram}{64}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Solar Energy Harvesting}{66}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Energy Conversion DC to AC}{67}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Power Monitoring}{68}{subsection.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.9}GPS Tracking}{69}{subsection.3.2.9}%
+\contentsline {section}{\numberline {3.3}Hardware Development}{70}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Material Specifications}{70}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Circuit Diagram}{84}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Schematic Layout}{87}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Hardware Design}{90}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Software Development}{94}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Embedded System Software Development}{95}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Battery Monitoring and Power Calculation}{95}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Rental Time Tracking and Rule-Based Control}{96}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Mobile Application Development}{96}{subsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.4.1}Quasar Framework}{97}{subsubsection.3.4.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.4.2}Activity Diagram}{98}{subsubsection.3.4.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.4.3}GitHub}{99}{subsubsection.3.4.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4.4}Realtime Database}{100}{subsubsection.3.4.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.4.5}Cloud Firestore}{100}{subsubsection.3.4.4.5}%
+\contentsline {subsection}{\numberline {3.4.5}Network Encryption and Security Feature}{101}{subsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.5.1}MikroTik}{101}{subsubsection.3.4.5.1}%
+\contentsline {subsection}{\numberline {3.4.6}Graphical User Interface Design}{102}{subsection.3.4.6}%
+\contentsline {section}{\numberline {3.5}System Integration}{125}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Testing}{126}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Performance Testing}{126}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Usability Testing}{127}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Implementation}{127}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Calculation Requirements}{128}{subsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.1}Load Analysis}{128}{subsubsection.3.7.1.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.2}Battery Sizing}{129}{subsubsection.3.7.1.2}%
+\contentsline {subsubsection}{\numberline {3.7.1.3}Charging Time and Energy Calculations}{137}{subsubsection.3.7.1.3}%
+\contentsline {subsection}{\numberline {3.7.2}Standards and Guidelines Considered}{144}{subsection.3.7.2}%
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{145}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Hardware Testing Results and Discussion}{146}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Hardware Design}{146}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}Component Layout and System Arrangement}{147}{subsubsection.4.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}Physical Dimensions and Enclosure Specifications}{151}{subsubsection.4.1.1.2}%
+\contentsline {section}{\numberline {4.2}Mobile Application Testing Results}{156}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Graphical User Interface Implementation}{156}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Black Box Testing}{180}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}White Box Testing}{210}{subsection.4.2.3}%
+\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{211}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of Findings}{211}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Conclusion}{211}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Recommendations}{213}{section.5.3}%
+\contentsline {chapter}{APPENDICES}{214}{chapter*.79}%
+\contentsline {chapter}{Appendix A: Step-by-Step Calculation}{214}{chapter*.79}%
+\contentsline {chapter}{Appendix B: Gantt Chart}{218}{table.Alph0.65}%
+\contentsline {chapter}{Appendix C: Source Code}{219}{figure.caption.80}%
+\contentsline {chapter}{Appendix D: Letter of Consent}{220}{figure.caption.80}%
+\contentsline {chapter}{Appendix E: Interview Conducted}{222}{Item.23}%
+\contentsline {chapter}{Appendix F: Documentation}{253}{Item.133}%
+\contentsline {chapter}{Appendix G: Functional Test Form}{254}{Item.133}%
+\contentsline {chapter}{Appendix H: System Usability Test Form}{255}{Item.133}%
+\contentsline {chapter}{Appendix I: Nomination of Members for Oral Examination Panel Form}{256}{Item.133}%
+\contentsline {chapter}{Appendix J: Approved Application for Oral Defense Forms}{257}{Item.133}%
+\contentsline {chapter}{Appendix K: Revision Matrix}{258}{Item.133}%
+\contentsline {chapter}{Appendix L: Plagiarism Test Results}{259}{Item.133}%
+\contentsline {chapter}{Appendix M: Proofreading Certificate and Report of Rating}{260}{Item.133}%
+\contentsline {chapter}{REFERENCES}{261}{Item.133}%
+\contentsline {chapter}{Appendix N: Curriculum Vitae}{261}{Item.133}%
 \contentsfinish 
