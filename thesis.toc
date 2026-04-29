@@ -106,7 +106,7 @@
 \contentsline {section}{\numberline {5.3}Recommendations}{213}{section.5.3}%
 \contentsline {chapter}{APPENDICES}{214}{chapter*.79}%
 \contentsline {chapter}{Appendix A: Step-by-Step Calculation}{214}{chapter*.79}%
-\contentsline {chapter}{Appendix B: Gantt Chart}{218}{table.Alph0.65}%
+\contentsline {chapter}{Appendix B: Gantt Chart}{218}{table.Alph0.66}%
 \contentsline {chapter}{Appendix C: Source Code}{219}{figure.caption.80}%
 \contentsline {chapter}{Appendix D: Letter of Consent}{220}{figure.caption.80}%
 \contentsline {chapter}{Appendix E: Interview Conducted}{222}{Item.23}%
