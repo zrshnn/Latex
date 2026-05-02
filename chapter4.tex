@@ -1302,40 +1302,357 @@ Password: “nanan_58”
 \newpage
 \subsection {White Box Testing}
 
+% ----------- LOGIN -----------
+
 \renewcommand{\arraystretch}{1.4}
 
-\begin{longtable}{|p{3cm}|p{11cm}|}
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
 \hline
-\textbf{Test Scenario} & Account Creation Logic \\ \hline
-\textbf{Test Priority} & Verify validation for empty required fields. \\ \hline
-\textbf{Test Case Description} &  \\ \hline
-\textbf{Test Objective} &  \\ \hline
+\textbf{Test Scenario} & Log In Screen Functionality \\ \hline
+\textbf{Test Priority} & High \\ \hline
+\textbf{Description} & Verification of valid credentials logic.  \\ \hline
+\textbf{Objective} &  Validate successful authentication and redirection path. \\ \hline
 %\textbf{another row} &  \\ \hline
 \end{longtable}
 
 \vspace{-1.6\baselineskip}
 
-% ----------- STEPS TABLE -----------
-\begin{longtable}{|p{0.6cm}|p{1.5cm}|p{1cm}|p{1.5cm}|p{3cm}|p{3cm}|p{1.2cm}|}
-\hline
-\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
 
-1 & Leave a field empty and click ``Proceed''. & Empty Fields & & Null Check $>$ Disable. Button is disabled; validation errors appear. & Button disabled; relevant required-field errors displayed. & \\ \hline
+\begin{longtable}{|p{0.9cm}|p{1.4cm}|p{1.4cm}|p{2cm}|p{1.8cm}|p{2cm}|p{1.4cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+LG - 01 & Navigate to Login Screen and input valid credentials & Email: \newline \url{user@} \newline \url{gmail.com} \newline Pass: \newline 123456 & Login Screen $>$ \newline Firebase \newline logInUser \newline Auth $>$ \newline \url{router.} \newline \url{replace()} & User successfully logs in and is redirected to the Home Screen. & User successfully logged in. Redirected to the Home Screen. & Passed \\ \hline
+	
+LG - 02 & Input a valid email and verify data flow & Email: \newline \url{valid}\newline \url{mail@} \newline \url{example.com} \newline Pass: \newline pass123 & UI Input $>$ \newline \url{email.value} $>$ \newline \url{logInUser(} \newline \url{email.value,} \newline \url{pass.value)} & Email is correctly passed to the logInUser() method. & \url{logInUser()} called. Email passed successfully. & Passed \\ \hline
+	
+LG - 03 & Attempt login with empty Email field. & Email: \newline (empty) \newline Pass: \newline pass123 & logIn function $>$ \newline \url{!email.} \newline \url{value.trim()} \newline check $>$ \newline Early return & Validation fails; process does not proceed to Firebase. & Invalid credentials. Error message displayed. & Passed \\ \hline
+	
+LG - 04 & Attempt login with empty Password field. & Email: \newline \url{user@} \newline \url{gmail.com} \newline Pass: \newline (empty) & logIn function $>$ \newline \url{!password.value} check $>$ \newline Early return & Validation fails; process does not proceed to Firebase. & Error: "Please enter your password" displayed. & Passed \\ \hline
+	
+PA - 05 & Toggle password visibility. & Tap toggle icon (click event). & \url{show}\newline \url{Password} \newline state: \newline false $>$ true & Input type changes from "password" to "text". Icon changes. & Field toggles between masked and unmasked view. & Passed \\ \hline
+	
+LG - 06 & Tap "Log In" while \_isLoading is true. & Tap "Log In" button & logIn \newline function $>$ \url{if(is}\newline \url{Loading.} \newline \url{value)} check & Button remains disabled; indicator is rendered. & Progress Indicator displayed; button disabled. & Passed \\ \hline
+	
+LG - 07 & Use invalid credentials for login & Email: \newline \url{invalid} \newline \url{@gmail.com} \newline Pass: \newline pass123 & \url{logInUser()} $>$ \newline Firebase \newline Exception $>$ \newline catch block & Auth service triggers an error; message is displayed. & Error: "Invalid email or password" displayed. & Passed \\ \hline
+	
+WS - 08 & Tap "Sign Up" button. & None & Welcome Screen $>$ \newline signUp() $>$ \url{router.} \newline \url {push(name:} \newline \url {'signUp} \newline \url{Screen')} & Navigation logic triggers redirection. & User successfully navigated to SignUpScreen. & Passed \\ \hline
+	
+LG - 09 & Enter invalid email format. & Email: \newline \url{invalid}\newline \url{mail} \newline Pass: \newline pass123 & logIn func $>$ \newline \url{email}\newline \url{Pattern.} \newline \url{test()} check & Validation fails; error message is displayed. & Error: “Please enter a valid email address”. & Passed \\ \hline
 
-2 &  &  &  &  &  &  \\ \hline
-3 &  &  &  &  &  &  \\ \hline
-4 &  &  &  &  &  &  \\ \hline
-5 &  &  &  &  &  &  \\ \hline
-6 &  &  &  &  &  &  \\ \hline
-7 &  &  &  &  &  &  \\ \hline
-8 &  &  &  &  &  &  \\ \hline
-9 &  &  &  &  &  &  \\ \hline
-10 &  &  &  &  &  &  \\ \hline
-
+WS - 10 & Tap "Log In" button. & None & Welcome Screen $>$ \newline \url{router.push} \newline \url{('logIn} \newline \url {Screen')} & Navigation logic triggers redirection. & User successfully navigated to LogInScreen. & Passed \\ \hline
 \end{longtable}
 
 \renewcommand{\arraystretch}{1.4}
 
+<<<<<<< HEAD
+% ----------- SIGN UP -----------
+
+\renewcommand{\arraystretch}{1.4}
+
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
+	\hline
+	\textbf{Test Scenario} & Sign Up Screen Functionality \\ \hline
+	\textbf{Test Priority} & High \\ \hline
+	\textbf{Description} & Verification of multi-step registration logic and media capture. \\ \hline
+	\textbf{Objective} & Validate data persistence, navigation paths, and validation checks. \\ \hline
+\end{longtable}
+
+\vspace{-1.6\baselineskip}
+
+% ----------- STEPS TABLE -----------
+\begin{longtable}{|p{0.9cm}|p{1.4cm}|p{1.4cm}|p{2cm}|p{1.8cm}|p{2cm}|p{1.4cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+SU - 01 & Input all \newline required fields correctly and tap "Proceed." & First Name, Last Name, \newline Phone, \newline Email, \newline Password & \url{SignUp}\newline \url{Screen.vue} $>$ \url{proceed()} $>$ \newline Validation Pass $>$ \newline \url{router.push()} & User is redirected to the next page of the Sign Up Screen. & User redirected to the next page of Sign Up Screen. & Passed \\ \hline
+	
+SU - 02 & Use the date picker for the Birthday field. & Select a valid date, e.g., \newline "05/10/\newline2003" & \url{SignUp}\newline \url{Screen}\newline \url{Second.vue} $>$ \newline \url{input type=date} $>$ \newline \url{signUpData} \newline \url{.birthdate} & The selected date is captured by the \url{v-model} and displayed. & Selected date is displayed in the Birthday field correctly. & Passed \\ \hline
+	
+SU - 03 & Input all required fields correctly and tap "Proceed." & Sex, \newline Birthdate, \newline and Address & \url{SignUp}\newline \url{Screen}\newline \url{Second.vue} $>$ \newline \url{proceed()} $>$  \url{router.push()} & User is redirected to the Last Page (Profile Photo Upload). & User redirected to the profile photo upload page. & Passed \\ \hline
+	
+SU - 04 & Leave one field empty and \newline attempt to \newline proceed. & Empty field \newline (e.g., \newline firstName) is blank, but others are filled). & \url{proceed()} func $>$ \newline Empty check $>$ \newline \url{error}\newline \url{Message} \newline \url{.value} & User is notified to fill field; \newline navigation \newline is blocked. & Error message displayed. Navigation prevented. & Passed \\ \hline
+	
+SU - 05 & Toggle the Terms of Service & Tap on the \newline "Terms of \newline Service" link & \url{SignUp}\newline \url{Screen}\newline \url{Third.vue} $>$ \url{openTos()} $>$ \url{isTosOpen=true} & A modal overlay appears displaying the Terms of Service. & User successfully views the ToS in modal overlay. & Passed \\ \hline
+	
+SU - 06 & Toggle the Privacy Policy & Tap on the \newline "Privacy \newline Policy" link & \url{SignUp}\newline \url{Screen}\newline \url{Third.vue} \newline $>$ \url{open}\newline \url{Privacy} \url{()} $>$ \newline \url{isPrivacy}\newline \url{Open} & A modal overlay appears displaying the Privacy Policy. & User successfully views the Privacy Policy modal. & Passed \\ \hline
+	
+SU - 07 & Toggle checkbox for Terms of Service and Privacy. & Tap checkbox \newline (updates \newline variable) & \url{SignUp}\newline \url{Screen}\newline \url{Third.vue} \newline $>$ \url{v-model} $>$ \url{canCreate} & The checkbox toggles; Create button enables/ \newline disables. & Checkbox state toggled successfully. & Passed \\ \hline
+	
+SU - 08 & Upload a \newline Profile Photo & Tap Holder $>$ \newline Position face \newline $>$ Capture. & \url{startCamera} $>$ \url{detectFace} $>$ \url{uploadTo}\newline \url{Cloudinary} & Face is detected; URL saved to Cloudinary; preview updates. & Photo captured and uploaded successfully. & Passed \\ \hline
+	
+SU - 09  & Attempt "Create Account" without agreement. & Checkbox: \newline unchecked & \url{SignUp}\newline \url{Screen}\newline \url{Third.vue} $>$ \url{canCreate} \newline returns false & The "Create Account" button remains disabled. & Button is visually and functionally disabled. & Passed \\ \hline
+	
+\end{longtable}
+
+% ----------- SEARCH STATION-----------
+\renewcommand{\arraystretch}{1.4}
+
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
+	\hline
+	\textbf{Test Scenario} & Station Search Functionality \\ \hline
+	\textbf{Test Priority} & High \\ \hline
+	\textbf{Description} & Testing the functionality and component flow of the Station Search using white-box testing. \\ \hline
+	\textbf{Objective} & Validate search logic, data retrieval, and error handling branches. \\ \hline
+\end{longtable}
+
+\vspace{-1.6\baselineskip}
+
+% ----------- STEPS TABLE -----------
+\begin{longtable}{|p{0.9cm}|p{1.4cm}|p{1.4cm}|p{2cm}|p{1.8cm}|p{2cm}|p{1.4cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+	ST - 01 & Trigger \url{search} \newline \url{Station} & \url{searchId}\newline \url{=} \newline \url{"0002"} & \url{getStation} \newline \url{(id)} \newline returns data $>$ \newline \url{router.push()} & User is navigated to station screen with ID "0002". & Search successful. Navigating to Station Screen. & Passed \\ \hline
+	
+	ST - 02 & Trigger \url{search} \newline \url{Station} & \url{searchId}\newline \url{=} "" & \url{if (!id)} \newline branch & \url{search} \newline \url{Error} \newline updates to "Please enter a Station ID." & FAILED - Empty ID. Message displayed correctly. & Passed \\ \hline
+	
+	ST - 03 & Trigger \url{search} \newline \url{Station} & \url{searchId}\newline \url{=} \newline \url{"9999"} & \url{getStation} \newline \url{(id)} \newline returns null $>$ \newline else branch & \url{search} \newline \url{Error} displays: "Station '9999' not found." & FAILED - Data null. "Station not found" displayed. & Passed \\ \hline
+	
+\end{longtable}
+
+\vspace{1\baselineskip}
+
+% ----------- LOGIN DOCUMENTATION -----------
+\begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	LG - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-01-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	LG - 02 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-02-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-02-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	LG - 03 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-03-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-03-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	LG - 04 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-04-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-04-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	PA - 05 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PA-05-code.png}
+		\vspace{0.2cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/PA-05-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	LG - 06 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-06-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-06-result.png}
+	\vspace{0.1cm} 
+	\end{minipage} \\ \hline
+	LG - 07 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-07-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-07-result.png}
+	\vspace{0.1cm}
+	\end{minipage}\\ \hline
+WS - 08 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/WS-08-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/WS-08-result.png}
+	\vspace{0.1cm}
+	\end{minipage}\\ \hline
+	LG - 09 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-09-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-09-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+WS - 10 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/WS-10-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/WS-10-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+\end{longtable}
+
+% ----------- SIGN UP DOCUMENTATION -----------
+\begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	SU - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 02 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-02-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-02-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 03 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-03-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-03-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 04 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-04-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-04-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 05 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-05-code.png}
+		\vspace{0.2cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-05-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 06 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-06-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-06-result.png}
+		\vspace{0.1cm} 
+	\end{minipage} \\ \hline
+	SU - 07 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-07-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-07-result.png}
+		\vspace{0.1cm}
+	\end{minipage}\\ \hline
+	SU - 08 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-08-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-08-result.png}
+		\vspace{0.1cm}
+	\end{minipage}\\ \hline
+	SU - 09 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-09-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-09-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+\end{longtable}
+=======
 \begin{longtable}{|p{1cm}|p{6.3cm}|p{6.3cm}|}
 \hline
 \textbf{No.} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
@@ -1396,3 +1713,4 @@ Furthermore, the system’s ability to provide immediate feedback and correctly 
 As shown in Table 4.8, the resulting SUS score was 87.5, corresponding to an A+ grade and an Adjectival Rating of ``Best Imaginable.'' This high score reflects excellent usability, indicating that community residents positively received the system in terms of interface design, ease of navigation, and overall functionality. The results suggest that users were able to effectively interact with the mobile application, perform essential tasks such as logging in, accessing system features, and understanding system prompts with minimal difficulty.
 
 Furthermore, the high usability rating demonstrates that the solar-powered rental station with detachable power sources provides a user-friendly and efficient experience, particularly during power interruption scenarios where accessibility and ease of use are critical. Although minor concerns such as initial familiarization or the need for minimal guidance may arise, the overall feedback indicates a highly satisfactory user experience. These findings validate that the system is both functionally reliable and usable for community residents, ensuring its practicality and effectiveness in real-world community deployment.
+>>>>>>> 686c69d18c3c52811431008738cfb8f76f4ba22e
