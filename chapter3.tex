@@ -209,6 +209,32 @@ The Figure 3.4 illustrates the overall architecture of the Solar-Powered Rental 
 
 This system is designed to provide a sustainable, secure, and user-friendly power source solution for communities, utilizing solar energy and modern IoT technologies for enhanced management and accessibility.
 
+\begin{figure}[H]
+	\centering
+	\caption{System Architecture (Detachable Power Sources)}
+	\label{fig:architecture}
+	\includegraphics[width=1\textwidth]{figures/system-archi-detachable.jpg}
+\end{figure}
+
+The detachable power source is a self-contained, portable energy unit designed to store, manage, and deliver electrical power while enabling real-time monitoring, secure access, and IoT-based communication. It serves as the core component of the proposed solar-powered rental station, allowing users to access electricity during power interruptions.
+
+At the heart of the system is a LiFePO₄ battery, which functions as the primary energy storage unit. This battery is selected due to its high efficiency, longer lifespan, deeper depth of discharge, and low maintenance requirements, making it suitable for frequent charge–discharge cycles in rental-based applications. The stored DC energy from the battery is distributed to multiple subsystems responsible for power conversion, monitoring, and control.
+
+\begin{itemize}
+	
+	\item \textit{Power Distribution and Conversion} - The Power Inverter converts the DC power stored in the battery into AC electricity, allowing the system to operate household appliances beyond basic charging needs. Meanwhile, the Buck Converter steps down the battery voltage to a stable and lower level suitable for low-power components such as the ESP32, GPS module, and sensors. Together, these components enable the system to support both AC-powered appliances and regulated DC-powered electronics simultaneously, enhancing overall versatility.
+	
+	\item \textit{Monitoring and Sensing Mechanism} - The Voltage Divider scales down the battery voltage to a safe and readable level for the microcontroller, ensuring accurate data acquisition. Through the Battery Monitoring handled by the ESP32, the system continuously tracks the battery percentage, which is essential for real-time monitoring, pricing computation, and telemetry reporting. This mechanism enables the system to utilize battery data for credit calculation and efficient energy management.
+	
+	\item \textit{Microcontroller and IoT Integration}- The ESP32 Microcontroller serves as the central processing unit, responsible for collecting data, managing communication, and controlling system operations. It connects to a Wi-Fi Router, which provides internet access and allows communication with external platforms. Data is then stored and synchronized in Firebase (Real-Time Database), enabling remote monitoring, mobile application integration, and system analytics. This integration establishes the system as IoT-enabled, supporting real-time monitoring and remote control.
+	
+	\item \textit{GPS Tracking and Security Features} - The GPS Module is responsible for tracking the real-time location of the detachable power source during usage. Through integration with the ESP32 and network connectivity, location data is transmitted to the system for monitoring. This ensures device security, accountability, and traceability, helping prevent loss or unauthorized use of the unit.
+	
+	\item \textit{Physical Connectivity and Detachability} -  The Magnetic Connectors allow easy attachment and detachment of the power source, making the system user-friendly and efficient during operation. At the same time, the Docked Pins ensure a stable and reliable electrical connection between the detachable unit and the main station. These components enhance usability, safety, and durability, making the system suitable for real-world community deployment.
+	
+	\item \textit{Control and Switching Mechanism} - The 5V Relay Module controls the flow of electricity by enabling or disabling power output based on system commands. It allows low-power control signals to manage higher voltage circuits safely and efficiently. This component ensures controlled and automated power access, supporting the system’s rental activation and operational safety.
+\end{itemize}
+
 \subsection{Flowchart}
 \begin{figure}[H]
 	\centering
@@ -729,10 +755,11 @@ Figure 3.14 shows the circuit diagram of the rental station, illustrating the in
 	\centering
 	\caption{Circuit Diagram of Detachable Power Sources }
 	\label{fig:circuitdetachable}
-	\includegraphics[width=1\textwidth]{figures/circuit_power.png}
+	\includegraphics[width=1\textwidth]{figures/circuit-diagram-detachable.png}
 \end{figure}
 
-Figure 3.15 shows the circuit diagram of the detachable power sources, illustrating the integrated hardware architecture of the ESP32-based control system and how the microcontroller interfaces with the 16×2 I2C LCD, GSM module, GPS module, and the battery.  The LCD is connected directly to the ESP32 via I2C communication lines to display system information and operational status. The GSM module is interfaced through the ESP32’s UART pins to enable wireless data communication, while the GPS module is connected similarly for real-time position tracking. The battery voltage is monitored by the ESP32 through a voltage divider, allowing the system to estimate the battery’s capacity. Overall, the figure highlights how each component is systematically integrated to form a reliable, coordinated, and fully functional control system.
+The circuit diagram represents the auxiliary control and monitoring subsystem of the proposed solar-powered rental station with detachable power sources. It is powered by a 12V DC source with a 3A fuse for protection, while a WiFi router provides internet connectivity for real-time data transmission and IoT-based monitoring. A voltage divider network scales down the battery voltage to a safe level for the ESP32 microcontroller, enabling accurate measurement of battery status and supporting system functions such as rental management and telemetry reporting. 
+The ESP32 serves as the main control unit, managing inputs, communication, and system operations. It controls a relay module that regulates power delivery to the inverter, ensuring safe and controlled energy distribution. An I2C LCD displays real-time system information, improving user interaction, while a GPS module enables location tracking of the detachable power source for security and monitoring purposes. Overall, the circuit integrates control, monitoring, communication, and tracking features, contributing to an efficient and reliable energy management system for communities experiencing frequent power interruptions.
 
 \subsection{Schematic Layout}
 
