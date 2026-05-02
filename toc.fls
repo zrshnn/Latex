@@ -4,97 +4,97 @@ INPUT c:\Users\Maurice Mary Simon\.vscode\Latex\toc.tex
 OUTPUT toc.log
 INPUT .\maththesis.cls
 INPUT maththesis.cls
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\tools\indentfirst.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\tools\indentfirst.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\base\report.cls
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\base\report.cls
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\base\size12.clo
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\base\size12.clo
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\base\size12.clo
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\tools\indentfirst.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\tools\indentfirst.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\base\ifthen.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\graphics\color.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\graphics\color.sty
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\toc.aux
 INPUT .\toc.aux
 INPUT toc.aux
 OUTPUT toc.aux
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl12.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Maurice Mary Simon\Application Mods\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\tfm\public\cm\cmsl12.tfm
 OUTPUT toc.pdf
 INPUT C:\Users\Maurice Mary Simon\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT toc.aux
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
-INPUT C:\Users\Maurice Mary Simon\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\Maurice Mary Simon\Application Mods\fonts\type1\public\amsfonts\symbols\msbm10.pfb
