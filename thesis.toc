@@ -100,24 +100,24 @@
 \contentsline {subsection}{\numberline {4.2.1}Graphical User Interface Implementation}{156}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Black Box Testing}{180}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}White Box Testing}{210}{subsection.4.2.3}%
-\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{211}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary of Findings}{211}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Conclusion}{211}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Recommendations}{213}{section.5.3}%
-\contentsline {chapter}{APPENDICES}{214}{chapter*.79}%
-\contentsline {chapter}{Appendix A: Step-by-Step Calculation}{214}{chapter*.79}%
-\contentsline {chapter}{Appendix B: Gantt Chart}{218}{table.Alph0.66}%
-\contentsline {chapter}{Appendix C: Source Code}{219}{figure.caption.80}%
-\contentsline {chapter}{Appendix D: Letter of Consent}{220}{figure.caption.80}%
-\contentsline {chapter}{Appendix E: Interview Conducted}{222}{Item.23}%
-\contentsline {chapter}{Appendix F: Documentation}{253}{Item.133}%
-\contentsline {chapter}{Appendix G: Functional Test Form}{254}{Item.133}%
-\contentsline {chapter}{Appendix H: System Usability Test Form}{255}{Item.133}%
-\contentsline {chapter}{Appendix I: Nomination of Members for Oral Examination Panel Form}{256}{Item.133}%
-\contentsline {chapter}{Appendix J: Approved Application for Oral Defense Forms}{257}{Item.133}%
-\contentsline {chapter}{Appendix K: Revision Matrix}{258}{Item.133}%
-\contentsline {chapter}{Appendix L: Plagiarism Test Results}{259}{Item.133}%
-\contentsline {chapter}{Appendix M: Proofreading Certificate and Report of Rating}{260}{Item.133}%
-\contentsline {chapter}{REFERENCES}{261}{Item.133}%
-\contentsline {chapter}{Appendix N: Curriculum Vitae}{261}{Item.133}%
+\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{221}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of Findings}{221}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Conclusion}{221}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Recommendations}{223}{section.5.3}%
+\contentsline {chapter}{APPENDICES}{224}{chapter*.79}%
+\contentsline {chapter}{Appendix A: Step-by-Step Calculation}{224}{chapter*.79}%
+\contentsline {chapter}{Appendix B: Gantt Chart}{228}{table.Alph0.72}%
+\contentsline {chapter}{Appendix C: Source Code}{229}{figure.caption.80}%
+\contentsline {chapter}{Appendix D: Letter of Consent}{230}{figure.caption.80}%
+\contentsline {chapter}{Appendix E: Interview Conducted}{232}{Item.23}%
+\contentsline {chapter}{Appendix F: Documentation}{263}{Item.133}%
+\contentsline {chapter}{Appendix G: Functional Test Form}{264}{Item.133}%
+\contentsline {chapter}{Appendix H: System Usability Test Form}{265}{Item.133}%
+\contentsline {chapter}{Appendix I: Nomination of Members for Oral Examination Panel Form}{266}{Item.133}%
+\contentsline {chapter}{Appendix J: Approved Application for Oral Defense Forms}{267}{Item.133}%
+\contentsline {chapter}{Appendix K: Revision Matrix}{268}{Item.133}%
+\contentsline {chapter}{Appendix L: Plagiarism Test Results}{269}{Item.133}%
+\contentsline {chapter}{Appendix M: Proofreading Certificate and Report of Rating}{270}{Item.133}%
+\contentsline {chapter}{REFERENCES}{271}{Item.133}%
+\contentsline {chapter}{Appendix N: Curriculum Vitae}{271}{Item.133}%
 \contentsfinish 
