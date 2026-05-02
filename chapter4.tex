@@ -8,14 +8,141 @@ This chapter presents the results and discussion of the testing and evaluation c
 
 The results obtained from these tests are analyzed in relation to the objectives of the study to determine the system’s effectiveness, reliability, and efficiency in providing a sustainable and accessible power solution. Furthermore, this chapter discusses the system’s strengths, identifies encountered issues, and highlights areas for improvement based on the observed performance during testing.
 
-
 }
 
+\section {Solar Energy Harvesting}
+
+The solar energy harvesting component of the system functions as the primary source of power generation. Photovoltaic (PV) panels capture solar radiation and convert it into direct current (DC) electricity through the photovoltaic effect. This generated energy is then regulated by a solar charge controller to ensure safe and efficient charging of the LiFePO4 battery, preventing overcharging and voltage fluctuations. Protective components such as DC breakers are integrated to safeguard the system against electrical faults.
+
+The effectiveness of solar energy harvesting was observed to be dependent on environmental conditions, particularly solar irradiance and weather patterns. Under optimal sunlight conditions, the system consistently generated sufficient energy to charge the station battery and support the charging of detachable power sources. This confirms that the integration of photovoltaic technology provides a sustainable and reliable off-grid energy solution for communities experiencing frequent power interruptions .
+
+\newpage
+
+\section {Battery DC Power Converted to AC Output via Inverter}
+
+The stored DC power in the LiFePO4 battery is converted into alternating current (AC) using a pure sine wave inverter. This conversion is necessary to supply electricity compatible with common household appliances, which typically operate on AC power. The inverter ensures stable voltage output and waveform quality, enabling safe operation of small-to-medium scale electrical devices.
+
+Results show that the inverter successfully delivered usable AC power with minimal energy loss, maintaining consistent output during operation. This demonstrates that the system is capable of supporting practical household applications, thereby enhancing its usability as a temporary backup power source. The integration of the inverter is critical in bridging the gap between renewable energy storage and real-world appliance compatibility .
+
+\newpage
+
+\section {ESP32 Measures Battery Voltage and Displays Data on LCD}
+
+The ESP32 microcontroller plays a vital role in monitoring system parameters, particularly battery voltage levels. It continuously reads voltage data from the battery and processes this information for real-time display on the LCD interface. This allows users and administrators to monitor the current energy status of the system.
+
+The implementation demonstrated accurate and responsive voltage readings, which were effectively displayed on the LCD. This feature enhances system transparency and usability by providing immediate feedback on battery conditions, enabling users to make informed decisions regarding power usage and rental availability.
+
+\newpage
+
+\section {ESP32 Receives Location Data From GPS Satellites Using WiFi}
+
+The system integrates GPS and communication modules to enable location tracking of detachable power sources. The GPS module collects real-time geographic coordinates from satellites, while the ESP32 processes this data and transmits it via network connectivity (WiFi/GSM) to the system database and mobile application.
+
+Testing confirmed that the system can reliably acquire and transmit location data, allowing both users and administrators to monitor the position of rented units. This feature significantly enhances system security and accountability, ensuring that portable power sources are trackable throughout the rental duration .
+
+\newpage
+
+\section {Battery Monitoring and Power Calculation}
+
+Battery monitoring is implemented through continuous measurement of voltage, usage duration, and remaining capacity. The system calculates the available power based on battery percentage and tracks energy consumption during rental use. This data is used to determine system performance and efficiency.
+
+The results indicate that the monitoring system provides accurate estimations of battery status, enabling effective management of energy resources. Additionally, the calculated unused power serves as a basis for credit computation, supporting the system’s reward mechanism and promoting efficient energy usage.
+
+\newpage
+
+\section {Rental Time Tracking and Rule-Based Control}
+
+The system incorporates a rule-based control mechanism to manage rental duration and enforce usage policies. Each rental session is limited to a predefined time (e.g., 12 hours), which is tracked by the ESP32. Automated notifications are sent to users prior to expiration, and repeated alerts are triggered if the unit is not returned on time.
+
+This functionality was observed to operate reliably, ensuring compliance with rental rules and minimizing misuse. The implementation of automated tracking and alerts enhances operational efficiency and reduces the need for manual monitoring.
+
+\newpage
+
+\section {Network Encryption Security Feature}
+
+To ensure secure communication between system components, network encryption mechanisms are implemented. These mechanisms protect sensitive data such as user information, transaction records, and telemetry data from unauthorized access.
+
+The system demonstrated secure data transmission across connected devices, maintaining confidentiality and integrity. This security layer is essential in preventing data breaches and ensuring trust in the system’s digital infrastructure.
+
+\vspace{1em} 
+
+\subsection {Mikrotik}
+
+\newpage
+
+\section {Performance Testing}
+
+Performance testing evaluated the system’s functionality in terms of responsiveness, reliability, and operational stability. Key parameters included power generation efficiency, system response time, and communication latency.
+
+Results showed that the system maintained stable operation under normal conditions, with minimal delays in data transmission and processing. This indicates that the system meets the required performance standards for real-time monitoring and control.
+
+\newpage
+
+\section {Usability Testing}
+
+Usability testing assessed the user experience in interacting with the system, including the mobile application, rental process, and physical interface. Participants evaluated ease of use, clarity of instructions, and overall satisfaction.
+
+Findings revealed that the system is user-friendly and accessible, with intuitive interfaces that facilitate smooth operation. This supports the system’s applicability for community use, particularly among non-technical users.
+
+\newpage
+
+\section {Load Analysis}
+
+Load analysis was conducted to determine the system’s capability to support various electrical devices. The total load demand was calculated based on the power ratings of connected appliances.
+
+The system was found to effectively support small-to-medium scale loads within its design capacity. This confirms that the system can provide practical energy support for essential household devices during power interruptions.
+
+\newpage
+
+\section {Detachable Power Source - Battery Capacity}
+
+The detachable power source utilizes LiFePO4 batteries, selected for their high efficiency, long cycle life, and safety. The battery capacity determines the duration and extent of power availability during rental use.
+
+Results indicate that the selected battery configuration provides sufficient energy for extended usage, supporting the system’s goal of delivering reliable portable power.
+
+\newpage
+
+\section {Panel Sizing}
+
+Panel sizing was determined based on energy demand, battery capacity, and average solar irradiance. The selected solar panel configuration ensures adequate energy generation to meet system requirements.
+
+The sizing calculations were validated through system performance, confirming that the panels can sufficiently recharge the battery under typical operating conditions.
+
+\newpage
+
+\section {Inverter Sizing}
+
+The inverter was sized according to the maximum expected load, ensuring that it can handle peak power demands without failure. Proper sizing prevents overloading and enhances system reliability.
+
+Testing confirmed that the inverter operates within safe limits while supporting the intended load range.
+
+\newpage
+
+\section {Solar Charge Controller Sizing}
+
+The solar charge controller was selected based on panel output and battery specifications. It regulates charging current and voltage to protect the battery and optimize energy transfer.
+
+The controller performed effectively, maintaining safe charging conditions and improving overall system efficiency.
+
+\newpage
+
+\section {Charging Time and Energy Calculation}
+
+\subsection {Charging Time of the Station Battery Using Solar Panel}
+
+The charging time of the station battery depends on solar panel output and battery capacity. Under optimal conditions, the system achieved efficient charging within the expected time frame, demonstrating effective energy harvesting.
+
+\subsection {Energy Feasibility of Charging Detachable Power Source}
+Energy feasibility analysis evaluated whether the harvested solar energy is sufficient to charge detachable units. Results confirm that the system can sustain charging operations while maintaining battery reserves.
+
+\subsection {Charging Time of a Single Detachable Power Source}
+The charging duration for a single unit was measured based on battery capacity and charging current. The results indicate a consistent and predictable charging time under standard conditions.
+
+\subsection {Charging Time of a Double Detachable Power Source}
+When charging two units simultaneously, the system exhibited increased charging time due to shared power distribution. However, the system remained stable and capable of handling multiple charging loads.
 
 
-
-
-
+\newpage
 \section {Hardware Testing Results and Discussion}
 
 
