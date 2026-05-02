@@ -145,22 +145,21 @@ Community Resident - A person residing in a local community who is actively invo
 	Input Requirements & - The system shall collect user information during account registration through designated input fields in the mobile application. \\
 	& - The system shall accept user login credentials such as username and password for authentication. \\
 	& - The system shall accept rental requests, including power source selection, rental duration, and payment method (coin-based or app-based).\\
-	& - The system shall receive telemetry data from each power source, including battery percentage, GPS location, and rental status through the GSM module. \\
-	& - The system shall receive telemetry data from each power source, including battery percentage, GPS location, and rental status through the GSM module.  \\
+	& - The system shall receive telemetry data from each power source, including battery percentage, GPS location, and rental status through the GPS and SMS notifier. \\
 	\hline
 	
 	Process Requirements & - The system shall process rental transactions by verifying payment completion before authorizing power source access. \\
 	& - The system shall generate and transmit an access token or unlock code to the power source upon successful rental approval. \\
 	& - The system shall continuously monitor and record the battery level, location, and usage duration of active rentals. \\
-	& - The system shall automatically send an SMS notification via GSM one hour before the allotted 12-hour usage period ends, and if the user exceeds the 12-hour limit, it shall continue sending overdue alerts every 10 minutes until the item is returned. \\
+	& - The system shall automatically send an SMS notification via the Notifier one hour before the allotted 12-hour usage period ends, and if the user exceeds the 12-hour limit, it shall continue sending overdue alerts every 10 minutes until the item is returned. \\
 	& - The system shall process the return of rented power sources by validating device ID, updating the database, and releasing the final transaction summary. \\
 	& - The system shall calculate credit earned for users based on unused power and reflect the updated balance in the users mobile application account. \\
 	\hline
 	
 	Output Requirements & - The system shall display rental confirmation details such as power source ID, rental duration, and current charge level. \\
 	& - The system shall provide updates on the detachable power source, provide user logs, and notify the admin whenever a new account is created. \\
-	& - The system shall generate the location of the rented power source using the GSM module. \\
-	& - The system shall generate notifications on the mobile app, including GPS location, and rental time remaining. \\
+	& - The system shall generate the GPS coordinates of the rented power source to the admin dashboard. \\
+	& - The system shall generate notification alerts on the mobile application, including rental confirmation, rental failure, and return confirmation of the power source.  \\
 	& - The system shall calculate the unused power of the returned detachable power source and convert it into a credit stored in the user’s mobile app. \\
 	\hline
 	
@@ -169,7 +168,7 @@ Community Resident - A person residing in a local community who is actively invo
 	\hline
 	
 	Performance Requirements & - The system shall maintain fast response time during login, payment processing, and rental activation to ensure a smooth user experience. \\
-	& - The system shall provide monitoring and synchronization of power source data through reliable GSM and IoT communication.\\
+	& - The system shall provide monitoring and synchronization of power source data through the notifier and IoT communication.\\
 	& - The system shall ensure continuous operation and high availability to prevent service interruptions during rentals. \\
 	\hline
 	
@@ -190,24 +189,6 @@ This section outlines the system design of the proposed system and serves as the
 \end{figure}
 
 The Figure 3.4 illustrates the overall architecture of the Solar-Powered Rental Station with Detachable Power Sources. The system is designed to harvest solar energy, convert it to usable power, and provide access to users through various interfaces and technologies.
-
-\begin{itemize}
-	
-	\item \textit{Solar Energy Collection and Storage} - PV panels capture solar energy, which is stored in a \ce{LiFePO4}  battery through a solar charge controller and DC breakers for protection.
-	
-	\item \textit{Energy Conversion} - The stored DC power is converted to AC using a power inverter to supply household appliances.
-	
-	\item \textit{User Interface and Control }- The ESP32 microcontroller connects with a mobile app via a router and Firebase, allowing users to monitor battery levels and manage rental requests.
-	
-	\item \textit{Power Access and Management} - A coin slot and relay control access to the power source, while an LCD displays system status.
-	
-	\item \textit{GPS Tracking and Securit}y -  A GPS and GSM module track the power source’s location, ensuring security and preventing theft.
-	
-	\item \textit{Admin Control} - Admins can monitor and manage the system through a mobile interface, overseeing usage and system health.
-	
-\end{itemize}
-
-This system is designed to provide a sustainable, secure, and user-friendly power source solution for communities, utilizing solar energy and modern IoT technologies for enhanced management and accessibility.
 
 \begin{figure}[H]
 	\centering
@@ -325,7 +306,7 @@ The Figure 3.11 illustrates the power monitoring system used to keep track of th
 
 \begin{figure}[H]
 	\centering
-	\caption{ESP32 receives location data from GPS satellites using GSM Module}
+	\caption{ESP32 receives location data from GPS satellites}
 	\label{fig:gps tracking}
 	\includegraphics[width=1\textwidth]{figures/tracking.png}
 \end{figure}
@@ -423,11 +404,6 @@ The following table outlines the key considerations for selecting hardware compo
 	& Voltage Rating & 600V \\
 	& Current Capacity & 30-70A \\
 	& Length & 0.5-1 m \\
-	
-	\addlinespace[0.6em]
-	
-	GSM Module & Operating Voltage & 5V DC \\
-	& Network & 2G / 3G GSM \\
 	
 	\addlinespace[0.6em]
 	
@@ -606,19 +582,6 @@ The following table outlines the key considerations for selecting hardware compo
 		\centering
 		
 		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/gsm.png}
-		\text{GSM module} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	The GSM module was selected to enable remote communication between the rental system and the server. It facilitates sending SMS alerts or notifications regarding rental status, battery level, and system operations, ensuring timely monitoring and management. \\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
 		\includegraphics[width=0.8\linewidth]{figures/gps.png}
 		\text{GPS Module} % text above the image
 		\vspace{0.3cm}
@@ -738,7 +701,7 @@ Table 5 presents the selection of hardware components used in the development of
 
 Particular emphasis was placed on reliability and energy efficiency to ensure consistent performance in areas experiencing frequent power interruptions. Key components such as the monocrystalline solar panel and LiFePO₄ battery were selected to provide effective energy harvesting and stable, long-term power storage. In addition, power management and safety devices, including the MPPT charge controller, circuit breakers, relays, and pure sine wave inverter, were incorporated to regulate energy flow, protect system components, and ensure safe operation during use.
 
-Furthermore, the system integrates control, communication, and user interface components to enhance functionality and accessibility. The ESP32 microcontroller, along with GSM, GPS, and Wi-Fi modules, enables real-time monitoring, data transmission, and automation of system processes. User interaction is facilitated through components such as LCD modules and the coin-slot mechanism, while security is reinforced through the use of solenoid locks and tracking features. Overall, the selected hardware components work together to form a cohesive, efficient, and user-oriented system designed for practical deployment in community settings.
+Furthermore, the system integrates control, communication, and user interface components to enhance functionality and accessibility. The ESP32 microcontroller, along with GPS, and Wi-Fi modules, enables real-time monitoring, data transmission, and automation of system processes. User interaction is facilitated through components such as LCD modules and the coin-slot mechanism, while security is reinforced through the use of solenoid locks and tracking features. Overall, the selected hardware components work together to form a cohesive, efficient, and user-oriented system designed for practical deployment in community settings.
 
 
 \subsection{Circuit Diagram}
@@ -814,7 +777,6 @@ Figure 3.19 shows the proposed 3D design of the detachable power source viewed f
 	\endfoot
 	
 	GPS Module x 3 & 25 g \\ 
-	GSM Module & 30 g \\ 
 	LCD 16X2 &  120 g \\
 	ESP32 x 3 & 25 g \\
 	\ce{LiFePO4} Batterry x 2 &  2500 g (2.5 kg) \\
@@ -823,7 +785,7 @@ Figure 3.19 shows the proposed 3D design of the detachable power source viewed f
 	AC Breaker & 250 g \\
 	Cooling Fan &  200 g \\
 	\midrule
-	\textbf{Total Weight Calculated} & \textbf{5300 g or 5.3 kg} \\
+	\textbf{Total Weight Calculated} & \textbf{5270 g or 5.27 kg} \\
 \end{longtable}
 
 Table 6 shows the estimated weight of the components inside the detachable power source and its total weight calculated of it. Excluding the enclosure or outer casing, the detachable power source is estimated to weigh approximately 5.3 kg. The majority of the weight comes from the \ce{LiFePO4} battery and the 1000 W power inverter, which together account for more than 80\% of the total mass, while the control electronics and auxiliary components contribute only a small fraction of the overall weight.
