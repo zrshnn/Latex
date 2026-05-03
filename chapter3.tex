@@ -1400,6 +1400,78 @@ This section discusses the deployment and actual operation of the completed sola
  \end{longtable}
 \end{itemize}
 
+\subsubsection{LiFePO4 Battery Voltage-to-State of Charge Reference Table}
+
+For a 12V LifePO4 system, voltage around 13.0V or above indicates normal operation while voltage drops below 12.5 under load typically signal that the battery is approaching its lower usable range. The battery voltage to percentage conversion as shown in the table below are calculated based on the comprehensive guides of a Life PO4 12V Battery Voltage Chart of Lee D. (2025) who is a Renewable Energy Consultant, and Emma (2024) of Vatrerpower who has 15 years of experience in energy storage solutions. 
+
+
+\begin{longtable}{|p{2.5cm}|p{4cm}|p{4cm}|}
+\caption{Battery Percentage and Voltage Readings} \label{tab:battery_readings} \\
+\hline
+\rowcolor[gray]{0.9} 
+\textbf{Percentage} & 
+\textbf{Voltage Reading (State on Charge)} & 
+\textbf{Voltage Reading (Under Load)} \\ \hline
+\endfirsthead
+
+\multicolumn{3}{c}{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+\hline
+\rowcolor[gray]{0.9} 
+\textbf{Percentage} & 
+\textbf{Voltage Reading (State on Charge)} & 
+\textbf{Voltage Reading (Under Load)} \\ \hline
+\endhead
+
+\hline \multicolumn{3}{r}{{Continued on next page}} \\ \hline
+\endfoot
+
+\hline
+\endlastfoot
+
+100\% & 13.6V & 13.2V \\
+90\%  & 13.5V & 13.1V \\
+80\%  & 13.4V & 13.0V \\
+70\%  & 13.3V & 12.9V \\
+60\%  & 13.2V & 12.8V \\
+50\%  & 13.1V & 12.7V \\
+40\%  & 13.0V & 12.6V \\
+30\%  & 12.9V & 12.5V \\
+20\%  & 12.7V & 12.3V \\
+10\%  & 12.4V & 12.2V \\
+0\%   & 12.2V & 12.0V \\
+\end{longtable}
+
+
+\subsubsection{Battery to ESP32 Voltage Reading}
+
+\begin{figure}[H]
+\centering
+\caption{Battery to ESP32 Voltage Reading}
+\label{fig:voltage reading}
+\includegraphics[width=1\textwidth]{figures/voltage-reading.png}
+\end{figure}
+
+To read the actual voltage of the LifePO4 Battery for battery to percentage conversion, a voltage divider was utilized to remain within the 3.3V maximum reading of a ESP32 ADC pin.
+
+\begin{equation}
+    V_{out} = V_{in} \times \left( \frac{R_2}{R_1 + R_2} \right)
+\end{equation}
+
+\begin{equation}
+    V_{in} = \frac{V_{out}}{\left( \frac{R_2}{R_1 + R_2} \right)}
+\end{equation}
+
+
+
+For confirmation of accuracy, a comparison was made through an Ingco Digital Multimeter voltage reading which is a global brand known for high-performance tools such as power tools. Its reading is compared based on the voltage displayed in the LCD which is calculated through the utilization of a voltage divider and the  formulas above.
+
+\begin{figure}[H]
+\centering
+\caption{Multimeter Reading for Confirmation}
+\label{fig:welcome}
+\includegraphics[width=1\textwidth]{figures/multimeter-reading.png}
+\end{figure}
+
   \subsection{Standards and Guidelines Considered}
   
   The design and evaluation of the solar-powered rental station were guided by several internationally recognized standards to ensure safety, reliability, and environmental compliance. 
