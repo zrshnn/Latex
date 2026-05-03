@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.4.27)  2 MAY 2026 21:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.4.27)  3 MAY 2026 04:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1652,1041 +1652,1120 @@ Package pdftex.def Info: figures/harvesting.png  used on input line 278.
 
 
 [69 <./figures/harvesting.png>]
-<figures/conversion.png, id=462, 3364.57pt x 502.87875pt>
+<figures/station charge flow.png, id=462, 983.675pt x 501.875pt>
+File: figures/station charge flow.png Graphic file (type png)
+<use figures/station charge flow.png>
+Package pdftex.def Info: figures/station charge flow.png  used on input line 287.
+(pdftex.def)             Requested size: 397.48502pt x 202.79878pt.
+
+
+[70 <./figures/station charge flow.png>]
+<figures/conversion.png, id=468, 3364.57pt x 502.87875pt>
 File: figures/conversion.png Graphic file (type png)
 <use figures/conversion.png>
-Package pdftex.def Info: figures/conversion.png  used on input line 289.
+Package pdftex.def Info: figures/conversion.png  used on input line 300.
 (pdftex.def)             Requested size: 397.48502pt x 59.4067pt.
-<figures/monitoring.png, id=463, 1081.03876pt x 391.4625pt>
+
+
+[71]
+<figures/bat-extension.png, id=474, 602.25pt x 421.575pt>
+File: figures/bat-extension.png Graphic file (type png)
+<use figures/bat-extension.png>
+Package pdftex.def Info: figures/bat-extension.png  used on input line 309.
+(pdftex.def)             Requested size: 397.48502pt x 278.25322pt.
+
+
+[72 <./figures/conversion.png>]
+
+[73 <./figures/bat-extension.png>]
+<figures/monitoring.png, id=487, 1081.03876pt x 391.4625pt>
 File: figures/monitoring.png Graphic file (type png)
 <use figures/monitoring.png>
-Package pdftex.def Info: figures/monitoring.png  used on input line 300.
+Package pdftex.def Info: figures/monitoring.png  used on input line 322.
 (pdftex.def)             Requested size: 397.48502pt x 143.93092pt.
 
 
-[70 <./figures/conversion.png>]
-<figures/tracking.png, id=472, 1179.40625pt x 312.16624pt>
-File: figures/tracking.png Graphic file (type png)
-<use figures/tracking.png>
-Package pdftex.def Info: figures/tracking.png  used on input line 311.
-(pdftex.def)             Requested size: 397.48502pt x 105.20627pt.
-
-
-[71 <./figures/monitoring.png>]
-
-[72 <./figures/tracking.png>]
-<figures/hdevelopment.png, id=486, 543.02875pt x 263.98625pt>
-File: figures/hdevelopment.png Graphic file (type png)
-<use figures/hdevelopment.png>
-Package pdftex.def Info: figures/hdevelopment.png  used on input line 322.
-(pdftex.def)             Requested size: 317.98921pt x 154.59044pt.
-
-
-[73 <./figures/hdevelopment.png>]
-Overfull \hbox (2.71033pt too wide) in alignment at lines 332--338
- [] [] [] 
- []
-
-
-Overfull \hbox (2.71033pt too wide) in alignment at lines 338--343
- [] [] [] 
- []
-
-
-Overfull \hbox (2.71033pt too wide) in alignment at lines 343--346
- [] [] [] 
- []
-
-
-Overfull \hbox (2.71033pt too wide) in alignment at lines 346--441
- [] [] [] 
- []
-
-
-chapter3.tex:441: Infinite glue shrinkage found in box being split.
-<argument> Infinite shrink error above ignored ! 
-                                                 
-l.441 \end{longtable}
-                     
-The box you are \vsplitting contains some infinitely
-shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
-Such glue doesn't belong there; but you can safely proceed,
-since the offensive shrinkability has been made finite.
-
-
 [74]
-chapter3.tex:441: Infinite glue shrinkage found in box being split.
-<argument> Infinite shrink error above ignored ! 
-                                                 
-l.441 \end{longtable}
-                     
-The box you are \vsplitting contains some infinitely
-shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
-Such glue doesn't belong there; but you can safely proceed,
-since the offensive shrinkability has been made finite.
+<figures/voltage divider.png, id=493, 501.875pt x 281.05pt>
+File: figures/voltage divider.png Graphic file (type png)
+<use figures/voltage divider.png>
+Package pdftex.def Info: figures/voltage divider.png  used on input line 331.
+(pdftex.def)             Requested size: 397.48502pt x 222.60172pt.
 
 
-[75]
-<figures/esp32.png, id=505, 602.25pt x 602.25pt>
-File: figures/esp32.png Graphic file (type png)
-<use figures/esp32.png>
-Package pdftex.def Info: figures/esp32.png  used on input line 468.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/panel.jpg, id=506, 722.7pt x 722.7pt>
-File: figures/panel.jpg Graphic file (type jpg)
-<use figures/panel.jpg>
-Package pdftex.def Info: figures/panel.jpg  used on input line 480.
-(pdftex.def)             Requested size: 119.50104pt x 119.49397pt.
-<figures/battery.png, id=507, 602.25pt x 602.25pt>
-File: figures/battery.png Graphic file (type png)
-<use figures/battery.png>
-Package pdftex.def Info: figures/battery.png  used on input line 493.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+[75 <./figures/monitoring.png>]
 
-Underfull \hbox (badness 2452) in paragraph at lines 499--500
-[]|\OT1/cmr/m/n/12 The LiFePO$[]$ bat-tery was se-lected
- []
-
-<figures/controller.png, id=508, 602.25pt x 602.25pt>
-File: figures/controller.png Graphic file (type png)
-<use figures/controller.png>
-Package pdftex.def Info: figures/controller.png  used on input line 506.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-
-Underfull \hbox (badness 1158) in paragraph at lines 512--513
-[]|\OT1/cmr/m/n/12 An MPPT (Max-i-mum Power Point
- []
-
-<figures/inverter.png, id=509, 602.25pt x 602.25pt>
-File: figures/inverter.png Graphic file (type png)
-<use figures/inverter.png>
-Package pdftex.def Info: figures/inverter.png  used on input line 519.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/charger.png, id=510, 602.25pt x 602.25pt>
-File: figures/charger.png Graphic file (type png)
-<use figures/charger.png>
-Package pdftex.def Info: figures/charger.png  used on input line 533.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/coin.png, id=511, 602.25pt x 602.25pt>
-File: figures/coin.png Graphic file (type png)
-<use figures/coin.png>
-Package pdftex.def Info: figures/coin.png  used on input line 546.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/dcbreaker.png, id=512, 602.25pt x 602.25pt>
-File: figures/dcbreaker.png Graphic file (type png)
-<use figures/dcbreaker.png>
-Package pdftex.def Info: figures/dcbreaker.png  used on input line 559.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/wire.png, id=513, 602.25pt x 602.25pt>
-File: figures/wire.png Graphic file (type png)
-<use figures/wire.png>
-Package pdftex.def Info: figures/wire.png  used on input line 572.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/gps.png, id=514, 602.25pt x 602.25pt>
-File: figures/gps.png Graphic file (type png)
-<use figures/gps.png>
-Package pdftex.def Info: figures/gps.png  used on input line 585.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/relay.png, id=515, 602.25pt x 602.25pt>
-File: figures/relay.png Graphic file (type png)
-<use figures/relay.png>
-Package pdftex.def Info: figures/relay.png  used on input line 598.
-(pdftex.def)             Requested size: 119.50104pt x 119.50133pt.
-
-Underfull \hbox (badness 2293) in paragraph at lines 604--605
-[]|\OT1/cmr/m/n/12 Relays were used to con-trol high-
- []
-
-
-Underfull \hbox (badness 3098) in paragraph at lines 604--605
-\OT1/cmr/m/n/12 se-lec-tion en-sures safe and ef-fi-cient
- []
-
-<figures/solenoid.png, id=516, 602.25pt x 602.25pt>
-File: figures/solenoid.png Graphic file (type png)
-<use figures/solenoid.png>
-Package pdftex.def Info: figures/solenoid.png  used on input line 611.
-(pdftex.def)             Requested size: 119.50104pt x 119.50133pt.
-<figures/acbreaker.png, id=517, 602.25pt x 602.25pt>
-File: figures/acbreaker.png Graphic file (type png)
-<use figures/acbreaker.png>
-Package pdftex.def Info: figures/acbreaker.png  used on input line 624.
-(pdftex.def)             Requested size: 119.50104pt x 119.50133pt.
-
-Underfull \hbox (badness 1852) in paragraph at lines 630--631
-\OT1/cmr/m/n/12 guard the AC out-put cir-cuit. It
- []
-
-<figures/lcd-2.png, id=518, 1029.8475pt x 778.91pt>
-File: figures/lcd-2.png Graphic file (type png)
-<use figures/lcd-2.png>
-Package pdftex.def Info: figures/lcd-2.png  used on input line 637.
-(pdftex.def)             Requested size: 136.57373pt x 103.29422pt.
-<figures/lcd.png, id=519, 602.25pt x 602.25pt>
-File: figures/lcd.png Graphic file (type png)
-<use figures/lcd.png>
-Package pdftex.def Info: figures/lcd.png  used on input line 650.
-(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/router.png, id=520, 602.25pt x 602.25pt>
-File: figures/router.png Graphic file (type png)
-<use figures/router.png>
-Package pdftex.def Info: figures/router.png  used on input line 663.
-(pdftex.def)             Requested size: 93.8946pt x 93.88997pt.
-<figures/solid-state.png, id=521, 377.91188pt x 414.79968pt>
-File: figures/solid-state.png Graphic file (type png)
-<use figures/solid-state.png>
-Package pdftex.def Info: figures/solid-state.png  used on input line 676.
-(pdftex.def)             Requested size: 93.8946pt x 103.0604pt.
-
-Underfull \hbox (badness 1067) in paragraph at lines 682--683
-[]|\OT1/cmr/m/n/12 The SSR mod-ule is re-spon-si-ble for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 682--683
-\OT1/cmr/m/n/12 safely con-trol-ling the con-nec-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 682--683
-\OT1/cmr/m/n/12 be-tween the power source (bat-
- []
-
-
-Underfull \hbox (badness 2753) in paragraph at lines 682--683
-\OT1/cmr/m/n/12 or out-put ter-mi-nals). It en-ables
- []
-
-<figures/battery-connector.png, id=522, 377.15906pt x 467.49657pt>
-File: figures/battery-connector.png Graphic file (type png)
-<use figures/battery-connector.png>
-Package pdftex.def Info: figures/battery-connector.png  used on input line 689.
-(pdftex.def)             Requested size: 93.8946pt x 116.38164pt.
-
-
-[76]
-chapter3.tex:698: Infinite glue shrinkage found in box being split.
-<argument> Infinite shrink error above ignored ! 
-                                                 
-l.698 \end{longtable}
-                     
-The box you are \vsplitting contains some infinitely
-shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
-Such glue doesn't belong there; but you can safely proceed,
-since the offensive shrinkability has been made finite.
-
-
-[77 <./figures/esp32.png (PNG copy)> <./figures/panel.jpg>]
-chapter3.tex:698: Infinite glue shrinkage found in box being split.
-<argument> Infinite shrink error above ignored ! 
-                                                 
-l.698 \end{longtable}
-                     
-The box you are \vsplitting contains some infinitely
-shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
-Such glue doesn't belong there; but you can safely proceed,
-since the offensive shrinkability has been made finite.
-
-
-[78 <./figures/battery.png (PNG copy)> <./figures/controller.png (PNG copy)>]
-chapter3.tex:698: Infinite glue shrinkage found in box being split.
-<argument> Infinite shrink error above ignored ! 
-                                                 
-l.698 \end{longtable}
-                     
-The box you are \vsplitting contains some infinitely
-shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
-Such glue doesn't belong there; but you can safely proceed,
-since the offensive shrinkability has been made finite.
-
-
-[79 <./figures/inverter.png> <./figures/charger.png>]
-chapter3.tex:698: Infinite glue shrinkage found in box being split.
-<argument> Infinite shrink error above ignored ! 
-                                                 
-l.698 \end{longtable}
-                     
-The box you are \vsplitting contains some infinitely
-shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
-Such glue doesn't belong there; but you can safely proceed,
-since the offensive shrinkability has been made finite.
-
-
-[80 <./figures/coin.png (PNG copy)> <./figures/dcbreaker.png>]
-chapter3.tex:698: Infinite glue shrinkage found in box being split.
-<argument> Infinite shrink error above ignored ! 
-                                                 
-l.698 \end{longtable}
-                     
-The box you are \vsplitting contains some infinitely
-shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
-Such glue doesn't belong there; but you can safely proceed,
-since the offensive shrinkability has been made finite.
-
-
-[81 <./figures/wire.png> <./figures/gps.png> <./figures/relay.png>]
-chapter3.tex:698: Infinite glue shrinkage found in box being split.
-<argument> Infinite shrink error above ignored ! 
-                                                 
-l.698 \end{longtable}
-                     
-The box you are \vsplitting contains some infinitely
-shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
-Such glue doesn't belong there; but you can safely proceed,
-since the offensive shrinkability has been made finite.
-
-
-[82 <./figures/solenoid.png> <./figures/acbreaker.png>]
-chapter3.tex:698: Infinite glue shrinkage found in box being split.
-<argument> Infinite shrink error above ignored ! 
-                                                 
-l.698 \end{longtable}
-                     
-The box you are \vsplitting contains some infinitely
-shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
-Such glue doesn't belong there; but you can safely proceed,
-since the offensive shrinkability has been made finite.
-
-
-[83 <./figures/lcd-2.png> <./figures/lcd.png (PNG copy)>]
-
-[84 <./figures/router.png> <./figures/solid-state.png> <./figures/battery-connector.png>]
-
-chapter3.tex:702: LaTeX Error: Unicode character ₄ (U+2084)
+chapter3.tex:334: LaTeX Error: Unicode character Ω (U+03A9)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.702 ...monocrystalline solar panel and LiFePO₄
+l.334 ...it consists of two resistors, R1 (100 kΩ
+                                                  ) and R2 (21.3 kΩ), conne...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+chapter3.tex:334: LaTeX Error: Unicode character Ω (U+03A9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.334 ... resistors, R1 (100 kΩ) and R2 (21.3 kΩ
+                                                  ), connected in series bet...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+chapter3.tex:334: LaTeX Error: Unicode character Ω (U+03A9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.334 ...ly and ground, while an additional 10 kΩ
+                                                   resistor is placed betwee...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+
+[76 <./figures/voltage divider.png>]
+<figures/tracking.png, id=505, 1179.40625pt x 312.16624pt>
+File: figures/tracking.png Graphic file (type png)
+<use figures/tracking.png>
+Package pdftex.def Info: figures/tracking.png  used on input line 342.
+(pdftex.def)             Requested size: 397.48502pt x 105.20627pt.
+
+
+[77 <./figures/tracking.png>]
+<figures/hdevelopment.png, id=513, 543.02875pt x 263.98625pt>
+File: figures/hdevelopment.png Graphic file (type png)
+<use figures/hdevelopment.png>
+Package pdftex.def Info: figures/hdevelopment.png  used on input line 353.
+(pdftex.def)             Requested size: 317.98921pt x 154.59044pt.
+
+
+[78 <./figures/hdevelopment.png>]
+Overfull \hbox (2.71033pt too wide) in alignment at lines 363--369
+ [] [] [] 
+ []
+
+
+Overfull \hbox (2.71033pt too wide) in alignment at lines 369--374
+ [] [] [] 
+ []
+
+
+Overfull \hbox (2.71033pt too wide) in alignment at lines 374--377
+ [] [] [] 
+ []
+
+
+Overfull \hbox (2.71033pt too wide) in alignment at lines 377--472
+ [] [] [] 
+ []
+
+
+chapter3.tex:472: Infinite glue shrinkage found in box being split.
+<argument> Infinite shrink error above ignored ! 
+                                                 
+l.472 \end{longtable}
+                     
+The box you are \vsplitting contains some infinitely
+shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
+Such glue doesn't belong there; but you can safely proceed,
+since the offensive shrinkability has been made finite.
+
+
+[79]
+chapter3.tex:472: Infinite glue shrinkage found in box being split.
+<argument> Infinite shrink error above ignored ! 
+                                                 
+l.472 \end{longtable}
+                     
+The box you are \vsplitting contains some infinitely
+shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
+Such glue doesn't belong there; but you can safely proceed,
+since the offensive shrinkability has been made finite.
+
+
+[80]
+chapter3.tex:472: Infinite glue shrinkage found in box being split.
+<argument> Infinite shrink error above ignored ! 
+                                                 
+l.472 \end{longtable}
+                     
+The box you are \vsplitting contains some infinitely
+shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
+Such glue doesn't belong there; but you can safely proceed,
+since the offensive shrinkability has been made finite.
+
+
+[81]
+<figures/esp32.png, id=536, 602.25pt x 602.25pt>
+File: figures/esp32.png Graphic file (type png)
+<use figures/esp32.png>
+Package pdftex.def Info: figures/esp32.png  used on input line 499.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/panel.jpg, id=537, 722.7pt x 722.7pt>
+File: figures/panel.jpg Graphic file (type jpg)
+<use figures/panel.jpg>
+Package pdftex.def Info: figures/panel.jpg  used on input line 511.
+(pdftex.def)             Requested size: 119.50104pt x 119.49397pt.
+<figures/battery.png, id=538, 602.25pt x 602.25pt>
+File: figures/battery.png Graphic file (type png)
+<use figures/battery.png>
+Package pdftex.def Info: figures/battery.png  used on input line 524.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+
+Underfull \hbox (badness 2452) in paragraph at lines 530--531
+[]|\OT1/cmr/m/n/12 The LiFePO$[]$ bat-tery was se-lected
+ []
+
+<figures/controller.png, id=539, 602.25pt x 602.25pt>
+File: figures/controller.png Graphic file (type png)
+<use figures/controller.png>
+Package pdftex.def Info: figures/controller.png  used on input line 537.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+
+Underfull \hbox (badness 1158) in paragraph at lines 543--544
+[]|\OT1/cmr/m/n/12 An MPPT (Max-i-mum Power Point
+ []
+
+<figures/inverter.png, id=540, 602.25pt x 602.25pt>
+File: figures/inverter.png Graphic file (type png)
+<use figures/inverter.png>
+Package pdftex.def Info: figures/inverter.png  used on input line 550.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/charger.png, id=541, 602.25pt x 602.25pt>
+File: figures/charger.png Graphic file (type png)
+<use figures/charger.png>
+Package pdftex.def Info: figures/charger.png  used on input line 564.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/coin.png, id=542, 602.25pt x 602.25pt>
+File: figures/coin.png Graphic file (type png)
+<use figures/coin.png>
+Package pdftex.def Info: figures/coin.png  used on input line 577.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/dcbreaker.png, id=543, 602.25pt x 602.25pt>
+File: figures/dcbreaker.png Graphic file (type png)
+<use figures/dcbreaker.png>
+Package pdftex.def Info: figures/dcbreaker.png  used on input line 590.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/wire.png, id=544, 602.25pt x 602.25pt>
+File: figures/wire.png Graphic file (type png)
+<use figures/wire.png>
+Package pdftex.def Info: figures/wire.png  used on input line 603.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/gps.png, id=545, 602.25pt x 602.25pt>
+File: figures/gps.png Graphic file (type png)
+<use figures/gps.png>
+Package pdftex.def Info: figures/gps.png  used on input line 616.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/relay.png, id=546, 602.25pt x 602.25pt>
+File: figures/relay.png Graphic file (type png)
+<use figures/relay.png>
+Package pdftex.def Info: figures/relay.png  used on input line 629.
+(pdftex.def)             Requested size: 119.50104pt x 119.50133pt.
+
+Underfull \hbox (badness 2293) in paragraph at lines 635--636
+[]|\OT1/cmr/m/n/12 Relays were used to con-trol high-
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 635--636
+\OT1/cmr/m/n/12 se-lec-tion en-sures safe and ef-fi-cient
+ []
+
+<figures/solenoid.png, id=547, 602.25pt x 602.25pt>
+File: figures/solenoid.png Graphic file (type png)
+<use figures/solenoid.png>
+Package pdftex.def Info: figures/solenoid.png  used on input line 642.
+(pdftex.def)             Requested size: 119.50104pt x 119.50133pt.
+<figures/acbreaker.png, id=548, 602.25pt x 602.25pt>
+File: figures/acbreaker.png Graphic file (type png)
+<use figures/acbreaker.png>
+Package pdftex.def Info: figures/acbreaker.png  used on input line 655.
+(pdftex.def)             Requested size: 119.50104pt x 119.50133pt.
+
+Underfull \hbox (badness 1852) in paragraph at lines 661--662
+\OT1/cmr/m/n/12 guard the AC out-put cir-cuit. It
+ []
+
+<figures/lcd-2.png, id=549, 1029.8475pt x 778.91pt>
+File: figures/lcd-2.png Graphic file (type png)
+<use figures/lcd-2.png>
+Package pdftex.def Info: figures/lcd-2.png  used on input line 668.
+(pdftex.def)             Requested size: 136.57373pt x 103.29422pt.
+<figures/lcd.png, id=550, 602.25pt x 602.25pt>
+File: figures/lcd.png Graphic file (type png)
+<use figures/lcd.png>
+Package pdftex.def Info: figures/lcd.png  used on input line 681.
+(pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
+<figures/router.png, id=551, 602.25pt x 602.25pt>
+File: figures/router.png Graphic file (type png)
+<use figures/router.png>
+Package pdftex.def Info: figures/router.png  used on input line 694.
+(pdftex.def)             Requested size: 93.8946pt x 93.88997pt.
+<figures/solid-state.png, id=552, 377.91188pt x 414.79968pt>
+File: figures/solid-state.png Graphic file (type png)
+<use figures/solid-state.png>
+Package pdftex.def Info: figures/solid-state.png  used on input line 707.
+(pdftex.def)             Requested size: 93.8946pt x 103.0604pt.
+
+Underfull \hbox (badness 1067) in paragraph at lines 713--714
+[]|\OT1/cmr/m/n/12 The SSR mod-ule is re-spon-si-ble for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 713--714
+\OT1/cmr/m/n/12 safely con-trol-ling the con-nec-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 713--714
+\OT1/cmr/m/n/12 be-tween the power source (bat-
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 713--714
+\OT1/cmr/m/n/12 or out-put ter-mi-nals). It en-ables
+ []
+
+<figures/battery-connector.png, id=553, 377.15906pt x 467.49657pt>
+File: figures/battery-connector.png Graphic file (type png)
+<use figures/battery-connector.png>
+Package pdftex.def Info: figures/battery-connector.png  used on input line 720.
+(pdftex.def)             Requested size: 93.8946pt x 116.38164pt.
+
+chapter3.tex:729: Infinite glue shrinkage found in box being split.
+<argument> Infinite shrink error above ignored ! 
+                                                 
+l.729 \end{longtable}
+                     
+The box you are \vsplitting contains some infinitely
+shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
+Such glue doesn't belong there; but you can safely proceed,
+since the offensive shrinkability has been made finite.
+
+
+[82 <./figures/esp32.png (PNG copy)> <./figures/panel.jpg>]
+chapter3.tex:729: Infinite glue shrinkage found in box being split.
+<argument> Infinite shrink error above ignored ! 
+                                                 
+l.729 \end{longtable}
+                     
+The box you are \vsplitting contains some infinitely
+shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
+Such glue doesn't belong there; but you can safely proceed,
+since the offensive shrinkability has been made finite.
+
+
+[83 <./figures/battery.png (PNG copy)> <./figures/controller.png (PNG copy)>]
+chapter3.tex:729: Infinite glue shrinkage found in box being split.
+<argument> Infinite shrink error above ignored ! 
+                                                 
+l.729 \end{longtable}
+                     
+The box you are \vsplitting contains some infinitely
+shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
+Such glue doesn't belong there; but you can safely proceed,
+since the offensive shrinkability has been made finite.
+
+
+[84 <./figures/inverter.png> <./figures/charger.png>]
+chapter3.tex:729: Infinite glue shrinkage found in box being split.
+<argument> Infinite shrink error above ignored ! 
+                                                 
+l.729 \end{longtable}
+                     
+The box you are \vsplitting contains some infinitely
+shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
+Such glue doesn't belong there; but you can safely proceed,
+since the offensive shrinkability has been made finite.
+
+
+[85 <./figures/coin.png (PNG copy)> <./figures/dcbreaker.png>]
+chapter3.tex:729: Infinite glue shrinkage found in box being split.
+<argument> Infinite shrink error above ignored ! 
+                                                 
+l.729 \end{longtable}
+                     
+The box you are \vsplitting contains some infinitely
+shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
+Such glue doesn't belong there; but you can safely proceed,
+since the offensive shrinkability has been made finite.
+
+
+[86 <./figures/wire.png> <./figures/gps.png> <./figures/relay.png>]
+chapter3.tex:729: Infinite glue shrinkage found in box being split.
+<argument> Infinite shrink error above ignored ! 
+                                                 
+l.729 \end{longtable}
+                     
+The box you are \vsplitting contains some infinitely
+shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
+Such glue doesn't belong there; but you can safely proceed,
+since the offensive shrinkability has been made finite.
+
+
+[87 <./figures/solenoid.png> <./figures/acbreaker.png>]
+chapter3.tex:729: Infinite glue shrinkage found in box being split.
+<argument> Infinite shrink error above ignored ! 
+                                                 
+l.729 \end{longtable}
+                     
+The box you are \vsplitting contains some infinitely
+shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
+Such glue doesn't belong there; but you can safely proceed,
+since the offensive shrinkability has been made finite.
+
+
+[88 <./figures/lcd-2.png> <./figures/lcd.png (PNG copy)>]
+
+[89 <./figures/router.png> <./figures/solid-state.png> <./figures/battery-connector.png>]
+
+chapter3.tex:733: LaTeX Error: Unicode character ₄ (U+2084)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.733 ...monocrystalline solar panel and LiFePO₄
                                                    battery were selected to ...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
 
-[85]
-<figures/circuit_station.png, id=578, 2710.125pt x 1990.43625pt>
+[90]
+<figures/circuit_station.png, id=604, 2710.125pt x 1990.43625pt>
 File: figures/circuit_station.png Graphic file (type png)
 <use figures/circuit_station.png>
-Package pdftex.def Info: figures/circuit_station.png  used on input line 712.
+Package pdftex.def Info: figures/circuit_station.png  used on input line 743.
 (pdftex.def)             Requested size: 397.48502pt x 291.93155pt.
 
 
-[86 <./figures/circuit_station.png>]
-<figures/circuit-diagram-detachable.png, id=586, 823.075pt x 521.95pt>
+[91 <./figures/circuit_station.png>]
+<figures/circuit-diagram-detachable.png, id=613, 823.075pt x 521.95pt>
 File: figures/circuit-diagram-detachable.png Graphic file (type png)
 <use figures/circuit-diagram-detachable.png>
-Package pdftex.def Info: figures/circuit-diagram-detachable.png  used on input line 721.
+Package pdftex.def Info: figures/circuit-diagram-detachable.png  used on input line 752.
 (pdftex.def)             Requested size: 397.48502pt x 252.06229pt.
 
 
-[87]
+[92]
 
-[88 <./figures/circuit-diagram-detachable.png>]
-<figures/schematic_station.png, id=596, 3598.44376pt x 2430.07875pt>
+[93 <./figures/circuit-diagram-detachable.png>]
+<figures/schematic_station.png, id=623, 3598.44376pt x 2430.07875pt>
 File: figures/schematic_station.png Graphic file (type png)
 <use figures/schematic_station.png>
-Package pdftex.def Info: figures/schematic_station.png  used on input line 733.
+Package pdftex.def Info: figures/schematic_station.png  used on input line 764.
 (pdftex.def)             Requested size: 397.48502pt x 268.42189pt.
 
 
-[89 <./figures/schematic_station.png>]
-<figures/schematic_power.png, id=604, 2210.2575pt x 1403.2425pt>
+[94 <./figures/schematic_station.png>]
+<figures/schematic_power.png, id=631, 2210.2575pt x 1403.2425pt>
 File: figures/schematic_power.png Graphic file (type png)
 <use figures/schematic_power.png>
-Package pdftex.def Info: figures/schematic_power.png  used on input line 742.
+Package pdftex.def Info: figures/schematic_power.png  used on input line 773.
 (pdftex.def)             Requested size: 397.48502pt x 252.33722pt.
 
 
-[90]
+[95]
 
-[91 <./figures/schematic_power.png>]
-<figures/front.png, id=616, 1272.755pt x 728.7225pt>
+[96 <./figures/schematic_power.png>]
+<figures/front.png, id=642, 1272.755pt x 728.7225pt>
 File: figures/front.png Graphic file (type png)
 <use figures/front.png>
-Package pdftex.def Info: figures/front.png  used on input line 755.
+Package pdftex.def Info: figures/front.png  used on input line 786.
 (pdftex.def)             Requested size: 397.48502pt x 227.58066pt.
 
 
-[92 <./figures/front.png>]
-<figures/aerial.png, id=624, 1477.52pt x 927.465pt>
+[97 <./figures/front.png>]
+<figures/aerial.png, id=651, 1477.52pt x 927.465pt>
 File: figures/aerial.png Graphic file (type png)
 <use figures/aerial.png>
-Package pdftex.def Info: figures/aerial.png  used on input line 764.
+Package pdftex.def Info: figures/aerial.png  used on input line 795.
 (pdftex.def)             Requested size: 397.48502pt x 249.49902pt.
 
 
-[93 <./figures/aerial.png>]
-<figures/rental.png, id=631, 1527.7075pt x 1411.2725pt>
+[98 <./figures/aerial.png>]
+<figures/rental.png, id=658, 1527.7075pt x 1411.2725pt>
 File: figures/rental.png Graphic file (type png)
 <use figures/rental.png>
-Package pdftex.def Info: figures/rental.png  used on input line 798.
+Package pdftex.def Info: figures/rental.png  used on input line 829.
 (pdftex.def)             Requested size: 397.48502pt x 367.1806pt.
 
 
-[94]
-
-[95 <./figures/rental.png>]
-
-[96]
-
-[97]
-
-[98]
-<figures/activity-diagram.png, id=662, 453.19313pt x 1088.56688pt>
-File: figures/activity-diagram.png Graphic file (type png)
-<use figures/activity-diagram.png>
-Package pdftex.def Info: figures/activity-diagram.png  used on input line 837.
-(pdftex.def)             Requested size: 210.66656pt x 506.01227pt.
-
-
 [99]
-Overfull \vbox (7.04099pt too high) has occurred while \output is active []
 
-
-
-[100 <./figures/activity-diagram.png (PNG copy)>]
+[100 <./figures/rental.png>]
 
 [101]
 
 [102]
 
 [103]
-<figures/S1.png, id=691, 991.45406pt x 796.47563pt>
+<figures/activity-diagram.png, id=689, 453.19313pt x 1088.56688pt>
+File: figures/activity-diagram.png Graphic file (type png)
+<use figures/activity-diagram.png>
+Package pdftex.def Info: figures/activity-diagram.png  used on input line 868.
+(pdftex.def)             Requested size: 210.66656pt x 506.01227pt.
+
+
+[104]
+Overfull \vbox (7.04099pt too high) has occurred while \output is active []
+
+
+
+[105 <./figures/activity-diagram.png (PNG copy)>]
+
+[106]
+
+[107]
+
+[108]
+<figures/S1.png, id=717, 991.45406pt x 796.47563pt>
 File: figures/S1.png Graphic file (type png)
 <use figures/S1.png>
-Package pdftex.def Info: figures/S1.png  used on input line 865.
+Package pdftex.def Info: figures/S1.png  used on input line 896.
 (pdftex.def)             Requested size: 397.48502pt x 319.3138pt.
 
 
-[104 <./figures/S1.png>]
-<figures/SA1.png, id=699, 597.60106pt x 845.26315pt>
+[109 <./figures/S1.png>]
+<figures/SA1.png, id=726, 597.60106pt x 845.26315pt>
 File: figures/SA1.png Graphic file (type png)
 <use figures/SA1.png>
-Package pdftex.def Info: figures/SA1.png  used on input line 874.
+Package pdftex.def Info: figures/SA1.png  used on input line 905.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[105 <./figures/SA1.png (PNG copy)>]
-<figures/SE3.png, id=705, 1370.11874pt x 812.28468pt>
+[110 <./figures/SA1.png (PNG copy)>]
+<figures/SE3.png, id=732, 1370.11874pt x 812.28468pt>
 File: figures/SE3.png Graphic file (type png)
 <use figures/SE3.png>
-Package pdftex.def Info: figures/SE3.png  used on input line 883.
+Package pdftex.def Info: figures/SE3.png  used on input line 914.
 (pdftex.def)             Requested size: 397.48502pt x 235.64328pt.
-<figures/SE4.png, id=706, 430.60875pt x 797.98125pt>
+<figures/SE4.png, id=733, 430.60875pt x 797.98125pt>
 File: figures/SE4.png Graphic file (type png)
 <use figures/SE4.png>
-Package pdftex.def Info: figures/SE4.png  used on input line 892.
+Package pdftex.def Info: figures/SE4.png  used on input line 923.
 (pdftex.def)             Requested size: 278.2383pt x 515.62544pt.
 
 
-[106 <./figures/SE3.png>]
+[111 <./figures/SE3.png>]
 
-[107 <./figures/SE4.png>]
-<figures/SE5.png, id=719, 980.91469pt x 809.27344pt>
+[112 <./figures/SE4.png>]
+<figures/SE5.png, id=746, 980.91469pt x 809.27344pt>
 File: figures/SE5.png Graphic file (type png)
 <use figures/SE5.png>
-Package pdftex.def Info: figures/SE5.png  used on input line 901.
+Package pdftex.def Info: figures/SE5.png  used on input line 932.
 (pdftex.def)             Requested size: 397.48502pt x 327.92683pt.
 
 
-[108 <./figures/SE5.png>]
-<figures/coin-slot.png, id=726, 597.60106pt x 845.26315pt>
+[113 <./figures/SE5.png>]
+<figures/coin-slot.png, id=753, 597.60106pt x 845.26315pt>
 File: figures/coin-slot.png Graphic file (type png)
 <use figures/coin-slot.png>
-Package pdftex.def Info: figures/coin-slot.png  used on input line 910.
+Package pdftex.def Info: figures/coin-slot.png  used on input line 941.
 (pdftex.def)             Requested size: 397.48502pt x 562.20903pt.
 
 
-[109]
+[114]
 Overfull \vbox (30.72104pt too high) has occurred while \output is active []
 
 
 
-[110 <./figures/coin-slot.png (PNG copy)>]
-<figures/credit-points.png, id=737, 597.60106pt x 845.26315pt>
+[115 <./figures/coin-slot.png (PNG copy)>]
+<figures/credit-points.png, id=764, 597.60106pt x 845.26315pt>
 File: figures/credit-points.png Graphic file (type png)
 <use figures/credit-points.png>
-Package pdftex.def Info: figures/credit-points.png  used on input line 919.
+Package pdftex.def Info: figures/credit-points.png  used on input line 950.
 (pdftex.def)             Requested size: 397.48502pt x 562.20903pt.
 
 
-[111]
+[116]
 Overfull \vbox (30.72104pt too high) has occurred while \output is active []
 
 
 
-[112 <./figures/credit-points.png (PNG copy)>]
-<figures/alert-new.png, id=747, 1064.47687pt x 1063.72406pt>
+[117 <./figures/credit-points.png (PNG copy)>]
+<figures/alert-new.png, id=774, 1064.47687pt x 1063.72406pt>
 File: figures/alert-new.png Graphic file (type png)
 <use figures/alert-new.png>
-Package pdftex.def Info: figures/alert-new.png  used on input line 928.
+Package pdftex.def Info: figures/alert-new.png  used on input line 959.
 (pdftex.def)             Requested size: 397.48502pt x 397.19127pt.
 
 
-[113]
+[118]
 
-[114 <./figures/alert-new.png (PNG copy)>]
+[119 <./figures/alert-new.png (PNG copy)>]
 File: figures/SE5.png Graphic file (type png)
 <use figures/SE5.png>
-Package pdftex.def Info: figures/SE5.png  used on input line 937.
+Package pdftex.def Info: figures/SE5.png  used on input line 968.
 (pdftex.def)             Requested size: 397.48502pt x 327.92683pt.
 
 
-[115]
-<figures/admin-1.png, id=763, 597.60106pt x 845.26315pt>
+[120]
+<figures/admin-1.png, id=789, 597.60106pt x 845.26315pt>
 File: figures/admin-1.png Graphic file (type png)
 <use figures/admin-1.png>
-Package pdftex.def Info: figures/admin-1.png  used on input line 946.
+Package pdftex.def Info: figures/admin-1.png  used on input line 977.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
-Overfull \hbox (2.16566pt too wide) in paragraph at lines 949--950
+Overfull \hbox (2.16566pt too wide) in paragraph at lines 980--981
 []\OT1/cmr/m/n/12 The Main Dash-board serves as the cen-tral con-trol panel of the KuRyenta
  []
 
 
 
-[116 <./figures/admin-1.png (PNG copy)>]
-<figures/admin-2.png, id=769, 597.60106pt x 845.26315pt>
+[121 <./figures/admin-1.png (PNG copy)>]
+<figures/admin-2.png, id=796, 597.60106pt x 845.26315pt>
 File: figures/admin-2.png Graphic file (type png)
 <use figures/admin-2.png>
-Package pdftex.def Info: figures/admin-2.png  used on input line 955.
+Package pdftex.def Info: figures/admin-2.png  used on input line 986.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[117]
+[122]
 
-[118 <./figures/admin-2.png (PNG copy)>]
-<figures/admin-3.png, id=779, 597.60106pt x 845.26315pt>
+[123 <./figures/admin-2.png (PNG copy)>]
+<figures/admin-3.png, id=806, 597.60106pt x 845.26315pt>
 File: figures/admin-3.png Graphic file (type png)
 <use figures/admin-3.png>
-Package pdftex.def Info: figures/admin-3.png  used on input line 964.
+Package pdftex.def Info: figures/admin-3.png  used on input line 995.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
-<figures/admin-4.png, id=780, 597.60106pt x 845.26315pt>
+<figures/admin-4.png, id=807, 597.60106pt x 845.26315pt>
 File: figures/admin-4.png Graphic file (type png)
 <use figures/admin-4.png>
-Package pdftex.def Info: figures/admin-4.png  used on input line 971.
+Package pdftex.def Info: figures/admin-4.png  used on input line 1002.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[119 <./figures/admin-3.png (PNG copy)>]
+[124 <./figures/admin-3.png (PNG copy)>]
 
-[120 <./figures/admin-4.png (PNG copy)>]
-<figures/admin-5.png, id=791, 597.60106pt x 845.26315pt>
+[125 <./figures/admin-4.png (PNG copy)>]
+<figures/admin-5.png, id=818, 597.60106pt x 845.26315pt>
 File: figures/admin-5.png Graphic file (type png)
 <use figures/admin-5.png>
-Package pdftex.def Info: figures/admin-5.png  used on input line 980.
+Package pdftex.def Info: figures/admin-5.png  used on input line 1011.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
-<figures/admin-6.png, id=792, 597.60106pt x 845.26315pt>
+<figures/admin-6.png, id=819, 597.60106pt x 845.26315pt>
 File: figures/admin-6.png Graphic file (type png)
 <use figures/admin-6.png>
-Package pdftex.def Info: figures/admin-6.png  used on input line 987.
+Package pdftex.def Info: figures/admin-6.png  used on input line 1018.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[121 <./figures/admin-5.png (PNG copy)>]
+[126 <./figures/admin-5.png (PNG copy)>]
 
-[122 <./figures/admin-6.png (PNG copy)>]
-<figures/admin-7.png, id=804, 597.60106pt x 845.26315pt>
+[127 <./figures/admin-6.png (PNG copy)>]
+<figures/admin-7.png, id=831, 597.60106pt x 845.26315pt>
 File: figures/admin-7.png Graphic file (type png)
 <use figures/admin-7.png>
-Package pdftex.def Info: figures/admin-7.png  used on input line 996.
+Package pdftex.def Info: figures/admin-7.png  used on input line 1027.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
-<figures/admin-8.png, id=805, 597.60106pt x 845.26315pt>
+<figures/admin-8.png, id=832, 597.60106pt x 845.26315pt>
 File: figures/admin-8.png Graphic file (type png)
 <use figures/admin-8.png>
-Package pdftex.def Info: figures/admin-8.png  used on input line 1003.
+Package pdftex.def Info: figures/admin-8.png  used on input line 1034.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[123 <./figures/admin-7.png (PNG copy)>]
+[128 <./figures/admin-7.png (PNG copy)>]
 
-[124 <./figures/admin-8.png (PNG copy)>]
-<figures/admin-9.png, id=816, 597.60106pt x 845.26315pt>
+[129 <./figures/admin-8.png (PNG copy)>]
+<figures/admin-9.png, id=843, 597.60106pt x 845.26315pt>
 File: figures/admin-9.png Graphic file (type png)
 <use figures/admin-9.png>
-Package pdftex.def Info: figures/admin-9.png  used on input line 1012.
+Package pdftex.def Info: figures/admin-9.png  used on input line 1043.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[125 <./figures/admin-9.png (PNG copy)>]
-<figures/admin-10.png, id=822, 597.60106pt x 845.26315pt>
+[130 <./figures/admin-9.png (PNG copy)>]
+<figures/admin-10.png, id=849, 597.60106pt x 845.26315pt>
 File: figures/admin-10.png Graphic file (type png)
 <use figures/admin-10.png>
-Package pdftex.def Info: figures/admin-10.png  used on input line 1021.
+Package pdftex.def Info: figures/admin-10.png  used on input line 1052.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
-Overfull \hbox (11.46713pt too wide) in paragraph at lines 1024--1025
+Overfull \hbox (11.46713pt too wide) in paragraph at lines 1055--1056
 []\OT1/cmr/m/n/12 The SMS Logs func-tion-al-ity records all SMS com-mu-ni-ca-tions sent through
  []
 
 
 
-[126 <./figures/admin-10.png (PNG copy)>]
+[131 <./figures/admin-10.png (PNG copy)>]
 
-[127]
+[132]
 
-[128]
+[133]
 
-[129]
-Overfull \hbox (6.98929pt too wide) in paragraph at lines 1049--1049
+[134]
+Overfull \hbox (6.98929pt too wide) in paragraph at lines 1080--1080
 []|\OT1/cmr/bx/n/12 Quantity| 
  []
 
 
-Overfull \hbox (4.97264pt too wide) in paragraph at lines 1049--1049
+Overfull \hbox (4.97264pt too wide) in paragraph at lines 1080--1080
 []|\OT1/cmr/bx/n/12 Power| 
  []
 
 
-Overfull \hbox (6.49077pt too wide) in paragraph at lines 1049--1049
+Overfull \hbox (6.49077pt too wide) in paragraph at lines 1080--1080
 []|\OT1/cmr/bx/n/12 Hours/Day| 
  []
 
 
-Overfull \hbox (6.98929pt too wide) in paragraph at lines 1054--1054
+Overfull \hbox (6.98929pt too wide) in paragraph at lines 1085--1085
 []|\OT1/cmr/bx/n/12 Quantity| 
  []
 
 
-Overfull \hbox (4.97264pt too wide) in paragraph at lines 1054--1054
+Overfull \hbox (4.97264pt too wide) in paragraph at lines 1085--1085
 []|\OT1/cmr/bx/n/12 Power| 
  []
 
 
-Overfull \hbox (6.49077pt too wide) in paragraph at lines 1054--1054
+Overfull \hbox (6.49077pt too wide) in paragraph at lines 1085--1085
 []|\OT1/cmr/bx/n/12 Hours/Day| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1062--1062
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1093
 []|\OT1/cmr/m/n/12 Mobile Phone
  []
 
 
 
-[130]
-Overfull \hbox (3.73471pt too wide) detected at line 1081
+[135]
+Overfull \hbox (3.73471pt too wide) detected at line 1112
 [][][][] \OT1/cmr/m/n/12 = [] + []
  []
 
 
-LaTeX Warning: Hyper reference `appendix:A' on page 131 undefined on input line 1084.
-
-
-
-[131]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 132 undefined on input line 1098.
-
-
-LaTeX Warning: Hyper reference `appendix:A' on page 132 undefined on input line 1108.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1114--1114
-[]|\OT1/cmr/bx/n/12 Power
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
-[]|\OT1/cmr/bx/n/12 Power
- []
-
-
-
-[132]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 133 undefined on input line 1139.
-
-
-LaTeX Warning: Hyper reference `appendix:A' on page 133 undefined on input line 1149.
-
-
-
-[133]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 134 undefined on input line 1160.
-
-
-
-[134]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 135 undefined on input line 1169.
-
-
-
-[135]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 136 undefined on input line 1178.
+LaTeX Warning: Hyper reference `appendix:A' on page 136 undefined on input line 1115.
 
 
 
 [136]
 
-LaTeX Warning: Hyper reference `appendix:A' on page 137 undefined on input line 1187.
+LaTeX Warning: Hyper reference `appendix:A' on page 137 undefined on input line 1129.
+
+
+LaTeX Warning: Hyper reference `appendix:A' on page 137 undefined on input line 1139.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1145--1145
+[]|\OT1/cmr/bx/n/12 Power
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1150--1150
+[]|\OT1/cmr/bx/n/12 Power
+ []
 
 
 
 [137]
 
-LaTeX Warning: Hyper reference `appendix:A' on page 138 undefined on input line 1204.
+LaTeX Warning: Hyper reference `appendix:A' on page 138 undefined on input line 1170.
+
+
+LaTeX Warning: Hyper reference `appendix:A' on page 138 undefined on input line 1180.
 
 
 
 [138]
 
-LaTeX Warning: Hyper reference `appendix:A' on page 139 undefined on input line 1210.
+LaTeX Warning: Hyper reference `appendix:A' on page 139 undefined on input line 1191.
 
 
 
 [139]
 
+LaTeX Warning: Hyper reference `appendix:A' on page 140 undefined on input line 1200.
+
+
+
 [140]
-Overfull \hbox (3.11638pt too wide) in paragraph at lines 1252--1254
+
+LaTeX Warning: Hyper reference `appendix:A' on page 141 undefined on input line 1209.
+
+
+
+[141]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 142 undefined on input line 1218.
+
+
+
+[142]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 143 undefined on input line 1235.
+
+
+
+[143]
+
+LaTeX Warning: Hyper reference `appendix:A' on page 144 undefined on input line 1241.
+
+
+
+[144]
+
+[145]
+Overfull \hbox (3.11638pt too wide) in paragraph at lines 1283--1285
 []\OT1/cmr/m/n/12 Ideally, the sta-tion bat-tery can fully charge both de-tach-able power sources
  []
 
 
 
-[141]
-Underfull \hbox (badness 10000) in paragraph at lines 1287--1288
+[146]
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1319
 []|\OT1/cmr/bx/n/12 Description Sum-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1292--1293
+Underfull \hbox (badness 10000) in paragraph at lines 1323--1324
 []|\OT1/cmr/bx/n/12 Description Sum-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1299--1300
+Underfull \hbox (badness 10000) in paragraph at lines 1330--1331
 []|\OT1/cmr/m/n/12 Battery Ca-pac-ity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1303--1304
-[]|\OT1/cmr/m/n/12 Determines the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1303--1304
-\OT1/cmr/m/n/12 re-quired bat-tery
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1303--1304
-\OT1/cmr/m/n/12 ca-pac-ity for the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1303--1304
-\OT1/cmr/m/n/12 de-tach-able unit by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1303--1304
-\OT1/cmr/m/n/12 into ampere-hours
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1303--1304
-\OT1/cmr/m/n/12 us-ing the sys-tem
- []
-
-
-Underfull \hbox (badness 7888) in paragraph at lines 1303--1304
-\OT1/cmr/m/n/12 tion for con-tin-u-ous
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1306--1307
-[]|\OT1/cmr/m/n/12 Battery Ca-pac-ity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1310--1311
-\OT1/cmr/m/n/12 ca-pac-ity, adding a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1310--1311
-\OT1/cmr/m/n/12 35% al-lowance for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1310--1311
-\OT1/cmr/m/n/12 sys-tem losses (e.g.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1310--1311
-\OT1/cmr/m/n/12 con-ver-sion/charging
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1310--1311
-\OT1/cmr/m/n/12 ESP32 con-sump-
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 1310--1311
-\OT1/cmr/m/n/12 tion for con-trol and
- []
-
-
-Underfull \hbox (badness 2293) in paragraph at lines 1313--1314
-[]|\OT1/cmr/m/n/12 Panel Siz-ing (PV
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
-[]|\OT1/cmr/m/n/12 Computes the re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
-\OT1/cmr/m/n/12 quired so-lar panel
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
-\OT1/cmr/m/n/12 rat-ing by di-vid-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
-\OT1/cmr/m/n/12 to-tal daily en-ergy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
-\OT1/cmr/m/n/12 con-sump-tion by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
-\OT1/cmr/m/n/12 the avail-able sun
- []
-
-
-Underfull \hbox (badness 3118) in paragraph at lines 1317--1318
-\OT1/cmr/m/n/12 the bat-tery can be
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
-\OT1/cmr/m/n/12 recharged within a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1324--1325
-[]|\OT1/cmr/m/n/12 Determines the in-
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 1324--1325
-\OT1/cmr/m/n/12 a 20% al-lowance to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1324--1325
-\OT1/cmr/m/n/12 sid-er-a-tions) so the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1324--1325
-\OT1/cmr/m/n/12 in-verter can safely
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1324--1325
-\OT1/cmr/m/n/12 han-dle tem-po-rary
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1331--1332
-[]|\OT1/cmr/m/n/12 Determines the
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 1331--1332
-\OT1/cmr/m/n/12 re-quired charge con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1331--1332
-\OT1/cmr/m/n/12 by di-vid-ing to-tal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1331--1332
-\OT1/cmr/m/n/12 cur-rent is typ-i-cally
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1334--1335
-[]|\OT1/cmr/m/n/12 Breaker Siz-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1338--1339
-[]|\OT1/cmr/m/n/12 Selects the cir-cuit
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1338--1339
-\OT1/cmr/m/n/12 breaker rat-ing be-
- []
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 1338--1339
-\OT1/cmr/m/n/12 tween the PV ar-ray
- []
-
-
-Underfull \hbox (badness 2205) in paragraph at lines 1338--1339
-\OT1/cmr/m/n/12 and SCC us-ing the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1338--1339
-\OT1/cmr/m/n/12 panel short-circuit
- []
-
-
-Underfull \hbox (badness 3838) in paragraph at lines 1338--1339
-\OT1/cmr/m/n/12 cur-rent ad-justed by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1338--1339
-\OT1/cmr/m/n/12 the over-radiance
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1341--1342
-[]|\OT1/cmr/m/n/12 Breaker Siz-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1346
-[]|\OT1/cmr/m/n/12 Sizes the breaker
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1346
-\OT1/cmr/m/n/12 be-tween SCC and
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 1345--1346
-\OT1/cmr/m/n/12 ray wattage di-vided
- []
-
-
-Underfull \hbox (badness 5519) in paragraph at lines 1345--1346
-\OT1/cmr/m/n/12 by nom-i-nal bat-tery
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1346
-\OT1/cmr/m/n/12 a safety fac-tor to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1348--1349
-[]|\OT1/cmr/m/n/12 Breaker Siz-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1352--1353
 []|\OT1/cmr/m/n/12 Determines the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1352--1353
-\OT1/cmr/m/n/12 breaker rat-ing be-
+Underfull \hbox (badness 10000) in paragraph at lines 1334--1335
+\OT1/cmr/m/n/12 re-quired bat-tery
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1352--1353
-\OT1/cmr/m/n/12 tween the bat-tery
+Underfull \hbox (badness 10000) in paragraph at lines 1334--1335
+\OT1/cmr/m/n/12 ca-pac-ity for the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1352--1353
-\OT1/cmr/m/n/12 bank and in-verter
+Underfull \hbox (badness 10000) in paragraph at lines 1334--1335
+\OT1/cmr/m/n/12 de-tach-able unit by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1352--1353
-\OT1/cmr/m/n/12 by cal-cu-lat-ing the
+Underfull \hbox (badness 10000) in paragraph at lines 1334--1335
+\OT1/cmr/m/n/12 into ampere-hours
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 1352--1353
-\OT1/cmr/m/n/12 op-er-a-tion, pro-vid-ing
+Underfull \hbox (badness 10000) in paragraph at lines 1334--1335
+\OT1/cmr/m/n/12 us-ing the sys-tem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1352--1353
-\OT1/cmr/m/n/12 pro-tec-tion dur-ing
+Underfull \hbox (badness 7888) in paragraph at lines 1334--1335
+\OT1/cmr/m/n/12 tion for con-tin-u-ous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1337--1338
+[]|\OT1/cmr/m/n/12 Battery Ca-pac-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1342
+\OT1/cmr/m/n/12 ca-pac-ity, adding a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1342
+\OT1/cmr/m/n/12 35% al-lowance for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1342
+\OT1/cmr/m/n/12 sys-tem losses (e.g.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1342
+\OT1/cmr/m/n/12 con-ver-sion/charging
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1342
+\OT1/cmr/m/n/12 ESP32 con-sump-
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 1341--1342
+\OT1/cmr/m/n/12 tion for con-trol and
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 1344--1345
+[]|\OT1/cmr/m/n/12 Panel Siz-ing (PV
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1349
+[]|\OT1/cmr/m/n/12 Computes the re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1349
+\OT1/cmr/m/n/12 quired so-lar panel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1349
+\OT1/cmr/m/n/12 rat-ing by di-vid-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1349
+\OT1/cmr/m/n/12 to-tal daily en-ergy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1349
+\OT1/cmr/m/n/12 con-sump-tion by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1349
+\OT1/cmr/m/n/12 the avail-able sun
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 1348--1349
+\OT1/cmr/m/n/12 the bat-tery can be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1349
+\OT1/cmr/m/n/12 recharged within a
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1355--1356
+[]|\OT1/cmr/m/n/12 Determines the in-
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 1355--1356
+\OT1/cmr/m/n/12 a 20% al-lowance to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1355--1356
+\OT1/cmr/m/n/12 sid-er-a-tions) so the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1355--1356
+\OT1/cmr/m/n/12 in-verter can safely
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1355--1356
+\OT1/cmr/m/n/12 han-dle tem-po-rary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1362--1363
+[]|\OT1/cmr/m/n/12 Determines the
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 1362--1363
+\OT1/cmr/m/n/12 re-quired charge con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1362--1363
+\OT1/cmr/m/n/12 by di-vid-ing to-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1362--1363
+\OT1/cmr/m/n/12 cur-rent is typ-i-cally
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1365--1366
 []|\OT1/cmr/m/n/12 Breaker Siz-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1355--1356
+Underfull \hbox (badness 10000) in paragraph at lines 1369--1370
+[]|\OT1/cmr/m/n/12 Selects the cir-cuit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1369--1370
+\OT1/cmr/m/n/12 breaker rat-ing be-
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 1369--1370
+\OT1/cmr/m/n/12 tween the PV ar-ray
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 1369--1370
+\OT1/cmr/m/n/12 and SCC us-ing the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1369--1370
+\OT1/cmr/m/n/12 panel short-circuit
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 1369--1370
+\OT1/cmr/m/n/12 cur-rent ad-justed by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1369--1370
+\OT1/cmr/m/n/12 the over-radiance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1372--1373
+[]|\OT1/cmr/m/n/12 Breaker Siz-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1376--1377
+[]|\OT1/cmr/m/n/12 Sizes the breaker
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1376--1377
+\OT1/cmr/m/n/12 be-tween SCC and
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 1376--1377
+\OT1/cmr/m/n/12 ray wattage di-vided
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 1376--1377
+\OT1/cmr/m/n/12 by nom-i-nal bat-tery
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1376--1377
+\OT1/cmr/m/n/12 a safety fac-tor to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1379--1380
+[]|\OT1/cmr/m/n/12 Breaker Siz-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1384
+[]|\OT1/cmr/m/n/12 Determines the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1384
+\OT1/cmr/m/n/12 breaker rat-ing be-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1384
+\OT1/cmr/m/n/12 tween the bat-tery
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1384
+\OT1/cmr/m/n/12 bank and in-verter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1384
+\OT1/cmr/m/n/12 by cal-cu-lat-ing the
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 1383--1384
+\OT1/cmr/m/n/12 op-er-a-tion, pro-vid-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1384
+\OT1/cmr/m/n/12 pro-tec-tion dur-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1386--1387
+[]|\OT1/cmr/m/n/12 Breaker Siz-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1386--1387
 \OT1/cmr/m/n/12 (Inverter--Load /
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 1359--1360
+Underfull \hbox (badness 1226) in paragraph at lines 1390--1391
 \OT1/cmr/m/n/12 ex-pected load power
  []
 
 
-Underfull \hbox (badness 5519) in paragraph at lines 1359--1360
+Underfull \hbox (badness 5519) in paragraph at lines 1390--1391
 \OT1/cmr/m/n/12 in-verter AC out-put
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1359--1360
+Underfull \hbox (badness 2213) in paragraph at lines 1390--1391
 \OT1/cmr/m/n/12 the bat-tery nom-i-nal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1366--1367
+Underfull \hbox (badness 10000) in paragraph at lines 1397--1398
 \OT1/cmr/m/n/12 Drop In-dex us-ing
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 1366--1367
+Underfull \hbox (badness 2103) in paragraph at lines 1397--1398
 \OT1/cmr/m/n/12 sys-tem volt-age, and
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 1366--1367
+Underfull \hbox (badness 2103) in paragraph at lines 1397--1398
 \OT1/cmr/m/n/12 per-cent-age. Higher
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1366--1367
+Underfull \hbox (badness 10000) in paragraph at lines 1397--1398
 \OT1/cmr/m/n/12 VDI in-di-cates the
  []
 
 
 
-[142]
-chapter3.tex:1369: Infinite glue shrinkage found in box being split.
+[147]
+chapter3.tex:1400: Infinite glue shrinkage found in box being split.
 <argument> Infinite shrink error above ignored ! 
                                                  
-l.1369  \end{longtable}
+l.1400  \end{longtable}
                        
 The box you are \vsplitting contains some infinitely
 shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
@@ -2694,11 +2773,11 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[143]
-chapter3.tex:1369: Infinite glue shrinkage found in box being split.
+[148]
+chapter3.tex:1400: Infinite glue shrinkage found in box being split.
 <argument> Infinite shrink error above ignored ! 
                                                  
-l.1369  \end{longtable}
+l.1400  \end{longtable}
                        
 The box you are \vsplitting contains some infinitely
 shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
@@ -2706,11 +2785,11 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[144]
-chapter3.tex:1369: Infinite glue shrinkage found in box being split.
+[149]
+chapter3.tex:1400: Infinite glue shrinkage found in box being split.
 <argument> Infinite shrink error above ignored ! 
                                                  
-l.1369  \end{longtable}
+l.1400  \end{longtable}
                        
 The box you are \vsplitting contains some infinitely
 shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
@@ -2718,47 +2797,37 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[145])
+[150])
 
-[146]
+[151]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
 Chapter 4.
 
 
-[147
+[152
 
 
 
 
 ]
 
-[148]
+[153]
 
-[149]
+[154]
 Overfull \hbox (4.39757pt too wide) in paragraph at lines 33--34
 []\OT1/cmr/m/n/12 The im-ple-men-ta-tion demon-strated ac-cu-rate and re-spon-sive volt-age read-
  []
 
 
 
-[150]
+[155]
 Overfull \hbox (1.78716pt too wide) in paragraph at lines 37--37
 |[]\OT1/cmr/bx/n/12 ESP32 Re-ceives Lo-ca-tion Data From GPS Satel-lites Us-ing WiFi| 
  []
 
 
-
-[151]
-
-[152]
-
-[153]
-
-[154]
-
-[155]
 
 [156]
 
@@ -2771,75 +2840,85 @@ Overfull \hbox (1.78716pt too wide) in paragraph at lines 37--37
 [160]
 
 [161]
+
+[162]
+
+[163]
+
+[164]
+
+[165]
+
+[166]
 Overfull \hbox (1.2601pt too wide) in paragraph at lines 142--143
 []\OT1/cmr/m/n/12 When charg-ing two units si-mul-ta-ne-ously, the sys-tem ex-hib-ited in-creased
  []
 
 
 
-[162]
-<figures/station-design.png, id=1037, 1054.94125pt x 699.61375pt>
+[167]
+<figures/station-design.png, id=1064, 1054.94125pt x 699.61375pt>
 File: figures/station-design.png Graphic file (type png)
 <use figures/station-design.png>
 Package pdftex.def Info: figures/station-design.png  used on input line 160.
 (pdftex.def)             Requested size: 397.48502pt x 263.60352pt.
 
 
-[163]
+[168]
 
-[164 <./figures/station-design.png>]
-<figures/portable-design.jpg, id=1052, 795.97375pt x 723.70375pt>
+[169 <./figures/station-design.png>]
+<figures/portable-design.jpg, id=1079, 795.97375pt x 723.70375pt>
 File: figures/portable-design.jpg Graphic file (type jpg)
 <use figures/portable-design.jpg>
 Package pdftex.def Info: figures/portable-design.jpg  used on input line 172.
 (pdftex.def)             Requested size: 397.48502pt x 361.38719pt.
 
 
-[165]
+[170]
 
-[166 <./figures/portable-design.jpg>]
-<figures/station1.png, id=1062, 708.6475pt x 717.68124pt>
+[171 <./figures/portable-design.jpg>]
+<figures/station1.png, id=1089, 708.6475pt x 717.68124pt>
 File: figures/station1.png Graphic file (type png)
 <use figures/station1.png>
 Package pdftex.def Info: figures/station1.png  used on input line 188.
 (pdftex.def)             Requested size: 397.48502pt x 402.55582pt.
 
 
-[167]
-<figures/station2.png, id=1068, 749.80125pt x 715.67375pt>
+[172]
+<figures/station2.png, id=1095, 749.80125pt x 715.67375pt>
 File: figures/station2.png Graphic file (type png)
 <use figures/station2.png>
 Package pdftex.def Info: figures/station2.png  used on input line 195.
 (pdftex.def)             Requested size: 397.48502pt x 379.39264pt.
 
 
-[168 <./figures/station1.png>]
-<figures/station3.png, id=1075, 1164.35pt x 567.11874pt>
+[173 <./figures/station1.png>]
+<figures/station3.png, id=1102, 1164.35pt x 567.11874pt>
 File: figures/station3.png Graphic file (type png)
 <use figures/station3.png>
 Package pdftex.def Info: figures/station3.png  used on input line 202.
 (pdftex.def)             Requested size: 397.48502pt x 193.59663pt.
 
 
-[169 <./figures/station2.png>]
-<figures/station4.png, id=1083, 1235.61626pt x 673.51625pt>
+[174 <./figures/station2.png>]
+<figures/station4.png, id=1109, 1235.61626pt x 673.51625pt>
 File: figures/station4.png Graphic file (type png)
 <use figures/station4.png>
 Package pdftex.def Info: figures/station4.png  used on input line 209.
 (pdftex.def)             Requested size: 397.48502pt x 216.66006pt.
 
 
-[170 <./figures/station3.png> <./figures/station4.png>]
-<figures/portable1.png, id=1092, 1132.23pt x 614.295pt>
+[175 <./figures/station3.png> <./figures/station4.png>]
+<figures/portable1.png, id=1119, 1132.23pt x 614.295pt>
 File: figures/portable1.png Graphic file (type png)
 <use figures/portable1.png>
 Package pdftex.def Info: figures/portable1.png  used on input line 223.
 (pdftex.def)             Requested size: 397.48502pt x 215.65323pt.
 
 
-[171]
+[176]
 
-[172 <./figures/portable1.png>]
+[177 <./figures/portable1.png>]
 Overfull \hbox (1.81854pt too wide) in paragraph at lines 236--237
 []\OT1/cmr/m/n/12 This sec-tion presents the graph-i-cal user in-ter-face (GUI) of the KuRyenta
  []
@@ -2850,16 +2929,16 @@ Package pdftex.def Info: figures/S1.png  used on input line 243.
 (pdftex.def)             Requested size: 397.48502pt x 319.3138pt.
 
 
-[173]
+[178]
 
-[174]
+[179]
 File: figures/SA1.png Graphic file (type png)
 <use figures/SA1.png>
 Package pdftex.def Info: figures/SA1.png  used on input line 255.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[175]
+[180]
 File: figures/SE3.png Graphic file (type png)
 <use figures/SE3.png>
 Package pdftex.def Info: figures/SE3.png  used on input line 266.
@@ -2870,56 +2949,56 @@ Package pdftex.def Info: figures/SE4.png  used on input line 278.
 (pdftex.def)             Requested size: 278.2383pt x 515.62544pt.
 
 
-[176]
+[181]
 
-[177]
+[182]
 File: figures/SE5.png Graphic file (type png)
 <use figures/SE5.png>
 Package pdftex.def Info: figures/SE5.png  used on input line 289.
 (pdftex.def)             Requested size: 397.48502pt x 327.92683pt.
 
 
-[178]
+[183]
 File: figures/coin-slot.png Graphic file (type png)
 <use figures/coin-slot.png>
 Package pdftex.def Info: figures/coin-slot.png  used on input line 300.
 (pdftex.def)             Requested size: 397.48502pt x 562.20903pt.
 
 
-[179]
+[184]
 Overfull \vbox (30.72104pt too high) has occurred while \output is active []
 
 
 
-[180]
+[185]
 File: figures/credit-points.png Graphic file (type png)
 <use figures/credit-points.png>
 Package pdftex.def Info: figures/credit-points.png  used on input line 311.
 (pdftex.def)             Requested size: 397.48502pt x 562.20903pt.
 
 
-[181]
+[186]
 Overfull \vbox (30.72104pt too high) has occurred while \output is active []
 
 
 
-[182]
+[187]
 File: figures/alert-new.png Graphic file (type png)
 <use figures/alert-new.png>
 Package pdftex.def Info: figures/alert-new.png  used on input line 322.
 (pdftex.def)             Requested size: 397.48502pt x 397.19127pt.
 
 
-[183]
+[188]
 
-[184]
+[189]
 File: figures/SE5.png Graphic file (type png)
 <use figures/SE5.png>
 Package pdftex.def Info: figures/SE5.png  used on input line 333.
 (pdftex.def)             Requested size: 397.48502pt x 327.92683pt.
 
 
-[185]
+[190]
 File: figures/admin-1.png Graphic file (type png)
 <use figures/admin-1.png>
 Package pdftex.def Info: figures/admin-1.png  used on input line 344.
@@ -2931,16 +3010,16 @@ Overfull \hbox (2.16566pt too wide) in paragraph at lines 348--349
 
 
 
-[186]
+[191]
 File: figures/admin-2.png Graphic file (type png)
 <use figures/admin-2.png>
 Package pdftex.def Info: figures/admin-2.png  used on input line 355.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[187]
+[192]
 
-[188]
+[193]
 File: figures/admin-3.png Graphic file (type png)
 <use figures/admin-3.png>
 Package pdftex.def Info: figures/admin-3.png  used on input line 366.
@@ -2951,9 +3030,9 @@ Package pdftex.def Info: figures/admin-4.png  used on input line 374.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[189]
+[194]
 
-[190]
+[195]
 File: figures/admin-5.png Graphic file (type png)
 <use figures/admin-5.png>
 Package pdftex.def Info: figures/admin-5.png  used on input line 385.
@@ -2964,9 +3043,9 @@ Package pdftex.def Info: figures/admin-6.png  used on input line 393.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[191]
+[196]
 
-[192]
+[197]
 File: figures/admin-7.png Graphic file (type png)
 <use figures/admin-7.png>
 Package pdftex.def Info: figures/admin-7.png  used on input line 404.
@@ -2977,16 +3056,16 @@ Package pdftex.def Info: figures/admin-8.png  used on input line 412.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[193]
+[198]
 
-[194]
+[199]
 File: figures/admin-9.png Graphic file (type png)
 <use figures/admin-9.png>
 Package pdftex.def Info: figures/admin-9.png  used on input line 423.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[195]
+[200]
 File: figures/admin-10.png Graphic file (type png)
 <use figures/admin-10.png>
 Package pdftex.def Info: figures/admin-10.png  used on input line 434.
@@ -2998,7 +3077,7 @@ Overfull \hbox (11.46713pt too wide) in paragraph at lines 438--439
 
 
 
-[196]
+[201]
 Underfull \hbox (badness 10000) in paragraph at lines 450--450
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -3195,7 +3274,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[197]
+[202]
 Underfull \hbox (badness 10000) in paragraph at lines 484--484
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -3437,7 +3516,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[198]
+[203]
 Underfull \hbox (badness 10000) in paragraph at lines 514--514
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -3734,7 +3813,7 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 534--571
 
 
 
-[199]
+[204]
 Underfull \hbox (badness 10000) in paragraph at lines 583--583
 []|\OT1/cmr/bx/n/10.95 Test Sce-
  []
@@ -3796,7 +3875,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[200]
+[205]
 Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -4027,7 +4106,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[201]
+[206]
 Underfull \hbox (badness 10000) in paragraph at lines 634--634
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -4304,7 +4383,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[202]
+[207]
 Underfull \hbox (badness 10000) in paragraph at lines 672--672
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -4954,7 +5033,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[203]
+[208]
 Underfull \hbox (badness 10000) in paragraph at lines 735--735
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -5006,7 +5085,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[204]
+[209]
 Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/bx/n/12 Expected
  []
@@ -5277,7 +5356,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[205]
+[210]
 Underfull \hbox (badness 10000) in paragraph at lines 789--789
 []|\OT1/cmr/bx/n/12 Expected
  []
@@ -5578,7 +5657,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 812--822
 
 
 
-[206]
+[211]
 Underfull \hbox (badness 10000) in paragraph at lines 828--828
 []|\OT1/cmr/bx/n/12 Expected
  []
@@ -5854,7 +5933,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[207]
+[212]
 Underfull \hbox (badness 10000) in paragraph at lines 852--852
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -6246,7 +6325,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[208]
+[213]
 Underfull \hbox (badness 10000) in paragraph at lines 890--890
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -6303,7 +6382,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[209]
+[214]
 Underfull \hbox (badness 10000) in paragraph at lines 904--904
 []|\OT1/cmr/bx/n/12 Expected
  []
@@ -6635,7 +6714,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[210]
+[215]
 Underfull \hbox (badness 10000) in paragraph at lines 930--930
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -6727,7 +6806,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[211]
+[216]
 Underfull \hbox (badness 10000) in paragraph at lines 944--944
 []|\OT1/cmr/bx/n/12 Expected
  []
@@ -7124,7 +7203,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[212]
+[217]
 Underfull \hbox (badness 10000) in paragraph at lines 971--971
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -7336,7 +7415,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[213]
+[218]
 Underfull \hbox (badness 10000) in paragraph at lines 1005--1005
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -7553,7 +7632,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[214]
+[219]
 Underfull \hbox (badness 10000) in paragraph at lines 1040--1040
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -7760,7 +7839,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[215]
+[220]
 Underfull \hbox (badness 10000) in paragraph at lines 1074--1074
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -7907,7 +7986,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[216]
+[221]
 Underfull \hbox (badness 10000) in paragraph at lines 1105--1105
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -8114,7 +8193,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[217]
+[222]
 Underfull \hbox (badness 10000) in paragraph at lines 1151--1151
 []|\OT1/cmr/bx/n/12 Expected
  []
@@ -8351,7 +8430,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[218]
+[223]
 Underfull \hbox (badness 10000) in paragraph at lines 1172--1172
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -8618,7 +8697,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[219]
+[224]
 Underfull \hbox (badness 10000) in paragraph at lines 1207--1207
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -8885,7 +8964,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[220]
+[225]
 Underfull \hbox (badness 10000) in paragraph at lines 1242--1242
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -8942,7 +9021,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[221]
+[226]
 Underfull \hbox (badness 10000) in paragraph at lines 1256--1256
 []|\OT1/cmr/bx/n/12 Expected
  []
@@ -9184,7 +9263,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[222]
+[227]
 Underfull \hbox (badness 10000) in paragraph at lines 1291--1291
 []|\OT1/cmr/bx/n/12 Expected
  []
@@ -9421,7 +9500,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[223]
+[228]
 Underfull \hbox (badness 10000) in paragraph at lines 1325--1325
 []|\OT1/cmr/bx/n/12 Expected
  []
@@ -9658,7 +9737,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[224]
+[229]
 Underfull \hbox (badness 10000) in paragraph at lines 1374--1374
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -9910,7 +9989,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[225]
+[230]
 Underfull \hbox (badness 10000) in paragraph at lines 1408--1408
 []|\OT1/cmr/bx/n/12 Test Sce-
  []
@@ -10032,7 +10111,7 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 1420--1427
 
 
 
-[226]
+[231]
 Overfull \hbox (0.44623pt too wide) in alignment at lines 1436--1443
  [] [] 
  []
@@ -10939,7 +11018,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[227]
+[232]
 chapter4.tex:1471: Infinite glue shrinkage found in box being split.
 <argument> Infinite shrink error above ignored ! 
                                                  
@@ -10951,7 +11030,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[228]
+[233]
 Overfull \hbox (0.44623pt too wide) in alignment at lines 1480--1486
  [] [] 
  []
@@ -11978,7 +12057,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[229]
+[234]
 chapter4.tex:1513: Infinite glue shrinkage found in box being split.
 <argument> Infinite shrink error above ignored ! 
                                                  
@@ -11990,7 +12069,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[230]
+[235]
 Overfull \hbox (0.44623pt too wide) in alignment at lines 1518--1524
  [] [] 
  []
@@ -12007,7 +12086,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[231]
+[236]
 Underfull \hbox (badness 10000) in paragraph at lines 1531--1531
 []|\OT1/cmr/bx/n/12 Test
  []
@@ -12212,102 +12291,102 @@ Overfull \hbox (2.18993pt too wide) in paragraph at lines 1546--1546
  \OT1/cmr/bx/n/12 Case 
  []
 
-<figures/LG-01-code.png, id=1556, 1373.13pt x 327.2225pt>
+<figures/LG-01-code.png, id=1583, 1373.13pt x 327.2225pt>
 File: figures/LG-01-code.png Graphic file (type png)
 <use figures/LG-01-code.png>
 Package pdftex.def Info: figures/LG-01-code.png  used on input line 1551.
 (pdftex.def)             Requested size: 173.56198pt x 41.35707pt.
-<figures/LG-01-result.png, id=1557, 903.375pt x 238.8925pt>
+<figures/LG-01-result.png, id=1584, 903.375pt x 238.8925pt>
 File: figures/LG-01-result.png Graphic file (type png)
 <use figures/LG-01-result.png>
 Package pdftex.def Info: figures/LG-01-result.png  used on input line 1556.
 (pdftex.def)             Requested size: 159.3356pt x 42.13487pt.
-<figures/LG-02-code.png, id=1558, 1126.2075pt x 120.45pt>
+<figures/LG-02-code.png, id=1585, 1126.2075pt x 120.45pt>
 File: figures/LG-02-code.png Graphic file (type png)
 <use figures/LG-02-code.png>
 Package pdftex.def Info: figures/LG-02-code.png  used on input line 1563.
 (pdftex.def)             Requested size: 173.56198pt x 18.56111pt.
-<figures/LG-02-result.png, id=1559, 823.075pt x 44.165pt>
+<figures/LG-02-result.png, id=1586, 823.075pt x 44.165pt>
 File: figures/LG-02-result.png Graphic file (type png)
 <use figures/LG-02-result.png>
 Package pdftex.def Info: figures/LG-02-result.png  used on input line 1568.
 (pdftex.def)             Requested size: 159.3356pt x 8.54979pt.
-<figures/LG-03-code.png, id=1560, 1353.055pt x 252.945pt>
+<figures/LG-03-code.png, id=1587, 1353.055pt x 252.945pt>
 File: figures/LG-03-code.png Graphic file (type png)
 <use figures/LG-03-code.png>
 Package pdftex.def Info: figures/LG-03-code.png  used on input line 1575.
 (pdftex.def)             Requested size: 173.56198pt x 32.444pt.
-<figures/LG-03-result.png, id=1561, 903.375pt x 44.165pt>
+<figures/LG-03-result.png, id=1588, 903.375pt x 44.165pt>
 File: figures/LG-03-result.png Graphic file (type png)
 <use figures/LG-03-result.png>
 Package pdftex.def Info: figures/LG-03-result.png  used on input line 1580.
 (pdftex.def)             Requested size: 159.3356pt x 7.78963pt.
-<figures/LG-04-code.png, id=1562, 1451.4225pt x 260.975pt>
+<figures/LG-04-code.png, id=1589, 1451.4225pt x 260.975pt>
 File: figures/LG-04-code.png Graphic file (type png)
 <use figures/LG-04-code.png>
 Package pdftex.def Info: figures/LG-04-code.png  used on input line 1587.
 (pdftex.def)             Requested size: 173.56198pt x 31.20415pt.
-<figures/LG-04-result.png, id=1563, 903.375pt x 56.21pt>
+<figures/LG-04-result.png, id=1590, 903.375pt x 56.21pt>
 File: figures/LG-04-result.png Graphic file (type png)
 <use figures/LG-04-result.png>
 Package pdftex.def Info: figures/LG-04-result.png  used on input line 1592.
 (pdftex.def)             Requested size: 159.3356pt x 9.91408pt.
-<figures/PA-05-code.png, id=1564, 1688.3075pt x 152.57pt>
+<figures/PA-05-code.png, id=1591, 1688.3075pt x 152.57pt>
 File: figures/PA-05-code.png Graphic file (type png)
 <use figures/PA-05-code.png>
 Package pdftex.def Info: figures/PA-05-code.png  used on input line 1599.
 (pdftex.def)             Requested size: 173.56198pt x 15.68391pt.
-<figures/PA-05-result.png, id=1565, 857.2025pt x 102.3825pt>
+<figures/PA-05-result.png, id=1592, 857.2025pt x 102.3825pt>
 File: figures/PA-05-result.png Graphic file (type png)
 <use figures/PA-05-result.png>
 Package pdftex.def Info: figures/PA-05-result.png  used on input line 1604.
 (pdftex.def)             Requested size: 159.3356pt x 19.02951pt.
-<figures/LG-06-code.png, id=1566, 2085.7925pt x 220.825pt>
+<figures/LG-06-code.png, id=1593, 2085.7925pt x 220.825pt>
 File: figures/LG-06-code.png Graphic file (type png)
 <use figures/LG-06-code.png>
 Package pdftex.def Info: figures/LG-06-code.png  used on input line 1611.
 (pdftex.def)             Requested size: 173.56198pt x 18.37395pt.
-<figures/LG-06-result.png, id=1567, 937.5025pt x 66.2475pt>
+<figures/LG-06-result.png, id=1594, 937.5025pt x 66.2475pt>
 File: figures/LG-06-result.png Graphic file (type png)
 <use figures/LG-06-result.png>
 Package pdftex.def Info: figures/LG-06-result.png  used on input line 1616.
 (pdftex.def)             Requested size: 159.3356pt x 11.25888pt.
-<figures/LG-07-code.png, id=1568, 1443.3925pt x 471.7625pt>
+<figures/LG-07-code.png, id=1595, 1443.3925pt x 471.7625pt>
 File: figures/LG-07-code.png Graphic file (type png)
 <use figures/LG-07-code.png>
 Package pdftex.def Info: figures/LG-07-code.png  used on input line 1623.
 (pdftex.def)             Requested size: 173.56198pt x 56.72423pt.
-<figures/LG-07-result.png, id=1569, 851.18pt x 303.1325pt>
+<figures/LG-07-result.png, id=1596, 851.18pt x 303.1325pt>
 File: figures/LG-07-result.png Graphic file (type png)
 <use figures/LG-07-result.png>
 Package pdftex.def Info: figures/LG-07-result.png  used on input line 1628.
 (pdftex.def)             Requested size: 159.3356pt x 56.74469pt.
-<figures/WS-08-code.png, id=1570, 1055.945pt x 341.275pt>
+<figures/WS-08-code.png, id=1597, 1055.945pt x 341.275pt>
 File: figures/WS-08-code.png Graphic file (type png)
 <use figures/WS-08-code.png>
 Package pdftex.def Info: figures/WS-08-code.png  used on input line 1635.
 (pdftex.def)             Requested size: 173.56198pt x 56.08922pt.
-<figures/WS-08-result.png, id=1571, 887.315pt x 94.3525pt>
+<figures/WS-08-result.png, id=1598, 887.315pt x 94.3525pt>
 File: figures/WS-08-result.png Graphic file (type png)
 <use figures/WS-08-result.png>
 Package pdftex.def Info: figures/WS-08-result.png  used on input line 1640.
 (pdftex.def)             Requested size: 159.3356pt x 16.9424pt.
-<figures/LG-09-code.png, id=1572, 1543.7675pt x 435.6275pt>
+<figures/LG-09-code.png, id=1599, 1543.7675pt x 435.6275pt>
 File: figures/LG-09-code.png Graphic file (type png)
 <use figures/LG-09-code.png>
 Package pdftex.def Info: figures/LG-09-code.png  used on input line 1647.
 (pdftex.def)             Requested size: 173.56198pt x 48.97606pt.
-<figures/LG-09-result.png, id=1573, 1025.8325pt x 148.555pt>
+<figures/LG-09-result.png, id=1600, 1025.8325pt x 148.555pt>
 File: figures/LG-09-result.png Graphic file (type png)
 <use figures/LG-09-result.png>
 Package pdftex.def Info: figures/LG-09-result.png  used on input line 1652.
 (pdftex.def)             Requested size: 159.3356pt x 23.07338pt.
-<figures/WS-10-code.png, id=1574, 1009.7725pt x 343.2825pt>
+<figures/WS-10-code.png, id=1601, 1009.7725pt x 343.2825pt>
 File: figures/WS-10-code.png Graphic file (type png)
 <use figures/WS-10-code.png>
 Package pdftex.def Info: figures/WS-10-code.png  used on input line 1659.
 (pdftex.def)             Requested size: 173.56198pt x 59.00153pt.
-<figures/WS-10-result.png, id=1575, 698.61pt x 88.33pt>
+<figures/WS-10-result.png, id=1602, 698.61pt x 88.33pt>
 File: figures/WS-10-result.png Graphic file (type png)
 <use figures/WS-10-result.png>
 Package pdftex.def Info: figures/WS-10-result.png  used on input line 1664.
@@ -12324,7 +12403,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[232]
+[237]
 chapter4.tex:1667: Infinite glue shrinkage found in box being split.
 <argument> Infinite shrink error above ignored ! 
                                                  
@@ -12336,52 +12415,52 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[233 <./figures/LG-01-code.png> <./figures/LG-01-result.png> <./figures/LG-02-code.png> <./figures/LG-02-result.png> <./figures/LG-03-code.png> <./figures/LG-03-result.png> <./figures/LG-04-code.png> <./figures/LG-04-result.png> <./figures/PA-05-code.png> <./figures/PA-05-result.png> <./figures/LG-06-code.png> <./figures/LG-06-result.png> <./figures/LG-07-code.png> <./figures/LG-07-result.png> <./figures/WS-08-code.png> <./figures/WS-08-result.png>]
+[238 <./figures/LG-01-code.png> <./figures/LG-01-result.png> <./figures/LG-02-code.png> <./figures/LG-02-result.png> <./figures/LG-03-code.png> <./figures/LG-03-result.png> <./figures/LG-04-code.png> <./figures/LG-04-result.png> <./figures/PA-05-code.png> <./figures/PA-05-result.png> <./figures/LG-06-code.png> <./figures/LG-06-result.png> <./figures/LG-07-code.png> <./figures/LG-07-result.png> <./figures/WS-08-code.png> <./figures/WS-08-result.png>]
 Overfull \hbox (2.18993pt too wide) in paragraph at lines 1672--1672
  \OT1/cmr/bx/n/12 Case 
  []
 
-<figures/SU-01-code.png, id=1603, 786.94pt x 116.435pt>
+<figures/SU-01-code.png, id=1630, 786.94pt x 116.435pt>
 File: figures/SU-01-code.png Graphic file (type png)
 <use figures/SU-01-code.png>
 Package pdftex.def Info: figures/SU-01-code.png  used on input line 1677.
 (pdftex.def)             Requested size: 173.56198pt x 25.67973pt.
-<figures/SU-01-result.png, id=1604, 981.6675pt x 242.9075pt>
+<figures/SU-01-result.png, id=1631, 981.6675pt x 242.9075pt>
 File: figures/SU-01-result.png Graphic file (type png)
 <use figures/SU-01-result.png>
 Package pdftex.def Info: figures/SU-01-result.png  used on input line 1682.
 (pdftex.def)             Requested size: 159.3356pt x 39.42566pt.
-<figures/SU-02-code.png, id=1605, 576.1525pt x 186.6975pt>
+<figures/SU-02-code.png, id=1632, 576.1525pt x 186.6975pt>
 File: figures/SU-02-code.png Graphic file (type png)
 <use figures/SU-02-code.png>
 Package pdftex.def Info: figures/SU-02-code.png  used on input line 1689.
 (pdftex.def)             Requested size: 173.56198pt x 56.24042pt.
-<figures/SU-02-result.png, id=1606, 951.555pt x 56.21pt>
+<figures/SU-02-result.png, id=1633, 951.555pt x 56.21pt>
 File: figures/SU-02-result.png Graphic file (type png)
 <use figures/SU-02-result.png>
 Package pdftex.def Info: figures/SU-02-result.png  used on input line 1694.
 (pdftex.def)             Requested size: 159.3356pt x 9.41147pt.
-<figures/SU-03-code.png, id=1607, 766.865pt x 120.45pt>
+<figures/SU-03-code.png, id=1634, 766.865pt x 120.45pt>
 File: figures/SU-03-code.png Graphic file (type png)
 <use figures/SU-03-code.png>
 Package pdftex.def Info: figures/SU-03-code.png  used on input line 1701.
 (pdftex.def)             Requested size: 173.56198pt x 27.25996pt.
-<figures/SU-03-result.png, id=1608, 991.705pt x 242.9075pt>
+<figures/SU-03-result.png, id=1635, 991.705pt x 242.9075pt>
 File: figures/SU-03-result.png Graphic file (type png)
 <use figures/SU-03-result.png>
 Package pdftex.def Info: figures/SU-03-result.png  used on input line 1706.
 (pdftex.def)             Requested size: 159.3356pt x 39.02536pt.
-<figures/SU-04-code.png, id=1609, 1527.7075pt x 1485.55pt>
+<figures/SU-04-code.png, id=1636, 1527.7075pt x 1485.55pt>
 File: figures/SU-04-code.png Graphic file (type png)
 <use figures/SU-04-code.png>
 Package pdftex.def Info: figures/SU-04-code.png  used on input line 1713.
 (pdftex.def)             Requested size: 173.56198pt x 168.76056pt.
-<figures/SU-04-result.png, id=1610, 991.705pt x 88.33pt>
+<figures/SU-04-result.png, id=1637, 991.705pt x 88.33pt>
 File: figures/SU-04-result.png Graphic file (type png)
 <use figures/SU-04-result.png>
 Package pdftex.def Info: figures/SU-04-result.png  used on input line 1718.
 (pdftex.def)             Requested size: 159.3356pt x 14.19104pt.
-<figures/SU-05-code.png, id=1611, 1614.03pt x 473.77pt>
+<figures/SU-05-code.png, id=1638, 1614.03pt x 473.77pt>
 File: figures/SU-05-code.png Graphic file (type png)
 <use figures/SU-05-code.png>
 Package pdftex.def Info: figures/SU-05-code.png  used on input line 1725.
@@ -12401,7 +12480,7 @@ l.1730 ...h=1\linewidth]{figures/SU-05-result.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figures/SU-06-code.png, id=1612, 1632.0975pt x 479.7925pt>
+<figures/SU-06-code.png, id=1639, 1632.0975pt x 479.7925pt>
 File: figures/SU-06-code.png Graphic file (type png)
 <use figures/SU-06-code.png>
 Package pdftex.def Info: figures/SU-06-code.png  used on input line 1737.
@@ -12421,7 +12500,7 @@ l.1742 ...h=1\linewidth]{figures/SU-06-result.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figures/SU-07-code.png, id=1613, 2079.77pt x 411.5375pt>
+<figures/SU-07-code.png, id=1640, 2079.77pt x 411.5375pt>
 File: figures/SU-07-code.png Graphic file (type png)
 <use figures/SU-07-code.png>
 Package pdftex.def Info: figures/SU-07-code.png  used on input line 1749.
@@ -12471,7 +12550,7 @@ l.1766 ...h=1\linewidth]{figures/SU-08-result.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figures/SU-09-code.png, id=1614, 2133.9725pt x 371.3875pt>
+<figures/SU-09-code.png, id=1641, 2133.9725pt x 371.3875pt>
 File: figures/SU-09-code.png Graphic file (type png)
 <use figures/SU-09-code.png>
 Package pdftex.def Info: figures/SU-09-code.png  used on input line 1773.
@@ -12503,7 +12582,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[234 <./figures/LG-09-code.png> <./figures/LG-09-result.png> <./figures/WS-10-code.png> <./figures/WS-10-result.png> <./figures/SU-01-code.png> <./figures/SU-01-result.png> <./figures/SU-02-code.png> <./figures/SU-02-result.png> <./figures/SU-03-code.png> <./figures/SU-03-result.png>]
+[239 <./figures/LG-09-code.png> <./figures/LG-09-result.png> <./figures/WS-10-code.png> <./figures/WS-10-result.png> <./figures/SU-01-code.png> <./figures/SU-01-result.png> <./figures/SU-02-code.png> <./figures/SU-02-result.png> <./figures/SU-03-code.png> <./figures/SU-03-result.png>]
 chapter4.tex:1781: Infinite glue shrinkage found in box being split.
 <argument> Infinite shrink error above ignored ! 
                                                  
@@ -12515,7 +12594,7 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[235 <./figures/SU-04-code.png> <./figures/SU-04-result.png> <./figures/SU-05-code.png>]
+[240 <./figures/SU-04-code.png> <./figures/SU-04-result.png> <./figures/SU-05-code.png>]
 chapter4.tex:1781: Infinite glue shrinkage found in box being split.
 <argument> Infinite shrink error above ignored ! 
                                                  
@@ -12527,9 +12606,9 @@ Such glue doesn't belong there; but you can safely proceed,
 since the offensive shrinkability has been made finite.
 
 
-[236 <./figures/SU-06-code.png> <./figures/SU-07-code.png>]
+[241 <./figures/SU-06-code.png> <./figures/SU-07-code.png>]
 
-[237 <./figures/SU-09-code.png>]
+[242 <./figures/SU-09-code.png>]
 
 LaTeX Warning: File `figures/bar-functional.png' not found on input line 1791.
 
@@ -12547,7 +12626,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[238]
+[243]
 
 LaTeX Warning: File `figures/bar-usability.png' not found on input line 1804.
 
@@ -12565,41 +12644,41 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[239]
+[244]
 
-[240])
+[245])
 
-[241]
+[246]
 \openout2 = `chapter5.aux'.
 
  (chapter5.tex
 Chapter 5.
 
 
-[242
+[247
 
 
 
 
 ]
 
-[243])
+[248])
 
-[244]
+[249]
 \openout2 = `appendix.aux'.
 
  (appendix.tex
 
-[245
+[250
 
 
 
 
 ]
 
-[246]
+[251]
 
-[247]
+[252]
 Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\OT1/cmr/bx/n/12 Power
  []
@@ -12651,19 +12730,19 @@ Overfull \hbox (3.94801pt too wide) in alignment at lines 174--182
 
 
 
-[248]
-<figures/gantt-new.png, id=1712, 934.24031pt x 516.42938pt>
+[253]
+<figures/gantt-new.png, id=1739, 934.24031pt x 516.42938pt>
 File: figures/gantt-new.png Graphic file (type png)
 <use figures/gantt-new.png>
 Package pdftex.def Info: figures/gantt-new.png  used on input line 206.
 (pdftex.def)             Requested size: 397.48502pt x 219.71992pt.
 
 
-[249 <./figures/gantt-new.png>]
+[254 <./figures/gantt-new.png>]
 
-[250]
+[255]
 
-[251]
+[256]
 Underfull \hbox (badness 7704) in paragraph at lines 367--367
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
@@ -12686,97 +12765,41 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<figures/sample-interview.jpg, id=1754, 473.77pt x 473.77pt>
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 466.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 472.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 463.
+(mdframed)              on input line 475.
 
-
-[252]
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 463.
-
-
-[253]
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 463.
-
-
-[254]
-
-[255]
-Underfull \hbox (badness 7704) in paragraph at lines 500--500
-[]|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
- []
-
-appendix.tex:506: Undefined control sequence.
-l.506 \hrulespace
-                  % Custom separator
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-appendix.tex:594: Undefined control sequence.
-l.594 \hrulespace
-                  % Custom separator
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 596.
-
-
-[256]
 
 [257]
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 475.
+
 
 [258]
-Underfull \hbox (badness 7704) in paragraph at lines 633--633
-[]|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
- []
-
-appendix.tex:639: Undefined control sequence.
-l.639 \hrulespace
-                  % Custom separator
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-appendix.tex:727: Undefined control sequence.
-l.727 \hrulespace
-                  % Custom separator
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 475.
 
 
 [259]
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 729.
 
-
-[260]
-
-[261]
-Underfull \hbox (badness 7704) in paragraph at lines 765--765
+[260 <./figures/sample-interview.jpg>]
+Underfull \hbox (badness 7704) in paragraph at lines 513--513
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
 
-appendix.tex:771: Undefined control sequence.
-l.771 \hrulespace
+appendix.tex:519: Undefined control sequence.
+l.519 \hrulespace
                   % Custom separator
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12784,8 +12807,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-appendix.tex:859: Undefined control sequence.
-l.859 \hrulespace
+appendix.tex:607: Undefined control sequence.
+l.607 \hrulespace
                   % Custom separator
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12793,19 +12816,32 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 612.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 618.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 621.
 
+
+[261]
 
 [262]
 
 [263]
 
 [264]
-Underfull \hbox (badness 7704) in paragraph at lines 897--897
+Underfull \hbox (badness 7704) in paragraph at lines 658--658
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
 
-appendix.tex:903: Undefined control sequence.
-l.903 \hrulespace
+appendix.tex:664: Undefined control sequence.
+l.664 \hrulespace
                   % Custom separator
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12813,8 +12849,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-appendix.tex:991: Undefined control sequence.
-l.991 \hrulespace
+appendix.tex:752: Undefined control sequence.
+l.752 \hrulespace
                   % Custom separator
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12822,98 +12858,81 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 993.
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 757.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 763.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
 
 
 [265]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 993.
+(mdframed)              on input line 766.
 
 
 [266]
 
 [267]
-Underfull \hbox (badness 7704) in paragraph at lines 1029--1029
+
+[268]
+Underfull \hbox (badness 7704) in paragraph at lines 802--802
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
 
-appendix.tex:1035: Undefined control sequence.
-l.1035 \hrulespace
-                   % Custom separator
+appendix.tex:808: Undefined control sequence.
+l.808 \hrulespace
+                  % Custom separator
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-appendix.tex:1123: Undefined control sequence.
-l.1123 \hrulespace
-                   % Custom separator
+appendix.tex:896: Undefined control sequence.
+l.896 \hrulespace
+                  % Custom separator
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 1125.
-
-
-[268]
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 1125.
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 901.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 907.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
 
 
 [269]
 
 [270]
-Underfull \hbox (badness 7704) in paragraph at lines 1162--1162
-[]|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
- []
-
-appendix.tex:1168: Undefined control sequence.
-l.1168 \hrulespace
-                   % Custom separator
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-appendix.tex:1256: Undefined control sequence.
-l.1256 \hrulespace
-                   % Custom separator
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 1258.
-
 
 [271]
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 1258.
-
 
 [272]
-
-[273]
-Underfull \hbox (badness 7704) in paragraph at lines 1295--1295
+Underfull \hbox (badness 7704) in paragraph at lines 946--946
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
 
-appendix.tex:1301: Undefined control sequence.
-l.1301 \hrulespace
+appendix.tex:952: Undefined control sequence.
+l.952 \hrulespace
+                  % Custom separator
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+appendix.tex:1040: Undefined control sequence.
+l.1040 \hrulespace
                    % Custom separator
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12921,35 +12940,36 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-appendix.tex:1389: Undefined control sequence.
-l.1389 \hrulespace
-                   % Custom separator
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 1045.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 1051.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 1391.
+(mdframed)              on input line 1054.
+
+
+[273]
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 1054.
 
 
 [274]
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 1391.
-
 
 [275]
 
 [276]
-Underfull \hbox (badness 7704) in paragraph at lines 1428--1428
+Underfull \hbox (badness 7704) in paragraph at lines 1090--1090
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
 
-appendix.tex:1434: Undefined control sequence.
-l.1434 \hrulespace
+appendix.tex:1096: Undefined control sequence.
+l.1096 \hrulespace
                    % Custom separator
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12957,8 +12977,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-appendix.tex:1522: Undefined control sequence.
-l.1522 \hrulespace
+appendix.tex:1184: Undefined control sequence.
+l.1184 \hrulespace
                    % Custom separator
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12966,26 +12986,36 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 1189.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 1195.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 1524.
+(mdframed)              on input line 1198.
 
 
 [277]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 1524.
+(mdframed)              on input line 1198.
 
 
 [278]
 
 [279]
-Underfull \hbox (badness 7704) in paragraph at lines 1561--1561
+
+[280]
+Underfull \hbox (badness 7704) in paragraph at lines 1235--1235
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
 
-appendix.tex:1567: Undefined control sequence.
-l.1567 \hrulespace
+appendix.tex:1241: Undefined control sequence.
+l.1241 \hrulespace
                    % Custom separator
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12993,8 +13023,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-appendix.tex:1655: Undefined control sequence.
-l.1655 \hrulespace
+appendix.tex:1329: Undefined control sequence.
+l.1329 \hrulespace
                    % Custom separator
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13002,43 +13032,191 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 1334.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 1340.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 1657.
-
-
-[280]
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 1657.
+(mdframed)              on input line 1343.
 
 
 [281]
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 1343.
+
 
 [282]
 
 [283]
 
 [284]
+Underfull \hbox (badness 7704) in paragraph at lines 1380--1380
+[]|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
+ []
+
+appendix.tex:1386: Undefined control sequence.
+l.1386 \hrulespace
+                   % Custom separator
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+appendix.tex:1474: Undefined control sequence.
+l.1474 \hrulespace
+                   % Custom separator
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 1479.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 1485.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 1488.
+
 
 [285]
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 1488.
+
 
 [286]
 
 [287]
 
 [288]
+Underfull \hbox (badness 7704) in paragraph at lines 1525--1525
+[]|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
+ []
 
-[289])
+appendix.tex:1531: Undefined control sequence.
+l.1531 \hrulespace
+                   % Custom separator
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+appendix.tex:1619: Undefined control sequence.
+l.1619 \hrulespace
+                   % Custom separator
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 1624.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 1630.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 1633.
+
+
+[289]
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 1633.
+
 
 [290]
+
+[291]
+
+[292]
+Underfull \hbox (badness 7704) in paragraph at lines 1670--1670
+[]|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
+ []
+
+appendix.tex:1676: Undefined control sequence.
+l.1676 \hrulespace
+                   % Custom separator
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+appendix.tex:1764: Undefined control sequence.
+l.1764 \hrulespace
+                   % Custom separator
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 1769.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
+File: figures/sample-interview.jpg Graphic file (type jpg)
+<use figures/sample-interview.jpg>
+Package pdftex.def Info: figures/sample-interview.jpg  used on input line 1775.
+(pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 1778.
+
+
+[293]
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 1778.
+
+
+[294]
+
+[295]
+
+[296]
+
+[297]
+
+[298]
+
+[299]
+
+[300]
+
+[301]
+
+[302]
+
+[303])
+
+[304]
 \openout2 = `bibliography.aux'.
 
  (bibliography.tex)
 \openout2 = `cv.aux'.
 
  (cv.tex
-<figures/esbiii.jpg, id=2001, 738.76pt x 534.99875pt>
+<figures/esbiii.jpg, id=2086, 738.76pt x 534.99875pt>
 File: figures/esbiii.jpg Graphic file (type jpg)
 <use figures/esbiii.jpg>
 Package pdftex.def Info: figures/esbiii.jpg  used on input line 28.
@@ -13050,7 +13228,7 @@ Overfull \hbox (32.08998pt too wide) in paragraph at lines 28--29
 
 
 
-[291
+[305
 
 
 
@@ -13069,7 +13247,7 @@ Overfull \hbox (32.08998pt too wide) in paragraph at lines 93--94
 
 
 
-[292]
+[306]
 File: figures/esbiii.jpg Graphic file (type jpg)
 <use figures/esbiii.jpg>
 Package pdftex.def Info: figures/esbiii.jpg  used on input line 158.
@@ -13081,7 +13259,7 @@ Overfull \hbox (32.08998pt too wide) in paragraph at lines 158--159
 
 
 
-[293]
+[307]
 File: figures/esbiii.jpg Graphic file (type jpg)
 <use figures/esbiii.jpg>
 Package pdftex.def Info: figures/esbiii.jpg  used on input line 224.
@@ -13093,7 +13271,7 @@ Overfull \hbox (32.08998pt too wide) in paragraph at lines 224--225
 
 
 
-[294]
+[308]
 File: figures/esbiii.jpg Graphic file (type jpg)
 <use figures/esbiii.jpg>
 Package pdftex.def Info: figures/esbiii.jpg  used on input line 292.
@@ -13105,7 +13283,7 @@ Overfull \hbox (32.08998pt too wide) in paragraph at lines 292--293
 
 )
 
-[295]
+[309]
 \openout2 = `caa.aux'.
 
  (caa.tex
@@ -13124,7 +13302,7 @@ or  <return>  to continue without it.
 
 
 
-[296
+[310
 
 
 
@@ -13147,7 +13325,7 @@ Package rerunfilecheck Warning: File `thesis.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `thesis.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A7B98103D04B15EC11E743052B869CA5;30941.
+(rerunfilecheck)             After:  C2B10FBF38363751845BF48C4B1CC932;31051.
  ) )
 (\end occurred inside a group at level 1)
 
@@ -13157,17 +13335,17 @@ Package rerunfilecheck Info: Checksums for `thesis.out':
 (\end occurred when \ifx on line 89 was incomplete)
 (\end occurred when \ifnum on line 89 was incomplete) 
 Here is how much of TeX's memory you used:
- 19967 strings out of 467875
- 336642 string characters out of 5418388
- 825810 words of memory out of 5000000
- 47716 multiletter control sequences out of 15000+600000
+ 20035 strings out of 467875
+ 338178 string characters out of 5418388
+ 827810 words of memory out of 5000000
+ 47747 multiletter control sequences out of 15000+600000
  640890 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,20n,82p,2550b,1110s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,20n,82p,2550b,1111s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Maurice Mary Simon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1200.pk> <C:\Users\Maurice Mary Simon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Maurice Mary Simon/Application Mods/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Maurice Mary Simon/Application Mods/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Maurice Mary Simon/Application Mods/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Maurice Mary Simon/Application Mods/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Maurice Mary Simon/Application Mods/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Maurice Mary Simon/Application Mods/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Maurice Mary Simon/Application Mods/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Maurice Mary Simon/Application Mods/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Maurice Mary Simon/Application Mods/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Maurice Mary Simon/Application Mods/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Maurice Mary Simon/Application Mods/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Maurice Mary Simon/Application Mods/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Maurice Mary Simon/Application Mods/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (308 pages, 28946866 bytes).
+Output written on thesis.pdf (322 pages, 29025607 bytes).
 PDF statistics:
- 2251 PDF objects out of 2487 (max. 8388607)
- 728 named destinations out of 1000 (max. 500000)
- 516 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2343 PDF objects out of 2487 (max. 8388607)
+ 765 named destinations out of 1000 (max. 500000)
+ 536 words of extra memory for PDF output out of 10000 (max. 10000000)
 
