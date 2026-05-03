@@ -59,85 +59,85 @@
 \contentsline {subsection}{\numberline {3.2.4}Data Flow Diagram}{65}{subsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.2.5}Use Case Diagram}{67}{subsection.3.2.5}%
 \contentsline {subsection}{\numberline {3.2.6}Solar Energy Harvesting}{69}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Energy Conversion DC to AC}{70}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}Power Monitoring}{71}{subsection.3.2.8}%
-\contentsline {subsection}{\numberline {3.2.9}GPS Tracking}{72}{subsection.3.2.9}%
-\contentsline {section}{\numberline {3.3}Hardware Development}{73}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Material Specifications}{73}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Circuit Diagram}{86}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Schematic Layout}{89}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Hardware Design}{92}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Software Development}{96}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Embedded System Software Development}{97}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Battery Monitoring and Power Calculation}{97}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Rental Time Tracking and Rule-Based Control}{98}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Mobile Application Development}{98}{subsection.3.4.4}%
-\contentsline {subsubsection}{\numberline {3.4.4.1}Quasar Framework}{99}{subsubsection.3.4.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.4.2}Activity Diagram}{100}{subsubsection.3.4.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.4.3}GitHub}{101}{subsubsection.3.4.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.4.4}Realtime Database}{102}{subsubsection.3.4.4.4}%
-\contentsline {subsubsection}{\numberline {3.4.4.5}Cloud Firestore}{102}{subsubsection.3.4.4.5}%
-\contentsline {subsection}{\numberline {3.4.5}Network Encryption and Security Feature}{103}{subsection.3.4.5}%
-\contentsline {subsubsection}{\numberline {3.4.5.1}MikroTik}{103}{subsubsection.3.4.5.1}%
-\contentsline {subsection}{\numberline {3.4.6}Graphical User Interface Design}{104}{subsection.3.4.6}%
-\contentsline {section}{\numberline {3.5}System Integration}{127}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Testing}{128}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Performance Testing}{128}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Usability Testing}{129}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Implementation}{129}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Calculation Requirements}{130}{subsection.3.7.1}%
-\contentsline {subsubsection}{\numberline {3.7.1.1}Load Analysis}{130}{subsubsection.3.7.1.1}%
-\contentsline {subsubsection}{\numberline {3.7.1.2}Battery Sizing}{131}{subsubsection.3.7.1.2}%
-\contentsline {subsubsection}{\numberline {3.7.1.3}Charging Time and Energy Calculations}{139}{subsubsection.3.7.1.3}%
-\contentsline {subsection}{\numberline {3.7.2}Standards and Guidelines Considered}{146}{subsection.3.7.2}%
-\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{147}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Solar Energy Harvesting}{148}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Battery DC Power Converted to AC Output via Inverter}{149}{section.4.2}%
-\contentsline {section}{\numberline {4.3}ESP32 Measures Battery Voltage and Displays Data on LCD}{150}{section.4.3}%
-\contentsline {section}{\numberline {4.4}ESP32 Receives Location Data From GPS Satellites Using WiFi}{151}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Battery Monitoring and Power Calculation}{152}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Rental Time Tracking and Rule-Based Control}{153}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Network Encryption Security Feature}{154}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Mikrotik}{154}{subsection.4.7.1}%
-\contentsline {section}{\numberline {4.8}Performance Testing}{155}{section.4.8}%
-\contentsline {section}{\numberline {4.9}Usability Testing}{156}{section.4.9}%
-\contentsline {section}{\numberline {4.10}Load Analysis}{157}{section.4.10}%
-\contentsline {section}{\numberline {4.11}Detachable Power Source - Battery Capacity}{158}{section.4.11}%
-\contentsline {section}{\numberline {4.12}Panel Sizing}{159}{section.4.12}%
-\contentsline {section}{\numberline {4.13}Inverter Sizing}{160}{section.4.13}%
-\contentsline {section}{\numberline {4.14}Solar Charge Controller Sizing}{161}{section.4.14}%
-\contentsline {section}{\numberline {4.15}Charging Time and Energy Calculation}{162}{section.4.15}%
-\contentsline {subsection}{\numberline {4.15.1}Charging Time of the Station Battery Using Solar Panel}{162}{subsection.4.15.1}%
-\contentsline {subsection}{\numberline {4.15.2}Energy Feasibility of Charging Detachable Power Source}{162}{subsection.4.15.2}%
-\contentsline {subsection}{\numberline {4.15.3}Charging Time of a Single Detachable Power Source}{162}{subsection.4.15.3}%
-\contentsline {subsection}{\numberline {4.15.4}Charging Time of a Double Detachable Power Source}{162}{subsection.4.15.4}%
-\contentsline {section}{\numberline {4.16}Hardware Testing Results and Discussion}{163}{section.4.16}%
-\contentsline {subsection}{\numberline {4.16.1}Hardware Design}{163}{subsection.4.16.1}%
-\contentsline {subsubsection}{\numberline {4.16.1.1}Component Layout and System Arrangement}{164}{subsubsection.4.16.1.1}%
-\contentsline {subsubsection}{\numberline {4.16.1.2}Physical Dimensions and Enclosure Specifications}{168}{subsubsection.4.16.1.2}%
-\contentsline {section}{\numberline {4.17}Mobile Application Testing Results}{173}{section.4.17}%
-\contentsline {subsection}{\numberline {4.17.1}Graphical User Interface Implementation}{173}{subsection.4.17.1}%
-\contentsline {subsection}{\numberline {4.17.2}Black Box Testing}{197}{subsection.4.17.2}%
-\contentsline {subsection}{\numberline {4.17.3}White Box Testing}{227}{subsection.4.17.3}%
-\contentsline {section}{\numberline {4.18}Functional and Usability Testing Results for Community Residents}{237}{section.4.18}%
-\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{242}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary of Findings}{242}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Conclusion}{242}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Recommendations}{244}{section.5.3}%
-\contentsline {chapter}{APPENDICES}{245}{chapter*.82}%
-\contentsline {chapter}{Appendix A: Step-by-Step Calculation}{245}{chapter*.82}%
-\contentsline {chapter}{Appendix B: Gantt Chart}{249}{table.Alph0.72}%
-\contentsline {chapter}{Appendix C: Source Code}{250}{figure.caption.83}%
-\contentsline {chapter}{Appendix D: Letter of Consent}{251}{figure.caption.83}%
-\contentsline {chapter}{Appendix E: Interview Conducted}{252}{figure.caption.83}%
-\contentsline {chapter}{Appendix F: Documentation}{283}{Item.130}%
-\contentsline {chapter}{Appendix G: Functional Test Form}{284}{Item.130}%
-\contentsline {chapter}{Appendix H: System Usability Test Form}{285}{Item.130}%
-\contentsline {chapter}{Appendix I: Nomination of Members for Oral Examination Panel Form}{286}{Item.130}%
-\contentsline {chapter}{Appendix J: Approved Application for Oral Defense Forms}{287}{Item.130}%
-\contentsline {chapter}{Appendix K: Revision Matrix}{288}{Item.130}%
-\contentsline {chapter}{Appendix L: Plagiarism Test Results}{289}{Item.130}%
-\contentsline {chapter}{Appendix M: Proofreading Certificate and Report of Rating}{290}{Item.130}%
-\contentsline {chapter}{REFERENCES}{291}{Item.130}%
-\contentsline {chapter}{Appendix N: Curriculum Vitae}{291}{Item.130}%
+\contentsline {subsection}{\numberline {3.2.7}Energy Conversion DC to AC}{72}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Power Monitoring}{75}{subsection.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.9}GPS Tracking}{77}{subsection.3.2.9}%
+\contentsline {section}{\numberline {3.3}Hardware Development}{78}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Material Specifications}{79}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Circuit Diagram}{91}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Schematic Layout}{94}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Hardware Design}{97}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Software Development}{101}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Embedded System Software Development}{102}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Battery Monitoring and Power Calculation}{102}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Rental Time Tracking and Rule-Based Control}{103}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Mobile Application Development}{103}{subsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.4.1}Quasar Framework}{104}{subsubsection.3.4.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.4.2}Activity Diagram}{105}{subsubsection.3.4.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.4.3}GitHub}{106}{subsubsection.3.4.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4.4}Realtime Database}{107}{subsubsection.3.4.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.4.5}Cloud Firestore}{107}{subsubsection.3.4.4.5}%
+\contentsline {subsection}{\numberline {3.4.5}Network Encryption and Security Feature}{108}{subsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.5.1}MikroTik}{108}{subsubsection.3.4.5.1}%
+\contentsline {subsection}{\numberline {3.4.6}Graphical User Interface Design}{109}{subsection.3.4.6}%
+\contentsline {section}{\numberline {3.5}System Integration}{132}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Testing}{133}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Performance Testing}{133}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Usability Testing}{134}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Implementation}{134}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Calculation Requirements}{135}{subsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.1}Load Analysis}{135}{subsubsection.3.7.1.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.2}Battery Sizing}{136}{subsubsection.3.7.1.2}%
+\contentsline {subsubsection}{\numberline {3.7.1.3}Charging Time and Energy Calculations}{144}{subsubsection.3.7.1.3}%
+\contentsline {subsection}{\numberline {3.7.2}Standards and Guidelines Considered}{151}{subsection.3.7.2}%
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{152}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Solar Energy Harvesting}{153}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Battery DC Power Converted to AC Output via Inverter}{154}{section.4.2}%
+\contentsline {section}{\numberline {4.3}ESP32 Measures Battery Voltage and Displays Data on LCD}{155}{section.4.3}%
+\contentsline {section}{\numberline {4.4}ESP32 Receives Location Data From GPS Satellites Using WiFi}{156}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Battery Monitoring and Power Calculation}{157}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Rental Time Tracking and Rule-Based Control}{158}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Network Encryption Security Feature}{159}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Mikrotik}{159}{subsection.4.7.1}%
+\contentsline {section}{\numberline {4.8}Performance Testing}{160}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Usability Testing}{161}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Load Analysis}{162}{section.4.10}%
+\contentsline {section}{\numberline {4.11}Detachable Power Source - Battery Capacity}{163}{section.4.11}%
+\contentsline {section}{\numberline {4.12}Panel Sizing}{164}{section.4.12}%
+\contentsline {section}{\numberline {4.13}Inverter Sizing}{165}{section.4.13}%
+\contentsline {section}{\numberline {4.14}Solar Charge Controller Sizing}{166}{section.4.14}%
+\contentsline {section}{\numberline {4.15}Charging Time and Energy Calculation}{167}{section.4.15}%
+\contentsline {subsection}{\numberline {4.15.1}Charging Time of the Station Battery Using Solar Panel}{167}{subsection.4.15.1}%
+\contentsline {subsection}{\numberline {4.15.2}Energy Feasibility of Charging Detachable Power Source}{167}{subsection.4.15.2}%
+\contentsline {subsection}{\numberline {4.15.3}Charging Time of a Single Detachable Power Source}{167}{subsection.4.15.3}%
+\contentsline {subsection}{\numberline {4.15.4}Charging Time of a Double Detachable Power Source}{167}{subsection.4.15.4}%
+\contentsline {section}{\numberline {4.16}Hardware Testing Results and Discussion}{168}{section.4.16}%
+\contentsline {subsection}{\numberline {4.16.1}Hardware Design}{168}{subsection.4.16.1}%
+\contentsline {subsubsection}{\numberline {4.16.1.1}Component Layout and System Arrangement}{169}{subsubsection.4.16.1.1}%
+\contentsline {subsubsection}{\numberline {4.16.1.2}Physical Dimensions and Enclosure Specifications}{173}{subsubsection.4.16.1.2}%
+\contentsline {section}{\numberline {4.17}Mobile Application Testing Results}{178}{section.4.17}%
+\contentsline {subsection}{\numberline {4.17.1}Graphical User Interface Implementation}{178}{subsection.4.17.1}%
+\contentsline {subsection}{\numberline {4.17.2}Black Box Testing}{202}{subsection.4.17.2}%
+\contentsline {subsection}{\numberline {4.17.3}White Box Testing}{232}{subsection.4.17.3}%
+\contentsline {section}{\numberline {4.18}Functional and Usability Testing Results for Community Residents}{242}{section.4.18}%
+\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{247}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of Findings}{247}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Conclusion}{247}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Recommendations}{249}{section.5.3}%
+\contentsline {chapter}{APPENDICES}{250}{chapter*.85}%
+\contentsline {chapter}{Appendix A: Step-by-Step Calculation}{250}{chapter*.85}%
+\contentsline {chapter}{Appendix B: Gantt Chart}{254}{table.Alph0.72}%
+\contentsline {chapter}{Appendix C: Source Code}{255}{figure.caption.86}%
+\contentsline {chapter}{Appendix D: Letter of Consent}{256}{figure.caption.86}%
+\contentsline {chapter}{Appendix E: Interview Conducted}{257}{figure.caption.86}%
+\contentsline {chapter}{Appendix F: Documentation}{297}{figure.caption.106}%
+\contentsline {chapter}{Appendix G: Functional Test Form}{298}{figure.caption.106}%
+\contentsline {chapter}{Appendix H: System Usability Test Form}{299}{figure.caption.106}%
+\contentsline {chapter}{Appendix I: Nomination of Members for Oral Examination Panel Form}{300}{figure.caption.106}%
+\contentsline {chapter}{Appendix J: Approved Application for Oral Defense Forms}{301}{figure.caption.106}%
+\contentsline {chapter}{Appendix K: Revision Matrix}{302}{figure.caption.106}%
+\contentsline {chapter}{Appendix L: Plagiarism Test Results}{303}{figure.caption.106}%
+\contentsline {chapter}{Appendix M: Proofreading Certificate and Report of Rating}{304}{figure.caption.106}%
+\contentsline {chapter}{REFERENCES}{305}{figure.caption.106}%
+\contentsline {chapter}{Appendix N: Curriculum Vitae}{305}{figure.caption.106}%
 \contentsfinish 
