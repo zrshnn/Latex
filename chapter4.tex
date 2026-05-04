@@ -1,8 +1,2202 @@
 \chapter{RESULTS AND DISCUSSION}
 %{\kill{\section{ffff}}}
-{\baselineskip=2\baselineskip
+{\baselineskip=1.2\baselineskip
 
-This chapter presents the findings from the research conducted and provides a thorough analysis and interpretation of these results. 
 
+This chapter presents the results and discussion of the testing and evaluation conducted on the developed Solar-Powered Rental Station with Detachable Power Sources. The findings are organized into two major components: mobile application testing, and hardware testing. System testing focuses on the overall functionality and integration of the system, including rental transactions, data processing, and communication between components. Mobile application testing evaluates the performance, usability, and responsiveness of the user interface, including account management, rental requests, and real-time monitoring features. Hardware testing examines the operation of key physical components.
+
+
+The results obtained from these tests are analyzed in relation to the objectives of the study to determine the system’s effectiveness, reliability, and efficiency in providing a sustainable and accessible power solution. Furthermore, this chapter discusses the system’s strengths, identifies encountered issues, and highlights areas for improvement based on the observed performance during testing.
 
 }
+
+\section {Solar Energy Harvesting}
+
+The solar energy harvesting component of the system functions as the primary source of power generation. Photovoltaic (PV) panels capture solar radiation and convert it into direct current (DC) electricity through the photovoltaic effect. This generated energy is then regulated by a solar charge controller to ensure safe and efficient charging of the LiFePO4 battery, preventing overcharging and voltage fluctuations. Protective components such as DC breakers are integrated to safeguard the system against electrical faults.
+
+The effectiveness of solar energy harvesting was observed to be dependent on environmental conditions, particularly solar irradiance and weather patterns. Under optimal sunlight conditions, the system consistently generated sufficient energy to charge the station battery and support the charging of detachable power sources. This confirms that the integration of photovoltaic technology provides a sustainable and reliable off-grid energy solution for communities experiencing frequent power interruptions .
+
+\newpage
+
+\section {Battery DC Power Converted to AC Output via Inverter}
+
+The stored DC power in the LiFePO4 battery is converted into alternating current (AC) using a pure sine wave inverter. This conversion is necessary to supply electricity compatible with common household appliances, which typically operate on AC power. The inverter ensures stable voltage output and waveform quality, enabling safe operation of small-to-medium scale electrical devices.
+
+Results show that the inverter successfully delivered usable AC power with minimal energy loss, maintaining consistent output during operation. This demonstrates that the system is capable of supporting practical household applications, thereby enhancing its usability as a temporary backup power source. The integration of the inverter is critical in bridging the gap between renewable energy storage and real-world appliance compatibility .
+
+\newpage
+
+\section {ESP32 Measures Battery Voltage and Displays Data on LCD}
+
+The ESP32 microcontroller plays a vital role in monitoring system parameters, particularly battery voltage levels. It continuously reads voltage data from the battery and processes this information for real-time display on the LCD interface. This allows users and administrators to monitor the current energy status of the system.
+
+The implementation demonstrated accurate and responsive voltage readings, which were effectively displayed on the LCD. This feature enhances system transparency and usability by providing immediate feedback on battery conditions, enabling users to make informed decisions regarding power usage and rental availability.
+
+\newpage
+
+\section {ESP32 Receives Location Data From GPS Satellites Using WiFi}
+
+The system integrates GPS and communication modules to enable location tracking of detachable power sources. The GPS module collects real-time geographic coordinates from satellites, while the ESP32 processes this data and transmits it via network connectivity (WiFi/GSM) to the system database and mobile application.
+
+Testing confirmed that the system can reliably acquire and transmit location data, allowing both users and administrators to monitor the position of rented units. This feature significantly enhances system security and accountability, ensuring that portable power sources are trackable throughout the rental duration .
+
+\newpage
+
+\section {Battery Monitoring and Power Calculation}
+
+Battery monitoring is implemented through continuous measurement of voltage, usage duration, and remaining capacity. The system calculates the available power based on battery percentage and tracks energy consumption during rental use. This data is used to determine system performance and efficiency.
+
+The results indicate that the monitoring system provides accurate estimations of battery status, enabling effective management of energy resources. Additionally, the calculated unused power serves as a basis for credit computation, supporting the system’s reward mechanism and promoting efficient energy usage.
+
+\newpage
+
+\section {Rental Time Tracking and Rule-Based Control}
+
+The system incorporates a rule-based control mechanism to manage rental duration and enforce usage policies. Each rental session is limited to a predefined time (e.g., 12 hours), which is tracked by the ESP32. Automated notifications are sent to users prior to expiration, and repeated alerts are triggered if the unit is not returned on time.
+
+This functionality was observed to operate reliably, ensuring compliance with rental rules and minimizing misuse. The implementation of automated tracking and alerts enhances operational efficiency and reduces the need for manual monitoring.
+
+\newpage
+
+\section {Network Encryption Security Feature}
+
+To ensure secure communication between system components, network encryption mechanisms are implemented. These mechanisms protect sensitive data such as user information, transaction records, and telemetry data from unauthorized access.
+
+The system demonstrated secure data transmission across connected devices, maintaining confidentiality and integrity. This security layer is essential in preventing data breaches and ensuring trust in the system’s digital infrastructure.
+
+\vspace{1em} 
+
+\subsection {Mikrotik}
+
+\newpage
+
+\section {Performance Testing}
+
+Performance testing evaluated the system’s functionality in terms of responsiveness, reliability, and operational stability. Key parameters included power generation efficiency, system response time, and communication latency.
+
+Results showed that the system maintained stable operation under normal conditions, with minimal delays in data transmission and processing. This indicates that the system meets the required performance standards for real-time monitoring and control.
+
+\newpage
+
+\section {Usability Testing}
+
+Usability testing assessed the user experience in interacting with the system, including the mobile application, rental process, and physical interface. Participants evaluated ease of use, clarity of instructions, and overall satisfaction.
+
+Findings revealed that the system is user-friendly and accessible, with intuitive interfaces that facilitate smooth operation. This supports the system’s applicability for community use, particularly among non-technical users.
+
+\newpage
+
+\section {Load Analysis}
+
+Load analysis was conducted to determine the system’s capability to support various electrical devices. The total load demand was calculated based on the power ratings of connected appliances.
+
+The system was found to effectively support small-to-medium scale loads within its design capacity. This confirms that the system can provide practical energy support for essential household devices during power interruptions.
+
+\newpage
+
+\section {Detachable Power Source - Battery Capacity}
+
+The detachable power source utilizes LiFePO4 batteries, selected for their high efficiency, long cycle life, and safety. The battery capacity determines the duration and extent of power availability during rental use.
+
+Results indicate that the selected battery configuration provides sufficient energy for extended usage, supporting the system’s goal of delivering reliable portable power.
+
+\newpage
+
+\section {Panel Sizing}
+
+Panel sizing was determined based on energy demand, battery capacity, and average solar irradiance. The selected solar panel configuration ensures adequate energy generation to meet system requirements.
+
+The sizing calculations were validated through system performance, confirming that the panels can sufficiently recharge the battery under typical operating conditions.
+
+\newpage
+
+\section {Inverter Sizing}
+
+The inverter was sized according to the maximum expected load, ensuring that it can handle peak power demands without failure. Proper sizing prevents overloading and enhances system reliability.
+
+Testing confirmed that the inverter operates within safe limits while supporting the intended load range.
+
+\newpage
+
+\section {Solar Charge Controller Sizing}
+
+The solar charge controller was selected based on panel output and battery specifications. It regulates charging current and voltage to protect the battery and optimize energy transfer.
+
+The controller performed effectively, maintaining safe charging conditions and improving overall system efficiency.
+
+\newpage
+
+\section {Charging Time and Energy Calculation}
+
+\subsection {Charging Time of the Station Battery Using Solar Panel}
+
+The charging time of the station battery depends on solar panel output and battery capacity. Under optimal conditions, the system achieved efficient charging within the expected time frame, demonstrating effective energy harvesting.
+
+\subsection {Energy Feasibility of Charging Detachable Power Source}
+Energy feasibility analysis evaluated whether the harvested solar energy is sufficient to charge detachable units. Results confirm that the system can sustain charging operations while maintaining battery reserves.
+
+\subsection {Charging Time of a Single Detachable Power Source}
+The charging duration for a single unit was measured based on battery capacity and charging current. The results indicate a consistent and predictable charging time under standard conditions.
+
+\subsection {Charging Time of a Double Detachable Power Source}
+When charging two units simultaneously, the system exhibited increased charging time due to shared power distribution. However, the system remained stable and capable of handling multiple charging loads.
+
+
+\newpage
+\section {Hardware Testing Results and Discussion}
+
+
+\subsection{Hardware Design}
+
+
+This section presents the actual hardware implementation of the detachable power source and the solar-powered rental station. It provides a clear representation of the system’s physical structure, dimensions, and component arrangement. The figures illustrate how the developed system is assembled and how each part is positioned, allowing a better understanding of the system’s real-world configuration and usability.
+
+\subsubsection{Component Layout and System Arrangement}
+
+\begin{figure}[H]
+    \centering
+    \caption{Solar-Powered Rental Station Internal Component Layout}
+    \label{fig:3d}
+    \includegraphics[width=1\textwidth]{figures/station-new-layout.png}
+\end{figure}
+
+
+The figure illustrates the updated structural and functional layout of the solar-powered rental station, which serves as the central unit for energy generation, storage, charging, and network distribution. The solar charger controller is mounted on the upper-left section of the enclosure to regulate the energy collected from the photovoltaic system and to protect the LiFePO4 battery from overcharging. Adjacent to it is the DC/AC breaker panel, which provides electrical protection and allows easier system control and maintenance. At the lower portion of the enclosure, the LiFePO4 battery is positioned to improve stability due to its weight and to support safer heat dissipation. Connected near the battery is the power inverter, which converts DC power into usable AC power for the station components. On the upper platform, two battery charger units are installed to support charging operations, while the coin slot mechanism positioned between them serves as the payment interface for users before accessing the charging service. Above the charging section, the LCD is mounted at eye level to display charging information, system status, and user instructions clearly and conveniently.
+
+The control and communication components are arranged along the right-side compartment of the station to maintain an organized and efficient layout. The ESP32 microcontroller is installed to handle system monitoring, automation, and communication processes, while the buck converter located below it regulates and steps down voltage for low-power electronic devices. A WiFi router and MikroTik device are also integrated into the enclosure to provide internet connectivity and network management functions within the system. Additionally, extension wire outlets are positioned near the lower section to provide accessible external power connections for users. Overall, the updated arrangement follows a compact and layered design that separates the power, charging, control, communication, and user interface components, improving safety, accessibility, maintenance efficiency, and overall operational performance of the solar-powered rental station.
+
+\begin{figure}[H]
+    \centering
+    \caption{Detachable Power Source Internal Component Layout}
+    \label{fig:3d}
+    \includegraphics[width=1\textwidth]{figures/portable-design.jpg}
+\end{figure}
+
+
+The figure presents the internal configuration of the portable detachable power source, which is designed to be compact, mobile, and reliable during use. At the center of the enclosure is the LiFePO4 battery, occupying the largest space to maintain balance and ensure stability when the unit is being transported. The remaining components are arranged along the inner walls to make efficient use of space while keeping the system organized.
+
+On one side, the ESP32 microcontroller and voltage divider are installed to allow real-time monitoring of battery conditions while keeping the wiring simple and manageable. Directly below them, the buck converter regulates the voltage supplied to low-power components. On the opposite side, the relay module is positioned near the power inverter to control the output supplied to connected devices. The DC breaker is placed near the top section for quick disconnection in case of faults, adding an extra layer of safety. A compact Wi-Fi router is also included to support communication between the unit and the monitoring system.
+
+The overall layout highlights a modular and accessible design, making it easier to maintain or replace components when needed. Proper spacing between heat-generating and sensitive parts is also considered to support better thermal management and extend component lifespan. In general, the portable unit demonstrates a well-organized internal structure that balances functionality, durability, and ease of use in actual operating conditions.
+
+\subsubsection{Physical Dimensions and Enclosure Specifications}
+
+\begin{figure}[H]
+    \centering
+    \caption{Solar-Powered Rental Station – Overall Structural Design Dimensions (Front View)}
+    \label{fig:3d}
+    \includegraphics[width=1\textwidth]{figures/station-front.jpg}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Solar-Powered Rental Station – Overall Structural Design Dimensions (Side View)}
+    \label{fig:3d}
+    \includegraphics[width=1\textwidth]{figures/station-side.jpg}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Solar-Powered Rental Station – Overall Structural Design Dimensions (Aerial View)}
+    \label{fig:3d}
+    \includegraphics[width=1\textwidth]{figures/station-aerial.jpg}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Solar-Powered Rental Station – Charging Compartment for Detachable Power Source Dimensions (Close-Up Front View)}
+    \label{fig:3d}
+    \includegraphics[width=1\textwidth]{figures/station-closeup-front.jpg}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Solar-Powered Rental Station – Charging Compartment for Detachable Power Source Dimensions (Close-Up Perspective View)}
+    \label{fig:3d}
+    \includegraphics[width=1\textwidth]{figures/station4.png}
+\end{figure}
+
+
+The solar-powered rental station is designed as a freestanding, roofed structure that integrates energy generation, storage, and user interaction in a single unit. It features a dual-sloped roof fitted with photovoltaic panels to maximize solar energy harvesting, which is then stored in internal LiFePO4 batteries and converted into usable AC power through an inverter. The overall structure stands approximately 7 to 8 feet tall, supported by vertical posts that elevate the main enclosure for protection and accessibility.
+
+The station is designed with a ground clearance of approximately 76 cm from the base to the main enclosure. This elevation helps protect the internal components from potential ground-level hazards such as flooding, dirt accumulation, and accidental contact, while also improving ventilation and ease of maintenance. The raised design further enhances user ergonomics by positioning the access points at a comfortable height.
+
+The central cabinet, measuring about 89 cm in width and 61 cm in height, houses essential components such as the ESP32 microcontroller, coin-slot mechanism, solenoid locking system, and monitoring interfaces. This enclosure also contains designated compartments for securely storing detachable power units, which are released only after successful payment verification. Overall, the design prioritizes durability, weather resistance, and efficient system integration, making it suitable for deployment in community areas experiencing frequent power interruptions.
+
+\begin{figure}[H]
+    \centering
+    \caption{Detachable Power Source – Hardware Design Dimensions (Front View)}
+    \label{fig:3d2}
+    \includegraphics[width=1\textwidth]{figures/detachable-front.jpg}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Detachable Power Source – Hardware Design Dimensions (Side View)}
+    \label{fig:3d2}
+    \includegraphics[width=1\textwidth]{figures/detachable-side.jpg}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Detachable Power Source – Hardware Design Dimensions (Rear View)}
+    \label{fig:3d2}
+    \includegraphics[width=1\textwidth]{figures/detachable-back.jpg}
+\end{figure}
+
+
+The portable power source is a compact, detachable unit designed to provide temporary and mobile electricity for users. With approximate dimensions of 30 cm in width and 33 cm in height, the device is structured for easy handling while maintaining sufficient capacity to power small-to-medium appliances. Its front panel includes an LCD display for monitoring battery status, indicator lights, control buttons, and multiple AC output ports for device connectivity. 
+
+Internally, the unit contains a LiFePO4 battery, inverter, and battery management system, enabling safe energy storage and DC-to-AC conversion. A GPS and GSM module, typically positioned at the top section, allows real-time tracking and communication with the system for security and monitoring purposes. As part of the rental system, this portable unit serves as the user’s primary power supply during outages and is designed to be returned after use, with remaining battery capacity contributing to user credit within the mobile application.
+
+
+\section {Mobile Application Testing Results}
+
+
+\subsection {Graphical User Interface Implementation}
+This section presents the graphical user interface (GUI) of the KuRyenta mobile application and administrative dashboard. The results show a fully functional interface capable of managing hardware-software interactions in real-time.
+
+
+\begin{figure}[H]
+\centering
+\caption{Welcome Page}
+\label{fig:welcome}
+\includegraphics[width=1\textwidth]{figures/S1.png}
+\end{figure}
+
+
+The welcome interface  provides an intuitive entry point for users. The welcome interface presents the system logo and entry actions. The left panel shows a splash screen with a “Get Started” control; the right panel shows a gateway card offering Log In and Sign Up. This screen functions as the access point to the authentication flow.
+ The successful implementation of the splash screen and the gateway card demonstrates a clear separation between branding and the functional authentication flow, facilitating ease of use for first-time community residents.
+
+
+ \begin{figure}[H]
+\centering
+\caption{Log In Page}
+\label{fig:signin}
+\includegraphics[width=0.7\textwidth]{figures/SA1.png}
+\end{figure}
+
+
+The Log In interface collects the username and password with options to reveal the password and recover forgotten credentials. A primary Log In control initiates authentication for registered users. The design supports secure access to user functions.
+
+
+\begin{figure}[H]
+\centering
+\caption{Sign Up Page}
+\label{fig:signup}
+\includegraphics[width=1\textwidth]{figures/SE3.png}
+\end{figure}
+
+
+Registration is implemented as a three-step process. Step 1 captures account credentials (username, email, phone number, password, and confirmation). Step 2 records profile and address data (sex, barangay, municipality, province, and birthdate). Step 3 presents a data-privacy notice and obtains consent to the Terms of Service and Privacy Policy before account creation.
+ The data privacy notice serves as a critical checkpoint for obtaining informed consent before account activation.
+
+
+\begin{figure}[H]
+\centering
+\caption{Home Page (Community Resident)}
+\label{fig:user home}
+\includegraphics[width=0.7\textwidth]{figures/SE4.png}
+\end{figure}
+
+
+The resident home dashboard effectively centralizes user data. The greeting header and location metadata provide immediate context, while the points balance card allows users to check their rental capability at a glance. Testing showed that the bottom navigation bar successfully provides persistent access to all core application modules.
+
+
+\begin{figure}[H]
+\centering
+\caption{Renting Screen (Community Resident)}
+\label{fig:renting}
+\includegraphics[width=1\textwidth]{figures/SE5.png}
+\end{figure}
+
+
+The renting module allows search by Station ID and shows slot availability per station. Users select a slot and view its battery percentage with the corresponding price. Payment options include Pay via Points and Pay via Coin Slot, enabling transaction initiation.
+
+
+\begin{figure}[H]
+\centering
+\caption{Pay via Coin Slot (Community Resident)}
+\label{fig:coin-slot}
+\includegraphics[width=1\textwidth]{figures/coin-slot.png}
+\end{figure}
+
+
+The Pay via Coin Slot interface enables users to initiate the rental of a detachable power source through a physical payment mechanism. After selecting a station and an available slot, the system displays the battery percentage and corresponding rental price. The user proceeds to the station and inserts coins into the coin slot, which is detected by the system and validated. Once sufficient payment is confirmed, the system activates the solenoid lock to release the selected power source. This functionality supports accessibility for users without digital payment methods and aligns with the system’s coin-operated rental mechanism.
+
+
+\begin{figure}[H]
+\centering
+\caption{Pay via Credit Points (Community Resident)}
+\label{fig:credit-points}
+\includegraphics[width=1\textwidth]{figures/credit-points.png}
+\end{figure}
+
+
+The Pay via Credit Points interface allows users to rent a detachable power source using stored digital credits within the mobile application. After selecting a station and slot, the system calculates the rental cost based on the battery percentage of the unit. The required amount is deducted from the user’s available credits upon confirmation. Once payment is successfully processed, the system authorizes the release of the power source. This feature provides a convenient, cashless alternative and supports the system’s credit-based transaction capability.
+
+
+\begin{figure}[H]
+\centering
+\caption{Alerts Page (Community Resident)}
+\label{fig:alerts}
+\includegraphics[width=1\textwidth]{figures/alert-new.png}
+\end{figure}
+
+
+The Alerts Page displays real-time notifications generated by the system into the app. These alerts inform users about important events such as successful rentals, failed transactions, notifications if a slot has been returned to the station, or nearing rental expiration. This functionality ensures that users remain informed about the status of their rented power source and encourages timely actions, such as returning the unit or conserving energy. It enhances user awareness, system reliability, and overall operational efficiency.
+
+
+\begin{figure}[H]
+\centering
+\caption{Profile Page (Community Resident)}
+\label{fig:profile}
+\includegraphics[width=1\textwidth]{figures/SE5.png}
+\end{figure}
+
+
+The Profile Page allows users to view and manage their personal account information within the system. It displays user details such as name, contact number, email, location, and available credit points. Users are also given the option to update their profile picture by clicking on the current image and retaking it. This feature supports user verification, account management, and transparency by providing access to essential personal and account-related information within the KuRyenta system.
+
+
+\begin{figure}[H]
+\centering
+\caption{Main Dashboard Page (Admin)}
+\label{fig:admin}
+\includegraphics[width=0.7\textwidth]{figures/admin-1.png}
+\end{figure}
+
+
+The Main Dashboard serves as the central control panel of the KuRyenta system. It provides users and administrators with a real-time overview of system operations, including available detachable power sources, current rentals, battery levels, and system status. For administrators, it displays key metrics such as total rentals, active users, and station performance. This feature enables efficient monitoring and quick decision-making by presenting summarized and updated system data in one interface.
+
+
+\begin{figure}[H]
+\centering
+\caption{Live Map Page (Admin)}
+\label{fig:admin2}
+\includegraphics[width=0.7\textwidth]{figures/admin-2.png}
+\end{figure}
+
+
+The Live Map functionality utilizes the integrated GPS and GSM modules to display the real-time location of rented detachable power sources. This feature allows both users and administrators to track the movement and current position of each unit. It enhances system security by preventing theft or misuse and ensures accountability of rented devices. Additionally, it supports operational monitoring by showing the distribution of power sources across different locations.
+
+
+\begin{figure}[H]
+\centering
+\caption{Active Rentals (Admin)}
+\label{fig:admin3}
+\includegraphics[width=0.7\textwidth]{figures/admin-3.png}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\caption{Active Rentals (Admin)}
+\label{fig:admin4}
+\includegraphics[width=0.7\textwidth]{figures/admin-4.png}
+\end{figure}
+
+
+The Active Rentals section shows all ongoing rental transactions within the system. It includes important details such as the user renting the phone numner, station location, slot number, battery percentage, elapsed time, remaining time, status and GPS information. This feature is essential for real-time monitoring, allowing administrators to track usage, detect overdue rentals, and ensure proper utilization of the available power units.
+
+
+\begin{figure}[H]
+\centering
+\caption{Rental History (Admin)}
+\label{fig:admin5}
+\includegraphics[width=0.7\textwidth]{figures/admin-5.png}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\caption{Rental History (Admin)}
+\label{fig:admin6}
+\includegraphics[width=0.7\textwidth]{figures/admin-6.png}
+\end{figure}
+
+
+The Rental History records all completed rental transactions. It stores data such as user information, rental duration, station and slot used, details of when it is rented and returned, and status. This functionality supports data analysis, reporting, and system evaluation. It allows administrators to review past rentals, identify usage patterns, and make informed decisions for system improvements and resource allocation.
+
+
+\begin{figure}[H]
+\centering
+\caption{User Management (Admin)}
+\label{fig:admin7}
+\includegraphics[width=0.7\textwidth]{figures/admin-7.png}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\caption{User Management (Admin)}
+\label{fig:admin8}
+\includegraphics[width=0.7\textwidth]{figures/admin-8.png}
+\end{figure}
+
+
+The User Management module is responsible for handling user accounts within the KuRyenta system. It allows administrators to see register users, user information, strikes made by the user, rental information, and actions that can be made to the users. This feature ensures secure access to the system and prevents unauthorized usage. It also supports the storage of user credits, which can be used for future rentals.
+
+
+\begin{figure}[H]
+\centering
+\caption{Stations (Admin)}
+\label{fig:admin9}
+\includegraphics[width=0.7\textwidth]{figures/admin-9.png}
+\end{figure}
+
+
+The Stations section manages the solar-powered rental stations deployed in the community. It provides information such as station location, number of available slots, battery availability, and user information in each slot rented. Administrators can monitor station performance, manage slot availability, and ensure proper operation of the solar-powered infrastructure, including energy harvesting and storage components.
+
+
+\begin{figure}[H]
+\centering
+\caption{SMS Logs (Admin)}
+\label{fig:admin10}
+\includegraphics[width=0.7\textwidth]{figures/admin-10.png}
+\end{figure}
+
+
+The SMS Logs functionality records all SMS communications sent through the GSM module. These include notifications such as rental confirmations, activation codes, overdue alerts, and return reminders. This feature ensures traceability of system communication, helps in troubleshooting notification issues, and verifies that users are properly informed throughout the rental process.
+
+
+\subsection {Black Box Testing}
+\subsubsection {Kuryenta - User's Rental App}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & User Onboarding Navigation & \textbf{Test Case ID} & TC-01 \\ \hline
+
+\textbf{Test Case Description} & Verify that the ``Get Started'' button correctly redirects the user to the Authentication Interface & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is installed and launched on the mobile device & \textbf{Post-Requisite} & User is presented with Log In and Sign Up options \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-.8\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Launch the Mobile Application & None & Application opens to the Welcome Screen & Application opened the Welcome Screen successfully & \\ \hline
+
+2 & Click the Get Started button & Touch Gesture & The system should redirect the user to the Authentication Interface & The Authentication Interface loaded successfully, displaying ``Log In'' and ``Sign Up'' options & \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========2nd===========
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Navigation to User Registration & \textbf{Test Case ID} & TC-02 \\ \hline
+
+\textbf{Test Case Description} & Verify that the “Sign Up” button correctly redirects the user to the Sign Up Screen & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Application is on the Authentication Interface (result of TC-01) & \textbf{Post-Requisite} & Sign Up form is active and ready for data entry. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-.8\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Tap the Sign Up button on the Authentication Interface  & Touch Gesture & The application should navigate to the Sign Up screen & Sign Up Screen loaded successfully & \\ \hline
+
+2 & Verify the presence of registration fields & None & All required user personal information fields (e.g., Name, Email Address, Password) should be visible & The page displayed all the required personal information for user registration. & \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========3rd===========
+
+\renewcommand{\arraystretch}{1.4}
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & User Account Registration (Sign Up) & \textbf{Test Case ID} & TC-03 \\ \hline
+
+\textbf{Test Case Description} & Verify that a new user can successfully create an account by providing their complete and valid registration data & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Primary Sign Up Screen & \textbf{Post-Requisite} & A new user record is created in the database, and the user is redirected to the Login Screen \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+\end{longtable}
+\small
+
+\vspace{-.8\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\endhead
+
+1 & Enter account credentials and contact details &
+First Name: Sheena \newline
+Last Name: Smion \newline
+Phone: +63 9362762948 \newline
+Email: simonsheena58@gmail.com \newline
+Password: nanan\_58 \newline
+Confirm: nanan\_58
+&
+Fields accept valid data and mask password &
+Data accepted and password masked &
+\\ \hline
+
+2 & Tap “Proceed” button &
+Touch Gesture &
+System validates data and moves to next screen &
+Successfully redirected &
+\\ \hline
+
+3 & Enter demographic and location details &
+Sex: Female \newline
+Birthdate: 08/05/2004 \newline
+Province: Camiguin \newline
+City: Mambajao \newline
+Barangay: Tupsan
+&
+System accepts inputs &
+All inputs recorded successfully &
+\\ \hline
+
+4 & Click “Create Account” button &
+Touch Gesture &
+Display success message and redirect to login &
+Message displayed and redirected &
+\\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+%========4th===========
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & User Account Authentication & \textbf{Test Case ID} & \\ \hline
+
+\textbf{Test Case Description} & Verify that a registered user can successfully log in and access the Home Screen using valid credentials.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The application is on the “Log In” screen; a valid user record exists in the Firebase database (Refer to TC-03) \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.8\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Entering the registered Email Address and Password & Email Address: “simonsheena58@gmail.com" 
+Password: “nanan_58”
+ & The input fields should accept and display the credentials correctly. & The credentials are displayed in the input fields &\\ \hline
+
+2 & Verify the presence of input fields & None & System should redirect the user to the Home Screen & The Home Screen loaded successfully, displaying the main  & \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+
+%========5th===========
+
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Negative Log In Testing - Missing Password & \textbf{Test Case ID} & TC-04 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system prevents login and displays an error message when the password field is left blank  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains on the Log In Screen with the error message visible \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.8\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Entering the registered Email Address & Email Address: “simonsheena58@gmail.com" 
+ & The email address field accepts the input & Email Address entered successfully &\\ \hline
+
+2 & Leave the Password field empty & Password: (empty) & No characters should be present in the password field & The password field remained empty  & \\ \hline
+
+3 & Tap the Log In button & Touch Gesture & The system shouldn’t accept the attempt and display an error message:  “Please enter your password”. & The error message  “Please enter your password” was displayed  & \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+
+%========6th===========
+
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Negative Log In Testing - Incorrect Password & \textbf{Test Case ID} & TC-05 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system denies access and displays an error message when an incorrect password is provided for a registered email  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains unauthenticated on the Log In Screen  \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.8\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Enter a valid registered email address & Email Address: “simonsheena58@gmail.com" 
+ & The email address field accepts the input & Email entered successfully &\\ \hline
+
+2 & Enter an incorrect password & Password: “nanan” & The password field masks the input & Password entered and masked  & \\ \hline
+
+3 & Tap the Log In button & Touch Gesture & The system should display a message: “Invalid email or password.” & The error message  “Invalid email or password” was displayed as expected  & \\ \hline
+
+
+\end{longtable}
+
+
+\vspace{1em}
+
+%========7th===========
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\noindent\makebox[\textwidth][c]{%
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Input Validation and Authentication Error Handling & \textbf{Test Case ID} & TC-06 \\ \hline
+
+\textbf{Test Case Description} & Verify the system's ability to identify malformed email strings and reject incorrect credential inputs  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains unauthenticated on the Log In Screen   \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Enter an incorrectly formatted email and a correct password. & Email Address: “simonsheena58gmail.com" 
+Password: “nanan_58”
+ & The system should detect the missing "@" and display an error message: "Invalid email address." & The error message "Invalid email address" was displayed. &\\ \hline
+
+2 & Enter a correctly formatted email, but an incorrect password. & Email Address: “simonsheena58@gmail.com" 
+Password: “nanan”
+ & The system should deny access and display an error message: "Invalid email or password". & The error message "Invalid email or password" was displayed.  & \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+
+%========8th===========
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Negative Log In Testing - Missing Email Address & \textbf{Test Case ID} & TC-07 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system prevents login and displays an error message when the email address field is left blank  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains on the Log In Screen with the error message visible \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Leave the Email Address field empty & Email Address: “empty.”
+ & No characters should be present in the email address field & The email address field remained empty &\\ \hline
+
+2 & Entering the registered password & Password: “nanan_58”
+ & The password field accepts the input & Password entered and masked successfully  & \\ \hline
+
+3 & Tap the Log In button & Touch Gesture
+ & The system shouldn’t accept the attempt and display an error message:  “Please enter your email”. & The error message  “Please enter your email” was displayed & \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========9th===========
+
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Eye Icon Functionality - Password Visibility Toggle & \textbf{Test Case ID} & TC-09 \\ \hline
+
+\textbf{Test Case Description} & Verify that the password visibility toggle (eye icon) accurately switches between masked characters and plain text.  & \textbf{Test Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & The user has entered a string of characters into the password field. & \textbf{Post-Requisite} & The password remains in the user's preferred visibility state. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Enter characters into the password field. & Password: “nanan_58”
+ & The input should be masked (e.g., asterisks) by default. & Input was masked by default. &\\ \hline
+
+2 & Tap the Eye Icon (Visibility Toggle). & Touch Gesture
+ & The masked password should transition to plain text visibility. & The password became visible as plain text. & \\ \hline
+
+3 & Tap the Eye Icon again & Touch Gesture
+ & The plain text password should return to a masked state. & The password was successfully hidden/masked. & \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========10th===========
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Successful User Authentication and Redirection & \textbf{Test Case ID} & TC-10 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system authenticates a user with valid credentials and successfully redirects them to the application's Home Screen.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & A registered account exists with the provided credentials; the app is on the Log In screen. & \textbf{Post-Requisite} & The user session is established, and the Home Page interface is fully loaded. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Enter a valid registered email address and password & Email Address: “simonsheena58@gmail.com" 
+Password: “nanan_58”
+ & The field accepts and displays the email. The password field masks the input characters. & Email address entered successfully. Password entered and masked. &\\ \hline
+
+2 & Tap the Log In button. & Touch Gesture
+ & The system validates the credentials and redirects the user. & The system authenticated the user and redirected to the Home Screen. & \\ \hline
+
+3 & Verify the Home Screen content. & None
+ & The Home Screen should display the main dashboard  & The Home Screen loaded successfully as expected. & \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========11th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Hardware Permission Handling - Camera Access Denial & \textbf{Test Case ID} & TC-11 \\ \hline
+
+\textbf{Test Case Description} & Verify that the application correctly handles the denial of camera permissions and provides an informative message to the user.  & \textbf{Test Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & The application is at a stage requiring camera access (e.g., Profile Photo Upload). & \textbf{Post-Requisite} & Camera functionality remains disabled, and the user is prompted with an explanation. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Trigger a feature requiring the camera (e.g., Update Profile Photo). & Touch Gesture
+ & The system's native permission dialog should appear. & The system permission dialog was triggered. &\\ \hline
+
+2 & Select the "Don't Allow" or "Never Allow" option. & Button Click
+ & The application should intercept the denial and display a justification message. & The application detected the denial of permission. & \\ \hline
+
+3 & Observe the application's feedback message. & None
+ & An error message: "Could not access camera. Please allow camera permission" should be displayed.  & The error message was displayed as expected, and the feature was disabled. & \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========12th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Hardware Permission Integration - Profile Photo Capture & \textbf{Test Case ID} & TC-12 \\ \hline
+
+\textbf{Test Case Description} & Verify that the application successfully accesses the camera and saves a captured image to the user profile once permission is granted.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the "Edit Profile" screen; camera permission has not been granted previously and is now being allowed. & \textbf{Post-Requisite} & The user's profile is updated with the new image in the database. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Trigger the camera function to update the profile picture. & Touch Gesture
+ & The system's native permission dialog should appear. & Permission dialog appeared. &\\ \hline
+
+2 & Select the "Allow" or "While Using the App" option. & Button Click
+ & The camera interface should launch successfully. & The camera viewfinder opened without error. & \\ \hline
+
+3 & Capture a photo and confirm the selection. & “Tap to Capture” button
+ & The image should be processed and displayed as the new profile picture.  & The photo was captured and successfully displayed on the profile. & \\ \hline
+
+4 & Save the profile changes. & None
+ & The system should confirm that the profile information and photo were automatically saved.  & Edited personal information and the new profile photo were automatically saved successfully. & \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========13th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Image Re-capture and Facial Detection Verification & \textbf{Test Case ID} & TC-13 \\ \hline
+
+\textbf{Test Case Description} & Verify that the application’s facial detection guide functions correctly during a photo retake and that the resulting image is successfully uploaded to storage.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Camera permission has been granted; user is on the "Edit Profile" or "Camera" interface. & \textbf{Post-Requisite} & The existing profile photo is overwritten by the new image in the cloud storage/database. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Initiate the "Retake” Profile Photo action & Touch Gesture
+ & The camera interface should open with a circular guide and the message "Position your face inside the circle". & The camera interface and circular guide loaded with the prompt "Waiting for face". &\\ \hline
+
+2 & Align face within the designated circular guide. & Physical Alignment
+ & The system should detect the face and change the status/button to "Tap to capture". & Face was detected; the "Tap to capture" button became active. & \\ \hline
+
+3 & Click the capture button to retake the photo. & Touch Gesture
+ & The photo should be captured, and an "Uploading" status should be displayed.  & The "Uploading" message appeared immediately after capture. & \\ \hline
+
+4 & Observe the finalization of the upload. & None
+ & The image should be successfully saved to storage and update the UI.  & The photo was captured and successfully uploaded to storage. & \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+%========14th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-14 \\ \hline
+
+\textbf{Test Case Description} & Verify station identification and real-time slot availability.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User is authenticated and on the Home Screen. & \textbf{Post-Requisite} & Slot Availability Tab is populated with data. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Enter the Station ID in the search bar & Enter Station ID (e.g. 0001): “0002”
+ & System accepts the Station ID and initiates a loading state. & Station ID was accepted; "Loading Station" message appeared. &\\ \hline
+
+2 & Observe the Slot Availability Tab. & None
+ & The tab should load a list of available slots to be rented. & Slot Availability Tab loaded with current available slots as expected. & \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+%========15th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-15 \\ \hline
+
+\textbf{Test Case Description} & Verify station identification and real-time slot availability.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Verify selection of available slots and view details of the Portable Power Source (Battery Percentage, Price, and Return Period) & \textbf{Post-Requisite} & User is on the specific Slot Detail view. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Select an available (unrented) slot. & Touch Gesture
+ & Navigate to the details tab for the selected slot. & Successfully navigated to the selected slot's detail tab. &\\ \hline
+
+2 & Review Portable Power Source Details & None
+ & Display Battery Percentage, Unit Price, and Return Period. & Details (Battery \%, Price, Period) were displayed accurately. & \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========16th===========
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-16 \\ \hline
+
+\textbf{Test Case Description} & Verify the cancellation of a slot selection before confirming a rental.  & \textbf{Test Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & User is on the Slot Detail view (result of TC-16). & \textbf{Post-Requisite} & User returns to the general Slot Availability list. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Click the “X” Cancel button. & Touch Gesture
+ & The system should terminate the selection and return to the previous screen. & The application returned to the Slot Availability Tab successfully. &\\ \hline
+
+2 & Verify list state. & None
+ & The list of available slots should be visible and refreshed. & Slot Availability Tab list reloaded and showed all available slots. & \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========17th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Client Payment Selection and Hardware Initialization & \textbf{Test Case ID} & TC-17 \\ \hline
+
+\textbf{Test Case Description} & Verify the initialization of the physical coin slot for coin payments.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User has selected an available slot and reached the payment selection view. & \textbf{Post-Requisite} & Hardware is prepared to receive physical currency. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Select the coin payment option. & Click “Pay via Coin Slot” button
+ & A “Preparing Coin Slot” tab should appear with a 30-second timeout message. & The “Preparing Coin Slot” tab appeared and initialized successfully. &\\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+%========18th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Client Payment Selection (Credit Points) & \textbf{Test Case ID} & TC-18 \\ \hline
+
+\textbf{Test Case Description} & Verify the system's ability to initialize the rental process using virtual credit points.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User has sufficient credit points (e.g., P10000) and is on the payment screen. & \textbf{Post-Requisite} & The system prepares the specific slot for unlocking. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Select the credit payment option. & Tap “Pay via Credit Points (P10000 available).”
+ & A “Preparing Slot” tab should appear, indicating the station is unlocking the slot. & The “Preparing Slot” tab loaded successfully as expected. &\\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+
+%========19th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Cash Payment Processing and Notification & \textbf{Test Case ID} & TC-19 \\ \hline
+
+\textbf{Test Case Description} & Verify the real-time coin counting logic, timer reset functionality, and successful payment notification.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The system is in the “Waiting for Coins” state with an active countdown timer. & \textbf{Post-Requisite} & Payment is recorded, the session is finalized, and the user is notified \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Insert physical coins into the station. & Physical Currency
+ & The display should update the total in real-time. The countdown timer should reset to its initial value upon each insertion. & Each coin was detected; the total updated correctly, and the timer successfully reset on each insertion &\\ \hline
+
+2 & Finalize the transaction & Click the “Done Paying” button
+ & The system should validate the total amount and trigger a "Payment Successful. You rented slot1" notification on the Alerts Screen. & Transaction was validated; "Payment Successful. You rented slot1" notification appeared on the Alerts Screen. &\\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+
+%========20th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Credit Point Transaction and Notification & \textbf{Test Case ID} & TC-20 \\ \hline
+
+\textbf{Test Case Description} & Verify the deduction of points and successful rental activation via virtual credits.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & System displays the “Price” and “Your Points” comparison view. & \textbf{Post-Requisite} & Credits are deducted, and the successful payment alert is triggered. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Confirm the credit transaction. & Click the “Confirm Payment” button
+ & The system should validate sufficient points and process the deduction. & Point validation and deduction were processed successfully. &\\ \hline
+
+2 & Verify the alert notification. & None
+ & A "Payment Successful. You rented slot1" notification should be visible on the Alerts Screen. & Transaction was validated; "Payment Successful. You rented slot1" notification appeared on the Alerts Screen. &\\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========21st===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Notification Navigation & \textbf{Test Case ID} & TC-21 \\ \hline
+
+\textbf{Test Case Description} & Verify that the user can navigate to the Alerts Screen.  & \textbf{Test Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & The user is logged in and on any main screen with the bottom navigation bar. & \textbf{Post-Requisite} & The Alerts Screen is active and displays a list of system notifications. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Click the “Bell” icon in the bottom navigation bar. & Touch Gesture
+ & The system should redirect the user to the Alerts Screen. & The user was successfully redirected to the Alerts Screen. &\\ \hline
+
+2 & Verify the list of notifications. & None
+ & Logged alerts (e.g., "Payment successful! You rented slot1", “Successfully Returned slot1”, “Failed Transaction”) should be visible. & Recent transaction and return alerts were displayed as expected. &\\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========22nd===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Notification Management & \textbf{Test Case ID} & TC-22 \\ \hline
+
+\textbf{Test Case Description} & Verify the functionality of deleting individual alerts and clearing the entire notification log.  & \textbf{Test Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & The user is on the Alerts Screen and at least one notification exists. & \textbf{Post-Requisite} & The selected notifications are permanently removed from the Alerts Screen \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Click the “Trash Icon”  next to a specific alert. & Touch Gesture
+ & The specific notification (e.g., "Failed Transaction") should be removed. & The selected alert was successfully deleted from the list. &\\ \hline
+
+2 & Tap the "Clear All" button. & Touch Gesture
+ & All notifications in the list should be cleared simultaneously. & All alerts were removed; the screen displayed an empty state. &\\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========23rd===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Notification Management & \textbf{Test Case ID} & TC-23 \\ \hline
+
+\textbf{Test Case Description} & Verify the loading of user-specific data on the Profile edit screen.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User is logged in and on the Home Screen & \textbf{Post-Requisite} & Profile Screen is active with all editable fields populated. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Tap the “Profile Icon” in the navigation bar. & Touch Gesture
+ & Profile Screen should display Full Name, Email Address, Phone Number, Sex, Birthdate, Location, and Photo & Profile Screen loaded successfully with all user data &\\ \hline
+
+2 & Tap the "Clear All" button. & Touch Gesture
+ & All notifications in the list should be cleared simultaneously. & All alerts were removed; the screen displayed an empty state. &\\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+
+%========24th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Profile Photo Hardware Trigger & \textbf{Test Case ID} & TC-24 \\ \hline
+
+\textbf{Test Case Description} & Verify the activation of the camera interface via the profile photo placeholder.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User is on the Profile Page. & \textbf{Post-Requisite} & Camera viewfinder is active with face recognition overlays. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Tap the profile photo placeholder. & Touch Gesture
+ & The system should launch the camera and display the face detection guide. & The "Take Profile Photo" dialog opened with the circular face recognition guide. &\\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========25th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Profile Edit Cancellation & \textbf{Test Case ID} & TC-25 \\ \hline
+
+\textbf{Test Case Description} & Verify that changes are discarded and the user is redirected when clicking "X"  & \textbf{Test Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & User is in the Profile Edit mode or Camera mode. & \textbf{Post-Requisite} & User returns to the previous screen; no data is modified in the database. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Tap the "X" (Close) button & Touch Gesture
+ & User should be redirected to the previous screen with no changes saved. & Redirected successfully; original profile data remained unchanged. &\\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+
+%========26th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Facial Detection and Image Upload & \textbf{Test Case ID} & TC-26 \\ \hline
+
+\textbf{Test Case Description} & Verify the facial detection logic, image capture, and cloud storage upload.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Camera interface is active (TC-24) & \textbf{Post-Requisite} & New image is saved to storage and updated on the profile. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Align face within the circular guide. & Physical Alignment
+ & System should display "Looking for face" then "Waiting for face" until detected. & Messages appeared as expected; face was successfully detected. &\\ \hline
+
+2 & Capture and upload the photo. & Tap "Capture Photo"
+ & An "Uploading" status should appear; the image should save to storage. & "Uploading" message appeared; photo was captured and saved to storage. &\\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+
+%========27th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Facial Detection and Image Upload & \textbf{Test Case ID} & TC-27 \\ \hline
+
+\textbf{Test Case Description} & Verify that logging out successfully terminates the session and redirects to the Welcome Screen.  & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User is authenticated and on the Profile Screen. & \textbf{Post-Requisite} & Session is cleared; user cannot navigate back to authenticated screens. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Tap the "Log Out" button. & Touch Gesture
+ & User should be redirected to the Welcome Screen. & Successfully redirected to the Welcome Screen &\\ \hline
+
+\end{longtable}
+
+\vspace{2em}
+
+%==============================
+%=====ADMIN - BLACK BOX=======
+%==============================
+
+\subsubsection {Kuryenta - Admin's Monitoring App}
+
+%========1ST===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Dashboard Overview — Summary Cards & \textbf{Test Case ID} & TC-01 \\ \hline
+
+\textbf{Test Case Description} & Verify that all six summary stat cards on the Dashboard display the correct labels and live data values. & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin is logged in and the Dashboard page is loaded. & \textbf{Post-Requisite} & All six cards (Total Stations, Available Slots, Active Rentals, Overdue, Total Users, Banned Users) are visible with correct values. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Navigate to the Dashboard page. & None & Dashboard loads without errors; six stat cards are displayed. & Dashboard loaded successfully with all six cards visible. & Passed\\ \hline
+
+2 & Observe the 'Total Stations' card (blue). & None & The card displays the correct count of registered stations (e.g., 1). & The Total Stations card displayed the correct count. & Passed\\ \hline
+
+3 & Observe the 'Available Slots' card (green). & None & Card displays the count of currently available slots (e.g., 0). & Available slots cards displayed the correct count. & Passed\\ \hline
+
+4 & Observe the 'Active Rentals' card (orange). & None & Card displays the number of ongoing rentals (e.g., 2). & The Active Rentals card displayed the correct count. & Passed\\ \hline
+
+5 & Observe the 'Overdue' card (red). & None & Card displays count of overdue rentals (e.g., 0). & The overdue card displayed the correct count. & Passed\\ \hline
+
+6 & Observe the 'Total Users' card (purple). & None & Card displays total registered users (e.g., 16). & The total users card displayed the correct count. & Passed\\ \hline
+
+7 & Observe the 'Banned Users' card (gray). & None & Card displays total banned user accounts (e.g., 0). & The Banned Users card displayed the correct count. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========2ND===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Dashboard Overview — Overdue Alerts Panel & \textbf{Test Case ID} & TC-02 \\ \hline
+
+\textbf{Test Case Description} & Verify that the Overdue Alerts panel correctly shows a 'no overdue rentals' empty state when no rentals are overdue. & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Dashboard is loaded and no rentals are currently overdue. & \textbf{Post-Requisite} & The Overdue Alerts panel shows green checkmark and empty-state message. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Navigate to the Dashboard page. & None & Dashboard page loads successfully. & Dashboard loaded successfully. & Passed\\ \hline
+
+2 & Locate the 'Overdue Alerts' panel. & None & The panel is present with a badge showing the overdue count. & Overdue Alerts panel found with count badge '0'. & Passed\\ \hline
+
+3 & Observe the panel body when overdue count is 0. & None & Green checkmark icon and message 'No overdue rentals!' are displayed. & Green checkmark and empty-state message displayed as expected. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========3RD===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Dashboard Overview — Recent Rental History & \textbf{Test Case ID} & TC-03 \\ \hline
+
+\textbf{Test Case Description} & Verify that the Recent Rental History panel displays the latest rental entries with correct user, station, and status information. & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & At least one rental record exists in the database; Dashboard is loaded. & \textbf{Post-Requisite} & Panel shows up to 5 most recent rentals sorted by newest first. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Navigate to the Dashboard page. & None & Dashboard loads successfully. & Dashboard loaded successfully. & Passed\\ \hline
+
+2 & Locate the 'Recent Rental History' panel. & None & The panel is present on the right side of the Dashboard. & Recent Rental History panel located. & Passed\\ \hline
+
+3 & Observe the list of rental entries. & None & Up to 5 entries are shown, each displaying: user avatar, name, station and slot, and a status badge (active/returned). & 5 recent entries shown with correct user names, station info, and status badges. & Passed\\ \hline
+
+4 & Verify the sort order of entries. & None & Entries are sorted newest-first (most recent rental appears at the top). & Entries were sorted newest-first as expected. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========4TH===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Dashboard Overview — Sidebar Badge Counts & \textbf{Test Case ID} & TC-04 \\ \hline
+
+\textbf{Test Case Description} & Verify that sidebar navigation badges accurately reflect the live counts for Active Rentals and Offline Monitor. & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin is logged in; there are active rentals and offline stations/slots present. & \textbf{Post-Requisite} & Sidebar badges match the values displayed on their respective dashboard cards. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Open the sidebar and observe the 'Active Rentals' menu item. & None & A blue badge displaying the current active rental count (e.g., 2) is visible. & The Active Rentals badge showed the correct count '2'. & Passed\\ \hline
+
+2 & Observe the 'Offline Monitor' menu item. & None & A red badge displaying the sum of offline stations and offline slots (e.g., 3) is visible. & The Offline Monitor badge showed the correct count '3'. & Passed\\ \hline
+
+3 & Compare sidebar badge values against the dashboard stat cards. & None & Badge counts match the corresponding stat card values on the Dashboard. & All sidebar badge counts matched dashboard card values. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========5TH===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Dashboard Overview — Refresh Functionality & \textbf{Test Case ID} & TC-05 \\ \hline
+
+\textbf{Test Case Description} & Verify that the refresh button reloads the Dashboard with the latest data from the database. & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin is on the Dashboard page. & \textbf{Post-Requisite} & Dashboard data is updated to reflect the most recent state.\\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Locate and click the refresh icon in the top-right of the header toolbar. & Touch Gesture & The page reloads and all dashboard stat cards update with the latest values. & Page reloaded; all stat card values refreshed successfully. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========6TH===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Live Map — Station Marker Display & \textbf{Test Case ID} & TC-06 \\ \hline
+
+\textbf{Test Case Description} & Verify that the Live Map loads and correctly displays station markers at their geographic coordinates. & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin is logged in; at least one station with GPS coordinates exists. & \textbf{Post-Requisite} & Map is fully rendered with all station markers visible at correct positions.\\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Enter a valid registered email address & Email Address: “simonsheena58@gmail.com"  & The email address field accepts the input & Email entered successfully & Passed\\ \hline
+
+2 & Enter an incorrect password & Password: “nanan”  & The password field masks the input & Password entered and masked & Passed\\ \hline
+
+3 & Tap the Log In button & Touch Gesture  & The system should display a message: “Invalid email or password.” & The error message  “Invalid email or password” was displayed as expected & Passed\\ \hline
+\end{longtable}
+
+
+\vspace{2em}
+
+%==============================
+%=====NOTIFIER - BLACK BOX=====
+%==============================
+
+\subsubsection {Kuryenta - Notifier's App}
+
+%========1ST===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Dashboard Monitoring & Notification System & \textbf{Test Case ID} & TC-01 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system displays complete rental details per slot and sends SMS notifications to the user when rental time is near end, due for return, and overdue. & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin has accessed the notifier application; app is connected to Firebase; active rentals exist. & \textbf{Post-Requisite} & Slot details are visible and notifications are triggered correctly based on time conditions. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Open the app dashboard & None & Dashboard loads with all slot cards visible & Dashboard loaded successfully showing Slot 1 and Slot 2 cards & Passed\\ \hline
+
+2 & Observe Slot Information & None & Each slot shows: Name, Phone, Battery \%, Rent Time, Return Time & Each slot displays user name, phone number, battery \%, rented at, and return by details correctly & Passed\\ \hline
+
+3 & Verify real-time connection & Firebase active & Status shows "Connected to Firebase — monitoring in real-time" & Status banner displayed "Connected to Firebase — monitoring in real-time" & Passed\\ \hline
+
+4 & Check active rental display & Slot is rented & Slot status shows "Rented" with correct user details & Both Slot 1 and Slot 2 show "Rented" status with correct user information & Passed\\ \hline
+
+5 & Monitor countdown timer & Active rental & Remaining time is displayed and updates dynamically & Countdown timer displayed (e.g., "5h 49m left", "5h 45m left") and updates correctly & Passed\\ \hline
+
+6 & Simulate return due time reached & Current time = return time & System sends "Return Now" notification & The Banned Users card displayed the correct count. & Passed\\ \hline
+
+7 & Simulate overdue rental & Current time $>$ return time & System sends "Overdue" alert notification & System triggered overdue notification when rental exceeded return time & Passed\\ \hline
+
+8 & Verify SMS log updates & Notification triggered & SMS Log displays sent notification record & SMS Log updated accordingly after notifications were triggered & Passed\\ \hline
+
+9 & Check multiple slots behavior & Slot 1 and Slot 2 active & Notifications handled independently per slot & Each slot processed notifications independently without conflict & Passed\\ \hline
+
+10 & Verify battery indicator display & Battery data available & Battery percentage is shown correctly per slot & Battery levels displayed correctly (e.g., 67\%, 100\%) with visual indicator & Passed\\ \hline
+
+11 & Pause monitoring & Click "Pause" button & System stops real-time monitoring and notifications & Monitoring paused successfully; no further real-time updates observed & Passed\\ \hline
+\end{longtable}
+
+
+
+\newpage
+\subsection {White Box Testing}
+\subsubsection {Kuryenta - User's Rental App}
+
+% ----------- LOGIN -----------
+
+\renewcommand{\arraystretch}{1.4}
+
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
+\hline
+\textbf{Test Scenario} & Log In Screen Functionality \\ \hline
+\textbf{Test Priority} & High \\ \hline
+\textbf{Description} & Verification of valid credentials logic.  \\ \hline
+\textbf{Objective} &  Validate successful authentication and redirection path. \\ \hline
+%\textbf{another row} &  \\ \hline
+\end{longtable}
+
+\vspace{-1.6\baselineskip}
+
+
+\begin{longtable}{|p{0.9cm}|p{1.4cm}|p{1.4cm}|p{2cm}|p{1.8cm}|p{2cm}|p{1.4cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+LG - 01 & Navigate to Login Screen and input valid credentials & Email: \newline \url{user@} \newline \url{gmail.com} \newline Pass: \newline 123456 & Login Screen $>$ \newline Firebase \newline logInUser \newline Auth $>$ \newline \url{router.} \newline \url{replace()} & User successfully logs in and is redirected to the Home Screen. & User successfully logged in. Redirected to the Home Screen. & Passed \\ \hline
+	
+LG - 02 & Input a valid email and verify data flow & Email: \newline \url{valid}\newline \url{mail@} \newline \url{example.com} \newline Pass: \newline pass123 & UI Input $>$ \newline \url{email.value} $>$ \newline \url{logInUser(} \newline \url{email.value,} \newline \url{pass.value)} & Email is correctly passed to the logInUser() method. & \url{logInUser()} called. Email passed successfully. & Passed \\ \hline
+	
+LG - 03 & Attempt login with empty Email field. & Email: \newline (empty) \newline Pass: \newline pass123 & logIn function $>$ \newline \url{!email.} \newline \url{value.trim()} \newline check $>$ \newline Early return & Validation fails; process does not proceed to Firebase. & Invalid credentials. Error message displayed. & Passed \\ \hline
+	
+LG - 04 & Attempt login with empty Password field. & Email: \newline \url{user@} \newline \url{gmail.com} \newline Pass: \newline (empty) & logIn function $>$ \newline \url{!password.value} check $>$ \newline Early return & Validation fails; process does not proceed to Firebase. & Error: "Please enter your password" displayed. & Passed \\ \hline
+	
+PA - 05 & Toggle password visibility. & Tap toggle icon (click event). & \url{show}\newline \url{Password} \newline state: \newline false $>$ true & Input type changes from "password" to "text". Icon changes. & Field toggles between masked and unmasked view. & Passed \\ \hline
+	
+LG - 06 & Tap "Log In" while \_isLoading is true. & Tap "Log In" button & logIn \newline function $>$ \url{if(is}\newline \url{Loading.} \newline \url{value)} check & Button remains disabled; indicator is rendered. & Progress Indicator displayed; button disabled. & Passed \\ \hline
+	
+LG - 07 & Use invalid credentials for login & Email: \newline \url{invalid} \newline \url{@gmail.com} \newline Pass: \newline pass123 & \url{logInUser()} $>$ \newline Firebase \newline Exception $>$ \newline catch block & Auth service triggers an error; message is displayed. & Error: "Invalid email or password" displayed. & Passed \\ \hline
+	
+WS - 08 & Tap "Sign Up" button. & None & Welcome Screen $>$ \newline signUp() $>$ \url{router.} \newline \url {push(name:} \newline \url {'signUp} \newline \url{Screen')} & Navigation logic triggers redirection. & User successfully navigated to SignUpScreen. & Passed \\ \hline
+	
+LG - 09 & Enter invalid email format. & Email: \newline \url{invalid}\newline \url{mail} \newline Pass: \newline pass123 & logIn func $>$ \newline \url{email}\newline \url{Pattern.} \newline \url{test()} check & Validation fails; error message is displayed. & Error: “Please enter a valid email address”. & Passed \\ \hline
+
+WS - 10 & Tap "Log In" button. & None & Welcome Screen $>$ \newline \url{router.push} \newline \url{('logIn} \newline \url {Screen')} & Navigation logic triggers redirection. & User successfully navigated to LogInScreen. & Passed \\ \hline
+\end{longtable}
+
+\renewcommand{\arraystretch}{1.4}
+
+<<<<<<< HEAD
+% ----------- SIGN UP -----------
+
+\renewcommand{\arraystretch}{1.4}
+
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
+	\hline
+	\textbf{Test Scenario} & Sign Up Screen Functionality \\ \hline
+	\textbf{Test Priority} & High \\ \hline
+	\textbf{Description} & Verification of multi-step registration logic and media capture. \\ \hline
+	\textbf{Objective} & Validate data persistence, navigation paths, and validation checks. \\ \hline
+\end{longtable}
+
+\vspace{-1.6\baselineskip}
+
+% ----------- STEPS TABLE -----------
+\begin{longtable}{|p{0.9cm}|p{1.4cm}|p{1.4cm}|p{2cm}|p{1.8cm}|p{2cm}|p{1.4cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+SU - 01 & Input all \newline required fields correctly and tap "Proceed." & First Name, Last Name, \newline Phone, \newline Email, \newline Password & \url{SignUp}\newline \url{Screen.vue} $>$ \url{proceed()} $>$ \newline Validation Pass $>$ \newline \url{router.push()} & User is redirected to the next page of the Sign Up Screen. & User redirected to the next page of Sign Up Screen. & Passed \\ \hline
+	
+SU - 02 & Use the date picker for the Birthday field. & Select a valid date, e.g., \newline "05/10/\newline2003" & \url{SignUp}\newline \url{Screen}\newline \url{Second.vue} $>$ \newline \url{input type=date} $>$ \newline \url{signUpData} \newline \url{.birthdate} & The selected date is captured by the \url{v-model} and displayed. & Selected date is displayed in the Birthday field correctly. & Passed \\ \hline
+	
+SU - 03 & Input all required fields correctly and tap "Proceed." & Sex, \newline Birthdate, \newline and Address & \url{SignUp}\newline \url{Screen}\newline \url{Second.vue} $>$ \newline \url{proceed()} $>$  \url{router.push()} & User is redirected to the Last Page (Profile Photo Upload). & User redirected to the profile photo upload page. & Passed \\ \hline
+	
+SU - 04 & Leave one field empty and \newline attempt to \newline proceed. & Empty field \newline (e.g., \newline firstName) is blank, but others are filled). & \url{proceed()} func $>$ \newline Empty check $>$ \newline \url{error}\newline \url{Message} \newline \url{.value} & User is notified to fill field; \newline navigation \newline is blocked. & Error message displayed. Navigation prevented. & Passed \\ \hline
+	
+SU - 05 & Toggle the Terms of Service & Tap on the \newline "Terms of \newline Service" link & \url{SignUp}\newline \url{Screen}\newline \url{Third.vue} $>$ \url{openTos()} $>$ \url{isTosOpen=true} & A modal overlay appears displaying the Terms of Service. & User successfully views the ToS in modal overlay. & Passed \\ \hline
+	
+SU - 06 & Toggle the Privacy Policy & Tap on the \newline "Privacy \newline Policy" link & \url{SignUp}\newline \url{Screen}\newline \url{Third.vue} \newline $>$ \url{open}\newline \url{Privacy} \url{()} $>$ \newline \url{isPrivacy}\newline \url{Open} & A modal overlay appears displaying the Privacy Policy. & User successfully views the Privacy Policy modal. & Passed \\ \hline
+	
+SU - 07 & Toggle checkbox for Terms of Service and Privacy. & Tap checkbox \newline (updates \newline variable) & \url{SignUp}\newline \url{Screen}\newline \url{Third.vue} \newline $>$ \url{v-model} $>$ \url{canCreate} & The checkbox toggles; Create button enables/ \newline disables. & Checkbox state toggled successfully. & Passed \\ \hline
+	
+SU - 08 & Upload a \newline Profile Photo & Tap Holder $>$ \newline Position face \newline $>$ Capture. & \url{startCamera} $>$ \url{detectFace} $>$ \url{uploadTo}\newline \url{Cloudinary} & Face is detected; URL saved to Cloudinary; preview updates. & Photo captured and uploaded successfully. & Passed \\ \hline
+	
+SU - 09  & Attempt "Create Account" without agreement. & Checkbox: \newline unchecked & \url{SignUp}\newline \url{Screen}\newline \url{Third.vue} $>$ \url{canCreate} \newline returns false & The "Create Account" button remains disabled. & Button is visually and functionally disabled. & Passed \\ \hline
+	
+\end{longtable}
+
+% ----------- SEARCH STATION-----------
+\renewcommand{\arraystretch}{1.4}
+
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
+	\hline
+	\textbf{Test Scenario} & Station Search Functionality \\ \hline
+	\textbf{Test Priority} & High \\ \hline
+	\textbf{Description} & Testing the functionality and component flow of the Station Search using white-box testing. \\ \hline
+	\textbf{Objective} & Validate search logic, data retrieval, and error handling branches. \\ \hline
+\end{longtable}
+
+\vspace{-1.6\baselineskip}
+
+% ----------- STEPS TABLE -----------
+\begin{longtable}{|p{0.9cm}|p{1.4cm}|p{1.4cm}|p{2cm}|p{1.8cm}|p{2cm}|p{1.4cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+	ST - 01 & Trigger \url{search} \newline \url{Station} & \url{searchId}\newline \url{=} \newline \url{"0002"} & \url{getStation} \newline \url{(id)} \newline returns data $>$ \newline \url{router.push()} & User is navigated to station screen with ID "0002". & Search successful. Navigating to Station Screen. & Passed \\ \hline
+	
+	ST - 02 & Trigger \url{search} \newline \url{Station} & \url{searchId}\newline \url{=} "" & \url{if (!id)} \newline branch & \url{search} \newline \url{Error} \newline updates to "Please enter a Station ID." & FAILED - Empty ID. Message displayed correctly. & Passed \\ \hline
+	
+	ST - 03 & Trigger \url{search} \newline \url{Station} & \url{searchId}\newline \url{=} \newline \url{"9999"} & \url{getStation} \newline \url{(id)} \newline returns null $>$ \newline else branch & \url{search} \newline \url{Error} displays: "Station '9999' not found." & FAILED - Data null. "Station not found" displayed. & Passed \\ \hline
+	
+\end{longtable}
+
+\vspace{1\baselineskip}
+
+% ----------- LOGIN DOCUMENTATION -----------
+\begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	LG - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-01-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	LG - 02 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-02-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-02-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	LG - 03 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-03-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-03-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	LG - 04 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-04-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-04-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	PA - 05 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PA-05-code.png}
+		\vspace{0.2cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/PA-05-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	LG - 06 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-06-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-06-result.png}
+	\vspace{0.1cm} 
+	\end{minipage} \\ \hline
+	LG - 07 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-07-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-07-result.png}
+	\vspace{0.1cm}
+	\end{minipage}\\ \hline
+WS - 08 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/WS-08-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/WS-08-result.png}
+	\vspace{0.1cm}
+	\end{minipage}\\ \hline
+	LG - 09 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-09-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-09-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+WS - 10 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/WS-10-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/WS-10-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+\end{longtable}
+
+% ----------- SIGN UP DOCUMENTATION -----------
+\begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	SU - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 02 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-02-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-02-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 03 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-03-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-03-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 04 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-04-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-04-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 05 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-05-code.png}
+		\vspace{0.2cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-05-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 06 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-06-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-06-result.png}
+		\vspace{0.1cm} 
+	\end{minipage} \\ \hline
+	SU - 07 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-07-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-07-result.png}
+		\vspace{0.1cm}
+	\end{minipage}\\ \hline
+	SU - 08 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-08-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-08-result.png}
+		\vspace{0.1cm}
+	\end{minipage}\\ \hline
+	SU - 09 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-09-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-09-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+\end{longtable}
+
+
+
+
+\section {Functional and Usability Testing Results for Community Residents}
+
+Beyond evaluating the technical performance of the proposed solar-powered rental station with detachable power sources, it was equally important to assess how effectively the system functions in actual use and how well community residents can interact with it. To address this, functional and usability testing were conducted to evaluate the system’s core operations, responsiveness, ease of navigation, and overall user experience. The testing focused on essential functionalities such as user authentication, input validation, rental processing, system navigation, and interface interaction through the mobile application. In addition, usability aspects such as clarity of instructions, accessibility of features, responsiveness of outputs, and user understanding of system prompts were examined. These evaluations aimed to determine whether the system not only performs its intended functions correctly but also provides a seamless and user-friendly experience for community residents, particularly in scenarios involving power interruptions and emergency energy access.
+
+\begin{figure}[H]
+\centering
+\caption{Functional Test Result of Community Residents}
+\label{fig:coin-slot}
+\includegraphics[width=1\textwidth]{figures/bar-functional.png}
+\end{figure}
+
+\vspace{1em}
+
+The functional and usability testing results for community residents demonstrate that the developed solar-powered rental station with detachable power sources operates in accordance with its intended design and system requirements. Based on the conducted test cases, the system was able to successfully perform core functionalities such as user authentication, input validation, rental processing, and system navigation. 
+
+The results indicate that registered users were able to log in using valid credentials, access the system interface, and proceed to the Home Screen without errors. Additionally, all required input fields were properly recognized and validated, ensuring that only complete and correct user data were processed. These findings confirm that the system’s functional components—including the mobile application interface, authentication mechanisms, and backend processing—are reliable and capable of supporting the intended user interactions. 
+
+\begin{figure}[H]
+\centering
+\caption{Usability Test Result of Community Residents}
+\label{fig:coin-slot}
+\includegraphics[width=1\textwidth]{figures/bar-usability.png}
+\end{figure}
+
+In terms of usability, the system exhibited a user-friendly and efficient interface suitable for community residents, particularly during power interruption scenarios. The testing results reveal that users were able to navigate the application with ease, understand system prompts, and complete tasks such as logging in and accessing system features without confusion or delay. The clarity of input fields, responsiveness of the system, and accuracy of displayed outputs contributed to a positive user experience. 
+
+Furthermore, the system’s ability to provide immediate feedback and correctly display user credentials and system responses enhances user confidence and operational transparency. Overall, the results validate that the system is both functionally effective and usable, making it a practical and accessible solution for community-based energy needs.
+
+\begin{center}
+\textit{System Usability Scale Final Result}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Average SUS Score} & \textbf{Grade} & \textbf{Adjectival Rating} & \textbf{Remarks} \\ \hline
+87.5 & A+ & Best Imaginable & Acceptable \\ \hline
+\end{tabular}
+\end{center}
+
+\vspace{1em}
+
+As shown in Table 4.8, the resulting SUS score was 87.5, corresponding to an A+ grade and an Adjectival Rating of ``Best Imaginable.'' This high score reflects excellent usability, indicating that community residents positively received the system in terms of interface design, ease of navigation, and overall functionality. The results suggest that users were able to effectively interact with the mobile application, perform essential tasks such as logging in, accessing system features, and understanding system prompts with minimal difficulty.
+
+Furthermore, the high usability rating demonstrates that the solar-powered rental station with detachable power sources provides a user-friendly and efficient experience, particularly during power interruption scenarios where accessibility and ease of use are critical. Although minor concerns such as initial familiarization or the need for minimal guidance may arise, the overall feedback indicates a highly satisfactory user experience. These findings validate that the system is both functionally reliable and usable for community residents, ensuring its practicality and effectiveness in real-world community deployment.
+
+
+\subsection{Detachable Power Source Battery Charging}
+
+\begin{longtable}{|p{4cm}|p{2cm}|p{2cm}|p{3.5cm}|}
+\caption{Charging Performance and Voltage Readings of One Detachable Power Source Battery} \label{one power source} \\
+\hline
+% --- Image Row ---
+\multicolumn{4}{|c|}{
+    \begin{minipage}{\textwidth}
+        \centering
+        \vspace{5pt}
+        \includegraphics[width=1\textwidth]{figures/charging-one-detachable.png}
+        \par\small\centering Figure: Charging One Detachable Power Source
+        \vspace{5pt}
+    \end{minipage}
+} \\
+\hline
+% --- Table Header ---
+\textbf{SOURCE} & \multicolumn{2}{l|}{Detachable Power} & \centering \multirow{2}{*}{\textbf{Time}} \tabularnewline
+\textbf{Station Battery 12.8V 100 AH} & \multicolumn{2}{l|}{Source \textbf{Slot 1}} & \tabularnewline
+ & \multicolumn{2}{l|}{12.8V 50 AH} & \tabularnewline \hline
+Solar Charge Controller Reading & \centering \textbf{SOC} & \centering \textbf{Under} & \tabularnewline
+(\textbf{Discharge}) & & \centering \textbf{Load} & \tabularnewline \hline
+\multirow{6}{=}{\textbf{13.5--13.1V}} & \centering 12.3V & \centering 12.3V & \multirow{6}{3.5cm}{\centering 4:00PM - 4:58PM \\ (~58 Mins)} \tabularnewline
+ & \centering (20\%) & \centering (20\%) & \tabularnewline \cline{2-3}
+ & \centering 13V & \centering 12.6V & \tabularnewline
+ & \centering (40.0\%) & \centering (40\%) & \tabularnewline \cline{2-3}
+ & \centering 13.6V & \centering 13.2V & \tabularnewline
+ & \centering (100.0\%) & \centering (100\%) & \tabularnewline \hline
+\end{longtable}
+
+
+\vspace{1em}
+
+\begin{longtable}{|p{3.5cm}|p{1.7cm}|p{1.7cm}|p{1.7cm}|p{1.7cm}|p{3cm}|}
+\caption{Charging Performance and Voltage Readings of Two Detachable Power Sources Battery} \label{two power source} \\
+\hline
+% --- Top Full-Width Image ---
+\multicolumn{6}{|c|}{\raisebox{-.5\height}{\includegraphics[width=0.7\textwidth]{figures/charge1.png}}} \\ \hline
+
+% --- Label Row ---
+\multicolumn{3}{|c|}{\textbf{Slot 2}} & \multicolumn{3}{c|}{\textbf{Slot 1}} \\ \hline
+
+% --- Image Pairs ---
+\multicolumn{3}{|c}{\includegraphics[width=0.42\textwidth]{figures/c1.png}} & \multicolumn{3}{c|}{\includegraphics[width=0.42\textwidth]{figures/c2.png}} \\
+\multicolumn{3}{|c}{\includegraphics[width=0.42\textwidth]{figures/c3.png}} & \multicolumn{3}{c|}{\includegraphics[width=0.42\textwidth]{figures/c4.png}} \\
+\multicolumn{3}{|c}{\includegraphics[width=0.42\textwidth]{figures/c5.png}} & \multicolumn{3}{c|}{\includegraphics[width=0.42\textwidth]{figures/c6.png}} \\
+\multicolumn{3}{|c}{\includegraphics[width=0.42\textwidth]{figures/c7.png}} & \multicolumn{3}{c|}{\includegraphics[width=0.42\textwidth]{figures/c8.png}} \\
+\multicolumn{3}{|c}{\includegraphics[width=0.42\textwidth]{figures/c9.png}} & \multicolumn{3}{c|}{\includegraphics[width=0.42\textwidth]{figures/c10.png}} \\ \hline
+% --- Table Header ---
+\textbf{SOURCE} & \multicolumn{2}{l|}{Detachable Power} & \multicolumn{2}{l|}{Detachable Power} & \centering \multirow{3}{*}{\textbf{Time}} \tabularnewline
+\textbf{Station Battery} & \multicolumn{2}{l|}{Source \textbf{Slot 1}} & \multicolumn{2}{l|}{Source \textbf{Slot 2}} & \tabularnewline
+\textbf{12.8V 100 AH} & \multicolumn{2}{l|}{12.8V 50 AH} & \multicolumn{2}{l|}{12.8V 50 AH} & \tabularnewline \hline
+
+Solar Charge Controller Reading & \centering \textbf{SOC} & \centering \textbf{Under} & \centering \textbf{SOC} & \centering \textbf{Under} & \tabularnewline
+(\textbf{Discharge}) & & \centering \textbf{Load} & & \centering \textbf{Load} & \tabularnewline \hline
+
+% --- Data Row 1 (14.3-13.6V) ---
+\multirow{6}{=}{\textbf{14.3--13.6V}} & \centering 12.7V & \centering 12.3V & \centering 12.6V & \centering 12.3V & \multirow{6}{3cm}{\centering 11:05PM - 11:45PM \\ (~40 Mins)} \tabularnewline
+ & \centering (20\%) & \centering (20\%) & \centering (18.8\%) & \centering (20\%) & \tabularnewline \cline{2-5}
+ & \centering 13.0V & \centering 12.6V & \centering 12.9V & \centering 12.5V & \tabularnewline
+ & \centering (35.0\%) & \centering (40\%) & \centering (31.0\%) & \centering (35\%) & \tabularnewline \cline{2-5}
+ & \centering 13.1V & \centering 12.7V & \centering 13.0V & \centering 12.6V & \tabularnewline
+ & \centering (46.0\%) & \centering (50.0\%) & \centering (38\%) & \centering (40\%) & \tabularnewline \hline
+
+% --- Data Row 2 (13.6-13.0V) ---
+\multirow{4}{=}{\textbf{13.6--13.0V}} & \centering 13.4V & \centering 13.0V & \centering 13.2V & \centering 12.8V & \multirow{4}{3cm}{\centering 11:45 - 12:46PM \\ (~1 Hour)} \tabularnewline
+ & \centering (75.0\%) & \centering (80\%) & \centering (65.0\%) & \centering (65\%) & \tabularnewline \cline{2-5}
+ & \centering 13.7V & \centering 13.3V & \centering 13.6V & \centering 13.2V & \tabularnewline
+ & \centering (100\%) & \centering (100\%) & \centering (100\%) & \centering (100\%) & \tabularnewline \hline
+\end{longtable}
