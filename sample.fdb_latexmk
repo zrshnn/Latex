@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1777861853.33501 "c:/Users/Maurice Mary Simon/.vscode/Latex/sample.tex" "sample.pdf" "sample" 1777861855.1463 0
+["pdflatex"] 1777862408.60512 "c:/Users/Maurice Mary Simon/.vscode/Latex/sample.tex" "sample.pdf" "sample" 1777862412.70767 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/wasy/wasy10.tfm" 1578656704 908 375dcd194b89b9cc9481ab62f2da0667 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/wasy/wasy5.tfm" 1578656739 908 9b2ed8097703005e83b790aecb955a2f ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/wasy/wasy7.tfm" 1578656728 912 e43f3049348c6f2670d3b324e657c6e7 ""
@@ -118,12 +118,12 @@
   "C:/Users/Maurice Mary Simon/Application Mods/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Maurice Mary Simon/Application Mods/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "c:/Users/Maurice Mary Simon/.vscode/Latex/sample.tex" 1776702213 292 bcfe265377e4c1ab336fadc56ec4e913 ""
-  "commands.tex" 1777861849 5847 2bbfcabca417e46e2b0de1a173053b3d ""
-  "sample.aux" 1777861854 882 2c19730a078cd14bb5eeb32fe2012439 "pdflatex"
-  "sample.exp" 1777861854 88 0c8c50c2f63a83dc54d1f27b9e0df885 "pdflatex"
-  "sample.out" 1777861854 240 ee3ee77384b02f08148f111b2a113203 "pdflatex"
+  "commands.tex" 1777862406 5847 2bbfcabca417e46e2b0de1a173053b3d ""
+  "sample.aux" 1777862412 882 2c19730a078cd14bb5eeb32fe2012439 "pdflatex"
+  "sample.exp" 1777862412 88 0c8c50c2f63a83dc54d1f27b9e0df885 "pdflatex"
+  "sample.out" 1777862412 240 ee3ee77384b02f08148f111b2a113203 "pdflatex"
   "sample.tex" 1776702213 292 bcfe265377e4c1ab336fadc56ec4e913 ""
-  "sample.toc" 1777861854 217 e5027d3e446633c548ef0bafc94d6d90 "pdflatex"
+  "sample.toc" 1777862412 217 e5027d3e446633c548ef0bafc94d6d90 "pdflatex"
   (generated)
   "sample.aux"
   "sample.exp"
