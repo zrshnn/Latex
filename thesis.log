@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  4 MAY 2026 10:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  4 MAY 2026 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2267,17 +2267,17 @@ Package pdftex.def Info: figures/aerial.png  used on input line 795.
 
 
 [98 <./figures/aerial.png>]
-Overfull \hbox (2641.81952pt too wide) in alignment at lines 800--805
+Overfull \hbox (3019.73648pt too wide) in alignment at lines 800--805
  [] [] 
  []
 
 
-Overfull \hbox (2767.79184pt too wide) in alignment at lines 805--808
+Overfull \hbox (3145.7088pt too wide) in alignment at lines 805--808
  [] [] 
  []
 
 
-Overfull \hbox (2893.76416pt too wide) in alignment at lines 808--820
+Overfull \hbox (3271.68112pt too wide) in alignment at lines 808--820
  [] [] 
  []
 
@@ -2561,7 +2561,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1145--1145
  []
 
 
-Overfull \hbox (3519.7527pt too wide) in alignment at lines 1142--1147
+Overfull \hbox (4023.64198pt too wide) in alignment at lines 1142--1147
  [] [] [] [] 
  []
 
@@ -2571,17 +2571,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 1150--1150
  []
 
 
-Overfull \hbox (3645.72502pt too wide) in alignment at lines 1147--1152
+Overfull \hbox (4149.6143pt too wide) in alignment at lines 1147--1152
  [] [] [] [] 
  []
 
 
-Overfull \hbox (3771.69734pt too wide) in alignment at lines 1152--1155
+Overfull \hbox (4275.58662pt too wide) in alignment at lines 1152--1155
  [] [] [] [] 
  []
 
 
-Overfull \hbox (3897.66966pt too wide) in alignment at lines 1155--1162
+Overfull \hbox (4401.55894pt too wide) in alignment at lines 1155--1162
  [] [] [] [] 
  []
 
@@ -15929,7 +15929,7 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  20625 strings out of 473190
  349742 string characters out of 5715801
- 813315 words of memory out of 5000000
+ 813314 words of memory out of 5000000
  42606 multiletter control sequences out of 15000+600000
  572861 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -15955,7 +15955,7 @@ e1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type
 ype1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/typ
 e1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1
 /public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (351 pages, 64762038 bytes).
+Output written on thesis.pdf (351 pages, 64762397 bytes).
 PDF statistics:
  3448 PDF objects out of 3580 (max. 8388607)
  2722 compressed objects within 28 object streams
