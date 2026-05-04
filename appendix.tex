@@ -3900,6 +3900,22 @@ TC-LOGIN-04 & Empty Fields & Blank Input & Validation Shown & ``Please enter you
 
 \end{longtable}
 
+\textbf{Documentation}
+
+\begin{figure}[H]
+\centering
+\caption{Rental History (Admin)}
+\label{fig:admin5}
+\includegraphics[width=0.7\textwidth]{figures/system1.png}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\caption{Rental History (Admin)}
+\label{fig:admin5}
+\includegraphics[width=0.7\textwidth]{figures/system2.png}
+\end{figure}
+
 %%===2ND===%%
 
 \newcolumntype{P}[1]{>{\Centering\hspace{0pt}\arraybackslash}p{#1}}
@@ -4278,3 +4294,32 @@ May 1, 2026    & 26°C & 250 W & 210 W & $\sim$225 W & 5.8 hrs & 12.5 V & 13.8 V
 \[
 = \frac{1340}{6} = 223.33 \approx 225 \text{ W}
 \]
+
+
+{\centering
+    \textbf{Appendix P\\Overall System Testing Result}\par
+    \addcontentsline{toc}{chapter}{Appendix P: Overall System Testing Result}}
+}
+
+%APPENDIX IBUTANG
+
+\textbf{Results of Load Consumption of Mix Appliances and Gadgets}
+
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabular}{l l l l l l l l}
+        \hline
+        \textbf{Appliances/Gadget} & \textbf{Quantity} & \textbf{Power} & \textbf{Time Start} & \textbf{Time Stop} & \textbf{Starting Voltage} & \textbf{End Voltage} & \textbf{Total Consumption} \\ \hline
+        Laptop & 4 & 330W & 12:03PM & 3:25PM & 13.4V & 13.2V & 0.2V Drop \\ \hline
+        Stand Fan + Clip Fan + Ceiling Fan & 1 + 2 + 1 & 126W & 9:20AM & 1:01PM & 13.5V & 13.4V & 0.1V Drop \\ \hline
+        Laptop + Clip Fan & 3 + 1 & 273W & 2:10PM & 5:06PM & 13.4V & 13.2V & 0.2V Drop \\ \hline
+        Laptop + Iron & 3 + 1 & 1195W & 1:20PM & 1:42PM & 13.3V & 12.9V & 0.4V Drop \\ \hline
+        Refrigerator + Clip Fan + Laptop & 1 + 2 + 2 & 305W & 9:36PM & 12:33AM & 13.3V & 12.7V & 0.6V Drop \\ \hline
+        Curler + Laptop + Clip Fan & 1 + 2 + 1 & 738W & 2:01PM & 2:35PM & 13.3V & 13.0V & 0.3V Drop \\ \hline
+    \end{tabular}
+\end{table}
+
+This table summarizes system performance based on individual appliance loads. It shows that low-power devices maintain stable voltage, while high-power appliances increase system stress. The results confirm that voltage drop is directly proportional to power consumption.
+
+\textbf{Refrigerator}
