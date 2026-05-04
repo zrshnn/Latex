@@ -8,14 +8,141 @@ This chapter presents the results and discussion of the testing and evaluation c
 
 The results obtained from these tests are analyzed in relation to the objectives of the study to determine the system’s effectiveness, reliability, and efficiency in providing a sustainable and accessible power solution. Furthermore, this chapter discusses the system’s strengths, identifies encountered issues, and highlights areas for improvement based on the observed performance during testing.
 
-
 }
 
+\section {Solar Energy Harvesting}
+
+The solar energy harvesting component of the system functions as the primary source of power generation. Photovoltaic (PV) panels capture solar radiation and convert it into direct current (DC) electricity through the photovoltaic effect. This generated energy is then regulated by a solar charge controller to ensure safe and efficient charging of the LiFePO4 battery, preventing overcharging and voltage fluctuations. Protective components such as DC breakers are integrated to safeguard the system against electrical faults.
+
+The effectiveness of solar energy harvesting was observed to be dependent on environmental conditions, particularly solar irradiance and weather patterns. Under optimal sunlight conditions, the system consistently generated sufficient energy to charge the station battery and support the charging of detachable power sources. This confirms that the integration of photovoltaic technology provides a sustainable and reliable off-grid energy solution for communities experiencing frequent power interruptions .
+
+\newpage
+
+\section {Battery DC Power Converted to AC Output via Inverter}
+
+The stored DC power in the LiFePO4 battery is converted into alternating current (AC) using a pure sine wave inverter. This conversion is necessary to supply electricity compatible with common household appliances, which typically operate on AC power. The inverter ensures stable voltage output and waveform quality, enabling safe operation of small-to-medium scale electrical devices.
+
+Results show that the inverter successfully delivered usable AC power with minimal energy loss, maintaining consistent output during operation. This demonstrates that the system is capable of supporting practical household applications, thereby enhancing its usability as a temporary backup power source. The integration of the inverter is critical in bridging the gap between renewable energy storage and real-world appliance compatibility .
+
+\newpage
+
+\section {ESP32 Measures Battery Voltage and Displays Data on LCD}
+
+The ESP32 microcontroller plays a vital role in monitoring system parameters, particularly battery voltage levels. It continuously reads voltage data from the battery and processes this information for real-time display on the LCD interface. This allows users and administrators to monitor the current energy status of the system.
+
+The implementation demonstrated accurate and responsive voltage readings, which were effectively displayed on the LCD. This feature enhances system transparency and usability by providing immediate feedback on battery conditions, enabling users to make informed decisions regarding power usage and rental availability.
+
+\newpage
+
+\section {ESP32 Receives Location Data From GPS Satellites Using WiFi}
+
+The system integrates GPS and communication modules to enable location tracking of detachable power sources. The GPS module collects real-time geographic coordinates from satellites, while the ESP32 processes this data and transmits it via network connectivity (WiFi/GSM) to the system database and mobile application.
+
+Testing confirmed that the system can reliably acquire and transmit location data, allowing both users and administrators to monitor the position of rented units. This feature significantly enhances system security and accountability, ensuring that portable power sources are trackable throughout the rental duration .
+
+\newpage
+
+\section {Battery Monitoring and Power Calculation}
+
+Battery monitoring is implemented through continuous measurement of voltage, usage duration, and remaining capacity. The system calculates the available power based on battery percentage and tracks energy consumption during rental use. This data is used to determine system performance and efficiency.
+
+The results indicate that the monitoring system provides accurate estimations of battery status, enabling effective management of energy resources. Additionally, the calculated unused power serves as a basis for credit computation, supporting the system’s reward mechanism and promoting efficient energy usage.
+
+\newpage
+
+\section {Rental Time Tracking and Rule-Based Control}
+
+The system incorporates a rule-based control mechanism to manage rental duration and enforce usage policies. Each rental session is limited to a predefined time (e.g., 12 hours), which is tracked by the ESP32. Automated notifications are sent to users prior to expiration, and repeated alerts are triggered if the unit is not returned on time.
+
+This functionality was observed to operate reliably, ensuring compliance with rental rules and minimizing misuse. The implementation of automated tracking and alerts enhances operational efficiency and reduces the need for manual monitoring.
+
+\newpage
+
+\section {Network Encryption Security Feature}
+
+To ensure secure communication between system components, network encryption mechanisms are implemented. These mechanisms protect sensitive data such as user information, transaction records, and telemetry data from unauthorized access.
+
+The system demonstrated secure data transmission across connected devices, maintaining confidentiality and integrity. This security layer is essential in preventing data breaches and ensuring trust in the system’s digital infrastructure.
+
+\vspace{1em} 
+
+\subsection {Mikrotik}
+
+\newpage
+
+\section {Performance Testing}
+
+Performance testing evaluated the system’s functionality in terms of responsiveness, reliability, and operational stability. Key parameters included power generation efficiency, system response time, and communication latency.
+
+Results showed that the system maintained stable operation under normal conditions, with minimal delays in data transmission and processing. This indicates that the system meets the required performance standards for real-time monitoring and control.
+
+\newpage
+
+\section {Usability Testing}
+
+Usability testing assessed the user experience in interacting with the system, including the mobile application, rental process, and physical interface. Participants evaluated ease of use, clarity of instructions, and overall satisfaction.
+
+Findings revealed that the system is user-friendly and accessible, with intuitive interfaces that facilitate smooth operation. This supports the system’s applicability for community use, particularly among non-technical users.
+
+\newpage
+
+\section {Load Analysis}
+
+Load analysis was conducted to determine the system’s capability to support various electrical devices. The total load demand was calculated based on the power ratings of connected appliances.
+
+The system was found to effectively support small-to-medium scale loads within its design capacity. This confirms that the system can provide practical energy support for essential household devices during power interruptions.
+
+\newpage
+
+\section {Detachable Power Source - Battery Capacity}
+
+The detachable power source utilizes LiFePO4 batteries, selected for their high efficiency, long cycle life, and safety. The battery capacity determines the duration and extent of power availability during rental use.
+
+Results indicate that the selected battery configuration provides sufficient energy for extended usage, supporting the system’s goal of delivering reliable portable power.
+
+\newpage
+
+\section {Panel Sizing}
+
+Panel sizing was determined based on energy demand, battery capacity, and average solar irradiance. The selected solar panel configuration ensures adequate energy generation to meet system requirements.
+
+The sizing calculations were validated through system performance, confirming that the panels can sufficiently recharge the battery under typical operating conditions.
+
+\newpage
+
+\section {Inverter Sizing}
+
+The inverter was sized according to the maximum expected load, ensuring that it can handle peak power demands without failure. Proper sizing prevents overloading and enhances system reliability.
+
+Testing confirmed that the inverter operates within safe limits while supporting the intended load range.
+
+\newpage
+
+\section {Solar Charge Controller Sizing}
+
+The solar charge controller was selected based on panel output and battery specifications. It regulates charging current and voltage to protect the battery and optimize energy transfer.
+
+The controller performed effectively, maintaining safe charging conditions and improving overall system efficiency.
+
+\newpage
+
+\section {Charging Time and Energy Calculation}
+
+\subsection {Charging Time of the Station Battery Using Solar Panel}
+
+The charging time of the station battery depends on solar panel output and battery capacity. Under optimal conditions, the system achieved efficient charging within the expected time frame, demonstrating effective energy harvesting.
+
+\subsection {Energy Feasibility of Charging Detachable Power Source}
+Energy feasibility analysis evaluated whether the harvested solar energy is sufficient to charge detachable units. Results confirm that the system can sustain charging operations while maintaining battery reserves.
+
+\subsection {Charging Time of a Single Detachable Power Source}
+The charging duration for a single unit was measured based on battery capacity and charging current. The results indicate a consistent and predictable charging time under standard conditions.
+
+\subsection {Charging Time of a Double Detachable Power Source}
+When charging two units simultaneously, the system exhibited increased charging time due to shared power distribution. However, the system remained stable and capable of handling multiple charging loads.
 
 
-
-
-
+\newpage
 \section {Hardware Testing Results and Discussion}
 
 
@@ -30,13 +157,13 @@ This section presents the actual hardware implementation of the detachable power
     \centering
     \caption{Solar-Powered Rental Station Internal Component Layout}
     \label{fig:3d}
-    \includegraphics[width=1\textwidth]{figures/station-design.png}
+    \includegraphics[width=1\textwidth]{figures/station-new-layout.png}
 \end{figure}
 
 
-The figure shows the structural and functional layout of the solar-powered rental station, which serves as the main hub for energy generation, storage, and distribution. The components are arranged in a way that supports efficient power management while keeping the system accessible and easy to operate. The solar charge controller is positioned on the upper panel to regulate the energy collected from the photovoltaic system and to prevent overcharging of the LiFePO4 battery located at the lower section of the enclosure. Placing the battery at the base helps maintain stability due to its weight and also supports safer heat dissipation.
+The figure illustrates the updated structural and functional layout of the solar-powered rental station, which serves as the central unit for energy generation, storage, charging, and network distribution. The solar charger controller is mounted on the upper-left section of the enclosure to regulate the energy collected from the photovoltaic system and to protect the LiFePO4 battery from overcharging. Adjacent to it is the DC/AC breaker panel, which provides electrical protection and allows easier system control and maintenance. At the lower portion of the enclosure, the LiFePO4 battery is positioned to improve stability due to its weight and to support safer heat dissipation. Connected near the battery is the power inverter, which converts DC power into usable AC power for the station components. On the upper platform, two battery charger units are installed to support charging operations, while the coin slot mechanism positioned between them serves as the payment interface for users before accessing the charging service. Above the charging section, the LCD is mounted at eye level to display charging information, system status, and user instructions clearly and conveniently.
 
-Near the controller, the DC/AC breakers are organized in a dedicated panel to allow easy access and provide protection against electrical faults. The power inverter and battery charger are placed on the working platform to enable efficient conversion of DC to AC power and controlled charging of the detachable units. For user interaction, the coin slot mechanism is centrally located at the front, while the LCD is positioned at eye level to make system information easy to read. Meanwhile, the ESP32 and buck converter are housed in a side compartment to protect sensitive components while keeping them close enough for accurate monitoring and control. Overall, the layout follows a structured and layered design, separating power, control, and user interface components to improve safety, ease of maintenance, and overall system performance.
+The control and communication components are arranged along the right-side compartment of the station to maintain an organized and efficient layout. The ESP32 microcontroller is installed to handle system monitoring, automation, and communication processes, while the buck converter located below it regulates and steps down voltage for low-power electronic devices. A WiFi router and MikroTik device are also integrated into the enclosure to provide internet connectivity and network management functions within the system. Additionally, extension wire outlets are positioned near the lower section to provide accessible external power connections for users. Overall, the updated arrangement follows a compact and layered design that separates the power, charging, control, communication, and user interface components, improving safety, accessibility, maintenance efficiency, and overall operational performance of the solar-powered rental station.
 
 \begin{figure}[H]
     \centering
@@ -58,21 +185,28 @@ The overall layout highlights a modular and accessible design, making it easier 
     \centering
     \caption{Solar-Powered Rental Station – Overall Structural Design Dimensions (Front View)}
     \label{fig:3d}
-    \includegraphics[width=1\textwidth]{figures/station1.png}
+    \includegraphics[width=1\textwidth]{figures/station-front.jpg}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \caption{Solar-Powered Rental Station – Overall Structural Design Dimensions (Perspective View)}
+    \caption{Solar-Powered Rental Station – Overall Structural Design Dimensions (Side View)}
     \label{fig:3d}
-    \includegraphics[width=1\textwidth]{figures/station2.png}
+    \includegraphics[width=1\textwidth]{figures/station-side.jpg}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Solar-Powered Rental Station – Overall Structural Design Dimensions (Aerial View)}
+    \label{fig:3d}
+    \includegraphics[width=1\textwidth]{figures/station-aerial.jpg}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \caption{Solar-Powered Rental Station – Charging Compartment for Detachable Power Source Dimensions (Close-Up Front View)}
     \label{fig:3d}
-    \includegraphics[width=1\textwidth]{figures/station3.png}
+    \includegraphics[width=1\textwidth]{figures/station-closeup-front.jpg}
 \end{figure}
 
 \begin{figure}[H]
@@ -93,7 +227,21 @@ The central cabinet, measuring about 89 cm in width and 61 cm in height, houses 
     \centering
     \caption{Detachable Power Source – Hardware Design Dimensions (Front View)}
     \label{fig:3d2}
-    \includegraphics[width=1\textwidth]{figures/portable1.png}
+    \includegraphics[width=1\textwidth]{figures/detachable-front.jpg}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Detachable Power Source – Hardware Design Dimensions (Side View)}
+    \label{fig:3d2}
+    \includegraphics[width=1\textwidth]{figures/detachable-side.jpg}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Detachable Power Source – Hardware Design Dimensions (Rear View)}
+    \label{fig:3d2}
+    \includegraphics[width=1\textwidth]{figures/detachable-back.jpg}
 \end{figure}
 
 
@@ -312,6 +460,7 @@ The SMS Logs functionality records all SMS communications sent through the GSM m
 
 
 \subsection {Black Box Testing}
+\subsubsection {Kuryenta - User's Rental App}
 
 \renewcommand{\arraystretch}{1.4}
 
@@ -1227,6 +1376,7 @@ Password: “nanan\_58”
 \end{longtable}
 
 \vspace{1em}
+
 %========26th===========
 
 \renewcommand{\arraystretch}{1.4}
@@ -1261,6 +1411,7 @@ Password: “nanan\_58”
 \end{longtable}
 
 \vspace{1em}
+
 %========27th===========
 
 \renewcommand{\arraystretch}{1.4}
@@ -1291,8 +1442,284 @@ Password: “nanan\_58”
 
 \end{longtable}
 
+\vspace{2em}
+
+%==============================
+%=====ADMIN - BLACK BOX=======
+%==============================
+
+\subsubsection {Kuryenta - Admin's Monitoring App}
+
+%========1ST===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Dashboard Overview — Summary Cards & \textbf{Test Case ID} & TC-01 \\ \hline
+
+\textbf{Test Case Description} & Verify that all six summary stat cards on the Dashboard display the correct labels and live data values. & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin is logged in and the Dashboard page is loaded. & \textbf{Post-Requisite} & All six cards (Total Stations, Available Slots, Active Rentals, Overdue, Total Users, Banned Users) are visible with correct values. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Navigate to the Dashboard page. & None & Dashboard loads without errors; six stat cards are displayed. & Dashboard loaded successfully with all six cards visible. & Passed\\ \hline
+
+2 & Observe the 'Total Stations' card (blue). & None & The card displays the correct count of registered stations (e.g., 1). & The Total Stations card displayed the correct count. & Passed\\ \hline
+
+3 & Observe the 'Available Slots' card (green). & None & Card displays the count of currently available slots (e.g., 0). & Available slots cards displayed the correct count. & Passed\\ \hline
+
+4 & Observe the 'Active Rentals' card (orange). & None & Card displays the number of ongoing rentals (e.g., 2). & The Active Rentals card displayed the correct count. & Passed\\ \hline
+
+5 & Observe the 'Overdue' card (red). & None & Card displays count of overdue rentals (e.g., 0). & The overdue card displayed the correct count. & Passed\\ \hline
+
+6 & Observe the 'Total Users' card (purple). & None & Card displays total registered users (e.g., 16). & The total users card displayed the correct count. & Passed\\ \hline
+
+7 & Observe the 'Banned Users' card (gray). & None & Card displays total banned user accounts (e.g., 0). & The Banned Users card displayed the correct count. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========2ND===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Dashboard Overview — Overdue Alerts Panel & \textbf{Test Case ID} & TC-02 \\ \hline
+
+\textbf{Test Case Description} & Verify that the Overdue Alerts panel correctly shows a 'no overdue rentals' empty state when no rentals are overdue. & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Dashboard is loaded and no rentals are currently overdue. & \textbf{Post-Requisite} & The Overdue Alerts panel shows green checkmark and empty-state message. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Navigate to the Dashboard page. & None & Dashboard page loads successfully. & Dashboard loaded successfully. & Passed\\ \hline
+
+2 & Locate the 'Overdue Alerts' panel. & None & The panel is present with a badge showing the overdue count. & Overdue Alerts panel found with count badge '0'. & Passed\\ \hline
+
+3 & Observe the panel body when overdue count is 0. & None & Green checkmark icon and message 'No overdue rentals!' are displayed. & Green checkmark and empty-state message displayed as expected. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========3RD===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Dashboard Overview — Recent Rental History & \textbf{Test Case ID} & TC-03 \\ \hline
+
+\textbf{Test Case Description} & Verify that the Recent Rental History panel displays the latest rental entries with correct user, station, and status information. & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & At least one rental record exists in the database; Dashboard is loaded. & \textbf{Post-Requisite} & Panel shows up to 5 most recent rentals sorted by newest first. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Navigate to the Dashboard page. & None & Dashboard loads successfully. & Dashboard loaded successfully. & Passed\\ \hline
+
+2 & Locate the 'Recent Rental History' panel. & None & The panel is present on the right side of the Dashboard. & Recent Rental History panel located. & Passed\\ \hline
+
+3 & Observe the list of rental entries. & None & Up to 5 entries are shown, each displaying: user avatar, name, station and slot, and a status badge (active/returned). & 5 recent entries shown with correct user names, station info, and status badges. & Passed\\ \hline
+
+4 & Verify the sort order of entries. & None & Entries are sorted newest-first (most recent rental appears at the top). & Entries were sorted newest-first as expected. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========4TH===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Dashboard Overview — Sidebar Badge Counts & \textbf{Test Case ID} & TC-04 \\ \hline
+
+\textbf{Test Case Description} & Verify that sidebar navigation badges accurately reflect the live counts for Active Rentals and Offline Monitor. & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin is logged in; there are active rentals and offline stations/slots present. & \textbf{Post-Requisite} & Sidebar badges match the values displayed on their respective dashboard cards. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Open the sidebar and observe the 'Active Rentals' menu item. & None & A blue badge displaying the current active rental count (e.g., 2) is visible. & The Active Rentals badge showed the correct count '2'. & Passed\\ \hline
+
+2 & Observe the 'Offline Monitor' menu item. & None & A red badge displaying the sum of offline stations and offline slots (e.g., 3) is visible. & The Offline Monitor badge showed the correct count '3'. & Passed\\ \hline
+
+3 & Compare sidebar badge values against the dashboard stat cards. & None & Badge counts match the corresponding stat card values on the Dashboard. & All sidebar badge counts matched dashboard card values. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========5TH===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Dashboard Overview — Refresh Functionality & \textbf{Test Case ID} & TC-05 \\ \hline
+
+\textbf{Test Case Description} & Verify that the refresh button reloads the Dashboard with the latest data from the database. & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin is on the Dashboard page. & \textbf{Post-Requisite} & Dashboard data is updated to reflect the most recent state.\\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Locate and click the refresh icon in the top-right of the header toolbar. & Touch Gesture & The page reloads and all dashboard stat cards update with the latest values. & Page reloaded; all stat card values refreshed successfully. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========6TH===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Live Map — Station Marker Display & \textbf{Test Case ID} & TC-06 \\ \hline
+
+\textbf{Test Case Description} & Verify that the Live Map loads and correctly displays station markers at their geographic coordinates. & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin is logged in; at least one station with GPS coordinates exists. & \textbf{Post-Requisite} & Map is fully rendered with all station markers visible at correct positions.\\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Enter a valid registered email address & Email Address: “simonsheena58@gmail.com"  & The email address field accepts the input & Email entered successfully & Passed\\ \hline
+
+2 & Enter an incorrect password & Password: “nanan”  & The password field masks the input & Password entered and masked & Passed\\ \hline
+
+3 & Tap the Log In button & Touch Gesture  & The system should display a message: “Invalid email or password.” & The error message  “Invalid email or password” was displayed as expected & Passed\\ \hline
+\end{longtable}
+
+
+\vspace{2em}
+
+%==============================
+%=====NOTIFIER - BLACK BOX=====
+%==============================
+
+\subsubsection {Kuryenta - Notifier's App}
+
+%========1ST===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test Scenario} & Dashboard Monitoring & Notification System & \textbf{Test Case ID} & TC-01 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system displays complete rental details per slot and sends SMS notifications to the user when rental time is near end, due for return, and overdue. & \textbf{Test Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin has accessed the notifier application; app is connected to Firebase; active rentals exist. & \textbf{Post-Requisite} & Slot details are visible and notifications are triggered correctly based on time conditions. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+
+1 & Open the app dashboard & None & Dashboard loads with all slot cards visible & Dashboard loaded successfully showing Slot 1 and Slot 2 cards & Passed\\ \hline
+
+2 & Observe Slot Information & None & Each slot shows: Name, Phone, Battery \%, Rent Time, Return Time & Each slot displays user name, phone number, battery \%, rented at, and return by details correctly & Passed\\ \hline
+
+3 & Verify real-time connection & Firebase active & Status shows "Connected to Firebase — monitoring in real-time" & Status banner displayed "Connected to Firebase — monitoring in real-time" & Passed\\ \hline
+
+4 & Check active rental display & Slot is rented & Slot status shows "Rented" with correct user details & Both Slot 1 and Slot 2 show "Rented" status with correct user information & Passed\\ \hline
+
+5 & Monitor countdown timer & Active rental & Remaining time is displayed and updates dynamically & Countdown timer displayed (e.g., "5h 49m left", "5h 45m left") and updates correctly & Passed\\ \hline
+
+6 & Simulate return due time reached & Current time = return time & System sends "Return Now" notification & The Banned Users card displayed the correct count. & Passed\\ \hline
+
+7 & Simulate overdue rental & Current time $>$ return time & System sends "Overdue" alert notification & System triggered overdue notification when rental exceeded return time & Passed\\ \hline
+
+8 & Verify SMS log updates & Notification triggered & SMS Log displays sent notification record & SMS Log updated accordingly after notifications were triggered & Passed\\ \hline
+
+9 & Check multiple slots behavior & Slot 1 and Slot 2 active & Notifications handled independently per slot & Each slot processed notifications independently without conflict & Passed\\ \hline
+
+10 & Verify battery indicator display & Battery data available & Battery percentage is shown correctly per slot & Battery levels displayed correctly (e.g., 67\%, 100\%) with visual indicator & Passed\\ \hline
+
+11 & Pause monitoring & Click "Pause" button & System stops real-time monitoring and notifications & Monitoring paused successfully; no further real-time updates observed & Passed\\ \hline
+\end{longtable}
+
+
+
 \newpage
 \subsection {White Box Testing}
+\subsubsection {Kuryenta - User's Rental App}
 
 % ----------- LOGIN -----------
 
@@ -1752,6 +2179,7 @@ WS - 10 &
 	\end{minipage} \\ \hline
 \end{longtable}
 
+<<<<<<< HEAD
 % -----------SELECT STATION DOCUMENTATION------
 \begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
 	\hline
@@ -1991,6 +2419,10 @@ WS - 10 &
 		\vspace{0.1cm}
 	\end{minipage} \\ \hline
 \end{longtable}
+=======
+
+
+>>>>>>> ebb53e5a95b8e8d9936c4a364312267e4e696255
 
 \section {Functional and Usability Testing Results for Community Residents}
 
@@ -2037,4 +2469,75 @@ Furthermore, the system’s ability to provide immediate feedback and correctly 
 As shown in Table 4.8, the resulting SUS score was 87.5, corresponding to an A+ grade and an Adjectival Rating of ``Best Imaginable.'' This high score reflects excellent usability, indicating that community residents positively received the system in terms of interface design, ease of navigation, and overall functionality. The results suggest that users were able to effectively interact with the mobile application, perform essential tasks such as logging in, accessing system features, and understanding system prompts with minimal difficulty.
 
 Furthermore, the high usability rating demonstrates that the solar-powered rental station with detachable power sources provides a user-friendly and efficient experience, particularly during power interruption scenarios where accessibility and ease of use are critical. Although minor concerns such as initial familiarization or the need for minimal guidance may arise, the overall feedback indicates a highly satisfactory user experience. These findings validate that the system is both functionally reliable and usable for community residents, ensuring its practicality and effectiveness in real-world community deployment.
->>>>>>> 686c69d18c3c52811431008738cfb8f76f4ba22e
+
+
+\subsection{Detachable Power Source Battery Charging}
+
+\begin{longtable}{|p{4cm}|p{2cm}|p{2cm}|p{3.5cm}|}
+\caption{Charging Performance and Voltage Readings of One Detachable Power Source Battery} \label{one power source} \\
+\hline
+% --- Image Row ---
+\multicolumn{4}{|c|}{
+    \begin{minipage}{\textwidth}
+        \centering
+        \vspace{5pt}
+        \includegraphics[width=1\textwidth]{figures/charging-one-detachable.png}
+        \par\small\centering Figure: Charging One Detachable Power Source
+        \vspace{5pt}
+    \end{minipage}
+} \\
+\hline
+% --- Table Header ---
+\textbf{SOURCE} & \multicolumn{2}{l|}{Detachable Power} & \centering \multirow{2}{*}{\textbf{Time}} \tabularnewline
+\textbf{Station Battery 12.8V 100 AH} & \multicolumn{2}{l|}{Source \textbf{Slot 1}} & \tabularnewline
+ & \multicolumn{2}{l|}{12.8V 50 AH} & \tabularnewline \hline
+Solar Charge Controller Reading & \centering \textbf{SOC} & \centering \textbf{Under} & \tabularnewline
+(\textbf{Discharge}) & & \centering \textbf{Load} & \tabularnewline \hline
+\multirow{6}{=}{\textbf{13.5--13.1V}} & \centering 12.3V & \centering 12.3V & \multirow{6}{3.5cm}{\centering 4:00PM - 4:58PM \\ (~58 Mins)} \tabularnewline
+ & \centering (20\%) & \centering (20\%) & \tabularnewline \cline{2-3}
+ & \centering 13V & \centering 12.6V & \tabularnewline
+ & \centering (40.0\%) & \centering (40\%) & \tabularnewline \cline{2-3}
+ & \centering 13.6V & \centering 13.2V & \tabularnewline
+ & \centering (100.0\%) & \centering (100\%) & \tabularnewline \hline
+\end{longtable}
+
+
+\vspace{1em}
+
+\begin{longtable}{|p{3.5cm}|p{1.7cm}|p{1.7cm}|p{1.7cm}|p{1.7cm}|p{3cm}|}
+\caption{Charging Performance and Voltage Readings of Two Detachable Power Sources Battery} \label{two power source} \\
+\hline
+% --- Top Full-Width Image ---
+\multicolumn{6}{|c|}{\raisebox{-.5\height}{\includegraphics[width=0.7\textwidth]{figures/charge1.png}}} \\ \hline
+
+% --- Label Row ---
+\multicolumn{3}{|c|}{\textbf{Slot 2}} & \multicolumn{3}{c|}{\textbf{Slot 1}} \\ \hline
+
+% --- Image Pairs ---
+\multicolumn{3}{|c}{\includegraphics[width=0.42\textwidth]{figures/c1.png}} & \multicolumn{3}{c|}{\includegraphics[width=0.42\textwidth]{figures/c2.png}} \\
+\multicolumn{3}{|c}{\includegraphics[width=0.42\textwidth]{figures/c3.png}} & \multicolumn{3}{c|}{\includegraphics[width=0.42\textwidth]{figures/c4.png}} \\
+\multicolumn{3}{|c}{\includegraphics[width=0.42\textwidth]{figures/c5.png}} & \multicolumn{3}{c|}{\includegraphics[width=0.42\textwidth]{figures/c6.png}} \\
+\multicolumn{3}{|c}{\includegraphics[width=0.42\textwidth]{figures/c7.png}} & \multicolumn{3}{c|}{\includegraphics[width=0.42\textwidth]{figures/c8.png}} \\
+\multicolumn{3}{|c}{\includegraphics[width=0.42\textwidth]{figures/c9.png}} & \multicolumn{3}{c|}{\includegraphics[width=0.42\textwidth]{figures/c10.png}} \\ \hline
+% --- Table Header ---
+\textbf{SOURCE} & \multicolumn{2}{l|}{Detachable Power} & \multicolumn{2}{l|}{Detachable Power} & \centering \multirow{3}{*}{\textbf{Time}} \tabularnewline
+\textbf{Station Battery} & \multicolumn{2}{l|}{Source \textbf{Slot 1}} & \multicolumn{2}{l|}{Source \textbf{Slot 2}} & \tabularnewline
+\textbf{12.8V 100 AH} & \multicolumn{2}{l|}{12.8V 50 AH} & \multicolumn{2}{l|}{12.8V 50 AH} & \tabularnewline \hline
+
+Solar Charge Controller Reading & \centering \textbf{SOC} & \centering \textbf{Under} & \centering \textbf{SOC} & \centering \textbf{Under} & \tabularnewline
+(\textbf{Discharge}) & & \centering \textbf{Load} & & \centering \textbf{Load} & \tabularnewline \hline
+
+% --- Data Row 1 (14.3-13.6V) ---
+\multirow{6}{=}{\textbf{14.3--13.6V}} & \centering 12.7V & \centering 12.3V & \centering 12.6V & \centering 12.3V & \multirow{6}{3cm}{\centering 11:05PM - 11:45PM \\ (~40 Mins)} \tabularnewline
+ & \centering (20\%) & \centering (20\%) & \centering (18.8\%) & \centering (20\%) & \tabularnewline \cline{2-5}
+ & \centering 13.0V & \centering 12.6V & \centering 12.9V & \centering 12.5V & \tabularnewline
+ & \centering (35.0\%) & \centering (40\%) & \centering (31.0\%) & \centering (35\%) & \tabularnewline \cline{2-5}
+ & \centering 13.1V & \centering 12.7V & \centering 13.0V & \centering 12.6V & \tabularnewline
+ & \centering (46.0\%) & \centering (50.0\%) & \centering (38\%) & \centering (40\%) & \tabularnewline \hline
+
+% --- Data Row 2 (13.6-13.0V) ---
+\multirow{4}{=}{\textbf{13.6--13.0V}} & \centering 13.4V & \centering 13.0V & \centering 13.2V & \centering 12.8V & \multirow{4}{3cm}{\centering 11:45 - 12:46PM \\ (~1 Hour)} \tabularnewline
+ & \centering (75.0\%) & \centering (80\%) & \centering (65.0\%) & \centering (65\%) & \tabularnewline \cline{2-5}
+ & \centering 13.7V & \centering 13.3V & \centering 13.6V & \centering 13.2V & \tabularnewline
+ & \centering (100\%) & \centering (100\%) & \centering (100\%) & \centering (100\%) & \tabularnewline \hline
+\end{longtable}

@@ -71,7 +71,7 @@ Figure 2.2 illustrates how the solar-powered rental station transforms raw input
 		
 		\item \textit{Distance} – The spatial measurement between the rental station and the portable power source as tracked by the GPS module. 
 		
-		\item \textit{Signal} – The communication strength and reliability between the system’s GPS and GSM modules. It affects the accuracy of data transmission, notifications, and location tracking.
+		\item \textit{Signal} – The communication strength and reliability between the system’s GPS module. It affects the accuracy of data transmission, notifications, and location tracking.
 		
 		\item \textit{Unused Power} –  Refers to the remaining electrical energy stored in the detachable power source after it has been rented and used by the user. This remaining power is measured based on the battery’s remaining capacity percentage when returned. The system uses this value to calculate the amount of credit or reward that will be given to the user through the mobile application
 	\end{itemize}
@@ -82,7 +82,7 @@ Figure 2.2 illustrates how the solar-powered rental station transforms raw input
 		
 		\item \textit{Location} – The position of the rented portable power source as monitored by the GPS module. It indicates where the unit is located during operation.
 		
-		\item \textit{Notification} –  Refers to the alerts sent to the user via the GSM module. It notifies the user one hour before the allotted 12-hour usage period ends and informs them to return the item if the time exceeds the 12-hour limit. Notifications are then sent at 10-minute intervals until the item is returned.
+		\item \textit{Notification} –  Refers to the alerts sent to the user via the SMS notifier. It notifies the user one hour before the allotted 12-hour usage period ends and informs them to return the item if the time exceeds the 12-hour limit. Notifications are then sent at 10-minute intervals until the item is returned.
 		
 		\item \textit{Credit} –  Refers to the digital value or reward points that the user earns in the mobile app after returning the rented detachable power source. The credit amount is calculated based on how much unused power remains in the device upon return.
 		
@@ -103,7 +103,7 @@ Figure 2.2 illustrates how the solar-powered rental station transforms raw input
 	    The strength of the GPS signal affects the accuracy and reliability of location tracking. 
 		 
 		  \item \textit{Signal} $\rightarrow$ \textit{Notification}\\
-		  The GSM signal strength determines how effectively the system can send alerts and messages to the user. 
+		  The SMS notifier signal strength determines how effectively the system can send alerts and messages to the user. 
 		  
 		   \item \textit{Unused Power} $\rightarrow$ \textit{Credit}\\
 		   The amount of unused power remaining in the portable battery after a rental session determines the credit returned to the user through the application. 

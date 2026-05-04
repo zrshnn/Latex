@@ -38,7 +38,7 @@ The System Evaluation phase focuses on defining specific performance criteria an
 \subsection{Budget Planning}
 The development of the solar-powered rental station with detachable power sources, intended as a solution for supplying electricity to communities experiencing frequent and unscheduled power interruptions, incurred a total cost of ₱37,570.00. This amount covered the materials used in the study, the construction of the device, and the data collection and testing conducted throughout the research.
 
-\subsection{Materials and Cost}
+
 \subsection{Materials and Cost}
 
 \begin{table}[H]
@@ -145,22 +145,21 @@ Community Resident - A person residing in a local community who is actively invo
 	Input Requirements & - The system shall collect user information during account registration through designated input fields in the mobile application. \\
 	& - The system shall accept user login credentials such as username and password for authentication. \\
 	& - The system shall accept rental requests, including power source selection, rental duration, and payment method (coin-based or app-based).\\
-	& - The system shall receive telemetry data from each power source, including battery percentage, GPS location, and rental status through the GSM module. \\
-	& - The system shall receive telemetry data from each power source, including battery percentage, GPS location, and rental status through the GSM module.  \\
+	& - The system shall receive telemetry data from each power source, including battery percentage, GPS location, and rental status through the GPS and SMS notifier. \\
 	\hline
 	
 	Process Requirements & - The system shall process rental transactions by verifying payment completion before authorizing power source access. \\
 	& - The system shall generate and transmit an access token or unlock code to the power source upon successful rental approval. \\
 	& - The system shall continuously monitor and record the battery level, location, and usage duration of active rentals. \\
-	& - The system shall automatically send an SMS notification via GSM one hour before the allotted 12-hour usage period ends, and if the user exceeds the 12-hour limit, it shall continue sending overdue alerts every 10 minutes until the item is returned. \\
+	& - The system shall automatically send an SMS notification via the Notifier one hour before the allotted 12-hour usage period ends, and if the user exceeds the 12-hour limit, it shall continue sending overdue alerts every 10 minutes until the item is returned. \\
 	& - The system shall process the return of rented power sources by validating device ID, updating the database, and releasing the final transaction summary. \\
 	& - The system shall calculate credit earned for users based on unused power and reflect the updated balance in the users mobile application account. \\
 	\hline
 	
 	Output Requirements & - The system shall display rental confirmation details such as power source ID, rental duration, and current charge level. \\
 	& - The system shall provide updates on the detachable power source, provide user logs, and notify the admin whenever a new account is created. \\
-	& - The system shall generate the location of the rented power source using the GSM module. \\
-	& - The system shall generate notifications on the mobile app, including GPS location, and rental time remaining. \\
+	& - The system shall generate the GPS coordinates of the rented power source to the admin dashboard. \\
+	& - The system shall generate notification alerts on the mobile application, including rental confirmation, rental failure, and return confirmation of the power source.  \\
 	& - The system shall calculate the unused power of the returned detachable power source and convert it into a credit stored in the user’s mobile app. \\
 	\hline
 	
@@ -169,7 +168,7 @@ Community Resident - A person residing in a local community who is actively invo
 	\hline
 	
 	Performance Requirements & - The system shall maintain fast response time during login, payment processing, and rental activation to ensure a smooth user experience. \\
-	& - The system shall provide monitoring and synchronization of power source data through reliable GSM and IoT communication.\\
+	& - The system shall provide monitoring and synchronization of power source data through the notifier and IoT communication.\\
 	& - The system shall ensure continuous operation and high availability to prevent service interruptions during rentals. \\
 	\hline
 	
@@ -191,23 +190,31 @@ This section outlines the system design of the proposed system and serves as the
 
 The Figure 3.4 illustrates the overall architecture of the Solar-Powered Rental Station with Detachable Power Sources. The system is designed to harvest solar energy, convert it to usable power, and provide access to users through various interfaces and technologies.
 
+\begin{figure}[H]
+	\centering
+	\caption{System Architecture (Detachable Power Sources)}
+	\label{fig:architecture}
+	\includegraphics[width=1\textwidth]{figures/system-archi-detachable.jpg}
+\end{figure}
+
+The detachable power source is a self-contained, portable energy unit designed to store, manage, and deliver electrical power while enabling real-time monitoring, secure access, and IoT-based communication. It serves as the core component of the proposed solar-powered rental station, allowing users to access electricity during power interruptions.
+
+At the heart of the system is a LiFePO₄ battery, which functions as the primary energy storage unit. This battery is selected due to its high efficiency, longer lifespan, deeper depth of discharge, and low maintenance requirements, making it suitable for frequent charge–discharge cycles in rental-based applications. The stored DC energy from the battery is distributed to multiple subsystems responsible for power conversion, monitoring, and control.
+
 \begin{itemize}
 	
-	\item \textit{Solar Energy Collection and Storage} - PV panels capture solar energy, which is stored in a \ce{LiFePO4}  battery through a solar charge controller and DC breakers for protection.
+	\item \textit{Power Distribution and Conversion} - The Power Inverter converts the DC power stored in the battery into AC electricity, allowing the system to operate household appliances beyond basic charging needs. Meanwhile, the Buck Converter steps down the battery voltage to a stable and lower level suitable for low-power components such as the ESP32, GPS module, and sensors. Together, these components enable the system to support both AC-powered appliances and regulated DC-powered electronics simultaneously, enhancing overall versatility.
 	
-	\item \textit{Energy Conversion} - The stored DC power is converted to AC using a power inverter to supply household appliances.
+	\item \textit{Monitoring and Sensing Mechanism} - The Voltage Divider scales down the battery voltage to a safe and readable level for the microcontroller, ensuring accurate data acquisition. Through the Battery Monitoring handled by the ESP32, the system continuously tracks the battery percentage, which is essential for real-time monitoring, pricing computation, and telemetry reporting. This mechanism enables the system to utilize battery data for credit calculation and efficient energy management.
 	
-	\item \textit{User Interface and Control }- The ESP32 microcontroller connects with a mobile app via a router and Firebase, allowing users to monitor battery levels and manage rental requests.
+	\item \textit{Microcontroller and IoT Integration}- The ESP32 Microcontroller serves as the central processing unit, responsible for collecting data, managing communication, and controlling system operations. It connects to a Wi-Fi Router, which provides internet access and allows communication with external platforms. Data is then stored and synchronized in Firebase (Real-Time Database), enabling remote monitoring, mobile application integration, and system analytics. This integration establishes the system as IoT-enabled, supporting real-time monitoring and remote control.
 	
-	\item \textit{Power Access and Management} - A coin slot and relay control access to the power source, while an LCD displays system status.
+	\item \textit{GPS Tracking and Security Features} - The GPS Module is responsible for tracking the real-time location of the detachable power source during usage. Through integration with the ESP32 and network connectivity, location data is transmitted to the system for monitoring. This ensures device security, accountability, and traceability, helping prevent loss or unauthorized use of the unit.
 	
-	\item \textit{GPS Tracking and Securit}y -  A GPS and GSM module track the power source’s location, ensuring security and preventing theft.
+	\item \textit{Physical Connectivity and Detachability} -  The Magnetic Connectors allow easy attachment and detachment of the power source, making the system user-friendly and efficient during operation. At the same time, the Docked Pins ensure a stable and reliable electrical connection between the detachable unit and the main station. These components enhance usability, safety, and durability, making the system suitable for real-world community deployment.
 	
-	\item \textit{Admin Control} - Admins can monitor and manage the system through a mobile interface, overseeing usage and system health.
-	
+	\item \textit{Control and Switching Mechanism} - The 5V Relay Module controls the flow of electricity by enabling or disabling power output based on system commands. It allows low-power control signals to manage higher voltage circuits safely and efficiently. This component ensures controlled and automated power access, supporting the system’s rental activation and operational safety.
 \end{itemize}
-
-This system is designed to provide a sustainable, secure, and user-friendly power source solution for communities, utilizing solar energy and modern IoT technologies for enhanced management and accessibility.
 
 \subsection{Flowchart}
 \begin{figure}[H]
@@ -273,6 +280,17 @@ The relationships in the diagram are shown through Include and Extend. Include m
 
 The Figure 3.9 illustrates the process of harvesting solar energy using photovoltaic (PV) panels. Solar energy is captured by the PV panels, which then convert sunlight into electrical energy. The energy is stored in a \ce{LiFePO4} battery through a solar charge controller, ensuring proper charging and voltage regulation. This energy is stored for later use, contributing to the overall sustainability and efficiency of the system, enabling it to power devices even during periods of limited sunlight.
 
+\begin{figure}[H]
+	\centering
+	\caption{Solar-powered energy conversion and distribution with detachable battery charging.}
+	\label{fig:solar harvesting}
+	\includegraphics[width=1\textwidth]{figures/station charge flow.png}
+\end{figure}
+
+The diagram presents the complete power flow of the solar-powered rental station, integrating solar energy harvesting, storage, conversion, and distribution processes. In the upper section, labeled as the solar charging (direct current) subsystem, electrical energy is generated by solar panels and routed through a DC breaker for protection before entering the solar charge controller. The controller regulates the voltage and current to ensure efficient and safe charging of the 12V LiFePO4 battery. An additional DC breaker is placed between the controller and the battery to provide another layer of circuit protection, preventing damage due to overcurrent or faults. This configuration ensures that solar energy is properly conditioned and securely stored for later use.
+
+In the lower section, the stored DC power is distributed and utilized through multiple conversion stages. The energy first passes through a DC breaker and is converted into alternating current (AC) by the power inverter, making it suitable for standard electrical loads. The AC output is then regulated through a smart breaker and an AC breaker before being delivered via an extension wire for external use. Additionally, part of the AC supply is routed to battery chargers, where it is converted back to DC (AC to DC conversion) to recharge detachable power units. This integrated design enables both direct appliance usage and the charging of portable battery units, supporting the system’s objective of providing a flexible, reliable, and community-accessible energy solution during power interruptions.
+
 \subsection{Energy Conversion DC to AC}
 
 \begin{figure}[H]
@@ -283,6 +301,17 @@ The Figure 3.9 illustrates the process of harvesting solar energy using photovol
 \end{figure}
 
 Figure 3.10 shows the process of converting direct current (DC) into alternating current (AC). The stored energy in the \ce{LiFePO4} battery is passed through a power inverter, and the inverter transforms the DC from the battery into AC power, which can be used to power household appliances such as fans and other AC-powered devices. This conversion is essential for making the system compatible with common electrical appliances that require AC power for operation.
+
+\begin{figure}[H]
+	\centering
+	\caption{Power conversion and distribution architecture from DC battery source to AC output using an inverter.}
+	\label{fig:energy conversion}
+	\includegraphics[width=1\textwidth]{figures/bat-extension.png}
+\end{figure}
+
+The diagram illustrates the power flow and protection architecture of the proposed solar-powered rental station with detachable power sources. The upper section represents the direct current (DC) subsystem, where a +12V LiFePO4 battery serves as the primary energy storage unit. Electrical energy flows from the battery through a DC breaker, which functions as a protective device that interrupts the circuit in case of overload or fault conditions. The regulated DC output is then supplied to a power inverter, where DC-to-AC conversion takes place. This conversion is essential because most household appliances operate on alternating current (AC), thereby enabling the stored solar energy to be used for practical applications. The structured arrangement of components ensures safe energy transfer while maintaining system reliability and protecting critical hardware elements.
+
+The lower section of the diagram represents the alternating current (AC) distribution subsystem, which delivers usable power to end users. After conversion, the AC output from the inverter passes through a smart breaker and an AC breaker, both of which provide additional layers of protection, monitoring, and control over the electrical load. The smart breaker may also support system automation and remote management as part of the integrated IoT-based design described in the system. Finally, the electrical energy is supplied through an extension wire, which serves as the point where users can directly connect and power their appliances or devices. This setup supports the system’s goal of delivering a safe, well-regulated, and user-accessible energy source, ensuring that stored solar power is properly converted and distributed to meet the community’s electricity needs during power interruptions.
 
 \subsection{Power Monitoring}
 
@@ -295,11 +324,20 @@ Figure 3.10 shows the process of converting direct current (DC) into alternating
 
 The Figure 3.11 illustrates the power monitoring system used to keep track of the energy stored and consumed by the system. The \ce{LiFePO4} battery is connected to an ESP32 microcontroller, which continuously monitors the battery’s voltage and health, and the data collected is displayed on an LCD screen which allows users to view the battery's current status. This monitoring is vital for ensuring the system's efficiency and preventing over-discharge, ensuring long-term sustainability.
 
+\begin{figure}[H]
+	\centering
+	\caption{Voltage divider circuit for safely interfacing a 12V input signal with the ESP32 GPIO pin.}
+	\label{fig:power monitoring}
+	\includegraphics[width=1\textwidth]{figures/voltage divider.png}
+\end{figure}
+
+The figure illustrates a voltage divider circuit designed to safely interface a 12V power source with the GPIO input pin of an ESP32 microcontroller. The circuit consists of two resistors, R1 (100 kΩ) and R2 (21.3 kΩ), connected in series between the +12V supply and ground, while an additional 10 kΩ resistor is placed between the voltage divider output and the ESP32 GPIO pin to provide additional current limiting and input protection. Through the voltage divider principle, the circuit reduces the 12V input to approximately 2.1V, which is within the safe operating range of the ESP32’s 3.3V logic level, thereby preventing overvoltage damage while still allowing the microcontroller to detect the presence of the external voltage signal. In the context of the KURYENTA: Solar-Powered Rental Station with Detachable Power Sources system, this circuit serves as a protective voltage sensing interface between the higher-voltage power components and the ESP32 microcontroller, enabling reliable monitoring and control of system functions such as battery status detection, relay activation, and telemetry-related operations while ensuring stable and safe operation of the integrated IoT-based monitoring system.
+
 \subsection{GPS Tracking}
 
 \begin{figure}[H]
 	\centering
-	\caption{ESP32 receives location data from GPS satellites using GSM Module}
+	\caption{ESP32 receives location data from GPS satellites}
 	\label{fig:gps tracking}
 	\includegraphics[width=1\textwidth]{figures/tracking.png}
 \end{figure}
@@ -397,11 +435,6 @@ The following table outlines the key considerations for selecting hardware compo
 	& Voltage Rating & 600V \\
 	& Current Capacity & 30-70A \\
 	& Length & 0.5-1 m \\
-	
-	\addlinespace[0.6em]
-	
-	GSM Module & Operating Voltage & 5V DC \\
-	& Network & 2G / 3G GSM \\
 	
 	\addlinespace[0.6em]
 	
@@ -580,19 +613,6 @@ The following table outlines the key considerations for selecting hardware compo
 		\centering
 		
 		\vspace{0.1cm} % adds space above image
-		\includegraphics[width=0.8\linewidth]{figures/gsm.png}
-		\text{GSM module} % text above the image
-		\vspace{0.3cm}
-	\end{minipage} 
-	&  
-	\vspace{0.1cm}
-	The GSM module was selected to enable remote communication between the rental system and the server. It facilitates sending SMS alerts or notifications regarding rental status, battery level, and system operations, ensuring timely monitoring and management. \\
-	\hline
-	
-	\begin{minipage}[t]{\linewidth}
-		\centering
-		
-		\vspace{0.1cm} % adds space above image
 		\includegraphics[width=0.8\linewidth]{figures/gps.png}
 		\text{GPS Module} % text above the image
 		\vspace{0.3cm}
@@ -712,7 +732,7 @@ Table 5 presents the selection of hardware components used in the development of
 
 Particular emphasis was placed on reliability and energy efficiency to ensure consistent performance in areas experiencing frequent power interruptions. Key components such as the monocrystalline solar panel and \ce{LiFePO4} battery were selected to provide effective energy harvesting and stable, long-term power storage. In addition, power management and safety devices, including the MPPT charge controller, circuit breakers, relays, and pure sine wave inverter, were incorporated to regulate energy flow, protect system components, and ensure safe operation during use.
 
-Furthermore, the system integrates control, communication, and user interface components to enhance functionality and accessibility. The ESP32 microcontroller, along with GSM, GPS, and Wi-Fi modules, enables real-time monitoring, data transmission, and automation of system processes. User interaction is facilitated through components such as LCD modules and the coin-slot mechanism, while security is reinforced through the use of solenoid locks and tracking features. Overall, the selected hardware components work together to form a cohesive, efficient, and user-oriented system designed for practical deployment in community settings.
+Furthermore, the system integrates control, communication, and user interface components to enhance functionality and accessibility. The ESP32 microcontroller, along with GPS, and Wi-Fi modules, enables real-time monitoring, data transmission, and automation of system processes. User interaction is facilitated through components such as LCD modules and the coin-slot mechanism, while security is reinforced through the use of solenoid locks and tracking features. Overall, the selected hardware components work together to form a cohesive, efficient, and user-oriented system designed for practical deployment in community settings.
 
 
 \subsection{Circuit Diagram}
@@ -729,10 +749,11 @@ Figure 3.14 shows the circuit diagram of the rental station, illustrating the in
 	\centering
 	\caption{Circuit Diagram of Detachable Power Sources }
 	\label{fig:circuitdetachable}
-	\includegraphics[width=1\textwidth]{figures/circuit_power.png}
+	\includegraphics[width=1\textwidth]{figures/circuit-diagram-detachable.png}
 \end{figure}
 
-Figure 3.15 shows the circuit diagram of the detachable power sources, illustrating the integrated hardware architecture of the ESP32-based control system and how the microcontroller interfaces with the 16×2 I2C LCD, GSM module, GPS module, and the battery.  The LCD is connected directly to the ESP32 via I2C communication lines to display system information and operational status. The GSM module is interfaced through the ESP32’s UART pins to enable wireless data communication, while the GPS module is connected similarly for real-time position tracking. The battery voltage is monitored by the ESP32 through a voltage divider, allowing the system to estimate the battery’s capacity. Overall, the figure highlights how each component is systematically integrated to form a reliable, coordinated, and fully functional control system.
+The circuit diagram represents the auxiliary control and monitoring subsystem of the proposed solar-powered rental station with detachable power sources. It is powered by a 12V DC source with a 3A fuse for protection, while a WiFi router provides internet connectivity for real-time data transmission and IoT-based monitoring. A voltage divider network scales down the battery voltage to a safe level for the ESP32 microcontroller, enabling accurate measurement of battery status and supporting system functions such as rental management and telemetry reporting. 
+The ESP32 serves as the main control unit, managing inputs, communication, and system operations. It controls a relay module that regulates power delivery to the inverter, ensuring safe and controlled energy distribution. An I2C LCD displays real-time system information, improving user interaction, while a GPS module enables location tracking of the detachable power source for security and monitoring purposes. Overall, the circuit integrates control, monitoring, communication, and tracking features, contributing to an efficient and reliable energy management system for communities experiencing frequent power interruptions.
 
 \subsection{Schematic Layout}
 
@@ -787,7 +808,6 @@ Figure 3.19 shows the proposed 3D design of the detachable power source viewed f
 	\endfoot
 	
 	GPS Module x 3 & 25 g \\ 
-	GSM Module & 30 g \\ 
 	LCD 16X2 &  120 g \\
 	ESP32 x 3 & 25 g \\
 	\ce{LiFePO4} Batterry x 2 &  2500 g (2.5 kg) \\
@@ -796,7 +816,7 @@ Figure 3.19 shows the proposed 3D design of the detachable power source viewed f
 	AC Breaker & 250 g \\
 	Cooling Fan &  200 g \\
 	\midrule
-	\textbf{Total Weight Calculated} & \textbf{5300 g or 5.3 kg} \\
+	\textbf{Total Weight Calculated} & \textbf{5270 g or 5.27 kg} \\
 \end{longtable}
 
 Table 6 shows the estimated weight of the components inside the detachable power source and its total weight calculated of it. Excluding the enclosure or outer casing, the detachable power source is estimated to weigh approximately 5.3 kg. The majority of the weight comes from the \ce{LiFePO4} battery and the 1000 W power inverter, which together account for more than 80\% of the total mass, while the control electronics and auxiliary components contribute only a small fraction of the overall weight.
@@ -1379,6 +1399,78 @@ This section discusses the deployment and actual operation of the completed sola
  	
  \end{longtable}
 \end{itemize}
+
+\subsubsection{LiFePO4 Battery Voltage-to-State of Charge Reference Table}
+
+For a 12V LifePO4 system, voltage around 13.0V or above indicates normal operation while voltage drops below 12.5 under load typically signal that the battery is approaching its lower usable range. The battery voltage to percentage conversion as shown in the table below are calculated based on the comprehensive guides of a Life PO4 12V Battery Voltage Chart of Lee D. (2025) who is a Renewable Energy Consultant, and Emma (2024) of Vatrerpower who has 15 years of experience in energy storage solutions. 
+
+
+\begin{longtable}{|p{2.5cm}|p{4cm}|p{4cm}|}
+\caption{Battery Percentage and Voltage Readings} \label{tab:battery_readings} \\
+\hline
+\rowcolor[gray]{0.9} 
+\textbf{Percentage} & 
+\textbf{Voltage Reading (State on Charge)} & 
+\textbf{Voltage Reading (Under Load)} \\ \hline
+\endfirsthead
+
+\multicolumn{3}{c}{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+\hline
+\rowcolor[gray]{0.9} 
+\textbf{Percentage} & 
+\textbf{Voltage Reading (State on Charge)} & 
+\textbf{Voltage Reading (Under Load)} \\ \hline
+\endhead
+
+\hline \multicolumn{3}{r}{{Continued on next page}} \\ \hline
+\endfoot
+
+\hline
+\endlastfoot
+
+100\% & 13.6V & 13.2V \\
+90\%  & 13.5V & 13.1V \\
+80\%  & 13.4V & 13.0V \\
+70\%  & 13.3V & 12.9V \\
+60\%  & 13.2V & 12.8V \\
+50\%  & 13.1V & 12.7V \\
+40\%  & 13.0V & 12.6V \\
+30\%  & 12.9V & 12.5V \\
+20\%  & 12.7V & 12.3V \\
+10\%  & 12.4V & 12.2V \\
+0\%   & 12.2V & 12.0V \\
+\end{longtable}
+
+
+\subsubsection{Battery to ESP32 Voltage Reading}
+
+\begin{figure}[H]
+\centering
+\caption{Battery to ESP32 Voltage Reading}
+\label{fig:voltage reading}
+\includegraphics[width=1\textwidth]{figures/voltage-reading.png}
+\end{figure}
+
+To read the actual voltage of the LifePO4 Battery for battery to percentage conversion, a voltage divider was utilized to remain within the 3.3V maximum reading of a ESP32 ADC pin.
+
+\begin{equation}
+    V_{out} = V_{in} \times \left( \frac{R_2}{R_1 + R_2} \right)
+\end{equation}
+
+\begin{equation}
+    V_{in} = \frac{V_{out}}{\left( \frac{R_2}{R_1 + R_2} \right)}
+\end{equation}
+
+
+
+For confirmation of accuracy, a comparison was made through an Ingco Digital Multimeter voltage reading which is a global brand known for high-performance tools such as power tools. Its reading is compared based on the voltage displayed in the LCD which is calculated through the utilization of a voltage divider and the  formulas above.
+
+\begin{figure}[H]
+\centering
+\caption{Multimeter Reading for Confirmation}
+\label{fig:welcome}
+\includegraphics[width=1\textwidth]{figures/multimeter-reading.png}
+\end{figure}
 
   \subsection{Standards and Guidelines Considered}
   
