@@ -7,31 +7,82 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces The Modified Waterfall Model}}{44}{figure.caption.12}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces System Development Life Cycle}}{46}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Map of Tupsan, Mambajao, Camiguin}}{50}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces System Architecture}}{55}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces System Flowchart}}{57}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Context Level Diagram}}{59}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Data Flow Representation of the Solar-Powered Rental Station System}}{61}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Use Case Diagram}}{63}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Conversion of Sunlight into Electrical Energy using PV Panels and a Charge Controller}}{65}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Battery DC power converted to AC output via Inverter.}}{66}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces ESP32 measures battery voltage and displays data on LCD}}{67}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces ESP32 receives location data from GPS satellites using GSM Module}}{68}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Hardware Development Diagram}}{69}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Circuit Diagram of Rental Station}}{78}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Circuit Diagram of Detachable Power Sources }}{80}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Schematic Diagram of Rental Station}}{81}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Schematic Diagram of Detachable Power Sources}}{83}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Detachable Power Source – Hardware Design (Front View) }}{84}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Detachable Power Source – Hardware Design Dimensions (Aerial View)}}{85}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Solar-Powered Rental Station – Hardware Design Dimensions}}{87}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Activity Diagram of the Community Resident}}{92}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Welcome Page}}{96}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Sign In Page}}{97}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Sign Up Page}}{98}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Home Page (Community Resident)}}{99}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Renting Screen (Community Resident)}}{100}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Home Page (Admin)}}{101}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Manage Users Page (Admin)}}{102}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Map of Tupsan, Mambajao, Camiguin}}{51}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces System Architecture}}{56}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces System Architecture (Detachable Power Sources)}}{57}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces System Flowchart}}{61}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Context Level Diagram}}{63}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Data Flow Representation of the Solar-Powered Rental Station System}}{65}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Use Case Diagram}}{67}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Conversion of Sunlight into Electrical Energy using PV Panels and a Charge Controller}}{69}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Solar-powered energy conversion and distribution with detachable battery charging.}}{70}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Battery DC power converted to AC output via Inverter.}}{72}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Power conversion and distribution architecture from DC battery source to AC output using an inverter.}}{73}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces ESP32 measures battery voltage and displays data on LCD}}{75}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Voltage divider circuit for safely interfacing a 12V input signal with the ESP32 GPIO pin.}}{76}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces ESP32 receives location data from GPS satellites}}{77}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Hardware Development Diagram}}{78}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Circuit Diagram of Rental Station}}{91}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Circuit Diagram of Detachable Power Sources }}{93}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Schematic Diagram of Rental Station}}{94}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Schematic Diagram of Detachable Power Sources}}{96}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Detachable Power Source – Hardware Design (Front View) }}{97}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Detachable Power Source – Hardware Design Dimensions (Aerial View)}}{98}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Solar-Powered Rental Station – Hardware Design Dimensions}}{100}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Activity Diagram of the Community Resident}}{105}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Welcome Page}}{109}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Log In Page}}{110}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Sign Up Page}}{111}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Home Page (Community Resident)}}{112}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Renting Screen (Community Resident)}}{113}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Pay via Coin Slot (Community Resident)}}{115}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Pay via Credit Points (Community Resident)}}{117}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Alerts Page (Community Resident)}}{119}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Profile Page (Community Resident)}}{120}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Main Dashboard Page(Admin)}}{121}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Live Map Page(Admin)}}{123}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Active Rentals(Admin)}}{124}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Active Rentals(Admin)}}{125}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Rental History(Admin)}}{126}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Rental History(Admin)}}{127}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.41}{\ignorespaces User Management(Admin)}}{128}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces User Management(Admin)}}{129}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.43}{\ignorespaces Stations(Admin)}}{130}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.44}{\ignorespaces SMS Logs(Admin)}}{131}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.45}{\ignorespaces Battery to ESP32 Voltage Reading}}{153}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.46}{\ignorespaces Multimeter Reading for Confirmation}}{154}{figure.caption.58}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Solar-Powered Rental Station Internal Component Layout}}{171}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Detachable Power Source Internal Component Layout}}{174}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Solar-Powered Rental Station – Overall Structural Design Dimensions (Front View)}}{176}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Solar-Powered Rental Station – Overall Structural Design Dimensions (Side View)}}{177}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Solar-Powered Rental Station – Overall Structural Design Dimensions (Aerial View)}}{178}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Solar-Powered Rental Station – Charging Compartment for Detachable Power Source Dimensions (Close-Up Front View)}}{179}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Solar-Powered Rental Station – Charging Compartment for Detachable Power Source Dimensions (Close-Up Perspective View)}}{179}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Detachable Power Source – Hardware Design Dimensions (Front View)}}{181}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Detachable Power Source – Hardware Design Dimensions (Side View)}}{182}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Detachable Power Source – Hardware Design Dimensions (Rear View)}}{183}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Welcome Page}}{185}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Log In Page}}{186}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Sign Up Page}}{187}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Home Page (Community Resident)}}{188}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Renting Screen (Community Resident)}}{189}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Pay via Coin Slot (Community Resident)}}{191}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Pay via Credit Points (Community Resident)}}{193}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Alerts Page (Community Resident)}}{195}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Profile Page (Community Resident)}}{196}{figure.caption.77}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Main Dashboard Page (Admin)}}{197}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Live Map Page (Admin)}}{199}{figure.caption.79}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Active Rentals (Admin)}}{200}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Active Rentals (Admin)}}{201}{figure.caption.81}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Rental History (Admin)}}{202}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Rental History (Admin)}}{203}{figure.caption.83}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces User Management (Admin)}}{204}{figure.caption.84}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces User Management (Admin)}}{205}{figure.caption.85}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Stations (Admin)}}{206}{figure.caption.86}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces SMS Logs (Admin)}}{207}{figure.caption.87}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Functional Test Result of Community Residents}}{262}{figure.caption.88}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Usability Test Result of Community Residents}}{263}{figure.caption.89}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {.1}{\ignorespaces Gantt Chart}}{276}{figure.caption.91}%
 \contentsfinish 
