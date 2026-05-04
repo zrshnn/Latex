@@ -320,11 +320,11 @@ The SMS Logs functionality records all SMS communications sent through the GSM m
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & User Onboarding Navigation & \textbf{Test Case ID} & TC-01 \\ \hline
+\textbf{Test \newline Scenario} & User Onboarding Navigation & \textbf{Test Case ID} & TC-01 \\ \hline
 
-\textbf{Test Case Description} & Verify that the ``Get Started'' button correctly redirects the user to the Authentication Interface & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that the ``Get Started'' button correctly redirects the user to the Welcome Screen & \textbf{Test \newline Priority} & High \\ \hline
 
-\textbf{Pre-Requisite} & The application is installed and launched on the mobile device & \textbf{Post-Requisite} & User is presented with Log In and Sign Up options \\ \hline
+\textbf{Pre-Requisite} & A QR code is scanned, redirecting the user to a browser where the web application is accessed on a mobile device & \textbf{Post-Requisite} & User is presented with Log In and Sign Up options \\ \hline
 
 \multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
 
@@ -334,11 +334,11 @@ The SMS Logs functionality records all SMS communications sent through the GSM m
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
-1 & Launch the Mobile Application & None & Application opens to the Welcome Screen & Application opened the Welcome Screen successfully & \\ \hline
+1 & Launch the Mobile Application & None & Application opens to the Landing Screen & Application opened the Landing Screen successfully & Passed \\ \hline
 
-2 & Click the Get Started button & Touch Gesture & The system should redirect the user to the Authentication Interface & The Authentication Interface loaded successfully, displaying ``Log In'' and ``Sign Up'' options & \\ \hline
+2 & Click the Get Started button & Touch Gesture & The system should redirect the user to the Welcome Screen & The Welcome Screen loaded successfully, displaying ``Log In'' and ``Sign Up'' options & Passed \\ \hline
 
 \end{longtable}
 
@@ -354,11 +354,11 @@ The SMS Logs functionality records all SMS communications sent through the GSM m
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Navigation to User Registration & \textbf{Test Case ID} & TC-02 \\ \hline
+\textbf{Test \newline Scenario} & Navigation to User Registration & \textbf{Test Case ID} & TC-02 \\ \hline
 
-\textbf{Test Case Description} & Verify that the “Sign Up” button correctly redirects the user to the Sign Up Screen & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that the “Sign Up” button correctly redirects the user to the Sign Up Screen & \textbf{Test \newline Priority} & High \\ \hline
 
-\textbf{Pre-Requisite} & Application is on the Authentication Interface (result of TC-01) & \textbf{Post-Requisite} & Sign Up form is active and ready for data entry. \\ \hline
+\textbf{Pre-Requisite} & Application is on the Welcome Screen (result of TC-01) & \textbf{Post-Requisite} & Sign Up forms is active and ready for data entry. \\ \hline
 
 \multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
 
@@ -368,11 +368,11 @@ The SMS Logs functionality records all SMS communications sent through the GSM m
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
-1 & Tap the Sign Up button on the Authentication Interface  & Touch Gesture & The application should navigate to the Sign Up screen & Sign Up Screen loaded successfully & \\ \hline
+1 & Tap the Sign Up button on the Welcome Screen  & Touch Gesture & The application should navigate to the Sign Up screen & Sign Up Screen loaded successfully & Passed \\ \hline
 
-2 & Verify the presence of registration fields & None & All required user personal information fields (e.g., Name, Email Address, Password) should be visible & The page displayed all the required personal information for user registration. & \\ \hline
+2 & Verify the presence of registration fields & None & All required user personal information fields (e.g., Name, Email Address, Password) should be visible & The page displayed all the required personal information for user registration. & Passed \\ \hline
 
 \end{longtable}
 
@@ -384,9 +384,9 @@ The SMS Logs functionality records all SMS communications sent through the GSM m
 % ----------- HEADER TABLE -----------
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & User Account Registration (Sign Up) & \textbf{Test Case ID} & TC-03 \\ \hline
+\textbf{Test \newline Scenario} & User Account Registration (Sign Up) & \textbf{Test Case ID} & TC-03 \\ \hline
 
-\textbf{Test Case Description} & Verify that a new user can successfully create an account by providing their complete and valid registration data & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that a new user can successfully create an account by providing their complete and valid registration data & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & The application is on the Primary Sign Up Screen & \textbf{Post-Requisite} & A new user record is created in the database, and the user is redirected to the Login Screen \\ \hline
 
@@ -399,7 +399,7 @@ The SMS Logs functionality records all SMS communications sent through the GSM m
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 \endfirsthead
 
 \hline
@@ -408,21 +408,19 @@ The SMS Logs functionality records all SMS communications sent through the GSM m
 
 1 & Enter account credentials and contact details &
 First Name: Sheena \newline
-Last Name: Smion \newline
-Phone: +63 9362762948 \newline
-Email: simonsheena58@gmail.com \newline
+Last Name: Simon \newline
+Phone: +63 \newline 9362762948
+Email: \newline simonsheena58 \newline @gmail.com
 Password: nanan\_58 \newline
 Confirm: nanan\_58
 &
 Fields accept valid data and mask password &
-Data accepted and password masked &
-\\ \hline
+Data accepted and password masked & Passed \\ \hline
 
 2 & Tap “Proceed” button &
 Touch Gesture &
 System validates data and moves to next screen &
-Successfully redirected &
-\\ \hline
+Successfully redirected & Passed \\ \hline
 
 3 & Enter demographic and location details &
 Sex: Female \newline
@@ -432,14 +430,12 @@ City: Mambajao \newline
 Barangay: Tupsan
 &
 System accepts inputs &
-All inputs recorded successfully &
-\\ \hline
+All inputs recorded successfully & Passed \\ \hline
 
 4 & Click “Create Account” button &
 Touch Gesture &
 Display success message and redirect to login &
-Message displayed and redirected &
-\\ \hline
+Message displayed and redirected & Passed \\ \hline
 
 \end{longtable}
 
@@ -453,9 +449,9 @@ Message displayed and redirected &
 % ----------- HEADER TABLE -----------
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & User Account Authentication & \textbf{Test Case ID} & \\ \hline
+\textbf{Test \newline Scenario} & User Account Authentication & \textbf{Test Case ID} & \\ \hline
 
-\textbf{Test Case Description} & Verify that a registered user can successfully log in and access the Home Screen using valid credentials.  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that a registered user can successfully log in and access the Home Screen using valid credentials.  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The application is on the “Log In” screen; a valid user record exists in the Firebase database (Refer to TC-03) \\ \hline
 
@@ -467,13 +463,13 @@ Message displayed and redirected &
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
-1 & Entering the registered Email Address and Password & Email Address: “simonsheena58@gmail.com" 
-Password: “nanan_58”
- & The input fields should accept and display the credentials correctly. & The credentials are displayed in the input fields &\\ \hline
+1 & Entering the registered Email Address and Password & Email Address: \newline “simonsheena58 \newline @gmail.com" 
+Password: “nanan\_58”
+ & The input fields should accept and display the credentials correctly. & The credentials are displayed in the input fields & Passed \\ \hline
 
-2 & Verify the presence of input fields & None & System should redirect the user to the Home Screen & The Home Screen loaded successfully, displaying the main  & \\ \hline
+2 & Verify the presence of input fields & None & System should redirect the user to the Home Screen & The Home Screen loaded successfully, displaying the main  & Passed \\ \hline
 
 \end{longtable}
 
@@ -490,9 +486,9 @@ Password: “nanan_58”
 % ----------- HEADER TABLE -----------
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Negative Log In Testing - Missing Password & \textbf{Test Case ID} & TC-04 \\ \hline
+\textbf{Test \newline Scenario} & Negative Log In Testing - Missing Password & \textbf{Test Case ID} & TC-04 \\ \hline
 
-\textbf{Test Case Description} & Verify that the system prevents login and displays an error message when the password field is left blank  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that the system prevents login and displays an error message when the password field is left blank  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains on the Log In Screen with the error message visible \\ \hline
 
@@ -504,14 +500,14 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
-1 & Entering the registered Email Address & Email Address: “simonsheena58@gmail.com" 
- & The email address field accepts the input & Email Address entered successfully &\\ \hline
+1 & Entering the registered Email Address & Email Address: \newline “simonsheena58 \newline @gmail.com"
+ & The email address field accepts the input & Email Address entered successfully & Passed \\ \hline
 
-2 & Leave the Password field empty & Password: (empty) & No characters should be present in the password field & The password field remained empty  & \\ \hline
+2 & Leave the Password field empty & Password: (empty) & No characters should be present in the password field & The password field remained empty  & Passed \\ \hline
 
-3 & Tap the Log In button & Touch Gesture & The system shouldn’t accept the attempt and display an error message:  “Please enter your password”. & The error message  “Please enter your password” was displayed  & \\ \hline
+3 & Tap the Log In button & Touch Gesture & The system shouldn’t accept the attempt and display an error message:  “Please enter your password”. & The error message  “Please enter your password” was displayed  & Passed \\ \hline
 
 \end{longtable}
 
@@ -528,9 +524,9 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Negative Log In Testing - Incorrect Password & \textbf{Test Case ID} & TC-05 \\ \hline
+\textbf{Test \newline Scenario} & Negative Log In Testing - Incorrect Password & \textbf{Test Case ID} & TC-05 \\ \hline
 
-\textbf{Test Case Description} & Verify that the system denies access and displays an error message when an incorrect password is provided for a registered email  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that the system denies access and displays an error message when an incorrect password is provided for a registered email  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains unauthenticated on the Log In Screen  \\ \hline
 
@@ -542,14 +538,14 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
-1 & Enter a valid registered email address & Email Address: “simonsheena58@gmail.com" 
- & The email address field accepts the input & Email entered successfully &\\ \hline
+1 & Enter a valid registered email address & Email Address: \newline “simonsheena58 \newline @gmail.com" 
+ & The email address field accepts the input & Email entered successfully & Passed \\ \hline
 
-2 & Enter an incorrect password & Password: “nanan” & The password field masks the input & Password entered and masked  & \\ \hline
+2 & Enter an incorrect password & Password: “nanan” & The password field masks the input & Password entered and masked  & Passed \\ \hline
 
-3 & Tap the Log In button & Touch Gesture & The system should display a message: “Invalid email or password.” & The error message  “Invalid email or password” was displayed as expected  & \\ \hline
+3 & Tap the Log In button & Touch Gesture & The system should display a message: “Invalid email or password.” & The error message  “Invalid email or password” was displayed as expected  & Passed \\ \hline
 
 
 \end{longtable}
@@ -564,32 +560,31 @@ Password: “nanan_58”
 
 
 % ----------- HEADER TABLE -----------
-\noindent\makebox[\textwidth][c]{%
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Input Validation and Authentication Error Handling & \textbf{Test Case ID} & TC-06 \\ \hline
+\textbf{Test \newline Scenario} & Input Validation and Authentication Error Handling & \textbf{Test Case ID} & TC-06 \\ \hline
 
-\textbf{Test Case Description} & Verify the system's ability to identify malformed email strings and reject incorrect credential inputs  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify the system's ability to identify malformed email strings and reject incorrect credential inputs  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains unauthenticated on the Log In Screen   \\ \hline
 
 \multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
 
-\end{longtable}}
+\end{longtable}
 
 \vspace{-1.7\baselineskip}
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
-1 & Enter an incorrectly formatted email and a correct password. & Email Address: “simonsheena58gmail.com" 
-Password: “nanan_58”
- & The system should detect the missing "@" and display an error message: "Invalid email address." & The error message "Invalid email address" was displayed. &\\ \hline
+1 & Enter an incorrectly formatted email and a correct password. & Email Address: \newline “simonsheena58gmail.com" 
+Password: “nanan\_58”
+ & The system should detect the missing "\@" and display an error message: "Invalid email address." & The error message "Invalid email address" was displayed. & Passed \\ \hline
 
-2 & Enter a correctly formatted email, but an incorrect password. & Email Address: “simonsheena58@gmail.com" 
+2 & Enter a correctly formatted email, but an incorrect password. & Email Address: \newline “simonsheena58@gmail.com" 
 Password: “nanan”
- & The system should deny access and display an error message: "Invalid email or password". & The error message "Invalid email or password" was displayed.  & \\ \hline
+ & The system should deny access and display an error message: "Invalid email or password". & The error message "Invalid email or password" was displayed.  & Passed \\ \hline
 
 \end{longtable}
 
@@ -605,9 +600,9 @@ Password: “nanan”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Negative Log In Testing - Missing Email Address & \textbf{Test Case ID} & TC-07 \\ \hline
+\textbf{Test \newline Scenario} & Negative Log In Testing - Missing Email Address & \textbf{Test Case ID} & TC-07 \\ \hline
 
-\textbf{Test Case Description} & Verify that the system prevents login and displays an error message when the email address field is left blank  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that the system prevents login and displays an error message when the email address field is left blank  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains on the Log In Screen with the error message visible \\ \hline
 
@@ -619,16 +614,16 @@ Password: “nanan”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Leave the Email Address field empty & Email Address: “empty.”
- & No characters should be present in the email address field & The email address field remained empty &\\ \hline
+ & No characters should be present in the email address field & The email address field remained empty & Passed \\ \hline
 
-2 & Entering the registered password & Password: “nanan_58”
- & The password field accepts the input & Password entered and masked successfully  & \\ \hline
+2 & Entering the registered password & Password: “nanan\_58”
+ & The password field accepts the input & Password entered and masked successfully  & Passed \\ \hline
 
 3 & Tap the Log In button & Touch Gesture
- & The system shouldn’t accept the attempt and display an error message:  “Please enter your email”. & The error message  “Please enter your email” was displayed & \\ \hline
+ & The system shouldn’t accept the attempt and display an error message:  “Please enter your email”. & The error message  “Please enter your email” was displayed & Passed \\ \hline
 
 \end{longtable}
 
@@ -645,9 +640,9 @@ Password: “nanan”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Eye Icon Functionality - Password Visibility Toggle & \textbf{Test Case ID} & TC-09 \\ \hline
+\textbf{Test \newline Scenario} & Eye Icon Functionality - Password Visibility Toggle & \textbf{Test Case ID} & TC-09 \\ \hline
 
-\textbf{Test Case Description} & Verify that the password visibility toggle (eye icon) accurately switches between masked characters and plain text.  & \textbf{Test Priority} & Medium \\ \hline
+\textbf{Test Case Description} & Verify that the password visibility toggle (eye icon) accurately switches between masked characters and plain text.  & \textbf{Test \newline Priority} & Medium \\ \hline
 
 \textbf{Pre-Requisite} & The user has entered a string of characters into the password field. & \textbf{Post-Requisite} & The password remains in the user's preferred visibility state. \\ \hline
 
@@ -659,17 +654,16 @@ Password: “nanan”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
-1 & Enter characters into the password field. & Password: “nanan_58”
- & The input should be masked (e.g., asterisks) by default. & Input was masked by default. &\\ \hline
+1 & Enter characters into the password field. & Password: “nanan\_58”
+ & The input should be masked (e.g., asterisks) by default. & Input was masked by default. & Passed \\ \hline
 
 2 & Tap the Eye Icon (Visibility Toggle). & Touch Gesture
- & The masked password should transition to plain text visibility. & The password became visible as plain text. & \\ \hline
+ & The masked password should transition to plain text visibility. & The password became visible as plain text. & Passed \\ \hline
 
 3 & Tap the Eye Icon again & Touch Gesture
- & The plain text password should return to a masked state. & The password was successfully hidden/masked. & \\ \hline
-
+ & The plain text password should return to a masked state. & The password was successfully hidden/masked. & Passed \\ \hline
 \end{longtable}
 
 
@@ -684,9 +678,9 @@ Password: “nanan”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Successful User Authentication and Redirection & \textbf{Test Case ID} & TC-10 \\ \hline
+\textbf{Test \newline Scenario} & Successful User Authentication and Redirection & \textbf{Test Case ID} & TC-10 \\ \hline
 
-\textbf{Test Case Description} & Verify that the system authenticates a user with valid credentials and successfully redirects them to the application's Home Screen.  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that the system authenticates a user with valid credentials and successfully redirects them to the application's Home Screen.  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & A registered account exists with the provided credentials; the app is on the Log In screen. & \textbf{Post-Requisite} & The user session is established, and the Home Page interface is fully loaded. \\ \hline
 
@@ -698,18 +692,17 @@ Password: “nanan”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Enter a valid registered email address and password & Email Address: “simonsheena58@gmail.com" 
-Password: “nanan_58”
- & The field accepts and displays the email. The password field masks the input characters. & Email address entered successfully. Password entered and masked. &\\ \hline
+Password: “nanan\_58”
+ & The field accepts and displays the email. The password field masks the input characters. & Email address entered successfully. Password entered and masked. & Passed \\ \hline
 
 2 & Tap the Log In button. & Touch Gesture
- & The system validates the credentials and redirects the user. & The system authenticated the user and redirected to the Home Screen. & \\ \hline
+ & The system validates the credentials and redirects the user. & The system authenticated the user and redirected to the Home Screen. & Passed \\ \hline
 
 3 & Verify the Home Screen content. & None
- & The Home Screen should display the main dashboard  & The Home Screen loaded successfully as expected. & \\ \hline
-
+ & The Home Screen should display the main dashboard  & The Home Screen loaded successfully as expected. & Passed \\ \hline
 \end{longtable}
 
 
@@ -722,9 +715,9 @@ Password: “nanan_58”
 % ----------- HEADER TABLE -----------
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Hardware Permission Handling - Camera Access Denial & \textbf{Test Case ID} & TC-11 \\ \hline
+\textbf{Test \newline Scenario} & Hardware Permission Handling - Camera Access Denial & \textbf{Test Case ID} & TC-11 \\ \hline
 
-\textbf{Test Case Description} & Verify that the application correctly handles the denial of camera permissions and provides an informative message to the user.  & \textbf{Test Priority} & Medium \\ \hline
+\textbf{Test Case Description} & Verify that the application correctly handles the denial of camera permissions and provides an informative message to the user.  & \textbf{Test \newline Priority} & Medium \\ \hline
 
 \textbf{Pre-Requisite} & The application is at a stage requiring camera access (e.g., Profile Photo Upload). & \textbf{Post-Requisite} & Camera functionality remains disabled, and the user is prompted with an explanation. \\ \hline
 
@@ -736,16 +729,16 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Trigger a feature requiring the camera (e.g., Update Profile Photo). & Touch Gesture
- & The system's native permission dialog should appear. & The system permission dialog was triggered. &\\ \hline
+ & The system's native permission dialog should appear. & The system permission dialog was triggered. & Passed \\ \hline
 
 2 & Select the "Don't Allow" or "Never Allow" option. & Button Click
- & The application should intercept the denial and display a justification message. & The application detected the denial of permission. & \\ \hline
+ & The application should intercept the denial and display a justification message. & The application detected the denial of permission. & Passed \\ \hline
 
 3 & Observe the application's feedback message. & None
- & An error message: "Could not access camera. Please allow camera permission" should be displayed.  & The error message was displayed as expected, and the feature was disabled. & \\ \hline
+ & An error message: "Could not access camera. Please allow camera permission" should be displayed.  & The error message was displayed as expected, and the feature was disabled. & Passed \\ \hline
 
 \end{longtable}
 
@@ -760,9 +753,9 @@ Password: “nanan_58”
 % ----------- HEADER TABLE -----------
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Hardware Permission Integration - Profile Photo Capture & \textbf{Test Case ID} & TC-12 \\ \hline
+\textbf{Test \newline Scenario} & Hardware Permission Integration - Profile Photo Capture & \textbf{Test Case ID} & TC-12 \\ \hline
 
-\textbf{Test Case Description} & Verify that the application successfully accesses the camera and saves a captured image to the user profile once permission is granted.  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that the application successfully accesses the camera and saves a captured image to the user profile once permission is granted.  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & The application is on the "Edit Profile" screen; camera permission has not been granted previously and is now being allowed. & \textbf{Post-Requisite} & The user's profile is updated with the new image in the database. \\ \hline
 
@@ -774,19 +767,19 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Trigger the camera function to update the profile picture. & Touch Gesture
- & The system's native permission dialog should appear. & Permission dialog appeared. &\\ \hline
+ & The system's native permission dialog should appear. & Permission dialog appeared. & Passed \\ \hline
 
 2 & Select the "Allow" or "While Using the App" option. & Button Click
- & The camera interface should launch successfully. & The camera viewfinder opened without error. & \\ \hline
+ & The camera interface should launch successfully. & The camera viewfinder opened without error. & Passed \\ \hline
 
 3 & Capture a photo and confirm the selection. & “Tap to Capture” button
- & The image should be processed and displayed as the new profile picture.  & The photo was captured and successfully displayed on the profile. & \\ \hline
+ & The image should be processed and displayed as the new profile picture.  & The photo was captured and successfully displayed on the profile. & Passed \\ \hline
 
 4 & Save the profile changes. & None
- & The system should confirm that the profile information and photo were automatically saved.  & Edited personal information and the new profile photo were automatically saved successfully. & \\ \hline
+ & The system should confirm that the profile information and photo were automatically saved.  & Edited personal information and the new profile photo were automatically saved successfully. & Passed \\ \hline
 
 \end{longtable}
 
@@ -800,9 +793,9 @@ Password: “nanan_58”
 % ----------- HEADER TABLE -----------
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Image Re-capture and Facial Detection Verification & \textbf{Test Case ID} & TC-13 \\ \hline
+\textbf{Test \newline Scenario} & Image Re-capture and Facial Detection Verification & \textbf{Test Case ID} & TC-13 \\ \hline
 
-\textbf{Test Case Description} & Verify that the application’s facial detection guide functions correctly during a photo retake and that the resulting image is successfully uploaded to storage.  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that the application’s facial detection guide functions correctly during a photo retake and that the resulting image is successfully uploaded to storage.  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & Camera permission has been granted; user is on the "Edit Profile" or "Camera" interface. & \textbf{Post-Requisite} & The existing profile photo is overwritten by the new image in the cloud storage/database. \\ \hline
 
@@ -814,19 +807,19 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Initiate the "Retake” Profile Photo action & Touch Gesture
- & The camera interface should open with a circular guide and the message "Position your face inside the circle". & The camera interface and circular guide loaded with the prompt "Waiting for face". &\\ \hline
+ & The camera interface should open with a circular guide and the message "Position your face inside the circle". & The camera interface and circular guide loaded with the prompt "Waiting for face". & Passed \\ \hline
 
 2 & Align face within the designated circular guide. & Physical Alignment
- & The system should detect the face and change the status/button to "Tap to capture". & Face was detected; the "Tap to capture" button became active. & \\ \hline
+ & The system should detect the face and change the status/button to "Tap to capture". & Face was detected; the "Tap to capture" button became active. & Passed \\ \hline
 
 3 & Click the capture button to retake the photo. & Touch Gesture
- & The photo should be captured, and an "Uploading" status should be displayed.  & The "Uploading" message appeared immediately after capture. & \\ \hline
+ & The photo should be captured, and an "Uploading" status should be displayed.  & The "Uploading" message appeared immediately after capture. & Passed \\ \hline
 
 4 & Observe the finalization of the upload. & None
- & The image should be successfully saved to storage and update the UI.  & The photo was captured and successfully uploaded to storage. & \\ \hline
+ & The image should be successfully saved to storage and update the UI.  & The photo was captured and successfully uploaded to storage. & Passed \\ \hline
 
 \end{longtable}
 
@@ -841,9 +834,9 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-14 \\ \hline
+\textbf{Test \newline Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-14 \\ \hline
 
-\textbf{Test Case Description} & Verify station identification and real-time slot availability.  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify station identification and real-time slot availability.  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & User is authenticated and on the Home Screen. & \textbf{Post-Requisite} & Slot Availability Tab is populated with data. \\ \hline
 
@@ -855,13 +848,13 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Enter the Station ID in the search bar & Enter Station ID (e.g. 0001): “0002”
- & System accepts the Station ID and initiates a loading state. & Station ID was accepted; "Loading Station" message appeared. &\\ \hline
+ & System accepts the Station ID and initiates a loading state. & Station ID was accepted; "Loading Station" message appeared. & Passed \\ \hline
 
 2 & Observe the Slot Availability Tab. & None
- & The tab should load a list of available slots to be rented. & Slot Availability Tab loaded with current available slots as expected. & \\ \hline
+ & The tab should load a list of available slots to be rented. & Slot Availability Tab loaded with current available slots as expected. & Passed \\ \hline
 
 \end{longtable}
 
@@ -875,9 +868,9 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-15 \\ \hline
+\textbf{Test \newline Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-15 \\ \hline
 
-\textbf{Test Case Description} & Verify station identification and real-time slot availability.  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify station identification and real-time slot availability.  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & Verify selection of available slots and view details of the Portable Power Source (Battery Percentage, Price, and Return Period) & \textbf{Post-Requisite} & User is on the specific Slot Detail view. \\ \hline
 
@@ -889,13 +882,13 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Select an available (unrented) slot. & Touch Gesture
- & Navigate to the details tab for the selected slot. & Successfully navigated to the selected slot's detail tab. &\\ \hline
+ & Navigate to the details tab for the selected slot. & Successfully navigated to the selected slot's detail tab. & Passed \\ \hline
 
 2 & Review Portable Power Source Details & None
- & Display Battery Percentage, Unit Price, and Return Period. & Details (Battery \%, Price, Period) were displayed accurately. & \\ \hline
+ & Display Battery Percentage, Unit Price, and Return Period. & Details (Battery \%, Price, Period) were displayed accurately. & Passed \\ \hline
 
 \end{longtable}
 
@@ -910,9 +903,9 @@ Password: “nanan_58”
 % ----------- HEADER TABLE -----------
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-16 \\ \hline
+\textbf{Test \newline Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-16 \\ \hline
 
-\textbf{Test Case Description} & Verify the cancellation of a slot selection before confirming a rental.  & \textbf{Test Priority} & Medium \\ \hline
+\textbf{Test Case Description} & Verify the cancellation of a slot selection before confirming a rental.  & \textbf{Test \newline Priority} & Medium \\ \hline
 
 \textbf{Pre-Requisite} & User is on the Slot Detail view (result of TC-16). & \textbf{Post-Requisite} & User returns to the general Slot Availability list. \\ \hline
 
@@ -924,13 +917,13 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Click the “X” Cancel button. & Touch Gesture
- & The system should terminate the selection and return to the previous screen. & The application returned to the Slot Availability Tab successfully. &\\ \hline
+ & The system should terminate the selection and return to the previous screen. & The application returned to the Slot Availability Tab successfully. & Passed \\ \hline
 
 2 & Verify list state. & None
- & The list of available slots should be visible and refreshed. & Slot Availability Tab list reloaded and showed all available slots. & \\ \hline
+ & The list of available slots should be visible and refreshed. & Slot Availability Tab list reloaded and showed all available slots. & Passed \\ \hline
 
 \end{longtable}
 
@@ -944,9 +937,9 @@ Password: “nanan_58”
 % ----------- HEADER TABLE -----------
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Client Payment Selection and Hardware Initialization & \textbf{Test Case ID} & TC-17 \\ \hline
+\textbf{Test \newline Scenario} & Client Payment Selection and Hardware Initialization & \textbf{Test Case ID} & TC-17 \\ \hline
 
-\textbf{Test Case Description} & Verify the initialization of the physical coin slot for coin payments.  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify the initialization of the physical coin slot for coin payments.  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & User has selected an available slot and reached the payment selection view. & \textbf{Post-Requisite} & Hardware is prepared to receive physical currency. \\ \hline
 
@@ -958,10 +951,10 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Select the coin payment option. & Click “Pay via Coin Slot” button
- & A “Preparing Coin Slot” tab should appear with a 30-second timeout message. & The “Preparing Coin Slot” tab appeared and initialized successfully. &\\ \hline
+ & A “Preparing Coin Slot” tab should appear with a 30-second timeout message. & The “Preparing Coin Slot” tab appeared and initialized successfully. & Passed \\ \hline
 
 \end{longtable}
 
@@ -975,9 +968,9 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Client Payment Selection (Credit Points) & \textbf{Test Case ID} & TC-18 \\ \hline
+\textbf{Test \newline Scenario} & Client Payment Selection (Credit Points) & \textbf{Test Case ID} & TC-18 \\ \hline
 
-\textbf{Test Case Description} & Verify the system's ability to initialize the rental process using virtual credit points.  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify the system's ability to initialize the rental process using virtual credit points.  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & User has sufficient credit points (e.g., P10000) and is on the payment screen. & \textbf{Post-Requisite} & The system prepares the specific slot for unlocking. \\ \hline
 
@@ -989,10 +982,10 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Select the credit payment option. & Tap “Pay via Credit Points (P10000 available).”
- & A “Preparing Slot” tab should appear, indicating the station is unlocking the slot. & The “Preparing Slot” tab loaded successfully as expected. &\\ \hline
+ & A “Preparing Slot” tab should appear, indicating the station is unlocking the slot. & The “Preparing Slot” tab loaded successfully as expected. & Passed \\ \hline
 
 \end{longtable}
 
@@ -1007,9 +1000,9 @@ Password: “nanan_58”
 % ----------- HEADER TABLE -----------
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Cash Payment Processing and Notification & \textbf{Test Case ID} & TC-19 \\ \hline
+\textbf{Test \newline Scenario} & Cash Payment Processing and Notification & \textbf{Test Case ID} & TC-19 \\ \hline
 
-\textbf{Test Case Description} & Verify the real-time coin counting logic, timer reset functionality, and successful payment notification.  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify the real-time coin counting logic, timer reset functionality, and successful payment notification.  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & The system is in the “Waiting for Coins” state with an active countdown timer. & \textbf{Post-Requisite} & Payment is recorded, the session is finalized, and the user is notified \\ \hline
 
@@ -1021,14 +1014,13 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Insert physical coins into the station. & Physical Currency
- & The display should update the total in real-time. The countdown timer should reset to its initial value upon each insertion. & Each coin was detected; the total updated correctly, and the timer successfully reset on each insertion &\\ \hline
+ & The display should update the total in real-time. The countdown timer should reset to its initial value upon each insertion. & Each coin was detected; the total updated correctly, and the timer successfully reset on each insertion & Passed \\ \hline
 
 2 & Finalize the transaction & Click the “Done Paying” button
- & The system should validate the total amount and trigger a "Payment Successful. You rented slot1" notification on the Alerts Screen. & Transaction was validated; "Payment Successful. You rented slot1" notification appeared on the Alerts Screen. &\\ \hline
-
+ & The system should validate the total amount and trigger a "Payment Successful. You rented slot1" notification on the Alerts Screen. & Transaction was validated; "Payment Successful. You rented slot1" notification appeared on the Alerts Screen. & Passed \\ \hline
 \end{longtable}
 
 
@@ -1042,9 +1034,9 @@ Password: “nanan_58”
 % ----------- HEADER TABLE -----------
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Credit Point Transaction and Notification & \textbf{Test Case ID} & TC-20 \\ \hline
+\textbf{Test \newline Scenario} & Credit Point Transaction and Notification & \textbf{Test Case ID} & TC-20 \\ \hline
 
-\textbf{Test Case Description} & Verify the deduction of points and successful rental activation via virtual credits.  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify the deduction of points and successful rental activation via virtual credits.  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & System displays the “Price” and “Your Points” comparison view. & \textbf{Post-Requisite} & Credits are deducted, and the successful payment alert is triggered. \\ \hline
 
@@ -1056,13 +1048,13 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Confirm the credit transaction. & Click the “Confirm Payment” button
- & The system should validate sufficient points and process the deduction. & Point validation and deduction were processed successfully. &\\ \hline
+ & The system should validate sufficient points and process the deduction. & Point validation and deduction were processed successfully. & Passed \\ \hline
 
 2 & Verify the alert notification. & None
- & A "Payment Successful. You rented slot1" notification should be visible on the Alerts Screen. & Transaction was validated; "Payment Successful. You rented slot1" notification appeared on the Alerts Screen. &\\ \hline
+ & A "Payment Successful. You rented slot1" notification should be visible on the Alerts Screen. & Transaction was validated; "Payment Successful. You rented slot1" notification appeared on the Alerts Screen. & Passed \\ \hline
 
 \end{longtable}
 
@@ -1077,9 +1069,9 @@ Password: “nanan_58”
 % ----------- HEADER TABLE -----------
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Notification Navigation & \textbf{Test Case ID} & TC-21 \\ \hline
+\textbf{Test \newline Scenario} & Notification Navigation & \textbf{Test Case ID} & TC-21 \\ \hline
 
-\textbf{Test Case Description} & Verify that the user can navigate to the Alerts Screen.  & \textbf{Test Priority} & Medium \\ \hline
+\textbf{Test Case Description} & Verify that the user can navigate to the Alerts Screen.  & \textbf{Test \newline Priority} & Medium \\ \hline
 
 \textbf{Pre-Requisite} & The user is logged in and on any main screen with the bottom navigation bar. & \textbf{Post-Requisite} & The Alerts Screen is active and displays a list of system notifications. \\ \hline
 
@@ -1091,13 +1083,13 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Click the “Bell” icon in the bottom navigation bar. & Touch Gesture
- & The system should redirect the user to the Alerts Screen. & The user was successfully redirected to the Alerts Screen. &\\ \hline
+ & The system should redirect the user to the Alerts Screen. & The user was successfully redirected to the Alerts Screen. & Passed \\ \hline
 
 2 & Verify the list of notifications. & None
- & Logged alerts (e.g., "Payment successful! You rented slot1", “Successfully Returned slot1”, “Failed Transaction”) should be visible. & Recent transaction and return alerts were displayed as expected. &\\ \hline
+ & Logged alerts (e.g., "Payment successful! You rented slot1", “Successfully Returned slot1”, “Failed Transaction”) should be visible. & Recent transaction and return alerts were displayed as expected. & Passed \\ \hline
 
 \end{longtable}
 
@@ -1112,9 +1104,9 @@ Password: “nanan_58”
 % ----------- HEADER TABLE -----------
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Notification Management & \textbf{Test Case ID} & TC-22 \\ \hline
+\textbf{Test \newline Scenario} & Notification Management & \textbf{Test Case ID} & TC-22 \\ \hline
 
-\textbf{Test Case Description} & Verify the functionality of deleting individual alerts and clearing the entire notification log.  & \textbf{Test Priority} & Medium \\ \hline
+\textbf{Test Case Description} & Verify the functionality of deleting individual alerts and clearing the entire notification log.  & \textbf{Test \newline Priority} & Medium \\ \hline
 
 \textbf{Pre-Requisite} & The user is on the Alerts Screen and at least one notification exists. & \textbf{Post-Requisite} & The selected notifications are permanently removed from the Alerts Screen \\ \hline
 
@@ -1126,13 +1118,13 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Click the “Trash Icon”  next to a specific alert. & Touch Gesture
- & The specific notification (e.g., "Failed Transaction") should be removed. & The selected alert was successfully deleted from the list. &\\ \hline
+ & The specific notification (e.g., "Failed Transaction") should be removed. & The selected alert was successfully deleted from the list. & Passed \\ \hline
 
 2 & Tap the "Clear All" button. & Touch Gesture
- & All notifications in the list should be cleared simultaneously. & All alerts were removed; the screen displayed an empty state. &\\ \hline
+ & All notifications in the list should be cleared simultaneously. & All alerts were removed; the screen displayed an empty state. & Passed \\ \hline
 
 \end{longtable}
 
@@ -1147,9 +1139,9 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Notification Management & \textbf{Test Case ID} & TC-23 \\ \hline
+\textbf{Test \newline Scenario} & Notification Management & \textbf{Test Case ID} & TC-23 \\ \hline
 
-\textbf{Test Case Description} & Verify the loading of user-specific data on the Profile edit screen.  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify the loading of user-specific data on the Profile edit screen.  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & User is logged in and on the Home Screen & \textbf{Post-Requisite} & Profile Screen is active with all editable fields populated. \\ \hline
 
@@ -1161,13 +1153,13 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Tap the “Profile Icon” in the navigation bar. & Touch Gesture
- & Profile Screen should display Full Name, Email Address, Phone Number, Sex, Birthdate, Location, and Photo & Profile Screen loaded successfully with all user data &\\ \hline
+ & Profile Screen should display Full Name, Email Address, Phone Number, Sex, Birthdate, Location, and Photo & Profile Screen loaded successfully with all user data & Passed \\ \hline
 
 2 & Tap the "Clear All" button. & Touch Gesture
- & All notifications in the list should be cleared simultaneously. & All alerts were removed; the screen displayed an empty state. &\\ \hline
+ & All notifications in the list should be cleared simultaneously. & All alerts were removed; the screen displayed an empty state. & Passed \\ \hline
 
 \end{longtable}
 
@@ -1181,9 +1173,9 @@ Password: “nanan_58”
 % ----------- HEADER TABLE -----------
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Profile Photo Hardware Trigger & \textbf{Test Case ID} & TC-24 \\ \hline
+\textbf{Test \newline Scenario} & Profile Photo Hardware Trigger & \textbf{Test Case ID} & TC-24 \\ \hline
 
-\textbf{Test Case Description} & Verify the activation of the camera interface via the profile photo placeholder.  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify the activation of the camera interface via the profile photo placeholder.  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & User is on the Profile Page. & \textbf{Post-Requisite} & Camera viewfinder is active with face recognition overlays. \\ \hline
 
@@ -1195,10 +1187,10 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Tap the profile photo placeholder. & Touch Gesture
- & The system should launch the camera and display the face detection guide. & The "Take Profile Photo" dialog opened with the circular face recognition guide. &\\ \hline
+ & The system should launch the camera and display the face detection guide. & The "Take Profile Photo" dialog opened with the circular face recognition guide. & Passed \\ \hline
 
 \end{longtable}
 
@@ -1213,9 +1205,9 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Profile Edit Cancellation & \textbf{Test Case ID} & TC-25 \\ \hline
+\textbf{Test \newline Scenario} & Profile Edit Cancellation & \textbf{Test Case ID} & TC-25 \\ \hline
 
-\textbf{Test Case Description} & Verify that changes are discarded and the user is redirected when clicking "X"  & \textbf{Test Priority} & Medium \\ \hline
+\textbf{Test Case Description} & Verify that changes are discarded and the user is redirected when clicking "X"  & \textbf{Test \newline Priority} & Medium \\ \hline
 
 \textbf{Pre-Requisite} & User is in the Profile Edit mode or Camera mode. & \textbf{Post-Requisite} & User returns to the previous screen; no data is modified in the database. \\ \hline
 
@@ -1227,10 +1219,10 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Tap the "X" (Close) button & Touch Gesture
- & User should be redirected to the previous screen with no changes saved. & Redirected successfully; original profile data remained unchanged. &\\ \hline
+ & User should be redirected to the previous screen with no changes saved. & Redirected successfully; original profile data remained unchanged. & Passed \\ \hline
 
 \end{longtable}
 
@@ -1244,9 +1236,9 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Facial Detection and Image Upload & \textbf{Test Case ID} & TC-26 \\ \hline
+\textbf{Test \newline Scenario} & Facial Detection and Image Upload & \textbf{Test Case ID} & TC-26 \\ \hline
 
-\textbf{Test Case Description} & Verify the facial detection logic, image capture, and cloud storage upload.  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify the facial detection logic, image capture, and cloud storage upload.  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & Camera interface is active (TC-24) & \textbf{Post-Requisite} & New image is saved to storage and updated on the profile. \\ \hline
 
@@ -1258,13 +1250,13 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Align face within the circular guide. & Physical Alignment
- & System should display "Looking for face" then "Waiting for face" until detected. & Messages appeared as expected; face was successfully detected. &\\ \hline
+ & System should display "Looking for face" then "Waiting for face" until detected. & Messages appeared as expected; face was successfully detected. & Passed \\ \hline
 
 2 & Capture and upload the photo. & Tap "Capture Photo"
- & An "Uploading" status should appear; the image should save to storage. & "Uploading" message appeared; photo was captured and saved to storage. &\\ \hline
+ & An "Uploading" status should appear; the image should save to storage. & "Uploading" message appeared; photo was captured and saved to storage. & Passed \\ \hline
 
 \end{longtable}
 
@@ -1278,9 +1270,9 @@ Password: “nanan_58”
 % ----------- HEADER TABLE -----------
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Facial Detection and Image Upload & \textbf{Test Case ID} & TC-27 \\ \hline
+\textbf{Test \newline Scenario} & Facial Detection and Image Upload & \textbf{Test Case ID} & TC-27 \\ \hline
 
-\textbf{Test Case Description} & Verify that logging out successfully terminates the session and redirects to the Welcome Screen.  & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that logging out successfully terminates the session and redirects to the Welcome Screen.  & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & User is authenticated and on the Profile Screen. & \textbf{Post-Requisite} & Session is cleared; user cannot navigate back to authenticated screens. \\ \hline
 
@@ -1292,10 +1284,10 @@ Password: “nanan_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Tap the "Log Out" button. & Touch Gesture
- & User should be redirected to the Welcome Screen. & Successfully redirected to the Welcome Screen &\\ \hline
+ & User should be redirected to the Welcome Screen. & Successfully redirected to the Welcome Screen & Passed \\ \hline
 
 \end{longtable}
 
@@ -1322,6 +1314,7 @@ Password: “nanan_58”
 	\hline
 	\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
 	
+
 LG - 01 & Navigate to Login Screen and input valid credentials & Email: \newline \url{user@} \newline \url{gmail.com} \newline Pass: \newline 123456 & Login Screen $>$ \newline Firebase \newline logInUser \newline Auth $>$ \newline \url{router.} \newline \url{replace()} & User successfully logs in and is redirected to the Home Screen. & User successfully logged in. Redirected to the Home Screen. & Passed \\ \hline
 	
 LG - 02 & Input a valid email and verify data flow & Email: \newline \url{valid}\newline \url{mail@} \newline \url{example.com} \newline Pass: \newline pass123 & UI Input $>$ \newline \url{email.value} $>$ \newline \url{logInUser(} \newline \url{email.value,} \newline \url{pass.value)} & Email is correctly passed to the logInUser() method. & \url{logInUser()} called. Email passed successfully. & Passed \\ \hline
@@ -1345,7 +1338,6 @@ WS - 10 & Tap "Log In" button. & None & Welcome Screen $>$ \newline \url{router.
 
 \renewcommand{\arraystretch}{1.4}
 
-<<<<<<< HEAD
 % ----------- SIGN UP -----------
 
 \renewcommand{\arraystretch}{1.4}
@@ -1399,7 +1391,7 @@ SU - 09  & Attempt "Create Account" without agreement. & Checkbox: \newline unch
 \vspace{-1.6\baselineskip}
 
 % ----------- STEPS TABLE -----------
-\begin{longtable}{|p{0.9cm}|p{1.4cm}|p{1.4cm}|p{2cm}|p{1.8cm}|p{2cm}|p{1.4cm}|}
+\begin{longtable}{|p{0.9cm}|p{1.5cm}|p{1.5cm}|p{2.1cm}|p{1.7cm}|p{1.8cm}|p{1.4cm}|}
 	\hline
 	\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
 	
@@ -1413,10 +1405,117 @@ SU - 09  & Attempt "Create Account" without agreement. & Checkbox: \newline unch
 
 \vspace{1\baselineskip}
 
+% ----------- SLOT SELECTION AND USER PAYMENT ---------
+\renewcommand{\arraystretch}{1.5}
+
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
+	\hline
+	\textbf{Test Scenario} & Slot Selection and User Payment Functionality \\ \hline
+	\textbf{Test Priority} & High \\ \hline
+	\textbf{Description} & Testing the functionality and component flow of Slot Selection and Payment using white-box testing. \\ \hline
+	\textbf{Objective} & Validate selection logic, data retrieval, and error handling branches in the Station Screen. \\ \hline
+\end{longtable}
+
+\vspace{-1.5\baselineskip}
+
+% ----------- STEPS TABLE -----------
+\begin{longtable}{|p{0.9cm}|p{1.2cm}|p{1.5cm}|p{2.2cm}|p{1.9cm}|p{1.8cm}|p{1.4cm}|}
+	\hline
+	\textbf{TC ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+	SS-01 & Slot Selection (Available) & Click \texttt{slot-card} where \texttt{status: 'available'} & \texttt{selectSlot()} $>$ \texttt{lockSlotFor}\newline\texttt{Payment()} & \texttt{selectedSlot} updated; payment modal opens. & Slot locked successfully; modal rendered. & Passed \\ \hline
+	
+	PAY-01 & Start Coin Payment & Click 'Pay via Coin Slot' & \texttt{isWaitingFor}\newline\texttt{Esp = true} $>$  \texttt{start...()} & \texttt{pending}\newline\texttt{PaymentMethod} set to \texttt{'coinSlot'}. & Coin payment initialized; ESP wait active. & Passed \\ \hline
+	
+	PAY-02 & ESP Readiness Watcher & \texttt{espReady}\newline\texttt{Pay = true} & \texttt{watch(esp}\newline\texttt{ReadyPay)} $>$  \texttt{proceed...()} & \texttt{isCoin}\newline\texttt{PaymentActive} set to true. & ESP ready detected; payment modal opened. & Passed \\ \hline
+	
+	PAY-04 & Coin Timer Reset & \texttt{liveCoin}\newline\texttt{Amount++} & \texttt{watch(live}\newline\texttt{CoinAmount)} triggers & \texttt{countdown} resets to 60s on every coin insert. & Countdown successfully reset to 60s. & Passed \\ \hline
+	
+	PAY-05 & Payment Completion & \texttt{amount >= price} & \texttt{finishCoin}\newline\texttt{SlotPayment()} call & Rental record created; \texttt{isCoin...} set to false. & Payment processed; slot status set to rented. & Passed \\ \hline
+	
+	NAV-01 & Manual Cancel & Click 'Cancel Payment' & \texttt{clearEspWait} $>$  \texttt{unlockSlot...()} & Transaction cleared; station slot freed. & Cancellation success; station state reset. & Passed \\ \hline
+	
+\end{longtable}
+
+% ----------- NOTIFICATIONS AND ALERTS ---------
+\renewcommand{\arraystretch}{1.7}
+
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
+	\hline
+	\textbf{Test Scenario} & Notifications and Alerts Functionality \\ \hline
+	\textbf{Test Priority} & Medium \\ \hline
+	\textbf{Description} & Testing real-time synchronization and management of user alerts using white-box testing. \\ \hline
+	\textbf{Objective} & Validate real-time data binding, resource optimization on read, and bulk deletion logic. \\ \hline
+\end{longtable}
+
+\vspace{-1.6\baselineskip}
+
+% ----------- STEPS TABLE -----------
+% Adjusted column widths to prioritize the center columns where overlap occurs
+\begin{longtable}{|p{0.8cm}|p{1.4cm}|p{1.4cm}|p{2.1cm}|p{2cm}|p{1.9cm}|p{1.4cm}|}
+	\hline
+	\textbf{TC ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+	NO-01 & Initialize Alerts & Component Mount & \texttt{onMounted()} \newline $>$ \texttt{listenTo}\texttt{Alerts()} & \texttt{isLoading} becomes false; alerts array populated. & Firebase listener active. Data loaded successfully. & Passed \\ \hline
+	
+	NO-02 & Mark Read & Click unread alert & \texttt{handleView()} \newline $>$ \texttt{if(!alert.}\texttt{data.view)} & If view is false, \texttt{markAlertAs}\texttt{Viewed} called. & DB updated; read status reflected in UI. & Passed \\ \hline
+	
+	NO-03 & Specific Delete & Click trash icon & \texttt{handleDelete()} \newline $>$ \texttt{deleteAlert()} & \texttt{deletingId} matches ID; button disabled. & Entry removed from Firebase and UI list. & Passed \\ \hline
+	
+	NO-04 & Clear All & Click "Clear All" & \texttt{handleClear}\texttt{All()} $>$ \texttt{deleteAll}\texttt{Alerts()} & \texttt{isClearing} set to true; all alerts removed. & Collection cleared for current UID. & Passed \\ \hline
+	
+	NO-05 & Empty State & Empty alerts array & \texttt{v-else-if} \newline \texttt{(alerts.length} \newline \texttt{=== 0)} & UI renders "No Alerts" with "all caught up" text. & Empty state UI rendered correctly. & Passed \\ \hline
+	
+	NO-06 & Time Formatting & Mock timestamp & \texttt{formatTime()} $>$ \texttt{try-catch} block & Returns relative strings (e.g., "5m ago"). & Relative/PH date string returned correctly. & Passed \\ \hline
+	
+\end{longtable}
+
+% ----------- USER PROFILE AND ACCOUNT MANAGEMENT ---------
+\renewcommand{\arraystretch}{1.4}
+
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
+	\hline
+	\textbf{Test Scenario} & User Profile and Account Management Functionality \\ \hline
+	\textbf{Test Priority} & High \\ \hline
+	\textbf{Description} & Testing profile data rendering, real-time credit synchronization, and secure logout flow using white-box testing. \\ \hline
+	\textbf{Objective} & Validate data binding, asynchronous state management (isLoaded), and navigation guards during logout. \\ \hline
+\end{longtable}
+
+\vspace{-1.6\baselineskip}
+
+% ----------- STEPS TABLE -----------
+\begin{longtable}{|p{0.9cm}|p{1.4cm}|p{1.4cm}|p{2cm}|p{1.8cm}|p{2cm}|p{1.4cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+	PR - 01 & Load Profile & Component \newline Mount & \url{onMounted()} $>$ \newline \url{getUserData()} & \url{userData} populated; \url{isLoaded} true after 50ms. & Profile fields rendered; CSS animations triggered. & Passed \\ \hline
+	
+	PR - 02 & Credit Sync & Firebase \newline Update & \url{listenToCredit}\newline\url{Points()} \newline watcher & \url{creditPoints} updates automatically on DB change. & Real-time credit value updated in hero section. & Passed \\ \hline
+	
+	PR - 03 & Log Out & Click \newline "Log Out" & \url{logOut()} $>$ \newline \url{logOutUser()} & \url{isLoggingOut} true; redirect to \url{/welcomeScreen}. & Session ended; user redirected via \url{router.replace}. & Passed \\ \hline
+	
+\end{longtable}
+
+\vspace{1\baselineskip}
+
 % ----------- LOGIN DOCUMENTATION -----------
 \begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
 	\hline
 	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	
+	LP - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LP-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LP-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	
 	LG - 01 & 
 	\begin{minipage}[t]{\linewidth}
 		\centering
@@ -1652,20 +1751,245 @@ WS - 10 &
 		\vspace{0.1cm}
 	\end{minipage} \\ \hline
 \end{longtable}
-=======
-\begin{longtable}{|p{1cm}|p{6.3cm}|p{6.3cm}|}
-\hline
-\textbf{No.} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
-1 &  &  \\ \hline
-2 &  &  \\ \hline
-3 &  &  \\ \hline
-4 &  &  \\ \hline
-5 &  &  \\ \hline
-6 &  &  \\ \hline
-7 &  &  \\ \hline
-8 &  &  \\ \hline
-9 &  &  \\ \hline
-10 &  &  \\ \hline
+
+% -----------SELECT STATION DOCUMENTATION------
+\begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	ST - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/ST-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/ST-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	ST - 02 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/ST-02-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/ST-02-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	ST - 03 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/ST-03-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/ST-03-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+\end{longtable}
+
+% ----------- SLOT AND PAYMENT DOCUMENTATION -----------
+\begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	SS - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SS-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SS-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	PAY - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-01-code.png}
+		\vspace{0.2cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	 PAY - 02 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-02-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-02-result.png}
+		\vspace{0.1cm} 
+	\end{minipage} \\ \hline
+	 PAY - 04 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-04-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-04-result.png}
+		\vspace{0.1cm}
+	\end{minipage}\\ \hline
+ 	PAY - 05 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-05-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-05-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	NAV - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NAV-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NAV-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+\end{longtable}
+
+% ----------- NOTIFICATION DOCUMENTATION -----------
+\begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	NO - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	NO - 02 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-02-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-02-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	NO - 03 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-03-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-03-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	NO - 04 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-04-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-04-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	NO - 05 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-05-code.png}
+		\vspace{0.2cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-05-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	NO - 06 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-06-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-06-result.png}
+		\vspace{0.1cm} 
+	\end{minipage} \\ \hline
+\end{longtable}
+
+% ----------- PROFILE DOCUMENTATION -----------
+\begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	PR - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PR-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PR-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	PR - 02 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PR-02-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PR-02-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	PR - 03 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PR-03-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PR-03-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
 \end{longtable}
 
 \section {Functional and Usability Testing Results for Community Residents}

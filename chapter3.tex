@@ -710,7 +710,7 @@ The following table outlines the key considerations for selecting hardware compo
 
 Table 5 presents the selection of hardware components used in the development of the solar-powered rental station with detachable power sources. Each component was carefully chosen based on its functionality, efficiency, compatibility, and suitability for the overall system design. The selected materials collectively support the core operations of the system, including energy generation, storage, power conversion, monitoring, communication, and user interaction.
 
-Particular emphasis was placed on reliability and energy efficiency to ensure consistent performance in areas experiencing frequent power interruptions. Key components such as the monocrystalline solar panel and LiFePO₄ battery were selected to provide effective energy harvesting and stable, long-term power storage. In addition, power management and safety devices, including the MPPT charge controller, circuit breakers, relays, and pure sine wave inverter, were incorporated to regulate energy flow, protect system components, and ensure safe operation during use.
+Particular emphasis was placed on reliability and energy efficiency to ensure consistent performance in areas experiencing frequent power interruptions. Key components such as the monocrystalline solar panel and \ce{LiFePO4} battery were selected to provide effective energy harvesting and stable, long-term power storage. In addition, power management and safety devices, including the MPPT charge controller, circuit breakers, relays, and pure sine wave inverter, were incorporated to regulate energy flow, protect system components, and ensure safe operation during use.
 
 Furthermore, the system integrates control, communication, and user interface components to enhance functionality and accessibility. The ESP32 microcontroller, along with GSM, GPS, and Wi-Fi modules, enables real-time monitoring, data transmission, and automation of system processes. User interaction is facilitated through components such as LCD modules and the coin-slot mechanism, while security is reinforced through the use of solenoid locks and tracking features. Overall, the selected hardware components work together to form a cohesive, efficient, and user-oriented system designed for practical deployment in community settings.
 
@@ -776,7 +776,7 @@ Figure 3.18 illustrates the proposed 3D design of the detachable power source vi
 
 Figure 3.19 shows the proposed 3D design of the detachable power source viewed from an aerial perspective. It has overall dimensions of 10.04 inches in length, 7.20 inches in height, and 7.09 inches in width, based on the actual size and arrangement of the components and materials used. A holder strap is provided at the top of the unit, allowing users to conveniently hold and carry the detachable power source from the rental station to their homes and other nearby locations as needed.
 
-\begin{longtable}{p{5cm} p{6cm}}
+\begin{longtable}{p{6cm} p{7cm}}
 	\caption{Estimated Weight of the Detachable Power Source}\label{tab:Weight}\\
 	\toprule
 	\textbf{Component} & \textbf{Estimated Weight (g/kg)}\\
@@ -1119,7 +1119,7 @@ This section discusses the deployment and actual operation of the completed sola
  	This equation calculates the required power rating of the solar panel. The total daily energy consumption (500 Wh) is divided by the available sun peak hours (3.5 hours, based on PEC 2017) to determine the power output needed to fully recharge the battery each day. The computed value of approximately 142.86W is rounded up to a 200W solar panel for practical and technical considerations. Please refer to \hyperref[appendix:A]{Appendix A} for the detailed computation.
  	
  	\item \textbf{Inverter Sizing:} 
- 	\begin{longtable}{p{4cm} p{1.5cm} p{2.5cm} p{4cm}}
+ 	\begin{longtable}{p{4cm} p{1.5cm} p{2.2cm} p{4.2cm}}
  		\caption{Inverter Sizing} \label{tab:InverterSizing} \\
  		\toprule
  		\textbf{Load} & \textbf{Power} & \textbf{Power Surge} & \textbf{With Power Surge} \\
@@ -1292,7 +1292,7 @@ This section discusses the deployment and actual operation of the completed sola
  
  Assuming charging starts from 0\% state of charge, the detachable power source will require approximately 2.5 hours to reach full capacity under ideal conditions. In practice, charging may stop earlier due to low-voltage disconnect protection, typically when 20\%--30\% capacity remains, to prevent battery damage.
  
- \begin{longtable}{|p{3.5cm}|p{5.0cm}|p{4.0cm}|}
+ \begin{longtable}{|p{3.1cm}|p{5.0cm}|p{4cm}|}
  	\caption{Summary of Design Computation Formulas}\label{tab:design_formulas}\\
  	\hline
  	\textbf{Name} & \textbf{Formula} & \textbf{Description Summary} \\
