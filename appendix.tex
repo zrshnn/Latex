@@ -1896,5 +1896,2385 @@ Please answer the survey honestly. Your responses will be treated with strict co
 
 % Include proofreading certificate here
 
+\newpage
 
 
+{\centering
+    \textbf{Appendix N\\White Box and Black Box Testing Result}\par
+    \addcontentsline{toc}{chapter}{Appendix N: White Box and Black Box Testing Result}
+}
+
+
+\subsection {Black Box Testing}
+\subsubsection {Kuryenta - User's Rental App}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & User Onboarding Navigation & \textbf{Test Case ID} & TC-01 \\ \hline
+
+\textbf{Test Case Description} & Verify that the ``Get Started'' button correctly redirects the user to the Welcome Screen & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & A QR code is scanned, redirecting the user to a browser where the web application is accessed on a mobile device & \textbf{Post-Requisite} & User is presented with Log In and Sign Up options \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-.8\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Launch the Mobile Application & None & Application opens to the Landing Screen & Application opened the Landing Screen successfully & Passed \\ \hline
+
+2 & Click the Get Started button & Touch Gesture & The system should redirect the user to the Welcome Screen & The Welcome Screen loaded successfully, displaying ``Log In'' and ``Sign Up'' options & Passed \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========2nd===========
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Navigation to User Registration & \textbf{Test Case ID} & TC-02 \\ \hline
+
+\textbf{Test Case Description} & Verify that the “Sign Up” button correctly redirects the user to the Sign Up Screen & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Application is on the Welcome Screen (result of TC-01) & \textbf{Post-Requisite} & Sign Up forms is active and ready for data entry. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-.8\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Tap the Sign Up button on the Welcome Screen  & Touch Gesture & The application should navigate to the Sign Up screen & Sign Up Screen loaded successfully & Passed \\ \hline
+
+2 & Verify the presence of registration fields & None & All required user personal information fields (e.g., Name, Email Address, Password) should be visible & The page displayed all the required personal information for user registration. & Passed \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========3rd===========
+
+\renewcommand{\arraystretch}{1.4}
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & User Account Registration (Sign Up) & \textbf{Test Case ID} & TC-03 \\ \hline
+
+\textbf{Test Case Description} & Verify that a new user can successfully create an account by providing their complete and valid registration data & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Primary Sign Up Screen & \textbf{Post-Requisite} & A new user record is created in the database, and the user is redirected to the Login Screen \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+\end{longtable}
+\small
+
+\vspace{-.8\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\endhead
+
+1 & Enter account credentials and contact details &
+First Name: Sheena \newline
+Last Name: Simon \newline
+Phone: +63 \newline 9362762948
+Email: \newline simonsheena58 \newline @gmail.com
+Password: nanan\_58 \newline
+Confirm: nanan\_58
+&
+Fields accept valid data and mask password &
+Data accepted and password masked & Passed \\ \hline
+
+2 & Tap “Proceed” button &
+Touch Gesture &
+System validates data and moves to next screen &
+Successfully redirected & Passed \\ \hline
+
+3 & Enter demographic and location details &
+Sex: Female \newline
+Birthdate: 08/05/2004 \newline
+Province: Camiguin \newline
+City: Mambajao \newline
+Barangay: Tupsan
+&
+System accepts inputs &
+All inputs recorded successfully & Passed \\ \hline
+
+4 & Click “Create Account” button &
+Touch Gesture &
+Display success message and redirect to login &
+Message displayed and redirected & Passed \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+%========4th===========
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & User Account Authentication & \textbf{Test Case ID} & \\ \hline
+
+\textbf{Test Case Description} & Verify that a registered user can successfully log in and access the Home Screen using valid credentials.  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The application is on the “Log In” screen; a valid user record exists in the Firebase database (Refer to TC-03) \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.8\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Entering the registered Email Address and Password & Email Address: \newline “simonsheena58 \newline @gmail.com" 
+Password: “nanan\_58”
+ & The input fields should accept and display the credentials correctly. & The credentials are displayed in the input fields & Passed \\ \hline
+
+2 & Verify the presence of input fields & None & System should redirect the user to the Home Screen & The Home Screen loaded successfully, displaying the main  & Passed \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+
+%========5th===========
+
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Negative Log In Testing - Missing Password & \textbf{Test Case ID} & TC-04 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system prevents login and displays an error message when the password field is left blank  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains on the Log In Screen with the error message visible \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.8\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Entering the registered Email Address & Email Address: \newline “simonsheena58 \newline @gmail.com"
+ & The email address field accepts the input & Email Address entered successfully & Passed \\ \hline
+
+2 & Leave the Password field empty & Password: (empty) & No characters should be present in the password field & The password field remained empty  & Passed \\ \hline
+
+3 & Tap the Log In button & Touch Gesture & The system shouldn’t accept the attempt and display an error message:  “Please enter your password”. & The error message  “Please enter your password” was displayed  & Passed \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+
+%========6th===========
+
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Negative Log In Testing - Incorrect Password & \textbf{Test Case ID} & TC-05 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system denies access and displays an error message when an incorrect password is provided for a registered email  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains unauthenticated on the Log In Screen  \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.8\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Enter a valid registered email address & Email Address: \newline “simonsheena58 \newline @gmail.com" 
+ & The email address field accepts the input & Email entered successfully & Passed \\ \hline
+
+2 & Enter an incorrect password & Password: “nanan” & The password field masks the input & Password entered and masked  & Passed \\ \hline
+
+3 & Tap the Log In button & Touch Gesture & The system should display a message: “Invalid email or password.” & The error message  “Invalid email or password” was displayed as expected  & Passed \\ \hline
+
+
+\end{longtable}
+
+
+\vspace{1em}
+
+%========7th===========
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Input Validation and Authentication Error Handling & \textbf{Test Case ID} & TC-06 \\ \hline
+
+\textbf{Test Case Description} & Verify the system's ability to identify malformed email strings and reject incorrect credential inputs  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains unauthenticated on the Log In Screen   \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Enter an incorrectly formatted email and a correct password. & Email Address: \newline “simonsheena58\newline gmail.com" 
+Password: “nanan\_58”
+ & The system should detect the missing "\@" and display an error message: "Invalid email address." & The error message "Invalid email address" was displayed. & Passed \\ \hline
+
+2 & Enter a correctly formatted email, but an incorrect password. & Email Address: \newline “simonsheena58 \newline @gmail.com" 
+Password: “nanan”
+ & The system should deny access and display an error message: "Invalid email or password". & The error message "Invalid email or password" was displayed.  & Passed \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+
+%========8th===========
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Negative Log In Testing - Missing Email Address & \textbf{Test Case ID} & TC-07 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system prevents login and displays an error message when the email address field is left blank  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the Log In Screen (result TC-03) & \textbf{Post-Requisite} & The user remains on the Log In Screen with the error message visible \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Leave the Email Address field empty & Email Address: “empty.”
+ & No characters should be present in the email address field & The email address field remained empty & Passed \\ \hline
+
+2 & Entering the registered password & Password: “nanan\_58”
+ & The password field accepts the input & Password entered and masked successfully  & Passed \\ \hline
+
+3 & Tap the Log In button & Touch Gesture
+ & The system shouldn’t accept the attempt and display an error message:  “Please enter your email”. & The error message  “Please enter your email” was displayed & Passed \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========9th===========
+
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Eye Icon Functionality - Password Visibility Toggle & \textbf{Test Case ID} & TC-09 \\ \hline
+
+\textbf{Test Case Description} & Verify that the password visibility toggle (eye icon) accurately switches between masked characters and plain text.  & \textbf{Test \newline Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & The user has entered a string of characters into the password field. & \textbf{Post-Requisite} & The password remains in the user's preferred visibility state. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Enter characters into the password field. & Password: “nanan\_58”
+ & The input should be masked (e.g., asterisks) by default. & Input was masked by default. & Passed \\ \hline
+
+2 & Tap the Eye Icon (Visibility Toggle). & Touch Gesture
+ & The masked password should transition to plain text visibility. & The password became visible as plain text. & Passed \\ \hline
+
+3 & Tap the Eye Icon again & Touch Gesture
+ & The plain text password should return to a masked state. & The password was successfully hidden/masked. & Passed \\ \hline
+\end{longtable}
+
+
+\vspace{1em}
+%========10th===========
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Successful User Authentication and Redirection & \textbf{Test Case ID} & TC-10 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system authenticates a user with valid credentials and successfully redirects them to the application's Home Screen.  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & A registered account exists with the provided credentials; the app is on the Log In screen. & \textbf{Post-Requisite} & The user session is established, and the Home Page interface is fully loaded. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Enter a valid registered email address and password & Email Address: “simonsheena58@gmail.com" 
+Password: “nanan\_58”
+ & The field accepts and displays the email. The password field masks the input characters. & Email address entered successfully. Password entered and masked. & Passed \\ \hline
+
+2 & Tap the Log In button. & Touch Gesture
+ & The system validates the credentials and redirects the user. & The system authenticated the user and redirected to the Home Screen. & Passed \\ \hline
+
+3 & Verify the Home Screen content. & None
+ & The Home Screen should display the main dashboard  & The Home Screen loaded successfully as expected. & Passed \\ \hline
+\end{longtable}
+
+
+\vspace{1em}
+%========11th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Hardware Permission Handling - Camera Access Denial & \textbf{Test Case ID} & TC-11 \\ \hline
+
+\textbf{Test Case Description} & Verify that the application correctly handles the denial of camera permissions and provides an informative message to the user.  & \textbf{Test \newline Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & The application is at a stage requiring camera access (e.g., Profile Photo Upload). & \textbf{Post-Requisite} & Camera functionality remains disabled, and the user is prompted with an explanation. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Trigger a feature requiring the camera (e.g., Update Profile Photo). & Touch Gesture
+ & The system's native permission dialog should appear. & The system permission dialog was triggered. & Passed \\ \hline
+
+2 & Select the "Don't Allow" or "Never Allow" option. & Button Click
+ & The application should intercept the denial and display a justification message. & The application detected the denial of permission. & Passed \\ \hline
+
+3 & Observe the application's feedback message. & None
+ & An error message: "Could not access camera. Please allow camera permission" should be displayed.  & The error message was displayed as expected, and the feature was disabled. & Passed \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========12th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Hardware Permission Integration - Profile Photo Capture & \textbf{Test Case ID} & TC-12 \\ \hline
+
+\textbf{Test Case Description} & Verify that the application successfully accesses the camera and saves a captured image to the user profile once permission is granted.  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The application is on the "Edit Profile" screen; camera permission has not been granted previously and is now being allowed. & \textbf{Post-Requisite} & The user's profile is updated with the new image in the database. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Trigger the camera function to update the profile picture. & Touch Gesture
+ & The system's native permission dialog should appear. & Permission dialog appeared. & Passed \\ \hline
+
+2 & Select the "Allow" or "While Using the App" option. & Button Click
+ & The camera interface should launch successfully. & The camera viewfinder opened without error. & Passed \\ \hline
+
+3 & Capture a photo and confirm the selection. & “Tap to Capture” button
+ & The image should be processed and displayed as the new profile picture.  & The photo was captured and successfully displayed on the profile. & Passed \\ \hline
+
+4 & Save the profile changes. & None
+ & The system should confirm that the profile information and photo were automatically saved.  & Edited personal information and the new profile photo were automatically saved successfully. & Passed \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========13th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Image Re-capture and Facial Detection Verification & \textbf{Test Case ID} & TC-13 \\ \hline
+
+\textbf{Test Case Description} & Verify that the application’s facial detection guide functions correctly during a photo retake and that the resulting image is successfully uploaded to storage.  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Camera permission has been granted; user is on the "Edit Profile" or "Camera" interface. & \textbf{Post-Requisite} & The existing profile photo is overwritten by the new image in the cloud storage/database. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Initiate the "Retake” Profile Photo action & Touch Gesture
+ & The camera interface should open with a circular guide and the message "Position your face inside the circle". & The camera interface and circular guide loaded with the prompt "Waiting for face". & Passed \\ \hline
+
+2 & Align face within the designated circular guide. & Physical Alignment
+ & The system should detect the face and change the status/button to "Tap to capture". & Face was detected; the "Tap to capture" button became active. & Passed \\ \hline
+
+3 & Click the capture button to retake the photo. & Touch Gesture
+ & The photo should be captured, and an "Uploading" status should be displayed.  & The "Uploading" message appeared immediately after capture. & Passed \\ \hline
+
+4 & Observe the finalization of the upload. & None
+ & The image should be successfully saved to storage and update the UI.  & The photo was captured and successfully uploaded to storage. & Passed \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+%========14th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-14 \\ \hline
+
+\textbf{Test Case Description} & Verify station identification and real-time slot availability.  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User is authenticated and on the Home Screen. & \textbf{Post-Requisite} & Slot Availability Tab is populated with data. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Enter the Station ID in the search bar & Enter Station ID (e.g. 0001): “0002”
+ & System accepts the Station ID and initiates a loading state. & Station ID was accepted; "Loading Station" message appeared. & Passed \\ \hline
+
+2 & Observe the Slot Availability Tab. & None
+ & The tab should load a list of available slots to be rented. & Slot Availability Tab loaded with current available slots as expected. & Passed \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+%========15th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-15 \\ \hline
+
+\textbf{Test Case Description} & Verify station identification and real-time slot availability.  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Verify selection of available slots and view details of the Portable Power Source (Battery Percentage, Price, and Return Period) & \textbf{Post-Requisite} & User is on the specific Slot Detail view. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Select an available (unrented) slot. & Touch Gesture
+ & Navigate to the details tab for the selected slot. & Successfully navigated to the selected slot's detail tab. & Passed \\ \hline
+
+2 & Review Portable Power Source Details & None
+ & Display Battery Percentage, Unit Price, and Return Period. & Details (Battery \%, Price, Period) were displayed accurately. & Passed \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========16th===========
+
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Portable Power Source Rental Workflow & \textbf{Test Case ID} & TC-16 \\ \hline
+
+\textbf{Test Case Description} & Verify the cancellation of a slot selection before confirming a rental.  & \textbf{Test \newline Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & User is on the Slot Detail view (result of TC-16). & \textbf{Post-Requisite} & User returns to the general Slot Availability list. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Click the “X” Cancel button. & Touch Gesture
+ & The system should terminate the selection and return to the previous screen. & The application returned to the Slot Availability Tab successfully. & Passed \\ \hline
+
+2 & Verify list state. & None
+ & The list of available slots should be visible and refreshed. & Slot Availability Tab list reloaded and showed all available slots. & Passed \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========17th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Client Payment Selection and Hardware Initialization & \textbf{Test Case ID} & TC-17 \\ \hline
+
+\textbf{Test Case Description} & Verify the initialization of the physical coin slot for coin payments.  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User has selected an available slot and reached the payment selection view. & \textbf{Post-Requisite} & Hardware is prepared to receive physical currency. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Select the coin payment option. & Click “Pay via Coin Slot” button
+ & A “Preparing Coin Slot” tab should appear with a 30-second timeout message. & The “Preparing Coin Slot” tab appeared and initialized successfully. & Passed \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+%========18th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Client Payment Selection (Credit Points) & \textbf{Test Case ID} & TC-18 \\ \hline
+
+\textbf{Test Case Description} & Verify the system's ability to initialize the rental process using virtual credit points.  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User has sufficient credit points (e.g., P10000) and is on the payment screen. & \textbf{Post-Requisite} & The system prepares the specific slot for unlocking. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Select the credit payment option. & Tap “Pay via Credit Points (P10000 available).”
+ & A “Preparing Slot” tab should appear, indicating the station is unlocking the slot. & The “Preparing Slot” tab loaded successfully as expected. & Passed \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+
+%========19th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Cash Payment Processing and Notification & \textbf{Test Case ID} & TC-19 \\ \hline
+
+\textbf{Test Case Description} & Verify the real-time coin counting logic, timer reset functionality, and successful payment notification.  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & The system is in the “Waiting for Coins” state with an active countdown timer. & \textbf{Post-Requisite} & Payment is recorded, the session is finalized, and the user is notified \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Insert physical coins into the station. & Physical Currency
+ & The display should update the total in real-time. The countdown timer should reset to its initial value upon each insertion. & Each coin was detected; the total updated correctly, and the timer successfully reset on each insertion & Passed \\ \hline
+
+2 & Finalize the transaction & Click the “Done Paying” button
+ & The system should validate the total amount and trigger a "Payment Successful. You rented slot1" notification on the Alerts Screen. & Transaction was validated; "Payment Successful. You rented slot1" notification appeared on the Alerts Screen. & Passed \\ \hline
+\end{longtable}
+
+
+\vspace{1em}
+
+%========20th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Credit Point Transaction and Notification & \textbf{Test Case ID} & TC-20 \\ \hline
+
+\textbf{Test Case Description} & Verify the deduction of points and successful rental activation via virtual credits.  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & System displays the “Price” and “Your Points” comparison view. & \textbf{Post-Requisite} & Credits are deducted, and the successful payment alert is triggered. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Confirm the credit transaction. & Click the “Confirm Payment” button
+ & The system should validate sufficient points and process the deduction. & Point validation and deduction were processed successfully. & Passed \\ \hline
+
+2 & Verify the alert notification. & None
+ & A "Payment Successful. You rented slot1" notification should be visible on the Alerts Screen. & Transaction was validated; "Payment Successful. You rented slot1" notification appeared on the Alerts Screen. & Passed \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========21st===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Notification Navigation & \textbf{Test Case ID} & TC-21 \\ \hline
+
+\textbf{Test Case Description} & Verify that the user can navigate to the Alerts Screen.  & \textbf{Test \newline Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & The user is logged in and on any main screen with the bottom navigation bar. & \textbf{Post-Requisite} & The Alerts Screen is active and displays a list of system notifications. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Click the “Bell” icon in the bottom navigation bar. & Touch Gesture
+ & The system should redirect the user to the Alerts Screen. & The user was successfully redirected to the Alerts Screen. & Passed \\ \hline
+
+2 & Verify the list of notifications. & None
+ & Logged alerts (e.g., "Payment successful! You rented slot1", “Successfully Returned slot1”, “Failed Transaction”) should be visible. & Recent transaction and return alerts were displayed as expected. & Passed \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========22nd===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Notification Management & \textbf{Test Case ID} & TC-22 \\ \hline
+
+\textbf{Test Case Description} & Verify the functionality of deleting individual alerts and clearing the entire notification log.  & \textbf{Test \newline Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & The user is on the Alerts Screen and at least one notification exists. & \textbf{Post-Requisite} & The selected notifications are permanently removed from the Alerts Screen \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Click the “Trash Icon”  next to a specific alert. & Touch Gesture
+ & The specific notification (e.g., "Failed Transaction") should be removed. & The selected alert was successfully deleted from the list. & Passed \\ \hline
+
+2 & Tap the "Clear All" button. & Touch Gesture
+ & All notifications in the list should be cleared simultaneously. & All alerts were removed; the screen displayed an empty state. & Passed \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========23rd===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Notification Management & \textbf{Test Case ID} & TC-23 \\ \hline
+
+\textbf{Test Case Description} & Verify the loading of user-specific data on the Profile edit screen.  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User is logged in and on the Home Screen & \textbf{Post-Requisite} & Profile Screen is active with all editable fields populated. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Tap the “Profile Icon” in the navigation bar. & Touch Gesture
+ & Profile Screen should display Full Name, Email Address, Phone Number, Sex, Birthdate, Location, and Photo & Profile Screen loaded successfully with all user data & Passed \\ \hline
+
+2 & Tap the "Clear All" button. & Touch Gesture
+ & All notifications in the list should be cleared simultaneously. & All alerts were removed; the screen displayed an empty state. & Passed \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+
+%========24th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Profile Photo Hardware Trigger & \textbf{Test Case ID} & TC-24 \\ \hline
+
+\textbf{Test Case Description} & Verify the activation of the camera interface via the profile photo placeholder.  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User is on the Profile Page. & \textbf{Post-Requisite} & Camera viewfinder is active with face recognition overlays. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Tap the profile photo placeholder. & Touch Gesture
+ & The system should launch the camera and display the face detection guide. & The "Take Profile Photo" dialog opened with the circular face recognition guide. & Passed \\ \hline
+
+\end{longtable}
+
+
+\vspace{1em}
+%========25th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Profile Edit Cancellation & \textbf{Test Case ID} & TC-25 \\ \hline
+
+\textbf{Test Case Description} & Verify that changes are discarded and the user is redirected when clicking "X"  & \textbf{Test \newline Priority} & Medium \\ \hline
+
+\textbf{Pre-Requisite} & User is in the Profile Edit mode or Camera mode. & \textbf{Post-Requisite} & User returns to the previous screen; no data is modified in the database. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Tap the "X" (Close) button & Touch Gesture
+ & User should be redirected to the previous screen with no changes saved. & Redirected successfully; original profile data remained unchanged. & Passed \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+
+%========26th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Facial Detection and Image Upload & \textbf{Test Case ID} & TC-26 \\ \hline
+
+\textbf{Test Case Description} & Verify the facial detection logic, image capture, and cloud storage upload.  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Camera interface is active (TC-24) & \textbf{Post-Requisite} & New image is saved to storage and updated on the profile. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Align face within the circular guide. & Physical Alignment
+ & System should display "Looking for face" then "Waiting for face" until detected. & Messages appeared as expected; face was successfully detected. & Passed \\ \hline
+
+2 & Capture and upload the photo. & Tap "Capture Photo"
+ & An "Uploading" status should appear; the image should save to storage. & "Uploading" message appeared; photo was captured and saved to storage. & Passed \\ \hline
+
+\end{longtable}
+
+\vspace{1em}
+
+%========27th===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ----------- HEADER TABLE -----------
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Facial Detection and Image Upload & \textbf{Test Case ID} & TC-27 \\ \hline
+
+\textbf{Test Case Description} & Verify that logging out successfully terminates the session and redirects to the Welcome Screen.  & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & User is authenticated and on the Profile Screen. & \textbf{Post-Requisite} & Session is cleared; user cannot navigate back to authenticated screens. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Tap the "Log Out" button. & Touch Gesture
+ & User should be redirected to the Welcome Screen. & Successfully redirected to the Welcome Screen & Passed \\ \hline
+
+\end{longtable}
+
+\vspace{2em}
+
+%==============================
+%=====ADMIN - BLACK BOX=======
+%==============================
+
+\subsubsection {Kuryenta - Admin's Monitoring App}
+
+%========1ST===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Dashboard Overview — Summary Cards & \textbf{Test Case ID} & TC-01 \\ \hline
+
+\textbf{Test Case Description} & Verify that all six summary stat cards on the Dashboard display the correct labels and live data values. & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin is logged in and the Dashboard page is loaded. & \textbf{Post-Requisite} & All six cards (Total Stations, Available Slots, Active Rentals, Overdue, Total Users, Banned Users) are visible with correct values. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Navigate to the Dashboard page. & None & Dashboard loads without errors; six stat cards are displayed. & Dashboard loaded successfully with all six cards visible. & Passed\\ \hline
+
+2 & Observe the 'Total Stations' card (blue). & None & The card displays the correct count of registered stations (e.g., 1). & The Total Stations card displayed the correct count. & Passed\\ \hline
+
+3 & Observe the 'Available Slots' card (green). & None & Card displays the count of currently available slots (e.g., 0). & Available slots cards displayed the correct count. & Passed\\ \hline
+
+4 & Observe the 'Active Rentals' card (orange). & None & Card displays the number of ongoing rentals (e.g., 2). & The Active Rentals card displayed the correct count. & Passed\\ \hline
+
+5 & Observe the 'Overdue' card (red). & None & Card displays count of overdue rentals (e.g., 0). & The overdue card displayed the correct count. & Passed\\ \hline
+
+6 & Observe the 'Total Users' card (purple). & None & Card displays total registered users (e.g., 16). & The total users card displayed the correct count. & Passed\\ \hline
+
+7 & Observe the 'Banned Users' card (gray). & None & Card displays total banned user accounts (e.g., 0). & The Banned Users card displayed the correct count. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========2ND===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Dashboard Overview — Overdue Alerts Panel & \textbf{Test Case ID} & TC-02 \\ \hline
+
+\textbf{Test Case Description} & Verify that the Overdue Alerts panel correctly shows a 'no overdue rentals' empty state when no rentals are overdue. & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Dashboard is loaded and no rentals are currently overdue. & \textbf{Post-Requisite} & The Overdue Alerts panel shows green checkmark and empty-state message. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Navigate to the Dashboard page. & None & Dashboard page loads successfully. & Dashboard loaded successfully. & Passed\\ \hline
+
+2 & Locate the 'Overdue Alerts' panel. & None & The panel is present with a badge showing the overdue count. & Overdue Alerts panel found with count badge '0'. & Passed\\ \hline
+
+3 & Observe the panel body when overdue count is 0. & None & Green checkmark icon and message 'No overdue rentals!' are displayed. & Green checkmark and empty-state message displayed as expected. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========3RD===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Dashboard Overview — Recent Rental History & \textbf{Test Case ID} & TC-03 \\ \hline
+
+\textbf{Test Case Description} & Verify that the Recent Rental History panel displays the latest rental entries with correct user, station, and status information. & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & At least one rental record exists in the database; Dashboard is loaded. & \textbf{Post-Requisite} & Panel shows up to 5 most recent rentals sorted by newest first. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Navigate to the Dashboard page. & None & Dashboard loads successfully. & Dashboard loaded successfully. & Passed\\ \hline
+
+2 & Locate the 'Recent Rental History' panel. & None & The panel is present on the right side of the Dashboard. & Recent Rental History panel located. & Passed\\ \hline
+
+3 & Observe the list of rental entries. & None & Up to 5 entries are shown, each displaying: user avatar, name, station and slot, and a status badge (active/returned). & 5 recent entries shown with correct user names, station info, and status badges. & Passed\\ \hline
+
+4 & Verify the sort order of entries. & None & Entries are sorted newest-first (most recent rental appears at the top). & Entries were sorted newest-first as expected. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========4TH===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Dashboard Overview — Sidebar Badge Counts & \textbf{Test Case ID} & TC-04 \\ \hline
+
+\textbf{Test Case Description} & Verify that sidebar navigation badges accurately reflect the live counts for Active Rentals and Offline Monitor. & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin is logged in; there are active rentals and offline stations/slots present. & \textbf{Post-Requisite} & Sidebar badges match the values displayed on their respective dashboard cards. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Open the sidebar and observe the 'Active Rentals' menu item. & None & A blue badge displaying the current active rental count (e.g., 2) is visible. & The Active Rentals badge showed the correct count '2'. & Passed\\ \hline
+
+2 & Observe the 'Offline Monitor' menu item. & None & A red badge displaying the sum of offline stations and offline slots (e.g., 3) is visible. & The Offline Monitor badge showed the correct count '3'. & Passed\\ \hline
+
+3 & Compare sidebar badge values against the dashboard stat cards. & None & Badge counts match the corresponding stat card values on the Dashboard. & All sidebar badge counts matched dashboard card values. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========5TH===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Dashboard Overview — Refresh Functionality & \textbf{Test Case ID} & TC-05 \\ \hline
+
+\textbf{Test Case Description} & Verify that the refresh button reloads the Dashboard with the latest data from the database. & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin is on the Dashboard page. & \textbf{Post-Requisite} & Dashboard data is updated to reflect the most recent state.\\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Locate and click the refresh icon in the top-right of the header toolbar. & Touch Gesture & The page reloads and all dashboard stat cards update with the latest values. & Page reloaded; all stat card values refreshed successfully. & Passed\\ \hline
+\end{longtable}
+
+\vspace{2em}
+
+%========6TH===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Live Map — Station Marker Display & \textbf{Test Case ID} & TC-06 \\ \hline
+
+\textbf{Test Case Description} & Verify that the Live Map loads and correctly displays station markers at their geographic coordinates. & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin is logged in; at least one station with GPS coordinates exists. & \textbf{Post-Requisite} & Map is fully rendered with all station markers visible at correct positions.\\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Enter a valid registered email address & Email Address: “simonsheena58@gmail.com"  & The email address field accepts the input & Email entered successfully & Passed\\ \hline
+
+2 & Enter an incorrect password & Password: “nanan”  & The password field masks the input & Password entered and masked & Passed\\ \hline
+
+3 & Tap the Log In button & Touch Gesture  & The system should display a message: “Invalid email or password.” & The error message  “Invalid email or password” was displayed as expected & Passed\\ \hline
+\end{longtable}
+
+
+\vspace{2em}
+
+%==============================
+%=====NOTIFIER - BLACK BOX=====
+%==============================
+
+\subsubsection {Kuryenta - Notifier's App}
+
+%========1ST===========
+
+\renewcommand{\arraystretch}{1.4}
+
+
+% ----------- HEADER TABLE -----------
+
+\begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
+\hline
+\textbf{Test \newline Scenario} & Dashboard Monitoring and Notification System & \textbf{Test Case ID} & TC-01 \\ \hline
+
+\textbf{Test Case Description} & Verify that the system displays complete rental details per slot and sends SMS notifications to the user when rental time is near end, due for return, and overdue. & \textbf{Test \newline Priority} & High \\ \hline
+
+\textbf{Pre-Requisite} & Admin has accessed the notifier application; app is connected to Firebase; active rentals exist. & \textbf{Post-Requisite} & Slot details are visible and notifications are triggered correctly based on time conditions. \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{Test Execution Steps:}} \\ \hline
+
+\end{longtable}
+
+\vspace{-1.7\baselineskip}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
+
+1 & Open the app dashboard & None & Dashboard loads with all slot cards visible & Dashboard loaded successfully showing Slot 1 and Slot 2 cards & Passed\\ \hline
+
+2 & Observe Slot Information & None & Each slot shows: Name, Phone, Battery \%, Rent Time, Return Time & Each slot displays user name, phone number, battery \%, rented at, and return by details correctly & Passed\\ \hline
+
+3 & Verify real-time connection & Firebase active & Status shows "Connected to Firebase — monitoring in real-time" & Status banner displayed "Connected to Firebase — monitoring in real-time" & Passed\\ \hline
+
+4 & Check active rental display & Slot is rented & Slot status shows "Rented" with correct user details & Both Slot 1 and Slot 2 show "Rented" status with correct user information & Passed\\ \hline
+
+5 & Monitor countdown timer & Active rental & Remaining time is displayed and updates dynamically & Countdown timer displayed (e.g., "5h 49m left", "5h 45m left") and updates correctly & Passed\\ \hline
+
+6 & Simulate return due time reached & Current time = return time & System sends "Return Now" notification & The Banned Users card displayed the correct count. & Passed\\ \hline
+
+7 & Simulate overdue rental & Current time $>$ return time & System sends "Overdue" alert notification & System triggered overdue notification when rental exceeded return time & Passed\\ \hline
+
+8 & Verify SMS log updates & Notification triggered & SMS Log displays sent notification record & SMS Log updated accordingly after notifications were triggered & Passed\\ \hline
+
+9 & Check multiple slots behavior & Slot 1 and Slot 2 active & Notifications handled independently per slot & Each slot processed notifications independently without conflict & Passed\\ \hline
+
+10 & Verify battery indicator display & Battery data available & Battery percentage is shown correctly per slot & Battery levels displayed correctly (e.g., 67\%, 100\%) with visual indicator & Passed\\ \hline
+
+11 & Pause monitoring & Click "Pause" button & System stops real-time monitoring and notifications & Monitoring paused successfully; no further real-time updates observed & Passed\\ \hline
+\end{longtable}
+
+
+
+\newpage
+\subsection {White Box Testing}
+\subsubsection {Kuryenta - User's Rental App}
+
+% ----------- LOGIN -----------
+
+\renewcommand{\arraystretch}{1.4}
+
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
+\hline
+\textbf{Test Scenario} & Log In Screen Functionality \\ \hline
+\textbf{Test Priority} & High \\ \hline
+\textbf{Description} & Verification of valid credentials logic.  \\ \hline
+\textbf{Objective} &  Validate successful authentication and redirection path. \\ \hline
+%\textbf{another row} &  \\ \hline
+\end{longtable}
+
+\vspace{-1.6\baselineskip}
+
+
+\begin{longtable}{|p{0.9cm}|p{1.4cm}|p{1.4cm}|p{2cm}|p{1.8cm}|p{2cm}|p{1.4cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+
+LG - 01 & Navigate to Login Screen and input valid credentials & Email: \newline \url{user@} \newline \url{gmail.com} \newline Pass: \newline 123456 & Login Screen $>$ \newline Firebase \newline logInUser \newline Auth $>$ \newline \url{router.} \newline \url{replace()} & User successfully logs in and is redirected to the Home Screen. & User successfully logged in. Redirected to the Home Screen. & Passed \\ \hline
+	
+LG - 02 & Input a valid email and verify data flow & Email: \newline \url{valid}\newline \url{mail@} \newline \url{example.com} \newline Pass: \newline pass123 & UI Input $>$ \newline \url{email.value} $>$ \newline \url{logInUser(} \newline \url{email.value,} \newline \url{pass.value)} & Email is correctly passed to the logInUser() method. & \url{logInUser()} called. Email passed successfully. & Passed \\ \hline
+	
+LG - 03 & Attempt login with empty Email field. & Email: \newline (empty) \newline Pass: \newline pass123 & logIn function $>$ \newline \url{!email.} \newline \url{value.trim()} \newline check $>$ \newline Early return & Validation fails; process does not proceed to Firebase. & Invalid credentials. Error message displayed. & Passed \\ \hline
+	
+LG - 04 & Attempt login with empty Password field. & Email: \newline \url{user@} \newline \url{gmail.com} \newline Pass: \newline (empty) & logIn function $>$ \newline \url{!password.value} check $>$ \newline Early return & Validation fails; process does not proceed to Firebase. & Error: "Please enter your password" displayed. & Passed \\ \hline
+	
+PA - 05 & Toggle password visibility. & Tap toggle icon (click event). & \url{show}\newline \url{Password} \newline state: \newline false $>$ true & Input type changes from "password" to "text". Icon changes. & Field toggles between masked and unmasked view. & Passed \\ \hline
+	
+LG - 06 & Tap "Log In" while \_isLoading is true. & Tap "Log In" button & logIn \newline function $>$ \url{if(is}\newline \url{Loading.} \newline \url{value)} check & Button remains disabled; indicator is rendered. & Progress Indicator displayed; button disabled. & Passed \\ \hline
+	
+LG - 07 & Use invalid credentials for login & Email: \newline \url{invalid} \newline \url{@gmail.com} \newline Pass: \newline pass123 & \url{logInUser()} $>$ \newline Firebase \newline Exception $>$ \newline catch block & Auth service triggers an error; message is displayed. & Error: "Invalid email or password" displayed. & Passed \\ \hline
+	
+WS - 08 & Tap "Sign Up" button. & None & Welcome Screen $>$ \newline signUp() $>$ \url{router.} \newline \url {push(name:} \newline \url {'signUp} \newline \url{Screen')} & Navigation logic triggers redirection. & User successfully navigated to SignUpScreen. & Passed \\ \hline
+	
+LG - 09 & Enter invalid email format. & Email: \newline \url{invalid}\newline \url{mail} \newline Pass: \newline pass123 & logIn func $>$ \newline \url{email}\newline \url{Pattern.} \newline \url{test()} check & Validation fails; error message is displayed. & Error: “Please enter a valid email address”. & Passed \\ \hline
+
+WS - 10 & Tap "Log In" button. & None & Welcome Screen $>$ \newline \url{router.push} \newline \url{('logIn} \newline \url {Screen')} & Navigation logic triggers redirection. & User successfully navigated to LogInScreen. & Passed \\ \hline
+\end{longtable}
+
+\renewcommand{\arraystretch}{1.4}
+
+% ----------- SIGN UP -----------
+
+\renewcommand{\arraystretch}{1.4}
+
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
+	\hline
+	\textbf{Test Scenario} & Sign Up Screen Functionality \\ \hline
+	\textbf{Test Priority} & High \\ \hline
+	\textbf{Description} & Verification of multi-step registration logic and media capture. \\ \hline
+	\textbf{Objective} & Validate data persistence, navigation paths, and validation checks. \\ \hline
+\end{longtable}
+
+\vspace{-1.6\baselineskip}
+
+% ----------- STEPS TABLE -----------
+\begin{longtable}{|p{0.9cm}|p{1.4cm}|p{1.4cm}|p{2cm}|p{1.8cm}|p{2cm}|p{1.4cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+SU - 01 & Input all \newline required fields correctly and tap "Proceed." & First Name, Last Name, \newline Phone, \newline Email, \newline Password & \url{SignUp}\newline \url{Screen.vue} $>$ \url{proceed()} $>$ \newline Validation Pass $>$ \newline \url{router.push()} & User is redirected to the next page of the Sign Up Screen. & User redirected to the next page of Sign Up Screen. & Passed \\ \hline
+	
+SU - 02 & Use the date picker for the Birthday field. & Select a valid date, e.g., \newline "05/10/\newline2003" & \url{SignUp}\newline \url{Screen}\newline \url{Second.vue} $>$ \newline \url{input type=date} $>$ \newline \url{signUpData} \newline \url{.birthdate} & The selected date is captured by the \url{v-model} and displayed. & Selected date is displayed in the Birthday field correctly. & Passed \\ \hline
+	
+SU - 03 & Input all required fields correctly and tap "Proceed." & Sex, \newline Birthdate, \newline and Address & \url{SignUp}\newline \url{Screen}\newline \url{Second.vue} $>$ \newline \url{proceed()} $>$  \url{router.push()} & User is redirected to the Last Page (Profile Photo Upload). & User redirected to the profile photo upload page. & Passed \\ \hline
+	
+SU - 04 & Leave one field empty and \newline attempt to \newline proceed. & Empty field \newline (e.g., \newline firstName) is blank, but others are filled). & \url{proceed()} func $>$ \newline Empty check $>$ \newline \url{error}\newline \url{Message} \newline \url{.value} & User is notified to fill field; \newline navigation \newline is blocked. & Error message displayed. Navigation prevented. & Passed \\ \hline
+	
+SU - 05 & Toggle the Terms of Service & Tap on the \newline "Terms of \newline Service" link & \url{SignUp}\newline \url{Screen}\newline \url{Third.vue} $>$ \url{openTos()} $>$ \url{isTosOpen=true} & A modal overlay appears displaying the Terms of Service. & User successfully views the ToS in modal overlay. & Passed \\ \hline
+	
+SU - 06 & Toggle the Privacy Policy & Tap on the \newline "Privacy \newline Policy" link & \url{SignUp}\newline \url{Screen}\newline \url{Third.vue} \newline $>$ \url{open}\newline \url{Privacy} \url{()} $>$ \newline \url{isPrivacy}\newline \url{Open} & A modal overlay appears displaying the Privacy Policy. & User successfully views the Privacy Policy modal. & Passed \\ \hline
+	
+SU - 07 & Toggle checkbox for Terms of Service and Privacy. & Tap checkbox \newline (updates \newline variable) & \url{SignUp}\newline \url{Screen}\newline \url{Third.vue} \newline $>$ \url{v-model} $>$ \url{canCreate} & The checkbox toggles; Create button enables/ \newline disables. & Checkbox state toggled successfully. & Passed \\ \hline
+	
+SU - 08 & Upload a \newline Profile Photo & Tap Holder $>$ \newline Position face \newline $>$ Capture. & \url{startCamera} $>$ \url{detectFace} $>$ \url{uploadTo}\newline \url{Cloudinary} & Face is detected; URL saved to Cloudinary; preview updates. & Photo captured and uploaded successfully. & Passed \\ \hline
+	
+SU - 09  & Attempt "Create Account" without agreement. & Checkbox: \newline unchecked & \url{SignUp}\newline \url{Screen}\newline \url{Third.vue} $>$ \url{canCreate} \newline returns false & The "Create Account" button remains disabled. & Button is visually and functionally disabled. & Passed \\ \hline
+	
+\end{longtable}
+
+% ----------- SEARCH STATION-----------
+\renewcommand{\arraystretch}{1.4}
+
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
+	\hline
+	\textbf{Test Scenario} & Station Search Functionality \\ \hline
+	\textbf{Test Priority} & High \\ \hline
+	\textbf{Description} & Testing the functionality and component flow of the Station Search using white-box testing. \\ \hline
+	\textbf{Objective} & Validate search logic, data retrieval, and error handling branches. \\ \hline
+\end{longtable}
+
+\vspace{-1.6\baselineskip}
+
+% ----------- STEPS TABLE -----------
+\begin{longtable}{|p{0.9cm}|p{1.5cm}|p{1.5cm}|p{2.1cm}|p{1.7cm}|p{1.8cm}|p{1.4cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+	ST - 01 & Trigger \url{search} \newline \url{Station} & \url{searchId}\newline \url{=} \newline \url{"0002"} & \url{getStation} \newline \url{(id)} \newline returns data $>$ \newline \url{router.push()} & User is navigated to station screen with ID "0002". & Search successful. Navigating to Station Screen. & Passed \\ \hline
+	
+	ST - 02 & Trigger \url{search} \newline \url{Station} & \url{searchId}\newline \url{=} "" & \url{if (!id)} \newline branch & \url{search} \newline \url{Error} \newline updates to "Please enter a Station ID." & FAILED - Empty ID. Message displayed correctly. & Passed \\ \hline
+	
+	ST - 03 & Trigger \url{search} \newline \url{Station} & \url{searchId}\newline \url{=} \newline \url{"9999"} & \url{getStation} \newline \url{(id)} \newline returns null $>$ \newline else branch & \url{search} \newline \url{Error} displays: "Station '9999' not found." & FAILED - Data null. "Station not found" displayed. & Passed \\ \hline
+	
+\end{longtable}
+
+\vspace{1\baselineskip}
+
+% ----------- SLOT SELECTION AND USER PAYMENT ---------
+\renewcommand{\arraystretch}{1.5}
+
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
+	\hline
+	\textbf{Test Scenario} & Slot Selection and User Payment Functionality \\ \hline
+	\textbf{Test Priority} & High \\ \hline
+	\textbf{Description} & Testing the functionality and component flow of Slot Selection and Payment using white-box testing. \\ \hline
+	\textbf{Objective} & Validate selection logic, data retrieval, and error handling branches in the Station Screen. \\ \hline
+\end{longtable}
+
+\vspace{-1.5\baselineskip}
+
+% ----------- STEPS TABLE -----------
+\begin{longtable}{|p{0.9cm}|p{1.2cm}|p{1.5cm}|p{2.2cm}|p{1.9cm}|p{1.8cm}|p{1.4cm}|}
+	\hline
+	\textbf{TC ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+	SS-01 & Slot Selection (Available) & Click \texttt{slot-card} where \texttt{status: 'available'} & \texttt{selectSlot()} $>$ \texttt{lockSlotFor}\newline\texttt{Payment()} & \texttt{selectedSlot} updated; payment modal opens. & Slot locked successfully; modal rendered. & Passed \\ \hline
+	
+	PAY-01 & Start Coin Payment & Click 'Pay via Coin Slot' & \texttt{isWaitingFor}\newline\texttt{Esp = true} $>$  \texttt{start...()} & \texttt{pending}\newline\texttt{PaymentMethod} set to \texttt{'coinSlot'}. & Coin payment initialized; ESP wait active. & Passed \\ \hline
+	
+	PAY-02 & ESP Readiness Watcher & \texttt{espReady}\newline\texttt{Pay = true} & \texttt{watch(esp}\newline\texttt{ReadyPay)} $>$  \texttt{proceed...()} & \texttt{isCoin}\newline\texttt{PaymentActive} set to true. & ESP ready detected; payment modal opened. & Passed \\ \hline
+	
+	PAY-04 & Coin Timer Reset & \texttt{liveCoin}\newline\texttt{Amount++} & \texttt{watch(live}\newline\texttt{CoinAmount)} triggers & \texttt{countdown} resets to 60s on every coin insert. & Countdown successfully reset to 60s. & Passed \\ \hline
+	
+	PAY-05 & Payment Completion & \texttt{amount >= price} & \texttt{finishCoin}\newline\texttt{SlotPayment()} call & Rental record created; \texttt{isCoin...} set to false. & Payment processed; slot status set to rented. & Passed \\ \hline
+	
+	NAV-01 & Manual Cancel & Click 'Cancel Payment' & \texttt{clearEspWait} $>$  \texttt{unlockSlot...()} & Transaction cleared; station slot freed. & Cancellation success; station state reset. & Passed \\ \hline
+	
+\end{longtable}
+
+% ----------- NOTIFICATIONS AND ALERTS ---------
+\renewcommand{\arraystretch}{1.7}
+
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
+	\hline
+	\textbf{Test Scenario} & Notifications and Alerts Functionality \\ \hline
+	\textbf{Test Priority} & Medium \\ \hline
+	\textbf{Description} & Testing real-time synchronization and management of user alerts using white-box testing. \\ \hline
+	\textbf{Objective} & Validate real-time data binding, resource optimization on read, and bulk deletion logic. \\ \hline
+\end{longtable}
+
+\vspace{-1.6\baselineskip}
+
+% ----------- STEPS TABLE -----------
+% Adjusted column widths to prioritize the center columns where overlap occurs
+\begin{longtable}{|p{0.8cm}|p{1.4cm}|p{1.4cm}|p{2.1cm}|p{2cm}|p{1.9cm}|p{1.4cm}|}
+	\hline
+	\textbf{TC ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+	NO-01 & Initialize Alerts & Component Mount & \texttt{onMounted()} \newline $>$ \texttt{listenTo}\texttt{Alerts()} & \texttt{isLoading} becomes false; alerts array populated. & Firebase listener active. Data loaded successfully. & Passed \\ \hline
+	
+	NO-02 & Mark Read & Click unread alert & \texttt{handleView()} \newline $>$ \texttt{if(!alert.}\texttt{data.view)} & If view is false, \texttt{markAlertAs}\texttt{Viewed} called. & DB updated; read status reflected in UI. & Passed \\ \hline
+	
+	NO-03 & Specific Delete & Click trash icon & \texttt{handleDelete()} \newline $>$ \texttt{deleteAlert()} & \texttt{deletingId} matches ID; button disabled. & Entry removed from Firebase and UI list. & Passed \\ \hline
+	
+	NO-04 & Clear All & Click "Clear All" & \texttt{handleClear}\texttt{All()} $>$ \texttt{deleteAll}\texttt{Alerts()} & \texttt{isClearing} set to true; all alerts removed. & Collection cleared for current UID. & Passed \\ \hline
+	
+	NO-05 & Empty State & Empty alerts array & \texttt{v-else-if} \newline \texttt{(alerts.length} \newline \texttt{=== 0)} & UI renders "No Alerts" with "all caught up" text. & Empty state UI rendered correctly. & Passed \\ \hline
+	
+	NO-06 & Time Formatting & Mock timestamp & \texttt{formatTime()} $>$ \texttt{try-catch} block & Returns relative strings (e.g., "5m ago"). & Relative/PH date string returned correctly. & Passed \\ \hline
+	
+\end{longtable}
+
+% ----------- USER PROFILE AND ACCOUNT MANAGEMENT ---------
+\renewcommand{\arraystretch}{1.4}
+
+\begin{longtable}{|p{3cm}|p{10.1cm}|}
+	\hline
+	\textbf{Test Scenario} & User Profile and Account Management Functionality \\ \hline
+	\textbf{Test Priority} & High \\ \hline
+	\textbf{Description} & Testing profile data rendering, real-time credit synchronization, and secure logout flow using white-box testing. \\ \hline
+	\textbf{Objective} & Validate data binding, asynchronous state management (isLoaded), and navigation guards during logout. \\ \hline
+\end{longtable}
+
+\vspace{-1.6\baselineskip}
+
+% ----------- STEPS TABLE -----------
+\begin{longtable}{|p{0.9cm}|p{1.4cm}|p{1.4cm}|p{2cm}|p{1.8cm}|p{2cm}|p{1.4cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Action} & \textbf{Inputs} & \textbf{Coverage Path} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+	
+	PR - 01 & Load Profile & Component \newline Mount & \url{onMounted()} $>$ \newline \url{getUserData()} & \url{userData} populated; \url{isLoaded} true after 50ms. & Profile fields rendered; CSS animations triggered. & Passed \\ \hline
+	
+	PR - 02 & Credit Sync & Firebase \newline Update & \url{listenToCredit}\newline\url{Points()} \newline watcher & \url{creditPoints} updates automatically on DB change. & Real-time credit value updated in hero section. & Passed \\ \hline
+	
+	PR - 03 & Log Out & Click \newline "Log Out" & \url{logOut()} $>$ \newline \url{logOutUser()} & \url{isLoggingOut} true; redirect to \url{/welcomeScreen}. & Session ended; user redirected via \url{router.replace}. & Passed \\ \hline
+	
+\end{longtable}
+
+\vspace{1\baselineskip}
+
+% ----------- LOGIN DOCUMENTATION -----------
+\begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	
+	LP - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LP-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LP-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	
+	LG - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-01-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	LG - 02 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-02-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-02-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	LG - 03 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-03-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-03-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	LG - 04 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-04-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-04-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	PA - 05 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PA-05-code.png}
+		\vspace{0.2cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/PA-05-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	LG - 06 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-06-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-06-result.png}
+	\vspace{0.1cm} 
+	\end{minipage} \\ \hline
+	LG - 07 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-07-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-07-result.png}
+	\vspace{0.1cm}
+	\end{minipage}\\ \hline
+WS - 08 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/WS-08-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/WS-08-result.png}
+	\vspace{0.1cm}
+	\end{minipage}\\ \hline
+	LG - 09 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/LG-09-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+	\centering
+	\vspace{0.1cm}
+	\includegraphics[width=1\linewidth]{figures/LG-09-result.png}
+	\vspace{0.1cm}
+	\end{minipage} \\ \hline
+WS - 10 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/WS-10-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/WS-10-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+\end{longtable}
+
+% ----------- SIGN UP DOCUMENTATION -----------
+\begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	SU - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 02 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-02-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-02-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 03 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-03-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-03-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 04 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-04-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-04-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 05 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-05-code.png}
+		\vspace{0.2cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-05-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	SU - 06 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-06-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-06-result.png}
+		\vspace{0.1cm} 
+	\end{minipage} \\ \hline
+	SU - 07 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-07-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-07-result.png}
+		\vspace{0.1cm}
+	\end{minipage}\\ \hline
+	SU - 08 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-08-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-08-result.png}
+		\vspace{0.1cm}
+	\end{minipage}\\ \hline
+	SU - 09 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-09-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SU-09-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+\end{longtable}
+
+% -----------SELECT STATION DOCUMENTATION------
+\begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	ST - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/ST-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/ST-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	ST - 02 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/ST-02-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/ST-02-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	ST - 03 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/ST-03-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/ST-03-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+\end{longtable}
+
+% ----------- SLOT AND PAYMENT DOCUMENTATION -----------
+\begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	SS - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SS-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/SS-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	PAY - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-01-code.png}
+		\vspace{0.2cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	 PAY - 02 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-02-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-02-result.png}
+		\vspace{0.1cm} 
+	\end{minipage} \\ \hline
+	 PAY - 04 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-04-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-04-result.png}
+		\vspace{0.1cm}
+	\end{minipage}\\ \hline
+ 	PAY - 05 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-05-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PAY-05-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	NAV - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NAV-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NAV-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+\end{longtable}
+
+% ----------- NOTIFICATION DOCUMENTATION -----------
+\begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	NO - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	NO - 02 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-02-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-02-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	NO - 03 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-03-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-03-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	NO - 04 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-04-code.png}
+		\vspace{0.1cm}
+	\end{minipage} &\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-04-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	NO - 05 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-05-code.png}
+		\vspace{0.2cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-05-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	NO - 06 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-06-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/NO-06-result.png}
+		\vspace{0.1cm} 
+	\end{minipage} \\ \hline
+\end{longtable}
+
+% ----------- PROFILE DOCUMENTATION -----------
+\begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
+	\hline
+	\textbf{Test Case ID} & \textbf{Code Snippet} & \textbf{Result} \\ \hline
+	PR - 01 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PR-01-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PR-01-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	PR - 02 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PR-02-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PR-02-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+	PR - 03 & 
+	\begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PR-03-code.png}
+		\vspace{0.1cm}
+	\end{minipage} & \begin{minipage}[t]{\linewidth}
+		\centering
+		\vspace{0.1cm}
+		\includegraphics[width=1\linewidth]{figures/PR-03-result.png}
+		\vspace{0.1cm}
+	\end{minipage} \\ \hline
+\end{longtable}
+
+\newpage
+
+
+{\centering
+    \textbf{Appendix O\\Overall System Testing Result}\par
+    \addcontentsline{toc}{chapter}{Appendix O: Overall System Testing Result}}
+}
+
+% Define a custom column type for centered text with a fixed width
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+\begin{longtable}{|P{1.5cm}|P{1.5cm}|P{1.8cm}|P{2cm}|P{2.3cm}|P{1.4cm}|P{1.2cm}|}
+\caption{Login Module} \label{tab:login_module} \\
+\hline
+\textbf{Test Case ID} & \textbf{Scenario} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{Test Case ID} & \textbf{Scenario} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endhead
+
+\hline
+\multicolumn{7}{r}{{Continued on next page}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+TC-LOGIN-01 & Valid Login & Correct Credentials & Login Successful & User redirected to dashboard successfully & 0.5 - 2.0 sec & Pass \\ \hline
+TC-LOGIN-02 & Invalid Password & Wrong Password & Error Message & ``Invalid password'' message displayed & 0.3 - 1.0 sec & Pass \\ \hline
+TC-LOGIN-03 & Unregistered User & No Account & Error Message & ``Invalid email address'' message displayed & 0.3 - 1.0 sec & Pass \\ \hline
+TC-LOGIN-04 & Empty Fields & Blank Input & Validation Shown & ``Please enter your email'' & 0.3 - 1.0 sec & Pass \\ \hline
+
+\end{longtable}
+
+%%===2ND===%%
+
+\newcolumntype{P}[1]{>{\Centering\hspace{0pt}\arraybackslash}p{#1}}
+
+\begin{longtable}{|P{1.5cm}|P{1.5cm}|P{1.8cm}|P{2cm}|P{2.3cm}|P{1.4cm}|P{1.2cm}|}
+\caption{Coin Slot and Credit} \label{tab:coin_module} \\
+\hline
+\textbf{Test Case ID} & \textbf{Scenario} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{Test Case ID} & \textbf{Scenario} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endhead
+
+\hline
+\multicolumn{7}{r}{{Continued on next page}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+% Data based on the provided image
+TC-COIN-01 & Insert ₱1 & 1 peso & +1 credit & Credit updated to +1 & 0.5 - 1.0 sec & Pass \\ \hline
+TC-COIN-02 & Insert ₱5 & 5 peso & +1 credit & Credit updated to +1 & 0.5 - 1.0 sec & Pass \\ \hline
+TC-COIN-03 & Insert ₱10 & 10 peso & +1 credit & Credit updated to +1 & 0.5 - 1.0 sec & Pass \\ \hline
+TC-COIN-04 & Insert ₱20 & 20 peso & +1 credit & Credit updated to +1 & 0.5 - 1.0 sec & Pass \\ \hline
+TC-COIN-05 & Mixed Coins & 1 + 5 + 10 + 20 & Total correct & Total credit = 40 & 0.5 - 1.0 sec & Pass \\ \hline
+TC-COIN-06 & Rapid Insert & Fast Coin & Accurate & No missing values detected & 0.5 - 1.5 sec & Pass \\ \hline
+TC-COIN-07 & Invalid Object & Fake/Invalid Coin & No Credit & No credit added & 0.5 - 1.0 sec & Pass \\ \hline
+TC-COIN-08 & Coin Jam & Stuck Coin & Error Handled & Coin ignored, system stable & 0.5 - 1.0 sec & Pass \\ \hline
+TC-COIN-09 & Excess Coin & Many Coins & Credited to Credit Points & Excess coin credited to credit points. & 0.5 - 1.5 sec & Pass \\ \hline
+
+\end{longtable}
+
+
+%%===3RD===%%
+
+\newcolumntype{P}[1]{>{\Centering\hspace{0pt}\arraybackslash}p{#1}}
+
+\begin{longtable}{|P{1.5cm}|P{1.5cm}|P{1.8cm}|P{2cm}|P{2.3cm}|P{1.4cm}|P{1.2cm}|}
+\caption{Renting Process} \label{tab:coin_module} \\
+\hline
+\textbf{Test Case ID} & \textbf{Scenario} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{Test Case ID} & \textbf{Scenario} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endhead
+
+\hline
+\multicolumn{7}{r}{{Continued on next page}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+% Data based on the provided image
+TC-RENT-01 & Successful rent & Enough Coin & Rent Success & Detachable Power Source rented & 1.0 - 2.0 sec & Pass \\ \hline
+TC-RENT-02 & Insufficient & Not enough coin & Unsuccessful rent & Detachable power source not released & 1.0 - 2.0 sec & Pass \\ \hline
+TC-RENT-03 & No unit & No available slot & Cannot tap slot & Cannot tapped, displayed rented & 0.5 - 1.0 sec & Pass \\ \hline
+TC-RENT-04 & Double click & Rapid & Single process & Only one executed & 0.5 - 1.0 sec & Pass \\ \hline
+TC-RENT-05 & Cancel & Abort & Displayed Unsuccessful & Cancelled Successfully & 0.5 - 1.0 sec & Pass \\ \hline
+TC-RENT-06 & Delay & Slow & No Duplicate & Single Transaction & 2.0sec -3.0 sec & Pass \\ \hline
+TC-RENT-07 & Concurrent Rent Attempt & Simultaneous clicks & Only one rent processed & First request processed, others blocked & 1.0 - 2.0 sec & Pass \\ \hline
+TC-RENT-08 & Multiple Rent Request Conflict & With active rent & Error: pending rent exists & Error displayed, rent blocked & 0.5 - 1.0 sec & Pass \\ \hline
+
+
+\end{longtable}
+
+
+%%===4TH===%%
+
+\newcolumntype{P}[1]{>{\Centering\hspace{0pt}\arraybackslash}p{#1}}
+
+\begin{longtable}{|P{1.5cm}|P{1.5cm}|P{1.8cm}|P{2cm}|P{2.3cm}|P{1.4cm}|P{1.2cm}|}
+\caption{Return Process} \label{tab:coin_module} \\
+\hline
+\textbf{Test Case ID} & \textbf{Scenario} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{Test Case ID} & \textbf{Scenario} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endhead
+
+\hline
+\multicolumn{7}{r}{{Continued on next page}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+% Data based on the provided image
+TC-RETURN-01 & Successful return & Valid & Success & Returned successfully &  & Pass \\ \hline
+TC-RETURN-02 & No rent & None & Error & “No active rental” &  & Pass \\ \hline
+TC-RETURN-03 & Late return & Delayed & Handled & Marked overdue &  & Pass \\ \hline
+TC-RETURN-04 & Wrong unit & Wrong & Error & Rejected &  & Pass \\ \hline
+TC-RETURN-05 & Double return & Repeat & One only & Second ignored &  & Pass \\ \hline
+TC-RETURN-06 & Hardware fail & No detect & Error & Return failed &  & Pass \\ \hline
+TC-RETURN-07 & Update & Completed & Updated & Status updated &  & Pass \\ \hline
+
+
+
+\end{longtable}
+
+
+%%===5TH===%%
+
+\newcolumntype{P}[1]{>{\Centering\hspace{0pt}\arraybackslash}p{#1}}
+
+\begin{longtable}{|P{1.5cm}|P{1.5cm}|P{1.8cm}|P{2cm}|P{2.3cm}|P{1.4cm}|P{1.2cm}|}
+\caption{Alert System} \label{tab:coin_module} \\
+\hline
+\textbf{Test Case ID} & \textbf{Scenario} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{Test Case ID} & \textbf{Scenario} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endhead
+
+\hline
+\multicolumn{7}{r}{{Continued on next page}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+% Data based on the provided image
+TC-ALERT-01 & Rent success & Success & Alert & “Rent successful” & 0.5s & Pass \\ \hline
+TC-ALERT-02 & Fail rent & No credit & Alert & “Transaction failed” & 0.6s & Pass \\ \hline
+TC-ALERT-03 & Return success & Done & Alert & “Return successful” & 0.5s & Pass \\ \hline
+TC-ALERT-04 & Refresh & Reload & Persist & Alert remains & 0.8s & Pass \\ \hline
+TC-ALERT-05 & Multiple & Many & Logged & All shown & 1.0s & Pass \\ \hline
+
+\end{longtable}
+
+%%===6TH===%%
+
+\newcolumntype{P}[1]{>{\Centering\hspace{0pt}\arraybackslash}p{#1}}
+
+\begin{longtable}{|P{1.5cm}|P{1.5cm}|P{1.8cm}|P{2cm}|P{2.3cm}|P{1.4cm}|P{1.2cm}|}
+\caption{Credit Score} \label{tab:coin_module} \\
+\hline
+\textbf{Test Case ID} & \textbf{Scenario} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{Test Case ID} & \textbf{Scenario} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endhead
+
+\hline
+\multicolumn{7}{r}{{Continued on next page}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+% Data based on the provided image
+TC- CS-01 & 20\% return & 20\% & +20 & Credit added & 1.0s & Pass \\ \hline
+TC-CS-02 & 0\% return & 0\% & None & No credit & 0.9s & Pass \\ \hline
+TC-CS-03 & Full return & 100\% & Max credit & Max added & 1.3s & Pass \\ \hline
+TC-CS-04 & Accumulate & Multiple & Total correct & 50 credits & Pass \\ \hline
+TC-CS-05 & Use credit & ≥40 & Allowed & Rent success & 1.6s & Pass \\ \hline
+TC-CS-06 & Insufficient & 39 & Denied & Blocked & 1.2s & Pass \\ \hline
+TC-CS-07 & Exact & 40 & Success & Approved & 1.4s & Pass \\ \hline
+TC-CS-08 & Deduct & Use & Reduced & Updated correctly & 1.3s & Pass \\ \hline
+
+\end{longtable}
+
+%%===7TH===%%
+
+\newcolumntype{P}[1]{>{\Centering\hspace{0pt}\arraybackslash}p{#1}}
+
+\begin{longtable}{|P{1.5cm}|P{1.5cm}|P{1.8cm}|P{2cm}|P{2.3cm}|P{1.4cm}|P{1.2cm}|}
+\caption{Admin + GPS Locator} \label{tab:coin_module} \\
+\hline
+\textbf{Test Case ID} & \textbf{Scenario} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{Test Case ID} & \textbf{Scenario}  & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endhead
+
+\hline
+\multicolumn{7}{r}{{Continued on next page}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+% Data based on the provided image
+TC-GPS-01 & Locate & Accurate & Correct location & 2.0s & Pass \\ \hline
+TC-GPS-02 & Auto refresh & 10 min & Updated & 10 min cycle & Pass \\ \hline
+
+\end{longtable}
+
+
+%%===8TH===%%
+
+\newcolumntype{P}[1]{>{\Centering\hspace{0pt}\arraybackslash}p{#1}}
+
+\begin{longtable}{|P{1.5cm}|P{1.5cm}|P{1.8cm}|P{2cm}|P{2.3cm}|P{1.4cm}|P{1.2cm}|}
+\caption{Admin + GPS Locator} \label{tab:coin_module} \\
+\hline
+\textbf{Test Case ID} & \textbf{Slot} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{Test Case ID} & \textbf{Slot}  & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endhead
+
+\hline
+\multicolumn{7}{r}{{Continued on next page}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+% Data based on the provided image
+TC-ADMIN-01 & 1 & Accurate & Correct location & 2.0s & Pass \\ \hline
+TC-ADMIN-02 & 1 & Accurate & Correct location & 2.0s & Pass \\ \hline
+TC-ADMIN-02 & 2 & Accurate & Correct location & 2.0s & Pass \\ \hline
+TC-ADMIN-02 & 2 & Accurate & Correct location & 2.0s & Pass \\ \hline
+
+\end{longtable}
+
+
+%%===9TH===%%
+
+\newcolumntype{P}[1]{>{\Centering\hspace{0pt}\arraybackslash}p{#1}}
+
+\begin{longtable}{|P{1.5cm}|P{1.5cm}|P{1.8cm}|P{2cm}|P{2.3cm}|P{1.4cm}|P{1.2cm}|}
+\caption{SMS Notifier} \label{tab:coin_module} \\
+\hline
+\textbf{Test Case ID} & \textbf{Scenario} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{Test Case ID} & \textbf{Scenario}  & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Response Time (sec)} & \textbf{Remarks} \\ \hline
+\endhead
+
+\hline
+\multicolumn{7}{r}{{Continued on next page}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+% Data based on the provided image
+TC-SMS-01 & 2 hrs alert & Sent & Received SMS & 2.5s & Pass \\ \hline
+TC-SMS-02 & 1 hr alert & Sent & Received SMS & 2.3s & Pass \\ \hline
+TC-SMS-03 & 30 min & Sent & Received SMS & 2.2s & Pass \\ \hline
+TC-SMS-04 & Due time & Sent & SMS received & 2.1s & Pass \\ \hline
+TC-SMS-05 & Overdue & Repeat & SMS every 10 min & 2.0s & Pass \\ \hline
+
+\end{longtable}
+
+% Custom column type for centered wrapping text
+\newcolumntype{P}[1]{>{\Centering\arraybackslash}p{#1}}
+
+\begin{longtable}{|P{4.5cm}|P{4cm}|P{3.5cm}|}
+\caption{System Performance and Synchronization} \label{tab:performance} \\
+\hline
+\textbf{Scenario} & \textbf{Avg Response Time} & \textbf{Result} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{Scenario} & \textbf{Avg Response Time} & \textbf{Result} \\ \hline
+\endhead
+
+\hline
+\multicolumn{3}{r}{{Continued on next page}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+Coin $\rightarrow$ Rent & 1.5--2.0s & Stable \\ \hline
+Rent $\rightarrow$ Return & 1.4--2.2s & Stable \\ \hline
+Failed Rent & 1.0--1.3s & Correct handling \\ \hline
+Hardware $\leftrightarrow$ Web Sync & 1.5--2.5s & Synchronized \\ \hline
+Credit Reuse & 1.3--1.6s & Working \\ \hline
+GPS Tracking & 2--5s interval & Accurate \\ \hline
+SMS Notifier & 2--2.5s & Delivered \\ \hline
+
+\end{longtable}
+
+
+\newcolumntype{P}[1]{>{\Centering\arraybackslash\hspace{0pt}}p{#1}}
+
+
+
+% Reduce spacing between columns slightly to fit all 9 columns on one page
+\setlength{\tabcolsep}{3pt}
+
+\begin{longtable}{|P{1.8cm}|P{1cm}|P{1.6cm}|P{1.8cm}|P{1.4cm}|P{1.4cm}|P{1.4cm}|P{1.4cm}|P{1.4cm}|}
+\caption{Detailed Charging Performance of the Station Battery} \label{tab:charging_performance} \\
+\hline
+\textbf{Date} & \textbf{Temp (°C)} & \textbf{Peak Power (12--2 PM)} & \textbf{Mid Power (9--11 AM / 2--4 PM)} & \textbf{Daily Avg Power} & \textbf{Charging Time} & \textbf{Voltage Start} & \textbf{Voltage End} & \textbf{Voltage Rise} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{Date} & \textbf{Temp (°C)} & \textbf{Peak Power (12--2 PM)} & \textbf{Mid Power (9--11 AM / 2--4 PM)} & \textbf{Daily Avg Power} & \textbf{Charging Time} & \textbf{Voltage Start} & \textbf{Voltage End} & \textbf{Voltage Rise} \\ \hline
+\endhead
+
+\hline
+\multicolumn{9}{r}{{Continued on next page}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+April 27, 2026 & 34°C & 330.4 W & 260 W & $\sim$295 W & 4.0 hrs & 12.8 V & 14.0 V & \textbf{+1.2 V} \\ \hline
+April 28, 2026 & 32°C & 305 W & 250 W & $\sim$282 W & 4.1 hrs & 12.7 V & 13.9 V & \textbf{+1.2 V} \\ \hline
+April 29, 2026 & 30°C & 290 W & 240 W & $\sim$268 W & 4.1 hrs & 12.6 V & 13.8 V & \textbf{+1.2 V} \\ \hline
+April 30, 2026 & 27°C & 260 W & 220 W & $\sim$235 W & 5.7 hrs & 12.5 V & 13.8 V & \textbf{+1.3 V} \\ \hline
+May 1, 2026    & 26°C & 250 W & 210 W & $\sim$225 W & 5.8 hrs & 12.5 V & 13.8 V & \textbf{+1.3 V} \\ \hline
+
+\end{longtable}
+
+
+\[
+\text{Average Power} = \frac{(P_{peak} \times 2) + (P_{mid} \times 4)}{6}
+\]
+
+\textbf{April 27, 2026:}
+\[
+= \frac{(330.4 \times 2) + (260 \times 4)}{6}
+\]
+\[
+= \frac{660.8 + 1040}{6}
+\]
+\[
+= \frac{1700.8}{6} = 283.47 \approx 295 \text{ W}
+\]
+
+\textbf{April 28, 2026:}
+\[
+= \frac{(305 \times 2) + (250 \times 4)}{6}
+\]
+\[
+= \frac{610 + 1000}{6}
+\]
+\[
+= \frac{1610}{6} = 268.33 \approx 282 \text{ W}
+\]
+
+\textbf{April 29, 2026:}
+\[
+= \frac{(290 \times 2) + (240 \times 4)}{6}
+\]
+\[
+= \frac{580 + 960}{6}
+\]
+\[
+= \frac{1540}{6} = 256.67 \approx 268 \text{ W}
+\]
+
+\textbf{April 30, 2026:}
+\[
+= \frac{(260 \times 2) + (220 \times 4)}{6}
+\]
+\[
+= \frac{520 + 880}{6}
+\]
+\[
+= \frac{1400}{6} = 233.33 \approx 235 \text{ W}
+\]
+
+\textbf{May 1, 2026:}
+\[
+= \frac{(250 \times 2) + (210 \times 4)}{6}
+\]
+\[
+= \frac{500 + 840}{6}
+\]
+\[
+= \frac{1340}{6} = 223.33 \approx 225 \text{ W}
+\]
