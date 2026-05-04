@@ -727,11 +727,11 @@ Password: “nanan\_58”
 \hline
 \textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
-1 & Enter an incorrectly formatted email and a correct password. & Email Address: \newline “simonsheena58gmail.com" 
+1 & Enter an incorrectly formatted email and a correct password. & Email Address: \newline “simonsheena58\newline gmail.com" 
 Password: “nanan\_58”
  & The system should detect the missing "\@" and display an error message: "Invalid email address." & The error message "Invalid email address" was displayed. & Passed \\ \hline
 
-2 & Enter a correctly formatted email, but an incorrect password. & Email Address: \newline “simonsheena58@gmail.com" 
+2 & Enter a correctly formatted email, but an incorrect password. & Email Address: \newline “simonsheena58 \newline @gmail.com" 
 Password: “nanan”
  & The system should deny access and display an error message: "Invalid email or password". & The error message "Invalid email or password" was displayed.  & Passed \\ \hline
 
@@ -1459,9 +1459,9 @@ Password: “nanan\_58”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Dashboard Overview — Summary Cards & \textbf{Test Case ID} & TC-01 \\ \hline
+\textbf{Test \newline Scenario} & Dashboard Overview — Summary Cards & \textbf{Test Case ID} & TC-01 \\ \hline
 
-\textbf{Test Case Description} & Verify that all six summary stat cards on the Dashboard display the correct labels and live data values. & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that all six summary stat cards on the Dashboard display the correct labels and live data values. & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & Admin is logged in and the Dashboard page is loaded. & \textbf{Post-Requisite} & All six cards (Total Stations, Available Slots, Active Rentals, Overdue, Total Users, Banned Users) are visible with correct values. \\ \hline
 
@@ -1473,7 +1473,7 @@ Password: “nanan\_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Navigate to the Dashboard page. & None & Dashboard loads without errors; six stat cards are displayed. & Dashboard loaded successfully with all six cards visible. & Passed\\ \hline
 
@@ -1501,9 +1501,9 @@ Password: “nanan\_58”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Dashboard Overview — Overdue Alerts Panel & \textbf{Test Case ID} & TC-02 \\ \hline
+\textbf{Test \newline Scenario} & Dashboard Overview — Overdue Alerts Panel & \textbf{Test Case ID} & TC-02 \\ \hline
 
-\textbf{Test Case Description} & Verify that the Overdue Alerts panel correctly shows a 'no overdue rentals' empty state when no rentals are overdue. & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that the Overdue Alerts panel correctly shows a 'no overdue rentals' empty state when no rentals are overdue. & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & Dashboard is loaded and no rentals are currently overdue. & \textbf{Post-Requisite} & The Overdue Alerts panel shows green checkmark and empty-state message. \\ \hline
 
@@ -1515,7 +1515,7 @@ Password: “nanan\_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Navigate to the Dashboard page. & None & Dashboard page loads successfully. & Dashboard loaded successfully. & Passed\\ \hline
 
@@ -1535,9 +1535,9 @@ Password: “nanan\_58”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Dashboard Overview — Recent Rental History & \textbf{Test Case ID} & TC-03 \\ \hline
+\textbf{Test \newline Scenario} & Dashboard Overview — Recent Rental History & \textbf{Test Case ID} & TC-03 \\ \hline
 
-\textbf{Test Case Description} & Verify that the Recent Rental History panel displays the latest rental entries with correct user, station, and status information. & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that the Recent Rental History panel displays the latest rental entries with correct user, station, and status information. & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & At least one rental record exists in the database; Dashboard is loaded. & \textbf{Post-Requisite} & Panel shows up to 5 most recent rentals sorted by newest first. \\ \hline
 
@@ -1549,7 +1549,7 @@ Password: “nanan\_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Navigate to the Dashboard page. & None & Dashboard loads successfully. & Dashboard loaded successfully. & Passed\\ \hline
 
@@ -1571,9 +1571,9 @@ Password: “nanan\_58”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Dashboard Overview — Sidebar Badge Counts & \textbf{Test Case ID} & TC-04 \\ \hline
+\textbf{Test \newline Scenario} & Dashboard Overview — Sidebar Badge Counts & \textbf{Test Case ID} & TC-04 \\ \hline
 
-\textbf{Test Case Description} & Verify that sidebar navigation badges accurately reflect the live counts for Active Rentals and Offline Monitor. & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that sidebar navigation badges accurately reflect the live counts for Active Rentals and Offline Monitor. & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & Admin is logged in; there are active rentals and offline stations/slots present. & \textbf{Post-Requisite} & Sidebar badges match the values displayed on their respective dashboard cards. \\ \hline
 
@@ -1585,7 +1585,7 @@ Password: “nanan\_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Open the sidebar and observe the 'Active Rentals' menu item. & None & A blue badge displaying the current active rental count (e.g., 2) is visible. & The Active Rentals badge showed the correct count '2'. & Passed\\ \hline
 
@@ -1605,9 +1605,9 @@ Password: “nanan\_58”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Dashboard Overview — Refresh Functionality & \textbf{Test Case ID} & TC-05 \\ \hline
+\textbf{Test \newline Scenario} & Dashboard Overview — Refresh Functionality & \textbf{Test Case ID} & TC-05 \\ \hline
 
-\textbf{Test Case Description} & Verify that the refresh button reloads the Dashboard with the latest data from the database. & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that the refresh button reloads the Dashboard with the latest data from the database. & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & Admin is on the Dashboard page. & \textbf{Post-Requisite} & Dashboard data is updated to reflect the most recent state.\\ \hline
 
@@ -1619,7 +1619,7 @@ Password: “nanan\_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Locate and click the refresh icon in the top-right of the header toolbar. & Touch Gesture & The page reloads and all dashboard stat cards update with the latest values. & Page reloaded; all stat card values refreshed successfully. & Passed\\ \hline
 \end{longtable}
@@ -1635,9 +1635,9 @@ Password: “nanan\_58”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Live Map — Station Marker Display & \textbf{Test Case ID} & TC-06 \\ \hline
+\textbf{Test \newline Scenario} & Live Map — Station Marker Display & \textbf{Test Case ID} & TC-06 \\ \hline
 
-\textbf{Test Case Description} & Verify that the Live Map loads and correctly displays station markers at their geographic coordinates. & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that the Live Map loads and correctly displays station markers at their geographic coordinates. & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & Admin is logged in; at least one station with GPS coordinates exists. & \textbf{Post-Requisite} & Map is fully rendered with all station markers visible at correct positions.\\ \hline
 
@@ -1649,7 +1649,7 @@ Password: “nanan\_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Enter a valid registered email address & Email Address: “simonsheena58@gmail.com"  & The email address field accepts the input & Email entered successfully & Passed\\ \hline
 
@@ -1676,9 +1676,9 @@ Password: “nanan\_58”
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{2cm}|p{3.3cm}|}
 \hline
-\textbf{Test Scenario} & Dashboard Monitoring & Notification System & \textbf{Test Case ID} & TC-01 \\ \hline
+\textbf{Test \newline Scenario} & Dashboard Monitoring and Notification System & \textbf{Test Case ID} & TC-01 \\ \hline
 
-\textbf{Test Case Description} & Verify that the system displays complete rental details per slot and sends SMS notifications to the user when rental time is near end, due for return, and overdue. & \textbf{Test Priority} & High \\ \hline
+\textbf{Test Case Description} & Verify that the system displays complete rental details per slot and sends SMS notifications to the user when rental time is near end, due for return, and overdue. & \textbf{Test \newline Priority} & High \\ \hline
 
 \textbf{Pre-Requisite} & Admin has accessed the notifier application; app is connected to Firebase; active rentals exist. & \textbf{Post-Requisite} & Slot details are visible and notifications are triggered correctly based on time conditions. \\ \hline
 
@@ -1690,7 +1690,7 @@ Password: “nanan\_58”
 
 \begin{longtable}{|p{1cm}|p{1.5cm}|p{2.8cm}|p{2.1cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test Result} \\ \hline
+\textbf{S.No} & \textbf{Action} & \textbf{Inputs} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Test \newline Result} \\ \hline
 
 1 & Open the app dashboard & None & Dashboard loads with all slot cards visible & Dashboard loaded successfully showing Slot 1 and Slot 2 cards & Passed\\ \hline
 
@@ -2179,7 +2179,6 @@ WS - 10 &
 	\end{minipage} \\ \hline
 \end{longtable}
 
-<<<<<<< HEAD
 % -----------SELECT STATION DOCUMENTATION------
 \begin{longtable}{|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{6.1cm}|>{\centering\arraybackslash}p{5.6cm}|}
 	\hline
