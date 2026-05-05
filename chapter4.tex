@@ -58,15 +58,33 @@ This functionality was observed to operate reliably, ensuring compliance with re
 
 \newpage
 
-\section {Network Encryption Security Feature}
+\subsection{Network Encryption and Security Feature}
+The implementation of the MikroTik router as the network security layer resulted in a controlled and secure communication environment between the rental station, controller, and web application. The effectiveness of the configured mechanisms was evaluated based on access control, traffic filtering, and system accessibility.
 
-To ensure secure communication between system components, network encryption mechanisms are implemented. These mechanisms protect sensitive data such as user information, transaction records, and telemetry data from unauthorized access.
+\subsubsection{Controlled Wireless Network Access}
+The WPA2-secured wireless network successfully limited access to users with valid credentials. Devices without the correct pre-shared key were unable to connect to the network.
 
-The system demonstrated secure data transmission across connected devices, maintaining confidentiality and integrity. This security layer is essential in preventing data breaches and ensuring trust in the system’s digital infrastructure.
+\subsubsection{Device-Level Access Restriction}
+MAC-based whitelisting ensured that only registered devices could connect to the network. Unregistered devices were denied access even when correct credentials were provided.
 
+\subsubsection{Restricted Administrative Access}
+Firewall rules limiting access to a specific static IP address successfully prevented unauthorized devices from accessing router management services such as WinBox.
+
+\subsubsection{Effective Traffic Filtering and Intrusion Detection}
+The firewall configuration successfully:
+\begin{itemize}
+	\item Allowed valid connections (established, related, new)
+	\item Dropped invalid packets
+	\item Detected port scanning attempts
+\end{itemize}
+Identified sources of suspicious activity were monitored in the logs and denied further access.
+
+\subsubsection{Secure Remote Access Availability}
+The VPN (OpenVPN) configuration enabled remote access to the router without exposing management ports directly to external networks.
+
+\subsubsection{Automated VPN Recovery}
+The Netwatch monitoring mechanism successfully detected VPN disconnections and triggered reconnection, maintaining continuous remote accessibility.
 \vspace{1em} 
-
-\subsection {Mikrotik}
 
 \newpage
 
@@ -76,13 +94,62 @@ Performance testing evaluated the system’s functionality in terms of responsiv
 
 Results showed that the system maintained stable operation under normal conditions, with minimal delays in data transmission and processing. This indicates that the system meets the required performance standards for real-time monitoring and control.
 
-\newpage
+\vspace{1em}
 
 \section {Usability Testing}
 
 Usability testing assessed the user experience in interacting with the system, including the mobile application, rental process, and physical interface. Participants evaluated ease of use, clarity of instructions, and overall satisfaction.
 
 Findings revealed that the system is user-friendly and accessible, with intuitive interfaces that facilitate smooth operation. This supports the system’s applicability for community use, particularly among non-technical users.
+
+\vspace{1em}
+
+\begin{table}[h!]
+	\centering
+	\caption{User Evaluation Results}
+	\renewcommand{\arraystretch}{1.3}
+	
+	\begin{tabular}{|>{\centering\arraybackslash}p{1.1cm}|
+			*{8}{>{\centering\arraybackslash}p{1.1cm}|}}
+		\hline
+		\textbf{User No.} & \textbf{User 1} & \textbf{User 2} & \textbf{User 3} & \textbf{User 4} & \textbf{User 5} & \textbf{User 6} & \textbf{User 7} & \textbf{User 8} \\ \hline
+		
+		Q1  & 5 & 4 & 5 & 5 & 5 & 5 & 4 & 4  \\ \hline
+		Q2  & 2 & 1 & 2 & 1 & 2 & 4 & 1 & 2  \\ \hline
+		Q3  & 5 & 5 & 4 & 5 & 5 & 4 & 4 & 4  \\ \hline
+		Q4  & 1 & 1 & 1 & 1 & 3 & 2 & 1 & 2  \\ \hline
+		Q5  & 4 & 4 & 5 & 5 & 5 & 5 & 5 & 5 \\ \hline
+		Q6  & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 2  \\ \hline
+		Q7  & 5 & 5 & 4 & 4 & 4 & 5 & 4 & 4  \\ \hline
+		Q8  & 1 & 1 & 3 & 3 & 2 & 1 & 2 & 1  \\ \hline
+		Q9  & 5 & 5 & 4 & 5 & 5 & 5 & 5 & 4  \\ \hline
+		Q10 & 1 & 2 & 1 & 2 & 2 & 1 & 1 & 2  \\ \hline
+		
+	\end{tabular}
+\end{table}
+
+\begin{table}[h!]
+	\centering
+	\caption{SUS Average}
+	\renewcommand{\arraystretch}{1.3}
+	
+	\begin{tabular}{|>{\centering\arraybackslash}p{6.3cm}|
+			*{2}{>{\centering\arraybackslash}p{6.3cm}|}}
+		\hline
+		\textbf{User No.} & \textbf{SUS Score} \\ \hline
+		
+		1  & 95.0 \\ \hline
+		2  & 92.5  \\ \hline
+		3  & 82.5  \\ \hline
+		4  & 87.5  \\ \hline
+		5  & 85.0 \\ \hline
+		6  & 85.0  \\ \hline
+		7  & 90.0  \\ \hline
+		8  & 80.0  \\ \hline
+		
+	\end{tabular}
+\end{table}
+
 
 \newpage
 
@@ -92,7 +159,7 @@ Load analysis was conducted to determine the system’s capability to support va
 
 The system was found to effectively support small-to-medium scale loads within its design capacity. This confirms that the system can provide practical energy support for essential household devices during power interruptions.
 
-\newpage
+\vspace{2em}
 
 \section {Detachable Power Source - Battery Capacity}
 
@@ -100,7 +167,7 @@ The detachable power source utilizes LiFePO4 batteries, selected for their high 
 
 Results indicate that the selected battery configuration provides sufficient energy for extended usage, supporting the system’s goal of delivering reliable portable power.
 
-\newpage
+\vspace{2em}
 
 \section {Panel Sizing}
 
@@ -108,7 +175,7 @@ Panel sizing was determined based on energy demand, battery capacity, and averag
 
 The sizing calculations were validated through system performance, confirming that the panels can sufficiently recharge the battery under typical operating conditions.
 
-\newpage
+\vspace{2em}
 
 \section {Inverter Sizing}
 
@@ -116,7 +183,7 @@ The inverter was sized according to the maximum expected load, ensuring that it 
 
 Testing confirmed that the inverter operates within safe limits while supporting the intended load range.
 
-\newpage
+\vspace{2em}
 
 \section {Solar Charge Controller Sizing}
 
@@ -124,7 +191,7 @@ The solar charge controller was selected based on panel output and battery speci
 
 The controller performed effectively, maintaining safe charging conditions and improving overall system efficiency.
 
-\newpage
+\vspace{2em}
 
 \section {Charging Time and Energy Calculation}
 
@@ -141,6 +208,7 @@ The charging duration for a single unit was measured based on battery capacity a
 \subsection {Charging Time of a Double Detachable Power Source}
 When charging two units simultaneously, the system exhibited increased charging time due to shared power distribution. However, the system remained stable and capable of handling multiple charging loads.
 
+<<<<<<< Updated upstream
 
 \newpage
 \section {Hardware Testing Results and Discussion}
@@ -2131,6 +2199,9 @@ Furthermore, the high usability rating demonstrates that the solar-powered renta
 
 
 \subsection{Detachable Power Source Battery Charging}
+=======
+\newpage
+>>>>>>> Stashed changes
 
 \begin{longtable}{|p{4cm}|p{2cm}|p{2cm}|p{3.5cm}|}
 \caption{Charging Performance and Voltage Readings of One Detachable Power Source Battery} \label{one power source} \\
@@ -2183,6 +2254,7 @@ Solar Charge Controller Reading & \centering \textbf{SOC} & \centering \textbf{U
 \textbf{Station Battery} & \multicolumn{2}{l|}{Source \textbf{Slot 1}} & \multicolumn{2}{l|}{Source \textbf{Slot 2}} & \tabularnewline
 \textbf{12.8V 100 AH} & \multicolumn{2}{l|}{12.8V 50 AH} & \multicolumn{2}{l|}{12.8V 50 AH} & \tabularnewline \hline
 
+<<<<<<< Updated upstream
 Solar Charge Controller Reading & \centering \textbf{SOC} & \centering \textbf{Under} & \centering \textbf{SOC} & \centering \textbf{Under} & \tabularnewline
 (\textbf{Discharge}) & & \centering \textbf{Load} & & \centering \textbf{Load} & \tabularnewline \hline
 
@@ -2200,3 +2272,133 @@ Solar Charge Controller Reading & \centering \textbf{SOC} & \centering \textbf{U
  & \centering 13.7V & \centering 13.3V & \centering 13.6V & \centering 13.2V & \tabularnewline
  & \centering (100\%) & \centering (100\%) & \centering (100\%) & \centering (100\%) & \tabularnewline \hline
 \end{longtable}
+=======
+%====3=====
+
+\begin{longtable}{|p{4cm}|p{3cm}|}
+\caption{RENTING PROCESS}
+\hline
+\centering \textbf{Metric} & \centering \textbf{Value} \tabularnewline \hline
+Total Test Cases & 8 \\ \hline
+Passed & 8 \\ \hline
+Failed & 0 \\ \hline
+Success Rate & 100\% \\ \hline
+Response Time Range & 0.5--3.0 sec \\ \hline
+Avg Response Time & $\sim$1.5 sec \\ \hline
+\end{longtable}
+
+The Renting Process module showed stable performance across all scenarios, including concurrent requests and insufficient credit conditions. The system prevented duplicate transactions and ensured proper validation before releasing the unit. Response times ranged from 0.5 to 3.0 seconds due to system processing and hardware interaction. Comprehensive test results are provided in Appendix D, Table 1.3.
+
+%====4=====
+
+\begin{longtable}{|p{4cm}|p{3cm}|}
+\caption{RETURN PROCESS}
+\hline
+\centering \textbf{Metric} & \centering \textbf{Value} \tabularnewline \hline
+Total Test Cases & 7 \\ \hline
+Passed & 7 \\ \hline
+Failed & 0 \\ \hline
+Success Rate & 100\% \\ \hline
+Response Time Range & Not recorded \\ \hline
+Avg Response Time & Not recorded \\ \hline
+\end{longtable}
+
+The Return Process module successfully handled all tested scenarios, including late returns and invalid unit placements. The system maintained accurate status updates and ensured proper synchronization between hardware and software components. Although response times were not explicitly measured, all operations were completed within acceptable system limits. Detailed results are available in Appendix D, Table 1.4.
+
+%====5=====
+
+\begin{longtable}{|p{4cm}|p{3cm}|}
+\caption{ALERT SYSTEM}
+\hline
+\centering \textbf{Metric} & \centering \textbf{Value} \tabularnewline \hline
+Total Test Cases & 5 \\ \hline
+Passed & 5 \\ \hline
+Failed & 0 \\ \hline
+Success Rate & 100\% \\ \hline
+Response Time Range & 0.5--1.0 sec \\ \hline
+Avg Response Time & $\sim$0.7 sec \\ \hline
+\end{longtable}
+
+The Alert System performed efficiently in delivering real-time notifications for user actions. All alerts were displayed promptly, with response times ranging from 0.5 to 1.0 seconds. The module achieved a 100% success rate, indicating reliable system feedback and user communication. See Appendix D, Table 1.5 for complete test data.
+
+%====6=====
+
+\begin{longtable}{|p{4cm}|p{3cm}|}
+\caption{CREDIT SCORE}
+\hline
+\centering \textbf{Metric} & \centering \textbf{Value} \tabularnewline \hline
+Total Test Cases & 8 \\ \hline
+Passed & 8 \\ \hline
+Failed & 0 \\ \hline
+Success Rate & 100\% \\ \hline
+Response Time Range & 0.9--1.6 sec \\ \hline
+Avg Response Time & $\sim$1.2 sec \\ \hline
+\end{longtable}
+
+The Credit Score System accurately computed and applied credits based on battery percentage and user activity. The module demonstrated consistent performance, with response times ranging from 0.9 to 1.6 seconds. All test cases passed, confirming correctness and reliability in credit management. Refer to Appendix D, Table 1.6 for detailed results.
+
+%====7=====
+
+\begin{longtable}{|p{4cm}|p{3cm}|}
+\caption{ADMIN + GPS }
+\hline
+\centering \textbf{Metric} & \centering \textbf{Value} \tabularnewline \hline
+Total Test Cases & 6 \\ \hline
+Passed & 6 \\ \hline
+Failed & 0 \\ \hline
+Success Rate & 100\% \\ \hline
+Response Time Range & $\sim$2.0 sec \\ \hline
+Avg Response Time & $\sim$2.0 sec \\ \hline
+\end{longtable}
+
+The GPS Locator system demonstrated reliable tracking performance, accurately displaying the location of portable units and updating data periodically. The response time remained consistent at approximately 2.0 seconds, indicating stable communication between hardware and the web interface. The system maintained accuracy across all test cases. Complete testing details are presented in Appendix D, Tables 1.7 and 1.8.
+
+%====8=====
+
+\begin{longtable}{|p{4cm}|p{3cm}|}
+\caption{SMS NOTIFIER }
+\hline
+\centering \textbf{Metric} & \centering \textbf{Value} \tabularnewline \hline
+Total Test Cases & 5 \\ \hline
+Passed & 5 \\ \hline
+Failed & 0 \\ \hline
+Success Rate & 100\% \\ \hline
+Response Time Range & 2.0--2.5 sec \\ \hline
+Avg Response Time & $\sim$2.2 sec \\ \hline
+\end{longtable}
+
+The SMS Notification System effectively delivered alerts at predefined time intervals, including pre-due and overdue notifications. The response time ranged from 2.0 to 2.5 seconds, influenced by network conditions. All messages were successfully delivered, demonstrating reliable communication. Detailed results can be found in Appendix D, Table 1.9.
+
+\subsection{Voltage Drop per Appliance}
+
+\begin{figure}[H]
+\centering
+\caption{Live Map Page (Admin)}
+\label{fig:admin2}
+\includegraphics[width=0.7\textwidth]{figures/voltage-drop.png}
+\end{figure}
+
+This graph shows the voltage drop caused by each appliance. High-power appliances such as the iron produce greater voltage drops, while low-power devices such as fans and refrigerators exhibit minimal changes. This indicates that system performance is highly dependent on power demand. For detailed numerical data, refer to Appendix P, Table D.1.
+
+\subsection{Power Consumption per Appliance}
+
+\begin{figure}[H]
+\centering
+\caption{Live Map Page (Admin)}
+\label{fig:admin2}
+\includegraphics[width=0.7\textwidth]{figures/power-consumption.png}
+\end{figure}
+
+This graph presents the power ratings of individual appliances. It highlights that appliances with higher wattage contribute more to system load, which directly affects battery performance and voltage stability. For detailed numerical data, refer to Appendix P, Table D.1. 
+
+\subsection{Usage Time vs Voltage Drop}
+
+\begin{figure}[H]
+\centering
+\caption{Live Map Page (Admin)}
+\label{fig:admin2}
+\includegraphics[width=0.7\textwidth]{figures/usage-time.png}
+\end{figure}
+
+This graph shows that longer usage time does not necessarily lead to higher voltage drop. Appliances with high power demand cause larger drops even with shorter durations. This confirms that power rating is a stronger performance metric than time. For detailed numerical data, refer to Appendix P, Table D.1.
+>>>>>>> Stashed changes
