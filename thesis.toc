@@ -54,6 +54,7 @@
 \contentsline {subsection}{\numberline {3.1.6}System Requirements}{52}{subsection.3.1.6}%
 \contentsline {section}{\numberline {3.2}System Design}{55}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}System Architecture}{56}{subsection.3.2.1}%
+<<<<<<< Updated upstream
 \contentsline {subsection}{\numberline {3.2.2}Flowchart}{61}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Context Level Diagram}{63}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Data Flow Diagram}{65}{subsection.3.2.4}%
@@ -147,4 +148,102 @@
 \contentsline {chapter}{Appendix M: Proofreading Certificate and Report of Rating}{327}{figure.caption.111}%
 \contentsline {chapter}{REFERENCES}{328}{figure.caption.111}%
 \contentsline {chapter}{Appendix N: Curriculum Vitae}{328}{figure.caption.111}%
+=======
+\contentsline {subsection}{\numberline {3.2.2}Flowchart}{60}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Context Level Diagram}{62}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Data Flow Diagram}{64}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Use Case Diagram}{66}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Solar Energy Harvesting}{68}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Energy Conversion DC to AC}{70}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Power Monitoring}{72}{subsection.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.9}GPS Tracking}{74}{subsection.3.2.9}%
+\contentsline {section}{\numberline {3.3}Hardware Development}{76}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Material Specifications}{76}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Circuit Diagram}{88}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Hardware Design}{91}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}Component Layout and System Arrangement}{92}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}Physical Dimensions and Enclosure Specifications}{96}{subsubsection.3.3.3.2}%
+\contentsline {section}{\numberline {3.4}Software Development}{104}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Embedded System Software Development}{105}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Battery Monitoring and Power Calculation}{106}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Rental Time Tracking and Rule-Based Control}{106}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Mobile Application Development}{107}{subsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.4.1}Quasar Framework}{107}{subsubsection.3.4.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.4.2}Activity Diagram}{109}{subsubsection.3.4.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.4.3}GitHub}{110}{subsubsection.3.4.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4.4}Realtime Database}{111}{subsubsection.3.4.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.4.5}Cloud Firestore}{111}{subsubsection.3.4.4.5}%
+\contentsline {subsection}{\numberline {3.4.5}Network Encryption and Security Feature}{112}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Network Encryption and Security Feature}{112}{subsection.3.4.6}%
+\contentsline {subsubsection}{\numberline {3.4.6.1}MikroTik}{113}{subsubsection.3.4.6.1}%
+\contentsline {subsection}{\numberline {3.4.7}Graphical User Interface Implementation of Kuryenta - User's App}{114}{subsection.3.4.7}%
+\contentsline {section}{\numberline {3.5}System Integration}{134}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Testing}{135}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Performance Testing}{135}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Usability Testing}{135}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Implementation}{136}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Calculation Requirements}{137}{subsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.1}Load Analysis}{137}{subsubsection.3.7.1.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.2}Battery Sizing}{138}{subsubsection.3.7.1.2}%
+\contentsline {subsubsection}{\numberline {3.7.1.3}Charging Time and Energy Calculations}{146}{subsubsection.3.7.1.3}%
+\contentsline {subsubsection}{\numberline {3.7.1.4}Battery Monitoring and Power Calculation }{153}{subsubsection.3.7.1.4}%
+\contentsline {subsection}{\numberline {3.7.2}Standards and Guidelines Considered}{155}{subsection.3.7.2}%
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{156}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Solar Energy Harvesting}{157}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Battery DC Power Converted to AC Output via Inverter}{158}{section.4.2}%
+\contentsline {section}{\numberline {4.3}ESP32 Measures Battery Voltage and Displays Data on LCD}{159}{section.4.3}%
+\contentsline {section}{\numberline {4.4}ESP32 Receives Location Data From GPS Satellites Using WiFi}{160}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Battery Monitoring and Power Calculation}{161}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Rental Time Tracking and Rule-Based Control}{162}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Network Encryption and Security Feature}{163}{subsection.4.6.1}%
+\contentsline {subsubsection}{\numberline {4.6.1.1}Controlled Wireless Network Access}{163}{subsubsection.4.6.1.1}%
+\contentsline {subsubsection}{\numberline {4.6.1.2}Device-Level Access Restriction}{163}{subsubsection.4.6.1.2}%
+\contentsline {subsubsection}{\numberline {4.6.1.3}Restricted Administrative Access}{163}{subsubsection.4.6.1.3}%
+\contentsline {subsubsection}{\numberline {4.6.1.4}Effective Traffic Filtering and Intrusion Detection}{164}{subsubsection.4.6.1.4}%
+\contentsline {subsubsection}{\numberline {4.6.1.5}Secure Remote Access Availability}{164}{subsubsection.4.6.1.5}%
+\contentsline {subsubsection}{\numberline {4.6.1.6}Automated VPN Recovery}{164}{subsubsection.4.6.1.6}%
+\contentsline {section}{\numberline {4.7}Performance Testing}{165}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Usability Testing}{165}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Load Analysis}{166}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Detachable Power Source - Battery Capacity}{167}{section.4.10}%
+\contentsline {section}{\numberline {4.11}Panel Sizing}{167}{section.4.11}%
+\contentsline {section}{\numberline {4.12}Inverter Sizing}{168}{section.4.12}%
+\contentsline {section}{\numberline {4.13}Solar Charge Controller Sizing}{168}{section.4.13}%
+\contentsline {section}{\numberline {4.14}Charging Time and Energy Calculation}{169}{section.4.14}%
+\contentsline {subsection}{\numberline {4.14.1}Charging Time of the Station Battery Using Solar Panel}{169}{subsection.4.14.1}%
+\contentsline {subsection}{\numberline {4.14.2}Energy Feasibility of Charging Detachable Power Source}{169}{subsection.4.14.2}%
+\contentsline {subsection}{\numberline {4.14.3}Charging Time of a Single Detachable Power Source}{169}{subsection.4.14.3}%
+\contentsline {subsection}{\numberline {4.14.4}Charging Time of a Double Detachable Power Source}{169}{subsection.4.14.4}%
+\contentsline {subsection}{\numberline {4.14.5}Test Cases Summary Table and Discussion}{171}{subsection.4.14.5}%
+\contentsline {subsection}{\numberline {4.14.6}Voltage Drop per Appliance}{177}{subsection.4.14.6}%
+\contentsline {subsection}{\numberline {4.14.7}Power Consumption per Appliance}{178}{subsection.4.14.7}%
+\contentsline {subsection}{\numberline {4.14.8}Usage Time vs Voltage Drop}{179}{subsection.4.14.8}%
+\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{180}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of Findings}{180}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Conclusion}{181}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Recommendations}{183}{section.5.3}%
+\contentsline {chapter}{APPENDICES}{184}{chapter*.66}%
+\contentsline {chapter}{Appendix A: Step-by-Step Calculation}{184}{chapter*.66}%
+\contentsline {chapter}{Appendix B: Gantt Chart}{190}{table.Alph0.22}%
+\contentsline {chapter}{Appendix D: Letter of Consent}{191}{figure.caption.67}%
+\contentsline {chapter}{Appendix E: Interview Conducted}{193}{figure.caption.67}%
+\contentsline {chapter}{Appendix G: Functional Test Form}{224}{Item.108}%
+\contentsline {chapter}{Appendix G: Functional Test Form}{231}{figure.Alph0.7}%
+\contentsline {chapter}{Appendix G: Functional Test Form}{239}{figure.caption.81}%
+\contentsline {chapter}{Appendix I: Nomination of Members for Oral Examination Panel Form}{247}{figure.caption.88}%
+\contentsline {chapter}{Appendix J: Approved Application for Oral Defense Forms}{248}{figure.caption.88}%
+\contentsline {chapter}{Appendix K: Revision Matrix}{249}{figure.caption.88}%
+\contentsline {chapter}{Appendix L: Plagiarism Test Results}{250}{figure.caption.88}%
+\contentsline {chapter}{Appendix M: Proofreading Certificate and Report of Rating}{251}{figure.caption.88}%
+\contentsline {chapter}{Appendix N: White Box and Black Box Testing Result}{252}{figure.caption.88}%
+\contentsline {subsection}{\numberline {.0.1}Black Box Testing}{252}{subsection.Alph0.0.1}%
+\contentsline {subsubsection}{\numberline {.0.1.1}Kuryenta - User's Rental App}{252}{subsubsection.Alph0.0.1.1}%
+\contentsline {subsubsection}{\numberline {.0.1.2}Kuryenta - Admin's Monitoring App}{278}{subsubsection.Alph0.0.1.2}%
+\contentsline {subsubsection}{\numberline {.0.1.3}Kuryenta - Notifier's App}{285}{subsubsection.Alph0.0.1.3}%
+\contentsline {subsection}{\numberline {.0.2}White Box Testing}{289}{subsection.Alph0.0.2}%
+\contentsline {subsubsection}{\numberline {.0.2.1}Kuryenta - User's Rental App}{289}{subsubsection.Alph0.0.2.1}%
+\contentsline {chapter}{Appendix O: Overall System Testing Result}{306}{table.Alph0.108}%
+\contentsline {chapter}{Appendix P: Overall System Testing Result}{327}{table.Alph0.118}%
+\contentsline {chapter}{REFERENCES}{333}{table.Alph0.123}%
+>>>>>>> Stashed changes
 \contentsfinish 
