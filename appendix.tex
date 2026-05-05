@@ -4296,30 +4296,118 @@ May 1, 2026    & 26°C & 250 W & 210 W & $\sim$225 W & 5.8 hrs & 12.5 V & 13.8 V
 \]
 
 
+\newpage
+
 {\centering
-    \textbf{Appendix P\\Overall System Testing Result}\par
+    \textbf{Appendix P\\Results of Load Consumption of Mix Appliances and Gadgets}\par
     \addcontentsline{toc}{chapter}{Appendix P: Overall System Testing Result}}
 }
 
 %APPENDIX IBUTANG
+\vspace{2em}
 
-\textbf{Results of Load Consumption of Mix Appliances and Gadgets}
+\begingroup
+\renewcommand{\arraystretch}{1.5}
+\begin{longtable}{p{2cm} p{1.5cm} p{1.5cm} p{1.5cm} p{1.5cm} p{1.5cm} p{1.5cm} p{2cm}}
+    \hline
+    \textbf{Appliances /Gadget} & \textbf{Quantity} & \textbf{Power} & \textbf{Time Start} & \textbf{Time Stop} & \textbf{Starting Voltage} & \textbf{End Voltage} & \textbf{Total Consumption} \\ \hline
+    \endfirsthead
+    \hline
+    \textbf{Appliances/Gadget} & \textbf{Quantity} & \textbf{Power} & \textbf{Time Start} & \textbf{Time Stop} & \textbf{Starting Voltage} & \textbf{End Voltage} & \textbf{Total Consumption} \\ \hline
+    \endhead
+    \hline
+    \endfoot
+    Laptop & 4 & 330W & 12:03PM & 3:25PM & 13.4V & 13.2V & 0.2V Drop \\ \hline
+    Stand Fan + Clip Fan + Ceiling Fan & 1 + 2 + 1 & 126W & 9:20AM & 1:01PM & 13.5V & 13.4V & 0.1V Drop \\ \hline
+    Laptop + Clip Fan & 3 + 1 & 273W & 2:10PM & 5:06PM & 13.4V & 13.2V & 0.2V Drop \\ \hline
+    Laptop + Iron & 3 + 1 & 1195W & 1:20PM & 1:42PM & 13.3V & 12.9V & 0.4V Drop \\ \hline
+    Refrigerator + Clip Fan + Laptop & 1 + 2 + 2 & 305W & 9:36PM & 12:33AM & 13.3V & 12.7V & 0.6V Drop \\ \hline
+    Curler + Laptop + Clip Fan & 1 + 2 + 1 & 738W & 2:01PM & 2:35PM & 13.3V & 13.0V & 0.3V Drop \\ \hline
+\end{longtable}
+\endgroup
 
-\begin{table}[h]
-    \centering
-    \renewcommand{\arraystretch}{1.5}
-    \begin{tabular}{l l l l l l l l}
-        \hline
-        \textbf{Appliances/Gadget} & \textbf{Quantity} & \textbf{Power} & \textbf{Time Start} & \textbf{Time Stop} & \textbf{Starting Voltage} & \textbf{End Voltage} & \textbf{Total Consumption} \\ \hline
-        Laptop & 4 & 330W & 12:03PM & 3:25PM & 13.4V & 13.2V & 0.2V Drop \\ \hline
-        Stand Fan + Clip Fan + Ceiling Fan & 1 + 2 + 1 & 126W & 9:20AM & 1:01PM & 13.5V & 13.4V & 0.1V Drop \\ \hline
-        Laptop + Clip Fan & 3 + 1 & 273W & 2:10PM & 5:06PM & 13.4V & 13.2V & 0.2V Drop \\ \hline
-        Laptop + Iron & 3 + 1 & 1195W & 1:20PM & 1:42PM & 13.3V & 12.9V & 0.4V Drop \\ \hline
-        Refrigerator + Clip Fan + Laptop & 1 + 2 + 2 & 305W & 9:36PM & 12:33AM & 13.3V & 12.7V & 0.6V Drop \\ \hline
-        Curler + Laptop + Clip Fan & 1 + 2 + 1 & 738W & 2:01PM & 2:35PM & 13.3V & 13.0V & 0.3V Drop \\ \hline
-    \end{tabular}
-\end{table}
+\vspace{2em}
 
-This table summarizes system performance based on individual appliance loads. It shows that low-power devices maintain stable voltage, while high-power appliances increase system stress. The results confirm that voltage drop is directly proportional to power consumption.
+\begingroup
+\renewcommand{\arraystretch}{1.5}
+\begin{longtable}{p{5cm} p{2cm} p{3cm} p{3cm}}
+    \hline
+    \textbf{BRAND/TYPE} & \textbf{POWER} & \textbf{EFFECTIVE AVG DRAW} & \textbf{BATTERY RUNTIME (hours)} \\ \hline
+    \endfirsthead
+    \hline
+    \textbf{BRAND/TYPE} & \textbf{POWER} & \textbf{EFFECTIVE AVG DRAW} & \textbf{BATTERY RUNTIME (hours)} \\ \hline
+    \endhead
+    \hline
+    \endfoot
+    Panasonic Refrigerator - 1 Door & 60W & 18--24W & \textbf{20--24 hrs} \\ \hline
+    Panasonic Refrigerator - 2 Door & 80W & 24--32W & \textbf{15--18 hrs} \\ \hline
+    Condura Refrigerator - 2 Door & 65W & 20--26W & \textbf{18--22 hrs} \\ \hline
+\end{longtable}
+\endgroup
 
-\textbf{Refrigerator}
+Table 1 presents the estimated battery runtime for three refrigerator units with power ratings of 60W, 65W, and 80W, operating on a 12-volt, 50 ampere-hour (Ah) LiFePO4 battery paired with a 1,600-watt inverter. The analysis accounts for the inherent duty cycle of refrigerator compressors, which cycle on and off at an estimated rate of 30 to 40 percent of total operating time, rather than drawing their maximum rated wattage continuously. As a result, the effective average power consumption is significantly lower than the nameplate rating, yielding substantially extended runtimes ranging from approximately 12 to 26 hours depending on the unit. These estimates are subject to variation based on ambient temperature, frequency of door opening, and the thermal insulation efficiency of each appliance. For the complete dataset and computed values, refer to Appendix D, Table 1.
+
+\vspace{2em}
+
+\begingroup
+\renewcommand{\arraystretch}{1.5}
+\begin{longtable}{p{4cm} p{2cm} p{3cm} p{3cm}}
+    \hline
+    \textbf{BRAND/TYPE} & \textbf{POWER} & \textbf{EFFECTIVE AVG DRAW} & \textbf{BATTERY RUNTIME (hours)} \\ \hline
+    \endfirsthead
+    \hline
+    \textbf{BRAND/TYPE} & \textbf{POWER} & \textbf{EFFECTIVE AVG DRAW} & \textbf{BATTERY RUNTIME (hours)} \\ \hline
+    \endhead
+    \hline
+    \endfoot
+    Acer TravelMate P & 65W & 20--35W & \textbf{14--24hrs} \\ \hline
+    ASUS Vivobook & 65W & 20--35W & \textbf{14--24hrs} \\ \hline
+    Lenovo & 65W & 20--35W & \textbf{14--24hrs} \\ \hline
+    Acer Nitro V15 & 135W & 50--80W & 6--9hrs \\ \hline
+    MacBook & 35W & \textbf{10--20W} & \textbf{24--40 hrs} \\ \hline
+\end{longtable}
+\endgroup
+
+Table 2 illustrates the projected battery runtime for five laptop models — namely the Acer TravelMate P, ASUS Vivobook, Lenovo, Acer Nitro V15, and MacBook — all connected to the same 12V, 50Ah LiFePO4 battery system. Laptop power consumption is inherently variable; during active charging, the adapter draws close to its rated wattage, but once the internal battery reaches full charge, the draw reduces to a trickle of approximately 5 to 10 watts. Additionally, under light computational tasks such as word processing or web browsing, the actual draw typically falls between 40 and 60 percent of the rated maximum. Consequently, the estimated runtimes range from approximately 6 hours for the high-performance Acer Nitro V15 gaming unit to as many as 47 hours for the energy-efficient MacBook under light use conditions. These figures underscore the significant disparity in power demand between consumer-grade and gaming-grade portable computing devices. For the complete dataset and computed values, refer to Appendix D, Table 2.
+
+\vspace{2em}
+
+\begingroup
+\renewcommand{\arraystretch}{1.5}
+\begin{longtable}{p{4cm} p{2cm} p{3cm} p{3cm}}
+    \hline
+    \textbf{BRAND/TYPE} & \textbf{POWER} & \textbf{EFFECTIVE AVG DRAW} & \textbf{BATTERY RUNTIME (hours)} \\ \hline
+    \endfirsthead
+    \hline
+    \textbf{BRAND/TYPE} & \textbf{POWER} & \textbf{EFFECTIVE AVG DRAW} & \textbf{BATTERY RUNTIME (hours)} \\ \hline
+    \endhead
+    \hline
+    \endfoot
+    Clip Fan & 8W & 8W & \textbf{60 hrs} \\ \hline
+    Stand Fan & 60W & 60W & \textbf{8 hrs} \\ \hline
+    Ceiling Fan & 45W & 45W & \textbf{10.6 hrs} \\ \hline
+\end{longtable}
+\endgroup
+
+Table 3 details the estimated battery runtime for three fan types — a clip fan (8W), a stand fan (60W), and a ceiling fan (45W) — operating on the specified LiFePO4 battery system. Unlike refrigerators and laptops, electric fans operate at a near-constant load without duty cycling, meaning they draw their rated wattage continuously throughout operation. The clip fan demonstrates the most exceptional energy efficiency, with an estimated runtime of approximately 59 hours — sufficient for more than two consecutive days of uninterrupted use. The ceiling fan and stand fan, drawing 45W and 60W respectively, yield runtimes of approximately 10.5 and 7.9 hours. These results indicate that low-wattage fans represent the most practical and energy-efficient appliances for battery-powered off-grid or backup power applications. For the complete dataset and computed values, refer to Appendix D, Table 3.
+
+\vspace{2em}
+
+\begingroup
+\renewcommand{\arraystretch}{1.5}
+\begin{longtable}{p{4cm} p{2cm} p{3cm} p{3cm}}
+    \hline
+    \textbf{BRAND/TYPE} & \textbf{POWER} & \textbf{EFFECTIVE AVG DRAW} & \textbf{BATTERY RUNTIME (hours)} \\ \hline
+    \endfirsthead
+    \hline
+    \textbf{BRAND/TYPE} & \textbf{POWER} & \textbf{EFFECTIVE AVG DRAW} & \textbf{BATTERY RUNTIME (hours)} \\ \hline
+    \endhead
+    \hline
+    \endfoot
+    Curler & 600W & 240--360W & \textbf{1.3--2 hrs} \\ \hline
+    Royal Iron & 1000W & 300--500W & \textbf{0.95--1.6 hrs} \\ \hline
+    Panasonic Iron & 1020W & 306--510W & \textbf{0.93--1.55 hrs} \\ \hline
+\end{longtable}
+\endgroup
+
+Table 4 examines the estimated battery runtime for high-resistance heating appliances, specifically a 600W hair curler, a 1,000W Royal iron, and a 1,020W Panasonic iron. Heating elements in these devices operate through a thermostat-regulated duty cycle, whereby the element switches off once the target temperature is reached and reactivates upon thermal drop — resulting in an effective duty cycle of approximately 30 to 50 percent. Applying this cycle to the usable energy capacity of the battery system yields runtime estimates of 1.3 to 2 hours for the curler, and approximately 0.93 to 1.6 hours for each of the electric irons. While these durations are modest, they represent a meaningful improvement over theoretical full-load calculations and suggest limited but feasible usability for short grooming or pressing tasks in emergency or off-grid scenarios. The use of irons on battery power, however, remains non-ideal for extended or routine use due to their high energy demand. For the complete dataset and computed values, refer to Appendix D, Table 4.
