@@ -36,6 +36,8 @@
 \usepackage{pdflscape} 
 \usepackage{array}
 \usepackage{booktabs}
+\usepackage{titlesec}
+
 
 %\renewcommand*\sectionmark[1]{\markboth{#1}{}}
 %\renewcommand*\subsectionmark[1]{\markright{#1}{}}
@@ -56,6 +58,7 @@
 \setlength{\cftbeforechapskip}{0.5em} % Space before chapter entries
 \setlength{\cftbeforesecskip}{0.3em}  % Space before section entries
 \setlength{\cftbeforesubsecskip}{0.2em} % Space before subsection entries
+
 % Manually adjust Table of Contents title
 \renewcommand\contentsname{TABLE OF CONTENTS}
 \renewcommand\listtablename{LIST OF TABLES}
@@ -76,6 +79,10 @@
 \setlength{\cftsecindent}{\tocindent}
 \setlength{\cftsubsecindent}{\tocindent}
 \addtolength{\cftsubsecindent}{2.3em}     % Indent for subsections
+% Indent for subsubsections (3.4.4.1 etc.)
+\setlength{\cftsubsubsecindent}{\cftsubsecindent}
+\addtolength{\cftsubsubsecindent}{2.3em}
+\setlength{\cftsubsubsecnumwidth}{4em}
 
 % Align columns in List of Tables and List of Figures
 \renewcommand{\cfttabnumwidth}{5em} % Width for Table Number
