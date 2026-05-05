@@ -476,12 +476,8 @@ The following table outlines the key considerations for selecting hardware compo
 	
 	\addlinespace[0.6em]
 	
-	WiFi Modem & Input Voltage & 12V DC \\
+	Router & Input Voltage & 5V DC \\
 	& Wireless Standard & Wi-Fi 802.11 b/g/n \\
-	
-	MikroTik Router & Input Voltage & 24V DC \\
-	& Wireless Standard & Wi-Fi 5 (802.11ac) \\
-	& Software Operating System & RouterOS version 7 \\
 	
 \end{longtable}
 
@@ -955,10 +951,21 @@ Firebase Firestore is used as the primary cloud database for storing structured 
 \subsection{Network Encryption and Security Feature}
 This subsection describes the network-level encryption and security measures implemented to protect the system from unauthorized access and to reduce attempts to bypass the mobile application through direct network intrusion. The security design focuses on securing wireless access, restricting device connectivity, and protecting data transmission between the rental station, controller, and monitoring interfaces.
 
-\subsubsection{MikroTik}
-A MikroTik router is used as part of the network security layer to secure the local connection between the rental station and the mobile application/server. It is configured to enforce encrypted network access and restrict unauthorized devices by using WPA2/WPA3 Wi-Fi security, firewall rules, and MAC/IP filtering. Only registered system devices (e.g., the ESP32 controller and authorized admin devices) are allowed to communicate with the network. The MikroTik firewall blocks unknown inbound connections and limits open ports to reduce exposure to attacks. This setup helps prevent attackers from connecting to the system network and bypassing the application through direct access to the device or database endpoints.
+\subsection{Network Encryption and Security Feature}
+This subsection describes the network-level encryption and security measures implemented to protect the system from unauthorized access and to reduce attempts to bypass the web application through direct network intrusion. The security design focuses on securing wireless access, restricting device connectivity, and protecting data transmission between the rental station, controller, and monitoring interfaces.
 
-\subsection {Graphical User Interface Implementation}
+\subsubsection{MikroTik}
+A MikroTik router is used as part of the network security layer to secure the connection between the rental station and the mobile application/server. It is configured to enforce encrypted wireless communication using WPA2 Wi-Fi security and to restrict unauthorized devices through MAC-based whitelisting and IP-based firewall filtering.
+
+Only registered system devices, such as the ESP32 controller and authorized administrative devices, are permitted to communicate within the network. The wireless interface is configured in access point mode and secured to prevent unauthorized connections.
+
+The MikroTik firewall is configured to implement connection-state filtering, port scan detection, and source IP restrictions. Administrative access is limited to a specific static IP address, while unauthorized inbound traffic is blocked to reduce exposure to attacks.
+
+Additionally, secure remote access is enabled through a VPN connection, with monitoring configured to maintain connectivity.
+
+This setup helps prevent attackers from gaining direct access to the system network and bypassing the application through direct communication with devices or system endpoints.
+
+\subsection {Graphical User Interface Implementation of Kuryenta - User's App}
 This section presents the graphical user interface (GUI) of the KuRyenta mobile application and administrative dashboard. The results show a fully functional interface capable of managing hardware-software interactions in real-time.
 
 
@@ -1067,7 +1074,7 @@ The Profile Page allows users to view and manage their personal account informat
 \centering
 \caption{Main Dashboard Page (Admin)}
 \label{fig:admin}
-\includegraphics[width=0.7\textwidth]{figures/admin-1.png}
+\includegraphics[width=1\textwidth]{figures/1.png}
 \end{figure}
 
 
@@ -1078,7 +1085,7 @@ The Main Dashboard serves as the central control panel of the KuRyenta system. I
 \centering
 \caption{Live Map Page (Admin)}
 \label{fig:admin2}
-\includegraphics[width=0.7\textwidth]{figures/admin-2.png}
+\includegraphics[width=1\textwidth]{figures/2.png}
 \end{figure}
 
 
@@ -1089,15 +1096,7 @@ The Live Map functionality utilizes the integrated GPS and GSM modules to displa
 \centering
 \caption{Active Rentals (Admin)}
 \label{fig:admin3}
-\includegraphics[width=0.7\textwidth]{figures/admin-3.png}
-\end{figure}
-
-
-\begin{figure}[H]
-\centering
-\caption{Active Rentals (Admin)}
-\label{fig:admin4}
-\includegraphics[width=0.7\textwidth]{figures/admin-4.png}
+\includegraphics[width=1\textwidth]{figures/3.png}
 \end{figure}
 
 
@@ -1108,17 +1107,8 @@ The Active Rentals section shows all ongoing rental transactions within the syst
 \centering
 \caption{Rental History (Admin)}
 \label{fig:admin5}
-\includegraphics[width=0.7\textwidth]{figures/admin-5.png}
+\includegraphics[width=1\textwidth]{figures/4.png}
 \end{figure}
-
-
-\begin{figure}[H]
-\centering
-\caption{Rental History (Admin)}
-\label{fig:admin6}
-\includegraphics[width=0.7\textwidth]{figures/admin-6.png}
-\end{figure}
-
 
 The Rental History records all completed rental transactions. It stores data such as user information, rental duration, station and slot used, details of when it is rented and returned, and status. This functionality supports data analysis, reporting, and system evaluation. It allows administrators to review past rentals, identify usage patterns, and make informed decisions for system improvements and resource allocation.
 
@@ -1127,15 +1117,7 @@ The Rental History records all completed rental transactions. It stores data suc
 \centering
 \caption{User Management (Admin)}
 \label{fig:admin7}
-\includegraphics[width=0.7\textwidth]{figures/admin-7.png}
-\end{figure}
-
-
-\begin{figure}[H]
-\centering
-\caption{User Management (Admin)}
-\label{fig:admin8}
-\includegraphics[width=0.7\textwidth]{figures/admin-8.png}
+\includegraphics[width=1\textwidth]{figures/5.png}
 \end{figure}
 
 
@@ -1146,21 +1128,20 @@ The User Management module is responsible for handling user accounts within the 
 \centering
 \caption{Stations (Admin)}
 \label{fig:admin9}
-\includegraphics[width=0.7\textwidth]{figures/admin-9.png}
+\includegraphics[width=1\textwidth]{figures/6.png}
 \end{figure}
-
 
 The Stations section manages the solar-powered rental stations deployed in the community. It provides information such as station location, number of available slots, battery availability, and user information in each slot rented. Administrators can monitor station performance, manage slot availability, and ensure proper operation of the solar-powered infrastructure, including energy harvesting and storage components.
 
-
 \begin{figure}[H]
 \centering
-\caption{SMS Logs (Admin)}
+\caption{Offline Monitor (Admin)}
 \label{fig:admin10}
-\includegraphics[width=0.7\textwidth]{figures/admin-10.png}
+\includegraphics[width=1\textwidth]{figures/7.png}
 \end{figure}
 
-The SMS Logs functionality records all SMS communications sent through the GSM module. These include notifications such as rental confirmations, activation codes, overdue alerts, and return reminders. This feature ensures traceability of system communication, helps in troubleshooting notification issues, and verifies that users are properly informed throughout the rental process.
+The Offline Monitor page in the KURYENTA system is a simple tool used to check if the charging equipment is working or disconnected. Its main job is to show a list of any charging stations or battery slots that have lost their signal for more than ten minutes so that the team can fix them quickly. The page uses bright colors and clear numbers to show how many parts are currently broken and gives specific details, like the last time a station was seen online and the current battery levels of the slots. It also has a log section that records every time a piece of equipment goes offline or comes back online while the admin is watching the screen. By putting all this info in one place, the system helps the owners make sure the charging stations stay ready for customers to use.
+
 
 \section{System Integration}
 The system integration process involves the seamless interconnection of the hardware components, embedded software, mobile application, and cloud-based services to ensure reliable and synchronized operation of the solar-powered rental station with detachable power sources. The ESP32 microcontroller serves as the central controller, integrating data from the battery monitoring circuit, GPS module, GSM module, coin-slot mechanism, relays, solenoid locks, and LCD display. Solar energy harvested by the photovoltaic panel is regulated by the charge controller and stored in the  \ce{LiFePO4} battery, while the inverter supplies AC power to user loads. Operational data such as battery percentage, rental status, location coordinates, and usage duration are transmitted via Wi-Fi or GSM to a cloud database, enabling real-time monitoring and record management. The mobile application interfaces with the cloud database to display system status, manage rentals, process user transactions, and send notifications. Through this integration, all hardware and software components function as a unified system, allowing secure rental access, continuous monitoring, and efficient data synchronization through the mobile.
@@ -1517,30 +1498,42 @@ For a 12V LifePO4 system, voltage around 13.0V or above indicates normal operati
 
 
 
-\begin{table}[H]
-    \centering
-    \renewcommand{\arraystretch}{1.4} 
-    \caption{Battery Percentage and Voltage Readings} 
-    \label{tab:battery_readings}
+\renewcommand{\arraystretch}{1.4} 
+\begin{longtable}{p{0.2\textwidth} p{0.35\textwidth} p{0.35\textwidth}}
+    \caption{Battery Percentage and Voltage Readings} \label{tab:battery_readings} \\
     
-    \begin{tabular}{@{\hspace{1cm}} l l l @{\hspace{1cm}}} 
-        \toprule
-        \textbf{Percentage} & \textbf{Voltage Reading (SOC)} & \textbf{Voltage Reading (Under Load)} \\ 
-        \midrule
-        100\% & 13.6V & 13.2V \\
-        90\%  & 13.5V & 13.1V \\
-        80\%  & 13.4V & 13.0V \\
-        70\%  & 13.3V & 12.9V \\
-        60\%  & 13.2V & 12.8V \\
-        50\%  & 13.1V & 12.7V \\
-        40\%  & 13.0V & 12.6V \\
-        30\%  & 12.9V & 12.5V \\
-        20\%  & 12.7V & 12.3V \\
-        10\%  & 12.4V & 12.2V \\
-        0\%   & 12.2V & 12.0V \\ 
-        \bottomrule
-    \end{tabular}
-\end{table}
+    \toprule
+    \textbf{Percentage} & \textbf{Voltage Reading (SOC)} & \textbf{Voltage Reading (Under Load)} \\ 
+    \midrule
+    \endfirsthead
+    
+    \multicolumn{3}{c}%
+    {{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+    \toprule
+    \textbf{Percentage} & \textbf{Voltage Reading (SOC)} & \textbf{Voltage Reading (Under Load)} \\ 
+    \midrule
+    \endhead
+    
+    \midrule
+    \multicolumn{3}{r}{{Continued on next page}} \\
+    \bottomrule
+    \endfoot
+    
+    \bottomrule
+    \endlastfoot
+
+    100\% & 13.6V & 13.2V \\
+    90\%  & 13.5V & 13.1V \\
+    80\%  & 13.4V & 13.0V \\
+    70\%  & 13.3V & 12.9V \\
+    60\%  & 13.2V & 12.8V \\
+    50\%  & 13.1V & 12.7V \\
+    40\%  & 13.0V & 12.6V \\
+    30\%  & 12.9V & 12.5V \\
+    20\%  & 12.7V & 12.3V \\
+    10\%  & 12.4V & 12.2V \\
+    0\%   & 12.2V & 12.0V \\ 
+\end{longtable}
 
 
   \subsection{Standards and Guidelines Considered}
