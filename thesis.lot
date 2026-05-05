@@ -5,16 +5,36 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2}{\ignorespaces Hardware Components and Cost}}{49}{table.caption.14}%
 \contentsline {table}{\numberline {3}{\ignorespaces System Requirements}}{52}{table.3.3}%
-\contentsline {table}{\numberline {4}{\ignorespaces Criteria for Selecting Hardware Materials}}{79}{table.3.4}%
-\contentsline {table}{\numberline {5}{\ignorespaces Selection of Hardware Components}}{82}{table.3.5}%
-\contentsline {table}{\numberline {6}{\ignorespaces Estimated Weight of the Detachable Power Source}}{99}{table.3.6}%
-\contentsline {table}{\numberline {7}{\ignorespaces Load Consumption}}{135}{table.3.7}%
-\contentsline {table}{\numberline {8}{\ignorespaces Inverter Sizing}}{138}{table.3.8}%
-\contentsline {table}{\numberline {9}{\ignorespaces Summary of Design Computation Formulas}}{148}{table.3.9}%
-\contentsline {table}{\numberline {10}{\ignorespaces Battery Percentage and Voltage Readings}}{152}{table.3.10}%
+\contentsline {table}{\numberline {4}{\ignorespaces Criteria for Selecting Hardware Materials}}{77}{table.3.4}%
+\contentsline {table}{\numberline {5}{\ignorespaces Selection of Hardware Components}}{80}{table.3.5}%
+\contentsline {table}{\numberline {6}{\ignorespaces ESP32 Detachable Power Source Pin Mapping}}{91}{table.3.6}%
+\contentsline {table}{\numberline {7}{\ignorespaces Load Consumption}}{141}{table.3.7}%
+\contentsline {table}{\numberline {8}{\ignorespaces Inverter Sizing}}{144}{table.3.8}%
+\contentsline {table}{\numberline {9}{\ignorespaces Summary of Design Computation Formulas}}{154}{table.3.9}%
+\contentsline {table}{\numberline {10}{\ignorespaces Battery Percentage and Voltage Readings}}{158}{table.caption.62}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {97}{\ignorespaces Charging Performance and Voltage Readings of One Detachable Power Source Battery}}{264}{table.4.97}%
-\contentsline {table}{\numberline {98}{\ignorespaces Charging Performance and Voltage Readings of Two Detachable Power Sources Battery}}{265}{table.4.98}%
+\contentsline {table}{\numberline {11}{\ignorespaces Usability Test Result of Community Residents}}{178}{table.caption.64}%
+\contentsline {table}{\numberline {12}{\ignorespaces SUS Average}}{179}{table.caption.65}%
+\contentsline {table}{\numberline {13}{\ignorespaces Summary of Charging Results}}{181}{table.caption.66}%
+\contentsline {table}{\numberline {14}{\ignorespaces LOGIN MODULE}}{183}{table.4.14}%
+\contentsline {table}{\numberline {15}{\ignorespaces COIN SLOT AND CREDIT}}{183}{table.4.15}%
+\contentsline {table}{\numberline {16}{\ignorespaces RENTING PROCESS}}{184}{table.4.16}%
+\contentsline {table}{\numberline {17}{\ignorespaces RETURN PROCESS}}{184}{table.4.17}%
+\contentsline {table}{\numberline {18}{\ignorespaces ALERT SYSTEM}}{185}{table.4.18}%
+\contentsline {table}{\numberline {19}{\ignorespaces CREDIT SCORE}}{186}{table.4.19}%
+\contentsline {table}{\numberline {20}{\ignorespaces ADMIN + GPS }}{186}{table.4.20}%
+\contentsline {table}{\numberline {21}{\ignorespaces SMS NOTIFIER }}{187}{table.4.21}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {99}{\ignorespaces Estimated Wattage Usage of Common Appliances}}{274}{table.Alph0.99}%
+\contentsline {table}{\numberline {22}{\ignorespaces Estimated Wattage Usage of Common Appliances}}{199}{table.Alph0.22}%
+\contentsline {table}{\numberline {109}{\ignorespaces Login Module}}{307}{table.Alph0.109}%
+\contentsline {table}{\numberline {110}{\ignorespaces Coin Slot and Credit}}{308}{table.Alph0.110}%
+\contentsline {table}{\numberline {111}{\ignorespaces Renting Process}}{309}{table.Alph0.111}%
+\contentsline {table}{\numberline {112}{\ignorespaces Return Process}}{310}{table.Alph0.112}%
+\contentsline {table}{\numberline {113}{\ignorespaces Alert System}}{311}{table.Alph0.113}%
+\contentsline {table}{\numberline {114}{\ignorespaces Credit Score}}{312}{table.Alph0.114}%
+\contentsline {table}{\numberline {115}{\ignorespaces Admin + GPS Locator}}{312}{table.Alph0.115}%
+\contentsline {table}{\numberline {116}{\ignorespaces Admin + GPS Locator}}{313}{table.Alph0.116}%
+\contentsline {table}{\numberline {117}{\ignorespaces SMS Notifier}}{313}{table.Alph0.117}%
+\contentsline {table}{\numberline {118}{\ignorespaces System Performance and Synchronization}}{314}{table.Alph0.118}%
+\contentsline {table}{\numberline {119}{\ignorespaces Detailed Charging Performance of the Station Battery}}{314}{table.Alph0.119}%
 \contentsfinish 
