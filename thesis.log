@@ -15380,4 +15380,862 @@ Package pdftex.def Info: figures/SU-05-code.png  used on input line 3570.
 (pdftex.def)             Requested size: 173.56198pt x 50.94374pt.
 <figures/SU-05-result.png, id=2895, 592.2125pt x 74.2775pt>
 File: figures/SU-05-result.png Graphic file (type png)
-<u
+<use figures/SU-05-result.png>
+Package pdftex.def Info: figures/SU-05-result.png  used on input line 3575.
+(pdftex.def)             Requested size: 159.3356pt x 19.98378pt.
+<figures/SU-06-code.png, id=2896, 1632.0975pt x 479.7925pt>
+File: figures/SU-06-code.png Graphic file (type png)
+<use figures/SU-06-code.png>
+Package pdftex.def Info: figures/SU-06-code.png  used on input line 3582.
+(pdftex.def)             Requested size: 173.56198pt x 51.02028pt.
+<figures/SU-06-result.png, id=2897, 628.3475pt x 104.39pt>
+File: figures/SU-06-result.png Graphic file (type png)
+<use figures/SU-06-result.png>
+Package pdftex.def Info: figures/SU-06-result.png  used on input line 3587.
+(pdftex.def)             Requested size: 159.3356pt x 26.47015pt.
+<figures/SU-07-code.png, id=2898, 2079.77pt x 411.5375pt>
+File: figures/SU-07-code.png Graphic file (type png)
+<use figures/SU-07-code.png>
+Package pdftex.def Info: figures/SU-07-code.png  used on input line 3594.
+(pdftex.def)             Requested size: 173.56198pt x 34.34285pt.
+<figures/SU-07-result.png, id=2899, 897.3525pt x 236.885pt>
+File: figures/SU-07-result.png Graphic file (type png)
+<use figures/SU-07-result.png>
+Package pdftex.def Info: figures/SU-07-result.png  used on input line 3599.
+(pdftex.def)             Requested size: 159.3356pt x 42.05913pt.
+<figures/SU-08-code.png, id=2900, 1393.205pt x 630.355pt>
+File: figures/SU-08-code.png Graphic file (type png)
+<use figures/SU-08-code.png>
+Package pdftex.def Info: figures/SU-08-code.png  used on input line 3606.
+(pdftex.def)             Requested size: 173.56198pt x 78.52486pt.
+<figures/SU-08-result.png, id=2901, 1931.215pt x 903.375pt>
+File: figures/SU-08-result.png Graphic file (type png)
+<use figures/SU-08-result.png>
+Package pdftex.def Info: figures/SU-08-result.png  used on input line 3611.
+(pdftex.def)             Requested size: 159.3356pt x 74.5321pt.
+<figures/SU-09-code.png, id=2902, 2137.9875pt x 1465.475pt>
+File: figures/SU-09-code.png Graphic file (type png)
+<use figures/SU-09-code.png>
+Package pdftex.def Info: figures/SU-09-code.png  used on input line 3618.
+(pdftex.def)             Requested size: 173.56198pt x 118.96222pt.
+<figures/SU-09-result.png, id=2903, 863.225pt x 210.7875pt>
+File: figures/SU-09-result.png Graphic file (type png)
+<use figures/SU-09-result.png>
+Package pdftex.def Info: figures/SU-09-result.png  used on input line 3623.
+(pdftex.def)             Requested size: 159.3356pt x 38.90501pt.
+ [302 <./figures/LG-07-code.png> <./figures/LG-07-result.png> <./figures/WS-08-
+code.png> <./figures/WS-08-result.png> <./figures/LG-09-code.png> <./figures/LG
+-09-result.png> <./figures/WS-10-code.png> <./figures/WS-10-result.png> <./figu
+res/SU-01-code.png> <./figures/SU-01-result.png>] [303 <./figures/SU-02-code.pn
+g> <./figures/SU-02-result.png> <./figures/SU-03-code.png> <./figures/SU-03-res
+ult.png> <./figures/SU-04-code.png> <./figures/SU-04-result.png> <./figures/SU-
+05-code.png> <./figures/SU-05-result.png> <./figures/SU-06-code.png> <./figures
+/SU-06-result.png>]
+<figures/ST-01-code.png, id=2933, 1324.95pt x 371.3875pt>
+File: figures/ST-01-code.png Graphic file (type png)
+<use figures/ST-01-code.png>
+Package pdftex.def Info: figures/ST-01-code.png  used on input line 3636.
+(pdftex.def)             Requested size: 173.56198pt x 48.64474pt.
+<figures/ST-01-result.png, id=2934, 1045.9075pt x 152.57pt>
+File: figures/ST-01-result.png Graphic file (type png)
+<use figures/ST-01-result.png>
+Package pdftex.def Info: figures/ST-01-result.png  used on input line 3641.
+(pdftex.def)             Requested size: 159.3356pt x 23.24303pt.
+<figures/ST-02-code.png, id=2935, 1401.235pt x 200.75pt>
+File: figures/ST-02-code.png Graphic file (type png)
+<use figures/ST-02-code.png>
+Package pdftex.def Info: figures/ST-02-code.png  used on input line 3648.
+(pdftex.def)             Requested size: 173.56198pt x 24.86394pt.
+<figures/ST-02-result.png, id=2936, 967.615pt x 76.285pt>
+File: figures/ST-02-result.png Graphic file (type png)
+<use figures/ST-02-result.png>
+Package pdftex.def Info: figures/ST-02-result.png  used on input line 3653.
+(pdftex.def)             Requested size: 159.3356pt x 12.56087pt.
+<figures/ST-03-code.png, id=2937, 1417.295pt x 162.6075pt>
+File: figures/ST-03-code.png Graphic file (type png)
+<use figures/ST-03-code.png>
+Package pdftex.def Info: figures/ST-03-code.png  used on input line 3660.
+(pdftex.def)             Requested size: 173.56198pt x 19.91151pt.
+<figures/ST-03-result.png, id=2938, 1045.9075pt x 124.465pt>
+File: figures/ST-03-result.png Graphic file (type png)
+<use figures/ST-03-result.png>
+Package pdftex.def Info: figures/ST-03-result.png  used on input line 3665.
+(pdftex.def)             Requested size: 159.3356pt x 18.96141pt.
+ [304 <./figures/SU-07-code.png> <./figures/SU-07-result.png> <./figures/SU-08-
+code.png> <./figures/SU-08-result.png> <./figures/SU-09-code.png> <./figures/SU
+-09-result.png> <./figures/ST-01-code.png> <./figures/ST-01-result.png> <./figu
+res/ST-02-code.png> <./figures/ST-02-result.png>]
+<figures/SS-01-code.png, id=2954, 1069.9975pt x 228.855pt>
+File: figures/SS-01-code.png Graphic file (type png)
+<use figures/SS-01-code.png>
+Package pdftex.def Info: figures/SS-01-code.png  used on input line 3678.
+(pdftex.def)             Requested size: 173.56198pt x 37.12039pt.
+<figures/SS-01-result.png, id=2955, 945.5325pt x 150.5625pt>
+File: figures/SS-01-result.png Graphic file (type png)
+<use figures/SS-01-result.png>
+Package pdftex.def Info: figures/SS-01-result.png  used on input line 3683.
+(pdftex.def)             Requested size: 159.3356pt x 25.37013pt.
+<figures/PAY-01-code.png, id=2956, 1084.05pt x 234.8775pt>
+File: figures/PAY-01-code.png Graphic file (type png)
+<use figures/PAY-01-code.png>
+Package pdftex.def Info: figures/PAY-01-code.png  used on input line 3690.
+(pdftex.def)             Requested size: 173.56198pt x 37.60266pt.
+<figures/PAY-01-result.png, id=2957, 963.6pt x 148.555pt>
+File: figures/PAY-01-result.png Graphic file (type png)
+<use figures/PAY-01-result.png>
+Package pdftex.def Info: figures/PAY-01-result.png  used on input line 3695.
+(pdftex.def)             Requested size: 159.3356pt x 24.56264pt.
+<figures/PAY-02-code.png, id=2958, 778.91pt x 333.245pt>
+File: figures/PAY-02-code.png Graphic file (type png)
+<use figures/PAY-02-code.png>
+Package pdftex.def Info: figures/PAY-02-code.png  used on input line 3702.
+(pdftex.def)             Requested size: 173.56198pt x 74.25482pt.
+<figures/PAY-02-result.png, id=2959, 682.55pt x 176.66pt>
+File: figures/PAY-02-result.png Graphic file (type png)
+<use figures/PAY-02-result.png>
+Package pdftex.def Info: figures/PAY-02-result.png  used on input line 3707.
+(pdftex.def)             Requested size: 159.3356pt x 41.23744pt.
+<figures/PAY-04-code.png, id=2960, 803.0pt x 192.72pt>
+File: figures/PAY-04-code.png Graphic file (type png)
+<use figures/PAY-04-code.png>
+Package pdftex.def Info: figures/PAY-04-code.png  used on input line 3714.
+(pdftex.def)             Requested size: 173.56198pt x 41.65453pt.
+<figures/PAY-04-result.png, id=2961, 977.6525pt x 837.1275pt>
+File: figures/PAY-04-result.png Graphic file (type png)
+<use figures/PAY-04-result.png>
+Package pdftex.def Info: figures/PAY-04-result.png  used on input line 3719.
+(pdftex.def)             Requested size: 159.3356pt x 136.43398pt.
+<figures/PAY-05-code.png, id=2962, 626.34pt x 497.86pt>
+File: figures/PAY-05-code.png Graphic file (type png)
+<use figures/PAY-05-code.png>
+Package pdftex.def Info: figures/PAY-05-code.png  used on input line 3726.
+(pdftex.def)             Requested size: 173.56198pt x 137.95647pt.
+<figures/PAY-05-result.png, id=2963, 1262.7175pt x 166.6225pt>
+File: figures/PAY-05-result.png Graphic file (type png)
+<use figures/PAY-05-result.png>
+Package pdftex.def Info: figures/PAY-05-result.png  used on input line 3731.
+(pdftex.def)             Requested size: 159.3356pt x 21.02353pt.
+<figures/NAV-01-code.png, id=2964, 768.8725pt x 166.6225pt>
+File: figures/NAV-01-code.png Graphic file (type png)
+<use figures/NAV-01-code.png>
+Package pdftex.def Info: figures/NAV-01-code.png  used on input line 3738.
+(pdftex.def)             Requested size: 173.56198pt x 37.61302pt.
+<figures/NAV-01-result.png, id=2965, 1262.7175pt x 72.27pt>
+File: figures/NAV-01-result.png Graphic file (type png)
+<use figures/NAV-01-result.png>
+Package pdftex.def Info: figures/NAV-01-result.png  used on input line 3743.
+(pdftex.def)             Requested size: 159.3356pt x 9.11864pt.
+
+[305 <./figures/ST-03-code.png> <./figures/ST-03-result.png> <./figures/SS-01-c
+ode.png> <./figures/SS-01-result.png> <./figures/PAY-01-code.png> <./figures/PA
+Y-01-result.png> <./figures/PAY-02-code.png> <./figures/PAY-02-result.png> <./f
+igures/PAY-04-code.png> <./figures/PAY-04-result.png>]
+<figures/NO-01-code.png, id=2981, 794.97pt x 347.2975pt>
+File: figures/NO-01-code.png Graphic file (type png)
+<use figures/NO-01-code.png>
+Package pdftex.def Info: figures/NO-01-code.png  used on input line 3756.
+(pdftex.def)             Requested size: 173.56198pt x 75.82275pt.
+<figures/NO-01-result.png, id=2982, 1262.7175pt x 110.4125pt>
+File: figures/NO-01-result.png Graphic file (type png)
+<use figures/NO-01-result.png>
+Package pdftex.def Info: figures/NO-01-result.png  used on input line 3761.
+(pdftex.def)             Requested size: 159.3356pt x 13.93124pt.
+<figures/NO-02-code.png, id=2983, 973.6375pt x 329.23pt>
+File: figures/NO-02-code.png Graphic file (type png)
+<use figures/NO-02-code.png>
+Package pdftex.def Info: figures/NO-02-code.png  used on input line 3768.
+(pdftex.def)             Requested size: 173.56198pt x 58.68614pt.
+<figures/NO-02-result.png, id=2984, 1278.7775pt x 52.195pt>
+File: figures/NO-02-result.png Graphic file (type png)
+<use figures/NO-02-result.png>
+Package pdftex.def Info: figures/NO-02-result.png  used on input line 3773.
+(pdftex.def)             Requested size: 159.3356pt x 6.50285pt.
+<figures/NO-03-code.png, id=2985, 1009.7725pt x 417.56pt>
+File: figures/NO-03-code.png Graphic file (type png)
+<use figures/NO-03-code.png>
+Package pdftex.def Info: figures/NO-03-code.png  used on input line 3780.
+(pdftex.def)             Requested size: 173.56198pt x 71.76794pt.
+<figures/NO-03-result.png, id=2986, 1278.7775pt x 78.2925pt>
+File: figures/NO-03-result.png Graphic file (type png)
+<use figures/NO-03-result.png>
+Package pdftex.def Info: figures/NO-03-result.png  used on input line 3785.
+(pdftex.def)             Requested size: 159.3356pt x 9.75427pt.
+<figures/NO-04-code.png, id=2987, 813.0375pt x 401.5pt>
+File: figures/NO-04-code.png Graphic file (type png)
+<use figures/NO-04-code.png>
+Package pdftex.def Info: figures/NO-04-code.png  used on input line 3792.
+(pdftex.def)             Requested size: 173.56198pt x 85.70818pt.
+<figures/NO-04-result.png, id=2988, 1278.7775pt x 271.0125pt>
+File: figures/NO-04-result.png Graphic file (type png)
+<use figures/NO-04-result.png>
+Package pdftex.def Info: figures/NO-04-result.png  used on input line 3797.
+(pdftex.def)             Requested size: 159.3356pt x 33.76482pt.
+<figures/NO-05-code.png, id=2989, 899.36pt x 198.7425pt>
+File: figures/NO-05-code.png Graphic file (type png)
+<use figures/NO-05-code.png>
+Package pdftex.def Info: figures/NO-05-code.png  used on input line 3804.
+(pdftex.def)             Requested size: 173.56198pt x 38.35281pt.
+<figures/NO-05-result.png, id=2990, 1278.7775pt x 52.195pt>
+File: figures/NO-05-result.png Graphic file (type png)
+<use figures/NO-05-result.png>
+Package pdftex.def Info: figures/NO-05-result.png  used on input line 3809.
+(pdftex.def)             Requested size: 159.3356pt x 6.50285pt.
+<figures/NO-06-code.png, id=2991, 913.4125pt x 989.6975pt>
+File: figures/NO-06-code.png Graphic file (type png)
+<use figures/NO-06-code.png>
+Package pdftex.def Info: figures/NO-06-code.png  used on input line 3816.
+(pdftex.def)             Requested size: 173.56198pt x 188.04448pt.
+<figures/NO-06-result.png, id=2992, 1232.605pt x 297.11pt>
+File: figures/NO-06-result.png Graphic file (type png)
+<use figures/NO-06-result.png>
+Package pdftex.def Info: figures/NO-06-result.png  used on input line 3821.
+(pdftex.def)             Requested size: 159.3356pt x 38.4035pt.
+ [306 <./figures/PAY-05-code.png> <./figures/PAY-05-result.png> <./figures/NAV-
+01-code.png> <./figures/NAV-01-result.png> <./figures/NO-01-code.png> <./figure
+s/NO-01-result.png> <./figures/NO-02-code.png> <./figures/NO-02-result.png>]
+<figures/PR-01-code.png, id=3007, 1477.52pt x 630.355pt>
+File: figures/PR-01-code.png Graphic file (type png)
+<use figures/PR-01-code.png>
+Package pdftex.def Info: figures/PR-01-code.png  used on input line 3834.
+(pdftex.def)             Requested size: 173.56198pt x 74.04266pt.
+<figures/PR-01-result.png, id=3008, 897.3525pt x 212.795pt>
+File: figures/PR-01-result.png Graphic file (type png)
+<use figures/PR-01-result.png>
+Package pdftex.def Info: figures/PR-01-result.png  used on input line 3839.
+(pdftex.def)             Requested size: 159.3356pt x 37.78192pt.
+<figures/PR-02-code.png, id=3009, 1407.2575pt x 154.5775pt>
+File: figures/PR-02-code.png Graphic file (type png)
+<use figures/PR-02-code.png>
+Package pdftex.def Info: figures/PR-02-code.png  used on input line 3846.
+(pdftex.def)             Requested size: 173.56198pt x 19.06268pt.
+<figures/PR-02-result.png, id=3010, 897.3525pt x 76.285pt>
+File: figures/PR-02-result.png Graphic file (type png)
+<use figures/PR-02-result.png>
+Package pdftex.def Info: figures/PR-02-result.png  used on input line 3851.
+(pdftex.def)             Requested size: 159.3356pt x 13.54445pt.
+<figures/PR-03-code.png, id=3011, 1475.5125pt x 768.8725pt>
+File: figures/PR-03-code.png Graphic file (type png)
+<use figures/PR-03-code.png>
+Package pdftex.def Info: figures/PR-03-code.png  used on input line 3858.
+(pdftex.def)             Requested size: 173.56198pt x 90.43051pt.
+<figures/PR-03-result.png, id=3012, 1200.485pt x 174.6525pt>
+File: figures/PR-03-result.png Graphic file (type png)
+<use figures/PR-03-result.png>
+Package pdftex.def Info: figures/PR-03-result.png  used on input line 3863.
+(pdftex.def)             Requested size: 159.3356pt x 23.17998pt.
+ [307 <./figures/NO-03-code.png> <./figures/NO-03-result.png> <./figures/NO-04-
+code.png> <./figures/NO-04-result.png> <./figures/NO-05-code.png> <./figures/NO
+-05-result.png> <./figures/NO-06-code.png> <./figures/NO-06-result.png>]
+
+[308 <./figures/PR-01-code.png> <./figures/PR-01-result.png> <./figures/PR-02-c
+ode.png> <./figures/PR-02-result.png> <./figures/PR-03-code.png> <./figures/PR-
+03-result.png>]
+Overfull \hbox (7.05699pt too wide) in paragraph at lines 3882--3882
+ []|\OT1/cmr/bx/n/12 Scenario| 
+ []
+
+
+Overfull \hbox (15.33023pt too wide) in paragraph at lines 3882--3882
+ []|\OT1/cmr/bx/n/12 Response 
+ []
+
+
+Overfull \hbox (17.86237pt too wide) in paragraph at lines 3882--3882
+ []|\OT1/cmr/bx/n/12 Remarks| 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3879--3883
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (7.05699pt too wide) in paragraph at lines 3886--3886
+ []|\OT1/cmr/bx/n/12 Scenario| 
+ []
+
+
+Overfull \hbox (15.33023pt too wide) in paragraph at lines 3886--3886
+ []|\OT1/cmr/bx/n/12 Response 
+ []
+
+
+Overfull \hbox (17.86237pt too wide) in paragraph at lines 3886--3886
+ []|\OT1/cmr/bx/n/12 Remarks| 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3883--3887
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3887--3891
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3891--3894
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.3327pt too wide) in paragraph at lines 3898--3898
+ []|\OT1/cmr/m/n/12 Unregistered 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3894--3901
+ [] [] [] [] [] [] [] 
+ []
+
+<figures/system1.png, id=3035, 1222.5675pt x 516.42938pt>
+File: figures/system1.png Graphic file (type png)
+<use figures/system1.png>
+Package pdftex.def Info: figures/system1.png  used on input line 3909.
+(pdftex.def)             Requested size: 278.2383pt x 117.5312pt.
+<figures/system2.png, id=3036, 1218.05063pt x 506.6428pt>
+File: figures/system2.png Graphic file (type png)
+<use figures/system2.png>
+Package pdftex.def Info: figures/system2.png  used on input line 3916.
+(pdftex.def)             Requested size: 278.2383pt x 115.72913pt.
+
+
+[309 <./figures/system1.png>]
+
+Package array Warning: Column P is already defined on input line 3921.
+
+
+Overfull \hbox (1.6332pt too wide) in paragraph at lines 3926--3926
+ \OT1/cmr/bx/n/12 marks| 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3923--3927
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.6332pt too wide) in paragraph at lines 3930--3930
+ \OT1/cmr/bx/n/12 marks| 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3927--3931
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3931--3935
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3935--3938
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (13.23985pt too wide) in paragraph at lines 3947--3947
+ \OT1/cmr/m/n/12 Fake/Invalid 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3938--3951
+ [] [] [] [] [] [] [] 
+ []
+
+[310 <./figures/system2.png>]
+
+Package array Warning: Column P is already defined on input line 3956.
+
+
+Overfull \hbox (1.6332pt too wide) in paragraph at lines 3961--3961
+ \OT1/cmr/bx/n/12 marks| 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3958--3962
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.6332pt too wide) in paragraph at lines 3965--3965
+ \OT1/cmr/bx/n/12 marks| 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3962--3966
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3966--3970
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3970--3973
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3973--3986
+ [] [] [] [] [] [] [] 
+ []
+
+[311]
+
+Package array Warning: Column P is already defined on input line 3991.
+
+
+Overfull \hbox (1.6332pt too wide) in paragraph at lines 3996--3996
+ \OT1/cmr/bx/n/12 marks| 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3993--3997
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.6332pt too wide) in paragraph at lines 4000--4000
+ \OT1/cmr/bx/n/12 marks| 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 3997--4001
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 4001--4005
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 4005--4008
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (12.62866pt too wide) in paragraph at lines 4011--4011
+ \OT1/cmr/m/n/12 RETURN- 
+ []
+
+
+Overfull \hbox (12.62866pt too wide) in paragraph at lines 4012--4012
+ \OT1/cmr/m/n/12 RETURN- 
+ []
+
+
+Overfull \hbox (12.62866pt too wide) in paragraph at lines 4013--4013
+ \OT1/cmr/m/n/12 RETURN- 
+ []
+
+
+Overfull \hbox (12.62866pt too wide) in paragraph at lines 4014--4014
+ \OT1/cmr/m/n/12 RETURN- 
+ []
+
+
+Overfull \hbox (12.62866pt too wide) in paragraph at lines 4015--4015
+ \OT1/cmr/m/n/12 RETURN- 
+ []
+
+
+Overfull \hbox (12.62866pt too wide) in paragraph at lines 4016--4016
+ \OT1/cmr/m/n/12 RETURN- 
+ []
+
+
+Overfull \hbox (12.62866pt too wide) in paragraph at lines 4017--4017
+ \OT1/cmr/m/n/12 RETURN- 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 4008--4021
+ [] [] [] [] [] [] [] 
+ []
+
+[312]
+
+Package array Warning: Column P is already defined on input line 4026.
+
+
+Overfull \hbox (1.6332pt too wide) in paragraph at lines 4031--4031
+ \OT1/cmr/bx/n/12 marks| 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 4028--4032
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.6332pt too wide) in paragraph at lines 4035--4035
+ \OT1/cmr/bx/n/12 marks| 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 4032--4036
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 4036--4040
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 4040--4043
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.53572pt too wide) in paragraph at lines 4046--4046
+ \OT1/cmr/m/n/12 ALERT- 
+ []
+
+
+Overfull \hbox (1.53572pt too wide) in paragraph at lines 4047--4047
+ \OT1/cmr/m/n/12 ALERT- 
+ []
+
+
+Overfull \hbox (1.53572pt too wide) in paragraph at lines 4048--4048
+ \OT1/cmr/m/n/12 ALERT- 
+ []
+
+
+Overfull \hbox (1.53572pt too wide) in paragraph at lines 4049--4049
+ \OT1/cmr/m/n/12 ALERT- 
+ []
+
+
+Overfull \hbox (1.53572pt too wide) in paragraph at lines 4050--4050
+ \OT1/cmr/m/n/12 ALERT- 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 4043--4052
+ [] [] [] [] [] [] [] 
+ []
+
+
+Package array Warning: Column P is already defined on input line 4056.
+
+
+Overfull \hbox (1.6332pt too wide) in paragraph at lines 4061--4061
+ \OT1/cmr/bx/n/12 marks| 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 4058--4062
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.6332pt too wide) in paragraph at lines 4065--4065
+ \OT1/cmr/bx/n/12 marks| 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 4062--4066
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 4066--4070
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 4070--4073
+ [] [] [] [] [] [] [] 
+ []
+
+
+! LaTeX Error: Unicode character ≥ (U+2265)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4080 TC-CS-05 & Use credit & ≥
+                                  40 & Allowed & Rent success & 1.6s & Pass ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (22.61205pt too wide) in alignment at lines 4073--4085
+ [] [] [] [] [] [] [] 
+ []
+
+
+
+[313]
+
+Package array Warning: Column P is already defined on input line 4089.
+
+
+Package array Warning: Column P is already defined on input line 4117.
+
+
+Overfull \hbox (2.83292pt too wide) in paragraph at lines 4137--4137
+ \OT1/cmr/m/n/12 ADMIN- 
+ []
+
+
+Overfull \hbox (2.83292pt too wide) in paragraph at lines 4138--4138
+ \OT1/cmr/m/n/12 ADMIN- 
+ []
+
+
+Overfull \hbox (2.83292pt too wide) in paragraph at lines 4139--4139
+ \OT1/cmr/m/n/12 ADMIN- 
+ []
+
+
+Overfull \hbox (2.83292pt too wide) in paragraph at lines 4140--4140
+ \OT1/cmr/m/n/12 ADMIN- 
+ []
+
+
+
+[314]
+
+Package array Warning: Column P is already defined on input line 4147.
+
+
+Package array Warning: Column P is already defined on input line 4176.
+
+
+
+[315]
+
+Package array Warning: Column P is already defined on input line 4206.
+
+
+Overfull \hbox (4.72084pt too wide) in paragraph at lines 4216--4216
+ \OT1/cmr/bx/n/12 Temp 
+ []
+
+
+Overfull \hbox (0.74272pt too wide) in paragraph at lines 4216--4216
+ \OT1/cmr/bx/n/12 Charg- 
+ []
+
+
+Overfull \hbox (36.09073pt too wide) in alignment at lines 4213--4217
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (4.72084pt too wide) in paragraph at lines 4220--4220
+ \OT1/cmr/bx/n/12 Temp 
+ []
+
+
+Overfull \hbox (0.74272pt too wide) in paragraph at lines 4220--4220
+ \OT1/cmr/bx/n/12 Charg- 
+ []
+
+
+Overfull \hbox (36.09073pt too wide) in alignment at lines 4217--4221
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (36.09073pt too wide) in alignment at lines 4221--4225
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (36.09073pt too wide) in alignment at lines 4225--4228
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (36.09073pt too wide) in alignment at lines 4228--4236
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+
+[316]
+! Too many }'s.
+l.4302 }
+        
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+Overfull \hbox (340.33519pt too wide) in paragraph at lines 4311--4321
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+
+[317]
+
+[318]
+\openout2 = `bibliography.aux'.
+
+ (./bibliography.tex)
+\openout2 = `cv.aux'.
+
+ (./cv.tex
+<figures/esbiii.jpg, id=3082, 738.76pt x 534.99875pt>
+File: figures/esbiii.jpg Graphic file (type jpg)
+<use figures/esbiii.jpg>
+Package pdftex.def Info: figures/esbiii.jpg  used on input line 28.
+(pdftex.def)             Requested size: 144.5367pt x 144.54138pt.
+
+Overfull \hbox (32.08998pt too wide) in paragraph at lines 28--29
+ []
+ []
+
+
+
+[319
+
+
+
+
+
+
+ <./figures/esbiii.jpg>]
+File: figures/esbiii.jpg Graphic file (type jpg)
+<use figures/esbiii.jpg>
+Package pdftex.def Info: figures/esbiii.jpg  used on input line 95.
+(pdftex.def)             Requested size: 144.5367pt x 144.54138pt.
+
+Overfull \hbox (32.08998pt too wide) in paragraph at lines 95--96
+ []
+ []
+
+
+
+[320]
+File: figures/esbiii.jpg Graphic file (type jpg)
+<use figures/esbiii.jpg>
+Package pdftex.def Info: figures/esbiii.jpg  used on input line 160.
+(pdftex.def)             Requested size: 144.5367pt x 144.54138pt.
+
+Overfull \hbox (32.08998pt too wide) in paragraph at lines 160--161
+ []
+ []
+
+
+
+[321]
+File: figures/esbiii.jpg Graphic file (type jpg)
+<use figures/esbiii.jpg>
+Package pdftex.def Info: figures/esbiii.jpg  used on input line 226.
+(pdftex.def)             Requested size: 144.5367pt x 144.54138pt.
+
+Overfull \hbox (32.08998pt too wide) in paragraph at lines 226--227
+ []
+ []
+
+
+
+[322]
+File: figures/esbiii.jpg Graphic file (type jpg)
+<use figures/esbiii.jpg>
+Package pdftex.def Info: figures/esbiii.jpg  used on input line 294.
+(pdftex.def)             Requested size: 144.5367pt x 144.54138pt.
+
+Overfull \hbox (32.08998pt too wide) in paragraph at lines 294--295
+ []
+ []
+
+)
+
+[323]
+\openout2 = `caa.aux'.
+
+ (./caa.tex
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \begin{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[324
+
+
+
+] (./thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
+(./chapter4.aux) (./chapter5.aux) (./appendix.aux) (./bibliography.aux)
+(./cv.aux) (./caa.aux))
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 6F2B57132B048F918AC2806B93E8F567;33060.
+ ) )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 8 (\begingroup)
+### bottom level
+(\end occurred when \iftrue on line 89 was incomplete)
+(\end occurred when \ifx on line 89 was incomplete)
+(\end occurred when \ifnum on line 89 was incomplete) 
+Here is how much of TeX's memory you used:
+ 20504 strings out of 473190
+ 346708 string characters out of 5715801
+ 813300 words of memory out of 5000000
+ 42498 multiletter control sequences out of 15000+600000
+ 572174 words of font info for 91 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 80i,20n,82p,2506b,1189s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type
+1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fonts/
+type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm1200.pfb>
+Output written on thesis.pdf (343 pages, 54974628 bytes).
+PDF statistics:
+ 3368 PDF objects out of 3580 (max. 8388607)
+ 2679 compressed objects within 27 object streams
+ 824 named destinations out of 1000 (max. 500000)
+ 1988 words of extra memory for PDF output out of 10000 (max. 10000000)
+
