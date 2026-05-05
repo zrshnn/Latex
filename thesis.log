@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  5 MAY 2026 07:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  5 MAY 2026 09:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1154,9 +1154,7 @@ Overfull \hbox (12.81566pt too wide) in paragraph at lines 113--113
 
 [13
 
-]
-
-[14] (./listofnotations.tex)
+] (./listofnotations.tex)
 Overfull \hbox (30.34445pt too wide) in paragraph at lines 7--70
 []
  []
@@ -1168,7 +1166,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--70
 
 
 
-[15] (./thesis.lof
+[14] (./thesis.lof
 Overfull \hbox (4.18723pt too wide) in paragraph at lines 15--15
  [][] [][]\OT1/cmr/m/n/12 Data Flow Rep-re-sen-ta-tion of the Solar-Powered Ren
 tal 
@@ -1182,7 +1180,7 @@ Lay-
 
 
 
-[16
+[15
 
 ]
 Overfull \hbox (1.05807pt too wide) in paragraph at lines 32--32
@@ -1202,19 +1200,19 @@ g-
 
 
 
-[17])
+[16])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
 
 
-[18] (./thesis.exp)
+[17] (./thesis.exp)
 \tf@exp=\write8
 \openout8 = `thesis.exp'.
 
 
 
-[19
+[18
 
 ] (./listofequations.tex)
 Overfull \hbox (131.86679pt too wide) in paragraph at lines 7--74
@@ -1228,7 +1226,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--74
 
 
 
-[20]
+[19]
 \openout2 = `chapter1.aux'.
 
  (./chapter1.tex
@@ -1294,7 +1292,7 @@ Chapter 2.
 [16]
 
 [17]
-<figures/theoretical.png, id=1136, 724.7075pt x 676.5275pt>
+<figures/theoretical.png, id=1130, 724.7075pt x 676.5275pt>
 File: figures/theoretical.png Graphic file (type png)
 <use figures/theoretical.png>
 Package pdftex.def Info: figures/theoretical.png  used on input line 32.
@@ -1304,7 +1302,7 @@ Package pdftex.def Info: figures/theoretical.png  used on input line 32.
 [18]
 
 [19 <./figures/theoretical.png>]
-<figures/ipo.png, id=1146, 627.34375pt x 311.1625pt>
+<figures/ipo.png, id=1141, 627.34375pt x 311.1625pt>
 File: figures/ipo.png Graphic file (type png)
 <use figures/ipo.png>
 Package pdftex.def Info: figures/ipo.png  used on input line 47.
@@ -1318,11 +1316,11 @@ Package pdftex.def Info: figures/ipo.png  used on input line 47.
 [22]
 
 [23]
-<figures/schematic.png, id=1169, 443.6575pt x 503.8825pt>
+<figures/schematic.png, id=1163, 443.6575pt x 503.8825pt>
 File: figures/schematic.png Graphic file (type png)
 <use figures/schematic.png>
 Package pdftex.def Info: figures/schematic.png  used on input line 126.
-(pdftex.def)             Requested size: 198.74251pt x 225.71475pt.
+(pdftex.def)             Requested size: 278.2383pt x 316.0022pt.
 
 
 [24]
@@ -1380,6 +1378,8 @@ ing high-capacity
  []
 
 
+
+[40]
 Overfull \hbox (3.54897pt too wide) in paragraph at lines 194--195
 []\OT1/cmr/m/n/12 Overall, the sys-tem's sus-tain-able de-sign|characterized by
  high-capacity
@@ -1387,7 +1387,7 @@ Overfull \hbox (3.54897pt too wide) in paragraph at lines 194--195
 
 
 
-[40]
+[41]
 Underfull \hbox (badness 1163) in paragraph at lines 218--218
 \OT1/cmr/m/n/10.95 en-ergy de-vices with a 12V
  []
@@ -1539,7 +1539,7 @@ Overfull \hbox (40.21664pt too wide) in paragraph at lines 203--241
 
 
 
-[41]
+[42]
 Overfull \hbox (3.7454pt too wide) in paragraph at lines 253--253
  []|\OT1/cmr/m/n/10.95 Altelmessani 
  []
@@ -1661,7 +1661,7 @@ Overfull \hbox (44.81876pt too wide) in paragraph at lines 251--280
 
 
 
-[42]
+[43]
 Underfull \hbox (badness 1292) in paragraph at lines 296--296
 \OT1/cmr/m/n/10.95 charging to higher-
  []
@@ -1813,19 +1813,19 @@ Overfull \hbox (33.43784pt too wide) in paragraph at lines 290--310
 
 
 
-[43])
+[44])
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
 Chapter 3.
-<figures/waterfall.png, id=1259, 663.47874pt x 482.80376pt>
+<figures/waterfall.png, id=1258, 663.47874pt x 482.80376pt>
 File: figures/waterfall.png Graphic file (type png)
 <use figures/waterfall.png>
 Package pdftex.def Info: figures/waterfall.png  used on input line 11.
 (pdftex.def)             Requested size: 357.73409pt x 260.3197pt.
 
 
-[44
+[45
 
 
 
@@ -1844,45 +1844,45 @@ ev-ing the study's
 
 
 
-[45]
-<figures/planning.png, id=1269, 653.44125pt x 487.8225pt>
+[46]
+<figures/planning.png, id=1268, 653.44125pt x 487.8225pt>
 File: figures/planning.png Graphic file (type png)
 <use figures/planning.png>
 Package pdftex.def Info: figures/planning.png  used on input line 29.
 (pdftex.def)             Requested size: 337.86469pt x 252.2251pt.
 
 
-[46 <./figures/planning.png>]
-
-[47]
+[47 <./figures/planning.png>]
 
 [48]
 
 [49]
 
 [50]
-<figures/map.png, id=1295, 2308.625pt x 1397.22pt>
+
+[51]
+<figures/map.png, id=1294, 2308.625pt x 1397.22pt>
 File: figures/map.png Graphic file (type png)
 <use figures/map.png>
 Package pdftex.def Info: figures/map.png  used on input line 113.
 (pdftex.def)             Requested size: 397.48502pt x 240.55168pt.
 
 
-[51 <./figures/map.png>]
+[52 <./figures/map.png>]
 Underfull \hbox (badness 1087) in paragraph at lines 153--154
 []|\OT1/cmr/m/n/12 - The sys-tem shall con-tin-u-ously mon-i-tor and
  []
 
-[52] [53] [54]
-<figures/architecture.jpg, id=1314, 4557.025pt x 3878.49pt>
+[53] [54] [55]
+<figures/architecture.jpg, id=1313, 4557.025pt x 3878.49pt>
 File: figures/architecture.jpg Graphic file (type jpg)
 <use figures/architecture.jpg>
 Package pdftex.def Info: figures/architecture.jpg  used on input line 188.
 (pdftex.def)             Requested size: 397.48502pt x 338.27812pt.
 
 
-[55]
-<figures/detachableFINALFINAL.jpg, id=1319, 809.0225pt x 514.92375pt>
+[56]
+<figures/detachableFINALFINAL.jpg, id=1318, 809.0225pt x 514.92375pt>
 File: figures/detachableFINALFINAL.jpg Graphic file (type jpg)
 <use figures/detachableFINALFINAL.jpg>
 Package pdftex.def Info: figures/detachableFINALFINAL.jpg  used on input line 1
@@ -1890,67 +1890,67 @@ Package pdftex.def Info: figures/detachableFINALFINAL.jpg  used on input line 1
 (pdftex.def)             Requested size: 397.48502pt x 252.99055pt.
 
 
-[56 <./figures/architecture.jpg>]
+[57 <./figures/architecture.jpg>]
 
-[57 <./figures/detachableFINALFINAL.jpg>]
+[58 <./figures/detachableFINALFINAL.jpg>]
 
-[58]
-<figures/flowchart.png, id=1333, 733.74126pt x 1245.65375pt>
+[59]
+<figures/flowchart.png, id=1332, 733.74126pt x 1245.65375pt>
 File: figures/flowchart.png Graphic file (type png)
 <use figures/flowchart.png>
 Package pdftex.def Info: figures/flowchart.png  used on input line 223.
 (pdftex.def)             Requested size: 286.18968pt x 485.86003pt.
 
 
-[59]
+[60]
 
-[60 <./figures/flowchart.png>]
-<figures/context-level.png, id=1345, 512.91624pt x 422.57875pt>
+[61 <./figures/flowchart.png>]
+<figures/context-level.png, id=1344, 512.91624pt x 422.57875pt>
 File: figures/context-level.png Graphic file (type png)
 <use figures/context-level.png>
 Package pdftex.def Info: figures/context-level.png  used on input line 238.
 (pdftex.def)             Requested size: 397.48502pt x 327.48224pt.
 
 
-[61]
+[62]
 
-[62 <./figures/context-level.png>]
+[63 <./figures/context-level.png>]
 Overfull \hbox (0.15456pt too wide) in paragraph at lines 243--244
 []\OT1/cmr/m/n/12 The in-ter-ac-tion be-tween the com-mu-nity res-i-dents and t
 he solar-powered
  []
 
-<figures/data-flow-new.png, id=1355, 1029.8475pt x 867.24pt>
+<figures/data-flow-new.png, id=1354, 1029.8475pt x 867.24pt>
 File: figures/data-flow-new.png Graphic file (type png)
 <use figures/data-flow-new.png>
 Package pdftex.def Info: figures/data-flow-new.png  used on input line 252.
 (pdftex.def)             Requested size: 397.48502pt x 334.7155pt.
 
 
-[63]
+[64]
 
-[64 <./figures/data-flow-new.png>]
-<figures/usecase.jpg, id=1365, 1234.6125pt x 1035.87pt>
+[65 <./figures/data-flow-new.png>]
+<figures/usecase.jpg, id=1364, 1234.6125pt x 1035.87pt>
 File: figures/usecase.jpg Graphic file (type jpg)
 <use figures/usecase.jpg>
 Package pdftex.def Info: figures/usecase.jpg  used on input line 262.
 (pdftex.def)             Requested size: 397.48502pt x 333.49254pt.
 
 
-[65]
+[66]
 
-[66 <./figures/usecase.jpg>]
+[67 <./figures/usecase.jpg>]
 
-[67]
-<figures/harvesting.png, id=1379, 2672.98625pt x 639.38875pt>
+[68]
+<figures/harvesting.png, id=1378, 2672.98625pt x 639.38875pt>
 File: figures/harvesting.png Graphic file (type png)
 <use figures/harvesting.png>
 Package pdftex.def Info: figures/harvesting.png  used on input line 277.
 (pdftex.def)             Requested size: 397.48502pt x 95.07489pt.
 
 
-[68 <./figures/harvesting.png>]
-<figures/station charge flow.png, id=1385, 983.675pt x 501.875pt>
+[69 <./figures/harvesting.png>]
+<figures/station charge flow.png, id=1384, 983.675pt x 501.875pt>
 File: figures/station charge flow.png Graphic file (type png)
 <use figures/station charge flow.png>
 Package pdftex.def Info: figures/station charge flow.png  used on input line 28
@@ -1958,57 +1958,57 @@ Package pdftex.def Info: figures/station charge flow.png  used on input line 28
 (pdftex.def)             Requested size: 397.48502pt x 202.79878pt.
 
 
-[69 <./figures/station charge flow.png>]
-<figures/conversion.png, id=1390, 3364.57pt x 502.87875pt>
+[70 <./figures/station charge flow.png>]
+<figures/conversion.png, id=1389, 3364.57pt x 502.87875pt>
 File: figures/conversion.png Graphic file (type png)
 <use figures/conversion.png>
 Package pdftex.def Info: figures/conversion.png  used on input line 298.
 (pdftex.def)             Requested size: 397.48502pt x 59.4067pt.
 
 
-[70 <./figures/conversion.png>]
-<figures/bat-extension.png, id=1396, 602.25pt x 421.575pt>
+[71 <./figures/conversion.png>]
+<figures/bat-extension.png, id=1395, 602.25pt x 421.575pt>
 File: figures/bat-extension.png Graphic file (type png)
 <use figures/bat-extension.png>
 Package pdftex.def Info: figures/bat-extension.png  used on input line 307.
 (pdftex.def)             Requested size: 397.48502pt x 278.25322pt.
 
 
-[71 <./figures/bat-extension.png>]
-<figures/monitoring.png, id=1402, 1081.03876pt x 391.4625pt>
+[72 <./figures/bat-extension.png>]
+<figures/monitoring.png, id=1401, 1081.03876pt x 391.4625pt>
 File: figures/monitoring.png Graphic file (type png)
 <use figures/monitoring.png>
 Package pdftex.def Info: figures/monitoring.png  used on input line 318.
 (pdftex.def)             Requested size: 397.48502pt x 143.93092pt.
 
 
-[72 <./figures/monitoring.png>]
-<figures/voltage-reading.png, id=1408, 1035.87pt x 548.0475pt>
+[73 <./figures/monitoring.png>]
+<figures/voltage-reading.png, id=1407, 1035.87pt x 548.0475pt>
 File: figures/voltage-reading.png Graphic file (type png)
 <use figures/voltage-reading.png>
 Package pdftex.def Info: figures/voltage-reading.png  used on input line 328.
 (pdftex.def)             Requested size: 397.48502pt x 210.30066pt.
 
 
-[73 <./figures/voltage-reading.png (PNG copy)>]
-<figures/tracking.png, id=1416, 1179.40625pt x 312.16624pt>
+[74 <./figures/voltage-reading.png (PNG copy)>]
+<figures/tracking.png, id=1415, 1179.40625pt x 312.16624pt>
 File: figures/tracking.png Graphic file (type png)
 <use figures/tracking.png>
 Package pdftex.def Info: figures/tracking.png  used on input line 352.
 (pdftex.def)             Requested size: 397.48502pt x 105.20627pt.
 
 
-[74 <./figures/tracking.png>]
-<figures/hdevelopment.png, id=1424, 543.02875pt x 263.98625pt>
+[75 <./figures/tracking.png>]
+<figures/hdevelopment.png, id=1423, 543.02875pt x 263.98625pt>
 File: figures/hdevelopment.png Graphic file (type png)
 <use figures/hdevelopment.png>
 Package pdftex.def Info: figures/hdevelopment.png  used on input line 363.
 (pdftex.def)             Requested size: 317.98921pt x 154.59044pt.
 
 
-[75]
+[76]
 
-[76 <./figures/hdevelopment.png>]
+[77 <./figures/hdevelopment.png>]
 Overfull \hbox (2.71033pt too wide) in alignment at lines 373--379
  [] [] [] 
  []
@@ -2033,18 +2033,18 @@ Overfull \hbox (2.71033pt too wide) in alignment at lines 387--486
  [] [] [] 
  []
 
-[77] [78]
-<figures/esp32.png, id=1443, 602.25pt x 602.25pt>
+[78] [79]
+<figures/esp32.png, id=1442, 602.25pt x 602.25pt>
 File: figures/esp32.png Graphic file (type png)
 <use figures/esp32.png>
 Package pdftex.def Info: figures/esp32.png  used on input line 513.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/panel.jpg, id=1444, 722.7pt x 722.7pt>
+<figures/panel.jpg, id=1443, 722.7pt x 722.7pt>
 File: figures/panel.jpg Graphic file (type jpg)
 <use figures/panel.jpg>
 Package pdftex.def Info: figures/panel.jpg  used on input line 525.
 (pdftex.def)             Requested size: 119.50104pt x 119.49397pt.
-<figures/battery.png, id=1445, 602.25pt x 602.25pt>
+<figures/battery.png, id=1444, 602.25pt x 602.25pt>
 File: figures/battery.png Graphic file (type png)
 <use figures/battery.png>
 Package pdftex.def Info: figures/battery.png  used on input line 538.
@@ -2054,7 +2054,7 @@ Underfull \hbox (badness 2452) in paragraph at lines 544--545
 []|\OT1/cmr/m/n/12 The LiFePO$[]$ bat-tery was se-lected
  []
 
-<figures/controller.png, id=1446, 602.25pt x 602.25pt>
+<figures/controller.png, id=1445, 602.25pt x 602.25pt>
 File: figures/controller.png Graphic file (type png)
 <use figures/controller.png>
 Package pdftex.def Info: figures/controller.png  used on input line 551.
@@ -2064,37 +2064,37 @@ Underfull \hbox (badness 1158) in paragraph at lines 557--558
 []|\OT1/cmr/m/n/12 An MPPT (Max-i-mum Power Point
  []
 
-<figures/inverter.png, id=1447, 602.25pt x 602.25pt>
+<figures/inverter.png, id=1446, 602.25pt x 602.25pt>
 File: figures/inverter.png Graphic file (type png)
 <use figures/inverter.png>
 Package pdftex.def Info: figures/inverter.png  used on input line 564.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/charger.png, id=1448, 602.25pt x 602.25pt>
+<figures/charger.png, id=1447, 602.25pt x 602.25pt>
 File: figures/charger.png Graphic file (type png)
 <use figures/charger.png>
 Package pdftex.def Info: figures/charger.png  used on input line 578.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/coin.png, id=1449, 602.25pt x 602.25pt>
+<figures/coin.png, id=1448, 602.25pt x 602.25pt>
 File: figures/coin.png Graphic file (type png)
 <use figures/coin.png>
 Package pdftex.def Info: figures/coin.png  used on input line 591.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/dcbreaker.png, id=1450, 602.25pt x 602.25pt>
+<figures/dcbreaker.png, id=1449, 602.25pt x 602.25pt>
 File: figures/dcbreaker.png Graphic file (type png)
 <use figures/dcbreaker.png>
 Package pdftex.def Info: figures/dcbreaker.png  used on input line 604.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/wire.png, id=1451, 602.25pt x 602.25pt>
+<figures/wire.png, id=1450, 602.25pt x 602.25pt>
 File: figures/wire.png Graphic file (type png)
 <use figures/wire.png>
 Package pdftex.def Info: figures/wire.png  used on input line 617.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/gps.png, id=1452, 602.25pt x 602.25pt>
+<figures/gps.png, id=1451, 602.25pt x 602.25pt>
 File: figures/gps.png Graphic file (type png)
 <use figures/gps.png>
 Package pdftex.def Info: figures/gps.png  used on input line 630.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/relay.png, id=1453, 602.25pt x 602.25pt>
+<figures/relay.png, id=1452, 602.25pt x 602.25pt>
 File: figures/relay.png Graphic file (type png)
 <use figures/relay.png>
 Package pdftex.def Info: figures/relay.png  used on input line 643.
@@ -2109,12 +2109,12 @@ Underfull \hbox (badness 3098) in paragraph at lines 649--650
 \OT1/cmr/m/n/12 se-lec-tion en-sures safe and ef-fi-cient
  []
 
-<figures/solenoid.png, id=1454, 602.25pt x 602.25pt>
+<figures/solenoid.png, id=1453, 602.25pt x 602.25pt>
 File: figures/solenoid.png Graphic file (type png)
 <use figures/solenoid.png>
 Package pdftex.def Info: figures/solenoid.png  used on input line 656.
 (pdftex.def)             Requested size: 119.50104pt x 119.50133pt.
-<figures/acbreaker.png, id=1455, 602.25pt x 602.25pt>
+<figures/acbreaker.png, id=1454, 602.25pt x 602.25pt>
 File: figures/acbreaker.png Graphic file (type png)
 <use figures/acbreaker.png>
 Package pdftex.def Info: figures/acbreaker.png  used on input line 669.
@@ -2124,22 +2124,22 @@ Underfull \hbox (badness 1852) in paragraph at lines 675--676
 \OT1/cmr/m/n/12 guard the AC out-put cir-cuit. It
  []
 
-<figures/lcd-2.png, id=1456, 1029.8475pt x 778.91pt>
+<figures/lcd-2.png, id=1455, 1029.8475pt x 778.91pt>
 File: figures/lcd-2.png Graphic file (type png)
 <use figures/lcd-2.png>
 Package pdftex.def Info: figures/lcd-2.png  used on input line 682.
 (pdftex.def)             Requested size: 136.57373pt x 103.29422pt.
-<figures/lcd.png, id=1457, 602.25pt x 602.25pt>
+<figures/lcd.png, id=1456, 602.25pt x 602.25pt>
 File: figures/lcd.png Graphic file (type png)
 <use figures/lcd.png>
 Package pdftex.def Info: figures/lcd.png  used on input line 695.
 (pdftex.def)             Requested size: 136.57373pt x 136.57558pt.
-<figures/router.png, id=1458, 602.25pt x 602.25pt>
+<figures/router.png, id=1457, 602.25pt x 602.25pt>
 File: figures/router.png Graphic file (type png)
 <use figures/router.png>
 Package pdftex.def Info: figures/router.png  used on input line 708.
 (pdftex.def)             Requested size: 93.8946pt x 93.88997pt.
-<figures/battery-connector.png, id=1459, 377.15906pt x 467.49657pt>
+<figures/battery-connector.png, id=1458, 377.15906pt x 467.49657pt>
 File: figures/battery-connector.png Graphic file (type png)
 <use figures/battery-connector.png>
 Package pdftex.def Info: figures/battery-connector.png  used on input line 721.
@@ -2147,25 +2147,25 @@ Package pdftex.def Info: figures/battery-connector.png  used on input line 721.
 (pdftex.def)             Requested size: 93.8946pt x 116.38164pt.
 
 
-[79] [80 <./figures/esp32.png (PNG copy)> <./figures/panel.jpg>] [81 <./figures
-/battery.png (PNG copy)> <./figures/controller.png (PNG copy)>] [82 <./figures/
-inverter.png> <./figures/charger.png>] [83 <./figures/coin.png (PNG copy)> <./f
-igures/dcbreaker.png>] [84 <./figures/wire.png> <./figures/gps.png> <./figures/
-relay.png>] [85 <./figures/solenoid.png> <./figures/acbreaker.png>] [86 <./figu
+[80] [81 <./figures/esp32.png (PNG copy)> <./figures/panel.jpg>] [82 <./figures
+/battery.png (PNG copy)> <./figures/controller.png (PNG copy)>] [83 <./figures/
+inverter.png> <./figures/charger.png>] [84 <./figures/coin.png (PNG copy)> <./f
+igures/dcbreaker.png>] [85 <./figures/wire.png> <./figures/gps.png> <./figures/
+relay.png>] [86 <./figures/solenoid.png> <./figures/acbreaker.png>] [87 <./figu
 res/lcd-2.png> <./figures/lcd.png (PNG copy)>]
 
-[87 <./figures/router.png> <./figures/battery-connector.png>]
-<figures/circuit_station.png, id=1509, 2710.125pt x 1990.43625pt>
+[88 <./figures/router.png> <./figures/battery-connector.png>]
+<figures/circuit_station.png, id=1508, 2710.125pt x 1990.43625pt>
 File: figures/circuit_station.png Graphic file (type png)
 <use figures/circuit_station.png>
 Package pdftex.def Info: figures/circuit_station.png  used on input line 744.
 (pdftex.def)             Requested size: 397.48502pt x 291.93155pt.
 
 
-[88]
+[89]
 
-[89 <./figures/circuit_station.png>]
-<figures/circuit-diagram-detachable.png, id=1520, 823.075pt x 521.95pt>
+[90 <./figures/circuit_station.png>]
+<figures/circuit-diagram-detachable.png, id=1519, 823.075pt x 521.95pt>
 File: figures/circuit-diagram-detachable.png Graphic file (type png)
 <use figures/circuit-diagram-detachable.png>
 Package pdftex.def Info: figures/circuit-diagram-detachable.png  used on input 
@@ -2173,10 +2173,10 @@ line 753.
 (pdftex.def)             Requested size: 397.48502pt x 252.06229pt.
 
 
-[90 <./figures/circuit-diagram-detachable.png>]
+[91 <./figures/circuit-diagram-detachable.png>]
 
-[91]
-<figures/station-new-layout.png, id=1529, 3463.1784pt x 2040.9048pt>
+[92]
+<figures/station-new-layout.png, id=1528, 3463.1784pt x 2040.9048pt>
 File: figures/station-new-layout.png Graphic file (type png)
 <use figures/station-new-layout.png>
 Package pdftex.def Info: figures/station-new-layout.png  used on input line 810
@@ -2184,44 +2184,44 @@ Package pdftex.def Info: figures/station-new-layout.png  used on input line 810
 (pdftex.def)             Requested size: 397.48502pt x 234.21642pt.
 
 
-[92 <./figures/station-new-layout.png>]
+[93 <./figures/station-new-layout.png>]
 
-[93]
-<figures/portable-design.jpg, id=1539, 795.97375pt x 723.70375pt>
+[94]
+<figures/portable-design.jpg, id=1538, 795.97375pt x 723.70375pt>
 File: figures/portable-design.jpg Graphic file (type jpg)
 <use figures/portable-design.jpg>
 Package pdftex.def Info: figures/portable-design.jpg  used on input line 822.
 (pdftex.def)             Requested size: 397.48502pt x 361.38719pt.
 
 
-[94]
+[95]
 
-[95 <./figures/portable-design.jpg>]
-<figures/station-front.jpg, id=1549, 479.99326pt x 383.63326pt>
+[96 <./figures/portable-design.jpg>]
+<figures/station-front.jpg, id=1548, 479.99326pt x 383.63326pt>
 File: figures/station-front.jpg Graphic file (type jpg)
 <use figures/station-front.jpg>
 Package pdftex.def Info: figures/station-front.jpg  used on input line 838.
 (pdftex.def)             Requested size: 397.48502pt x 317.70135pt.
 
 
-[96]
-<figures/station-side.jpg, id=1554, 518.53725pt x 401.0985pt>
+[97]
+<figures/station-side.jpg, id=1553, 518.53725pt x 401.0985pt>
 File: figures/station-side.jpg Graphic file (type jpg)
 <use figures/station-side.jpg>
 Package pdftex.def Info: figures/station-side.jpg  used on input line 845.
 (pdftex.def)             Requested size: 397.48502pt x 307.46361pt.
 
 
-[97 <./figures/station-front.jpg>]
-<figures/station-aerial.jpg, id=1559, 395.67825pt x 410.13225pt>
+[98 <./figures/station-front.jpg>]
+<figures/station-aerial.jpg, id=1558, 395.67825pt x 410.13225pt>
 File: figures/station-aerial.jpg Graphic file (type jpg)
 <use figures/station-aerial.jpg>
 Package pdftex.def Info: figures/station-aerial.jpg  used on input line 852.
 (pdftex.def)             Requested size: 397.48502pt x 412.02118pt.
 
 
-[98 <./figures/station-side.jpg>]
-<figures/station-closeup-front.jpg, id=1564, 661.2705pt x 295.70474pt>
+[99 <./figures/station-side.jpg>]
+<figures/station-closeup-front.jpg, id=1563, 661.2705pt x 295.70474pt>
 File: figures/station-closeup-front.jpg Graphic file (type jpg)
 <use figures/station-closeup-front.jpg>
 Package pdftex.def Info: figures/station-closeup-front.jpg  used on input line 
@@ -2229,158 +2229,158 @@ Package pdftex.def Info: figures/station-closeup-front.jpg  used on input line
 (pdftex.def)             Requested size: 397.48502pt x 177.74907pt.
 
 
-[99 <./figures/station-aerial.jpg>]
-<figures/station4.png, id=1569, 1235.61626pt x 673.51625pt>
+[100 <./figures/station-aerial.jpg>]
+<figures/station4.png, id=1568, 1235.61626pt x 673.51625pt>
 File: figures/station4.png Graphic file (type png)
 <use figures/station4.png>
 Package pdftex.def Info: figures/station4.png  used on input line 866.
 (pdftex.def)             Requested size: 397.48502pt x 216.66006pt.
 
 
-[100 <./figures/station-closeup-front.jpg> <./figures/station4.png>]
-<figures/detachable-front.jpg, id=1575, 563.706pt x 314.3745pt>
+[101 <./figures/station-closeup-front.jpg> <./figures/station4.png>]
+<figures/detachable-front.jpg, id=1574, 563.706pt x 314.3745pt>
 File: figures/detachable-front.jpg Graphic file (type jpg)
 <use figures/detachable-front.jpg>
 Package pdftex.def Info: figures/detachable-front.jpg  used on input line 880.
 (pdftex.def)             Requested size: 397.48502pt x 221.67722pt.
 
 
-[101]
-<figures/detachable-side.jpg, id=1581, 503.481pt x 328.8285pt>
+[102]
+<figures/detachable-side.jpg, id=1580, 503.481pt x 328.8285pt>
 File: figures/detachable-side.jpg Graphic file (type jpg)
 <use figures/detachable-side.jpg>
 Package pdftex.def Info: figures/detachable-side.jpg  used on input line 887.
 (pdftex.def)             Requested size: 397.48502pt x 259.6061pt.
 
 
-[102 <./figures/detachable-front.jpg>]
-<figures/detachable-back.jpg, id=1586, 458.31226pt x 324.0105pt>
+[103 <./figures/detachable-front.jpg>]
+<figures/detachable-back.jpg, id=1585, 458.31226pt x 324.0105pt>
 File: figures/detachable-back.jpg Graphic file (type jpg)
 <use figures/detachable-back.jpg>
 Package pdftex.def Info: figures/detachable-back.jpg  used on input line 894.
 (pdftex.def)             Requested size: 397.48502pt x 281.02165pt.
 
 
-[103 <./figures/detachable-side.jpg>]
+[104 <./figures/detachable-side.jpg>]
 
-[104 <./figures/detachable-back.jpg>]
-
-[105]
+[105 <./figures/detachable-back.jpg>]
 
 [106]
 
 [107]
 
 [108]
-<figures/activity-diagram.png, id=1612, 453.19313pt x 1088.56688pt>
+
+[109]
+<figures/activity-diagram.png, id=1611, 453.19313pt x 1088.56688pt>
 File: figures/activity-diagram.png Graphic file (type png)
 <use figures/activity-diagram.png>
 Package pdftex.def Info: figures/activity-diagram.png  used on input line 939.
 (pdftex.def)             Requested size: 210.66656pt x 506.01227pt.
 
 
-[109]
+[110]
 Overfull \vbox (7.04099pt too high) has occurred while \output is active []
 
 
 
-[110 <./figures/activity-diagram.png (PNG copy)>]
-
-[111]
+[111 <./figures/activity-diagram.png (PNG copy)>]
 
 [112]
 
 [113]
+
+[114]
 Overfull \hbox (1.81854pt too wide) in paragraph at lines 962--963
 []\OT1/cmr/m/n/12 This sec-tion presents the graph-i-cal user in-ter-face (GUI)
  of the KuRyenta
  []
 
-<figures/S1.png, id=1635, 991.45406pt x 796.47563pt>
+<figures/S1.png, id=1634, 991.45406pt x 796.47563pt>
 File: figures/S1.png Graphic file (type png)
 <use figures/S1.png>
 Package pdftex.def Info: figures/S1.png  used on input line 969.
 (pdftex.def)             Requested size: 397.48502pt x 319.3138pt.
 
 
-[114]
+[115]
 
-[115 <./figures/S1.png>]
-<figures/SA1.png, id=1645, 597.60106pt x 845.26315pt>
+[116 <./figures/S1.png>]
+<figures/SA1.png, id=1644, 597.60106pt x 845.26315pt>
 File: figures/SA1.png Graphic file (type png)
 <use figures/SA1.png>
 Package pdftex.def Info: figures/SA1.png  used on input line 981.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[116 <./figures/SA1.png (PNG copy)>]
-<figures/SE3.png, id=1650, 1370.11874pt x 812.28468pt>
+[117 <./figures/SA1.png (PNG copy)>]
+<figures/SE3.png, id=1649, 1370.11874pt x 812.28468pt>
 File: figures/SE3.png Graphic file (type png)
 <use figures/SE3.png>
 Package pdftex.def Info: figures/SE3.png  used on input line 992.
 (pdftex.def)             Requested size: 397.48502pt x 235.64328pt.
-<figures/SE4.png, id=1651, 430.60875pt x 797.98125pt>
+<figures/SE4.png, id=1650, 430.60875pt x 797.98125pt>
 File: figures/SE4.png Graphic file (type png)
 <use figures/SE4.png>
 Package pdftex.def Info: figures/SE4.png  used on input line 1004.
 (pdftex.def)             Requested size: 278.2383pt x 515.62544pt.
 
 
-[117 <./figures/SE3.png>]
+[118 <./figures/SE3.png>]
 
-[118 <./figures/SE4.png>]
-<figures/SE5.png, id=1662, 980.91469pt x 809.27344pt>
+[119 <./figures/SE4.png>]
+<figures/SE5.png, id=1661, 980.91469pt x 809.27344pt>
 File: figures/SE5.png Graphic file (type png)
 <use figures/SE5.png>
 Package pdftex.def Info: figures/SE5.png  used on input line 1015.
 (pdftex.def)             Requested size: 397.48502pt x 327.92683pt.
 
 
-[119 <./figures/SE5.png>]
-<figures/coin-slot.png, id=1669, 597.60106pt x 845.26315pt>
+[120 <./figures/SE5.png>]
+<figures/coin-slot.png, id=1668, 597.60106pt x 845.26315pt>
 File: figures/coin-slot.png Graphic file (type png)
 <use figures/coin-slot.png>
 Package pdftex.def Info: figures/coin-slot.png  used on input line 1026.
 (pdftex.def)             Requested size: 397.48502pt x 562.20903pt.
 
 
-[120]
+[121]
 Overfull \vbox (30.72104pt too high) has occurred while \output is active []
 
 
 
-[121 <./figures/coin-slot.png (PNG copy)>]
-<figures/credit-points.png, id=1678, 597.60106pt x 845.26315pt>
+[122 <./figures/coin-slot.png (PNG copy)>]
+<figures/credit-points.png, id=1677, 597.60106pt x 845.26315pt>
 File: figures/credit-points.png Graphic file (type png)
 <use figures/credit-points.png>
 Package pdftex.def Info: figures/credit-points.png  used on input line 1037.
 (pdftex.def)             Requested size: 397.48502pt x 562.20903pt.
 
 
-[122]
+[123]
 Overfull \vbox (30.72104pt too high) has occurred while \output is active []
 
 
 
-[123 <./figures/credit-points.png (PNG copy)>]
-<figures/alert-new.png, id=1687, 1064.47687pt x 1063.72406pt>
+[124 <./figures/credit-points.png (PNG copy)>]
+<figures/alert-new.png, id=1686, 1064.47687pt x 1063.72406pt>
 File: figures/alert-new.png Graphic file (type png)
 <use figures/alert-new.png>
 Package pdftex.def Info: figures/alert-new.png  used on input line 1048.
 (pdftex.def)             Requested size: 397.48502pt x 397.19127pt.
 
 
-[124]
+[125]
 
-[125 <./figures/alert-new.png (PNG copy)>]
+[126 <./figures/alert-new.png (PNG copy)>]
 File: figures/SE5.png Graphic file (type png)
 <use figures/SE5.png>
 Package pdftex.def Info: figures/SE5.png  used on input line 1059.
 (pdftex.def)             Requested size: 397.48502pt x 327.92683pt.
 
 
-[126]
-<figures/admin-1.png, id=1701, 597.60106pt x 845.26315pt>
+[127]
+<figures/admin-1.png, id=1700, 597.60106pt x 845.26315pt>
 File: figures/admin-1.png Graphic file (type png)
 <use figures/admin-1.png>
 Package pdftex.def Info: figures/admin-1.png  used on input line 1070.
@@ -2393,71 +2393,71 @@ the KuRyenta
 
 
 
-[127 <./figures/admin-1.png (PNG copy)>]
-<figures/admin-2.png, id=1706, 597.60106pt x 845.26315pt>
+[128 <./figures/admin-1.png (PNG copy)>]
+<figures/admin-2.png, id=1705, 597.60106pt x 845.26315pt>
 File: figures/admin-2.png Graphic file (type png)
 <use figures/admin-2.png>
 Package pdftex.def Info: figures/admin-2.png  used on input line 1081.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[128]
+[129]
 
-[129 <./figures/admin-2.png (PNG copy)>]
-<figures/admin-3.png, id=1715, 597.60106pt x 845.26315pt>
+[130 <./figures/admin-2.png (PNG copy)>]
+<figures/admin-3.png, id=1714, 597.60106pt x 845.26315pt>
 File: figures/admin-3.png Graphic file (type png)
 <use figures/admin-3.png>
 Package pdftex.def Info: figures/admin-3.png  used on input line 1092.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
-<figures/admin-4.png, id=1716, 597.60106pt x 845.26315pt>
+<figures/admin-4.png, id=1715, 597.60106pt x 845.26315pt>
 File: figures/admin-4.png Graphic file (type png)
 <use figures/admin-4.png>
 Package pdftex.def Info: figures/admin-4.png  used on input line 1100.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[130 <./figures/admin-3.png (PNG copy)>]
+[131 <./figures/admin-3.png (PNG copy)>]
 
-[131 <./figures/admin-4.png (PNG copy)>]
-<figures/admin-5.png, id=1726, 597.60106pt x 845.26315pt>
+[132 <./figures/admin-4.png (PNG copy)>]
+<figures/admin-5.png, id=1725, 597.60106pt x 845.26315pt>
 File: figures/admin-5.png Graphic file (type png)
 <use figures/admin-5.png>
 Package pdftex.def Info: figures/admin-5.png  used on input line 1111.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
-<figures/admin-6.png, id=1727, 597.60106pt x 845.26315pt>
+<figures/admin-6.png, id=1726, 597.60106pt x 845.26315pt>
 File: figures/admin-6.png Graphic file (type png)
 <use figures/admin-6.png>
 Package pdftex.def Info: figures/admin-6.png  used on input line 1119.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[132 <./figures/admin-5.png (PNG copy)>]
+[133 <./figures/admin-5.png (PNG copy)>]
 
-[133 <./figures/admin-6.png (PNG copy)>]
-<figures/admin-7.png, id=1736, 597.60106pt x 845.26315pt>
+[134 <./figures/admin-6.png (PNG copy)>]
+<figures/admin-7.png, id=1735, 597.60106pt x 845.26315pt>
 File: figures/admin-7.png Graphic file (type png)
 <use figures/admin-7.png>
 Package pdftex.def Info: figures/admin-7.png  used on input line 1130.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
-<figures/admin-8.png, id=1737, 597.60106pt x 845.26315pt>
+<figures/admin-8.png, id=1736, 597.60106pt x 845.26315pt>
 File: figures/admin-8.png Graphic file (type png)
 <use figures/admin-8.png>
 Package pdftex.def Info: figures/admin-8.png  used on input line 1138.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[134 <./figures/admin-7.png (PNG copy)>]
+[135 <./figures/admin-7.png (PNG copy)>]
 
-[135 <./figures/admin-8.png (PNG copy)>]
-<figures/admin-9.png, id=1746, 597.60106pt x 845.26315pt>
+[136 <./figures/admin-8.png (PNG copy)>]
+<figures/admin-9.png, id=1745, 597.60106pt x 845.26315pt>
 File: figures/admin-9.png Graphic file (type png)
 <use figures/admin-9.png>
 Package pdftex.def Info: figures/admin-9.png  used on input line 1149.
 (pdftex.def)             Requested size: 278.2383pt x 393.54631pt.
 
 
-[136 <./figures/admin-9.png (PNG copy)>]
-<figures/admin-10.png, id=1752, 597.60106pt x 845.26315pt>
+[137 <./figures/admin-9.png (PNG copy)>]
+<figures/admin-10.png, id=1751, 597.60106pt x 845.26315pt>
 File: figures/admin-10.png Graphic file (type png)
 <use figures/admin-10.png>
 Package pdftex.def Info: figures/admin-10.png  used on input line 1160.
@@ -2470,13 +2470,13 @@ ons sent through
 
 
 
-[137 <./figures/admin-10.png (PNG copy)>]
-
-[138]
+[138 <./figures/admin-10.png (PNG copy)>]
 
 [139]
 
 [140]
+
+[141]
 Overfull \hbox (6.98929pt too wide) in paragraph at lines 1188--1188
 []|\OT1/cmr/bx/n/12 Quantity| 
  []
@@ -2513,24 +2513,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1201--1201
 
 
 
-[141]
+[142]
 Overfull \hbox (3.73471pt too wide) detected at line 1220
 [][][][] \OT1/cmr/m/n/12 = [] + []
  []
 
 
-LaTeX Warning: Hyper reference `appendix:A' on page 142 undefined on input line
+LaTeX Warning: Hyper reference `appendix:A' on page 143 undefined on input line
  1223.
 
 
 
-[142]
+[143]
 
-LaTeX Warning: Hyper reference `appendix:A' on page 143 undefined on input line
+LaTeX Warning: Hyper reference `appendix:A' on page 144 undefined on input line
  1237.
 
 
-LaTeX Warning: Hyper reference `appendix:A' on page 143 undefined on input line
+LaTeX Warning: Hyper reference `appendix:A' on page 144 undefined on input line
  1247.
 
 
@@ -2545,62 +2545,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 1258--1258
 
 
 
-[143]
-
-LaTeX Warning: Hyper reference `appendix:A' on page 144 undefined on input line
- 1278.
-
-
-LaTeX Warning: Hyper reference `appendix:A' on page 144 undefined on input line
- 1288.
-
-
-
 [144]
 
 LaTeX Warning: Hyper reference `appendix:A' on page 145 undefined on input line
- 1299.
+ 1278.
+
+
+LaTeX Warning: Hyper reference `appendix:A' on page 145 undefined on input line
+ 1288.
 
 
 
 [145]
 
 LaTeX Warning: Hyper reference `appendix:A' on page 146 undefined on input line
- 1308.
+ 1299.
 
 
 
 [146]
 
 LaTeX Warning: Hyper reference `appendix:A' on page 147 undefined on input line
- 1317.
+ 1308.
 
 
 
 [147]
 
 LaTeX Warning: Hyper reference `appendix:A' on page 148 undefined on input line
- 1326.
+ 1317.
 
 
 
 [148]
 
 LaTeX Warning: Hyper reference `appendix:A' on page 149 undefined on input line
- 1343.
+ 1326.
 
 
 
 [149]
 
 LaTeX Warning: Hyper reference `appendix:A' on page 150 undefined on input line
- 1349.
+ 1343.
 
 
 
 [150]
 
+LaTeX Warning: Hyper reference `appendix:A' on page 151 undefined on input line
+ 1349.
+
+
+
 [151]
+
+[152]
 Overfull \hbox (3.11638pt too wide) in paragraph at lines 1391--1393
 []\OT1/cmr/m/n/12 Ideally, the sta-tion bat-tery can fully charge both de-tach-
 able power sources
@@ -2608,7 +2608,7 @@ able power sources
 
 
 
-[152]
+[153]
 Underfull \hbox (badness 10000) in paragraph at lines 1426--1427
 []|\OT1/cmr/bx/n/12 Description Sum-
  []
@@ -2950,34 +2950,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 1505--1506
 
 
 
-[153] [154] [155] [156]
+[154] [155] [156] [157]
 
-[157]
+[158]
 Overfull \hbox (69.97601pt too wide) in paragraph at lines 1526--1543
  [][] 
  []
 
 
 
-[158])
+[159])
 
-[159]
+[160]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
 Chapter 4.
 
 
-[160
+[161
 
 
 
 
 ]
 
-[161]
-
 [162]
+
+[163]
 Overfull \hbox (4.39757pt too wide) in paragraph at lines 33--34
 []\OT1/cmr/m/n/12 The im-ple-men-ta-tion demon-strated ac-cu-rate and re-spon-s
 ive volt-age read-
@@ -2985,15 +2985,13 @@ ive volt-age read-
 
 
 
-[163]
+[164]
 Overfull \hbox (1.78716pt too wide) in paragraph at lines 37--37
 |[]\OT1/cmr/bx/n/12 ESP32 Re-ceives Lo-ca-tion Data From GPS Satel-lites Us-ing
  WiFi| 
  []
 
 
-
-[164]
 
 [165]
 
@@ -3014,6 +3012,8 @@ Overfull \hbox (1.78716pt too wide) in paragraph at lines 37--37
 [173]
 
 [174]
+
+[175]
 Overfull \hbox (1.2601pt too wide) in paragraph at lines 142--143
 []\OT1/cmr/m/n/12 When charg-ing two units si-mul-ta-ne-ously, the sys-tem ex-h
 ib-ited in-creased
@@ -3021,7 +3021,7 @@ ib-ited in-creased
 
 
 
-[175]
+[176]
 
 LaTeX Warning: File `figures/bar-functional.png' not found on input line 155.
 
@@ -3040,60 +3040,60 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[176]
-
 [177]
-Overfull \hbox (4.61136pt too wide) in paragraph at lines 172--172
+
+[178]
+Overfull \hbox (4.61136pt too wide) in paragraph at lines 173--173
  []|\OT1/cmr/bx/n/12 User 
  []
 
 
-Overfull \hbox (4.61136pt too wide) in paragraph at lines 172--172
+Overfull \hbox (4.61136pt too wide) in paragraph at lines 173--173
  []|\OT1/cmr/bx/n/12 User 
  []
 
 
-Overfull \hbox (4.61136pt too wide) in paragraph at lines 172--172
+Overfull \hbox (4.61136pt too wide) in paragraph at lines 173--173
  []|\OT1/cmr/bx/n/12 User 
  []
 
 
-Overfull \hbox (4.61136pt too wide) in paragraph at lines 172--172
+Overfull \hbox (4.61136pt too wide) in paragraph at lines 173--173
  []|\OT1/cmr/bx/n/12 User 
  []
 
 
-Overfull \hbox (4.61136pt too wide) in paragraph at lines 172--172
+Overfull \hbox (4.61136pt too wide) in paragraph at lines 173--173
  []|\OT1/cmr/bx/n/12 User 
  []
 
 
-Overfull \hbox (4.61136pt too wide) in paragraph at lines 172--172
+Overfull \hbox (4.61136pt too wide) in paragraph at lines 173--173
  []|\OT1/cmr/bx/n/12 User 
  []
 
 
-Overfull \hbox (4.61136pt too wide) in paragraph at lines 172--172
+Overfull \hbox (4.61136pt too wide) in paragraph at lines 173--173
  []|\OT1/cmr/bx/n/12 User 
  []
 
 
-Overfull \hbox (4.61136pt too wide) in paragraph at lines 172--172
+Overfull \hbox (4.61136pt too wide) in paragraph at lines 173--173
  []|\OT1/cmr/bx/n/12 User 
  []
 
 
-Overfull \hbox (4.61136pt too wide) in paragraph at lines 172--172
+Overfull \hbox (4.61136pt too wide) in paragraph at lines 173--173
  []|\OT1/cmr/bx/n/12 User 
  []
 
 
-Overfull \hbox (4.61136pt too wide) in paragraph at lines 172--172
+Overfull \hbox (4.61136pt too wide) in paragraph at lines 173--173
  []|\OT1/cmr/bx/n/12 User 
  []
 
 
-Overfull \hbox (4.61136pt too wide) in paragraph at lines 172--172
+Overfull \hbox (4.61136pt too wide) in paragraph at lines 173--173
  []|\OT1/cmr/bx/n/12 User 
  []
 
@@ -3102,79 +3102,25 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[178]
-
 [179]
 
 [180]
-Overfull \hbox (1.46703pt too wide) in paragraph at lines 241--252
+
+[181]
+
+[182]
+Overfull \hbox (1.46703pt too wide) in paragraph at lines 243--254
  [][] 
  []
 
-<figures/solar_performance_graph.png, id=1962, 1850.112pt x 1387.584pt>
+<figures/solar_performance_graph.png, id=1966, 1850.112pt x 1387.584pt>
 File: figures/solar_performance_graph.png Graphic file (type png)
 <use figures/solar_performance_graph.png>
 Package pdftex.def Info: figures/solar_performance_graph.png  used on input lin
-e 265.
+e 267.
 (pdftex.def)             Requested size: 317.98921pt x 238.49042pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[181]
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.281 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.282 \centering
-                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Extra alignment tab has been changed to \cr.
-<template> \endtemplate 
-                        
-l.282 \centering
-                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-
-
-[182 <./figures/solar_performance_graph.png>]
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.302 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.303 \centering
-                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Extra alignment tab has been changed to \cr.
-<template> \endtemplate 
-                        
-l.303 \centering
-                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
 
 
 
@@ -3182,7 +3128,7 @@ So I'll assume that you meant to type \cr instead.
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.319 \hline
+l.283 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3190,7 +3136,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Misplaced \omit.
 \multispan ->\omit 
                    \@multispan 
-l.320 \centering
+l.284 \centering
                  \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3198,16 +3144,19 @@ an alignment. Proceed, and I'll ignore this case.
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.320 \centering
+l.284 \centering
                  \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
+
+
+[184 <./figures/solar_performance_graph.png>]
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.335 \hline
+l.304 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3215,7 +3164,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Misplaced \omit.
 \multispan ->\omit 
                    \@multispan 
-l.336 \centering
+l.305 \centering
                  \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3223,58 +3172,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.336 \centering
-                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-[184]
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.351 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.352 \centering
-                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Extra alignment tab has been changed to \cr.
-<template> \endtemplate 
-                        
-l.352 \centering
-                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.367 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.368 \centering
-                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Extra alignment tab has been changed to \cr.
-<template> \endtemplate 
-                        
-l.368 \centering
+l.305 \centering
                  \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -3283,7 +3181,111 @@ So I'll assume that you meant to type \cr instead.
 
 
 [185]
-Overfull \hbox (1.13371pt too wide) in paragraph at lines 377--378
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.321 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.322 \centering
+                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.322 \centering
+                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.337 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.338 \centering
+                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.338 \centering
+                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+[186]
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.353 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.354 \centering
+                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.354 \centering
+                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.369 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.370 \centering
+                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.370 \centering
+                 \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+
+[187]
+Overfull \hbox (1.13371pt too wide) in paragraph at lines 379--380
 []\OT1/cmr/m/n/12 The Credit Score Sys-tem ac-cu-rately com-puted and ap-plied 
 cred-its based
  []
@@ -3291,7 +3293,7 @@ cred-its based
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.383 \hline
+l.385 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3299,7 +3301,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Misplaced \omit.
 \multispan ->\omit 
                    \@multispan 
-l.384 \centering
+l.386 \centering
                  \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3307,7 +3309,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.384 \centering
+l.386 \centering
                  \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -3315,11 +3317,11 @@ So I'll assume that you meant to type \cr instead.
 
 
 
-[186]
+[188]
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.399 \hline
+l.401 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3327,7 +3329,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Misplaced \omit.
 \multispan ->\omit 
                    \@multispan 
-l.400 \centering
+l.402 \centering
                  \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3335,73 +3337,73 @@ an alignment. Proceed, and I'll ignore this case.
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.400 \centering
+l.402 \centering
                  \textbf{Metric} & \centering \textbf{Value} \tabularnewline...
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-<figures/voltage-drop.png, id=1991, 737.00343pt x 536.0025pt>
+<figures/voltage-drop.png, id=1993, 737.00343pt x 536.0025pt>
 File: figures/voltage-drop.png Graphic file (type png)
 <use figures/voltage-drop.png>
-Package pdftex.def Info: figures/voltage-drop.png  used on input line 417.
+Package pdftex.def Info: figures/voltage-drop.png  used on input line 419.
 (pdftex.def)             Requested size: 278.2383pt x 202.34993pt.
 
 
-[187]
-<figures/power-consumption.png, id=1996, 811.53188pt x 593.21625pt>
+[189]
+<figures/power-consumption.png, id=1998, 811.53188pt x 593.21625pt>
 File: figures/power-consumption.png Graphic file (type png)
 <use figures/power-consumption.png>
-Package pdftex.def Info: figures/power-consumption.png  used on input line 428.
+Package pdftex.def Info: figures/power-consumption.png  used on input line 430.
 
 (pdftex.def)             Requested size: 278.2383pt x 203.39258pt.
 
 
-[188 <./figures/voltage-drop.png>]
-<figures/usage-time.png, id=2002, 813.0375pt x 606.76688pt>
+[190 <./figures/voltage-drop.png>]
+<figures/usage-time.png, id=2004, 813.0375pt x 606.76688pt>
 File: figures/usage-time.png Graphic file (type png)
 <use figures/usage-time.png>
-Package pdftex.def Info: figures/usage-time.png  used on input line 439.
+Package pdftex.def Info: figures/usage-time.png  used on input line 441.
 (pdftex.def)             Requested size: 278.2383pt x 207.64049pt.
 
 
-[189 <./figures/power-consumption.png>])
+[191 <./figures/power-consumption.png>])
 
-[190 <./figures/usage-time.png>]
+[192 <./figures/usage-time.png>]
 \openout2 = `chapter5.aux'.
 
  (./chapter5.tex
 Chapter 5.
 
 
-[191
+[193
 
 
 
 
 ]
 
-[192])
+[194])
 
-[193]
+[195]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
 
-[194
+[196
 
 
 
 
 ]
 
-[195]
-
-[196]
-
 [197]
 
 [198]
+
+[199]
+
+[200]
 Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\OT1/cmr/bx/n/12 Power
  []
@@ -3453,21 +3455,21 @@ Overfull \hbox (3.94801pt too wide) in alignment at lines 174--182
 
 
 
-[199]
-<figures/gantt-new.png, id=2060, 934.24031pt x 516.42938pt>
+[201]
+<figures/gantt-new.png, id=2061, 934.24031pt x 516.42938pt>
 File: figures/gantt-new.png Graphic file (type png)
 <use figures/gantt-new.png>
 Package pdftex.def Info: figures/gantt-new.png  used on input line 206.
 (pdftex.def)             Requested size: 397.48502pt x 219.71992pt.
 
 
-[200 <./figures/gantt-new.png>]
-
-[201]
-
-[202]
+[202 <./figures/gantt-new.png>]
 
 [203]
+
+[204]
+
+[205]
 Underfull \hbox (badness 7704) in paragraph at lines 367--367
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
@@ -3490,35 +3492,35 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figures/interview1.png, id=2080, 3035.34pt x 4047.12pt>
+<figures/interview1.png, id=2081, 3035.34pt x 4047.12pt>
 File: figures/interview1.png Graphic file (type png)
 <use figures/interview1.png>
 Package pdftex.def Info: figures/interview1.png  used on input line 466.
 (pdftex.def)             Requested size: 226.0133pt x 301.29776pt.
-<figures/interview2.png, id=2081, 3035.34pt x 4047.12pt>
+<figures/interview2.png, id=2082, 3035.34pt x 4047.12pt>
 File: figures/interview2.png Graphic file (type png)
 <use figures/interview2.png>
 Package pdftex.def Info: figures/interview2.png  used on input line 472.
 (pdftex.def)             Requested size: 226.0133pt x 301.29776pt.
 
 
-[204]
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 475.
-
-
-[205]
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 475.
-
-
 [206]
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 475.
 
-[207 <./figures/interview1.png>]
 
-[208 <./figures/interview2.png>]
+[207]
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 475.
+
+
+[208]
+
+[209 <./figures/interview1.png>]
+
+[210 <./figures/interview2.png>]
 Underfull \hbox (badness 7704) in paragraph at lines 513--513
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
@@ -3541,12 +3543,12 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figures/interview3.png, id=2118, 3035.34pt x 3035.34pt>
+<figures/interview3.png, id=2120, 3035.34pt x 3035.34pt>
 File: figures/interview3.png Graphic file (type png)
 <use figures/interview3.png>
 Package pdftex.def Info: figures/interview3.png  used on input line 612.
 (pdftex.def)             Requested size: 226.0133pt x 225.97331pt.
-<figures/interview4.png, id=2119, 3035.34pt x 3035.34pt>
+<figures/interview4.png, id=2121, 3035.34pt x 3035.34pt>
 File: figures/interview4.png Graphic file (type png)
 <use figures/interview4.png>
 Package pdftex.def Info: figures/interview4.png  used on input line 618.
@@ -3556,13 +3558,13 @@ Package mdframed Info: Box was splittet wrong
 (mdframed)              on input line 621.
 
 
-[209]
-
-[210]
-
 [211]
 
-[212 <./figures/interview3.png> <./figures/interview4.png>]
+[212]
+
+[213]
+
+[214 <./figures/interview3.png> <./figures/interview4.png>]
 Underfull \hbox (badness 7704) in paragraph at lines 658--658
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
@@ -3585,29 +3587,29 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figures/interview5.png, id=2152, 3035.34pt x 3035.34pt>
+<figures/interview5.png, id=2153, 3035.34pt x 3035.34pt>
 File: figures/interview5.png Graphic file (type png)
 <use figures/interview5.png>
 Package pdftex.def Info: figures/interview5.png  used on input line 757.
 (pdftex.def)             Requested size: 226.0133pt x 225.97331pt.
-<figures/sample-interview.jpg, id=2153, 473.77pt x 473.77pt>
+<figures/sample-interview.jpg, id=2154, 473.77pt x 473.77pt>
 File: figures/sample-interview.jpg Graphic file (type jpg)
 <use figures/sample-interview.jpg>
 Package pdftex.def Info: figures/sample-interview.jpg  used on input line 763.
 (pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
 
 
-[213]
+[215]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 766.
 
 
-[214]
+[216]
 
-[215]
+[217]
 
-[216 <./figures/interview5.png> <./figures/sample-interview.jpg>]
+[218 <./figures/interview5.png> <./figures/sample-interview.jpg>]
 Underfull \hbox (badness 7704) in paragraph at lines 802--802
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
@@ -3640,13 +3642,13 @@ Package pdftex.def Info: figures/sample-interview.jpg  used on input line 907.
 (pdftex.def)             Requested size: 226.0133pt x 226.0118pt.
 
 
-[217]
-
-[218]
-
 [219]
 
 [220]
+
+[221]
+
+[222]
 Underfull \hbox (badness 7704) in paragraph at lines 946--946
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
@@ -3684,17 +3686,17 @@ Package mdframed Info: Box was splittet wrong
 (mdframed)              on input line 1054.
 
 
-[221]
+[223]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 1054.
 
 
-[222]
-
-[223]
-
 [224]
+
+[225]
+
+[226]
 Underfull \hbox (badness 7704) in paragraph at lines 1090--1090
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
@@ -3732,17 +3734,17 @@ Package mdframed Info: Box was splittet wrong
 (mdframed)              on input line 1198.
 
 
-[225]
+[227]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 1198.
 
 
-[226]
-
-[227]
-
 [228]
+
+[229]
+
+[230]
 Underfull \hbox (badness 7704) in paragraph at lines 1235--1235
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
@@ -3780,17 +3782,17 @@ Package mdframed Info: Box was splittet wrong
 (mdframed)              on input line 1343.
 
 
-[229]
+[231]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 1343.
 
 
-[230]
-
-[231]
-
 [232]
+
+[233]
+
+[234]
 Underfull \hbox (badness 7704) in paragraph at lines 1380--1380
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
@@ -3828,17 +3830,17 @@ Package mdframed Info: Box was splittet wrong
 (mdframed)              on input line 1488.
 
 
-[233]
+[235]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 1488.
 
 
-[234]
-
-[235]
-
 [236]
+
+[237]
+
+[238]
 Underfull \hbox (badness 7704) in paragraph at lines 1525--1525
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
@@ -3876,17 +3878,17 @@ Package mdframed Info: Box was splittet wrong
 (mdframed)              on input line 1633.
 
 
-[237]
+[239]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 1633.
 
 
-[238]
-
-[239]
-
 [240]
+
+[241]
+
+[242]
 Underfull \hbox (badness 7704) in paragraph at lines 1670--1670
 []|\OT1/cmr/bx/n/12 Address: \OT1/cmr/m/n/12 Tup-san, Mam-ba-jao,
  []
@@ -3924,15 +3926,11 @@ Package mdframed Info: Box was splittet wrong
 (mdframed)              on input line 1778.
 
 
-[241]
+[243]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 1778.
 
-
-[242]
-
-[243]
 
 [244]
 
@@ -3951,6 +3949,10 @@ Package mdframed Info: Box was splittet wrong
 [251]
 
 [252]
+
+[253]
+
+[254]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 1908.
@@ -4109,7 +4111,7 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 1930--1938
  [] [] [] [] [] [] 
  []
 
-[253]
+[255]
 Underfull \hbox (badness 10000) in paragraph at lines 1954--1954
 []|\OT1/cmr/bx/n/12 Test Case
  []
@@ -4319,7 +4321,7 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 1964--1972
  [] [] [] [] [] [] 
  []
 
-[254]
+[256]
 Underfull \hbox (badness 10000) in paragraph at lines 1984--1984
 []|\OT1/cmr/bx/n/12 Test Case
  []
@@ -4601,7 +4603,7 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 2002--2035
 
 
 
-[255]
+[257]
 Underfull \hbox (badness 10000) in paragraph at lines 2049--2049
 []|\OT1/cmr/bx/n/10.95 Test Case
  []
@@ -4641,7 +4643,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2045--2055
  [] [] [] [] 
  []
 
-[256]
+[258]
 Underfull \hbox (badness 10000) in paragraph at lines 2061--2061
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -4816,7 +4818,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2082--2092
  [] [] [] [] 
  []
 
-[257]
+[259]
 Underfull \hbox (badness 10000) in paragraph at lines 2098--2098
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -5051,7 +5053,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2120--2130
  [] [] [] [] 
  []
 
-[258]
+[260]
 Underfull \hbox (badness 10000) in paragraph at lines 2136--2136
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -5256,7 +5258,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2158--2168
  [] [] [] [] 
  []
 
-[259]
+[261]
 Underfull \hbox (badness 10000) in paragraph at lines 2174--2174
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -5561,7 +5563,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2196--2206
  [] [] [] [] 
  []
 
-[260]
+[262]
 Underfull \hbox (badness 10000) in paragraph at lines 2212--2212
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -5826,7 +5828,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2236--2246
  [] [] [] [] 
  []
 
-[261]
+[263]
 Underfull \hbox (badness 10000) in paragraph at lines 2252--2252
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -6031,7 +6033,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2274--2284
  [] [] [] [] 
  []
 
-[262]
+[264]
 Underfull \hbox (badness 10000) in paragraph at lines 2290--2290
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -6318,7 +6320,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2311--2321
 
 
 
-[263]
+[265]
 Underfull \hbox (badness 10000) in paragraph at lines 2327--2327
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -6593,7 +6595,7 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 2325--2338
  [] [] [] [] [] [] 
  []
 
-[264]
+[266]
 Underfull \hbox (badness 1521) in paragraph at lines 2351--2351
 []|\OT1/cmr/m/n/10.95 Hardware Per-mis-sion In-
  []
@@ -6958,7 +6960,7 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 2363--2379
  [] [] [] [] [] [] 
  []
 
-[265]
+[267]
 Underfull \hbox (badness 10000) in paragraph at lines 2393--2393
 []|\OT1/cmr/bx/n/10.95 Test Case
  []
@@ -7013,7 +7015,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2389--2399
  [] [] [] [] 
  []
 
-[266]
+[268]
 Underfull \hbox (badness 10000) in paragraph at lines 2405--2405
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -7343,7 +7345,7 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 2403--2419
  [] [] [] [] [] [] 
  []
 
-[267]
+[269]
 Underfull \hbox (badness 10000) in paragraph at lines 2432--2432
 []|\OT1/cmr/m/n/10.95 Portable Power Source
  []
@@ -7610,7 +7612,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2464--2474
 
 
 
-[268]
+[270]
 Underfull \hbox (badness 10000) in paragraph at lines 2480--2480
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -7765,7 +7767,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2499--2509
  [] [] [] [] 
  []
 
-[269]
+[271]
 Underfull \hbox (badness 10000) in paragraph at lines 2515--2515
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -8040,7 +8042,7 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 2547--2554
  [] [] [] [] [] [] 
  []
 
-[270]
+[272]
 Underfull \hbox (badness 10000) in paragraph at lines 2568--2568
 []|\OT1/cmr/bx/n/10.95 Test Case
  []
@@ -8205,7 +8207,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2596--2606
  [] [] [] [] 
  []
 
-[271]
+[273]
 Underfull \hbox (badness 10000) in paragraph at lines 2612--2612
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -8502,7 +8504,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2630--2640
 
 
 
-[272]
+[274]
 Underfull \hbox (badness 10000) in paragraph at lines 2646--2646
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -8727,7 +8729,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2665--2675
  [] [] [] [] 
  []
 
-[273]
+[275]
 Underfull \hbox (badness 10000) in paragraph at lines 2681--2681
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -8952,7 +8954,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2700--2710
  [] [] [] [] 
  []
 
-[274]
+[276]
 Underfull \hbox (badness 10000) in paragraph at lines 2716--2716
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -9122,7 +9124,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2735--2745
  [] [] [] [] 
  []
 
-[275]
+[277]
 Underfull \hbox (badness 10000) in paragraph at lines 2751--2751
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -9332,7 +9334,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2769--2779
  [] [] [] [] 
  []
 
-[276]
+[278]
 Underfull \hbox (badness 10000) in paragraph at lines 2785--2785
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -9554,7 +9556,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2833--2843
 
 
 
-[277]
+[279]
 Underfull \hbox (badness 10000) in paragraph at lines 2849--2849
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -9769,7 +9771,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 2868--2878
  [] [] [] [] 
  []
 
-[278]
+[280]
 Underfull \hbox (badness 10000) in paragraph at lines 2884--2884
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -10374,7 +10376,7 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 2920--2937
  [] [] [] [] [] [] 
  []
 
-[279] [280]
+[281] [282]
 Underfull \hbox (badness 4940) in paragraph at lines 2950--2950
 []|\OT1/cmr/m/n/10.95 Dashboard Overview |
  []
@@ -10619,7 +10621,7 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 2962--2971
  [] [] [] [] [] [] 
  []
 
-[281]
+[283]
 Underfull \hbox (badness 4940) in paragraph at lines 2984--2984
 []|\OT1/cmr/m/n/10.95 Dashboard Overview |
  []
@@ -10869,7 +10871,7 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 2996--3007
  [] [] [] [] [] [] 
  []
 
-[282]
+[284]
 Underfull \hbox (badness 4940) in paragraph at lines 3020--3020
 []|\OT1/cmr/m/n/10.95 Dashboard Overview |
  []
@@ -11194,7 +11196,7 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 3032--3041
  [] [] [] [] [] [] 
  []
 
-[283]
+[285]
 Underfull \hbox (badness 4940) in paragraph at lines 3054--3054
 []|\OT1/cmr/m/n/10.95 Dashboard Overview |
  []
@@ -11234,7 +11236,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 3052--3062
  [] [] [] [] 
  []
 
-[284]
+[286]
 Underfull \hbox (badness 10000) in paragraph at lines 3068--3068
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -11579,7 +11581,7 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 3096--3105
  [] [] [] [] [] [] 
  []
 
-[285]
+[287]
 Underfull \hbox (badness 10000) in paragraph at lines 3127--3127
 []|\OT1/cmr/bx/n/10.95 Test Case
  []
@@ -11614,7 +11616,7 @@ Overfull \hbox (2.48392pt too wide) in alignment at lines 3123--3133
  [] [] [] [] 
  []
 
-[286]
+[288]
 Underfull \hbox (badness 10000) in paragraph at lines 3139--3139
 []|\OT1/cmr/bx/n/10.95 Expected
  []
@@ -12294,9 +12296,9 @@ Overfull \hbox (1.67656pt too wide) in alignment at lines 3137--3162
  [] [] [] [] [] [] 
  []
 
-[287] [288]
+[289] [290]
 
-[289]
+[291]
 Overfull \hbox (0.44623pt too wide) in alignment at lines 3174--3181
  [] [] 
  []
@@ -13071,7 +13073,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3209--3209
 \OT1/cmr/m/n/10.95 to Lo-gIn-
  []
 
-[290] [291]
+[292] [293]
 Overfull \hbox (0.44623pt too wide) in alignment at lines 3218--3224
  [] [] 
  []
@@ -14026,7 +14028,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3249--3249
 \OT1/cmr/m/n/10.95 func-tion-ally
  []
 
-[292] [293]
+[294] [295]
 Overfull \hbox (0.44623pt too wide) in alignment at lines 3256--3262
  [] [] 
  []
@@ -14203,7 +14205,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3275--3275
 
 
 
-[294]
+[296]
 Overfull \hbox (0.44623pt too wide) in alignment at lines 3284--3290
  [] [] 
  []
@@ -14663,12 +14665,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3309--3309
 \OT1/cmr/m/n/10.95 state
  []
 
-[295]
+[297]
 Overfull \hbox (0.44623pt too wide) in alignment at lines 3316--3322
  [] [] 
  []
 
-[296]
+[298]
 Underfull \hbox (badness 10000) in paragraph at lines 3330--3330
 []|\OT1/cmr/bx/n/10.95 TC
  []
@@ -15045,7 +15047,7 @@ Overfull \hbox (0.44623pt too wide) in alignment at lines 3349--3355
 
 
 
-[297]
+[299]
 Underfull \hbox (badness 10000) in paragraph at lines 3362--3362
 []|\OT1/cmr/bx/n/10.95 Test
  []
@@ -15215,1038 +15217,167 @@ Underfull \hbox (badness 1466) in paragraph at lines 3368--3368
 \OT1/cmr/m/n/10.95 via []$\OT1/cmtt/m/n/10.95 router []
  []
 
-<figures/LP-01-code.png, id=2834, 1120.185pt x 626.34pt>
+<figures/LP-01-code.png, id=2836, 1120.185pt x 626.34pt>
 File: figures/LP-01-code.png Graphic file (type png)
 <use figures/LP-01-code.png>
 Package pdftex.def Info: figures/LP-01-code.png  used on input line 3383.
 (pdftex.def)             Requested size: 173.56198pt x 97.04346pt.
-<figures/LP-01-result.png, id=2835, 863.225pt x 158.5925pt>
+<figures/LP-01-result.png, id=2837, 863.225pt x 158.5925pt>
 File: figures/LP-01-result.png Graphic file (type png)
 <use figures/LP-01-result.png>
 Package pdftex.def Info: figures/LP-01-result.png  used on input line 3388.
 (pdftex.def)             Requested size: 159.3356pt x 29.27138pt.
-<figures/LG-01-code.png, id=2836, 1373.13pt x 327.2225pt>
+<figures/LG-01-code.png, id=2838, 1373.13pt x 327.2225pt>
 File: figures/LG-01-code.png Graphic file (type png)
 <use figures/LG-01-code.png>
 Package pdftex.def Info: figures/LG-01-code.png  used on input line 3396.
 (pdftex.def)             Requested size: 173.56198pt x 41.35707pt.
-<figures/LG-01-result.png, id=2837, 903.375pt x 238.8925pt>
+<figures/LG-01-result.png, id=2839, 903.375pt x 238.8925pt>
 File: figures/LG-01-result.png Graphic file (type png)
 <use figures/LG-01-result.png>
 Package pdftex.def Info: figures/LG-01-result.png  used on input line 3401.
 (pdftex.def)             Requested size: 159.3356pt x 42.13487pt.
-<figures/LG-02-code.png, id=2838, 1126.2075pt x 120.45pt>
+<figures/LG-02-code.png, id=2840, 1126.2075pt x 120.45pt>
 File: figures/LG-02-code.png Graphic file (type png)
 <use figures/LG-02-code.png>
 Package pdftex.def Info: figures/LG-02-code.png  used on input line 3408.
 (pdftex.def)             Requested size: 173.56198pt x 18.56111pt.
-<figures/LG-02-result.png, id=2839, 823.075pt x 44.165pt>
+<figures/LG-02-result.png, id=2841, 823.075pt x 44.165pt>
 File: figures/LG-02-result.png Graphic file (type png)
 <use figures/LG-02-result.png>
 Package pdftex.def Info: figures/LG-02-result.png  used on input line 3413.
 (pdftex.def)             Requested size: 159.3356pt x 8.54979pt.
-<figures/LG-03-code.png, id=2840, 1353.055pt x 252.945pt>
+<figures/LG-03-code.png, id=2842, 1353.055pt x 252.945pt>
 File: figures/LG-03-code.png Graphic file (type png)
 <use figures/LG-03-code.png>
 Package pdftex.def Info: figures/LG-03-code.png  used on input line 3420.
 (pdftex.def)             Requested size: 173.56198pt x 32.444pt.
-<figures/LG-03-result.png, id=2841, 903.375pt x 44.165pt>
+<figures/LG-03-result.png, id=2843, 903.375pt x 44.165pt>
 File: figures/LG-03-result.png Graphic file (type png)
 <use figures/LG-03-result.png>
 Package pdftex.def Info: figures/LG-03-result.png  used on input line 3425.
 (pdftex.def)             Requested size: 159.3356pt x 7.78963pt.
-<figures/LG-04-code.png, id=2842, 1451.4225pt x 260.975pt>
+<figures/LG-04-code.png, id=2844, 1451.4225pt x 260.975pt>
 File: figures/LG-04-code.png Graphic file (type png)
 <use figures/LG-04-code.png>
 Package pdftex.def Info: figures/LG-04-code.png  used on input line 3432.
 (pdftex.def)             Requested size: 173.56198pt x 31.20415pt.
-<figures/LG-04-result.png, id=2843, 903.375pt x 56.21pt>
+<figures/LG-04-result.png, id=2845, 903.375pt x 56.21pt>
 File: figures/LG-04-result.png Graphic file (type png)
 <use figures/LG-04-result.png>
 Package pdftex.def Info: figures/LG-04-result.png  used on input line 3437.
 (pdftex.def)             Requested size: 159.3356pt x 9.91408pt.
-<figures/PA-05-code.png, id=2844, 1688.3075pt x 152.57pt>
+<figures/PA-05-code.png, id=2846, 1688.3075pt x 152.57pt>
 File: figures/PA-05-code.png Graphic file (type png)
 <use figures/PA-05-code.png>
 Package pdftex.def Info: figures/PA-05-code.png  used on input line 3444.
 (pdftex.def)             Requested size: 173.56198pt x 15.68391pt.
-<figures/PA-05-result.png, id=2845, 857.2025pt x 102.3825pt>
+<figures/PA-05-result.png, id=2847, 857.2025pt x 102.3825pt>
 File: figures/PA-05-result.png Graphic file (type png)
 <use figures/PA-05-result.png>
 Package pdftex.def Info: figures/PA-05-result.png  used on input line 3449.
 (pdftex.def)             Requested size: 159.3356pt x 19.02951pt.
-<figures/LG-06-code.png, id=2846, 2085.7925pt x 220.825pt>
+<figures/LG-06-code.png, id=2848, 2085.7925pt x 220.825pt>
 File: figures/LG-06-code.png Graphic file (type png)
 <use figures/LG-06-code.png>
 Package pdftex.def Info: figures/LG-06-code.png  used on input line 3456.
 (pdftex.def)             Requested size: 173.56198pt x 18.37395pt.
-<figures/LG-06-result.png, id=2847, 937.5025pt x 66.2475pt>
+<figures/LG-06-result.png, id=2849, 937.5025pt x 66.2475pt>
 File: figures/LG-06-result.png Graphic file (type png)
 <use figures/LG-06-result.png>
 Package pdftex.def Info: figures/LG-06-result.png  used on input line 3461.
 (pdftex.def)             Requested size: 159.3356pt x 11.25888pt.
-<figures/LG-07-code.png, id=2848, 1443.3925pt x 471.7625pt>
+<figures/LG-07-code.png, id=2850, 1443.3925pt x 471.7625pt>
 File: figures/LG-07-code.png Graphic file (type png)
 <use figures/LG-07-code.png>
 Package pdftex.def Info: figures/LG-07-code.png  used on input line 3468.
 (pdftex.def)             Requested size: 173.56198pt x 56.72423pt.
-<figures/LG-07-result.png, id=2849, 851.18pt x 303.1325pt>
+<figures/LG-07-result.png, id=2851, 851.18pt x 303.1325pt>
 File: figures/LG-07-result.png Graphic file (type png)
 <use figures/LG-07-result.png>
 Package pdftex.def Info: figures/LG-07-result.png  used on input line 3473.
 (pdftex.def)             Requested size: 159.3356pt x 56.74469pt.
-<figures/WS-08-code.png, id=2850, 1055.945pt x 341.275pt>
+<figures/WS-08-code.png, id=2852, 1055.945pt x 341.275pt>
 File: figures/WS-08-code.png Graphic file (type png)
 <use figures/WS-08-code.png>
 Package pdftex.def Info: figures/WS-08-code.png  used on input line 3480.
 (pdftex.def)             Requested size: 173.56198pt x 56.08922pt.
-<figures/WS-08-result.png, id=2851, 887.315pt x 94.3525pt>
+<figures/WS-08-result.png, id=2853, 887.315pt x 94.3525pt>
 File: figures/WS-08-result.png Graphic file (type png)
 <use figures/WS-08-result.png>
 Package pdftex.def Info: figures/WS-08-result.png  used on input line 3485.
 (pdftex.def)             Requested size: 159.3356pt x 16.9424pt.
-<figures/LG-09-code.png, id=2852, 1543.7675pt x 435.6275pt>
+<figures/LG-09-code.png, id=2854, 1543.7675pt x 435.6275pt>
 File: figures/LG-09-code.png Graphic file (type png)
 <use figures/LG-09-code.png>
 Package pdftex.def Info: figures/LG-09-code.png  used on input line 3492.
 (pdftex.def)             Requested size: 173.56198pt x 48.97606pt.
-<figures/LG-09-result.png, id=2853, 1025.8325pt x 148.555pt>
+<figures/LG-09-result.png, id=2855, 1025.8325pt x 148.555pt>
 File: figures/LG-09-result.png Graphic file (type png)
 <use figures/LG-09-result.png>
 Package pdftex.def Info: figures/LG-09-result.png  used on input line 3497.
 (pdftex.def)             Requested size: 159.3356pt x 23.07338pt.
-<figures/WS-10-code.png, id=2854, 1009.7725pt x 343.2825pt>
+<figures/WS-10-code.png, id=2856, 1009.7725pt x 343.2825pt>
 File: figures/WS-10-code.png Graphic file (type png)
 <use figures/WS-10-code.png>
 Package pdftex.def Info: figures/WS-10-code.png  used on input line 3504.
 (pdftex.def)             Requested size: 173.56198pt x 59.00153pt.
-<figures/WS-10-result.png, id=2855, 698.61pt x 88.33pt>
+<figures/WS-10-result.png, id=2857, 698.61pt x 88.33pt>
 File: figures/WS-10-result.png Graphic file (type png)
 <use figures/WS-10-result.png>
 Package pdftex.def Info: figures/WS-10-result.png  used on input line 3509.
 (pdftex.def)             Requested size: 159.3356pt x 20.14565pt.
-[298] [299 <./figures/LP-01-code.png> <./figures/LP-01-result.png> <./figures/L
+[300] [301 <./figures/LP-01-code.png> <./figures/LP-01-result.png> <./figures/L
 G-01-code.png> <./figures/LG-01-result.png> <./figures/LG-02-code.png> <./figur
 es/LG-02-result.png> <./figures/LG-03-code.png> <./figures/LG-03-result.png> <.
 /figures/LG-04-code.png> <./figures/LG-04-result.png> <./figures/PA-05-code.png
 > <./figures/PA-05-result.png> <./figures/LG-06-code.png> <./figures/LG-06-resu
 lt.png>]
-<figures/SU-01-code.png, id=2884, 786.94pt x 116.435pt>
+<figures/SU-01-code.png, id=2886, 786.94pt x 116.435pt>
 File: figures/SU-01-code.png Graphic file (type png)
 <use figures/SU-01-code.png>
 Package pdftex.def Info: figures/SU-01-code.png  used on input line 3522.
 (pdftex.def)             Requested size: 173.56198pt x 25.67973pt.
-<figures/SU-01-result.png, id=2885, 981.6675pt x 242.9075pt>
+<figures/SU-01-result.png, id=2887, 981.6675pt x 242.9075pt>
 File: figures/SU-01-result.png Graphic file (type png)
 <use figures/SU-01-result.png>
 Package pdftex.def Info: figures/SU-01-result.png  used on input line 3527.
 (pdftex.def)             Requested size: 159.3356pt x 39.42566pt.
-<figures/SU-02-code.png, id=2886, 576.1525pt x 186.6975pt>
+<figures/SU-02-code.png, id=2888, 576.1525pt x 186.6975pt>
 File: figures/SU-02-code.png Graphic file (type png)
 <use figures/SU-02-code.png>
 Package pdftex.def Info: figures/SU-02-code.png  used on input line 3534.
 (pdftex.def)             Requested size: 173.56198pt x 56.24042pt.
-<figures/SU-02-result.png, id=2887, 951.555pt x 56.21pt>
+<figures/SU-02-result.png, id=2889, 951.555pt x 56.21pt>
 File: figures/SU-02-result.png Graphic file (type png)
 <use figures/SU-02-result.png>
 Package pdftex.def Info: figures/SU-02-result.png  used on input line 3539.
 (pdftex.def)             Requested size: 159.3356pt x 9.41147pt.
-<figures/SU-03-code.png, id=2888, 766.865pt x 120.45pt>
+<figures/SU-03-code.png, id=2890, 766.865pt x 120.45pt>
 File: figures/SU-03-code.png Graphic file (type png)
 <use figures/SU-03-code.png>
 Package pdftex.def Info: figures/SU-03-code.png  used on input line 3546.
 (pdftex.def)             Requested size: 173.56198pt x 27.25996pt.
-<figures/SU-03-result.png, id=2889, 991.705pt x 242.9075pt>
+<figures/SU-03-result.png, id=2891, 991.705pt x 242.9075pt>
 File: figures/SU-03-result.png Graphic file (type png)
 <use figures/SU-03-result.png>
 Package pdftex.def Info: figures/SU-03-result.png  used on input line 3551.
 (pdftex.def)             Requested size: 159.3356pt x 39.02536pt.
-<figures/SU-04-code.png, id=2890, 1527.7075pt x 1485.55pt>
+<figures/SU-04-code.png, id=2892, 1527.7075pt x 1485.55pt>
 File: figures/SU-04-code.png Graphic file (type png)
 <use figures/SU-04-code.png>
 Package pdftex.def Info: figures/SU-04-code.png  used on input line 3558.
 (pdftex.def)             Requested size: 173.56198pt x 168.76056pt.
-<figures/SU-04-result.png, id=2891, 991.705pt x 88.33pt>
+<figures/SU-04-result.png, id=2893, 991.705pt x 88.33pt>
 File: figures/SU-04-result.png Graphic file (type png)
 <use figures/SU-04-result.png>
 Package pdftex.def Info: figures/SU-04-result.png  used on input line 3563.
 (pdftex.def)             Requested size: 159.3356pt x 14.19104pt.
-<figures/SU-05-code.png, id=2892, 1614.03pt x 473.77pt>
+<figures/SU-05-code.png, id=2894, 1614.03pt x 473.77pt>
 File: figures/SU-05-code.png Graphic file (type png)
 <use figures/SU-05-code.png>
 Package pdftex.def Info: figures/SU-05-code.png  used on input line 3570.
 (pdftex.def)             Requested size: 173.56198pt x 50.94374pt.
-<figures/SU-05-result.png, id=2893, 592.2125pt x 74.2775pt>
+<figures/SU-05-result.png, id=2895, 592.2125pt x 74.2775pt>
 File: figures/SU-05-result.png Graphic file (type png)
-<use figures/SU-05-result.png>
-Package pdftex.def Info: figures/SU-05-result.png  used on input line 3575.
-(pdftex.def)             Requested size: 159.3356pt x 19.98378pt.
-<figures/SU-06-code.png, id=2894, 1632.0975pt x 479.7925pt>
-File: figures/SU-06-code.png Graphic file (type png)
-<use figures/SU-06-code.png>
-Package pdftex.def Info: figures/SU-06-code.png  used on input line 3582.
-(pdftex.def)             Requested size: 173.56198pt x 51.02028pt.
-<figures/SU-06-result.png, id=2895, 628.3475pt x 104.39pt>
-File: figures/SU-06-result.png Graphic file (type png)
-<use figures/SU-06-result.png>
-Package pdftex.def Info: figures/SU-06-result.png  used on input line 3587.
-(pdftex.def)             Requested size: 159.3356pt x 26.47015pt.
-<figures/SU-07-code.png, id=2896, 2079.77pt x 411.5375pt>
-File: figures/SU-07-code.png Graphic file (type png)
-<use figures/SU-07-code.png>
-Package pdftex.def Info: figures/SU-07-code.png  used on input line 3594.
-(pdftex.def)             Requested size: 173.56198pt x 34.34285pt.
-<figures/SU-07-result.png, id=2897, 897.3525pt x 236.885pt>
-File: figures/SU-07-result.png Graphic file (type png)
-<use figures/SU-07-result.png>
-Package pdftex.def Info: figures/SU-07-result.png  used on input line 3599.
-(pdftex.def)             Requested size: 159.3356pt x 42.05913pt.
-<figures/SU-08-code.png, id=2898, 1393.205pt x 630.355pt>
-File: figures/SU-08-code.png Graphic file (type png)
-<use figures/SU-08-code.png>
-Package pdftex.def Info: figures/SU-08-code.png  used on input line 3606.
-(pdftex.def)             Requested size: 173.56198pt x 78.52486pt.
-<figures/SU-08-result.png, id=2899, 1931.215pt x 903.375pt>
-File: figures/SU-08-result.png Graphic file (type png)
-<use figures/SU-08-result.png>
-Package pdftex.def Info: figures/SU-08-result.png  used on input line 3611.
-(pdftex.def)             Requested size: 159.3356pt x 74.5321pt.
-<figures/SU-09-code.png, id=2900, 2137.9875pt x 1465.475pt>
-File: figures/SU-09-code.png Graphic file (type png)
-<use figures/SU-09-code.png>
-Package pdftex.def Info: figures/SU-09-code.png  used on input line 3618.
-(pdftex.def)             Requested size: 173.56198pt x 118.96222pt.
-<figures/SU-09-result.png, id=2901, 863.225pt x 210.7875pt>
-File: figures/SU-09-result.png Graphic file (type png)
-<use figures/SU-09-result.png>
-Package pdftex.def Info: figures/SU-09-result.png  used on input line 3623.
-(pdftex.def)             Requested size: 159.3356pt x 38.90501pt.
- [300 <./figures/LG-07-code.png> <./figures/LG-07-result.png> <./figures/WS-08-
-code.png> <./figures/WS-08-result.png> <./figures/LG-09-code.png> <./figures/LG
--09-result.png> <./figures/WS-10-code.png> <./figures/WS-10-result.png> <./figu
-res/SU-01-code.png> <./figures/SU-01-result.png>] [301 <./figures/SU-02-code.pn
-g> <./figures/SU-02-result.png> <./figures/SU-03-code.png> <./figures/SU-03-res
-ult.png> <./figures/SU-04-code.png> <./figures/SU-04-result.png> <./figures/SU-
-05-code.png> <./figures/SU-05-result.png> <./figures/SU-06-code.png> <./figures
-/SU-06-result.png>]
-<figures/ST-01-code.png, id=2931, 1324.95pt x 371.3875pt>
-File: figures/ST-01-code.png Graphic file (type png)
-<use figures/ST-01-code.png>
-Package pdftex.def Info: figures/ST-01-code.png  used on input line 3636.
-(pdftex.def)             Requested size: 173.56198pt x 48.64474pt.
-<figures/ST-01-result.png, id=2932, 1045.9075pt x 152.57pt>
-File: figures/ST-01-result.png Graphic file (type png)
-<use figures/ST-01-result.png>
-Package pdftex.def Info: figures/ST-01-result.png  used on input line 3641.
-(pdftex.def)             Requested size: 159.3356pt x 23.24303pt.
-<figures/ST-02-code.png, id=2933, 1401.235pt x 200.75pt>
-File: figures/ST-02-code.png Graphic file (type png)
-<use figures/ST-02-code.png>
-Package pdftex.def Info: figures/ST-02-code.png  used on input line 3648.
-(pdftex.def)             Requested size: 173.56198pt x 24.86394pt.
-<figures/ST-02-result.png, id=2934, 967.615pt x 76.285pt>
-File: figures/ST-02-result.png Graphic file (type png)
-<use figures/ST-02-result.png>
-Package pdftex.def Info: figures/ST-02-result.png  used on input line 3653.
-(pdftex.def)             Requested size: 159.3356pt x 12.56087pt.
-<figures/ST-03-code.png, id=2935, 1417.295pt x 162.6075pt>
-File: figures/ST-03-code.png Graphic file (type png)
-<use figures/ST-03-code.png>
-Package pdftex.def Info: figures/ST-03-code.png  used on input line 3660.
-(pdftex.def)             Requested size: 173.56198pt x 19.91151pt.
-<figures/ST-03-result.png, id=2936, 1045.9075pt x 124.465pt>
-File: figures/ST-03-result.png Graphic file (type png)
-<use figures/ST-03-result.png>
-Package pdftex.def Info: figures/ST-03-result.png  used on input line 3665.
-(pdftex.def)             Requested size: 159.3356pt x 18.96141pt.
- [302 <./figures/SU-07-code.png> <./figures/SU-07-result.png> <./figures/SU-08-
-code.png> <./figures/SU-08-result.png> <./figures/SU-09-code.png> <./figures/SU
--09-result.png> <./figures/ST-01-code.png> <./figures/ST-01-result.png> <./figu
-res/ST-02-code.png> <./figures/ST-02-result.png>]
-<figures/SS-01-code.png, id=2952, 1069.9975pt x 228.855pt>
-File: figures/SS-01-code.png Graphic file (type png)
-<use figures/SS-01-code.png>
-Package pdftex.def Info: figures/SS-01-code.png  used on input line 3678.
-(pdftex.def)             Requested size: 173.56198pt x 37.12039pt.
-<figures/SS-01-result.png, id=2953, 945.5325pt x 150.5625pt>
-File: figures/SS-01-result.png Graphic file (type png)
-<use figures/SS-01-result.png>
-Package pdftex.def Info: figures/SS-01-result.png  used on input line 3683.
-(pdftex.def)             Requested size: 159.3356pt x 25.37013pt.
-<figures/PAY-01-code.png, id=2954, 1084.05pt x 234.8775pt>
-File: figures/PAY-01-code.png Graphic file (type png)
-<use figures/PAY-01-code.png>
-Package pdftex.def Info: figures/PAY-01-code.png  used on input line 3690.
-(pdftex.def)             Requested size: 173.56198pt x 37.60266pt.
-<figures/PAY-01-result.png, id=2955, 963.6pt x 148.555pt>
-File: figures/PAY-01-result.png Graphic file (type png)
-<use figures/PAY-01-result.png>
-Package pdftex.def Info: figures/PAY-01-result.png  used on input line 3695.
-(pdftex.def)             Requested size: 159.3356pt x 24.56264pt.
-<figures/PAY-02-code.png, id=2956, 778.91pt x 333.245pt>
-File: figures/PAY-02-code.png Graphic file (type png)
-<use figures/PAY-02-code.png>
-Package pdftex.def Info: figures/PAY-02-code.png  used on input line 3702.
-(pdftex.def)             Requested size: 173.56198pt x 74.25482pt.
-<figures/PAY-02-result.png, id=2957, 682.55pt x 176.66pt>
-File: figures/PAY-02-result.png Graphic file (type png)
-<use figures/PAY-02-result.png>
-Package pdftex.def Info: figures/PAY-02-result.png  used on input line 3707.
-(pdftex.def)             Requested size: 159.3356pt x 41.23744pt.
-<figures/PAY-04-code.png, id=2958, 803.0pt x 192.72pt>
-File: figures/PAY-04-code.png Graphic file (type png)
-<use figures/PAY-04-code.png>
-Package pdftex.def Info: figures/PAY-04-code.png  used on input line 3714.
-(pdftex.def)             Requested size: 173.56198pt x 41.65453pt.
-<figures/PAY-04-result.png, id=2959, 977.6525pt x 837.1275pt>
-File: figures/PAY-04-result.png Graphic file (type png)
-<use figures/PAY-04-result.png>
-Package pdftex.def Info: figures/PAY-04-result.png  used on input line 3719.
-(pdftex.def)             Requested size: 159.3356pt x 136.43398pt.
-<figures/PAY-05-code.png, id=2960, 626.34pt x 497.86pt>
-File: figures/PAY-05-code.png Graphic file (type png)
-<use figures/PAY-05-code.png>
-Package pdftex.def Info: figures/PAY-05-code.png  used on input line 3726.
-(pdftex.def)             Requested size: 173.56198pt x 137.95647pt.
-<figures/PAY-05-result.png, id=2961, 1262.7175pt x 166.6225pt>
-File: figures/PAY-05-result.png Graphic file (type png)
-<use figures/PAY-05-result.png>
-Package pdftex.def Info: figures/PAY-05-result.png  used on input line 3731.
-(pdftex.def)             Requested size: 159.3356pt x 21.02353pt.
-<figures/NAV-01-code.png, id=2962, 768.8725pt x 166.6225pt>
-File: figures/NAV-01-code.png Graphic file (type png)
-<use figures/NAV-01-code.png>
-Package pdftex.def Info: figures/NAV-01-code.png  used on input line 3738.
-(pdftex.def)             Requested size: 173.56198pt x 37.61302pt.
-<figures/NAV-01-result.png, id=2963, 1262.7175pt x 72.27pt>
-File: figures/NAV-01-result.png Graphic file (type png)
-<use figures/NAV-01-result.png>
-Package pdftex.def Info: figures/NAV-01-result.png  used on input line 3743.
-(pdftex.def)             Requested size: 159.3356pt x 9.11864pt.
-
-[303 <./figures/ST-03-code.png> <./figures/ST-03-result.png> <./figures/SS-01-c
-ode.png> <./figures/SS-01-result.png> <./figures/PAY-01-code.png> <./figures/PA
-Y-01-result.png> <./figures/PAY-02-code.png> <./figures/PAY-02-result.png> <./f
-igures/PAY-04-code.png> <./figures/PAY-04-result.png>]
-<figures/NO-01-code.png, id=2979, 794.97pt x 347.2975pt>
-File: figures/NO-01-code.png Graphic file (type png)
-<use figures/NO-01-code.png>
-Package pdftex.def Info: figures/NO-01-code.png  used on input line 3756.
-(pdftex.def)             Requested size: 173.56198pt x 75.82275pt.
-<figures/NO-01-result.png, id=2980, 1262.7175pt x 110.4125pt>
-File: figures/NO-01-result.png Graphic file (type png)
-<use figures/NO-01-result.png>
-Package pdftex.def Info: figures/NO-01-result.png  used on input line 3761.
-(pdftex.def)             Requested size: 159.3356pt x 13.93124pt.
-<figures/NO-02-code.png, id=2981, 973.6375pt x 329.23pt>
-File: figures/NO-02-code.png Graphic file (type png)
-<use figures/NO-02-code.png>
-Package pdftex.def Info: figures/NO-02-code.png  used on input line 3768.
-(pdftex.def)             Requested size: 173.56198pt x 58.68614pt.
-<figures/NO-02-result.png, id=2982, 1278.7775pt x 52.195pt>
-File: figures/NO-02-result.png Graphic file (type png)
-<use figures/NO-02-result.png>
-Package pdftex.def Info: figures/NO-02-result.png  used on input line 3773.
-(pdftex.def)             Requested size: 159.3356pt x 6.50285pt.
-<figures/NO-03-code.png, id=2983, 1009.7725pt x 417.56pt>
-File: figures/NO-03-code.png Graphic file (type png)
-<use figures/NO-03-code.png>
-Package pdftex.def Info: figures/NO-03-code.png  used on input line 3780.
-(pdftex.def)             Requested size: 173.56198pt x 71.76794pt.
-<figures/NO-03-result.png, id=2984, 1278.7775pt x 78.2925pt>
-File: figures/NO-03-result.png Graphic file (type png)
-<use figures/NO-03-result.png>
-Package pdftex.def Info: figures/NO-03-result.png  used on input line 3785.
-(pdftex.def)             Requested size: 159.3356pt x 9.75427pt.
-<figures/NO-04-code.png, id=2985, 813.0375pt x 401.5pt>
-File: figures/NO-04-code.png Graphic file (type png)
-<use figures/NO-04-code.png>
-Package pdftex.def Info: figures/NO-04-code.png  used on input line 3792.
-(pdftex.def)             Requested size: 173.56198pt x 85.70818pt.
-<figures/NO-04-result.png, id=2986, 1278.7775pt x 271.0125pt>
-File: figures/NO-04-result.png Graphic file (type png)
-<use figures/NO-04-result.png>
-Package pdftex.def Info: figures/NO-04-result.png  used on input line 3797.
-(pdftex.def)             Requested size: 159.3356pt x 33.76482pt.
-<figures/NO-05-code.png, id=2987, 899.36pt x 198.7425pt>
-File: figures/NO-05-code.png Graphic file (type png)
-<use figures/NO-05-code.png>
-Package pdftex.def Info: figures/NO-05-code.png  used on input line 3804.
-(pdftex.def)             Requested size: 173.56198pt x 38.35281pt.
-<figures/NO-05-result.png, id=2988, 1278.7775pt x 52.195pt>
-File: figures/NO-05-result.png Graphic file (type png)
-<use figures/NO-05-result.png>
-Package pdftex.def Info: figures/NO-05-result.png  used on input line 3809.
-(pdftex.def)             Requested size: 159.3356pt x 6.50285pt.
-<figures/NO-06-code.png, id=2989, 913.4125pt x 989.6975pt>
-File: figures/NO-06-code.png Graphic file (type png)
-<use figures/NO-06-code.png>
-Package pdftex.def Info: figures/NO-06-code.png  used on input line 3816.
-(pdftex.def)             Requested size: 173.56198pt x 188.04448pt.
-<figures/NO-06-result.png, id=2990, 1232.605pt x 297.11pt>
-File: figures/NO-06-result.png Graphic file (type png)
-<use figures/NO-06-result.png>
-Package pdftex.def Info: figures/NO-06-result.png  used on input line 3821.
-(pdftex.def)             Requested size: 159.3356pt x 38.4035pt.
- [304 <./figures/PAY-05-code.png> <./figures/PAY-05-result.png> <./figures/NAV-
-01-code.png> <./figures/NAV-01-result.png> <./figures/NO-01-code.png> <./figure
-s/NO-01-result.png> <./figures/NO-02-code.png> <./figures/NO-02-result.png>]
-<figures/PR-01-code.png, id=3004, 1477.52pt x 630.355pt>
-File: figures/PR-01-code.png Graphic file (type png)
-<use figures/PR-01-code.png>
-Package pdftex.def Info: figures/PR-01-code.png  used on input line 3834.
-(pdftex.def)             Requested size: 173.56198pt x 74.04266pt.
-<figures/PR-01-result.png, id=3005, 897.3525pt x 212.795pt>
-File: figures/PR-01-result.png Graphic file (type png)
-<use figures/PR-01-result.png>
-Package pdftex.def Info: figures/PR-01-result.png  used on input line 3839.
-(pdftex.def)             Requested size: 159.3356pt x 37.78192pt.
-<figures/PR-02-code.png, id=3006, 1407.2575pt x 154.5775pt>
-File: figures/PR-02-code.png Graphic file (type png)
-<use figures/PR-02-code.png>
-Package pdftex.def Info: figures/PR-02-code.png  used on input line 3846.
-(pdftex.def)             Requested size: 173.56198pt x 19.06268pt.
-<figures/PR-02-result.png, id=3007, 897.3525pt x 76.285pt>
-File: figures/PR-02-result.png Graphic file (type png)
-<use figures/PR-02-result.png>
-Package pdftex.def Info: figures/PR-02-result.png  used on input line 3851.
-(pdftex.def)             Requested size: 159.3356pt x 13.54445pt.
-<figures/PR-03-code.png, id=3008, 1475.5125pt x 768.8725pt>
-File: figures/PR-03-code.png Graphic file (type png)
-<use figures/PR-03-code.png>
-Package pdftex.def Info: figures/PR-03-code.png  used on input line 3858.
-(pdftex.def)             Requested size: 173.56198pt x 90.43051pt.
-<figures/PR-03-result.png, id=3009, 1200.485pt x 174.6525pt>
-File: figures/PR-03-result.png Graphic file (type png)
-<use figures/PR-03-result.png>
-Package pdftex.def Info: figures/PR-03-result.png  used on input line 3863.
-(pdftex.def)             Requested size: 159.3356pt x 23.17998pt.
- [305 <./figures/NO-03-code.png> <./figures/NO-03-result.png> <./figures/NO-04-
-code.png> <./figures/NO-04-result.png> <./figures/NO-05-code.png> <./figures/NO
--05-result.png> <./figures/NO-06-code.png> <./figures/NO-06-result.png>]
-
-[306 <./figures/PR-01-code.png> <./figures/PR-01-result.png> <./figures/PR-02-c
-ode.png> <./figures/PR-02-result.png> <./figures/PR-03-code.png> <./figures/PR-
-03-result.png>]
-Overfull \hbox (7.05699pt too wide) in paragraph at lines 3882--3882
- []|\OT1/cmr/bx/n/12 Scenario| 
- []
-
-
-Overfull \hbox (15.33023pt too wide) in paragraph at lines 3882--3882
- []|\OT1/cmr/bx/n/12 Response 
- []
-
-
-Overfull \hbox (17.86237pt too wide) in paragraph at lines 3882--3882
- []|\OT1/cmr/bx/n/12 Remarks| 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3879--3883
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (7.05699pt too wide) in paragraph at lines 3886--3886
- []|\OT1/cmr/bx/n/12 Scenario| 
- []
-
-
-Overfull \hbox (15.33023pt too wide) in paragraph at lines 3886--3886
- []|\OT1/cmr/bx/n/12 Response 
- []
-
-
-Overfull \hbox (17.86237pt too wide) in paragraph at lines 3886--3886
- []|\OT1/cmr/bx/n/12 Remarks| 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3883--3887
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3887--3891
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3891--3894
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.3327pt too wide) in paragraph at lines 3898--3898
- []|\OT1/cmr/m/n/12 Unregistered 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3894--3901
- [] [] [] [] [] [] [] 
- []
-
-<figures/system1.png, id=3034, 1222.5675pt x 516.42938pt>
-File: figures/system1.png Graphic file (type png)
-<use figures/system1.png>
-Package pdftex.def Info: figures/system1.png  used on input line 3909.
-(pdftex.def)             Requested size: 278.2383pt x 117.5312pt.
-<figures/system2.png, id=3035, 1218.05063pt x 506.6428pt>
-File: figures/system2.png Graphic file (type png)
-<use figures/system2.png>
-Package pdftex.def Info: figures/system2.png  used on input line 3916.
-(pdftex.def)             Requested size: 278.2383pt x 115.72913pt.
-
-
-[307 <./figures/system1.png>]
-
-Package array Warning: Column P is already defined on input line 3921.
-
-
-Overfull \hbox (1.6332pt too wide) in paragraph at lines 3926--3926
- \OT1/cmr/bx/n/12 marks| 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3923--3927
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (1.6332pt too wide) in paragraph at lines 3930--3930
- \OT1/cmr/bx/n/12 marks| 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3927--3931
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3931--3935
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3935--3938
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (13.23985pt too wide) in paragraph at lines 3947--3947
- \OT1/cmr/m/n/12 Fake/Invalid 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3938--3951
- [] [] [] [] [] [] [] 
- []
-
-[308 <./figures/system2.png>]
-
-Package array Warning: Column P is already defined on input line 3956.
-
-
-Overfull \hbox (1.6332pt too wide) in paragraph at lines 3961--3961
- \OT1/cmr/bx/n/12 marks| 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3958--3962
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (1.6332pt too wide) in paragraph at lines 3965--3965
- \OT1/cmr/bx/n/12 marks| 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3962--3966
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3966--3970
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3970--3973
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3973--3986
- [] [] [] [] [] [] [] 
- []
-
-[309]
-
-Package array Warning: Column P is already defined on input line 3991.
-
-
-Overfull \hbox (1.6332pt too wide) in paragraph at lines 3996--3996
- \OT1/cmr/bx/n/12 marks| 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3993--3997
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (1.6332pt too wide) in paragraph at lines 4000--4000
- \OT1/cmr/bx/n/12 marks| 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 3997--4001
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 4001--4005
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 4005--4008
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (12.62866pt too wide) in paragraph at lines 4011--4011
- \OT1/cmr/m/n/12 RETURN- 
- []
-
-
-Overfull \hbox (12.62866pt too wide) in paragraph at lines 4012--4012
- \OT1/cmr/m/n/12 RETURN- 
- []
-
-
-Overfull \hbox (12.62866pt too wide) in paragraph at lines 4013--4013
- \OT1/cmr/m/n/12 RETURN- 
- []
-
-
-Overfull \hbox (12.62866pt too wide) in paragraph at lines 4014--4014
- \OT1/cmr/m/n/12 RETURN- 
- []
-
-
-Overfull \hbox (12.62866pt too wide) in paragraph at lines 4015--4015
- \OT1/cmr/m/n/12 RETURN- 
- []
-
-
-Overfull \hbox (12.62866pt too wide) in paragraph at lines 4016--4016
- \OT1/cmr/m/n/12 RETURN- 
- []
-
-
-Overfull \hbox (12.62866pt too wide) in paragraph at lines 4017--4017
- \OT1/cmr/m/n/12 RETURN- 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 4008--4021
- [] [] [] [] [] [] [] 
- []
-
-[310]
-
-Package array Warning: Column P is already defined on input line 4026.
-
-
-Overfull \hbox (1.6332pt too wide) in paragraph at lines 4031--4031
- \OT1/cmr/bx/n/12 marks| 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 4028--4032
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (1.6332pt too wide) in paragraph at lines 4035--4035
- \OT1/cmr/bx/n/12 marks| 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 4032--4036
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 4036--4040
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 4040--4043
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (1.53572pt too wide) in paragraph at lines 4046--4046
- \OT1/cmr/m/n/12 ALERT- 
- []
-
-
-Overfull \hbox (1.53572pt too wide) in paragraph at lines 4047--4047
- \OT1/cmr/m/n/12 ALERT- 
- []
-
-
-Overfull \hbox (1.53572pt too wide) in paragraph at lines 4048--4048
- \OT1/cmr/m/n/12 ALERT- 
- []
-
-
-Overfull \hbox (1.53572pt too wide) in paragraph at lines 4049--4049
- \OT1/cmr/m/n/12 ALERT- 
- []
-
-
-Overfull \hbox (1.53572pt too wide) in paragraph at lines 4050--4050
- \OT1/cmr/m/n/12 ALERT- 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 4043--4052
- [] [] [] [] [] [] [] 
- []
-
-
-Package array Warning: Column P is already defined on input line 4056.
-
-
-Overfull \hbox (1.6332pt too wide) in paragraph at lines 4061--4061
- \OT1/cmr/bx/n/12 marks| 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 4058--4062
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (1.6332pt too wide) in paragraph at lines 4065--4065
- \OT1/cmr/bx/n/12 marks| 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 4062--4066
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 4066--4070
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 4070--4073
- [] [] [] [] [] [] [] 
- []
-
-
-! LaTeX Error: Unicode character ≥ (U+2265)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4080 TC-CS-05 & Use credit & ≥
-                                  40 & Allowed & Rent success & 1.6s & Pass ...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Overfull \hbox (22.61205pt too wide) in alignment at lines 4073--4085
- [] [] [] [] [] [] [] 
- []
-
-
-
-[311]
-
-Package array Warning: Column P is already defined on input line 4089.
-
-
-Package array Warning: Column P is already defined on input line 4117.
-
-
-Overfull \hbox (2.83292pt too wide) in paragraph at lines 4137--4137
- \OT1/cmr/m/n/12 ADMIN- 
- []
-
-
-Overfull \hbox (2.83292pt too wide) in paragraph at lines 4138--4138
- \OT1/cmr/m/n/12 ADMIN- 
- []
-
-
-Overfull \hbox (2.83292pt too wide) in paragraph at lines 4139--4139
- \OT1/cmr/m/n/12 ADMIN- 
- []
-
-
-Overfull \hbox (2.83292pt too wide) in paragraph at lines 4140--4140
- \OT1/cmr/m/n/12 ADMIN- 
- []
-
-
-
-[312]
-
-Package array Warning: Column P is already defined on input line 4147.
-
-
-Package array Warning: Column P is already defined on input line 4176.
-
-
-
-[313]
-
-Package array Warning: Column P is already defined on input line 4206.
-
-
-Overfull \hbox (4.72084pt too wide) in paragraph at lines 4216--4216
- \OT1/cmr/bx/n/12 Temp 
- []
-
-
-Overfull \hbox (0.74272pt too wide) in paragraph at lines 4216--4216
- \OT1/cmr/bx/n/12 Charg- 
- []
-
-
-Overfull \hbox (36.09073pt too wide) in alignment at lines 4213--4217
- [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (4.72084pt too wide) in paragraph at lines 4220--4220
- \OT1/cmr/bx/n/12 Temp 
- []
-
-
-Overfull \hbox (0.74272pt too wide) in paragraph at lines 4220--4220
- \OT1/cmr/bx/n/12 Charg- 
- []
-
-
-Overfull \hbox (36.09073pt too wide) in alignment at lines 4217--4221
- [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (36.09073pt too wide) in alignment at lines 4221--4225
- [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (36.09073pt too wide) in alignment at lines 4225--4228
- [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (36.09073pt too wide) in alignment at lines 4228--4236
- [] [] [] [] [] [] [] [] [] 
- []
-
-
-
-[314]
-! Too many }'s.
-l.4302 }
-        
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-Overfull \hbox (340.33519pt too wide) in paragraph at lines 4311--4321
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)
-
-[315]
-
-[316]
-\openout2 = `bibliography.aux'.
-
- (./bibliography.tex)
-\openout2 = `cv.aux'.
-
- (./cv.tex
-<figures/esbiii.jpg, id=3080, 738.76pt x 534.99875pt>
-File: figures/esbiii.jpg Graphic file (type jpg)
-<use figures/esbiii.jpg>
-Package pdftex.def Info: figures/esbiii.jpg  used on input line 28.
-(pdftex.def)             Requested size: 144.5367pt x 144.54138pt.
-
-Overfull \hbox (32.08998pt too wide) in paragraph at lines 28--29
- []
- []
-
-
-
-[317
-
-
-
-
-
-
- <./figures/esbiii.jpg>]
-File: figures/esbiii.jpg Graphic file (type jpg)
-<use figures/esbiii.jpg>
-Package pdftex.def Info: figures/esbiii.jpg  used on input line 93.
-(pdftex.def)             Requested size: 144.5367pt x 144.54138pt.
-
-Overfull \hbox (32.08998pt too wide) in paragraph at lines 93--94
- []
- []
-
-
-
-[318]
-File: figures/esbiii.jpg Graphic file (type jpg)
-<use figures/esbiii.jpg>
-Package pdftex.def Info: figures/esbiii.jpg  used on input line 158.
-(pdftex.def)             Requested size: 144.5367pt x 144.54138pt.
-
-Overfull \hbox (32.08998pt too wide) in paragraph at lines 158--159
- []
- []
-
-
-
-[319]
-File: figures/esbiii.jpg Graphic file (type jpg)
-<use figures/esbiii.jpg>
-Package pdftex.def Info: figures/esbiii.jpg  used on input line 224.
-(pdftex.def)             Requested size: 144.5367pt x 144.54138pt.
-
-Overfull \hbox (32.08998pt too wide) in paragraph at lines 224--225
- []
- []
-
-
-
-[320]
-File: figures/esbiii.jpg Graphic file (type jpg)
-<use figures/esbiii.jpg>
-Package pdftex.def Info: figures/esbiii.jpg  used on input line 292.
-(pdftex.def)             Requested size: 144.5367pt x 144.54138pt.
-
-Overfull \hbox (32.08998pt too wide) in paragraph at lines 292--293
- []
- []
-
-)
-
-[321]
-\openout2 = `caa.aux'.
-
- (./caa.tex
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \begin{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-
-[322
-
-
-
-] (./thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
-(./chapter4.aux) (./chapter5.aux) (./appendix.aux) (./bibliography.aux)
-(./cv.aux) (./caa.aux))
- ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2020/03/25>
- ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 3BDD211589B72901C99A2CB1D0F1DFA8;33060
-(rerunfilecheck)             After:  6F2B57132B048F918AC2806B93E8F567;33060.
- ) )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 8 (\begingroup)
-### bottom level
-(\end occurred when \iftrue on line 89 was incomplete)
-(\end occurred when \ifx on line 89 was incomplete)
-(\end occurred when \ifnum on line 89 was incomplete) 
-Here is how much of TeX's memory you used:
- 20505 strings out of 473190
- 346724 string characters out of 5715801
- 813300 words of memory out of 5000000
- 42498 multiletter control sequences out of 15000+600000
- 572174 words of font info for 91 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 80i,20n,82p,2506b,1189s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{table.4.22} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.Alph0.120} has been referenced but does not e
-xist, replaced by a fixed one
-
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><
-/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
-exlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
-ive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texliv
-e/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
-/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/
-2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texl
-ive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texliv
-e/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (342 pages, 54974492 bytes).
-PDF statistics:
- 3366 PDF objects out of 3580 (max. 8388607)
- 2678 compressed objects within 27 object streams
- 825 named destinations out of 1000 (max. 500000)
- 1988 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+<u
